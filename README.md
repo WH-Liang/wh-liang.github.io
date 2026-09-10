@@ -68,6 +68,6 @@ npm run build    # 构建到 dist/
 
 ## 关于 DBLP 反爬
 
-DBLP 自 2024 年起对自动化访问启用了反爬挑战，脚本会检测拦截并自动降级为 **arXiv 分类订阅**（cs.CV / cs.LG / cs.AI），论文库仍能覆盖绝大多数顶会论文（以预印本形式）。若你希望获得精确的「CVPR 2024 正式论文」列表，可：
-- 申请免费的 [Semantic Scholar API Key](https://www.semanticscholar.org/product/api)，我可以帮你加上该数据源；
+DBLP 自 2024 年起对自动化访问启用了反爬挑战，脚本会检测拦截并自动降级为 **arXiv 分类订阅**（cs.CV / cs.LG / cs.AI），论文库仍能覆盖绝大多数顶会论文（以预印本形式）。若希望获得精确的「CVPR 2024 正式论文」列表，可：
+- 申请免费的 [Semantic Scholar API Key](https://www.semanticscholar.org/product/api)；
 - 或接受当前 arXiv 分类订阅方案。
