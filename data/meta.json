@@ -1,0 +1,52 @@
+{
+ "last_updated": "2026-09-10 20:42:55",
+ "dblp_blocked": true,
+ "counts": {
+  "total_papers": 641,
+  "publications": 0,
+  "journals": 440,
+  "conferences": 0,
+  "preprints": 201,
+  "total_citations": 152
+ },
+ "venues": {
+  "arXiv": 201,
+  "ISPRS JPRS": 40,
+  "GISci. Remote Sens.": 40,
+  "RSE": 40,
+  "Pattern Recogn.": 40,
+  "JAG": 40,
+  "IJCV": 40,
+  "TOG": 40,
+  "TPAMI": 40,
+  "TGRS": 40,
+  "GRSL": 40,
+  "TIP": 40
+ },
+ "years": {
+  "2026": 641
+ },
+ "profile": {
+  "name_zh": "梁文贺",
+  "name_en": "Lucas Liang",
+  "title_zh": "研究生",
+  "affiliation_zh": "国防科技大学",
+  "affiliation_en": "National University of Defense Technology",
+  "email": "liangwenhegfkd@nudt.edu.cn",
+  "email_alt": "13938362905@163.com",
+  "orcid": "0009-0005-1823-3560",
+  "google_scholar": "",
+  "github": "https://github.com/WH-Liang",
+  "avatar": "",
+  "bio_zh": "国防科技大学研究生，主要研究方向为遥感图像处理与计算机视觉，关注深度学习与多模态学习在遥感智能解译中的应用。",
+  "bio_en": "Graduate student at National University of Defense Technology, working on remote sensing image processing and computer vision, with a focus on deep learning and multimodal learning for intelligent remote sensing interpretation.",
+  "research_interests": [
+   "遥感图像处理",
+   "计算机视觉",
+   "深度学习",
+   "多模态学习"
+  ],
+  "site_title": "梁文贺 · 个人科研主页",
+  "site_subtitle": "遥感 · 计算机视觉 · 深度学习"
+ }
+}

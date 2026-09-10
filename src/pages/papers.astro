@@ -1,0 +1,134 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import meta from '../../data/meta.json';
+const counts = (meta as any).counts || {};
+---
+
+<BaseLayout title="论文库" description="遥感与计算机顶刊顶会论文自动整理">
+  <section class="page-head">
+    <div class="container">
+      <span class="kicker">Paper Library</span>
+      <h1>论文库</h1>
+      <p class="lede">自动抓取遥感与计算机领域顶刊、顶会及 arXiv 预印本，每日更新。当前收录 <strong>{counts.total_papers}</strong> 篇。</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="filterbar">
+      <input type="search" id="q" placeholder="搜索标题 / 作者 / 摘要…" autocomplete="off" />
+      <select id="type">
+        <option value="all">全部类型</option>
+        <option value="journal">期刊</option>
+        <option value="conference">会议</option>
+        <option value="preprint">预印本</option>
+      </select>
+      <select id="venue"><option value="all">全部来源</option></select>
+      <select id="year"><option value="all">全部年份</option></select>
+      <select id="topic"><option value="all">全部主题</option></select>
+    </div>
+    <p class="result-count" id="result-count"></p>
+    <div class="paper-list" id="paper-list"></div>
+  </div>
+
+  <script>
+    const BASE = import.meta.env.BASE_URL;
+    let PAPERS = [];
+    const state = { q: '', type: 'all', venue: 'all', year: 'all', topic: 'all' };
+    const listEl = document.getElementById('paper-list');
+    const countEl = document.getElementById('result-count');
+
+    const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+    function bibtex(p) {
+      const authors = (p.authors || []).join(' and ') || 'Unknown';
+      const y = p.year || 'n.d.';
+      const first = p.authors?.[0] || 'author';
+      const key = (first.split(/[\s,]+/).filter(Boolean).pop() || 'author') + y;
+      const type = p.venue_type === 'conference' ? 'inproceedings' : p.venue_type === 'preprint' ? 'misc' : 'article';
+      const lines = [`@${type}{${key},`, `  title = {${p.title || ''}},`, `  author = {${authors}},`, `  year = {${y}},`];
+      if (p.venue) lines.push(`  ${p.venue_type === 'conference' ? 'booktitle' : 'journal'} = {${p.venue}},`);
+      if (p.doi) lines.push(`  doi = {${p.doi}},`);
+      if (p.arxiv_id) lines.push(`  eprint = {${p.arxiv_id}},`);
+      lines.push('}');
+      return lines.join('\n');
+    }
+    const typeLabel = (v) => ({ journal: '期刊', conference: '会议', preprint: '预印本' }[v] || '');
+    const typeClass = (v) => (v === 'conference' ? 'conference' : v === 'preprint' ? 'preprint' : 'journal');
+
+    function cardHTML(p) {
+      const link = p.url || (p.doi ? `https://doi.org/${p.doi}` : null);
+      const abstract = p.abstract || '';
+      const longAbs = abstract.length > 160;
+      const meta = [`<span class="badge badge-${typeClass(p.venue_type)}">${esc(p.venue_short || p.venue)}</span>`];
+      if (p.year) meta.push(`<span class="meta">${esc(p.year)}</span>`);
+      if (typeLabel(p.venue_type)) meta.push(`<span class="meta">${esc(typeLabel(p.venue_type))}</span>`);
+      if (p.citation_count) meta.push(`<span class="meta">被引 ${esc(p.citation_count)}</span>`);
+      const topics = (p.topics || []).map((t) => `<span class="topic">${esc(t)}</span>`).join('');
+      const actions = [];
+      if (link) actions.push(`<a class="btn-link" href="${esc(link)}" target="_blank" rel="noopener">详情</a>`);
+      if (p.pdf) actions.push(`<a class="btn-link" href="${esc(p.pdf)}" target="_blank" rel="noopener">PDF</a>`);
+      if (p.doi) actions.push(`<a class="btn-link" href="https://doi.org/${esc(p.doi)}" target="_blank" rel="noopener">DOI</a>`);
+      actions.push(`<button type="button" class="btn-link" data-bibtex="${esc(JSON.stringify(bibtex(p)))}">BibTeX</button>`);
+
+      return `
+        <article class="paper">
+          <h3 class="paper-title">${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(p.title)}</a>` : `<span>${esc(p.title)}</span>`}${p.is_own ? ' <span class="badge badge-own" style="margin-left:8px">本人</span>' : ''}</h3>
+          ${p.authors && p.authors.length ? `<p class="paper-authors">${esc(p.authors.join(', '))}</p>` : ''}
+          <div class="paper-meta">${meta.join('')}</div>
+          ${abstract ? `<p class="paper-abstract">${esc(abstract)}</p>` : ''}
+          ${longAbs ? `<button type="button" class="btn-link" data-toggle-abstract>展开摘要 ▾</button>` : ''}
+          ${topics ? `<div class="paper-topics">${topics}</div>` : ''}
+          <div class="paper-actions">${actions.join('')}</div>
+        </article>`;
+    }
+
+    function applyFilters() {
+      const q = state.q.trim().toLowerCase();
+      const list = PAPERS.filter((p) => {
+        if (state.type !== 'all' && p.venue_type !== state.type) return false;
+        if (state.venue !== 'all' && (p.venue_short || p.venue) !== state.venue) return false;
+        if (state.year !== 'all' && String(p.year) !== state.year) return false;
+        if (state.topic !== 'all' && !(p.topics || []).includes(state.topic)) return false;
+        if (q) {
+          const hay = `${p.title || ''} ${(p.authors || []).join(' ')} ${p.abstract || ''}`.toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        return true;
+      });
+      countEl.textContent = `共 ${list.length} 篇论文`;
+      listEl.innerHTML = list.length ? list.map(cardHTML).join('') : '<p class="empty">没有匹配的论文</p>';
+    }
+
+    function fill(sel, items, allLabel) {
+      sel.innerHTML = `<option value="all">${allLabel}</option>` + items.map((v) => `<option value="${esc(v)}">${esc(v)}</option>`).join('');
+    }
+
+    function buildOptions() {
+      const venues = [...new Set(PAPERS.map((p) => p.venue_short || p.venue).filter(Boolean))].sort();
+      const years = [...new Set(PAPERS.map((p) => p.year).filter(Boolean))].sort((a, b) => b - a).map(String);
+      const topics = [...new Set(PAPERS.flatMap((p) => p.topics || []))].sort();
+      fill(document.getElementById('venue'), venues, '全部来源');
+      fill(document.getElementById('year'), years, '全部年份');
+      fill(document.getElementById('topic'), topics, '全部主题');
+    }
+
+    async function init() {
+      try {
+        const res = await fetch(BASE + 'data/papers.json');
+        PAPERS = await res.json();
+      } catch (e) {
+        listEl.innerHTML = '<p class="empty">数据加载失败，请稍后重试。</p>';
+        return;
+      }
+      buildOptions();
+      applyFilters();
+    }
+
+    document.getElementById('q').addEventListener('input', (e) => { state.q = e.target.value; applyFilters(); });
+    document.getElementById('type').addEventListener('change', (e) => { state.type = e.target.value; applyFilters(); });
+    document.getElementById('venue').addEventListener('change', (e) => { state.venue = e.target.value; applyFilters(); });
+    document.getElementById('year').addEventListener('change', (e) => { state.year = e.target.value; applyFilters(); });
+    document.getElementById('topic').addEventListener('change', (e) => { state.topic = e.target.value; applyFilters(); });
+    init();
+  </script>
+</BaseLayout>

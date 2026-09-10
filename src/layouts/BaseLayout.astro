@@ -1,0 +1,68 @@
+---
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+const { title = '个人科研主页', description = '遥感与计算机视觉研究 · 论文自动整理' } = Astro.props;
+const fullTitle = title === '个人科研主页' ? title : `${title} · 个人科研主页`;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <Nav />
+    <main><slot /></main>
+    <Footer />
+    <script>
+      // 全局交互：摘要展开 / BibTeX 复制 / 提示
+      function toast(msg: string) {
+        let t = document.getElementById('__toast');
+        if (!t) {
+          t = document.createElement('div');
+          t.id = '__toast';
+          document.body.appendChild(t);
+        }
+        t.textContent = msg;
+        t.classList.add('show');
+        clearTimeout((t as any).__timer);
+        (t as any).__timer = setTimeout(() => t.classList.remove('show'), 1800);
+      }
+      function fallbackCopy(text: string) {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand('copy'); toast('BibTeX 已复制'); } catch { toast('复制失败，请手动复制'); }
+        ta.remove();
+      }
+      document.addEventListener('click', (e) => {
+        const t = e.target as HTMLElement;
+        const ab = t.closest('[data-toggle-abstract]');
+        if (ab) { ab.closest('.paper')?.classList.toggle('abstract-open'); return; }
+        const bib = t.closest('[data-bibtex]');
+        if (bib) {
+          const raw = (bib as HTMLElement).dataset.bibtex || '';
+          try {
+            const text = JSON.parse(raw);
+            if (navigator.clipboard?.writeText) navigator.clipboard.writeText(text).then(() => toast('BibTeX 已复制')).catch(() => fallbackCopy(text));
+            else fallbackCopy(text);
+          } catch { fallbackCopy(raw); }
+        }
+      });
+    </script>
+  </body>
+</html>

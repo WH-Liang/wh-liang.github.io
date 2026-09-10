@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import meta from '../../data/meta.json';
+const profile = (meta as any).profile || {};
+const m = (meta as any) || {};
+---
+
+<BaseLayout title="关于" description="关于本科研网站">
+  <section class="page-head">
+    <div class="container">
+      <span class="kicker">About</span>
+      <h1>关于本站</h1>
+      <p class="lede">这是一个「自动更新」的个人科研主页，论文数据由脚本每日抓取整理，无需手动维护。</p>
+    </div>
+  </section>
+
+  <div class="container" style="max-width:820px">
+    <h2>数据来源</h2>
+    <ul style="color:var(--text-muted)">
+      <li><strong>遥感 &amp; 计算机顶刊</strong> —— OpenAlex（按 ISSN 精确检索，含摘要、被引、主题概念）</li>
+      <li><strong>计算机顶会</strong> —— DBLP（含完整会议元数据），被反爬拦截时自动降级为 arXiv 分类订阅</li>
+      <li><strong>arXiv 预印本</strong> —— arXiv 官方 API（按研究关键词 + cs.CV/cs.LG/cs.AI 分类）</li>
+      <li><strong>本人发表</strong> —— ORCID 公开 API（自动同步，无需手动录入）</li>
+    </ul>
+
+    <h2 style="margin-top:28px">自动更新</h2>
+    <p style="color:var(--text-muted)">
+      托管在 GitHub Pages，通过 GitHub Actions 每日定时运行数据脚本并重新构建发布，
+      全程无人值守。最近更新：<strong>{m.last_updated}</strong>。
+    </p>
+
+    <h2 style="margin-top:28px">如何修改</h2>
+    <p style="color:var(--text-muted)">
+      所有配置集中在 <code>scripts/config.json</code>：个人资料、跟踪的期刊会议清单、
+      arXiv 关键词、主题标签等，改完重新运行 <code>python scripts/run_all.py</code> 即可。
+    </p>
+
+    <h2 style="margin-top:28px">联系方式</h2>
+    <p style="color:var(--text-muted)">
+      {profile.email ? <span>邮箱：<a href={`mailto:${profile.email}`}>{profile.email}</a>{profile.email_alt ? <span> · <a href={`mailto:${profile.email_alt}`}>{profile.email_alt}</a></span> : null}</span> : '（请在配置中填写邮箱）'}
+    </p>
+  </div>
+</BaseLayout>

@@ -1,0 +1,93 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="arXiv 订阅" description="按关键词与分类订阅的 arXiv 最新预印本">
+  <section class="page-head">
+    <div class="container">
+      <span class="kicker">arXiv Preprints</span>
+      <h1>arXiv 订阅</h1>
+      <p class="lede">按你的研究关键词与 cs.CV / cs.LG / cs.AI 分类，每日抓取最新预印本。</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="filterbar">
+      <input type="search" id="q" placeholder="搜索标题 / 作者 / 摘要…" autocomplete="off" />
+      <select id="cat">
+        <option value="all">全部分类</option>
+        <option value="cs.CV">cs.CV</option>
+        <option value="cs.LG">cs.LG</option>
+        <option value="cs.AI">cs.AI</option>
+      </select>
+    </div>
+    <p class="result-count" id="result-count"></p>
+    <div class="paper-list" id="paper-list"></div>
+  </div>
+
+  <script>
+    const BASE = import.meta.env.BASE_URL;
+    let PAPERS = [];
+    const state = { q: '', cat: 'all' };
+    const listEl = document.getElementById('paper-list');
+    const countEl = document.getElementById('result-count');
+    const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+    function bibtex(p) {
+      const authors = (p.authors || []).join(' and ') || 'Unknown';
+      const y = p.year || 'n.d.';
+      const key = ((p.authors?.[0] || 'author').split(/[\s,]+/).filter(Boolean).pop() || 'author') + y;
+      return `@misc{${key},\n  title = {${p.title || ''}},\n  author = {${authors}},\n  year = {${y}},\n  eprint = {${p.arxiv_id || ''}}\n}`;
+    }
+
+    function cardHTML(p) {
+      const abstract = p.abstract || '';
+      const longAbs = abstract.length > 160;
+      const cats = (p.concepts || []).map((c) => `<span class="topic">${esc(c)}</span>`).join('');
+      return `
+        <article class="paper">
+          <h3 class="paper-title"><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a></h3>
+          ${p.authors && p.authors.length ? `<p class="paper-authors">${esc(p.authors.join(', '))}</p>` : ''}
+          <div class="paper-meta"><span class="badge badge-preprint">arXiv</span>${p.year ? `<span class="meta">${esc(p.year)}</span>` : ''}</div>
+          ${abstract ? `<p class="paper-abstract">${esc(abstract)}</p>` : ''}
+          ${longAbs ? `<button type="button" class="btn-link" data-toggle-abstract>展开摘要 ▾</button>` : ''}
+          ${cats ? `<div class="paper-topics">${cats}</div>` : ''}
+          <div class="paper-actions">
+            <a class="btn-link" href="${esc(p.url)}" target="_blank" rel="noopener">摘要页</a>
+            ${p.pdf ? `<a class="btn-link" href="${esc(p.pdf)}" target="_blank" rel="noopener">PDF</a>` : ''}
+            <button type="button" class="btn-link" data-bibtex="${esc(JSON.stringify(bibtex(p)))}">BibTeX</button>
+          </div>
+        </article>`;
+    }
+
+    function applyFilters() {
+      const q = state.q.trim().toLowerCase();
+      const list = PAPERS.filter((p) => {
+        if (state.cat !== 'all' && !(p.concepts || []).includes(state.cat)) return false;
+        if (q) {
+          const hay = `${p.title || ''} ${(p.authors || []).join(' ')} ${p.abstract || ''}`.toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        return true;
+      });
+      countEl.textContent = `共 ${list.length} 篇预印本`;
+      listEl.innerHTML = list.length ? list.map(cardHTML).join('') : '<p class="empty">没有匹配的预印本</p>';
+    }
+
+    async function init() {
+      try {
+        const res = await fetch(BASE + 'data/papers.json');
+        const all = await res.json();
+        PAPERS = all.filter((p) => p.venue_type === 'preprint');
+      } catch (e) {
+        listEl.innerHTML = '<p class="empty">数据加载失败，请稍后重试。</p>';
+        return;
+      }
+      applyFilters();
+    }
+
+    document.getElementById('q').addEventListener('input', (e) => { state.q = e.target.value; applyFilters(); });
+    document.getElementById('cat').addEventListener('change', (e) => { state.cat = e.target.value; applyFilters(); });
+    init();
+  </script>
+</BaseLayout>

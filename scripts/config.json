@@ -1,0 +1,68 @@
+{
+  "profile": {
+    "name_zh": "梁文贺",
+    "name_en": "Lucas Liang",
+    "title_zh": "研究生",
+    "affiliation_zh": "国防科技大学",
+    "affiliation_en": "National University of Defense Technology",
+    "email": "liangwenhegfkd@nudt.edu.cn",
+    "email_alt": "13938362905@163.com",
+    "orcid": "0009-0005-1823-3560",
+    "google_scholar": "",
+    "github": "https://github.com/WH-Liang",
+    "avatar": "",
+    "bio_zh": "国防科技大学研究生，主要研究方向为遥感图像处理与计算机视觉，关注深度学习与多模态学习在遥感智能解译中的应用。",
+    "bio_en": "Graduate student at National University of Defense Technology, working on remote sensing image processing and computer vision, with a focus on deep learning and multimodal learning for intelligent remote sensing interpretation.",
+    "research_interests": ["遥感图像处理", "计算机视觉", "深度学习", "多模态学习"],
+    "site_title": "梁文贺 · 个人科研主页",
+    "site_subtitle": "遥感 · 计算机视觉 · 深度学习"
+  },
+  "arxiv": {
+    "keywords": [
+      "remote sensing",
+      "change detection",
+      "semantic segmentation",
+      "hyperspectral",
+      "synthetic aperture radar",
+      "object detection",
+      "vision transformer",
+      "remote sensing image"
+    ],
+    "categories": ["cs.CV", "cs.LG", "cs.AI"],
+    "max_results": 60
+  },
+  "journals": [
+    { "name": "Remote Sensing of Environment", "short": "RSE", "issn": "0034-4257" },
+    { "name": "ISPRS Journal of Photogrammetry and Remote Sensing", "short": "ISPRS JPRS", "issn": "0924-2716" },
+    { "name": "IEEE Transactions on Geoscience and Remote Sensing", "short": "TGRS", "issn": "0196-2892" },
+    { "name": "International Journal of Applied Earth Observation and Geoinformation", "short": "JAG", "issn": "1569-8432" },
+    { "name": "GIScience & Remote Sensing", "short": "GISci. Remote Sens.", "issn": "1548-1603" },
+    { "name": "IEEE Geoscience and Remote Sensing Letters", "short": "GRSL", "issn": "1545-598X" },
+    { "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence", "short": "TPAMI", "issn": "0162-8828" },
+    { "name": "International Journal of Computer Vision", "short": "IJCV", "issn": "0920-5691" },
+    { "name": "IEEE Transactions on Image Processing", "short": "TIP", "issn": "1057-7149" },
+    { "name": "ACM Transactions on Graphics", "short": "TOG", "issn": "0730-0301" },
+    { "name": "Pattern Recognition", "short": "Pattern Recogn.", "issn": "0031-3203" }
+  ],
+  "conferences": [
+    { "name": "CVPR", "dblp_key": "conf/cvpr", "arxiv_cat": "cs.CV" },
+    { "name": "ICCV", "dblp_key": "conf/iccv", "arxiv_cat": "cs.CV" },
+    { "name": "ECCV", "dblp_key": "conf/eccv", "arxiv_cat": "cs.CV" },
+    { "name": "NeurIPS", "dblp_key": "conf/nips", "arxiv_cat": "cs.LG" },
+    { "name": "ICML", "dblp_key": "conf/icml", "arxiv_cat": "cs.LG" },
+    { "name": "ICLR", "dblp_key": "conf/iclr", "arxiv_cat": "cs.LG" },
+    { "name": "AAAI", "dblp_key": "conf/aaai", "arxiv_cat": "cs.AI" },
+    { "name": "IJCAI", "dblp_key": "conf/ijcai", "arxiv_cat": "cs.AI" }
+  ],
+  "topics": {
+    "遥感": ["remote sensing", "hyperspectral", "multispectral", "synthetic aperture radar", "earth observation", "geoscience", "land cover", "change detection", "sar ", "sentinel", "landsat"],
+    "计算机视觉": ["detection", "segmentation", "recognition", "vision", "image", "tracking", "pose", "super-resolution", "reconstruction", "stereo", "optical flow"],
+    "机器学习": ["learning", "neural", "deep", "transformer", "diffusion", "generative", "reinforcement", "optimization", "self-supervised", "contrastive", "few-shot", "domain adaptation"],
+    "三维与几何": ["point cloud", "3d", "geometry", "nerf", "gaussian splatting", "mesh", "depth", "lidar"],
+    "多模态": ["multimodal", "vision-language", "text-to-image", "language model", "clip", "vqa", "caption"]
+  },
+  "fetch": {
+    "papers_per_venue": 40,
+    "years_back": 2
+  }
+}

@@ -1,0 +1,14 @@
+---
+import meta from '../../data/meta.json';
+const m = (meta as any) || {};
+const lastUpdated = m.last_updated || '';
+const profile = m.profile || {};
+const name = profile.name_zh || '科研主页';
+---
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© {new Date().getFullYear()} {name} · 论文数据由脚本自动抓取整理</span>
+    <span>{lastUpdated ? `最近更新：${lastUpdated}` : ''}</span>
+  </div>
+</footer>

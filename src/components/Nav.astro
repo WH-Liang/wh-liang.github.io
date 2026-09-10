@@ -1,0 +1,30 @@
+---
+import meta from '../../data/meta.json';
+const profile = (meta as any).profile || {};
+const brand = profile.site_title || '个人科研主页';
+const base = import.meta.env.BASE_URL;
+
+const links = [
+  { href: `${base}`, label: '首页' },
+  { href: `${base}papers/`, label: '论文库' },
+  { href: `${base}publications/`, label: '本人发表' },
+  { href: `${base}arxiv/`, label: 'arXiv 订阅' },
+  { href: `${base}about/`, label: '关于' },
+];
+const path = Astro.url.pathname;
+---
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href={base}>
+      <span class="brand-mark">研</span>
+      <span>{brand}</span>
+    </a>
+    <div class="nav-links">
+      {links.map((l) => {
+        const active = l.href === base ? path === base : path.startsWith(l.href);
+        return <a href={l.href} class:list={['', { active }]}>{l.label}</a>;
+      })}
+    </div>
+  </div>
+</nav>

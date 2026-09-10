@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PaperCard from '../components/PaperCard.astro';
+import publications from '../../data/publications.json';
+
+const pubs = (publications as any[]) || [];
+const byYear: Record<string, any[]> = {};
+for (const p of pubs) {
+  const y = String(p.year || '未标注年份');
+  (byYear[y] ||= []).push(p);
+}
+const years = Object.keys(byYear).sort((a, b) => b.localeCompare(a));
+---
+
+<BaseLayout title="本人发表" description="本人已发表论文列表">
+  <section class="page-head">
+    <div class="container">
+      <span class="kicker">Publications</span>
+      <h1>本人发表</h1>
+      <p class="lede">以下论文通过 ORCID 自动同步，随新发表自动更新。</p>
+    </div>
+  </section>
+
+  <div class="container">
+    {pubs.length === 0 ? (
+      <div class="note">
+        尚未同步到本人论文：请在 <code>scripts/config.json</code> 的 <code>profile.orcid</code> 填入你的
+        ORCID ID（形如 <code>0000-0002-xxxx-xxxx</code>），然后重新运行数据脚本即可自动同步。
+      </div>
+    ) : (
+      years.map((y) => (
+        <div class="year-group">
+          <h2 class="year-label">{y}</h2>
+          <div class="paper-list">{byYear[y].map((p) => <PaperCard paper={p} />)}</div>
+        </div>
+      ))
+    )}
+  </div>
+</BaseLayout>

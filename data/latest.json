@@ -1,0 +1,256 @@
+[
+ {
+  "id": "arxiv:2609.09082v1",
+  "title": "GoDeep: Annotation-Free Open-Vocabulary 3D Scene Understanding via Language-Space Lifting",
+  "authors": [
+   "Thodoris Betsas",
+   "Anastasios Doulamis",
+   "Andreas Georgopoulos"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-09-08",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2609.09082v1",
+  "url": "https://arxiv.org/abs/2609.09082v1",
+  "abstract": "Open vocabulary 3D semantic segmentation methods typically lift CLIP features into 3D. This embeds points in a joint vision-language space known to behave like a bag-of-words on compositional tasks. Furthermore, even annotation free variants often require a large 3D training corpus and a dedicated 3D encoder per domain. Instead we use a vision-language model purely as a translator. It produces structured, entity-level descriptions of each posed image. These descriptions are grounded, projected, and aggregated directly in a general-purpose, language-only embedding space, with no 3D training corpus or encoder required. On ScanNet++, our pipeline is competitive with strong annotation free baselines trained on ScanNet. On a 5-building cultural heritage benchmark, raw scores initially favor a CLIP-based variant, but a single systematic vocabulary correction reverses this ranking. An effect confirmed by a second, independent correction on a different class, indicating that language-space embeddings track physical content more faithfully. This fidelity extends to genuinely out-of-vocabulary (OOV) objects on ScanNet++ proving that language-space embeddings separate presence from absence objects far more sharply than CLIP-based embeddings do. GoDeep also localize these OOV objects within the scene, all without any 2D-3D annotation. Because every representation remains discrete text, predictions are also explainable at the point level. Finally, exploiting both a heuristic weighting, that favors precise over merely frequent observations and GoDeep's explainability property, we propose an aggregation strategy, as a proof of concept, that favors finer elements localization.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV",
+   "cs.AI"
+  ],
+  "arxiv_id": "2609.09082v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2609.09055v1",
+  "title": "\"World Knowledge\" in the Weights: Reading Concept Circuits of Vision Transformers",
+  "authors": [
+   "Yanlin Chen",
+   "Tang Li",
+   "Xi Peng"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-09-08",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2609.09055v1",
+  "url": "https://arxiv.org/abs/2609.09055v1",
+  "abstract": "Vision transformers (ViTs) have achieved remarkable generalization across visual domains, yet little is known about how they internally represent the structure of the world. To address this gap, we use Cross-Layer Transcoders (CLTs) to read concept circuits from ViTs: directed graphs whose nodes correspond to sparse, interpretable concepts and edges capture concept interactions across layers. Our method yields two complementary views of model behavior. The global concept circuit is input-invariant and can be recovered directly from learned cross-layer weights, exposing the reusable \"world knowledge\" encoded in the model. The instance concept circuit is input-dependent and identifies the concepts and pathways actually used for a specific prediction, enabling faithful example-level explanations. We demonstrate the utility of concept circuits in three ways: (1) Automatic spurious correlation discovery: leveraging the statistics of our global concept circuits to identify shortcut dependencies within the model. (2) Spurious correlation removal: intervening on the instance concept circuit to steer the model towards correct predictions. Empirical results show that our method outperforms existing counterparts by 11.0% on the Waterbird dataset. (3) Model comparison: contrasting the global concept circuits of different foundation models (e.g., CLIP vs. DINO) to reveal how supervision paradigms shape representational structure. Our code is available at https://github.com/deep-real/VisionCLT",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2609.09055v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2609.09044v1",
+  "title": "The Luminosity Function of Ultra-Faint Trans-Neptunian Objects Detected by JWST",
+  "authors": [
+   "Marielle R. Eduardo",
+   "Anastasia N. Morgan",
+   "Wesley C. Fraser",
+   "David E. Trilling",
+   "Gary M. Bernstein",
+   "John A. Stansberry",
+   "Bryan Hilbert",
+   "Matthew J. Holman",
+   "William M. Grundy",
+   "Thomas L. Storer",
+   "Kevin J. Napier"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-09-08",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2609.09044v1",
+  "url": "https://arxiv.org/abs/2609.09044v1",
+  "abstract": "We present a definitive discovery of 27 trans-Neptunian objects (TNOs) using the Near-Infrared Camera (NIRCam) aboard the James Webb Space Telescope (JWST). By employing a shift-and-stack technique and a machine learning network geared specifically to identifying false-positive detections in JWST images produced through the shift-and-stack process, we achieved a 40\\% detection threshold of $m_{F150W2}=28.8$ mag (corresponding to $m_r\\sim29.8$ mag) across a sky area of $0.05 \\ \\text{deg}^2$. This marks the deepest Solar System survey to date, reaching magnitudes that allow us to explore never-before-seen regions of the TNO size distribution. Our faintest detection has $m_{F150W2}=29.3$ mag and diameter of $\\sim10$ km (assuming 15\\% albedo). Within our sample, we find that both the Cold and Hot TNO subpopulations exhibit a power-law slope. The distribution of apparent magnitudes of our nominal sample (detections at all epochs) are well fit by a single power law $dN/dm \\propto 10^{αm}$ with $α=0.29^{+0.08}_{-0.07}$. The dynamically hot and cold subsamples in our discovery set are consistent with the same power law, suggesting that the planetesimal formation process yields similar slopes despite the differing disk conditions at the presumed $\\sim25$ and $\\sim45$~au formation regions of the two populations.",
+  "citation_count": 0,
+  "concepts": [
+   "astro-ph.EP"
+  ],
+  "arxiv_id": "2609.09044v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2609.09012v1",
+  "title": "Spheriverse: 3D Scene Understanding from Spherical Observations in the Wild",
+  "authors": [
+   "Fei Teng",
+   "Sheng Wu",
+   "Mengfei Duan",
+   "Guoqiang Zhao",
+   "Junhui Ma",
+   "Kai Luo",
+   "Siyu Li",
+   "Hao Shi",
+   "Zhiyong Li",
+   "Kailun Yang"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-09-08",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2609.09012v1",
+  "url": "https://arxiv.org/abs/2609.09012v1",
+  "abstract": "Spherical observations provide global visual context for 3D scene understanding. However, visual information is encoded in an angular domain, whereas the physical world is represented in Cartesian coordinates. This cross-space representation gap complicates geometric correspondence and semantic evidence aggregation. To delve into this challenge, we introduce Spheriverse, comprising $64,400$ temporally aligned spherical image-LiDAR pairs organized into 644 sequences. The dataset spans diverse scenes, illumination, and weather conditions, with fine-grained semantic classes. We further establish benchmarks for semantic occupancy prediction, semantic mapping, and 3D object detection, evaluating 30+ methods through overall and scene-wise comparisons. For dense prediction, we propose SphereOcc, an occupancy framework that couples spherical geometry modeling with semantic evidence retrieval. Cartesian-Spherical Representation Remodeling (CSRR) incorporates spherical range-azimuth geometry into Cartesian voxel features through region-wise modulation. Spherical Evidence Re-querying (SER) then conditions queries on voxel content and range-height-azimuth geometry to adaptively retrieve relevant semantic evidence from source spherical image features. SphereOcc achieves 13.91% mIoU and 24.65% GeoIoU, outperforming the respective best-performing methods, TPVFormer and SurroundOcc, by 1.70 and 2.10 percentage points. It also ranks first in both metrics across all five scenes, with consistent advantages across the evaluated spatial partitions and reduced fields of view. The established benchmark and source code will be available at https://feit-feiteng.github.io/Spheriverse.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV",
+   "cs.RO",
+   "eess.IV"
+  ],
+  "arxiv_id": "2609.09012v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2609.08920v1",
+  "title": "Remotely Detectable Keyed Communication through Motion",
+  "authors": [
+   "Benjamin Chang",
+   "Michael Amir",
+   "Manon Flageat",
+   "Amanda Prorok"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-09-08",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2609.08920v1",
+  "url": "https://arxiv.org/abs/2609.08920v1",
+  "abstract": "Messages from electronic devices are conventionally received as text, audio, or radio signals. But robots move with rich, articulate motion in the real world, opening up the possibility of transmitting messages through motion itself. In this paper, we consider the problem of motion-based communication, where we seek to modify a robot's movements so as to transmit messages detectable from remote sensing (e.g., video or motion capture), without degrading policy performance. We introduce a method for messaging through motion capable of encoding arbitrary message content over short payloads - such as an agent's current intent - as noise in any pre-trained policy's actions. This brings a new kind of robustness to robot communication: this 'physical' channel complements standard wireless communications channels but does not depend on them, requiring no extra hardware nor the establishment of a direct link to the robot. We systematically characterize the space of encoding schemes and derive design heuristics, then validate them across simulated environments and real-robot deployment; on real robots running at 50 Hz, four robots jointly recover an 8-bit message at an aggregate 0.67 bits/s.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.RO"
+  ],
+  "arxiv_id": "2609.08920v1",
+  "source": "arxiv",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2609.08914v1",
+  "title": "CoSA: Correlation-Guided Change A ttention with Learnable Residual Gating for Remote Sensing Change Detection",
+  "authors": [
+   "Abdirashid Omar",
+   "Jonghyuk Park"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-09-08",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2609.08914v1",
+  "url": "https://arxiv.org/abs/2609.08914v1",
+  "abstract": "Pixel-level annotation of fixed traffic-camera imagery is expensive, while crosswalk models trained from street-level imagery face a substantial viewpoint and appearance shift when applied to elevated CCTV. We investigate a data-efficient target-domain pipeline using 241 manually annotated CCTV images and 5,926 unlabeled CCTV frames. A source-domain experiment trains a 31.0M-parameter custom U-Net on 3,300 first-person-view (FPV) images and obtains 93.05% IoU on its 330-image FPV test split. This result is a source baseline, not transferred performance: the released CCTV notebook instantiates a 42.0M-parameter DeepLabV3-ResNet50 from torchvision weights, and no compatible mapping from the U-Net checkpoint is implemented. Training on 201 manual CCTV images and selecting on 40 held-out manual masks yields 88.91% IoU. The model then predicts all unlabeled frames; image-level certainty and a largest-component area prior rank the candidates, and the top 1,000 attain mean certainty 0.976 and mean combined score 0.988. A repository audit shows that the reported second-stage 98.52% IoU was measured on a 150-image split containing only teacher-generated pseudo-masks. Because of a directory-layout mismatch, the executed combined-data loader found zero manual samples and split 1,000 pseudo-labeled samples into 850 training and 150 evaluation samples. We therefore report 98.52% as internal pseudo-label agreement rather than human-ground-truth accuracy. The defensible target-domain result is 88.91% IoU on the 40 manual validation images. Batch-one FP32 inference at 512 x 512 requires 12.98 ms, corresponding to 77.03 FPS, on an NVIDIA RTX A6000 48 GB GPU. These findings support the practicality of confidence-and-geometry filtering while also showing why pseudo-label evaluation must remain isolated from the labels used for self-training.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2609.08914v1",
+  "source": "arxiv",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2609.08786v1",
+  "title": "Interpretable Hyperspectral Unmixing Framework with Fixed Endmember Prior and Structured Residual Refinement",
+  "authors": [
+   "Ziyi Guan",
+   "Jianping Zhang",
+   "Qian Liu"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-09-08",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2609.08786v1",
+  "url": "https://arxiv.org/abs/2609.08786v1",
+  "abstract": "Hyperspectral unmixing decomposes mixed pixels into material endmembers and their abundances from contiguous spectral observations. In modular sensing pipelines, endmembers are often first identified and then treated as fixed during abundance estimation. When this fixed endmember prior is inaccurate, spatially structured mismatch arising from illumination changes, sensor artifacts, or material boundaries may be incorrectly captured by the abundance variables, leading to unstable decompositions. This study presents an interpretable stage-wise hyperspectral unmixing framework (I-HyperSU) under fixed endmember priors, which is explicitly decomposed into a fixed endmember matrix $\\mathbf{A}$, an abundance block $\\mathbf{X}$, and a structural residual refinement block $\\mathbf{S}$. The X-block estimates abundances using FISTA with nonnegativity and sparsity enhancement, and a soft penalty that approximately enforces sum-to-one constraints. The S-block jointly applies low-rank SVD structural regularization and a lightweight deep image prior (DIP) to refine structured residuals. This staged design makes the interaction between abundance and residual components transparent and interpretable. Experiments on Samson, Urban, and Jasper Ridge datasets demonstrate that, under fixed and imperfect endmember priors, soft abundance relaxation consistently outperforms hard simplex projection. Under the default N-FINDR endmember prior, the proposed framework reduces the joint reconstruction error by 61.7\\%--69.5\\% compared with a fixed-$\\mathbf{A}$ UCLS baseline, while keeping the abundance RMSE nearly unchanged, indicating that the residual refinement branch accounts for structured model mismatch without degrading the abundance estimates. For example, on Urban, the reconstruction SAM decreases from $5.99^\\circ$ for the X-only model to $1.92^\\circ$ for the full model.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2609.08786v1",
+  "source": "arxiv",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2609.08777v1",
+  "title": "AXS-Net: Interpretable Deep Unfolding for Hyperspectral Image Denoising via Spectral Basis Unmixing and Structured Noise Refinement",
+  "authors": [
+   "Ziyi Guan",
+   "Jianping Zhang",
+   "Zheng Yang"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-09-08",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2609.08777v1",
+  "url": "https://arxiv.org/abs/2609.08777v1",
+  "abstract": "Hyperspectral images (HSIs) are often degraded by mixed noise, including band-dependent Gaussian perturbations and structured artifacts such as stripes, dead-lines, and impulse noise. Most deep denoisers regress the clean image directly, entangling signal and structured noise. We instead model HSI denoising as $\\Y=\\A\\X+\\Snoise+\\Nnoise$, where $\\A\\X$ is a low-rank spectral-subspace (unmixing) reconstruction, $\\Snoise$ is structured sparse noise and $\\Nnoise$ is residual Gaussian noise. The resulting regularized optimization problem is unrolled into AXS-Net, a $K$-stage alternating proximal-point framework. Each stage combines an analytic spectral-basis gradient step, an SSX-Block proximal operator for abundance coefficients, and an SBlock proximal operator for the structured residual with column-consistent and sparse priors. This optimization correspondence exposes interpretable endmembers, abundance maps, and structured-noise estimates. Across ICVL, CAVE, and Harvard datasets and five noise configurations, the proposed AXS-Net achieves strong in-domain accuracy and competitive zero-shot transfer, with consistent gains across all five noise regimes on ICVL and Harvard. The recovered structured-noise closely follows the synthetic reference, and the recovered spectral basis is smooth and band-ordered rather than an arbitrary set of latent channels.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2609.08777v1",
+  "source": "arxiv",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ }
+]

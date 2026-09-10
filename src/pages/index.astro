@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PaperCard from '../components/PaperCard.astro';
+import meta from '../../data/meta.json';
+import latest from '../../data/latest.json';
+
+const base = import.meta.env.BASE_URL;
+const profile = (meta as any).profile || {};
+const counts = (meta as any).counts || {};
+const interests: string[] = profile.research_interests || [];
+
+const links: { label: string; href: string }[] = [];
+if (profile.email) links.push({ label: '邮箱', href: `mailto:${profile.email}` });
+if (profile.email_alt) links.push({ label: '备用邮箱', href: `mailto:${profile.email_alt}` });
+if (profile.orcid) links.push({ label: 'ORCID', href: `https://orcid.org/${profile.orcid}` });
+if (profile.google_scholar) links.push({ label: 'Google Scholar', href: profile.google_scholar });
+if (profile.github) links.push({ label: 'GitHub', href: profile.github });
+---
+
+<BaseLayout>
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-name">{profile.name_zh}</h1>
+      <p class="hero-en">{profile.name_en}</p>
+      <p class="hero-title">{profile.title_zh}{profile.affiliation_zh ? ` · ${profile.affiliation_zh}` : ''}</p>
+      {profile.bio_zh && <p class="hero-bio">{profile.bio_zh}</p>}
+      {interests.length > 0 && (
+        <div class="interests">{interests.map((i) => <span class="interest-chip">{i}</span>)}</div>
+      )}
+      <div class="hero-links">
+        <a class="btn primary" href={`${base}papers/`}>浏览论文库</a>
+        <a class="btn" href={`${base}publications/`}>本人发表</a>
+        {links.map((l) => <a class="btn" href={l.href} target="_blank" rel="noopener">{l.label}</a>)}
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="stats">
+      <div class="stat"><div class="stat-num">{counts.total_papers}</div><div class="stat-label">收录论文</div></div>
+      <div class="stat"><div class="stat-num">{counts.publications}</div><div class="stat-label">本人发表</div></div>
+      <div class="stat"><div class="stat-num">{counts.journals}</div><div class="stat-label">期刊论文</div></div>
+      <div class="stat"><div class="stat-num">{counts.preprints}</div><div class="stat-label">arXiv 预印本</div></div>
+    </div>
+
+    <section class="section">
+      <div class="section-title">
+        <h2>最新论文</h2>
+        <a class="more" href={`${base}papers/`}>查看全部 →</a>
+      </div>
+      <div class="bar"></div>
+      <div class="paper-list">{(latest as any[]).map((p) => <PaperCard paper={p} />)}</div>
+    </section>
+  </div>
+</BaseLayout>

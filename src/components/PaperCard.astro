@@ -1,0 +1,74 @@
+---
+interface Paper {
+  title?: string;
+  authors?: string[];
+  venue?: string;
+  venue_short?: string;
+  venue_type?: string;
+  year?: number;
+  date?: string;
+  doi?: string;
+  pdf?: string;
+  url?: string;
+  abstract?: string;
+  citation_count?: number;
+  topics?: string[];
+  arxiv_id?: string;
+  is_own?: boolean;
+}
+const { paper, compact = false } = Astro.props as { paper: Paper; compact?: boolean };
+
+const typeLabel = ({ journal: '期刊', conference: '会议', preprint: '预印本' } as Record<string, string>)[paper.venue_type || ''] || '';
+const typeClass = paper.venue_type === 'conference' ? 'conference' : paper.venue_type === 'preprint' ? 'preprint' : 'journal';
+const year = paper.year ? String(paper.year) : '';
+const link = paper.url || (paper.doi ? `https://doi.org/${paper.doi}` : undefined);
+const abstract = paper.abstract || '';
+const longAbstract = abstract.length > 160;
+
+function bibtex(p: Paper) {
+  const authors = (p.authors || []).join(' and ') || 'Unknown';
+  const y = p.year || 'n.d.';
+  const first = p.authors?.[0] || 'author';
+  const key = (first.split(/[\s,]+/).filter(Boolean).pop() || 'author') + y;
+  const type = p.venue_type === 'conference' ? 'inproceedings' : p.venue_type === 'preprint' ? 'misc' : 'article';
+  const lines = [`@${type}{${key},`, `  title = {${p.title || ''}},`, `  author = {${authors}},`, `  year = {${y}},`];
+  if (p.venue) lines.push(`  ${p.venue_type === 'conference' ? 'booktitle' : 'journal'} = {${p.venue}},`);
+  if (p.doi) lines.push(`  doi = {${p.doi}},`);
+  if (p.arxiv_id) lines.push(`  eprint = {${p.arxiv_id}},`);
+  lines.push('}');
+  return lines.join('\n');
+}
+const bibtexStr = JSON.stringify(bibtex(paper));
+---
+
+<article class="paper">
+  <h3 class="paper-title">
+    {link ? <a href={link} target="_blank" rel="noopener">{paper.title}</a> : <span>{paper.title}</span>}
+    {paper.is_own && <span class="badge badge-own" style="margin-left:8px">本人</span>}
+  </h3>
+  {paper.authors && paper.authors.length > 0 && <p class="paper-authors">{paper.authors.join(', ')}</p>}
+  <div class="paper-meta">
+    <span class={`badge badge-${typeClass}`}>{paper.venue_short || paper.venue}</span>
+    {year && <span class="meta">{year}</span>}
+    {typeLabel && <span class="meta">{typeLabel}</span>}
+    {paper.citation_count ? <span class="meta">被引 {paper.citation_count}</span> : null}
+  </div>
+
+  {!compact && abstract && (
+    <p class="paper-abstract">{abstract}</p>
+  )}
+  {!compact && longAbstract && (
+    <button type="button" class="btn-link" data-toggle-abstract>展开摘要 ▾</button>
+  )}
+
+  {paper.topics && paper.topics.length > 0 && (
+    <div class="paper-topics">{paper.topics.map((t) => <span class="topic">{t}</span>)}</div>
+  )}
+
+  <div class="paper-actions">
+    {link && <a class="btn-link" href={link} target="_blank" rel="noopener">详情</a>}
+    {paper.pdf && <a class="btn-link" href={paper.pdf} target="_blank" rel="noopener">PDF</a>}
+    {paper.doi && <a class="btn-link" href={`https://doi.org/${paper.doi}`} target="_blank" rel="noopener">DOI</a>}
+    <button type="button" class="btn-link" data-bibtex={bibtexStr}>BibTeX</button>
+  </div>
+</article>
