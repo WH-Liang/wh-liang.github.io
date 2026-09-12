@@ -1,257 +1,245 @@
 [
  {
-  "id": "openalex:W7212043933",
-  "title": "PELNet: A general physics-embedded learning framework for polarimetric target decomposition",
+  "id": "openalex:W7212128570",
+  "title": "Monitoring global mangrove spatial evolution and functional degradation using BTSAD and CBPA methods over a 36-year dense Landsat and HLSv2.0 time series",
   "authors": [
-   "Shurong Zhang",
-   "Di Zhuang",
-   "Lamei Zhang",
-   "Bin Zou",
-   "Jordi J. Mallorqui"
+   "Bolin Fu",
+   "Weiping Yi",
+   "Yeqiao Wang",
+   "Hang Yao",
+   "Mingming Jia",
+   "Ertao Gao",
+   "Donglin Fan"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-11",
+  "doi": "10.1016/j.rse.2026.115656",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115656",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Environmental science",
+   "Mangrove"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7212151774",
+  "title": "Editorial Board",
+  "authors": [],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-11",
+  "doi": "10.1016/s0924-2716(26)00455-7",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/s0924-2716(26)00455-7",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7212186741",
+  "title": "Editorial Board",
+  "authors": [],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-10",
+  "doi": "10.1016/s0034-4257(26)00423-2",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/s0034-4257(26)00423-2",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7212166754",
+  "title": "Four decades of Landsat-based river turbidity reconstruction reveal spatially heterogeneous declines across U.S. rivers",
+  "authors": [
+   "Yang Li",
+   "Bo Han",
+   "Ge Liu",
+   "Kaishan Song",
+   "Dongmei Lyu",
+   "Kun� Shi",
+   "Yue Ma",
+   "Shidi Shao",
+   "Yujin Zhou",
+   "Jipeng Zhang",
+   "Heng Lyu"
   ],
   "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
   "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-09",
-  "doi": "10.1016/j.isprsjprs.2026.08.040",
+  "date": "2026-09-10",
+  "doi": "10.1016/j.isprsjprs.2026.09.007",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.08.040",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.007",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Artificial intelligence",
-   "Computer science",
-   "Remote sensing"
+   "Turbidity",
+   "Environmental science",
+   "Satellite imagery"
   ],
   "source": "openalex",
   "topics": [
    "遥感",
-   "机器学习"
+   "计算机视觉"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7212050089",
-  "title": "Synergizing motion and depth: A distilled dual-branch network for moving infrared small target detection",
+  "id": "openalex:W7212181954",
+  "title": "WheatScoper: A lightweight organ-based framework for multi-view wheat phenotyping using time-series RGB images",
   "authors": [
-   "Dengyan Luo",
-   "Yanping Xiang",
-   "Hu Wang",
-   "Luping Ji",
-   "Song Tang",
-   "Mao Ye"
+   "Haotian Deng",
+   "Xiaomiao Tian",
+   "Yufeng Zhang",
+   "Yong Ren",
+   "Guoqiang Yuan",
+   "Bingxi Qin",
+   "Honghao Zhou",
+   "Jiawei Chen",
+   "Xiao Wang",
+   "Qin Zhou",
+   "Jian Cai",
+   "Yingxin Zhong",
+   "Mei Huang",
+   "Qixin Sun",
+   "Dong Jiang",
+   "Yingyin Yao",
+   "Qing Li"
   ],
   "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
   "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-09",
-  "doi": "10.1016/j.isprsjprs.2026.08.038",
+  "date": "2026-09-10",
+  "doi": "10.1016/j.isprsjprs.2026.08.039",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.08.038",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.08.039",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
    "Artificial intelligence",
-   "Computer science",
-   "Robustness (evolution)"
+   "Computer vision",
+   "Computer science"
   ],
   "source": "openalex",
   "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2609.10387v1",
-  "title": "Enhanced Deformable Convolution with Center-invariant Offset and Edge-aware Mask",
-  "authors": [
-   "Yixiao Li",
-   "Xiaoyuan Yang",
-   "Jin Jiang",
-   "Minghao Zou",
-   "Guanghui Yue",
-   "Baoquan Zhao",
-   "Jun Liu",
-   "Wei Zhou"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-09-09",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.10387v1",
-  "url": "https://arxiv.org/abs/2609.10387v1",
-  "abstract": "Deformable convolution networks have recently become popular for many computer vision tasks, especially for semantic segmentation, because of their exceptional capabilities in dynamic spatial modeling. However, due to the dense deformable offsets and the lack of longer-range dependencies, they can not fully adopt proper and precise deformations for feature representations. To tackle the issues, in this paper, we propose Enhanced Deformable ConvNets (EDCN) for semantic segmentation. Specifically, a novel Enhanced Deformable Convolution (EDC) is exploited in the decoder, which integrates the Center-invariant Offset Module (COM) and Edge-aware Mask Module (EMM). The COM employs larger kernels and eliminates deformations at the kernel center, obtaining offsets that are more in line with the target from richer spatial information. Concurrently, the EMM obtains the significance of image content via Sobel edge detection, then selectively applies deformations based on the content significance, minimizing unnecessary deformations associated with relatively less important information, thereby avoiding impact from less informative regions. Experiments show that EDC outperforms state-of-the-art deformable convolution variants, including Deformable ConvNets V1-V4 and Entire Deformable ConvNets, across mainstream segmentation datasets with various decoder settings. Moreover, ablation studies confirm the effectiveness of each component. In addition, visualizations illustrate that EDC enhances spatial adaptation and target focus. We further analyze the extendibility of EDC to larger kernels on the image classification benchmark. Code will be publicly released.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2609.10387v1",
-  "source": "arxiv",
-  "topics": [
    "计算机视觉"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2609.10360v1",
-  "title": "On the 3D Magnetic Structure of Coronal Mass Ejections Through the Solar Corona",
+  "id": "openalex:W7212194536",
+  "title": "An ensemble version of fire potential index (eFPI) integrating seasonal variability in sub-pixel fuel composition",
   "authors": [
-   "Erika Palmerio",
-   "Michal Ben-Nun",
-   "Tibor Török",
-   "Cooper Downs",
-   "Viacheslav S. Titov"
+   "Tuo Feng",
+   "Dar A. Roberts",
+   "Max A. Moritz",
+   "S. Sweeney",
+   "Y. Zhan",
+   "Alan T. Murray"
   ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-09",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.10360v1",
-  "url": "https://arxiv.org/abs/2609.10360v1",
-  "abstract": "The magnetic fields that make up the internal structure of coronal mass ejections (CMEs) are thought to be organised in a flux rope configuration, consisting of twisted magnetic fields that wind about a central axis. Remote-sensing observations of CMEs show a wide range of morphologies, dynamics, and evolution, including rotation, non-uniform expansion, deflection, and interaction with the ambient solar wind. In-situ measurements, however, typically consist of a single 1D spacecraft trajectory through a large 3D structure (or few at best), restricting our ability to determine how CME magnetic structure varies in space and time. In this work, we analyse the magnetic configuration of two idealised CMEs during their early evolution in the range 1-30 $R_{\\odot}$ using the Magnetohydrodynamic Algorithm Outside a Sphere code. The initial flux ropes differ only in their orientation with respect to the global dipole and erupt from a bipolar active region below the streamer belt in a simplified coronal environment. We deploy a fleet of synthetic spacecraft throughout the CMEs' paths at different combinations of latitudes, longitudes, and heliocentric distances. We identify and examine flux rope signatures in the synthetic in-situ profiles to characterise radial variations as well as latitudinal/longitudinal ones. We find that, even in a simplified CME erupting under solar minimum-like conditions, the sampling location significantly affects the global structure that would be deduced from common flux rope reconstruction and analysis techniques used for in-situ measurements. Additionally, we consider possible in-situ signatures that may serve as indicators of the source region's topology.",
+  "date": "2026-09-10",
+  "doi": "10.1016/j.isprsjprs.2026.09.010",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.010",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "astro-ph.SR",
-   "physics.space-ph"
+   "Environmental science",
+   "Index (typography)",
+   "Composition (language)"
   ],
-  "arxiv_id": "2609.10360v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
+  "source": "openalex",
+  "topics": [],
   "is_own": false
  },
  {
-  "id": "arxiv:2609.10334v1",
-  "title": "Dimensionality Reduction for Hyperspectral Image Classification",
+  "id": "openalex:W7212175577",
+  "title": "Nonlinear responses of net ecosystem productivity to heatwaves over the Qinghai–Tibetan Plateau: insights from climate and vegetation",
   "authors": [
-   "Mohamed Cherifi",
-   "Ammar Mesloub",
-   "Mohammed Nabil El Korso",
-   "Tayeb Touhami",
-   "Abdennour Hacine Gharbi"
+   "Hongzhe Li",
+   "Yi He",
+   "Qing Zhu",
+   "Lifeng Zhang",
+   "Li Quan"
   ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-09",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.10334v1",
-  "url": "https://arxiv.org/abs/2609.10334v1",
-  "abstract": "This paper addresses the issue of supervised classification in the context of hyperspectral satellite images. It deals with two fundamental aspects: dimensionality reduction of data and the selection of appropriate supervised classification techniques. Firstly, we delve into dimensionality reduction, a critical step in simplifying the management of hyperspectral data. The reduction aims to decrease complexity in terms of memory and computing time. We examine two commonly used methods: Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA). Subsequently, we explore the selection of the most suitable supervised classification algorithms for hyperspectral images. We compare the performance of three methods: K-Nearest Neighbors (KNN), Support Vector Machines (SVM), and Random Forest (RF) using real hyperspectral data. The results highlight that the combination of PCA and RF yields the highest overall accuracy and Kappa coefficient.",
+  "date": "2026-09-10",
+  "doi": "10.1080/15481603.2026.2728311",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2728311",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "cs.CV",
-   "eess.SP"
+   "Environmental science",
+   "Vegetation (pathology)",
+   "Ecosystem"
   ],
-  "arxiv_id": "2609.10334v1",
-  "source": "arxiv",
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7212108668",
+  "title": "Q-DRFormer: Query-Position Mapping Flow Prediction with Progressive Refinement for Document Rectification",
+  "authors": [
+   "Jiajie Li",
+   "Jiaxin Zhang",
+   "Jianwei Guo",
+   "Q. Zhang",
+   "Xin Zheng",
+   "Qian Yin",
+   "Wenyi Zeng"
+  ],
+  "venue": "ACM Transactions on Graphics",
+  "venue_short": "TOG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-10",
+  "doi": "10.1145/3845993",
+  "pdf": null,
+  "url": "https://doi.org/10.1145/3845993",
+  "abstract": "Document image rectification aims to restore images degraded by geometric distortions. Existing U-shaped encoder-decoder methods rely on hierarchical upsampling operations to recover dense flow fields, which provide limited control over the displacement at individual grid positions, leading to spatial inconsistency and poor detail restoration. To address this issue, we propose Q‑DRFormer, a novel framework that formulates rectification as a set prediction task. Specifically, we design a set of queries, where each query corresponds to a position in the flow field grid and is responsible for regressing a 2D anchor point that indicates the sampling position in the distorted input. This one-to-one design establishes a deterministic query-position mapping, enabling fine-grained control and improving the spatial consistency of the predicted flow field. Exploiting this deterministic correspondence, we further propose a progressive flow refinement strategy that progressively refines anchor points through layer-wise offset prediction to enhance fine-grained restoration. Moreover, considering the lack of downstream-task-oriented evaluation in existing studies, we apply the rectification method to scene table detection and contribute a real-world test set along with corresponding evaluation metrics to fill this gap. Extensive experiments demonstrate that Q-DRFormer outperforms existing methods. The code is available at https://github.com/vvvvvair/Q-DRFormer.",
+  "citation_count": 0,
+  "concepts": [
+   "Rectification",
+   "Computer science",
+   "Grid"
+  ],
+  "source": "openalex",
   "topics": [
-   "遥感",
    "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2609.10322v1",
-  "title": "Geometry Without Coordinates: LiDAR Diffusion as a 3D Feature Bridge",
-  "authors": [
-   "Samed Doğan",
-   "Nico Leuze",
-   "Alfred Schöttl"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-09-09",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.10322v1",
-  "url": "https://arxiv.org/abs/2609.10322v1",
-  "abstract": "Transferring the rich priors of large 2D foundation models to sparse 3D LiDAR remains challenging, as training native 3D foundation models at comparable scale is limited by data and annotation scarcity. We introduce a LiDAR-conditioned diffusion model trained on pseudo-labels from off-the-shelf 2D foundation models. The model supports multiple output modalities, including depth, semantic segmentation and instance prediction, selectable via a textual task prompt. Because the model is conditioned on LiDAR, both its outputs and its intermediate UNet features can be projected back onto the input point cloud, enabling analysis of a 3D representation learned entirely under 2D supervision. We study this representation directly in point-cloud space, explicitly excluding raw spatial coordinates to isolate feature content from projection geometry. Linear probes recover up to ~23% Mean Intersection over Union (MIoU) on 3D semantic classes, compared to ~3.5% for a matched Gaussian-noise control, indicating substantial non-trivial structure. Pairwise cosine similarity across modality-specific feature streams reveals a layered organization. Early encoder layers remain weakly aligned across modalities while individually decodable, intermediate layers converge toward a shared representation, and decoder layers re-specialize toward task-specific outputs. These findings indicate that LiDAR-conditioned diffusion models can induce structured 3D representations from 2D supervision alone, with a modality-dependent manifold that locally unifies near a shared bottleneck. This positions diffusion as a viable mechanism for transferring large-scale 2D priors into sparse 3D domains.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2609.10322v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2609.10156v1",
-  "title": "ScopeMamba-YOLO: Widening the Perceptual Scope Inward and Outward for Small Object Detection in Remote Sensing Imagery",
-  "authors": [
-   "Junjie Fan",
-   "Yijun Mai",
-   "Linduo Wei",
-   "Jiayu Rao",
-   "Junmin Bao",
-   "Qiushi Jin",
-   "Guijia Li",
-   "Yong Qi"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-09-09",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.10156v1",
-  "url": "https://arxiv.org/abs/2609.10156v1",
-  "abstract": "Small object detection in unmanned aerial vehicle (UAV) and remote sensing imagery requires preserving high-resolution detail while modeling long-range context. Adding a stride-4 detection level and removing the stride-32 stage benefits tiny targets but weakens peripheral spatial support, whereas directly inserting selective scanning into the main feature path can interfere with weak local cues. We propose ScopeMamba-YOLO, built around an off-path, zero-gated selective-scanning principle that decouples contextual modeling from the convolutional stream. The principle is instantiated by a Cascaded Global-Context Module (CGCM) in the backbone and a Selective-Scan PAN (SS-PAN) in the neck. An Adaptive Multi-scale Strip (AMS) Block reduces the cost of high-resolution feature extraction, while a Scale-Adaptive DFL (SA-DFL) head reallocates distributional support and regression capacity across scales with only 0.008M additional parameters. Controlled experiments show that matched main-path selective scanning reduces mAP50 by 0.98 pp, whereas off-path CGCM improves the final configuration by 0.67 pp over the three-seed no-CGCM mean; operator controls indicate that this gain is not explained by auxiliary branch capacity alone. ERF analysis further shows that the complete context pathway increases the peripheral energy ratio from 0.008 to 0.090 at stride 8. On VisDrone-2019, ScopeMamba-S achieves 50.8% mAP50 with 3.57M parameters, exceeding YOLOv8s by 10.8 pp while using 32% of its parameters; ScopeMamba-M reaches 52.6% mAP50 with 6.48M parameters. Consistent improvements are also observed on AI-TOD, especially for very-tiny and tiny objects.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2609.10156v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2609.10018v1",
-  "title": "Elastoformer: Enabling Dynamic Adaptivity via Elastic Model Transformation",
-  "authors": [
-   "Sudaksh Kalra",
-   "Dolly Sapra"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-09-09",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.10018v1",
-  "url": "https://arxiv.org/abs/2609.10018v1",
-  "abstract": "EdgeAI systems are increasingly employing computer vision applications to enable intelligent, on-device decision-making in real-time. However, these deployments face highly dynamic operational conditions, with fluctuating constraints on latency, power availability, and memory resources. Deep Neural Networks (DNN), which follow fixed computational execution flows, lack the flexibility to adapt to such variability, resulting in inefficient and suboptimal performance in edge scenarios. This underscores the need for architectures that are not only efficient but also dynamically scalable at runtime. In this paper, we propose Elastoformer: A framework that transforms conventional neural networks (NN) into Elastic NN capable of real-time elastic inference. Unlike the conventional bag-of-models approach, which requires maintaining multiple independent models for different operating conditions, Elastoformer offers a single, modular solution that dynamically switches between multiple modes of operation at runtime, adapting efficiently to the changing computational budgets of edge devices without the overhead of managing separate models. Experiments reveal that our framework achieves up to 85% reduction in computation FLOPs, 50% reduction in latency and 76% reduction in memory overhead, while showcasing the architecture agnostic nature of the framework across both Vision Transformers and CNNs. Our code is available at https://github.com/sudaksh14/Elastoformer.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.AI",
-   "cs.PF"
-  ],
-  "arxiv_id": "2609.10018v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
   ],
   "is_own": false
  }
