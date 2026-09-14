@@ -1,5 +1,168 @@
 [
  {
+  "id": "openalex:W7212285234",
+  "title": "Next frontier of Earth observation: Quantum-enhanced multispectral remote sensing for ultra-low signal environments",
+  "authors": [
+   "Sumanta Das",
+   "Malini Roy Choudhury"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-12",
+  "doi": "10.1016/j.rse.2026.115665",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115665",
+  "abstract": "Optical Earth observation is approaching a fundamental physical limit imposed by photon scarcity, rendering many critical environments, such as polar night regions, dense forest canopies, and optically deep ocean layers, effectively unobservable by classical radiometric sensors. This limitation is not primarily technological but statistical, arising from the assumptions underlying classical photon detection, which fail in ultra-low-light regimes. This study introduces quantum-enhanced multispectral remote sensing (QEMRS) as a fundamentally new observational framework that exploits non-classical photon correlations to extract information below the classical noise floor. Primarily focusing on advances in quantum photonics, we synthesize experimental evidence demonstrating sub-shot-noise detection, coincidence-based measurements, and quantum illumination that remains robust under high loss. The analysis shows a specific radiance regime, approximately 10 −3 to 10 −4 W m −2 sr −1 and below, where classical optical sensing is intrinsically ineffective, yet quantum advantage becomes both meaningful and measurable. To ensure operational relevance, the study demonstrates a two-layer calibration and validation strategy that links SI-traceable radiometry with quantum observables to maintain consistency with existing Earth observation datasets. The study further shows that correlation-based quantum sensing can remain viable despite atmospheric attenuation and decoherence. While near-term deployment is constrained by engineering challenges such as cryogenic operation, power budgets, and duty cycles, these barriers are not fundamental. Overall, QEMRS is positioned as a complementary sensing modality that enables spectral and biogeochemical observations under significantly low-photon environments, opening a new observational domain for Earth and planetary science. However, it does not aim to replace classical optical passive remote sensing and/or other active imaging like synthetic aperture radar (SAR) or light detection and ranging (LiDAR) techniques.",
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Multispectral image",
+   "Earth observation"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7212394315",
+  "title": "Unified knowledge transfer boosts individual tree crown segmentation without scene-specific labels",
+  "authors": [
+   "Jiaqi Yang",
+   "Kyle Kabasares",
+   "Ming Liu",
+   "Taejin Park",
+   "Min Chen"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-12",
+  "doi": "10.1016/j.rse.2026.115646",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115646",
+  "abstract": "Accurate delineation of individual tree crowns is essential for forest inventory, ecosystem monitoring, and climate-informed management. However, most existing deep learning approaches rely on scene-specific annotations that are costly to produce and difficult to generalize across heterogeneous regions and cross-resolution scenarios, particularly when transferring from labeled high-resolution source imagery to unlabeled low-resolution target imagery. To tackle these challenges, we propose UniTree, a unified framework that enables cross-region and cross-resolution (from high-resolution source imagery to unlabeled low-resolution target imagery) individual tree crown segmentation without scene-specific annotations. UniTree integrates three key components: (1) domain knowledge transfer to mitigate geographic heterogeneity through adversarial feature alignment; (2) resolution knowledge transfer, in which a high-resolution teacher distills semantic-, geometric-, and feature-level knowledge to a low-resolution student; and (3) a saliency-to-structure training paradigm that guides learning from salient to structural crown features. Evaluations across multiple test areas in Yosemite National Park, California, demonstrate that UniTree outperforms state-of-the-art (SOTA) methods (DeepLabv3, U-Net, attention-enhanced U-Net, DeepForest, and Detectree2), achieving gains of 1–26 percentage points in mean Intersection over Union and gains of 2–60 percentage points in F1 score. Moreover, analysis across crown-size bins and spectral band combinations reveals that increasing network depth or adding more bands does not necessarily improve segmentation performance. By eliminating the need for scene-specific annotations while maintaining high accuracy and generalization, UniTree offers a scalable solution for automated tree crown delineation, enabling large-scale digital forest inventories and ecological assessments across diverse landscapes.",
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Artificial intelligence",
+   "Tree (set theory)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7212397002",
+  "title": "Reconstructing cloud-free Sentinel-2 time series under complex degradations with state-driven spatio-temporal modeling",
+  "authors": [
+   "Ziyang Lihe",
+   "Qiangqiang Yuan",
+   "Jiang He",
+   "Liupeng Lin",
+   "Xianyu Jin",
+   "Huanfeng Shen",
+   "Liangpei Zhang"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-12",
+  "doi": "10.1016/j.rse.2026.115661",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115661",
+  "abstract": "Satellite Image Time Series (SITS) are indispensable for monitoring complex, long-term Earth surface dynamics. However, the temporal continuity of high temporal frequency optical observations is frequently compromised by severe degradations such as clouds, blur, and sensor noise. Deep learning has driven progress in time-series reconstruction through powerful spatio-temporal modeling. Nevertheless, existing models typically treat this as an isolated cloud-removal task, and perform unconstrained spatio-temporal information aggregation throughout the sequences. These approaches insufficiently model continuous temporal correlation and ignore whether observations are clear or degraded, allowing temporally uncorrelated or degraded features to contaminate the feature aggregation. In this paper, we propose a State-driven Spatio-Temporal Reconstruction approach through Directed Information Routing (STRIDE), designed for the robust reconstruction of long-term SITS under complex degradations. First, the state-aware directed information routing (SDIR) mechanism converts degradation masks into state-aware routing biases. It is introduced to promote information flow from clean observations to degraded ones, and inhibit degraded features from contaminating clean observations. Second, the manifold-mapped temporal evolution (MMTE) mechanism evaluates temporal correlation by balancing linear succession and seasonal periodicity, guiding the network to prioritize temporally relevant features during temporal feature aggregation. Driven by these two mechanisms, the asymmetric spatio-temporal transformer (ASTT) modulates self-attention based on the level of degradation and temporal correlation, encouraging directional feature aggregation. Finally, STRIDE employs an auxiliary degradation estimation module for non-cloud degradations and optionally integrates complementary sensor data, such as synthetic aperture radar (SAR) data. Extensive evaluations demonstrate that our approach achieves robust SITS reconstruction in global scenarios.",
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Synthetic aperture radar",
+   "Feature (linguistics)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7212230975",
+  "title": "Real-time image absolute orientation framework with Optical-GNSS data fusion for lightweight UAVs",
+  "authors": [
+   "Wenhu Qu",
+   "Xiongwu Xiao",
+   "Miaozhong Xu",
+   "Jianya Gong",
+   "Deren Li"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-12",
+  "doi": "10.1016/j.isprsjprs.2026.09.005",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.005",
+  "abstract": "For lightweight unmanned aerial vehicles (UAVs), real-time absolute camera orientation is critical for photogrammetric mapping. However, achieving absolute accuracy under inertial-inaccessible constraints remains challenging due to the scale drift of visual odometry and the non-stationary noise of global positioning measurements. To address these operational challenges, this paper presents a practical hierarchical visual–GNSS fusion framework designed for real-time onboard deployment. The system adopts a decoupled multi-threaded architecture that explicitly separates local state estimation from global optimization to ensure real-time performance on resource-limited platforms. This design avoids tightly coupled optimization schemes in which uncertainty propagation is entangled with nonlinear estimation. Within this framework, an asynchronous filtering module evaluates GNSS statistical consistency using normalized innovation statistics and generates reliability-aware confidence signals. These signals are propagated across estimation layers to modulate the GNSS information matrix in the global factor graph, while soft pose priors provide complementary regularization during intervals of degraded observations. To maintain frame-rate throughput under resource-limited onboard conditions, real-time metric tracking and sliding-window alignment are executed causally on the main thread, while computationally intensive global pose-graph optimization and bundle adjustment are offloaded to an asynchronous background thread for delayed drift refinement. Evaluations on selected public benchmarks and self-collected datasets indicate that the proposed framework yields sub-meter absolute camera positioning accuracy (0.25–0.77 m) under low-overlap, repetitive texture, and non-stationary GNSS degradation. Operating on a lightweight CPU-only platform, the complete system maintains a processing throughput of over 3 FPS for 20-megapixel photogrammetric imagery and 28 FPS for HD video streams, indicating its practical onboard feasibility.",
+  "citation_count": 0,
+  "concepts": [
+   "Computer vision",
+   "Artificial intelligence",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7212393643",
+  "title": "When multimodal fusion helps or hurts: Exploring modality synergy and cross-scene transferability for mangrove species mapping",
+  "authors": [
+   "Hao Wu",
+   "Zhaohui Xue",
+   "Jiahang Liu",
+   "Tengfei Yang",
+   "Ruili Li",
+   "Xiaoxue Shen",
+   "Siyu Qian"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-12",
+  "doi": "10.1016/j.isprsjprs.2026.08.036",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.08.036",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Transferability",
+   "Modality (human–computer interaction)",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7212128570",
   "title": "Monitoring global mangrove spatial evolution and functional degradation using BTSAD and CBPA methods over a 36-year dense Landsat and HLSv2.0 time series",
   "authors": [
@@ -42,7 +205,7 @@
   "year": 2026,
   "date": "2026-09-11",
   "doi": "10.1016/s0924-2716(26)00455-7",
-  "pdf": null,
+  "pdf": "https://www.sciencedirect.com/science/article/pii/S0924271626004557/pdf",
   "url": "https://doi.org/10.1016/s0924-2716(26)00455-7",
   "abstract": null,
   "citation_count": 0,
@@ -52,194 +215,32 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7212186741",
-  "title": "Editorial Board",
-  "authors": [],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-10",
-  "doi": "10.1016/s0034-4257(26)00423-2",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/s0034-4257(26)00423-2",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7212166754",
-  "title": "Four decades of Landsat-based river turbidity reconstruction reveal spatially heterogeneous declines across U.S. rivers",
+  "id": "openalex:W7212295077",
+  "title": "SAAD-SR: A multi-altitude aerial object detection benchmark evaluated using an altitude-conditioned distillation detector",
   "authors": [
-   "Yang Li",
-   "Bo Han",
-   "Ge Liu",
-   "Kaishan Song",
-   "Dongmei Lyu",
-   "Kun� Shi",
-   "Yue Ma",
-   "Shidi Shao",
-   "Yujin Zhou",
-   "Jipeng Zhang",
-   "Heng Lyu"
+   "Muhammad Imad",
+   "Soo Young Shin"
   ],
   "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
   "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-10",
-  "doi": "10.1016/j.isprsjprs.2026.09.007",
+  "date": "2026-09-11",
+  "doi": "10.1016/j.isprsjprs.2026.09.006",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.007",
-  "abstract": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.006",
+  "abstract": "Object detection in aerial imagery is essential for remote sensing applications such as disaster response, traffic monitoring, and security surveillance. However, detection reliability is often degraded by flight height variation, environmental variability, and reduced object pixel support. These challenges are further compounded by the limitations of existing UAV datasets used for training and evaluation. Although existing UAV datasets have advanced aerial perception research, many lack explicit altitude metadata, provide limited semantic diversity, or contain insufficient real-world variability, thereby restricting the systematic evaluation of altitude-induced scale-regime changes. Consequently, the detector behavior under repeatable flight-height regimes remains insufficiently characterized. To address these challenges, the Scale-Aware Aerial Dataset for Scale Robustness (SAAD–SR) is introduced as a large-scale altitude-stratified benchmark comprising 154K UAV frames, of which 104,255 images are fully annotated for object detection, yielding approximately 1.6M labeled object instances across eight classes under diverse illumination, weather, and scene conditions. The dataset is organized into 15 m, 25 m, and 45 m altitude tiers using synchronized altitude metadata to support altitude-stratified training and evaluation, and the benchmark is evaluated using UAV-oriented and transformer-based detectors. Building on SAAD–SR, the YOLO Scale-Robust (YOLO–SR) framework incorporates the corresponding altitude-regime conditioning value into intermediate features through scalar-conditioned feature modulation and altitude-conditioned teacher–student distillation. Furthermore, a Scale Robustness Index (SRI) is used to quantify detection stability across altitude-induced scale regimes. YOLO–SR achieves a pooled overall validation mAP@0.5 of 0.708 and a mean altitude-wise mAP@0.5 of 0.658, with an SRI of 0.991, while reaching 75.5 FPS in offline evaluation and 13 FPS during onboard UAV operation.",
   "citation_count": 0,
   "concepts": [
-   "Turbidity",
-   "Environmental science",
-   "Satellite imagery"
+   "Object detection",
+   "Benchmark (surveying)",
+   "Artificial intelligence"
   ],
   "source": "openalex",
   "topics": [
    "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7212181954",
-  "title": "WheatScoper: A lightweight organ-based framework for multi-view wheat phenotyping using time-series RGB images",
-  "authors": [
-   "Haotian Deng",
-   "Xiaomiao Tian",
-   "Yufeng Zhang",
-   "Yong Ren",
-   "Guoqiang Yuan",
-   "Bingxi Qin",
-   "Honghao Zhou",
-   "Jiawei Chen",
-   "Xiao Wang",
-   "Qin Zhou",
-   "Jian Cai",
-   "Yingxin Zhong",
-   "Mei Huang",
-   "Qixin Sun",
-   "Dong Jiang",
-   "Yingyin Yao",
-   "Qing Li"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-10",
-  "doi": "10.1016/j.isprsjprs.2026.08.039",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.08.039",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Artificial intelligence",
-   "Computer vision",
-   "Computer science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7212194536",
-  "title": "An ensemble version of fire potential index (eFPI) integrating seasonal variability in sub-pixel fuel composition",
-  "authors": [
-   "Tuo Feng",
-   "Dar A. Roberts",
-   "Max A. Moritz",
-   "S. Sweeney",
-   "Y. Zhan",
-   "Alan T. Murray"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-10",
-  "doi": "10.1016/j.isprsjprs.2026.09.010",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.010",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Environmental science",
-   "Index (typography)",
-   "Composition (language)"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7212175577",
-  "title": "Nonlinear responses of net ecosystem productivity to heatwaves over the Qinghai–Tibetan Plateau: insights from climate and vegetation",
-  "authors": [
-   "Hongzhe Li",
-   "Yi He",
-   "Qing Zhu",
-   "Lifeng Zhang",
-   "Li Quan"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-10",
-  "doi": "10.1080/15481603.2026.2728311",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2728311",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Environmental science",
-   "Vegetation (pathology)",
-   "Ecosystem"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7212108668",
-  "title": "Q-DRFormer: Query-Position Mapping Flow Prediction with Progressive Refinement for Document Rectification",
-  "authors": [
-   "Jiajie Li",
-   "Jiaxin Zhang",
-   "Jianwei Guo",
-   "Q. Zhang",
-   "Xin Zheng",
-   "Qian Yin",
-   "Wenyi Zeng"
-  ],
-  "venue": "ACM Transactions on Graphics",
-  "venue_short": "TOG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-10",
-  "doi": "10.1145/3845993",
-  "pdf": null,
-  "url": "https://doi.org/10.1145/3845993",
-  "abstract": "Document image rectification aims to restore images degraded by geometric distortions. Existing U-shaped encoder-decoder methods rely on hierarchical upsampling operations to recover dense flow fields, which provide limited control over the displacement at individual grid positions, leading to spatial inconsistency and poor detail restoration. To address this issue, we propose Q‑DRFormer, a novel framework that formulates rectification as a set prediction task. Specifically, we design a set of queries, where each query corresponds to a position in the flow field grid and is responsible for regressing a 2D anchor point that indicates the sampling position in the distorted input. This one-to-one design establishes a deterministic query-position mapping, enabling fine-grained control and improving the spatial consistency of the predicted flow field. Exploiting this deterministic correspondence, we further propose a progressive flow refinement strategy that progressively refines anchor points through layer-wise offset prediction to enhance fine-grained restoration. Moreover, considering the lack of downstream-task-oriented evaluation in existing studies, we apply the rectification method to scene table detection and contribute a real-world test set along with corresponding evaluation metrics to fill this gap. Extensive experiments demonstrate that Q-DRFormer outperforms existing methods. The code is available at https://github.com/vvvvvair/Q-DRFormer.",
-  "citation_count": 0,
-  "concepts": [
-   "Rectification",
-   "Computer science",
-   "Grid"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
+   "计算机视觉",
+   "机器学习"
   ],
   "is_own": false
  }
