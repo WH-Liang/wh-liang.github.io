@@ -280,6 +280,37 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7212108132",
+  "title": "EgoMamba: Fusing hand-guided spatial cues and multi-scale temporal context for efficient egocentric action recognition",
+  "authors": [
+   "Lin Sun",
+   "Qinhan Yang",
+   "Hongshan Yu",
+   "Yan Zheng",
+   "Naveed Akhtar"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-11",
+  "doi": "10.1016/j.patcog.2026.114897",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.114897",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Artificial intelligence",
+   "Action (physics)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7212186741",
   "title": "Editorial Board",
   "authors": [],
@@ -1017,6 +1048,40 @@
   "topics": [
    "机器学习",
    "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7211945063",
+  "title": "Text Prior-Guided Cell Alignment with Transformer for Robust Table Structure Recognition",
+  "authors": [
+   "Jiajie Li",
+   "Jiaxin Zhang",
+   "Qian Yin",
+   "Q. Zhang",
+   "Xin Zheng",
+   "Wenyi Zeng",
+   "Ping Guo"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-08",
+  "doi": "10.1016/j.patcog.2026.114832",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.114832",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Transformer",
+   "Decoding methods"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
   ],
   "is_own": false
  },
@@ -2262,6 +2327,35 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7208733550",
+  "title": "Stability-aware Shapley-guided MoE for event-aligned EEG anomaly early warning",
+  "authors": [
+   "Qian Chen",
+   "Min Fang",
+   "Tingting Chen",
+   "Yujun Feng",
+   "Jianqiang Li"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-04",
+  "doi": "10.1016/j.patcog.2026.114760",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.114760",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Electroencephalography",
+   "Artificial intelligence"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7208778317",
   "title": "An efficient spectral clustering algorithm based on adaptive granular ball anchors",
   "authors": [
@@ -2464,97 +2558,6 @@
   "source": "openalex",
   "topics": [
    "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7207711105",
-  "title": "Robust adaptation of visual representations for few-shot class-incremental learning via geometric calibration",
-  "authors": [
-   "Tao Zhang",
-   "C.L. Philip Chen",
-   "Xiwen Luo",
-   "Chenguang Yang",
-   "Jiehao Li"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-03",
-  "doi": "10.1016/j.patcog.2026.114764",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.114764",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Robustness (evolution)",
-   "Artificial intelligence",
-   "Computer science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7207727042",
-  "title": "ScDiff: Spatially-constrained Diffusion for customized semantic typography with Adaptive Topological Supervision",
-  "authors": [
-   "Wenxuan Liu",
-   "Kunchong Shi",
-   "Jing Zhang"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-03",
-  "doi": "10.1016/j.patcog.2026.114783",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.114783",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Diffusion",
-   "Typography"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7207753688",
-  "title": "Memory-augmented dual-pathway model for temporal speech emotion recognition",
-  "authors": [
-   "Dongdong Li",
-   "Tao Xie",
-   "JiangTian Shen",
-   "Zhe Wang"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-03",
-  "doi": "10.1016/j.patcog.2026.114727",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.114727",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Salient",
-   "Benchmark (surveying)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
   ],
   "is_own": false
  },
@@ -7862,7 +7865,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1007/s11263-026-02970-5",
   "abstract": null,
-  "citation_count": 0,
+  "citation_count": 1,
   "concepts": [
    "Computer science",
    "Representation (politics)",
