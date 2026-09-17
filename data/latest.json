@@ -1,29 +1,29 @@
 [
  {
-  "id": "openalex:W7212721385",
-  "title": "Deep learning-based forest disturbance detection for Europe using Landsat time series",
+  "id": "openalex:W7213240233",
+  "title": "Structure-preserving feature disentanglement with an adaptive transformer for unsupervised cross-domain object detection in heterogeneous SAR imagery",
   "authors": [
-   "Alba Viana-Soto",
-   "Jorunn Anna Mense",
-   "Katja Kowalski",
-   "Jan Pauls",
-   "Fabian Gieseke",
-   "Cornelius Senf"
+   "Siyuan Zhao",
+   "Kaiming Li",
+   "Ying Luo",
+   "Qiang Wang",
+   "Xiaolin Zhao",
+   "Zenghui Zhang"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-14",
-  "doi": "10.1016/j.rse.2026.115670",
+  "date": "2026-09-16",
+  "doi": "10.1016/j.isprsjprs.2026.08.044",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115670",
-  "abstract": "Forests in Europe are under growing pressure from climate extremes and land use intensification. Long-term monitoring is therefore required to understand disturbance dynamics, yet producing temporally and spatially consistent disturbance maps at continental scales remains challenging. Emerging deep learning models might improve upon existing models by learning spectral-temporal patterns relevant for disturbance detection directly from the underlying data, while simultaneously ignoring noise. Despite their promise, deep learning models have not yet been used for continental-scale disturbance mapping. Here, we implemented two temporal deep learning models (TempCNN and 1D U-Net) for annual forest disturbance detection across all forests of continental Europe using Landsat time series from 1985 to 2024. We evaluated the performance of both models for detecting forest disturbances using short temporal subsequences from the whole time series and compared them to existing approaches based on Random Forest. The 1D U-Net outperformed the TempCNN and Random Forest models across variable classification scenarios. The highest performance was achieved using the 5-year input window. Using the 1D U-Net model, we generated annual forest disturbance maps at 30 m resolution for Europe since 1985, with a total disturbed forest area of 48.5 Mha. Map validation using an independent validation dataset yielded an F1 score of 0.81 in spatial disturbance detection, with balanced commission and omission errors (18.4% and 19.8%, respectively), and less variability in commission and omission errors over time than previous maps and alternative models. Using a temporal convolutional architecture thus led to more consistent disturbance mapping across space and time compared to previous approaches. The proposed model is further designed to support updates as new observations arrive and to operate effectively with short temporal sequences, facilitating operational forest disturbance monitoring across Europe.",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.08.044",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Disturbance (geology)",
-   "Random forest",
-   "Environmental science"
+   "Computer science",
+   "Artificial intelligence",
+   "Computer vision"
   ],
   "source": "openalex",
   "topics": [
@@ -34,72 +34,65 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7212741994",
-  "title": "First vegetation optical depth product retrieved from FengYun-3D X-band observations",
+  "id": "openalex:W7213280479",
+  "title": "Toward scalable organ-level 3D plant segmentation: A systematic and quantitative review through the lens of the data-algorithm-computing triangle",
   "authors": [
-   "Lei Fan",
-   "Mengjia Wang",
-   "Dongbo Chen",
-   "Philippe Ciais",
-   "Frédéric Frappart",
-   "Jiangyuan Zeng",
-   "Gabrielle De Lannoy",
-   "Jian Peng",
-   "Xiuqing Hu",
-   "Ronghan Xu",
-   "Xin Li",
-   "Xiaojun Li",
-   "Xiangzhuo Liu",
-   "Yao Xiao",
-   "Jean-Pierre Wigneron"
+   "Ruiming Du",
+   "Guangxun Zhai",
+   "Tian Qiu",
+   "Shichao Jin",
+   "Dawei Li",
+   "Zhihong Ma",
+   "Yongliang Qiao",
+   "Junfeng Gao",
+   "Haiyan Cen",
+   "Yu Jiang"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-14",
-  "doi": "10.1016/j.rse.2026.115647",
+  "date": "2026-09-16",
+  "doi": "10.1016/j.isprsjprs.2026.09.003",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115647",
-  "abstract": "Vegetation Optical Depth (VOD) is an essential variable for monitoring global vegetation biomass and water content. However, accurately retrieving VOD from satellite microwave observations poses challenges due to discrepancies in the parameterization of the microwave radiative transfer model. The two most uncertain parameters are the effective scattering albedo and soil surface roughness, which vary across ecosystems but are often treated as global constants in most existing approaches. The daily X-band VOD (X-VOD) at a spatial resolution of 0.25° during 2022–2024 is retrieved from FengYun-3D (FY-3D) microwave brightness temperature observations, representing the first FY-3D-based X-VOD product. The vegetation scattering albedo and soil roughness parameters in the radiative transfer model are calibrated using this methodology. In this calibration process, ground-based soil moisture (SM) observations and soil moisture estimates derived from the ECMWF Reanalysis 5 (ERA5) dataset were employed as constraints to improve the accuracy and reliability of the retrieval algorithm. The FY-3D X-VOD exhibits strong consistency with commonly used vegetation-related variables, including aboveground biomass, tree cover, canopy height, as well as optical vegetation indices such as Normalized Difference Vegetation Index, Enhanced Vegetation Index, and Leaf Area Index, with spatial correlation coefficients ranging from 0.74 to 0.86. In contrast, the correlations of these vegetation variables with AMSR-E/2-based X-VOD products are lower, with values of 0.66–0.80 for Land Parameter Data Record and 0.57–0.72 for Land Parameter Retrieval Model. In terms of temporal dynamics, FY-3D X-VOD also shows comparable or improved correlation with optical vegetation indices. For instance, with respect to EVI derived from the MODIS sensor (MOD13A2 V6.1 product), FY-3D X-VOD exhibits the highest temporal correlation in 44.7% of globally vegetated areas, followed by LPDR (37.2%) and LPRM (11.7%). Additionally, FY-3D X-VOD shows potential for monitoring forest loss across diverse forest types. This first FY-3D X-VOD product expands the sources of global microwave vegetation monitoring and demonstrates great potential for studying ecosystem dynamics, climate impacts, and agricultural applications.",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.003",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Environmental science",
-   "Remote sensing",
-   "Vegetation (pathology)"
+   "Computer science",
+   "Lens (geology)",
+   "Scalability"
   ],
   "source": "openalex",
   "topics": [
-   "遥感",
    "计算机视觉",
    "三维与几何"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7212611274",
-  "title": "MambaMPD: a mamba-driven segmentation framework for marine pollution detection from remote sensing imagery",
+  "id": "openalex:W7213326123",
+  "title": "A novel change homogenizing flood index and an expedited locally tuned Markov random field model for unsupervised rural floodwater detection in sentinel-1 data: An application to flood impact assessment",
   "authors": [
-   "Shuaiyu Chen",
-   "Wei Han",
-   "Peng Ren",
-   "Chunbo Luo",
-   "Zeyu Fu"
+   "Amin Mohsenifar",
+   "Ali Mohammadzadeh",
+   "Armin Moghimi",
+   "Sadegh Jamali"
   ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-14",
-  "doi": "10.1080/15481603.2026.2730893",
+  "date": "2026-09-16",
+  "doi": "10.1016/j.isprsjprs.2026.08.021",
   "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2730893",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.08.021",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Remote sensing",
-   "Segmentation",
-   "Environmental science"
+   "Flood myth",
+   "Environmental science",
+   "Index (typography)"
   ],
   "source": "openalex",
   "topics": [
@@ -109,150 +102,173 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7212555709",
-  "title": "A Class of C 2 Point-Normal Subdivision Surfaces and Their Exact Evaluation at Arbitrary Parameters",
+  "id": "openalex:W7213331420",
+  "title": "Context-aware quantile baselines for disturbance detection in non-stationary short-rotation forest plantations",
   "authors": [
-   "Xunnian Yang"
+   "Guerric Le Maire",
+   "Florian de Boissieu",
+   "Clayton Alcarde Álvares",
+   "Henrique Ferraco Scolforo",
+   "Evandro Nunes Miranda",
+   "Vitória Barbosa Ferreira",
+   "Jean‐Baptiste Féret",
+   "Joannès Guillemot",
+   "José Luiz Stape"
   ],
-  "venue": "ACM Transactions on Graphics",
-  "venue_short": "TOG",
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-14",
-  "doi": "10.1145/3847304",
+  "date": "2026-09-16",
+  "doi": "10.1016/j.jag.2026.105555",
   "pdf": null,
-  "url": "https://doi.org/10.1145/3847304",
-  "abstract": "This paper proposes techniques to construct and evaluate C 2 subdivision surfaces under control of quadrilateral meshes with unit normal vectors at the vertices. An improved C 2 modification of the Catmull-Clark subdivision scheme is first given by tuning the eigenvalues of subdivision matrices. Just like the existing C 2 modified Catmull-Clark subdivision, the improved scheme can also generate C 2 subdivision surfaces with vanishing curvature at the extraordinary points, but the flat regions near the extraordinary points have been significantly reduced. By independently applying the new modified subdivision scheme to control points and control normals of the control meshes, a class of C 2 point-normal (PN) subdivision surfaces is defined by updating the limit positions of subdivided points along the limit vectors of subdivided normals. Unlike their linear counterparts, PN subdivision surfaces can approximate control points with even higher-order accuracy while spheres and circular cylinders can be reproduced exactly. The curvatures at the extraordinary points of C 2 PN subdivision surfaces are generally non-vanishing, unless the surfaces reduce to linear subdivision surfaces. Like the classical Catmull-Clark subdivision surfaces, the C 2 modified Catmull-Clark subdivision surfaces and the C 2 PN Catmull-Clark subdivision surfaces can be evaluated exactly at arbitrary parameters. Numerical examples also demonstrate the effectiveness of the proposed techniques for modeling and evaluating curvature-continuous subdivision surfaces.",
+  "url": "https://doi.org/10.1016/j.jag.2026.105555",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Subdivision",
-   "Subdivision surface",
-   "Mathematics"
+   "Disturbance (geology)",
+   "Quantile",
+   "Geography"
   ],
   "source": "openalex",
   "topics": [
-   "计算机视觉",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213283296",
+  "title": "High-resolution land cover mapping from coarse labels via a noisy label learning-guided cross-scale framework",
+  "authors": [
+   "Xiangyu Nie",
+   "Cong Lin",
+   "Wei Zhang",
+   "Hong Fang",
+   "Zhen Dong",
+   "Sicong Liu",
+   "Zhaohui Xue"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-16",
+  "doi": "10.1080/15481603.2026.2726002",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2726002",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Land cover",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W4396241983",
+  "title": "Constellation Dataset: Benchmarking High-Altitude Object Detection for an Urban Intersection",
+  "authors": [
+   "Mehmet Kerem Türkcan",
+   "Chengbo Zang",
+   "Sanjeev Narasimhan",
+   "Gyung Hyun Je",
+   "Bo Yu",
+   "Mahshid Ghasemi",
+   "Javad Ghaderi",
+   "Gil Zussman",
+   "Zoran Kostić"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-16",
+  "doi": "10.1007/s11263-026-03029-1",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03029-1",
+  "abstract": "Abstract As smart cities evolve, privacy-preserving edge processing at traffic intersections has become essential for real-time safety applications while reducing data transmission and centralized computation. High-altitude cameras with on-device inference provide an optimal solution that respects privacy while delivering low-latency results. We introduce Constellation, a dataset of 13K images for research on object detection in dense urban streetscapes from high-elevation cameras across varied temporal conditions. The dataset addresses challenges in small object detection, particularly for pedestrians observed from elevated positions with limited pixel footprints. Our evaluation of contemporary object detection architectures reveals a 10% lower average precision (AP) for small pedestrians compared to vehicles. Pretraining models on structurally similar datasets increases mean AP by 1.8%. Domain-specific data augmentations and pseudo-labeled data from top-performing models further enhance performance. We evaluate deployment viability on resource-constrained edge devices including Jetson Orin, Raspberry Pi 5, and mobile platforms, demonstrating feasibility of privacy-preserving on-device processing. Comparing models trained on data collected across different time intervals reveals performance drift due to changing intersection conditions. The best-performing model achieves 92.0% pedestrian AP with 7.08 ms inference time on A100 machines, and 95.4% mAP. The best-performing edge model achieves a similar performance, with Jetson Orin Nano achieving 94.5% mAP and 27.5ms inference time using TensorRT.",
+  "citation_count": 1,
+  "concepts": [
+   "Constellation",
+   "Benchmarking",
+   "Intersection (aeronautics)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213289375",
+  "title": "Multitemporal InSAR analysis of long-term creep and active thickness changes in a paleo riverbank landslide driven by anomalous water levels",
+  "authors": [
+   "Huiyuan Luo",
+   "Chuanhao Pu",
+   "Lu Zhong",
+   "Xuanmei Fan",
+   "Qiang Xu"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-15",
+  "doi": "10.1016/j.rse.2026.115657",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115657",
+  "abstract": "Riverbank landslide creep is strongly influenced by environmental drivers such as river water level and rainfall, which can modify both surface kinematics reflected by time-varying three-dimensional (3D) deformation and the active thickness of landslides. However, how these changes respond to abrupt river perturbations, such as river-damming events, remains poorly documented. Here, we apply multitemporal Interferometric Synthetic Aperture Radar (InSAR) to investigate the Xiongba paleo-landslide along the Jinsha River, focusing on its response to two upstream river-damming events on 11 October and 3 November 2018. Our results show that the InSAR-derived 3D displacement time series, constrained by the aspect-parallel flow (APF) assumption, strongly agrees with Global Positioning System (GPS) measurements. With periodic components removed, the quasi-3D deformation field combined with mass-conservation inversion and borehole constraints enabled reliable active-thickness estimation. Crucially, staged InSAR monitoring reveals a transition of the Xiongba landslide from slow to accelerated creep, directly driven by anomalous water-level fluctuations. Spatially, deformation reorganized with pronounced acceleration at the right leading edge, where the magnitude of the three-dimensional displacement rate at a representative point increased from 0.045 m/a to 0.177 m/a. The accelerated creep increased the inverted active thickness from 36.8 m and 38.9 m to 48.9 m and 45.8 m at the two borehole locations, respectively, indicating deeper mobilization of the landslide mass. This observational evidence demonstrates that extreme hydrological perturbations can push a slow-moving landslide into an accelerated stage, providing critical insights for interpreting precursory signals and improving proactive early warning along large river valleys.",
+  "citation_count": 0,
+  "concepts": [
+   "Geology",
+   "Interferometric synthetic aperture radar",
+   "Landslide"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "机器学习",
    "三维与几何"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2609.15773v1",
-  "title": "Transfer Learning for Socioeconomic Estimation in Forced-Displacement Settings",
+  "id": "openalex:W7213296259",
+  "title": "A knowledge-guided machine learning framework for cross-scale wheat harvest monitoring via sample augmentation",
   "authors": [
-   "Steven Ndung'u",
-   "Adel Daoud",
-   "Ismael Yacoubou Djima",
-   "Hai-Anh H. Dang",
-   "Patrick Michael Brock"
+   "Mingchao Shao",
+   "Chongya Jiang",
+   "Jingwei An",
+   "Haokai Zhu",
+   "Yue Li",
+   "Xia Yao",
+   "Tao Cheng",
+   "Hengbiao Zheng",
+   "Weixing Cao",
+   "Yan Zhu"
   ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-14",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.15773v1",
-  "url": "https://arxiv.org/abs/2609.15773v1",
-  "abstract": "Progress in inclusive household surveys has strengthened socioeconomic evidence for forcibly displaced populations, providing indispensable benchmarks on living conditions and welfare. However, these surveys remain resource-intensive and periodic, while conditions can change between rounds, particularly in settings affected by fragility, conflict, and violence. More frequently updated, spatially granular complementary evidence is therefore needed to identify where socioeconomic conditions may be changing between survey rounds and to inform operational prioritization. Earth observation and machine learning offer a scalable source of spatially explicit socioeconomic information. However, tools developed for general populations have not been systematically adapted and evaluated in forced displacement settings, where living conditions, settlement patterns, and displacement impacts may differ substantially. We address this gap by adapting a multimodal spatiotemporal vision transformer, pretrained on Demographic and Health Survey data from approximately 1.2 million households across 36 African countries, to forced displacement and host community settings in South Sudan, Cameroon, and Zambia. We develop and evaluate the updated, adapted model using socioeconomic indices derived from UNHCR FDS and RMS data. Our results show that satellite-derived geospatial covariates explain up to 66% of the variation in socioeconomic outcomes in camp-intersecting grids, with a mean absolute error (MAE) of 4.37 index points, and 41% in non-camp-intersecting areas, with an MAE of 5.41. The framework complements and adds value to periodic household surveys by filling critical spatial and temporal data gaps with regularly updated, model-based socioeconomic estimates. These estimates sustain insight between survey rounds and support timely humanitarian prioritization and field verification.",
+  "date": "2026-09-15",
+  "doi": "10.1016/j.rse.2026.115671",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115671",
+  "abstract": "Accurate monitoring of wheat harvest is crucial for precision agriculture and ensuring food security. However, rapid changes in land surface composition during the harvest period in intensive agricultural regions make it difficult to obtain sufficiently high-confidence ground samples, limiting the performance and generalization of data-driven remote sensing methods. Therefore, this study proposes a Knowledge-Guided Machine Learning (KGML) framework that integrates multi-satellite Earth observation data (PlanetScope, Sentinel-2, and MODIS) to monitor harvest from the field to regional scales. Ground data were collected using vehicle-mounted cameras and smartphones during the 2023 and 2024 wheat harvest periods. The results showed that combining spectral knowledge rules with a Random Forest model (regional accuracy >0.80) generated numerous high-confidence augmented samples from PlanetScope imagery. The augmented dataset was used to train a Hybrid CNN-Transformer-LSTM (HCTL) model with two pathways: Sentinel-2 classification for field-level harvest mapping (overall accuracy = 0.93) and MODIS regression for sub-pixel harvest fraction estimation, which showed high agreement with PlanetScope-derived harvest fractions (R 2 = 0.97, RMSE = 0.07, rRMSE = 0.15). The harvest dates derived from the MODIS harvest fraction time series showed high consistency with field observations (R 2 = 0.82, RMSE = 1.30 days). This framework provides an effective solution for wheat harvest monitoring by bridging the gap between limited ground-truth data and multi-scale satellite observations, thereby supporting food security assessments and informed agricultural management decisions.",
   "citation_count": 0,
   "concepts": [
-   "cs.LG",
-   "cs.AI"
+   "Precision agriculture",
+   "Remote sensing",
+   "Environmental science"
   ],
-  "arxiv_id": "2609.15773v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2609.15676v1",
-  "title": "MambaMPD: A Mamba-Driven Segmentation Framework for Marine Pollution Detection from Remote Sensing Imagery",
-  "authors": [
-   "Shuaiyu Chen",
-   "Wei Han",
-   "Peng Ren",
-   "Chunbo Luo",
-   "Zeyu Fu"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-09-14",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.15676v1",
-  "url": "https://arxiv.org/abs/2609.15676v1",
-  "abstract": "Accurate marine pollution detection (MPD) is essential for protecting coastal ecosystems and marine biodiversity. Vision Mamba models have shown promise in remote-sensing semantic segmentation by efficiently capturing long-range dependencies and global context, yet their potential for MPD remains underexplored. MPD is particularly challenging because of low signal-to-noise ratios, fragmented pollution patterns, and indistinct boundaries caused by the visual similarity between pollutants and the surrounding sea. To address these issues, we propose MambaMPD, an enhanced Mamba-based framework incorporating two complementary structural priors: Frequency-Aware Augmentation (FAA) and multi-scale Edge-Guided Attention (EGA). FAA integrates wavelet transforms into the encoder to decompose features into multi-scale frequency subbands, enabling the model to capture low-frequency contextual semantics and high-frequency structural details needed to identify small, low-contrast, and irregular pollution patterns. EGA adaptively fuses hierarchical, Laplacian-derived boundary cues with deep semantic representations, refining encoder features before decoding to sharpen boundaries and reduce ambiguity in visually confusing, spatially fragmented scenes. Together, these modules improve sensitivity to subtle pollution signals while preserving fine boundary structures. A U-Net-style decoder with squeeze-and-excitation attention and deep supervision progressively restores and refines semantic and spatial information across scales. Extensive experiments on two benchmark MPD datasets show that MambaMPD achieves higher mIoU than competing methods while requiring substantially less computation than foundation-model-based approaches. On MADOS, it improves F1 by 3.6% over OSDMamba; on M4D, it raises Oil Spill IoU by 6.82% over TransOilSeg.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2609.15676v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2609.15579v1",
-  "title": "What a gated sensing pipeline never looks at: bandwidth reduction and the misses behind it",
-  "authors": [
-   "Raghu Venkat",
-   "Tricha Anjali"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-09-14",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.15579v1",
-  "url": "https://arxiv.org/abs/2609.15579v1",
-  "abstract": "An airborne sensor on a contested link cannot send video, so the appealing move is to send findings instead and report the ratio between the two. We evaluate a gated sensing pipeline that does this, combining learned object detection and image-text comparison with deterministic scheduling, gating, evidence accumulation and transmission rules. On staged footage with the semantic stage live it sends 38,736 bits over 211 s, a reduction of 41,977x, and names 1 of 4 staged events with no false report. That detection has since been superseded: a correction to how the tracker measures speed removed the measurement artefact the normality model had been learning from, and the flight no longer warms. Under the corrected code the pipeline names 1 of 7 staged events across four flights, and we report both. On a control flight where nothing was staged it reports nothing, a reduction of 155,830x: the largest number in the study and the least informative, because a reduction ratio measures the scene. The mechanisms that produce the reduction also decide which observations ever reach a decision, so the two cannot be reported apart. We give a tick-level trace of one flight (3,187 rows) that places each of three missed events at the stage where it stopped progressing: one produced no track, one failed the structural place test at 0.129, and one passed 539 structural ticks but reached only 3.192 against a boundary of 3.807. We also report one instance of a known failure mode, an online normality model absorbing the object it will later judge, measured against the threshold that object then failed. The evidence is one detection and six misses across four staged flights, beside one clean control, and we treat it as a case study. We give the reproduction protocol and generated results, identify which supporting artifacts are not distributed, and state which experiments did not run.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2609.15579v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2609.15485v1",
-  "title": "Data-driven Prediction of Satellite-observed Avalanche Activity from Snowpack Simulations",
-  "authors": [
-   "Jakob Grahn",
-   "Filippo Maria Bianchi",
-   "Bert Kruyt",
-   "Karsten Müller"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-09-14",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.15485v1",
-  "url": "https://arxiv.org/abs/2609.15485v1",
-  "abstract": "Avalanche forecasting requires knowledge of snowpack conditions and recent avalanche activity, but field observations are sparse across large mountain regions. We explore whether SNOWPACK simulations can predict avalanche activity mapped by synthetic aperture radar (SAR). We compiled five winters of Sentinel-1 avalanche detections across Norway and parts of Sweden, alongside SNOWPACK simulations forced by numerical weather predictions on a 20 x 20 km grid at different elevations and predefined slope angles. A transformer used five days of SNOWPACK outputs to predict the following day's SAR-detected Avalanche Activity Index (SAR-AAI). This index weights larger debris more heavily, spreads detections across possible occurrence dates and normalises by modelled runout area. The model was trained on four winters and evaluated on one validation winter. Regional mean predicted and reference SAR-AAI correlated at r = 0.803 after averaging over complete six-day periods. The model followed broad changes in time and space but produced smoother predictions and underestimated the strongest activity. Agreement at the 20 km cell scale was weaker (r = 0.549) after the same averaging. These results come from a single training run without evaluation on an untouched winter. Satellite observations also contain missed and false detections and uncertain timing. The results therefore do not establish operational forecast skill, but suggest that regional SNOWPACK simulations contain information about broad variations in satellite-observed avalanche activity.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.LG"
-  ],
-  "arxiv_id": "2609.15485v1",
-  "source": "arxiv",
+  "source": "openalex",
   "topics": [
    "遥感",
    "计算机视觉",
