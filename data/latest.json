@@ -1,278 +1,263 @@
 [
  {
-  "id": "openalex:W7213240233",
-  "title": "Structure-preserving feature disentanglement with an adaptive transformer for unsupervised cross-domain object detection in heterogeneous SAR imagery",
+  "id": "openalex:W7213445290",
+  "title": "Using ICESat-2 ATL08 heights and Landsat time series to assess the age-height relationship of southern yellow pines in the US",
   "authors": [
-   "Siyuan Zhao",
-   "Kaiming Li",
-   "Ying Luo",
-   "Qiang Wang",
-   "Xiaolin Zhao",
-   "Zenghui Zhang"
+   "Sonia Sharma Banjade",
+   "Randolph H. Wynne",
+   "Valerie A. Thomas",
+   "Patrick C. Green",
+   "Todd A. Schroeder"
   ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-16",
-  "doi": "10.1016/j.isprsjprs.2026.08.044",
+  "date": "2026-09-17",
+  "doi": "10.1016/j.rse.2026.115677",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.08.044",
+  "url": "https://doi.org/10.1016/j.rse.2026.115677",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Computer science",
-   "Artificial intelligence",
-   "Computer vision"
+   "Remote sensing",
+   "Series (stratigraphy)",
+   "Environmental science"
   ],
   "source": "openalex",
   "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
+   "遥感"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7213280479",
-  "title": "Toward scalable organ-level 3D plant segmentation: A systematic and quantitative review through the lens of the data-algorithm-computing triangle",
+  "id": "openalex:W7213462254",
+  "title": "Urban building height mapping in Beijing-Tianjin-Hebei megalopolis by synergy of spaceborne LiDAR and multisource geospatial datasets",
   "authors": [
-   "Ruiming Du",
-   "Guangxun Zhai",
-   "Tian Qiu",
-   "Shichao Jin",
-   "Dawei Li",
-   "Zhihong Ma",
-   "Yongliang Qiao",
-   "Junfeng Gao",
-   "Haiyan Cen",
-   "Yu Jiang"
+   "Jieying Lao",
+   "Sheng Nie",
+   "Cheng Wang",
+   "Xiaohuan Xi",
+   "Xiaoxiao Zhu"
   ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-16",
-  "doi": "10.1016/j.isprsjprs.2026.09.003",
+  "date": "2026-09-17",
+  "doi": "10.1016/j.rse.2026.115658",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.003",
+  "url": "https://doi.org/10.1016/j.rse.2026.115658",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Computer science",
-   "Lens (geology)",
-   "Scalability"
+   "Remote sensing",
+   "Megalopolis",
+   "Lidar"
   ],
   "source": "openalex",
   "topics": [
-   "计算机视觉",
+   "遥感",
    "三维与几何"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7213326123",
-  "title": "A novel change homogenizing flood index and an expedited locally tuned Markov random field model for unsupervised rural floodwater detection in sentinel-1 data: An application to flood impact assessment",
+  "id": "openalex:W7213471975",
+  "title": "Time and tide: Mapping the changing 3D shape of Australia's dynamic intertidal zone using time series satellite data",
   "authors": [
-   "Amin Mohsenifar",
-   "Ali Mohammadzadeh",
-   "Armin Moghimi",
-   "Sadegh Jamali"
+   "Robbi Bishop‐Taylor",
+   "Claire Phillips",
+   "Stephen Sagar",
+   "V. Newey"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-17",
+  "doi": "10.1016/j.rse.2026.115663",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115663",
+  "abstract": "The intertidal zone is the dynamic boundary between land and sea, where regular tidal inundation creates complex coastal environments that support critical ecosystem services and ecological habitats. Despite their importance and vulnerability to climate change and coastal development, data describing the spatial extent and three-dimensional structure of intertidal environments remain limited. Recent advances in Earth Observation (EO) have enabled the first continental to global-scale maps of intertidal extent and elevation. However, existing approaches are constrained by coarse spatial detail, limited scalability, or static representations of highly dynamic coastal systems. Here, we present Digital Earth Australia (DEA) Intertidal, a new EO method for mapping three-dimensional intertidal elevation through time and at continental scale. The approach integrates multi-sensor Landsat and Sentinel-2 data with global tide modelling to analyse subtle, tide-driven changes in terrain wetness at the pixel level. This pixel-based approach requires no in-situ calibration data, and enables extraction of fine-scale morphological detail that cannot be resolved using traditional waterline-based approaches. We demonstrate our approach with a continental-scale application across the entire Australian coastline, encompassing some of the world's most complex tidal regimes and extensive intertidal habitats. By validating our results against a large, multi-temporal independent dataset, we demonstrate consistently high performance across diverse tidal environments and highlight key strengths and limitations of the approach. Compared to previous continental-scale efforts, DEA Intertidal delivers improved spatial detail while requiring substantially fewer temporal observations to generate accurate elevation models. The resulting time series elevation and uncertainty datasets reveal geomorphologically significant coastal features, and enable quantitative analysis of vertical, horizontal, and volumetric coastal change at scale. Built entirely on open satellite data, global tide models, and open-source processing frameworks, DEA Intertidal provides a scalable and transferable approach for monitoring intertidal dynamics globally.",
+  "citation_count": 0,
+  "concepts": [
+   "Intertidal zone",
+   "Intertidal ecology",
+   "Digital elevation model"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213444366",
+  "title": "Explaining discrepancies between ground-based and spaceborne nighttime light measurements using urban morphology: a multi-city study",
+  "authors": [
+   "Camille Labrousse",
+   "Carynelisa Haspel",
+   "Noam Levin"
   ],
   "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
   "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-16",
-  "doi": "10.1016/j.isprsjprs.2026.08.021",
+  "date": "2026-09-17",
+  "doi": "10.1016/j.isprsjprs.2026.09.015",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.08.021",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Flood myth",
-   "Environmental science",
-   "Index (typography)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213331420",
-  "title": "Context-aware quantile baselines for disturbance detection in non-stationary short-rotation forest plantations",
-  "authors": [
-   "Guerric Le Maire",
-   "Florian de Boissieu",
-   "Clayton Alcarde Álvares",
-   "Henrique Ferraco Scolforo",
-   "Evandro Nunes Miranda",
-   "Vitória Barbosa Ferreira",
-   "Jean‐Baptiste Féret",
-   "Joannès Guillemot",
-   "José Luiz Stape"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-16",
-  "doi": "10.1016/j.jag.2026.105555",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105555",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Disturbance (geology)",
-   "Quantile",
-   "Geography"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213283296",
-  "title": "High-resolution land cover mapping from coarse labels via a noisy label learning-guided cross-scale framework",
-  "authors": [
-   "Xiangyu Nie",
-   "Cong Lin",
-   "Wei Zhang",
-   "Hong Fang",
-   "Zhen Dong",
-   "Sicong Liu",
-   "Zhaohui Xue"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-16",
-  "doi": "10.1080/15481603.2026.2726002",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2726002",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.015",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
-   "Land cover",
-   "Computer science"
+   "Environmental science",
+   "Meteorology"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213463520",
+  "title": "SAF-CropNet: Spatially adaptive fusion of SAR and optical imagery for semantic segmentation in operational cropland mapping across regions",
+  "authors": [
+   "minghui chang",
+   "Shuaifeng Peng",
+   "Tao Xu",
+   "Yi Yuan",
+   "洋一 馬目",
+   "Jie Bai",
+   "Fugui Luo",
+   "Jingyu Zhang",
+   "Xiaoyu Xiao",
+   "Yu Mu",
+   "Yong Wang",
+   "Shihua Li"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-17",
+  "doi": "10.1016/j.isprsjprs.2026.08.029",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.08.029",
+  "abstract": "Accurate cropland mapping from remote sensing imagery is essential for agricultural monitoring, food security assessment, and land resource management. Although optical and synthetic aperture radar (SAR) observations provide complementary information for cropland extraction, their local contributions vary across imaging conditions, land-cover backgrounds, parcel morphologies, and regional agricultural systems. This variability limits direct concatenation and static fusion, as modality-specific errors may propagate into segmentation outputs in the absence of spatially adaptive weighting. This study proposes SAF-CropNet, a spatially adaptive SAR–optical fusion framework for binary cropland semantic segmentation. Specifically, SAF-CropNet first extracts modality-specific SAR structural features and optical spectral-textural features through separate encoder branches. The Paired Reciprocal Inter-modal Selective Modulator enhances complementary SAR–optical interactions, while the Contextual State-space Modeling module captures long-range parcel organization. A spatially adaptive fusion head then estimates per-pixel contribution weights for SAR, optical, and contextual features before decoding. Evaluation was conducted on a seven-area SAR–optical benchmark spanning China, Germany, and France. The benchmark integrates GF1/GF3 and Sentinel-1/2 imagery with reference labels derived from field surveys and RapidCrops products and covers fragmented smallholder systems, water-rich and peri-urban mosaics, and large mechanized cropland. Within-region five-fold validation shows that SAF-CropNet achieves an average F1 score of 0.8550 and an mIoU of 0.8068, outperforming the evaluated segmentation baselines while remaining lightweight, with 3.38 M parameters and 6.21 GFLOPs for 256 × 256 SAR–optical inputs. In leave-one-area-out transfer experiments, stratified few-shot adaptation increased the average F1 score from 0.4986 under zero-shot transfer to 0.7698. Grouped cross-continental and cross-sensor experiments further showed that direct transfer remains constrained under compound shifts in sensor characteristics, spatial resolution, landscape structure, and reference-label conventions. These findings indicate that SAF-CropNet combines strong within-region segmentation accuracy and computational efficiency with substantial gains from limited target-domain adaptation, while direct zero-shot generalization under severe compound domain shifts remains limited.",
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Synthetic aperture radar",
+   "Remote sensing"
   ],
   "source": "openalex",
   "topics": [
    "遥感",
+   "计算机视觉",
    "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W4396241983",
-  "title": "Constellation Dataset: Benchmarking High-Altitude Object Detection for an Urban Intersection",
+  "id": "openalex:W7155035878",
+  "title": "Source-Free Domain Adaptation with Vision-Language Prior",
   "authors": [
-   "Mehmet Kerem Türkcan",
-   "Chengbo Zang",
-   "Sanjeev Narasimhan",
-   "Gyung Hyun Je",
-   "Bo Yu",
-   "Mahshid Ghasemi",
-   "Javad Ghaderi",
-   "Gil Zussman",
-   "Zoran Kostić"
+   "Song Tang",
+   "Yunxiang Bai",
+   "Wenxin Su",
+   "Mao Ye",
+   "Jianwei Zhang",
+   "Xiatian Zhu"
   ],
   "venue": "International Journal of Computer Vision",
   "venue_short": "IJCV",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-16",
-  "doi": "10.1007/s11263-026-03029-1",
+  "date": "2026-09-17",
+  "doi": "10.1007/s11263-026-03023-7",
   "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03029-1",
-  "abstract": "Abstract As smart cities evolve, privacy-preserving edge processing at traffic intersections has become essential for real-time safety applications while reducing data transmission and centralized computation. High-altitude cameras with on-device inference provide an optimal solution that respects privacy while delivering low-latency results. We introduce Constellation, a dataset of 13K images for research on object detection in dense urban streetscapes from high-elevation cameras across varied temporal conditions. The dataset addresses challenges in small object detection, particularly for pedestrians observed from elevated positions with limited pixel footprints. Our evaluation of contemporary object detection architectures reveals a 10% lower average precision (AP) for small pedestrians compared to vehicles. Pretraining models on structurally similar datasets increases mean AP by 1.8%. Domain-specific data augmentations and pseudo-labeled data from top-performing models further enhance performance. We evaluate deployment viability on resource-constrained edge devices including Jetson Orin, Raspberry Pi 5, and mobile platforms, demonstrating feasibility of privacy-preserving on-device processing. Comparing models trained on data collected across different time intervals reveals performance drift due to changing intersection conditions. The best-performing model achieves 92.0% pedestrian AP with 7.08 ms inference time on A100 machines, and 95.4% mAP. The best-performing edge model achieves a similar performance, with Jetson Orin Nano achieving 94.5% mAP and 27.5ms inference time using TensorRT.",
-  "citation_count": 1,
+  "url": "https://doi.org/10.1007/s11263-026-03023-7",
+  "abstract": "Abstract Source-Free Domain Adaptation (SFDA) seeks to adapt a source model, which is pre-trained on a supervised source domain, for a target domain, with only access to unlabeled target training data. Relying on pseudo labeling and/or auxiliary supervision, conventional methods are inevitably error-prone. To mitigate this limitation, in this work we for the first time explore the potentials of off-the-shelf vision-language (ViL) multimodal models (e.g., CLIP) with rich whilst heterogeneous knowledge. We find that directly applying the ViL model to the target domain in a zero-shot fashion is unsatisfactory, as it is not specialized for this particular task but largely generic. To make it task-specific, we propose a novel DIFO++ approach. Specifically, DIFO++ alternates between two steps during adaptation: (i) Customizing the ViL model by maximizing the mutual information with the target model in a prompt learning manner, (ii) Distilling the knowledge of this customized ViL model to the target model, centering on gap region reduction. During progressive knowledge adaptation, we first identify and focus on the gap region, where enclosed features are entangled and class-ambiguous, as it often captures richer task-specific semantics. Reliable pseudo-labels are then generated by fusing predictions from the target and ViL models, supported by a memory mechanism. Finally, gap region reduction is guided by category attention and predictive consistency for semantic alignment, complemented by referenced entropy minimization to suppress uncertainty. Extensive experiments show that DIFO++ significantly outperforms the state-of-the-art alternatives. Our code and data are available at https://github.com/tntek/DIFO-Plus .",
+  "citation_count": 0,
   "concepts": [
-   "Constellation",
-   "Benchmarking",
-   "Intersection (aeronautics)"
+   "Computer science",
+   "Domain adaptation",
+   "Artificial intelligence"
   ],
   "source": "openalex",
   "topics": [
-   "计算机视觉"
+   "计算机视觉",
+   "机器学习",
+   "多模态"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7213289375",
-  "title": "Multitemporal InSAR analysis of long-term creep and active thickness changes in a paleo riverbank landslide driven by anomalous water levels",
+  "id": "openalex:W7213444836",
+  "title": "Convolutional Legendre Memory Unit (ConvLMU) for Stereo Neuromorphic Event-Based Depth Estimation",
   "authors": [
-   "Huiyuan Luo",
-   "Chuanhao Pu",
-   "Lu Zhong",
-   "Xuanmei Fan",
-   "Qiang Xu"
+   "Avi Hazan",
+   "Hadar Cohen-Duwek",
+   "Elishai Ezra Tsur"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-15",
-  "doi": "10.1016/j.rse.2026.115657",
+  "date": "2026-09-17",
+  "doi": "10.1007/s11263-026-03032-6",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115657",
-  "abstract": "Riverbank landslide creep is strongly influenced by environmental drivers such as river water level and rainfall, which can modify both surface kinematics reflected by time-varying three-dimensional (3D) deformation and the active thickness of landslides. However, how these changes respond to abrupt river perturbations, such as river-damming events, remains poorly documented. Here, we apply multitemporal Interferometric Synthetic Aperture Radar (InSAR) to investigate the Xiongba paleo-landslide along the Jinsha River, focusing on its response to two upstream river-damming events on 11 October and 3 November 2018. Our results show that the InSAR-derived 3D displacement time series, constrained by the aspect-parallel flow (APF) assumption, strongly agrees with Global Positioning System (GPS) measurements. With periodic components removed, the quasi-3D deformation field combined with mass-conservation inversion and borehole constraints enabled reliable active-thickness estimation. Crucially, staged InSAR monitoring reveals a transition of the Xiongba landslide from slow to accelerated creep, directly driven by anomalous water-level fluctuations. Spatially, deformation reorganized with pronounced acceleration at the right leading edge, where the magnitude of the three-dimensional displacement rate at a representative point increased from 0.045 m/a to 0.177 m/a. The accelerated creep increased the inverted active thickness from 36.8 m and 38.9 m to 48.9 m and 45.8 m at the two borehole locations, respectively, indicating deeper mobilization of the landslide mass. This observational evidence demonstrates that extreme hydrological perturbations can push a slow-moving landslide into an accelerated stage, providing critical insights for interpreting precursory signals and improving proactive early warning along large river valleys.",
+  "url": "https://doi.org/10.1007/s11263-026-03032-6",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Geology",
-   "Interferometric synthetic aperture radar",
-   "Landslide"
+   "Neuromorphic engineering",
+   "Computer science",
+   "Artificial intelligence"
   ],
   "source": "openalex",
   "topics": [
-   "遥感",
-   "机器学习",
+   "计算机视觉",
    "三维与几何"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7213296259",
-  "title": "A knowledge-guided machine learning framework for cross-scale wheat harvest monitoring via sample augmentation",
+  "id": "openalex:W7213449224",
+  "title": "SAM2TAP: Repurposing Pre-trained Video Object Segmentation Models for Point Tracking",
   "authors": [
-   "Mingchao Shao",
-   "Chongya Jiang",
-   "Jingwei An",
-   "Haokai Zhu",
-   "Yue Li",
-   "Xia Yao",
-   "Tao Cheng",
-   "Hengbiao Zheng",
-   "Weixing Cao",
-   "Yan Zhu"
+   "Zhiyue Zhao",
+   "Wen Wang",
+   "Canyu Zhao",
+   "Zhoujie Fu",
+   "ZHU Zhouhang",
+   "Jianjun Zhou",
+   "Hao Chen",
+   "Tong He",
+   "Chunhua Shen"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-15",
-  "doi": "10.1016/j.rse.2026.115671",
+  "date": "2026-09-17",
+  "doi": "10.1007/s11263-026-03045-1",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115671",
-  "abstract": "Accurate monitoring of wheat harvest is crucial for precision agriculture and ensuring food security. However, rapid changes in land surface composition during the harvest period in intensive agricultural regions make it difficult to obtain sufficiently high-confidence ground samples, limiting the performance and generalization of data-driven remote sensing methods. Therefore, this study proposes a Knowledge-Guided Machine Learning (KGML) framework that integrates multi-satellite Earth observation data (PlanetScope, Sentinel-2, and MODIS) to monitor harvest from the field to regional scales. Ground data were collected using vehicle-mounted cameras and smartphones during the 2023 and 2024 wheat harvest periods. The results showed that combining spectral knowledge rules with a Random Forest model (regional accuracy >0.80) generated numerous high-confidence augmented samples from PlanetScope imagery. The augmented dataset was used to train a Hybrid CNN-Transformer-LSTM (HCTL) model with two pathways: Sentinel-2 classification for field-level harvest mapping (overall accuracy = 0.93) and MODIS regression for sub-pixel harvest fraction estimation, which showed high agreement with PlanetScope-derived harvest fractions (R 2 = 0.97, RMSE = 0.07, rRMSE = 0.15). The harvest dates derived from the MODIS harvest fraction time series showed high consistency with field observations (R 2 = 0.82, RMSE = 1.30 days). This framework provides an effective solution for wheat harvest monitoring by bridging the gap between limited ground-truth data and multi-scale satellite observations, thereby supporting food security assessments and informed agricultural management decisions.",
+  "url": "https://doi.org/10.1007/s11263-026-03045-1",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Precision agriculture",
-   "Remote sensing",
-   "Environmental science"
+   "Computer science",
+   "Artificial intelligence",
+   "Segmentation"
   ],
   "source": "openalex",
   "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
+   "计算机视觉"
   ],
   "is_own": false
  }
