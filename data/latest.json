@@ -17,7 +17,7 @@
   "doi": "10.1016/j.rse.2026.115677",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.rse.2026.115677",
-  "abstract": null,
+  "abstract": "It is critical to understand the age-height relationship in actively managed pine plantations to evaluate forest productivity and inform sustainable forest management practices. This study utilized the spaceborne lidar data from ICESat-2 ATL08 and Landsat-derived disturbance maps to assess the site index for actively managed pine plantations across the southeastern United States. Specifically, we (1) assessed the agreement between ICESat-2 ATL08 canopy heights and airborne laser scanning (ALS) data, (2) showed the distribution of canopy height by age for the actively managed pine stands, and (3) compared the site index guide curve derived using ICESat-2 and Landsat data with the FIA-derived site index guide curve. We analyzed over 137,998 ICESat-2 ATL08 segments intersecting pine plantation locations and LCMS Fast Loss. We identified plantation ages by subtracting the LCMS Fast Loss year from the ICESat-2 acquisition date. Actively managed stands were defined as those experiencing both thinning and harvesting. ICESat-2 ATL08 heights were compared to heights derived using airborne laser scanning (ALS) data from the USGS 3D Elevation Program. The heights were highly correlated in the assessed region (R 2 = 0.90), providing confidence in ICESat-2 ATL08 heights. Despite the challenges with LCMS misclassifying thinning events as clear-cut disturbances, we developed a model using quantile regression relating the logarithm of ICESat-2 ATL08 height to the reciprocal of age, resulting in a regional site index guide curve. The ICESat-2-derived site index (19.9 m) closely matched the FIA-derived site index (19.8 m) at the base age of 25 years, as supported by the Cramér-von Mises test, indicating that the site index guide curves are statistically similar. The resulting site index map provides insights into spatial variability in regional forest productivity, emphasizing the utility of remote sensing data for large-scale forest monitoring and management",
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
@@ -26,7 +26,8 @@
   ],
   "source": "openalex",
   "topics": [
-   "遥感"
+   "遥感",
+   "三维与几何"
   ],
   "is_own": false
  },
@@ -48,7 +49,7 @@
   "doi": "10.1016/j.rse.2026.115658",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.rse.2026.115658",
-  "abstract": null,
+  "abstract": "Building height is a critical parameter for characterizing urban three-dimensional (3D) structure, providing valuable insights into rapid urbanization and its impacts on resource consumption, urban climate, carbon emissions, and population estimation. Although spaceborne photon-counting LiDAR can deliver high-precision building height samples over large areas, its discrete sampling principle necessitates the integration of multi-source data to generate continuous wall-to-wall building height information. In this study, we propose a land use type-based modeling framework that couples an XGBoost regressor with residual kriging (XGBoostK) to map building heights. Applied to the Beijing-Tianjin-Hebei megalopolis, this approach successfully produced a 30 m resolution building height map for 2020. Main findings are fourfold: (1) The importance of building height-related explanatory variables varies across different land use types (residential, commercial, industrial, transportation, and public management and service), emphasizing the scientific necessity of land use type-based analysis and modeling. (2) Among mainstream machine learning models (GAM, SVR, RF, and XGBoost), XGBoost achieved the optimal performance for building height prediction, with a lower RMSE of 5.35 m and a shorter runtime of 7.06 s. (3) Incorporating prediction residuals from XGBoost into the XGBoostK framework effectively reduced the mapping RMSE from 5.22 m to 4.32 m. (4) Cross-comparison with very-high-resolution imagery, 3D models, and two existing height layers indicates that our product accurately characterizes building height distribution and exhibits superior accuracy. The proposed workflow provides methodological support for large-scale building height mapping and promotes the in-depth application of building height in urbanization research and associated management practices.",
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
@@ -58,7 +59,8 @@
   "source": "openalex",
   "topics": [
    "遥感",
-   "三维与几何"
+   "计算机视觉",
+   "机器学习"
   ],
   "is_own": false
  },
@@ -94,6 +96,131 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7213500066",
+  "title": "Direct quantification of solar-induced chlorophyll fluorescence using compact solar-blind optical radiometers",
+  "authors": [
+   "Jonas Kuhn",
+   "J. Stutz"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-17",
+  "doi": "10.1016/j.rse.2026.115669",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115669",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Radiometer",
+   "Environmental science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213516456",
+  "title": "3DSO: Quantifying forest three-dimensional structural organization beyond the canopy surface using LiDAR data",
+  "authors": [
+   "Xin Yang",
+   "Wen Xiao",
+   "Wenxia Dai",
+   "Guang Zheng"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-17",
+  "doi": "10.1016/j.rse.2026.115668",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115668",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Lidar",
+   "Environmental science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213527326",
+  "title": "An uncertainty workflow for landsat TIRS split window surface temperature products incorporating atmospheric water vapor",
+  "authors": [
+   "Amirhossein Hassanzadeh",
+   "Robert Mancini",
+   "Aaron Gerace",
+   "Rehman Eon",
+   "Matthew Montanaro",
+   "ELPHAS KHATA"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-17",
+  "doi": "10.1016/j.rse.2026.115660",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115660",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Environmental science",
+   "Window (computing)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7212205355",
+  "title": "BlinkChange: Active perception bi-temporal reliable representation for disaster impact understanding from remote sensing imagery",
+  "authors": [
+   "Hongyu Chen",
+   "Shibo Ge",
+   "Jiping Liu",
+   "Yong Wang",
+   "Jun Zhu",
+   "Shuai Bao",
+   "Ce Zhang"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-17",
+  "doi": "10.1016/j.isprsjprs.2026.09.014",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.014",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Salient",
+   "Context (archaeology)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7213444366",
   "title": "Explaining discrepancies between ground-based and spaceborne nighttime light measurements using urban morphology: a multi-city study",
   "authors": [
@@ -119,145 +246,6 @@
   "source": "openalex",
   "topics": [
    "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213463520",
-  "title": "SAF-CropNet: Spatially adaptive fusion of SAR and optical imagery for semantic segmentation in operational cropland mapping across regions",
-  "authors": [
-   "minghui chang",
-   "Shuaifeng Peng",
-   "Tao Xu",
-   "Yi Yuan",
-   "洋一 馬目",
-   "Jie Bai",
-   "Fugui Luo",
-   "Jingyu Zhang",
-   "Xiaoyu Xiao",
-   "Yu Mu",
-   "Yong Wang",
-   "Shihua Li"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-17",
-  "doi": "10.1016/j.isprsjprs.2026.08.029",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.08.029",
-  "abstract": "Accurate cropland mapping from remote sensing imagery is essential for agricultural monitoring, food security assessment, and land resource management. Although optical and synthetic aperture radar (SAR) observations provide complementary information for cropland extraction, their local contributions vary across imaging conditions, land-cover backgrounds, parcel morphologies, and regional agricultural systems. This variability limits direct concatenation and static fusion, as modality-specific errors may propagate into segmentation outputs in the absence of spatially adaptive weighting. This study proposes SAF-CropNet, a spatially adaptive SAR–optical fusion framework for binary cropland semantic segmentation. Specifically, SAF-CropNet first extracts modality-specific SAR structural features and optical spectral-textural features through separate encoder branches. The Paired Reciprocal Inter-modal Selective Modulator enhances complementary SAR–optical interactions, while the Contextual State-space Modeling module captures long-range parcel organization. A spatially adaptive fusion head then estimates per-pixel contribution weights for SAR, optical, and contextual features before decoding. Evaluation was conducted on a seven-area SAR–optical benchmark spanning China, Germany, and France. The benchmark integrates GF1/GF3 and Sentinel-1/2 imagery with reference labels derived from field surveys and RapidCrops products and covers fragmented smallholder systems, water-rich and peri-urban mosaics, and large mechanized cropland. Within-region five-fold validation shows that SAF-CropNet achieves an average F1 score of 0.8550 and an mIoU of 0.8068, outperforming the evaluated segmentation baselines while remaining lightweight, with 3.38 M parameters and 6.21 GFLOPs for 256 × 256 SAR–optical inputs. In leave-one-area-out transfer experiments, stratified few-shot adaptation increased the average F1 score from 0.4986 under zero-shot transfer to 0.7698. Grouped cross-continental and cross-sensor experiments further showed that direct transfer remains constrained under compound shifts in sensor characteristics, spatial resolution, landscape structure, and reference-label conventions. These findings indicate that SAF-CropNet combines strong within-region segmentation accuracy and computational efficiency with substantial gains from limited target-domain adaptation, while direct zero-shot generalization under severe compound domain shifts remains limited.",
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Synthetic aperture radar",
-   "Remote sensing"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7155035878",
-  "title": "Source-Free Domain Adaptation with Vision-Language Prior",
-  "authors": [
-   "Song Tang",
-   "Yunxiang Bai",
-   "Wenxin Su",
-   "Mao Ye",
-   "Jianwei Zhang",
-   "Xiatian Zhu"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-17",
-  "doi": "10.1007/s11263-026-03023-7",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03023-7",
-  "abstract": "Abstract Source-Free Domain Adaptation (SFDA) seeks to adapt a source model, which is pre-trained on a supervised source domain, for a target domain, with only access to unlabeled target training data. Relying on pseudo labeling and/or auxiliary supervision, conventional methods are inevitably error-prone. To mitigate this limitation, in this work we for the first time explore the potentials of off-the-shelf vision-language (ViL) multimodal models (e.g., CLIP) with rich whilst heterogeneous knowledge. We find that directly applying the ViL model to the target domain in a zero-shot fashion is unsatisfactory, as it is not specialized for this particular task but largely generic. To make it task-specific, we propose a novel DIFO++ approach. Specifically, DIFO++ alternates between two steps during adaptation: (i) Customizing the ViL model by maximizing the mutual information with the target model in a prompt learning manner, (ii) Distilling the knowledge of this customized ViL model to the target model, centering on gap region reduction. During progressive knowledge adaptation, we first identify and focus on the gap region, where enclosed features are entangled and class-ambiguous, as it often captures richer task-specific semantics. Reliable pseudo-labels are then generated by fusing predictions from the target and ViL models, supported by a memory mechanism. Finally, gap region reduction is guided by category attention and predictive consistency for semantic alignment, complemented by referenced entropy minimization to suppress uncertainty. Extensive experiments show that DIFO++ significantly outperforms the state-of-the-art alternatives. Our code and data are available at https://github.com/tntek/DIFO-Plus .",
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Domain adaptation",
-   "Artificial intelligence"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213444836",
-  "title": "Convolutional Legendre Memory Unit (ConvLMU) for Stereo Neuromorphic Event-Based Depth Estimation",
-  "authors": [
-   "Avi Hazan",
-   "Hadar Cohen-Duwek",
-   "Elishai Ezra Tsur"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-17",
-  "doi": "10.1007/s11263-026-03032-6",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03032-6",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Neuromorphic engineering",
-   "Computer science",
-   "Artificial intelligence"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213449224",
-  "title": "SAM2TAP: Repurposing Pre-trained Video Object Segmentation Models for Point Tracking",
-  "authors": [
-   "Zhiyue Zhao",
-   "Wen Wang",
-   "Canyu Zhao",
-   "Zhoujie Fu",
-   "ZHU Zhouhang",
-   "Jianjun Zhou",
-   "Hao Chen",
-   "Tong He",
-   "Chunhua Shen"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-17",
-  "doi": "10.1007/s11263-026-03045-1",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03045-1",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Artificial intelligence",
-   "Segmentation"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
   ],
   "is_own": false
  }

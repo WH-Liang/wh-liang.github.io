@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-09-18 00:40:34",
+ "last_updated": "2026-09-19 00:31:16",
  "dblp_blocked": true,
  "counts": {
   "total_papers": 440,
@@ -7,19 +7,19 @@
   "journals": 440,
   "conferences": 0,
   "preprints": 0,
-  "total_citations": 155
+  "total_citations": 156
  },
  "venues": {
   "RSE": 40,
   "ISPRS JPRS": 40,
-  "IJCV": 40,
   "JAG": 40,
+  "GRSL": 40,
+  "IJCV": 40,
   "GISci. Remote Sens.": 40,
   "TOG": 40,
   "Pattern Recogn.": 40,
   "TPAMI": 40,
   "TGRS": 40,
-  "GRSL": 40,
   "TIP": 40
  },
  "years": {

@@ -17,7 +17,7 @@
   "doi": "10.1016/j.rse.2026.115677",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.rse.2026.115677",
-  "abstract": null,
+  "abstract": "It is critical to understand the age-height relationship in actively managed pine plantations to evaluate forest productivity and inform sustainable forest management practices. This study utilized the spaceborne lidar data from ICESat-2 ATL08 and Landsat-derived disturbance maps to assess the site index for actively managed pine plantations across the southeastern United States. Specifically, we (1) assessed the agreement between ICESat-2 ATL08 canopy heights and airborne laser scanning (ALS) data, (2) showed the distribution of canopy height by age for the actively managed pine stands, and (3) compared the site index guide curve derived using ICESat-2 and Landsat data with the FIA-derived site index guide curve. We analyzed over 137,998 ICESat-2 ATL08 segments intersecting pine plantation locations and LCMS Fast Loss. We identified plantation ages by subtracting the LCMS Fast Loss year from the ICESat-2 acquisition date. Actively managed stands were defined as those experiencing both thinning and harvesting. ICESat-2 ATL08 heights were compared to heights derived using airborne laser scanning (ALS) data from the USGS 3D Elevation Program. The heights were highly correlated in the assessed region (R 2 = 0.90), providing confidence in ICESat-2 ATL08 heights. Despite the challenges with LCMS misclassifying thinning events as clear-cut disturbances, we developed a model using quantile regression relating the logarithm of ICESat-2 ATL08 height to the reciprocal of age, resulting in a regional site index guide curve. The ICESat-2-derived site index (19.9 m) closely matched the FIA-derived site index (19.8 m) at the base age of 25 years, as supported by the Cramér-von Mises test, indicating that the site index guide curves are statistically similar. The resulting site index map provides insights into spatial variability in regional forest productivity, emphasizing the utility of remote sensing data for large-scale forest monitoring and management",
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
@@ -26,7 +26,8 @@
   ],
   "source": "openalex",
   "topics": [
-   "遥感"
+   "遥感",
+   "三维与几何"
   ],
   "is_own": false
  },
@@ -48,7 +49,7 @@
   "doi": "10.1016/j.rse.2026.115658",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.rse.2026.115658",
-  "abstract": null,
+  "abstract": "Building height is a critical parameter for characterizing urban three-dimensional (3D) structure, providing valuable insights into rapid urbanization and its impacts on resource consumption, urban climate, carbon emissions, and population estimation. Although spaceborne photon-counting LiDAR can deliver high-precision building height samples over large areas, its discrete sampling principle necessitates the integration of multi-source data to generate continuous wall-to-wall building height information. In this study, we propose a land use type-based modeling framework that couples an XGBoost regressor with residual kriging (XGBoostK) to map building heights. Applied to the Beijing-Tianjin-Hebei megalopolis, this approach successfully produced a 30 m resolution building height map for 2020. Main findings are fourfold: (1) The importance of building height-related explanatory variables varies across different land use types (residential, commercial, industrial, transportation, and public management and service), emphasizing the scientific necessity of land use type-based analysis and modeling. (2) Among mainstream machine learning models (GAM, SVR, RF, and XGBoost), XGBoost achieved the optimal performance for building height prediction, with a lower RMSE of 5.35 m and a shorter runtime of 7.06 s. (3) Incorporating prediction residuals from XGBoost into the XGBoostK framework effectively reduced the mapping RMSE from 5.22 m to 4.32 m. (4) Cross-comparison with very-high-resolution imagery, 3D models, and two existing height layers indicates that our product accurately characterizes building height distribution and exhibits superior accuracy. The proposed workflow provides methodological support for large-scale building height mapping and promotes the in-depth application of building height in urbanization research and associated management practices.",
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
@@ -58,7 +59,8 @@
   "source": "openalex",
   "topics": [
    "遥感",
-   "三维与几何"
+   "计算机视觉",
+   "机器学习"
   ],
   "is_own": false
  },
@@ -90,6 +92,131 @@
   "topics": [
    "遥感",
    "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213500066",
+  "title": "Direct quantification of solar-induced chlorophyll fluorescence using compact solar-blind optical radiometers",
+  "authors": [
+   "Jonas Kuhn",
+   "J. Stutz"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-17",
+  "doi": "10.1016/j.rse.2026.115669",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115669",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Radiometer",
+   "Environmental science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213516456",
+  "title": "3DSO: Quantifying forest three-dimensional structural organization beyond the canopy surface using LiDAR data",
+  "authors": [
+   "Xin Yang",
+   "Wen Xiao",
+   "Wenxia Dai",
+   "Guang Zheng"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-17",
+  "doi": "10.1016/j.rse.2026.115668",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115668",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Lidar",
+   "Environmental science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213527326",
+  "title": "An uncertainty workflow for landsat TIRS split window surface temperature products incorporating atmospheric water vapor",
+  "authors": [
+   "Amirhossein Hassanzadeh",
+   "Robert Mancini",
+   "Aaron Gerace",
+   "Rehman Eon",
+   "Matthew Montanaro",
+   "ELPHAS KHATA"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-17",
+  "doi": "10.1016/j.rse.2026.115660",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115660",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Environmental science",
+   "Window (computing)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7212205355",
+  "title": "BlinkChange: Active perception bi-temporal reliable representation for disaster impact understanding from remote sensing imagery",
+  "authors": [
+   "Hongyu Chen",
+   "Shibo Ge",
+   "Jiping Liu",
+   "Yong Wang",
+   "Jun Zhu",
+   "Shuai Bao",
+   "Ce Zhang"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-17",
+  "doi": "10.1016/j.isprsjprs.2026.09.014",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.014",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Salient",
+   "Context (archaeology)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
   ],
   "is_own": false
  },
@@ -159,6 +286,94 @@
    "遥感",
    "计算机视觉",
    "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213507325",
+  "title": "Multimodal loess cave extraction using LMUNet-RCAM: Integrating hillshade and RGB features with local attention mechanisms",
+  "authors": [
+   "Jianjin Huang",
+   "Xiaoli Huang",
+   "Sijin Li",
+   "Hu Ding"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-17",
+  "doi": "10.1016/j.jag.2026.105596",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105596",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Loess",
+   "RGB color model",
+   "Artificial intelligence"
+  ],
+  "source": "openalex",
+  "topics": [
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213511314",
+  "title": "Point-Cloud-Native L-Band Augmentation of SWOT KaRIn: Recovering Canopy-Shadowed Dark Water with NISAR",
+  "authors": [
+   "Waleed Shoaib",
+   "Bakhtawar Ismail",
+   "Muhammad Salik"
+  ],
+  "venue": "IEEE Geoscience and Remote Sensing Letters",
+  "venue_short": "GRSL",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-17",
+  "doi": "10.5281/zenodo.22818803",
+  "pdf": null,
+  "url": "https://doi.org/10.5281/zenodo.22818803",
+  "abstract": "The SWOT mission's Ka-band Radar Interferometer (KaRIn) delivers surface-water observations at 15-25 m resolution but the operational Level-2 Pixel Cloud is known to miss pixels where dense canopy attenuates the specular return, flagging them as dark water. We show that co-registering NISAR L-band geocoded backscatter onto SWOT PIXC recovers dark-water pixels at matched precision. Over the Congo cuvette the augmentation lifts dark-water recall by 11.3 pp; over the Amazon varzea by 17.9 pp. Both gains clear a pre-registered 10 pp kill gate with disjoint 95% bootstrap confidence intervals versus baseline. A joint-shuffle falsifier confirms the gain is from real sensor information, not regularisation. To our knowledge this is the first combined use of NISAR and SWOT reported quantitatively.",
+  "citation_count": 0,
+  "concepts": [
+   "Geocoding",
+   "Remote sensing",
+   "Pixel"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213515099",
+  "title": "Point-Cloud-Native L-Band Augmentation of SWOT KaRIn: Recovering Canopy-Shadowed Dark Water with NISAR",
+  "authors": [
+   "Waleed Shoaib",
+   "Bakhtawar Ismail",
+   "Muhammad Salik"
+  ],
+  "venue": "IEEE Geoscience and Remote Sensing Letters",
+  "venue_short": "GRSL",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-17",
+  "doi": "10.5281/zenodo.22818804",
+  "pdf": null,
+  "url": "https://doi.org/10.5281/zenodo.22818804",
+  "abstract": "The SWOT mission's Ka-band Radar Interferometer (KaRIn) delivers surface-water observations at 15-25 m resolution but the operational Level-2 Pixel Cloud is known to miss pixels where dense canopy attenuates the specular return, flagging them as dark water. We show that co-registering NISAR L-band geocoded backscatter onto SWOT PIXC recovers dark-water pixels at matched precision. Over the Congo cuvette the augmentation lifts dark-water recall by 11.3 pp; over the Amazon varzea by 17.9 pp. Both gains clear a pre-registered 10 pp kill gate with disjoint 95% bootstrap confidence intervals versus baseline. A joint-shuffle falsifier confirms the gain is from real sensor information, not regularisation. To our knowledge this is the first combined use of NISAR and SWOT reported quantitatively.",
+  "citation_count": 0,
+  "concepts": [
+   "Geocoding",
+   "Remote sensing",
+   "Pixel"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
   ],
   "is_own": false
  },
@@ -969,6 +1184,33 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7213213997",
+  "title": "Robust incomplete multi-view clustering via adaptive similarity graph completion and dual-tensor decomposition",
+  "authors": [
+   "Xin Jin",
+   "Yipeng Wang",
+   "Songtao Li"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-14",
+  "doi": "10.1016/j.patcog.2026.114902",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.114902",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Cluster analysis",
+   "Computer science",
+   "Artificial intelligence"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7212285234",
   "title": "Next frontier of Earth observation: Quantum-enhanced multispectral remote sensing for ultra-low signal environments",
   "authors": [
@@ -1132,6 +1374,40 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7212379769",
+  "title": "A Composite Path and Answer Self-Scoring reward mechanism for test-time reinforcement learning",
+  "authors": [
+   "Jingyu Xing",
+   "Chenwei Tang",
+   "Xinyu Liu",
+   "Deng Xiong",
+   "Shudong Huang",
+   "Wei Ju",
+   "Jiancheng Lv",
+   "Ziyue Qiao"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-12",
+  "doi": "10.1016/j.patcog.2026.114900",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.114900",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Reinforcement learning",
+   "Computer science",
+   "Mechanism (biology)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7212128570",
   "title": "Monitoring global mangrove spatial evolution and functional degradation using BTSAD and CBPA methods over a 36-year dense Landsat and HLSv2.0 time series",
   "authors": [
@@ -1249,6 +1525,35 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7211985788",
+  "title": "Unified vision-centric pedestrian crossing action prediction via adaptive patch projection and proactive spatial rectification",
+  "authors": [
+   "Yao Tian",
+   "Le Yang",
+   "Binglu Wang"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-11",
+  "doi": "10.1016/j.patcog.2026.114888",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.114888",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Artificial intelligence",
+   "Pedestrian"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7212108132",
   "title": "EgoMamba: Fusing hand-guided spatial cues and multi-scale temporal context for efficient egocentric action recognition",
   "authors": [
@@ -1276,6 +1581,67 @@
   "source": "openalex",
   "topics": [
    "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7212268363",
+  "title": "Dynamic scene self-supervised monocular depth estimation based on multi-branch collaborative optimization",
+  "authors": [
+   "Jia Liu",
+   "Guorui Lu",
+   "Yiyang Wang",
+   "Lina Wei",
+   "Dapeng Chen"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-11",
+  "doi": "10.1016/j.patcog.2026.114891",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.114891",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Artificial intelligence",
+   "Computer vision"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7212312192",
+  "title": "Multi-source transfer learning of time series with a shapelet-based distance measure",
+  "authors": [
+   "Jiseok Lee",
+   "Brian Kenji Iwana"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-11",
+  "doi": "10.1016/j.patcog.2026.114898",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.114898",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Discriminative model",
+   "Transfer of learning"
+  ],
+  "source": "openalex",
+  "topics": [
+   "机器学习"
   ],
   "is_own": false
  },
@@ -1507,6 +1873,37 @@
    "遥感",
    "计算机视觉",
    "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7212186954",
+  "title": "WCCNet: Wavelet-context cooperative network for efficient multispectral pedestrian detection",
+  "authors": [
+   "Xingjian Wang",
+   "Li Chai",
+   "Jiming Chen",
+   "Zhiguo Shi"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-10",
+  "doi": "10.1016/j.patcog.2026.114895",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.114895",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Crossmodal",
+   "Multispectral image"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
   ],
   "is_own": false
  },
@@ -2084,6 +2481,36 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7211925773",
+  "title": "DIG-Seg: Generative domain Adaptive Semantic Segmentation with diffusion inverse guidance",
+  "authors": [
+   "Yang Baihan",
+   "Shiqiang Hu",
+   "Lingkun Luo"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-08",
+  "doi": "10.1016/j.patcog.2026.114852",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.114852",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Artificial intelligence",
+   "Segmentation"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7211931699",
   "title": "Structured sparse representation learning with locality-preserving strict sparsity and spatially adaptive geometry",
   "authors": [
@@ -2176,6 +2603,39 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7211892762",
+  "title": "Shape-invariant prompt learning with prompt relation structuring for open-vocabulary detection",
+  "authors": [
+   "Zhaocheng Xu",
+   "Yan Tian",
+   "Lili Yang",
+   "Ling Ding",
+   "Ruili Wang"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-07",
+  "doi": "10.1016/j.patcog.2026.114750",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.114750",
+  "abstract": "Open-vocabulary detection (OVD) aims to detect objects beyond training categories by leveraging the semantic knowledge of pretrained vision-language models. Recent studies indicate that modeling shape variation benefits OVD by making region features more adaptable to diverse object geometries. Although geometry-dependent adaptation has demonstrated the importance of shape-aware modeling, independently learning shape-specific adapters on different feature subsets may result in fragmented optimization and limited gradient sharing across shape groups, making it difficult to maintain consistent semantic alignment. Motivated by prompt-based adaptation and vision-language alignment, we propose a unified OVD framework named SIP-OVD. SIP-OVD introduces Shape-Invariant Prompt (SIP) learning, where shape-invariant prompts modulate CLIP region features according to object geometry, and a shared semantic adapter aligns the prompted embeddings with text embeddings in a shared semantic space. Furthermore, we introduce Prompt Relation Structuring (PRS), which regularizes prompt similarity to preserve smooth geometric transitions and discriminative shape boundaries. In addition, we incorporate Query-conditioned Iterative self-Training (QIT) as a complementary training module that mines reliable unseen-class regions to provide additional supervision for model refinement. Extensive experiments on COCO-OVD and LVIS-OVD validate the advantage of SIP-OVD for novel and rare category detection. Specifically, SIP-OVD achieves 47.5 AP 50 on novel categories and 40.1 mask AP on rare categories. Code will be available at https://github.com/messeyAmumu/SIP-OVD .",
+  "citation_count": 0,
+  "concepts": [
+   "Structuring",
+   "Relation (database)",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7211893179",
   "title": "Hybrid Augmented multi-scale contrastive self-supervised learning for underwater acoustic target recognition",
   "authors": [
@@ -2207,6 +2667,39 @@
   "topics": [
    "计算机视觉",
    "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7211896223",
+  "title": "Fuzzy logic-enhanced membership Mamba for hyperspectral and LiDAR data classification",
+  "authors": [
+   "Yonghe Chu",
+   "Yanlong Guo",
+   "Jun Liu",
+   "Heling Cao",
+   "Jiangtao Peng",
+   "Weiping Ding"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-07",
+  "doi": "10.1016/j.patcog.2026.114851",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.114851",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Hyperspectral imaging",
+   "Robustness (evolution)",
+   "Fuzzy logic"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "三维与几何"
   ],
   "is_own": false
  },
@@ -2494,6 +2987,38 @@
   "topics": [
    "三维与几何",
    "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7210264359",
+  "title": "Exploring the untouched sweeps for conflict-aware 3D perception pretraining",
+  "authors": [
+   "Tianfang Sun",
+   "Zhizhong Zhang",
+   "Xin Tan",
+   "Jingyu Gong",
+   "Yanyun Qu",
+   "Yuan Xie"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-06",
+  "doi": "10.1016/j.patcog.2026.114846",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.114846",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Psychology",
+   "Perception",
+   "Cognitive psychology"
+  ],
+  "source": "openalex",
+  "topics": [
+   "三维与几何"
   ],
   "is_own": false
  },
@@ -2870,68 +3395,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7208823330",
-  "title": "Multi-slice Cold Diffusion with high-frequency guidance for unified medical image restoration and translation",
-  "authors": [
-   "Wei Wang",
-   "Jiayu Xia",
-   "Xin Zhang",
-   "Xufeng Duan",
-   "Wenzhe Liu",
-   "Shi Pu",
-   "Jie Wen"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-05",
-  "doi": "10.1016/j.patcog.2026.114772",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.114772",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Translation (biology)",
-   "Consistency (knowledge bases)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7208837849",
-  "title": "Spatial–Temporal Prototype-Enhanced Attention Network for fMRI brain disease classification",
-  "authors": [
-   "Yin Liang",
-   "Runrui Han",
-   "Xiaoying Yang",
-   "Bo Liu"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-05",
-  "doi": "10.1016/j.patcog.2026.114844",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.114844",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Discriminative model",
-   "Computer science",
-   "Artificial intelligence"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
   "id": "openalex:W7208710772",
   "title": "Effects of aboveground biomass and soil moisture drought on VOD-based global isohydricity estimates",
   "authors": [
@@ -3226,241 +3689,6 @@
   "topics": [
    "计算机视觉"
   ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7117672233",
-  "title": "Tumor segmentation with incomplete MRI modalities via prototype-driven Progressive Modality Completion",
-  "authors": [
-   "Tianyi Yan",
-   "Dai Xin",
-   "Yanfen Cui",
-   "Mengmeng Wu",
-   "Tiantian Liu",
-   "Dan Zhao",
-   "Chuyang Ye"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-04",
-  "doi": "10.1016/j.patcog.2026.114733",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.114733",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Modality (human–computer interaction)",
-   "Segmentation",
-   "Artificial intelligence"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7155199692",
-  "title": "Progressive frequency aware transformer for lightweight single image super resolution",
-  "authors": [
-   "Sun Jin",
-   "Zhongpeng Sun",
-   "Xiaofeng Wang",
-   "Kai Ran",
-   "Yazhong Qi"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-04",
-  "doi": "10.1016/j.patcog.2026.114845",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.114845",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computation",
-   "Computer science",
-   "Transformer"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7207559599",
-  "title": "Self-taught graph-based semi-supervised learning for multi-view image data",
-  "authors": [
-   "Jingjun Bi",
-   "F. Dornaika",
-   "H. Xiao",
-   "G. Peng",
-   "C. Pei"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-04",
-  "doi": "10.1016/j.patcog.2026.114731",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.114731",
-  "abstract": "In recent years, graph-based semi-supervised learning and pseudo-labeling have attracted significant attention for their effectiveness in addressing the challenges of expensive and time-consuming data annotations. Pseudo-labeling improves model training by using predictions from unlabeled data, while graph-based methods excel with graph-structured data. However, the absence of explicit graph structures in image data and the complexities of multi-view features pose considerable challenges. This paper introduces the Self-taught Graph-based Semi-supervised Learning for Multi-view Data (SGSLM), a novel approach that combines linear feature transformation and multi-view graph fusion within a Graph Convolutional Network (GCN) framework. Our method dynamically integrates pseudo-labels into the GCN’s loss function, allowing the model to leverage pseudo-labeling benefits for multi-view data classification. This adaptive pseudo-label loss mechanism offers several advantages: (i) it integrates seamlessly into the existing framework without requiring extra iterations or models; (ii) all predictions are considered pseudo-labels, with weights adjusted based on confidence levels, eliminating the need for threshold settings; and (iii) it reduces the impact of misleading predictions during early training phases, minimizing the risk of negative influences on the model. Additionally, our model includes a Dice loss for label alignment and an unsupervised smoothing loss, which together enhance overall performance. The entire framework is implemented within a single lightweight GCN framework, optimizing both time and space efficiency. Experimental results demonstrate its effectiveness compared to state-of-the-art methods. 1",
-  "citation_count": 0,
-  "concepts": [
-   "Artificial intelligence",
-   "Computer science",
-   "Computer vision"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7208715865",
-  "title": "Hierarchical multi-view alignment with adaptive prototype compression for robust semantic scene understanding",
-  "authors": [
-   "Danqi Lu",
-   "Bin Xu",
-   "Changxin Huang",
-   "Z C Chen",
-   "Zhiliang Lin",
-   "Hao Yang",
-   "Xiang Liu",
-   "Jianqiang Li"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-04",
-  "doi": "10.1016/j.patcog.2026.114769",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.114769",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Artificial intelligence",
-   "Representation (politics)"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7208732128",
-  "title": "GLAM: Unifying global–local graph geometry via asymmetric mutual learning",
-  "authors": [
-   "Guangzhi Qi",
-   "Guojun Liu",
-   "J.M. Zhao",
-   "Qi Zhou"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-04",
-  "doi": "10.1016/j.patcog.2026.114815",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.114815",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Euclidean geometry",
-   "Topology (electrical circuits)",
-   "Homogeneous"
-  ],
-  "source": "openalex",
-  "topics": [
-   "机器学习",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7208733550",
-  "title": "Stability-aware Shapley-guided MoE for event-aligned EEG anomaly early warning",
-  "authors": [
-   "Qian Chen",
-   "Min Fang",
-   "Tingting Chen",
-   "Yujun Feng",
-   "Jianqiang Li"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-04",
-  "doi": "10.1016/j.patcog.2026.114760",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.114760",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Electroencephalography",
-   "Artificial intelligence"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7208778317",
-  "title": "An efficient spectral clustering algorithm based on adaptive granular ball anchors",
-  "authors": [
-   "Yanfang Liu",
-   "Ju‐Sheng Mi",
-   "Hongli Wang"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-04",
-  "doi": "10.1016/j.patcog.2026.114747",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.114747",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Cluster analysis",
-   "Algorithm",
-   "Computer science"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7208780325",
-  "title": "Editorial Board",
-  "authors": [],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-04",
-  "doi": "10.1016/s0031-3203(26)01838-8",
-  "pdf": "https://www.sciencedirect.com/science/article/pii/S0031320326018388/pdf",
-  "url": "https://doi.org/10.1016/s0031-3203(26)01838-8",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [],
-  "source": "openalex",
-  "topics": [],
   "is_own": false
  },
  {
@@ -5072,39 +5300,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7213358344",
-  "title": "Three decades of Antarctic Ice Sheet surface melt dynamics with disentangled radiative and turbulent controls",
-  "authors": [
-   "Ziqian Zhang",
-   "Wanchun Leng",
-   "Lei Zheng",
-   "Xiao Cheng",
-   "Tianjie Zhao",
-   "Teng Li",
-   "Qi Liang",
-   "Mengxi Zhai",
-   "Lingmei Jiang"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-01",
-  "doi": "10.1016/j.jag.2026.105578",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105578",
-  "abstract": "Surface melt over the Antarctic Ice Sheet (AIS) is a critical precursor to ice shelf instability and dynamic mass loss, yet its fine-scale spatiotemporal variability and underlying physical drivers remain poorly constrained. Existing surface melt products (12.5–25 km) obscure melt dynamics in topographically complex coastal zones. Here, we generated a novel 3.125 km daily surface melt record (1992–2023) by implementing a Fisher Discriminant Analysis (FDA) approach on enhanced-resolution passive microwave inputs. Validated against automatic weather station data, the FDA approach achieved > 96% overall accuracy, successfully resolving intricate melt patterns along narrow fjords and grounding lines. Trend analysis reveals divergent evolution: Antarctic Peninsula (AP) melt duration has stabilized since 2000, whereas significant localized melt intensification occurred along East Antarctic ice shelf margins. To explain these regional disparities, by integrating this high-resolution record with RACMO2.4p1 energy fluxes using Lindeman-Merenda-Gold (LMG) variance decomposition, we quantified the drivers of interannual melt variability. By evaluating the relative dominance of radiative versus turbulent fluxes, we classify Antarctic ice shelves into three sensitivity regimes: (1) Radiation-controlled regime (e.g., Ross, Shackleton) dominated by shortwave radiation and albedo feedbacks; (2) Turbulence-driven regime (e.g., Mertz, Getz) where sensible and latent heat fluxes drive melt through dynamic atmospheric forcing; and (3) Mixed-control regime (e.g., Larsen C, Amery) governed by a complex interplay of both processes. These findings highlight the specific vulnerability of turbulence-sensitive sectors to atmospheric anomalies, providing a high-resolution, process-informed basis for assessing future ice shelf stability and mass loss projections.",
-  "citation_count": 0,
-  "concepts": [
-   "Climatology",
-   "Antarctic ice sheet",
-   "Ice sheet"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
   "id": "openalex:W4414897496",
   "title": "MLA-Trust: Benchmarking Trustworthiness of Multimodal LLM Agents in GUI Environments",
   "authors": [
@@ -6316,46 +6511,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7204248612",
-  "title": "Combining knowledge-based training data generation and deep learning algorithms for mapping surface water bodies, wetlands, and paddy rice in Northeast Asia",
-  "authors": [
-   "Chenchen Zhang",
-   "Xiangming Xiao",
-   "Cheng Meng",
-   "Xinxin Wang",
-   "Leikun Yin",
-   "Dehua Mao",
-   "Shenglai Yin",
-   "Yuan Yao",
-   "Li Pan",
-   "Baihong Pan",
-   "Xuebin Yang",
-   "Yuanwei Qin",
-   "Jinwei Dong"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-08-26",
-  "doi": "10.1016/j.isprsjprs.2026.08.024",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.08.024",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Land cover",
-   "Deep learning",
-   "Training (meteorology)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
   "id": "openalex:W7204208175",
   "title": "Angular anisotropy of Landsat and MODIS land surface temperature toward multi-source LST consistency",
   "authors": [
@@ -6862,36 +7017,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7164990733",
-  "title": "Revealing buried tectonic structures in the Gulf of Mexico using SWOT-derived marine gravity",
-  "authors": [
-   "Daocheng Yu",
-   "James Pindell",
-   "Cheinway Hwang",
-   "Xiaoli Deng",
-   "E. Y. Chang",
-   "Jinyun Guo"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-08-24",
-  "doi": "10.1016/j.rse.2026.115628",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115628",
-  "abstract": "This repository provides the primary gridded data products generated in the study \"Revealing Buried Tectonic Structures in the Gulf of Mexico Using SWOT-Derived Marine Gravity\". The datasets are derived from wide-swath SWOT data and represent key results used in the analysis of seafloor tectonic structures in the Gulf of Mexico. The repository contains the following GRD files: North component of residual geoid gradient East component of residual geoid gradient Full marine gravity anomaly Residual gravity anomaly Innermost-zone gravity effect Vertical gravity gradient (VGG) These datasets can be used for studies of marine gravity field characterization, tectonic structure mapping, and geophysical interpretation. Detailed processing procedures and scientific applications are described in the associated publication.",
-  "citation_count": 0,
-  "concepts": [
-   "Geology",
-   "Geoid",
-   "Tectonics"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
   "id": "openalex:W7204135754",
   "title": "Satellite mapping and hydrographic characterization of Greenland-wide proglacial rivers and lakes",
   "authors": [
@@ -6956,40 +7081,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7203984617",
-  "title": "Version 2 of hourly aerosol optical centroid height (AOCH) data product from EPIC/DSCOVR in deep space",
-  "authors": [
-   "Zhendong Lu",
-   "Jun Wang",
-   "Xi Chen",
-   "Meng Zhou",
-   "Xiaoguang Xu",
-   "Yeonsu Park",
-   "Hyerim Kim"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-08-22",
-  "doi": "10.1016/j.rse.2026.115623",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115623",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Aerosol",
-   "Environmental science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
   "id": "openalex:W7203997539",
   "title": "ShapeLib: Designing a library of programmatic 3D shape abstractions with Large Language Models",
   "authors": [
@@ -7018,47 +7109,6 @@
    "计算机视觉",
    "三维与几何",
    "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7203775407",
-  "title": "Beyond L-band: 0.4-2 GHz wideband radiometry for observing surface salinity in cold seawater",
-  "authors": [
-   "Jacqueline Boutin",
-   "Jean‐Luc Vergely",
-   "S. Ferron",
-   "Laurent Bertino",
-   "Giovanni Macelloni",
-   "Marco Brogioni",
-   "Emmanuel Dinnat",
-   "Lars Kaleschke",
-   "Rasmus Tonboe",
-   "Yiwen Zhou",
-   "Marie‐Laure Frery",
-   "Valerie Dutto",
-   "K. Urata",
-   "Matthias Drusch"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-08-20",
-  "doi": "10.1016/j.rse.2026.115596",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115596",
-  "abstract": "Sea surface salinity (SSS) is a key variable for understanding ocean circulation, freshwater fluxes, and climate variability. While L-band radiometry (1.4 GHz) has enabled global monitoring of SSS from space, the errors of retrieved SSS are two to three times larger in cold waters than in warm waters due to reduced sensitivity of the radiometric signal to SSS. To address this limitation, this paper investigates the potential of wideband passive microwave radiometry (0.4–2 GHz). Using a multi frequency Bayesian retrieval scheme, and two extreme instrumental designs, we show that wideband radiometry has the potential to reduce SSS uncertainties by a factor of 2 to 3 in cold and salty waters, and by more than a factor 4 for SSS around 20 pss. Wideband SSS retrievals would also be more resilient to radiometric calibration issues than L-band. Consequently, wideband radiometry could enable the detection of geophysical SSS anomalies in many polar regions where this is not possible with current Earth observation satellites. The lowest frequencies are the ones contributing the most to the uncertainty decrease. Our study highlights the need to pursue research into technical and methodological development for optimizing radiometric measurements in the low frequency range, and minimize the impact of Radio Frequency Interference, of the galactic signal and, during the day, of the sun. Wideband radiometry could represent a breakthrough with respect to L-Band radiometry for monitoring SSS variations in the polar regions where large climate variability is ongoing, under the interaction between the ocean, atmosphere and cryosphere.",
-  "citation_count": 0,
-  "concepts": [
-   "Radiometry",
-   "Remote sensing",
-   "Environmental science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
   ],
   "is_own": false
  },
@@ -11193,7 +11243,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tgrs.2026.3654629",
   "abstract": "With the advancement of remote sensing satellite technology and the rapid progress of deep learning, remote sensing change detection (RSCD) has become a key technique for regional monitoring. Traditional change detection (CD) methods and deep learning-based approaches have made significant contributions to change analysis and detection, however, many outstanding methods still face limitations in the exploration and application of multimodal data. To address this, we propose the multimodal graph-conditioned vision-language reconstruction network (MGCR-Net) to further explore the semantic interaction capabilities of multimodal data. Multimodal large language models (MLLM) have attracted widespread attention for their outstanding performance in computer vision, particularly due to their powerful visual-language understanding and dialogic interaction capabilities. Specifically, we design a MLLM-based optimization strategy to generate multimodal textual data from the original CD images, which serve as textual input to MGCR. Visual and textual features are extracted through a dual encoder framework. For the first time in the RSCD task, we introduce a multimodal graph-conditioned vision-language reconstruction mechanism, which is integrated with graph attention to construct a semantic graph-conditioned reconstruction module (SGCM), this module generates vision-language (VL) Tokens through graph-based conditions and enables cross-dimensional interaction between visual and textual features via multihead attention. The reconstructed VL features are then deeply fused using the language vision transformer (LViT), achieving fine-grained feature alignment and high-level semantic interaction. Experimental results on four public datasets demonstrate that MGCR achieves superior performance compared to mainstream CD methods. Our code is available on https://github.com/cn-xvkong/MGCR.",
-  "citation_count": 2,
+  "citation_count": 3,
   "concepts": [
    "Computer science",
    "Artificial intelligence",
@@ -11670,7 +11720,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tgrs.2025.3650350",
   "abstract": "In hyperspectral image (HSI) classification, the high-dimensionality and the complex coupling of spatial-spectral features present severe challenges to existing deep learning methods in terms of accuracy, generalization, and computational efficiency. Researchers have recently explored CNN and Transformer-based methods to overcome these limitations, but CNN's limited receptive field prevents effective modeling of long-range dependencies, while Transformers suffer from high computational cost and inefficiency in high-dimensional data. Motivated by these limitations, the state-space model (SSM) Mamba shows great potential as an efficient alternative for sequence and dependency modeling. Building on this foundation, we propose HyPyraMamba, a novel architecture designed to effectively overcome the above challenges. It integrates the Pyramid Spectral Attention (PSA) module to capture multi-scale key spectral features, thereby reducing interference caused by spectral redundancy. We developed an Adaptive Expert Depthwise Convolution (AEDC) module that enhances the model's ability to express multi-scale spatial-spectral features, and a sequence modeling module, Mamba. In the Mamba module, we utilize the spatial Mamba and spectral Mamba branches to enhance spatial structure and spectral correlation modeling. Extensive experiments on four benchmark HSI datasets demonstrate that HyPyraMamba significantly outperforms several recent state-of-the-art methods and provides a favorable accuracy–efficiency trade-off. In particular, class-wise analyses on spectrally similar land-cover categories (e.g., different soybean and bareland types) show that HyPyraMamba markedly reduces mutual confusion compared with CNN-, Transformer-, and Mamba-based baselines. The code will be available at https://github.com/dekai-li/HyPyraMamba.",
-  "citation_count": 17,
+  "citation_count": 18,
   "concepts": [
    "Hyperspectral imaging",
    "Computer science",
@@ -13129,65 +13179,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7125593273",
-  "title": "Evaluation of the Velocity Recovery and Dealiasing Algorithm for Dual-PRF Scans",
-  "authors": [
-   "David Schvartzman",
-   "Robert D. Palmer"
-  ],
-  "venue": "IEEE Geoscience and Remote Sensing Letters",
-  "venue_short": "GRSL",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-01-01",
-  "doi": "10.1109/lgrs.2026.3656843",
-  "pdf": null,
-  "url": "https://doi.org/10.1109/lgrs.2026.3656843",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Algorithm",
-   "Computer science",
-   "Computer vision"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7125596793",
-  "title": "Military Target Detection by Integrated Spectral Design and Radiative Transfer Modeling",
-  "authors": [
-   "Siddhant Dixit",
-   "Sudhanshu S. Jha",
-   "Usha Rani Nelakuditi",
-   "Rama Rao Nidamanuri"
-  ],
-  "venue": "IEEE Geoscience and Remote Sensing Letters",
-  "venue_short": "GRSL",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-01-01",
-  "doi": "10.1109/lgrs.2026.3657664",
-  "pdf": null,
-  "url": "https://doi.org/10.1109/lgrs.2026.3657664",
-  "abstract": "A paradigm shift in modern-day warfare, spectral designing and signature management has gained prominence in the defence industry. From a target detection perspective, various national military establishments are making efforts to develop sensors, signature management, and survivability of their own military platforms. Most targets of strategic importance are found camouflaged in tactical environments. Hyperspectral imaging (HSI) is increasingly used in defence applications at various information levels. Acquisition of spectral signatures of adversaries and discriminating between actual and decoy targets is vital for deployment in meeting time-sensitive intelligence needs. We have developed a novel spectral target detection approach, integrating radiative transfer modelling (RTM), a non-linear spectral mixture model, and a reference spectral library database, to discriminate real and decoy targets of military interest. We acquired spectral signatures of various strategically important artificial as well as natural materials and developed a forward spectral mixture modelling based approach to engineer spectral signatures, which we name the primary decoy signature database (PDSD), conforming to real landscapes. The spatial variability and environmental interference of all the targets are modelled with respect to geometric and atmospheric conditions using RTM. The proposed approach is experimentally implemented for target detection in a HySIS hyperspectral satellite imagery acquired over defence terrain in the Indo-China Himalayan region, conforming to various scenarios of target-material optical perspective. The results suggest operational promise of spectral signature design and engineering for differentiating real and decoy targets using HSI.",
-  "citation_count": 1,
-  "concepts": [
-   "Hyperspectral imaging",
-   "Spectral signature",
-   "Computer science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
   "id": "openalex:W4377371562",
   "title": "LaCon: Late-Constraint Controllable Visual Generation",
   "authors": [
@@ -13849,7 +13840,7 @@
   "doi": "10.1109/tip.2026.3732289",
   "pdf": null,
   "url": "https://doi.org/10.1109/tip.2026.3732289",
-  "abstract": "When sound waves hit an object, they induce vibrations that produce high-frequency and subtle visual changes, which can be used for recovering the sound. Early studies always encounter trade-offs related to sampling rate, bandwidth, field of view, and the simplicity of the optical path. Recent advances in event camera hardware show good potential for its application in visual sound recovery, because of its superior ability in capturing high-frequency signals. However, existing event-based vibration recovery methods are still sub-optimal for sound recovery. In this work, we propose a novel pipeline for non-contact sound recovery, fully utilizing spatial-temporal information from the event stream. We first generate a large training set using a novel simulation pipeline. Then we designed a network that leverages the sparsity of events to capture spatial information and uses Mamba to model long-term temporal information. Lastly, we train a spatial aggregation block to aggregate information from different locations to further improve signal quality. To capture event signals caused by sound waves, we also designed an imaging system using a laser matrix to enhance the gradient and collected multiple data sequences for testing. Experimental results on synthetic and real-world data demonstrate the effectiveness of our method.",
+  "abstract": "When sound waves hit an object, they induce vibrations that produce high-frequency and subtle visual changes, which can be used for recovering the sound. Early studies always encounter trade-offs related to sampling rate, bandwidth, and the simplicity of the optical path. Recent advances in event camera hardware show good potential for its application in visual sound recovery, because of its superior ability in capturing high-frequency signals. Thus we seek to explore the potential of event cameras for non-contact sound recovery. In this work, we present the first learning-based framework for event-based sound recovery, establishing a strong baseline through systematic dataset simulation, hardware design, and model development. Addressing the scarcity of data in this domain, we introduce EvMic, which contains both synthetic and real-world data, enabling data-driven approaches and benchmarking. To effectively capture subtle vibrations in real-world scenarios, we design an imaging system utilizing a laser matrix that enhances surface gradients. Furthermore, we propose a robust end-to-end network that fully exploits the spatial-temporal nature of event streams for high-quality sound recovery. Experimental results on both synthetic and real-world data demonstrate the effectiveness of our proposed framework. The code and dataset will be publicly released upon acceptance.",
   "citation_count": 0,
   "concepts": [
    "Sound (geography)",
@@ -13858,7 +13849,8 @@
   ],
   "source": "openalex",
   "topics": [
-   "计算机视觉"
+   "计算机视觉",
+   "机器学习"
   ],
   "is_own": false
  },
@@ -14480,7 +14472,7 @@
   "doi": "10.1109/tip.2026.3732647",
   "pdf": null,
   "url": "https://doi.org/10.1109/tip.2026.3732647",
-  "abstract": "Leveraging the Segment Anything Model (SAM) for medical image segmentation remains challenging due to its limited adaptability across diverse medical domains. Although fine-tuned variants, such as MedSAM, improve performance in scenarios similar to the training modalities or organs, they may lack generalizability to unseen data. To overcome this limitation, we propose SAM-aware Test-time Adaptation (SAM-TTA), a lightweight and flexible framework that preserves SAM's inherent generalization ability while enhancing segmentation accuracy for medical images. SAM-TTA tackles two major challenges: (1) input-level discrepancy caused by channel mismatches between natural and medical images, and (2) semantic-level discrepancy due to different object characteristics in natural versus medical images (e.g., with clear boundaries vs. ambiguous structures). To this end, we introduce two complementary components: a self-adaptive Bezier Curve-based Transformation (SBCT), which maps single-channel medical images into SAM-compatible three-channel images via a few learnable parameters to be optimized at test time; and IoU-guided Multi-scale Adaptation (IMA), which leverages SAM's intrinsic IoU scores to enforce high output confidence, dual-scale prediction consistency, and intermediate feature consistency, to improve semantic-level alignments. Extensive experiments on eight public medical image segmentation tasks, covering six grayscale and two color (endoscopic) tasks, demonstrate that SAM-TTA consistently outperforms state-of-the-art test-time adaptation methods. Notably, on six grayscale datasets, SAM-TTA even surpasses fully fine-tuned models, achieving significant Dice improvements (i.e., average 4.8% and 7.4% gains over MedSAM and SAM-Med2D) and establishing a new paradigm for universal medical image segmentation. Code is available at https://github.com/JianghaoWu/SAM-TTA.",
+  "abstract": "Leveraging the Segment Anything Model (SAM) for medical image segmentation remains challenging due to its limited adaptability across diverse medical domains. Although fine-tuned variants, such as MedSAM, improve performance in scenarios similar to the training modalities or organs, they may lack generalizability to unseen data. To overcome this limitation, we propose SAM-aware Test-time Adaptation (SAM-TTA), a computationally efficient and flexible framework that preserves SAM's inherent generalization ability while enhancing segmentation accuracy for medical images. SAM-TTA tackles two major challenges: (1) input-level discrepancy caused by channel mismatches between natural and medical images, and (2) semantic-level discrepancy due to different object characteristics in natural versus medical images (e.g., with clear boundaries vs. ambiguous structures). To this end, we introduce two complementary components: a self-adaptive Bèzier Curve-based Transformation (SBCT), which maps single-channel medical images into SAM-compatible three-channel images via a few learnable parameters to be optimized at test time; and IoU-guided Multi-scale Adaptation (IMA), which leverages SAM's intrinsic IoU scores to enforce high output confidence, dualscale prediction consistency, and intermediate feature consistency, to improve semantic-level alignment. Extensive experiments on eight public medical image segmentation tasks, covering six grayscale and two color (endoscopic) tasks, demonstrate that SAM-TTA consistently outperforms state-of-the-art test-time adaptation methods. Notably, on six grayscale datasets, SAM-TTA even surpasses fully fine-tuned models, achieving significant Dice improvements (i.e., average 4.8% and 7.4% gains over MedSAM and SAM-Med2D) and establishing a new paradigm for universal medical image segmentation. Code is available at https://github.com/JianghaoWu/SAM-TTA.",
   "citation_count": 1,
   "concepts": [
    "Artificial intelligence",
