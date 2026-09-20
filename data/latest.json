@@ -1,27 +1,36 @@
 [
  {
-  "id": "openalex:W7213445290",
-  "title": "Using ICESat-2 ATL08 heights and Landsat time series to assess the age-height relationship of southern yellow pines in the US",
+  "id": "openalex:W7213537249",
+  "title": "Observation-constrained clear-sky direct radiative forcing of black carbon containing aerosols reveals distinct radiative regimes across urban Asia",
   "authors": [
-   "Sonia Sharma Banjade",
-   "Randolph H. Wynne",
-   "Valerie A. Thomas",
-   "Patrick C. Green",
-   "Todd A. Schroeder"
+   "Pravash Tiwari",
+   "Jason Blake Cohen",
+   "Ralph A. Kahn",
+   "Hongrui Gao",
+   "Luoyao Guan",
+   "Zhewen Liu",
+   "Lingxiao Lu",
+   "Shuo Wang",
+   "Shahid Uz Zaman",
+   "Cheng Fan",
+   "Simone Lolli",
+   "Zhengqiang Li",
+   "Oleg Dubovik",
+   "Kai Qin"
   ],
   "venue": "Remote Sensing of Environment",
   "venue_short": "RSE",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-17",
-  "doi": "10.1016/j.rse.2026.115677",
+  "date": "2026-09-18",
+  "doi": "10.1016/j.rse.2026.115673",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115677",
-  "abstract": "It is critical to understand the age-height relationship in actively managed pine plantations to evaluate forest productivity and inform sustainable forest management practices. This study utilized the spaceborne lidar data from ICESat-2 ATL08 and Landsat-derived disturbance maps to assess the site index for actively managed pine plantations across the southeastern United States. Specifically, we (1) assessed the agreement between ICESat-2 ATL08 canopy heights and airborne laser scanning (ALS) data, (2) showed the distribution of canopy height by age for the actively managed pine stands, and (3) compared the site index guide curve derived using ICESat-2 and Landsat data with the FIA-derived site index guide curve. We analyzed over 137,998 ICESat-2 ATL08 segments intersecting pine plantation locations and LCMS Fast Loss. We identified plantation ages by subtracting the LCMS Fast Loss year from the ICESat-2 acquisition date. Actively managed stands were defined as those experiencing both thinning and harvesting. ICESat-2 ATL08 heights were compared to heights derived using airborne laser scanning (ALS) data from the USGS 3D Elevation Program. The heights were highly correlated in the assessed region (R 2 = 0.90), providing confidence in ICESat-2 ATL08 heights. Despite the challenges with LCMS misclassifying thinning events as clear-cut disturbances, we developed a model using quantile regression relating the logarithm of ICESat-2 ATL08 height to the reciprocal of age, resulting in a regional site index guide curve. The ICESat-2-derived site index (19.9 m) closely matched the FIA-derived site index (19.8 m) at the base age of 25 years, as supported by the Cramér-von Mises test, indicating that the site index guide curves are statistically similar. The resulting site index map provides insights into spatial variability in regional forest productivity, emphasizing the utility of remote sensing data for large-scale forest monitoring and management",
+  "url": "https://doi.org/10.1016/j.rse.2026.115673",
+  "abstract": "Black carbon (BC) aerosols exert a strong yet uncertain influence on the atmospheric energy balance, yet their radiative forcing estimates remain poorly constrained. Current top-down and bottom-up approaches remain limited in resolving how microphysical evolution and column properties jointly govern radiative responses. To address this limitation, we develop an observation-constrained framework that integrates satellite and ground-based remote sensing observations through a dual-constraint approach. Spectral single-scattering albedo observations from TROPOMI and AERONET/SONET, together with their uncertainty bounds, are first used to constrain physically plausible BC size and mixing state across UV-VIS-NIR wavelengths. These particle-scale solutions are then screened using MODIS-MAIAC multi-waveband aerosol optical depth observations and their associated upper uncertainty bounds, which constrain column extinction and loading. This dual-constraint strategy links particle-scale microphysical and column-scale extinction consistency within a unified observation-based framework. The resulting set of BC optical properties is propagated through radiative transfer modeling, supported by ancillary satellite-derived atmospheric parameters. The framework is applied over two contrasting urban environments in Asia - a polycentric urban agglomerate and a monocentric megacity. It produces spatially resolved, observation-constrained estimates of clear-sky direct radiative forcing (DRF) for BC-containing aerosols at 0.05° × 0.05°. The study reveals that, despite comparable atmospheric heating (15.5 ± 1.9 W m −2 , 18.2 ± 1.3 W m −2 , ~0.3 K day −1 ), both regions exhibit distinct top-of-atmosphere responses with persistent cooling (−17.4 ± 2.6 W m −2 , −15.0 ± 1.2 W m −2 ). A sign reversal to weak positive TOA forcing occurs only over Xuzhou, reaching ~ +0.4 W m −2 , whereas Dhaka remains negative throughout the analyzed distribution. Diagnostic analyses further show that BC DRF does not scale with column loading or aerosol optical depth alone, but exhibits a bifurcation into distinct regimes characterized by coupled variation in column loading, particle microphysics and spectral absorption. Coupled variability analysis further reveals a regionally distinct organization of radiative responses. These responses are embedded within coherent multivariate patterns of microphysical optical, and column variability.Overall, the study demonstrates a reproducible pathway for leveraging multi-platform remote sensing observations to resolve regionally distinct BC radiative impacts. These results also provide an observational basis for evaluating how region-specific BC mitigation strategies may alter regional radiative forcing.",
   "citation_count": 0,
   "concepts": [
-   "Remote sensing",
-   "Series (stratigraphy)",
+   "Radiative forcing",
+   "Radiative transfer",
    "Environmental science"
   ],
   "source": "openalex",
@@ -32,29 +41,124 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7213462254",
-  "title": "Urban building height mapping in Beijing-Tianjin-Hebei megalopolis by synergy of spaceborne LiDAR and multisource geospatial datasets",
+  "id": "openalex:W7213542764",
+  "title": "CEDA-Net: A cascade empirical–deep network for mitigating InSAR tropospheric delay in complex atmospheric and topographic conditions",
   "authors": [
-   "Jieying Lao",
-   "Sheng Nie",
-   "Cheng Wang",
-   "Xiaohuan Xi",
-   "Xiaoxiao Zhu"
+   "Yi Shao",
+   "Yuxing Chen",
+   "Liming Jiang",
+   "Bin Yan",
+   "Zhiwei Zhou"
   ],
   "venue": "Remote Sensing of Environment",
   "venue_short": "RSE",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-17",
-  "doi": "10.1016/j.rse.2026.115658",
+  "date": "2026-09-18",
+  "doi": "10.1016/j.rse.2026.115659",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115658",
-  "abstract": "Building height is a critical parameter for characterizing urban three-dimensional (3D) structure, providing valuable insights into rapid urbanization and its impacts on resource consumption, urban climate, carbon emissions, and population estimation. Although spaceborne photon-counting LiDAR can deliver high-precision building height samples over large areas, its discrete sampling principle necessitates the integration of multi-source data to generate continuous wall-to-wall building height information. In this study, we propose a land use type-based modeling framework that couples an XGBoost regressor with residual kriging (XGBoostK) to map building heights. Applied to the Beijing-Tianjin-Hebei megalopolis, this approach successfully produced a 30 m resolution building height map for 2020. Main findings are fourfold: (1) The importance of building height-related explanatory variables varies across different land use types (residential, commercial, industrial, transportation, and public management and service), emphasizing the scientific necessity of land use type-based analysis and modeling. (2) Among mainstream machine learning models (GAM, SVR, RF, and XGBoost), XGBoost achieved the optimal performance for building height prediction, with a lower RMSE of 5.35 m and a shorter runtime of 7.06 s. (3) Incorporating prediction residuals from XGBoost into the XGBoostK framework effectively reduced the mapping RMSE from 5.22 m to 4.32 m. (4) Cross-comparison with very-high-resolution imagery, 3D models, and two existing height layers indicates that our product accurately characterizes building height distribution and exhibits superior accuracy. The proposed workflow provides methodological support for large-scale building height mapping and promotes the in-depth application of building height in urbanization research and associated management practices.",
+  "url": "https://doi.org/10.1016/j.rse.2026.115659",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
-   "Megalopolis",
-   "Lidar"
+   "Interferometric synthetic aperture radar",
+   "Environmental science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7136156490",
+  "title": "DirPA: Addressing prior shift in imbalanced few-shot crop-type classification",
+  "authors": [
+   "Joana Reuss",
+   "Ekaterina Gikalo",
+   "Marco Körner"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-18",
+  "doi": "10.1016/j.isprsjprs.2026.08.016",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.08.016",
+  "abstract": "Real-world agricultural monitoring is often hampered by severe class imbalance and high label acquisition costs, resulting in significant data scarcity. In few-shot learning (FSL) —a framework specifically designed for data-scarce settings—, training sets are often artificially balanced. However, this creates a disconnect from the long-tailed distributions observed in nature, leading to a distribution shift that undermines the model’s ability to generalize to real-world agricultural tasks. We previously introduced Dir ichlet P rior A ugmentation (DirPA; Reuss et al., 2026a) to proactively mitigate the effects of such label distribution skews during model training. In this work, we extend the original study’s geographical scope. Specifically, we evaluate this extended approach across multiple countries in the European Union (EU) , moving beyond localized experiments to test the method’s resilience across diverse agricultural environments. Our results demonstrate the effectiveness of DirPA across different geographical regions. We show that DirPA not only improves system robustness and stabilizes training under extreme long-tailed distributions, regardless of the target region, but also substantially improves individual class-specific performance by proactively simulating priors.",
+  "citation_count": 0,
+  "concepts": [
+   "Robustness (evolution)",
+   "Computer science",
+   "European union"
+  ],
+  "source": "openalex",
+  "topics": [
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213543118",
+  "title": "Sketch and paint: A structural–temporal aware refinement network for fine-grained crop mapping on satellite image time series",
+  "authors": [
+   "Wei Cui",
+   "Kaimin Sun",
+   "Yu Duan",
+   "Xiao Huang",
+   "Tao He",
+   "Fangyi Lv"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-18",
+  "doi": "10.1016/j.isprsjprs.2026.09.009",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.009",
+  "abstract": "Crop type mapping based on Satellite Image Time Series (SITS) is a cornerstone of large-scale agricultural monitoring. However, existing methods often struggle in agricultural landscapes characterized by field fragmentation and crop phenological variability, where inter-class boundary ambiguity and intra-class phenological heterogeneity make it difficult to preserve sharp crop boundaries while maintaining spatial consistency. Inspired by the human cognitive process of “sketching outlines before filling in details”, we propose STAR, a sequential structural–temporal aware refinement framework for fine-grained crop mapping. STAR integrates three complementary components. The Structure Prior Injection (SPI) module explicitly extracts high-frequency geometric cues in shallow layers to anchor pixel-level boundary information and mitigate boundary degradation caused by deep feature diffusion. The Decoupled Phenology Encoder (DPE) module independently models pixel-wise growth trajectories, reducing spectral interference among phenologically similar crops and enhancing temporal discriminability. The Spatial Consistency Refinement (SCR) module further incorporates spatial context to enforce semantic coherence within structurally constrained regions without compromising boundary integrity. We evaluate STAR on four public crop mapping datasets covering study areas in France, Germany, and South Africa. Experimental results demonstrate that STAR consistently achieves state-of-the-art (SOTA) performance across multiple metrics. Qualitative analyses further confirm improved boundary delineation and field-level spatial coherence, highlighting the effectiveness of the proposed structural–temporal decoupling strategy. The source code is publicly available at https://github.com/cuiwei118/STAR .",
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Context (archaeology)",
+   "Artificial intelligence"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213538268",
+  "title": "Learning instance-level semantic Gaussian representations for occlusion-aware urban scene reconstruction from UAV imagery",
+  "authors": [
+   "Zhenfei Ling",
+   "Ruisheng Wang",
+   "Kun Zhou",
+   "Tszming Lu",
+   "Fugui Liu",
+   "Renzhong Guo"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-18",
+  "doi": "10.1016/j.jag.2026.105574",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105574",
+  "abstract": "UAV-based earth observation provides an efficient and flexible means for detailed urban geospatial modeling and digital twin construction. However, in complex urban environments, foreground occlusions caused by trees, vegetation, and other clutter frequently lead to incomplete structures, contaminated textures, and inconsistent observations across views, thereby reducing the quality and usability of reconstructed urban products. Existing methods still struggle in such scenarios, not only because of severe occlusion itself, but also because they lack a representation at the instance level that can explicitly distinguish target urban structures from occluding interference in 3D space. Without such a representation, Gaussian primitives tend to become entangled across semantic regions, which limits reliable separation between target urban structures and occluders, accurate boundary delineation, and consistent urban scene reconstruction across views from UAV imagery. To address this issue, this paper proposes a semantic Gaussian learning framework at the instance level, enhanced by foundation priors, for urban scene reconstruction from UAV imagery. Specifically, high-level semantic, segmentation, and structural priors extracted from vision foundation models are introduced to guide semantic Gaussian representation learning at the instance level in 3D space. On this basis, an Instance-level Semantic Gaussian Module is designed to inject prior-enhanced semantics into Gaussian primitives, enabling more discriminative representation learning at the instance level. Furthermore, a Prior-guided Interaction Module is developed to establish effective collaboration between visual prior features and 3D Gaussian representations, so that RGB appearance semantics and 3D spatial structure can be jointly encoded within a unified semantic and structural representation. Benefiting from this design, the learned Gaussian representation provides a reliable basis for instance separation, missing-region localization, and consistent urban scene reconstruction across views under severe occlusions. Experimental results on multiple datasets demonstrate that the proposed method consistently outperforms representative baselines in instance separation accuracy, boundary quality, and rendering consistency. The results further show that the proposed representation effectively alleviates instance boundary overlap and category confusion, while improving the completeness, consistency, and usability of urban geospatial products derived from UAV imagery.",
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Artificial intelligence",
+   "Gaussian"
   ],
   "source": "openalex",
   "topics": [
@@ -65,188 +169,95 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7213471975",
-  "title": "Time and tide: Mapping the changing 3D shape of Australia's dynamic intertidal zone using time series satellite data",
+  "id": "openalex:W7213555030",
+  "title": "Vegetation canopy height retrieval in complex mountainous regions based on data calibration and CNN model",
   "authors": [
-   "Robbi Bishop‐Taylor",
-   "Claire Phillips",
-   "Stephen Sagar",
-   "V. Newey"
+   "Huajun Liang",
+   "Qiang Bie",
+   "Hongwei Zhang",
+   "Wenyu Yao"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-17",
-  "doi": "10.1016/j.rse.2026.115663",
+  "date": "2026-09-18",
+  "doi": "10.1016/j.jag.2026.105598",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115663",
-  "abstract": "The intertidal zone is the dynamic boundary between land and sea, where regular tidal inundation creates complex coastal environments that support critical ecosystem services and ecological habitats. Despite their importance and vulnerability to climate change and coastal development, data describing the spatial extent and three-dimensional structure of intertidal environments remain limited. Recent advances in Earth Observation (EO) have enabled the first continental to global-scale maps of intertidal extent and elevation. However, existing approaches are constrained by coarse spatial detail, limited scalability, or static representations of highly dynamic coastal systems. Here, we present Digital Earth Australia (DEA) Intertidal, a new EO method for mapping three-dimensional intertidal elevation through time and at continental scale. The approach integrates multi-sensor Landsat and Sentinel-2 data with global tide modelling to analyse subtle, tide-driven changes in terrain wetness at the pixel level. This pixel-based approach requires no in-situ calibration data, and enables extraction of fine-scale morphological detail that cannot be resolved using traditional waterline-based approaches. We demonstrate our approach with a continental-scale application across the entire Australian coastline, encompassing some of the world's most complex tidal regimes and extensive intertidal habitats. By validating our results against a large, multi-temporal independent dataset, we demonstrate consistently high performance across diverse tidal environments and highlight key strengths and limitations of the approach. Compared to previous continental-scale efforts, DEA Intertidal delivers improved spatial detail while requiring substantially fewer temporal observations to generate accurate elevation models. The resulting time series elevation and uncertainty datasets reveal geomorphologically significant coastal features, and enable quantitative analysis of vertical, horizontal, and volumetric coastal change at scale. Built entirely on open satellite data, global tide models, and open-source processing frameworks, DEA Intertidal provides a scalable and transferable approach for monitoring intertidal dynamics globally.",
-  "citation_count": 0,
-  "concepts": [
-   "Intertidal zone",
-   "Intertidal ecology",
-   "Digital elevation model"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213500066",
-  "title": "Direct quantification of solar-induced chlorophyll fluorescence using compact solar-blind optical radiometers",
-  "authors": [
-   "Jonas Kuhn",
-   "J. Stutz"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-17",
-  "doi": "10.1016/j.rse.2026.115669",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115669",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Radiometer",
-   "Environmental science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213516456",
-  "title": "3DSO: Quantifying forest three-dimensional structural organization beyond the canopy surface using LiDAR data",
-  "authors": [
-   "Xin Yang",
-   "Wen Xiao",
-   "Wenxia Dai",
-   "Guang Zheng"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-17",
-  "doi": "10.1016/j.rse.2026.115668",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115668",
-  "abstract": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105598",
+  "abstract": "Vegetation canopy height is a vital metric for quantifying aboveground biomass, evaluating ecosystem integrity, and informing forest management strategies, playing a pivotal role in climate change mitigation and sustainable forestry. However, accurate estimation of canopy height faces three major challenges: topographic complexity in mountainous regions, landscape spatial heterogeneity, and inherent limitations of spaceborne LiDAR systems (e.g., GEDI) in detecting low-stature vegetation. This study proposes a regional calibration approach for GEDI-derived height labels and integrates the calibrated labels with multi-source remote sensing data to retrieve canopy height at 10 m resolution. Key findings demonstrate that: (1) The calibration model that couples Random Forest Regression and Multiple Linear Regression can effectively mitigate GEDI’s overestimation of low-stature vegetation and provide reliable label data for subsequent canopy height mapping; (2) Among all feature combinations, optical imagery emerged as the most influential contributor to model performance, significantly improving predictive accuracy when included; (3) The optimized model achieves a mean absolute error (MAE) of 2.26 m against field measurements, showing strong consistency with airborne LiDAR validation (MAE = 2.63 m). Qualitative evaluations highlight the model’s heightened sensitivity to diverse land cover types, enabling more precise delineation of vegetation boundaries. The calibrated height labels further improve the characterization of canopy height across forest, shrub, and grassland areas. These results demonstrate the potential of GEDI label calibration combined with multi-source remote sensing data for large-scale canopy height mapping in complex mountainous regions.",
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
    "Lidar",
-   "Environmental science"
+   "Canopy"
   ],
   "source": "openalex",
   "topics": [
    "遥感",
+   "计算机视觉",
    "三维与几何"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7213527326",
-  "title": "An uncertainty workflow for landsat TIRS split window surface temperature products incorporating atmospheric water vapor",
+  "id": "openalex:W7213583920",
+  "title": "Automated conversion of unstructured mesh models to structured parametric CAD models for architectural applications",
   "authors": [
-   "Amirhossein Hassanzadeh",
-   "Robert Mancini",
-   "Aaron Gerace",
-   "Rehman Eon",
-   "Matthew Montanaro",
-   "ELPHAS KHATA"
+   "Jianbao Cao",
+   "Cheng Wang",
+   "Jianfang Ma",
+   "Yang Ming",
+   "Fei Deng"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-17",
-  "doi": "10.1016/j.rse.2026.115660",
+  "date": "2026-09-18",
+  "doi": "10.1016/j.jag.2026.105583",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115660",
+  "url": "https://doi.org/10.1016/j.jag.2026.105583",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Remote sensing",
-   "Environmental science",
-   "Window (computing)"
+   "CAD",
+   "Engineering drawing",
+   "Computer science"
   ],
   "source": "openalex",
   "topics": [
-   "遥感"
+   "三维与几何"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7212205355",
-  "title": "BlinkChange: Active perception bi-temporal reliable representation for disaster impact understanding from remote sensing imagery",
+  "id": "openalex:W7213593432",
+  "title": "Challenges in heating demand modelling based on the Kleczków district in Wrocław, Poland",
   "authors": [
-   "Hongyu Chen",
-   "Shibo Ge",
-   "Jiping Liu",
-   "Yong Wang",
-   "Jun Zhu",
-   "Shuai Bao",
-   "Ce Zhang"
+   "Grzegorz Bury",
+   "D. Teodorczyk",
+   "Paweł Bogusławski",
+   "J. Zielonka",
+   "Rushikesh Padsala"
   ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-17",
-  "doi": "10.1016/j.isprsjprs.2026.09.014",
+  "date": "2026-09-18",
+  "doi": "10.1016/j.jag.2026.105581",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.014",
+  "url": "https://doi.org/10.1016/j.jag.2026.105581",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Computer science",
-   "Salient",
-   "Context (archaeology)"
+   "Environmental planning",
+   "Geography",
+   "Natural resource economics"
   ],
   "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213444366",
-  "title": "Explaining discrepancies between ground-based and spaceborne nighttime light measurements using urban morphology: a multi-city study",
-  "authors": [
-   "Camille Labrousse",
-   "Carynelisa Haspel",
-   "Noam Levin"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-17",
-  "doi": "10.1016/j.isprsjprs.2026.09.015",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.015",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Environmental science",
-   "Meteorology"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
+  "topics": [],
   "is_own": false
  }
 ]
