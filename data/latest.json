@@ -1,263 +1,297 @@
 [
  {
-  "id": "openalex:W7213537249",
-  "title": "Observation-constrained clear-sky direct radiative forcing of black carbon containing aerosols reveals distinct radiative regimes across urban Asia",
+  "id": "openalex:W7213661690",
+  "title": "Detecting diurnal dynamics of cotton leaf inclination angle under water-salt stress",
   "authors": [
-   "Pravash Tiwari",
-   "Jason Blake Cohen",
-   "Ralph A. Kahn",
-   "Hongrui Gao",
-   "Luoyao Guan",
-   "Zhewen Liu",
-   "Lingxiao Lu",
-   "Shuo Wang",
-   "Shahid Uz Zaman",
-   "Cheng Fan",
-   "Simone Lolli",
-   "Zhengqiang Li",
-   "Oleg Dubovik",
-   "Kai Qin"
+   "Qing Li",
+   "Dalei Hao",
+   "Jan Pisek",
+   "Zicheng Ji",
+   "Yanan Wei",
+   "Youngryel Ryu",
+   "Jiarui Xu",
+   "Yangmin Feng",
+   "Shaozhong Kang",
+   "Yelu Zeng"
   ],
   "venue": "Remote Sensing of Environment",
   "venue_short": "RSE",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-18",
-  "doi": "10.1016/j.rse.2026.115673",
+  "date": "2026-09-19",
+  "doi": "10.1016/j.rse.2026.115674",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115673",
-  "abstract": "Black carbon (BC) aerosols exert a strong yet uncertain influence on the atmospheric energy balance, yet their radiative forcing estimates remain poorly constrained. Current top-down and bottom-up approaches remain limited in resolving how microphysical evolution and column properties jointly govern radiative responses. To address this limitation, we develop an observation-constrained framework that integrates satellite and ground-based remote sensing observations through a dual-constraint approach. Spectral single-scattering albedo observations from TROPOMI and AERONET/SONET, together with their uncertainty bounds, are first used to constrain physically plausible BC size and mixing state across UV-VIS-NIR wavelengths. These particle-scale solutions are then screened using MODIS-MAIAC multi-waveband aerosol optical depth observations and their associated upper uncertainty bounds, which constrain column extinction and loading. This dual-constraint strategy links particle-scale microphysical and column-scale extinction consistency within a unified observation-based framework. The resulting set of BC optical properties is propagated through radiative transfer modeling, supported by ancillary satellite-derived atmospheric parameters. The framework is applied over two contrasting urban environments in Asia - a polycentric urban agglomerate and a monocentric megacity. It produces spatially resolved, observation-constrained estimates of clear-sky direct radiative forcing (DRF) for BC-containing aerosols at 0.05° × 0.05°. The study reveals that, despite comparable atmospheric heating (15.5 ± 1.9 W m −2 , 18.2 ± 1.3 W m −2 , ~0.3 K day −1 ), both regions exhibit distinct top-of-atmosphere responses with persistent cooling (−17.4 ± 2.6 W m −2 , −15.0 ± 1.2 W m −2 ). A sign reversal to weak positive TOA forcing occurs only over Xuzhou, reaching ~ +0.4 W m −2 , whereas Dhaka remains negative throughout the analyzed distribution. Diagnostic analyses further show that BC DRF does not scale with column loading or aerosol optical depth alone, but exhibits a bifurcation into distinct regimes characterized by coupled variation in column loading, particle microphysics and spectral absorption. Coupled variability analysis further reveals a regionally distinct organization of radiative responses. These responses are embedded within coherent multivariate patterns of microphysical optical, and column variability.Overall, the study demonstrates a reproducible pathway for leveraging multi-platform remote sensing observations to resolve regionally distinct BC radiative impacts. These results also provide an observational basis for evaluating how region-specific BC mitigation strategies may alter regional radiative forcing.",
+  "url": "https://doi.org/10.1016/j.rse.2026.115674",
+  "abstract": "Leaf inclination angle (LIA) dynamics act as a rapid response mechanism to abiotic stress, regulating canopy energy balance and water use efficiency. While the adaptive value of diurnal LIA plasticity (e.g., paraheliotropism) is well-recognized in ecology, most current remote sensing algorithms and ecosystem models still treat canopy architecture as static and neglect stress-induced geometric adjustments. Furthermore, the diurnal dynamics of LIA under combined abiotic stresses, such as concurrent water deficit and salinity, still remain poorly understood. Recent advances in unmanned aerial vehicle (UAV) photogrammetry offer a promising approach for capturing LIA dynamics at high spatial and temporal resolution. However, accurately resolving fine scale, dynamic leaf movements in real environments using UAVs remains challenging. To address these gaps, we developed the Constraint-Assisted Point cloud fusion for Leaf scale Analysis (CAPLA), an integrated UAV analytical workflow that combines deep learning with Structure from Motion (SfM). CAPLA employs 2D semantic masks to strictly constrain 3D mesh reconstruction, effectively mitigating motion-induced artifacts. Independent validation against 19 plot level mean leaf angle (MLA) observations collected at 9:30 am and 12:00 pm yielded an R 2 of 0.89 and an RMSE of 0.9°, supporting plot level MLA estimation under the validated acquisition conditions. CAPLA was subsequently applied across five observation times to characterize diurnal canopy structural dynamics. Importantly, repeated measures analysis of the high frequency observations revealed significant effects of irrigation, salinity, and observation time on MLA, together with a significant irrigation × time interaction ( P = 0.0109), indicating that diurnal MLA trajectories differed among irrigation levels. In contrast, neither the irrigation × salinity interaction ( P = 0.8800) nor the irrigation × salinity × time interaction ( P = 0.9086) was significant. Descriptive differences in within-day variability were nevertheless observed among individual treatment combinations, highlighting the value of time-resolved structural monitoring for characterizing canopy responses to combined water and salinity stresses. These findings highlight the complex structural plasticity of canopies under interacting stresses, emphasizing the critical need to transition from static canopy assumptions to dynamic structural monitoring for improving ecosystem models and precision agriculture.",
   "citation_count": 0,
   "concepts": [
-   "Radiative forcing",
-   "Radiative transfer",
-   "Environmental science"
+   "Canopy",
+   "Environmental science",
+   "Remote sensing"
   ],
   "source": "openalex",
   "topics": [
    "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213664618",
+  "title": "Diurnal coupling of total column nitrogen dioxide and aerosol optical depth: Insights from the Pandora Asia network",
+  "authors": [
+   "S. Kim",
+   "Ukkyo Jeong",
+   "Hyunkee Hong",
+   "Alexander Cede",
+   "Lim‐Seok Chang",
+   "Serin Kim",
+   "Donghee Kim",
+   "Hanlim Lee",
+   "Thomas Hanisco",
+   "Nader Abuhassan",
+   "Si‐Chee Tsay",
+   "Daewon Kim",
+   "Jhoon Kim",
+   "Jae-Hwan Kim",
+   "Surassawadee Phoompanit",
+   "Enkhbaatar Davaanyam",
+   "Muhammad Fahim Khokhar",
+   "Abdus Salam",
+   "Hisahiro Takashima",
+   "Shungo Kato",
+   "Risyanto",
+   "Santo V. Salinas",
+   "Ednofri"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-19",
+  "doi": "10.1016/j.rse.2026.115682",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115682",
+  "abstract": "To improve understanding of air quality in Asia and support satellite validation, the Korean government launched the Pandora Asia Network (PAN) in 2021. The high temporal resolution and simultaneous retrievals of nitrogen dioxide (NO 2 ) and aerosol optical depth (AOD) from the PAN allow for detailed analysis of aerosol and precursor variability. This study evaluated NO 2 and AOD levels at various sites across major Asian cities with different air quality regulations, using consistent quality measurements from Pandora and satellite data. Generally, AOD from the Visible Infrared Imaging Radiometer Suite (VIIRS) Deep Blue product showed good agreement with the PAN retrievals, whereas TROPOspheric Monitoring Instrument (TROPOMI) generally underestimated NO 2 levels relative to Pandora, especially in highly polluted cities such as Dhaka and Singapore. The NO 2 -to-AOD ratio (NAR), which assesses aerosol characteristics associated with NO 2 sources, was higher in major cities such as Seoul and Singapore, whereas lower values were observed in areas with uncontrolled or limited combustion activity. Differences in NO 2 measurements between TROPOMI and Pandora led to discrepancies in NAR between satellite and ground-based data, particularly in Singapore, Islamabad, and Dhaka. Using high-frequency PAN sampling, we calculated the daily correlation coefficient between AOD and NO 2 (r d ) at each site. High values of r d were observed in Islamabad and Dhaka, where ammonia (NH 3 ) and NO 2 levels were elevated; both are important tracers of nitrate aerosol formation. This study estimated the NO x emission contribution factor to AOD (NCF) based on a statistical relationship among r d , NO 2 , NH 3 , and water vapor (H 2 O), which can serve as a diagnostic tool for evaluating aerosol emission sources across Asian countries.",
+  "citation_count": 0,
+  "concepts": [
+   "Aerosol",
+   "Environmental science",
+   "Nitrogen dioxide"
+  ],
+  "source": "openalex",
+  "topics": [
+   "机器学习",
    "三维与几何"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7213542764",
-  "title": "CEDA-Net: A cascade empirical–deep network for mitigating InSAR tropospheric delay in complex atmospheric and topographic conditions",
+  "id": "openalex:W7213638741",
+  "title": "An Adaptive Dynamic AI-driven ParameTerization (ADAPT) framework for global hourly gross primary productivity estimation",
   "authors": [
-   "Yi Shao",
-   "Yuxing Chen",
-   "Liming Jiang",
-   "Bin Yan",
-   "Zhiwei Zhou"
+   "Sejeong Bae",
+   "Gyeongbin Lee",
+   "Inchae Chung",
+   "Yejin Kim",
+   "Y -M Kim",
+   "Jungho Im",
+   "Soomin Hwang",
+   "Bokyung Son",
+   "Taejun Sung"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-18",
-  "doi": "10.1016/j.rse.2026.115659",
+  "date": "2026-09-19",
+  "doi": "10.1016/j.isprsjprs.2026.09.024",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115659",
-  "abstract": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.024",
+  "abstract": "High-frequency estimation of gross primary productivity (GPP) is crucial for understanding terrestrial carbon dynamics and ecosystem responses to rapidly changing environmental conditions. However, accurate GPP estimation at short-term timescales remains challenging, as it requires accounting for both instantaneous physiological reactions and legacy effects from antecedent environments. While light response curve (LRC) models effectively represent diurnal photosynthetic variations by capturing nonlinear light saturation, their global application has been constrained by static parameterizations. To address this, we propose the Adaptive Dynamic AI-driven ParameTerization (ADAPT) framework, which couples an LRC model with a deep learning approach. By integrating satellite-derived vegetation indices and 15-day antecedent meteorological statistics, ADAPT dynamically retrieves daily physiological parameters, enabling spatially explicit and temporally dynamic LRC parameterization. Using 328 eddy covariance flux sites globally (2001–2024), the dynamically parameterized model (LRC-DP) substantially mitigated underestimation biases associated with static models, achieving a site-level root mean squared error (RMSE) of 343.7 g C m −2 yr −1 for annual GPP. Against existing hourly products, ADAPT reduced RMSE by 25.8–32.4%, successfully reproducing midday peak productivity by overcoming the limitations of linear light-use efficiency assumptions and purely data-driven approaches. Global application at 0.05° resolution demonstrated that ADAPT captures sub-daily photosynthetic sensitivities and interannual variability consistent with global products. Highlighting its robustness under extreme climate stress, ADAPT demonstrated enhanced capability over existing products by accurately capturing daily and sub-daily GPP declines during heatwaves in the United States and Australia. This study highlights that integrating physiological mechanisms with dynamic parameterizations effectively resolves traditional scaling bottlenecks, advancing our capability to monitor high-resolution land–atmosphere carbon exchanges under climate extremes.",
   "citation_count": 0,
   "concepts": [
-   "Remote sensing",
-   "Interferometric synthetic aperture radar",
-   "Environmental science"
+   "Environmental science",
+   "Eddy covariance",
+   "Mean squared error"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213671967",
+  "title": "Spectral unmixing of hyperspectral lidar signals considering laser beam profile",
+  "authors": [
+   "Yuhao Xia",
+   "Shilong Xu",
+   "Ahui Hou",
+   "Jiajie Fang",
+   "Wanying Ding",
+   "Huifeng Tao",
+   "Xinyuan Zhang",
+   "Yicheng Wang",
+   "Fei Wang",
+   "Yihua Hu"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-19",
+  "doi": "10.1016/j.isprsjprs.2026.09.011",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.011",
+  "abstract": "Full-waveform hyperspectral LiDAR (FWHSL) provides range-resolved spectral measurements and enables quantitative interpretation of multiple targets within a laser footprint. Conventional spectral unmixing (SU), originally developed for passive hyperspectral imagery, estimates the fractional contribution of each endmember from a mixed spectrum and commonly relates this abundance to the area proportion of the corresponding target within pixels. However, HSL is an active sensing modality, and its measured mixed spectrum is inherently modulated by the spatial energy distribution of the emitted laser beam. As a result, in HSL data, the spectral contribution of a target depends not only on its reflectance and geometric coverage, but also on its position within the beam footprint. Directly applying conventional SU to HSL therefore ignores this intrinsic beam-profile weighting and can lead to a mismatch between energy-weighted spectral abundance and true geometric area proportion. To address this problem, this study formulates the beam-profile-induced energy-to-area mismatch and proposes a beam-profile-constrained geometric spectral unmixing method for FWHSL data. The method interprets the mixed spectrum as an energy constraint and uses a known, calibrated Gaussian beam profile together with a low-dimensional circular-arc boundary model to retrieve target area proportions. Simulations with controlled binary mixtures show that the method outperforms a linear mixing model (LMM)-only baseline, reducing mean relative error (RE) from 21.55 % to 9.64 % and composite root mean square error (CRMSE) from 25.81 % to 13.43 %. A laboratory 101-channel FWHSL system experiment further validates the method using leaf-wood board, leaf-red brick, and leaf-ceramic tile binary mixtures and image-based ground truth. Relative to the direct LMM baseline, the proposed method reduces the overall mean absolute error (MAE) from 0.2061 to 0.1321, across-group root mean square error (ARMSE) from 0.1412 to 0.0843, mean RE from 24.15 % to 15.48 %, and mean CRMSE from 0.1158 to 0.0660. These changes correspond to reductions of 35.90 %, 40.27 %, 35.91 %, and 42.97 %, respectively. These results indicate that accounting for laser beam-profile weighting can improve geometric area-proportion retrieval in FWHSL SU, particularly when the target boundary intersects beam-sensitive regions with large spatial energy gradients. The current validation is limited to binary mixtures with locally smooth boundaries and a known or calibrated beam profile. Extension to unknown or irregular beam profiles, multi-material mixtures, and more complex intra-footprint geometries remain a subject for future research.",
+  "citation_count": 0,
+  "concepts": [
+   "Hyperspectral imaging",
+   "Lidar",
+   "Endmember"
   ],
   "source": "openalex",
   "topics": [
    "遥感",
-   "机器学习"
+   "计算机视觉",
+   "三维与几何"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7136156490",
-  "title": "DirPA: Addressing prior shift in imbalanced few-shot crop-type classification",
+  "id": "openalex:W7213653472",
+  "title": "Biophysical effects of afforestation on local land surface temperature in china: A comprehensive analysis incorporating forest age and afforestation intensity",
   "authors": [
-   "Joana Reuss",
-   "Ekaterina Gikalo",
-   "Marco Körner"
+   "Shaoyu Zhang",
+   "Bin Song",
+   "Chaoyang Wu",
+   "Bisong Hu",
+   "Jin Chen",
+   "Shuhua Qi",
+   "Yong Ge"
   ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-18",
-  "doi": "10.1016/j.isprsjprs.2026.08.016",
+  "date": "2026-09-19",
+  "doi": "10.1016/j.jag.2026.105593",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.08.016",
-  "abstract": "Real-world agricultural monitoring is often hampered by severe class imbalance and high label acquisition costs, resulting in significant data scarcity. In few-shot learning (FSL) —a framework specifically designed for data-scarce settings—, training sets are often artificially balanced. However, this creates a disconnect from the long-tailed distributions observed in nature, leading to a distribution shift that undermines the model’s ability to generalize to real-world agricultural tasks. We previously introduced Dir ichlet P rior A ugmentation (DirPA; Reuss et al., 2026a) to proactively mitigate the effects of such label distribution skews during model training. In this work, we extend the original study’s geographical scope. Specifically, we evaluate this extended approach across multiple countries in the European Union (EU) , moving beyond localized experiments to test the method’s resilience across diverse agricultural environments. Our results demonstrate the effectiveness of DirPA across different geographical regions. We show that DirPA not only improves system robustness and stabilizes training under extreme long-tailed distributions, regardless of the target region, but also substantially improves individual class-specific performance by proactively simulating priors.",
+  "url": "https://doi.org/10.1016/j.jag.2026.105593",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Robustness (evolution)",
-   "Computer science",
-   "European union"
+   "Afforestation",
+   "Environmental science",
+   "Intensity (physics)"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213655038",
+  "title": "A two-stage transformer framework for reconstructing hourly 1 km all-weather land surface temperature using cross-scale transfer learning",
+  "authors": [
+   "Yuanyuan Luo",
+   "Sha Zhang",
+   "Kun Qiao",
+   "Yun Bai"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-19",
+  "doi": "10.1016/j.jag.2026.105602",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105602",
+  "abstract": "High spatiotemporal resolution land surface temperature (LST) reconstruction is essential for analyzing land-atmosphere interactions and thermal environmental dynamics. Thermal infrared observations, the primary source of regional and global LST, are affected by cloud contamination, scale discrepancies, and distribution shifts. Meanwhile, reconstruction methods struggle to provide both hourly continuity and kilometer-scale detail, and cross-scale fusion often causes spatial over-smoothing. To address these limitations, we propose ST-LSTrans, a two-stage Transformer framework for reconstructing regional hourly 1 km all-weather LST. It uses cross-scale transfer learning with global pre-training on hourly ∼6.25 km CLDAS LST to capture regional thermodynamic evolution and local fine-tuning on four-times-daily 1000 m MODIS LST to recover kilometer-scale thermal heterogeneity. A KL divergence constraint is introduced to reduce distribution shifts and spatial over-smoothing during cross-scale fusion. Validation results based on multi-source datasets show that the global pre-training stage achieved an average RMSE of 1.13 K, while the local fine-tuning stage achieved an average RMSE of 1.06 K, with the minimum RMSE reaching 0.87 K. Independent Landsat validation showed that the reconstructed product achieved a scene-averaged RMSE of 2.98 K and improved upon the original CLDAS background field. Additional evaluations against VIIRS VNP21, which is generated using an independent temperature-emissivity separation algorithm, confirmed the cross-sensor consistency of the reconstructed LST. Ground-based observations further demonstrated that ST-LSTrans preserved realistic diurnal temperature cycle characteristics under both clear-sky and persistent cloudy conditions. SHAP analysis further revealed scale-dependent transitions in LST driving mechanisms from coarse-scale atmospheric forcing to kilometer-scale terrain and land surface controls. This study provides a unified and interpretable modelling framework for high spatiotemporal resolution LST reconstruction and driving mechanism analysis.",
+  "citation_count": 0,
+  "concepts": [
+   "Mean squared error",
+   "Environmental science",
+   "Diurnal cycle"
   ],
   "source": "openalex",
   "topics": [
+   "遥感",
+   "计算机视觉",
    "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7213543118",
-  "title": "Sketch and paint: A structural–temporal aware refinement network for fine-grained crop mapping on satellite image time series",
+  "id": "openalex:W7213655373",
+  "title": "AdaGeo-SR: Geo-semantic-guided super-resolution of sentinel-2 imagery with AlphaEarth foundation priors",
   "authors": [
-   "Wei Cui",
-   "Kaimin Sun",
-   "Yu Duan",
-   "Xiao Huang",
-   "Tao He",
-   "Fangyi Lv"
+   "Hexin Wang",
+   "Zeqing Su",
+   "Yuanchen Yin",
+   "Yonghua Sun",
+   "Cankun Yang",
+   "Na Jiang",
+   "Xiaojuan Li"
   ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-18",
-  "doi": "10.1016/j.isprsjprs.2026.09.009",
+  "date": "2026-09-19",
+  "doi": "10.1016/j.jag.2026.105573",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.009",
-  "abstract": "Crop type mapping based on Satellite Image Time Series (SITS) is a cornerstone of large-scale agricultural monitoring. However, existing methods often struggle in agricultural landscapes characterized by field fragmentation and crop phenological variability, where inter-class boundary ambiguity and intra-class phenological heterogeneity make it difficult to preserve sharp crop boundaries while maintaining spatial consistency. Inspired by the human cognitive process of “sketching outlines before filling in details”, we propose STAR, a sequential structural–temporal aware refinement framework for fine-grained crop mapping. STAR integrates three complementary components. The Structure Prior Injection (SPI) module explicitly extracts high-frequency geometric cues in shallow layers to anchor pixel-level boundary information and mitigate boundary degradation caused by deep feature diffusion. The Decoupled Phenology Encoder (DPE) module independently models pixel-wise growth trajectories, reducing spectral interference among phenologically similar crops and enhancing temporal discriminability. The Spatial Consistency Refinement (SCR) module further incorporates spatial context to enforce semantic coherence within structurally constrained regions without compromising boundary integrity. We evaluate STAR on four public crop mapping datasets covering study areas in France, Germany, and South Africa. Experimental results demonstrate that STAR consistently achieves state-of-the-art (SOTA) performance across multiple metrics. Qualitative analyses further confirm improved boundary delineation and field-level spatial coherence, highlighting the effectiveness of the proposed structural–temporal decoupling strategy. The source code is publicly available at https://github.com/cuiwei118/STAR .",
+  "url": "https://doi.org/10.1016/j.jag.2026.105573",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Computer science",
-   "Context (archaeology)",
+   "Prior probability",
+   "Foundation (evidence)",
    "Artificial intelligence"
   ],
   "source": "openalex",
   "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213538268",
-  "title": "Learning instance-level semantic Gaussian representations for occlusion-aware urban scene reconstruction from UAV imagery",
-  "authors": [
-   "Zhenfei Ling",
-   "Ruisheng Wang",
-   "Kun Zhou",
-   "Tszming Lu",
-   "Fugui Liu",
-   "Renzhong Guo"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-18",
-  "doi": "10.1016/j.jag.2026.105574",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105574",
-  "abstract": "UAV-based earth observation provides an efficient and flexible means for detailed urban geospatial modeling and digital twin construction. However, in complex urban environments, foreground occlusions caused by trees, vegetation, and other clutter frequently lead to incomplete structures, contaminated textures, and inconsistent observations across views, thereby reducing the quality and usability of reconstructed urban products. Existing methods still struggle in such scenarios, not only because of severe occlusion itself, but also because they lack a representation at the instance level that can explicitly distinguish target urban structures from occluding interference in 3D space. Without such a representation, Gaussian primitives tend to become entangled across semantic regions, which limits reliable separation between target urban structures and occluders, accurate boundary delineation, and consistent urban scene reconstruction across views from UAV imagery. To address this issue, this paper proposes a semantic Gaussian learning framework at the instance level, enhanced by foundation priors, for urban scene reconstruction from UAV imagery. Specifically, high-level semantic, segmentation, and structural priors extracted from vision foundation models are introduced to guide semantic Gaussian representation learning at the instance level in 3D space. On this basis, an Instance-level Semantic Gaussian Module is designed to inject prior-enhanced semantics into Gaussian primitives, enabling more discriminative representation learning at the instance level. Furthermore, a Prior-guided Interaction Module is developed to establish effective collaboration between visual prior features and 3D Gaussian representations, so that RGB appearance semantics and 3D spatial structure can be jointly encoded within a unified semantic and structural representation. Benefiting from this design, the learned Gaussian representation provides a reliable basis for instance separation, missing-region localization, and consistent urban scene reconstruction across views under severe occlusions. Experimental results on multiple datasets demonstrate that the proposed method consistently outperforms representative baselines in instance separation accuracy, boundary quality, and rendering consistency. The results further show that the proposed representation effectively alleviates instance boundary overlap and category confusion, while improving the completeness, consistency, and usability of urban geospatial products derived from UAV imagery.",
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Artificial intelligence",
-   "Gaussian"
-  ],
-  "source": "openalex",
-  "topics": [
    "遥感",
-   "计算机视觉",
-   "机器学习"
+   "计算机视觉"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7213555030",
-  "title": "Vegetation canopy height retrieval in complex mountainous regions based on data calibration and CNN model",
+  "id": "openalex:W7213670078",
+  "title": "A spatiotemporal reconstruction framework for GRACE/GRACE-FO-derived groundwater storage anomalies based on historical phase-constrained gap filling and physics-guided global–local downscaling",
   "authors": [
-   "Huajun Liang",
-   "Qiang Bie",
-   "Hongwei Zhang",
-   "Wenyu Yao"
+   "Leyi Zhang",
+   "Guozhuang Zhang",
+   "Hongjie He",
+   "Yijian Zeng",
+   "Xizhi LYU",
+   "Zuyu Liu",
+   "Xiuhua Liu",
+   "Peizhe Li",
+   "Bing Bai",
+   "Xia Li"
   ],
   "venue": "International Journal of Applied Earth Observation and Geoinformation",
   "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-18",
-  "doi": "10.1016/j.jag.2026.105598",
+  "date": "2026-09-19",
+  "doi": "10.1016/j.jag.2026.105603",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105598",
-  "abstract": "Vegetation canopy height is a vital metric for quantifying aboveground biomass, evaluating ecosystem integrity, and informing forest management strategies, playing a pivotal role in climate change mitigation and sustainable forestry. However, accurate estimation of canopy height faces three major challenges: topographic complexity in mountainous regions, landscape spatial heterogeneity, and inherent limitations of spaceborne LiDAR systems (e.g., GEDI) in detecting low-stature vegetation. This study proposes a regional calibration approach for GEDI-derived height labels and integrates the calibrated labels with multi-source remote sensing data to retrieve canopy height at 10 m resolution. Key findings demonstrate that: (1) The calibration model that couples Random Forest Regression and Multiple Linear Regression can effectively mitigate GEDI’s overestimation of low-stature vegetation and provide reliable label data for subsequent canopy height mapping; (2) Among all feature combinations, optical imagery emerged as the most influential contributor to model performance, significantly improving predictive accuracy when included; (3) The optimized model achieves a mean absolute error (MAE) of 2.26 m against field measurements, showing strong consistency with airborne LiDAR validation (MAE = 2.63 m). Qualitative evaluations highlight the model’s heightened sensitivity to diverse land cover types, enabling more precise delineation of vegetation boundaries. The calibrated height labels further improve the characterization of canopy height across forest, shrub, and grassland areas. These results demonstrate the potential of GEDI label calibration combined with multi-source remote sensing data for large-scale canopy height mapping in complex mountainous regions.",
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Lidar",
-   "Canopy"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213583920",
-  "title": "Automated conversion of unstructured mesh models to structured parametric CAD models for architectural applications",
-  "authors": [
-   "Jianbao Cao",
-   "Cheng Wang",
-   "Jianfang Ma",
-   "Yang Ming",
-   "Fei Deng"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-18",
-  "doi": "10.1016/j.jag.2026.105583",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105583",
+  "url": "https://doi.org/10.1016/j.jag.2026.105603",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "CAD",
-   "Engineering drawing",
-   "Computer science"
+   "Downscaling",
+   "Groundwater",
+   "Climatology"
   ],
   "source": "openalex",
   "topics": [
-   "三维与几何"
+   "计算机视觉"
   ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213593432",
-  "title": "Challenges in heating demand modelling based on the Kleczków district in Wrocław, Poland",
-  "authors": [
-   "Grzegorz Bury",
-   "D. Teodorczyk",
-   "Paweł Bogusławski",
-   "J. Zielonka",
-   "Rushikesh Padsala"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-18",
-  "doi": "10.1016/j.jag.2026.105581",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105581",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Environmental planning",
-   "Geography",
-   "Natural resource economics"
-  ],
-  "source": "openalex",
-  "topics": [],
   "is_own": false
  }
 ]
