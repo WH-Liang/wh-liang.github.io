@@ -1,5 +1,131 @@
 [
  {
+  "id": "openalex:W7213769079",
+  "title": "Adaptive background suppression-based plume identification, emission estimation, and ground validation of coal mine methane in Changzhi, Shanxi, China",
+  "authors": [
+   "Xuan Wu",
+   "Shenshen Li",
+   "Qiang Ge",
+   "Xuefei Hu",
+   "Kun Cai"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-20",
+  "doi": "10.1016/j.jag.2026.105587",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105587",
+  "abstract": "This study developed a coal mine methane remote-sensing monitoring framework centered on adaptive background suppression using high-spatial-resolution multispectral data from Sentinel-2. The framework integrates methane column enhancement retrieval, automated plume detection, and emission flux estimation. Specifically, bilateral filtering and the multi-band single-pass (MBSP) method were used to retrieve methane column enhancements; a methane plume detection algorithm combining NDVI-based stratification, adaptive segmentation, morphological processing, and wind-field constraints was developed; and coal mine methane emission fluxes were quantified using the integrated mass enhancement (IME) method. Application to a pilot coal enterprise in Changzhi during 2024 demonstrated that the proposed framework effectively reduced weak vegetation-background effects and heterogeneous high-intensity interference while preserving plume topological consistency. Sentinel-2 also provided an observation frequency more than eight times higher than that of EMIT. The mean satellite-derived emission rate for the pilot enterprise was 1023.57 ± 266.84 kg ⋅ h − 1 , with a mean relative deviation of 14.47% from ground-based measurements. The relatively large deviations and daily-scale fluctuations observed during some periods were mainly attributed to uncertainties associated with the spectral resolution of Sentinel-2, surface heterogeneity, algorithm parameter settings, and ERA5 wind-field data. A comparison with the EDGAR inventory revealed broad consistency in regional spatial emission patterns. However, the higher-resolution Sentinel-2 data detected potential coal-related emission signals in several grid cells absent from EDGAR, accounting for 22.2% of the potential emission grids identified in Changzhi. On a regional scale, EDGAR’s annual emission estimate for Changzhi was 32.11% higher than the Sentinel-2 annualized estimate derived in this study.",
+  "citation_count": 0,
+  "concepts": [
+   "Methane",
+   "Plume",
+   "Coal mining"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213753521",
+  "title": "De-biasing Skeleton-Based Action Recognition with Convex Hull Adaptive Shift",
+  "authors": [
+   "Mengyuan Liu",
+   "Yuhang Wen",
+   "Yi Zhang",
+   "Songtao Wu",
+   "Hong Liu",
+   "Junsong Yuan",
+   "Beichen Ding"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-20",
+  "doi": "10.1007/s11263-026-03037-1",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03037-1",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Normalization (sociology)",
+   "Computer science",
+   "Convex hull"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213774099",
+  "title": "IterRF: Iterative and Interpretable Mutual Enhancement for Joint Multi-Modal Image Registration and Fusion",
+  "authors": [
+   "Xu Han",
+   "Jiajun Chen",
+   "Xunpeng Yi",
+   "Peili Li",
+   "Jiayi Ma"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-20",
+  "doi": "10.1007/s11263-026-03043-3",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03043-3",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Image registration",
+   "Joint (building)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213779968",
+  "title": "OscVision: Oscillator Networks for Low Power Vision Inference",
+  "authors": [
+   "Wenxiao Cai",
+   "Zongru Li",
+   "Ali Keshavarzi",
+   "Thomas H. Lee"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-20",
+  "doi": "10.1007/s11263-026-03044-2",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03044-2",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Von Neumann architecture",
+   "Inference"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7213661690",
   "title": "Detecting diurnal dynamics of cotton leaf inclination angle under water-salt stress",
   "authors": [
@@ -281,7 +407,7 @@
   "doi": "10.1016/j.jag.2026.105603",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.jag.2026.105603",
-  "abstract": null,
+  "abstract": "Observations from the Gravity Recovery and Climate Experiment (GRACE) and GRACE Follow-On (GRACE-FO) provide essential information on terrestrial water storage anomalies (TWSA), from which groundwater storage anomalies (GWSA) can be derived. However, the approximately 11-month mission gap and the coarse spatial resolution of the original products constrain their application in regional groundwater monitoring and water-resource assessment. This study developed an integrated spatiotemporal reconstruction framework for the Three-North Region of China by combining historical phase-constrained gap filling with physics-guided global–local downscaling. First, a Kling-Gupta Efficiency-based singular spectrum analysis method (KGC-SSA) was developed to reconstruct the mission gap without external forcing data. Second, a physics-guided global–local-residual geographically weighted extreme gradient boosting framework (GLR-GWXGB) was developed to downscale GWSA to 1 km under grid-wise coarse-scale consistency constraints. KGC-SSA yielded a mean ensemble reconstruction spread of 0.06 cm during the mission gap and performed broadly comparably to benchmark methods. Relative to the global benchmark model, GLR-GWXGB improved internal validation performance, preserved regional-scale consistency with the original GRACE-derived GWSA, and enhanced local spatial detail. Correlations with groundwater observations improved at more than 70% of monitoring sites. The reconstructed 1 km product further captured persistent groundwater-storage decline during 2002–2022, with intensified depletion after approximately 2012, while retaining the dominant long-term and seasonal characteristics of the original series. These results demonstrate that the proposed framework provides a robust approach for generating temporally continuous and spatially refined groundwater-storage information from GRACE/GRACE-FO observations.",
   "citation_count": 0,
   "concepts": [
    "Downscaling",
@@ -603,7 +729,7 @@
   "year": 2026,
   "date": "2026-09-18",
   "doi": "10.1080/15481603.2026.2733792",
-  "pdf": null,
+  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/15481603.2026.2733792?needAccess=true",
   "url": "https://doi.org/10.1080/15481603.2026.2733792",
   "abstract": "Vegetation cooling in cities is often represented as a local, isotropic effect, although atmospheric processes can redistribute cooling beyond individual vegetation patches. This simplification may overlook the nonlocal and directionally structured nature of cooling propagation. We developed a physics-guided source–medium–receiver (SMR) framework for the Greater Bay Area of China to compare multi-source isotropic connectivity with prevailing-wind-conditioned connectivity. Vegetation-source strength was represented by the VCSI, and parameters estimated from 2021 to 2023 were frozen for an independent 2024 holdout and contrasting monsoon assessments. Cooling connectivity was modeled using a spatially varying distance-decay function, controlled by the wind speed, moisture content, surface albedo, terrain, and directional constraints from prevailing winds. In 2024, isotropic connectivity showed a stronger relationship with LST (r = −0.8069) than wind-conditioned connectivity (r = −0.7780) and local VCSI (r = −0.7757), with the same general ordering across monsoon and built-up receiver assessments. The source-level decay lengths ranged from 0.504 to 0.518 km, whereas the wind-conditioned emergent multi-source persistence increased from 4.13 to 4.88 km, reflecting cumulative field behaviors. Wind-relative decomposition further showed that annual connectivity was distributed across downwind, crosswind, and upwind pathways. These findings indicate that regional vegetation cooling is primarily characterized by distance-mediated, multi-source connectivity, while prevailing-wind direction acts as a scale- and condition-dependent modifier. This shift in perspective provides a physically grounded framework for effective urban climate analysis and precision greening strategies.",
   "citation_count": 0,
@@ -1109,7 +1235,7 @@
   "year": 2026,
   "date": "2026-09-17",
   "doi": "10.1080/15481603.2026.2736374",
-  "pdf": null,
+  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/15481603.2026.2736374?needAccess=true",
   "url": "https://doi.org/10.1080/15481603.2026.2736374",
   "abstract": "Article Title: Shifting pathways of post-earthquake vegetation structural and functional recovery under varying earthquake disturbance intensities Authors: Yao, D., Jin, H., Zhao, W., Yin, G., Peng...",
   "citation_count": 0,
@@ -5881,39 +6007,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7212190222",
-  "title": "Mapping selective logging with Sentinel-1 image time series and a novel transformer-based model",
-  "authors": [
-   "Xinyao Huang",
-   "Raian Vargas Maretto",
-   "Leila María García Fonseca",
-   "Alfred Stein",
-   "Claudio Persello"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-01",
-  "doi": "10.1016/j.jag.2026.105567",
-  "pdf": "https://www.sciencedirect.com/science/article/pii/S1569843226004838/pdf",
-  "url": "https://doi.org/10.1016/j.jag.2026.105567",
-  "abstract": "Selective logging (SL) is a major driver of forest degradation, yet its small and short-lived canopy openings remain difficult to detect in persistently cloudy tropical regions. Optical approaches miss many events, while synthetic aperture radar (SAR) time series are challenging to model with architectures that either fuse multivariate features too early or smooth over transient signals. We present InterFormer, a Transformer-based architecture that jointly models feature interactions and temporal dynamics via a feature block with Multi-head Intercross Self Attention (MISA) and a temporal block with Multi-head Self Dissimilar Attention (MSDA). Texture features were further utilized as complementary input. Since precise SL labels are unavailable, the model was trained and internally tested using a weak-label benchmark, in which pixel labels were extracted within the official published Real-Time Deforestation Detection System (DETER) polygons. To complement this internal weak-label benchmark, we designed two independent practical experiments to evaluate the model performance in low-intensity Annual Production Units (UPAs) based on field-inventory data and at the municipality scale ( > 30,000 km 2 ) in the Brazilian Amazon. In the independent UPA validation, InterFormer localized 92.65% of tree-falling gaps in UPA areas and outperformed standard Transformer variants and Planet-based alerts from the Brazilian Forest Service by approximately 20% at the tree level. At the municipality level, our predicted alert polygons achieved the highest Detection Rate against DETER across multiple reference-overlap thresholds in both Paragominas and Feliz Natal, while also producing fewer unmatched alerts than RAdar for Detecting Deforestation (RADD) and Tropical Moist Forest dataset (TMF). However, substantial over-expansion of predicted alert regions remained. These results suggest that InterFormer provides a useful framework for representing weak and short-lived SL signals in Sentinel-1 time series, and that openly available SAR data have the potential to support large-scale SL monitoring under weak supervision. Nevertheless, the current municipality-scale workflow still relies on optical-derived masking as a supporting step, and the development of a fully SAR-only large-area monitoring framework remains an important direction for future work.",
-  "citation_count": 0,
-  "concepts": [
-   "Computer vision",
-   "Series (stratigraphy)",
-   "Artificial intelligence"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
   "id": "openalex:W4414897496",
   "title": "MLA-Trust: Benchmarking Trustworthiness of Multimodal LLM Agents in GUI Environments",
   "authors": [
@@ -7532,40 +7625,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7203793368",
-  "title": "RoFLIP: Robust and Fine-Grained Alignment for Vision-Language Compositional Reasoning",
-  "authors": [
-   "Yiwei Sun",
-   "Chuanbin Liu",
-   "Shancheng Fang",
-   "Pandeng Li",
-   "Zhiying Lu",
-   "Hongtao Xie"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-08-19",
-  "doi": "10.1007/s11263-026-02944-7",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-02944-7",
-  "abstract": "Vision-language models pretrained on large-scale datasets have become the foundation of cross-modal understanding. However, they often overemphasize salient objects and underperform in compositional reasoning that additionally requires fine-grained perception of attributes and inter-object relations. Although compositional data-driven approaches have shown promise in addressing this challenge, low-quality captions undermine robust alignment and consequently hinder fine-grained perception. Specifically, two fundamental issues arise: (1) low-density positive captions restrict the global representation capability of image encoders, causing local alignment. (2) false-negative captions introduce noise into training, resulting in fragile alignment. In response, we propose the Robust and Fine-grained training framework for CLIP-based vision-language models (RoFLIP), enhancing both the robustness and granularity of vision-language alignment. To address the first challenge, RoFLIP employs the Densified Ranking Loss (DRL), which promotes global visual representations by contrasting dense and sparse captions. For the second challenge, RoFLIP incorporates Denoised Cross-modal and Text-modal Contrastive Losses (DCCL &DTCL), reducing the impact of noise while effectively leveraging negative captions. In addition, we introduce RoFLIP’s Auxiliary dataset (RoFA), comprising 225K high-quality captions that are fluent and image-related to support training. Quantitative evaluations demonstrate that RoFLIP-CLIP-B/32 achieves an average gain of $$7.41\\%$$ across 5 compositional reasoning benchmarks while maintaining considerable performance on 23 downstream benchmarks. Furthermore, replacing the corresponding modules in LLaVA-v1.5 and Stable Diffusion v1.5 with RoFLIP-CLIP-L/14 also brings performance gains on VQA and image generation tasks, respectively. These results underscore RoFLIP’s compositional reasoning and generalization abilities.",
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Robustness (evolution)",
-   "Salient"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
   "id": "openalex:W7140535927",
   "title": "Unveiling the cooling effects of urban green spaces in Eastern China: spatial heterogeneity, diurnal asymmetry, and nonlinear margins of 2D/3D features",
   "authors": [
@@ -8359,77 +8418,6 @@
   "topics": [
    "遥感",
    "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W4281687182",
-  "title": "MUG: Multi-human Graph Network for 3D Mesh Reconstruction from 2D Pose",
-  "authors": [
-   "Chenyan Wu",
-   "Yandong Li",
-   "Xianfeng Tang",
-   "Zhe Huang",
-   "James Z. Wang"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-08-01",
-  "doi": "10.1007/s11263-026-02942-9",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-02942-9",
-  "abstract": "Abstract Reconstructing multi-human body meshes from a single monocular image is a crucial yet challenging problem in computer vision. This problem requires not only generating individual body mesh models for each person but also estimating the relative 3D positions among subjects to produce a coherent scene representation. In this work, we introduce MUG (Multi-hUman Graph network), which employs a single graph neural network to construct coherent multi-human meshes using only 2D pose data as input. Our approach demonstrates that purely pose-based methods can effectively perform simultaneous depth reasoning and multi-human mesh generation. Existing image-based methods typically rely on lab-collected training datasets with accurate 3D labels; however, these datasets often introduce an image domain gap when applied to in-the-wild testing data or art images due to differences in appearance and context. In contrast, MUG leverages the geometric consistency of 2D poses across diverse datasets, mitigating domain discrepancies. The MUG network operates in three primary phases. Initially, to model the multi-human environment, it processes multi-human 2D poses and constructs a novel heterogeneous graph. This graph connects nodes both across different people and within individuals to capture inter-human interactions and accurately represent body geometry, including skeletal and mesh structures. Subsequently, it employs a dual-branch graph neural network: one branch predicts inter-human depth relations, while the other predicts the root-joint-relative mesh coordinates. Finally, the complete multi-human 3D meshes are constructed by combining the outputs from both branches. Despite the simplicity of using only 2D pose inputs and streamlined network architecture, MUG outperforms existing multi-human mesh estimation methods. This superiority is consistently observed across various datasets from diverse domains, such as RH, MuPoTS-3D, and 3DPW. Qualitative results show that MUG can effectively handle art images, through-wall scenarios, and poor lighting conditions when incorporating advanced 2D pose networks. Both qualitative and quantitative evaluations highlight MUG’s remarkable generalization ability in open-world scenarios.",
-  "citation_count": 2,
-  "concepts": [
-   "Polygon mesh",
-   "Computer science",
-   "Artificial intelligence"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W4404573654",
-  "title": "A Survey of Medical Vision-and-Language Applications and Their Techniques",
-  "authors": [
-   "Qi Chen",
-   "Ruoshan Zhao",
-   "Sinuo Wang",
-   "Vu Minh Hieu Phan",
-   "Anton van den Hengel",
-   "Johan Verjans",
-   "Zhibin Liao",
-   "Minh‐Son To",
-   "Yong Xia",
-   "Jian Chen",
-   "Yutong Xie",
-   "Qi Wu"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-08-01",
-  "doi": "10.1007/s11263-026-02973-2",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-02973-2",
-  "abstract": null,
-  "citation_count": 1,
-  "concepts": [
-   "Computer science",
-   "Data science",
-   "Optometry"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
   ],
   "is_own": false
  },

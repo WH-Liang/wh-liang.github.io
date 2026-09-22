@@ -1,5 +1,131 @@
 [
  {
+  "id": "openalex:W7213769079",
+  "title": "Adaptive background suppression-based plume identification, emission estimation, and ground validation of coal mine methane in Changzhi, Shanxi, China",
+  "authors": [
+   "Xuan Wu",
+   "Shenshen Li",
+   "Qiang Ge",
+   "Xuefei Hu",
+   "Kun Cai"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-20",
+  "doi": "10.1016/j.jag.2026.105587",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105587",
+  "abstract": "This study developed a coal mine methane remote-sensing monitoring framework centered on adaptive background suppression using high-spatial-resolution multispectral data from Sentinel-2. The framework integrates methane column enhancement retrieval, automated plume detection, and emission flux estimation. Specifically, bilateral filtering and the multi-band single-pass (MBSP) method were used to retrieve methane column enhancements; a methane plume detection algorithm combining NDVI-based stratification, adaptive segmentation, morphological processing, and wind-field constraints was developed; and coal mine methane emission fluxes were quantified using the integrated mass enhancement (IME) method. Application to a pilot coal enterprise in Changzhi during 2024 demonstrated that the proposed framework effectively reduced weak vegetation-background effects and heterogeneous high-intensity interference while preserving plume topological consistency. Sentinel-2 also provided an observation frequency more than eight times higher than that of EMIT. The mean satellite-derived emission rate for the pilot enterprise was 1023.57 ± 266.84 kg ⋅ h − 1 , with a mean relative deviation of 14.47% from ground-based measurements. The relatively large deviations and daily-scale fluctuations observed during some periods were mainly attributed to uncertainties associated with the spectral resolution of Sentinel-2, surface heterogeneity, algorithm parameter settings, and ERA5 wind-field data. A comparison with the EDGAR inventory revealed broad consistency in regional spatial emission patterns. However, the higher-resolution Sentinel-2 data detected potential coal-related emission signals in several grid cells absent from EDGAR, accounting for 22.2% of the potential emission grids identified in Changzhi. On a regional scale, EDGAR’s annual emission estimate for Changzhi was 32.11% higher than the Sentinel-2 annualized estimate derived in this study.",
+  "citation_count": 0,
+  "concepts": [
+   "Methane",
+   "Plume",
+   "Coal mining"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213753521",
+  "title": "De-biasing Skeleton-Based Action Recognition with Convex Hull Adaptive Shift",
+  "authors": [
+   "Mengyuan Liu",
+   "Yuhang Wen",
+   "Yi Zhang",
+   "Songtao Wu",
+   "Hong Liu",
+   "Junsong Yuan",
+   "Beichen Ding"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-20",
+  "doi": "10.1007/s11263-026-03037-1",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03037-1",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Normalization (sociology)",
+   "Computer science",
+   "Convex hull"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213774099",
+  "title": "IterRF: Iterative and Interpretable Mutual Enhancement for Joint Multi-Modal Image Registration and Fusion",
+  "authors": [
+   "Xu Han",
+   "Jiajun Chen",
+   "Xunpeng Yi",
+   "Peili Li",
+   "Jiayi Ma"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-20",
+  "doi": "10.1007/s11263-026-03043-3",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03043-3",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Image registration",
+   "Joint (building)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213779968",
+  "title": "OscVision: Oscillator Networks for Low Power Vision Inference",
+  "authors": [
+   "Wenxiao Cai",
+   "Zongru Li",
+   "Ali Keshavarzi",
+   "Thomas H. Lee"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-20",
+  "doi": "10.1007/s11263-026-03044-2",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03044-2",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Von Neumann architecture",
+   "Inference"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7213661690",
   "title": "Detecting diurnal dynamics of cotton leaf inclination angle under water-salt stress",
   "authors": [
@@ -158,139 +284,6 @@
    "遥感",
    "计算机视觉",
    "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213653472",
-  "title": "Biophysical effects of afforestation on local land surface temperature in china: A comprehensive analysis incorporating forest age and afforestation intensity",
-  "authors": [
-   "Shaoyu Zhang",
-   "Bin Song",
-   "Chaoyang Wu",
-   "Bisong Hu",
-   "Jin Chen",
-   "Shuhua Qi",
-   "Yong Ge"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-19",
-  "doi": "10.1016/j.jag.2026.105593",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105593",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Afforestation",
-   "Environmental science",
-   "Intensity (physics)"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213655038",
-  "title": "A two-stage transformer framework for reconstructing hourly 1 km all-weather land surface temperature using cross-scale transfer learning",
-  "authors": [
-   "Yuanyuan Luo",
-   "Sha Zhang",
-   "Kun Qiao",
-   "Yun Bai"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-19",
-  "doi": "10.1016/j.jag.2026.105602",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105602",
-  "abstract": "High spatiotemporal resolution land surface temperature (LST) reconstruction is essential for analyzing land-atmosphere interactions and thermal environmental dynamics. Thermal infrared observations, the primary source of regional and global LST, are affected by cloud contamination, scale discrepancies, and distribution shifts. Meanwhile, reconstruction methods struggle to provide both hourly continuity and kilometer-scale detail, and cross-scale fusion often causes spatial over-smoothing. To address these limitations, we propose ST-LSTrans, a two-stage Transformer framework for reconstructing regional hourly 1 km all-weather LST. It uses cross-scale transfer learning with global pre-training on hourly ∼6.25 km CLDAS LST to capture regional thermodynamic evolution and local fine-tuning on four-times-daily 1000 m MODIS LST to recover kilometer-scale thermal heterogeneity. A KL divergence constraint is introduced to reduce distribution shifts and spatial over-smoothing during cross-scale fusion. Validation results based on multi-source datasets show that the global pre-training stage achieved an average RMSE of 1.13 K, while the local fine-tuning stage achieved an average RMSE of 1.06 K, with the minimum RMSE reaching 0.87 K. Independent Landsat validation showed that the reconstructed product achieved a scene-averaged RMSE of 2.98 K and improved upon the original CLDAS background field. Additional evaluations against VIIRS VNP21, which is generated using an independent temperature-emissivity separation algorithm, confirmed the cross-sensor consistency of the reconstructed LST. Ground-based observations further demonstrated that ST-LSTrans preserved realistic diurnal temperature cycle characteristics under both clear-sky and persistent cloudy conditions. SHAP analysis further revealed scale-dependent transitions in LST driving mechanisms from coarse-scale atmospheric forcing to kilometer-scale terrain and land surface controls. This study provides a unified and interpretable modelling framework for high spatiotemporal resolution LST reconstruction and driving mechanism analysis.",
-  "citation_count": 0,
-  "concepts": [
-   "Mean squared error",
-   "Environmental science",
-   "Diurnal cycle"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213655373",
-  "title": "AdaGeo-SR: Geo-semantic-guided super-resolution of sentinel-2 imagery with AlphaEarth foundation priors",
-  "authors": [
-   "Hexin Wang",
-   "Zeqing Su",
-   "Yuanchen Yin",
-   "Yonghua Sun",
-   "Cankun Yang",
-   "Na Jiang",
-   "Xiaojuan Li"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-19",
-  "doi": "10.1016/j.jag.2026.105573",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105573",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Prior probability",
-   "Foundation (evidence)",
-   "Artificial intelligence"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213670078",
-  "title": "A spatiotemporal reconstruction framework for GRACE/GRACE-FO-derived groundwater storage anomalies based on historical phase-constrained gap filling and physics-guided global–local downscaling",
-  "authors": [
-   "Leyi Zhang",
-   "Guozhuang Zhang",
-   "Hongjie He",
-   "Yijian Zeng",
-   "Xizhi LYU",
-   "Zuyu Liu",
-   "Xiuhua Liu",
-   "Peizhe Li",
-   "Bing Bai",
-   "Xia Li"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-19",
-  "doi": "10.1016/j.jag.2026.105603",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105603",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Downscaling",
-   "Groundwater",
-   "Climatology"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
   ],
   "is_own": false
  }
