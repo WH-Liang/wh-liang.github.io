@@ -1,289 +1,279 @@
 [
  {
-  "id": "openalex:W7213769079",
-  "title": "Adaptive background suppression-based plume identification, emission estimation, and ground validation of coal mine methane in Changzhi, Shanxi, China",
+  "id": "openalex:W7213950911",
+  "title": "Nested generative downscaling of passive microwave satellite data for navigation-scale Arctic sea ice forecasting",
   "authors": [
-   "Xuan Wu",
-   "Shenshen Li",
-   "Qiang Ge",
-   "Xuefei Hu",
-   "Kun Cai"
+   "Minki Choo",
+   "Young Jun Kim",
+   "Garyung Lee",
+   "Inchae Chung",
+   "Julienne Stroeve",
+   "Jungho Im"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-22",
+  "doi": "10.1016/j.isprsjprs.2026.09.021",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.021",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Downscaling",
+   "Environmental science",
+   "Climatology"
+  ],
+  "source": "openalex",
+  "topics": [
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7134262133",
+  "title": "Enhanced early warning of extreme river discharge events in the Yangtze River Basin using atmospheric circulation signals",
+  "authors": [
+   "xiaoke xu",
+   "Yong Wang",
+   "Anning Huang",
+   "Yinghong Jing",
+   "Chunlei Gu",
+   "Xiaojun She",
+   "Lifu Zhang",
+   "Yao Li"
   ],
   "venue": "International Journal of Applied Earth Observation and Geoinformation",
   "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-20",
-  "doi": "10.1016/j.jag.2026.105587",
+  "date": "2026-09-22",
+  "doi": "10.1016/j.jag.2026.105590",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105587",
-  "abstract": "This study developed a coal mine methane remote-sensing monitoring framework centered on adaptive background suppression using high-spatial-resolution multispectral data from Sentinel-2. The framework integrates methane column enhancement retrieval, automated plume detection, and emission flux estimation. Specifically, bilateral filtering and the multi-band single-pass (MBSP) method were used to retrieve methane column enhancements; a methane plume detection algorithm combining NDVI-based stratification, adaptive segmentation, morphological processing, and wind-field constraints was developed; and coal mine methane emission fluxes were quantified using the integrated mass enhancement (IME) method. Application to a pilot coal enterprise in Changzhi during 2024 demonstrated that the proposed framework effectively reduced weak vegetation-background effects and heterogeneous high-intensity interference while preserving plume topological consistency. Sentinel-2 also provided an observation frequency more than eight times higher than that of EMIT. The mean satellite-derived emission rate for the pilot enterprise was 1023.57 ± 266.84 kg ⋅ h − 1 , with a mean relative deviation of 14.47% from ground-based measurements. The relatively large deviations and daily-scale fluctuations observed during some periods were mainly attributed to uncertainties associated with the spectral resolution of Sentinel-2, surface heterogeneity, algorithm parameter settings, and ERA5 wind-field data. A comparison with the EDGAR inventory revealed broad consistency in regional spatial emission patterns. However, the higher-resolution Sentinel-2 data detected potential coal-related emission signals in several grid cells absent from EDGAR, accounting for 22.2% of the potential emission grids identified in Changzhi. On a regional scale, EDGAR’s annual emission estimate for Changzhi was 32.11% higher than the Sentinel-2 annualized estimate derived in this study.",
+  "url": "https://doi.org/10.1016/j.jag.2026.105590",
+  "abstract": "We develop DetRF, a machine learning model that integrates anomaly detection with a Balanced Random Forest ensemble. The model was trained and validated using ERA5 reanalysis data from 2000–2019 and independently tested with ERA5 data from 2020–2024. Its early warning performance was assessed using precipitation and runoff observations.",
   "citation_count": 0,
   "concepts": [
-   "Methane",
-   "Plume",
-   "Coal mining"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213753521",
-  "title": "De-biasing Skeleton-Based Action Recognition with Convex Hull Adaptive Shift",
-  "authors": [
-   "Mengyuan Liu",
-   "Yuhang Wen",
-   "Yi Zhang",
-   "Songtao Wu",
-   "Hong Liu",
-   "Junsong Yuan",
-   "Beichen Ding"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-20",
-  "doi": "10.1007/s11263-026-03037-1",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03037-1",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Normalization (sociology)",
-   "Computer science",
-   "Convex hull"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213774099",
-  "title": "IterRF: Iterative and Interpretable Mutual Enhancement for Joint Multi-Modal Image Registration and Fusion",
-  "authors": [
-   "Xu Han",
-   "Jiajun Chen",
-   "Xunpeng Yi",
-   "Peili Li",
-   "Jiayi Ma"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-20",
-  "doi": "10.1007/s11263-026-03043-3",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03043-3",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Image registration",
-   "Joint (building)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213779968",
-  "title": "OscVision: Oscillator Networks for Low Power Vision Inference",
-  "authors": [
-   "Wenxiao Cai",
-   "Zongru Li",
-   "Ali Keshavarzi",
-   "Thomas H. Lee"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-20",
-  "doi": "10.1007/s11263-026-03044-2",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03044-2",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Von Neumann architecture",
-   "Inference"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213661690",
-  "title": "Detecting diurnal dynamics of cotton leaf inclination angle under water-salt stress",
-  "authors": [
-   "Qing Li",
-   "Dalei Hao",
-   "Jan Pisek",
-   "Zicheng Ji",
-   "Yanan Wei",
-   "Youngryel Ryu",
-   "Jiarui Xu",
-   "Yangmin Feng",
-   "Shaozhong Kang",
-   "Yelu Zeng"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-19",
-  "doi": "10.1016/j.rse.2026.115674",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115674",
-  "abstract": "Leaf inclination angle (LIA) dynamics act as a rapid response mechanism to abiotic stress, regulating canopy energy balance and water use efficiency. While the adaptive value of diurnal LIA plasticity (e.g., paraheliotropism) is well-recognized in ecology, most current remote sensing algorithms and ecosystem models still treat canopy architecture as static and neglect stress-induced geometric adjustments. Furthermore, the diurnal dynamics of LIA under combined abiotic stresses, such as concurrent water deficit and salinity, still remain poorly understood. Recent advances in unmanned aerial vehicle (UAV) photogrammetry offer a promising approach for capturing LIA dynamics at high spatial and temporal resolution. However, accurately resolving fine scale, dynamic leaf movements in real environments using UAVs remains challenging. To address these gaps, we developed the Constraint-Assisted Point cloud fusion for Leaf scale Analysis (CAPLA), an integrated UAV analytical workflow that combines deep learning with Structure from Motion (SfM). CAPLA employs 2D semantic masks to strictly constrain 3D mesh reconstruction, effectively mitigating motion-induced artifacts. Independent validation against 19 plot level mean leaf angle (MLA) observations collected at 9:30 am and 12:00 pm yielded an R 2 of 0.89 and an RMSE of 0.9°, supporting plot level MLA estimation under the validated acquisition conditions. CAPLA was subsequently applied across five observation times to characterize diurnal canopy structural dynamics. Importantly, repeated measures analysis of the high frequency observations revealed significant effects of irrigation, salinity, and observation time on MLA, together with a significant irrigation × time interaction ( P = 0.0109), indicating that diurnal MLA trajectories differed among irrigation levels. In contrast, neither the irrigation × salinity interaction ( P = 0.8800) nor the irrigation × salinity × time interaction ( P = 0.9086) was significant. Descriptive differences in within-day variability were nevertheless observed among individual treatment combinations, highlighting the value of time-resolved structural monitoring for characterizing canopy responses to combined water and salinity stresses. These findings highlight the complex structural plasticity of canopies under interacting stresses, emphasizing the critical need to transition from static canopy assumptions to dynamic structural monitoring for improving ecosystem models and precision agriculture.",
-  "citation_count": 0,
-  "concepts": [
-   "Canopy",
    "Environmental science",
-   "Remote sensing"
+   "Yangtze river",
+   "Precipitation"
   ],
   "source": "openalex",
   "topics": [
-   "遥感",
    "计算机视觉",
    "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7213664618",
-  "title": "Diurnal coupling of total column nitrogen dioxide and aerosol optical depth: Insights from the Pandora Asia network",
+  "id": "openalex:W7213942761",
+  "title": "Estimating supraglacial lake bottom ablation rates by integrating ICESat-2 repeat track data and multi-temporal sentinel-2 imagery",
   "authors": [
-   "S. Kim",
-   "Ukkyo Jeong",
-   "Hyunkee Hong",
-   "Alexander Cede",
-   "Lim‐Seok Chang",
-   "Serin Kim",
-   "Donghee Kim",
-   "Hanlim Lee",
-   "Thomas Hanisco",
-   "Nader Abuhassan",
-   "Si‐Chee Tsay",
-   "Daewon Kim",
-   "Jhoon Kim",
-   "Jae-Hwan Kim",
-   "Surassawadee Phoompanit",
-   "Enkhbaatar Davaanyam",
-   "Muhammad Fahim Khokhar",
-   "Abdus Salam",
-   "Hisahiro Takashima",
-   "Shungo Kato",
-   "Risyanto",
-   "Santo V. Salinas",
-   "Ednofri"
+   "Jianing Wei",
+   "Kang Yang",
+   "Mengtian Man",
+   "Haoyu Cao",
+   "Chunyu Yuan",
+   "Manchun Li"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-22",
+  "doi": "10.1016/j.jag.2026.105605",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105605",
+  "abstract": "Supraglacial lakes are widely distributed across the Greenland Ice Sheet (GrIS) each summer. The resulting meltwater-enhanced ablation effect plays a critical role in understanding the GrIS surface mass balance but remains poorly quantified. Inspired by the insight that longer meltwater persistence leads to stronger meltwater-enhanced ablation, this study proposes a novel method to directly estimate supraglacial lake bottom ablation rates at centimeter-per-day scale using satellite observations. First, we map multi-temporal supraglacial lake extents from Sentinel-2 imagery to estimate cumulative meltwater-covered days. Then, we derive ablation depths at the lake bottom and surrounding bare ice by differencing ICESat-2 repeat track data acquired before and during the melt season. Next, we perform linear fitting between lake bottom ablation depths and cumulative meltwater-covered days along the ICESat-2 tracks to calculate both the lake bottom ablation rate and the bare ice ablation rate. Finally, we evaluate the magnitude of the meltwater-enhanced ablation effect. We apply this method to 26 supraglacial lakes across the GrIS and identify a positive linear relationship between lake bottom ablation depths and cumulative water-covered days (mean Pearson correlation coefficient r = 0.70 ± 0.14, p < 0.001). The fitted mean lake bottom ablation rate (4.50 ± 1.15 cm/day) significantly exceeds the mean bare ice ablation rate (1.98 ± 0.52 cm/day). Meltwater in supraglacial lakes therefore enhances ablation rate by ∼ 1.3 ± 0.5 times, with values ranging from 0.6 to 2.4, consistent with previous field measurements (1.1–1.4 times) and numerical model simulations (1.1–1.7 times). In summary, this study provides a first quantitative satellite-based estimate of meltwater-enhanced ablation across the GrIS under varying ablation intensities, and may improve our understanding of GrIS surface melt process.",
+  "citation_count": 0,
+  "concepts": [
+   "Track (disk drive)",
+   "Remote sensing",
+   "Geology"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213896716",
+  "title": "Bias-variance trade-off in radiative transfer model inversion drives uncertainty in leaf area index estimation",
+  "authors": [
+   "Dasheng Fan",
+   "Xihan Mu",
+   "Tim R. McVicar",
+   "Yongkang Lai",
+   "Donghui Xie",
+   "Guangjian Yan"
   ],
   "venue": "Remote Sensing of Environment",
   "venue_short": "RSE",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-19",
-  "doi": "10.1016/j.rse.2026.115682",
+  "date": "2026-09-21",
+  "doi": "10.1016/j.rse.2026.115662",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115682",
-  "abstract": "To improve understanding of air quality in Asia and support satellite validation, the Korean government launched the Pandora Asia Network (PAN) in 2021. The high temporal resolution and simultaneous retrievals of nitrogen dioxide (NO 2 ) and aerosol optical depth (AOD) from the PAN allow for detailed analysis of aerosol and precursor variability. This study evaluated NO 2 and AOD levels at various sites across major Asian cities with different air quality regulations, using consistent quality measurements from Pandora and satellite data. Generally, AOD from the Visible Infrared Imaging Radiometer Suite (VIIRS) Deep Blue product showed good agreement with the PAN retrievals, whereas TROPOspheric Monitoring Instrument (TROPOMI) generally underestimated NO 2 levels relative to Pandora, especially in highly polluted cities such as Dhaka and Singapore. The NO 2 -to-AOD ratio (NAR), which assesses aerosol characteristics associated with NO 2 sources, was higher in major cities such as Seoul and Singapore, whereas lower values were observed in areas with uncontrolled or limited combustion activity. Differences in NO 2 measurements between TROPOMI and Pandora led to discrepancies in NAR between satellite and ground-based data, particularly in Singapore, Islamabad, and Dhaka. Using high-frequency PAN sampling, we calculated the daily correlation coefficient between AOD and NO 2 (r d ) at each site. High values of r d were observed in Islamabad and Dhaka, where ammonia (NH 3 ) and NO 2 levels were elevated; both are important tracers of nitrate aerosol formation. This study estimated the NO x emission contribution factor to AOD (NCF) based on a statistical relationship among r d , NO 2 , NH 3 , and water vapor (H 2 O), which can serve as a diagnostic tool for evaluating aerosol emission sources across Asian countries.",
+  "url": "https://doi.org/10.1016/j.rse.2026.115662",
+  "abstract": "Large-scale leaf area index (LAI) retrieval from satellite observations primarily relies on inverting canopy radiative transfer models (RTMs). Despite the widespread use of various inversion methods, how and why LAI retrievals vary with the method choice remains unclear. Here, within a unified Bayesian framework, we primarily characterized four representative methods as statistical point estimators: (i) numerical optimization (OPT) method; (ii) look-up table (LUT) method; (iii) LUT method with solution averaging (LUT-mean); and (iv) neural network (NN)-based method. Differences in their statistical principles lead to distinct bias-variance trade-offs, causing LAI retrieval RMSEs to vary by 30%–35% across simulated and in situ datasets. Our findings are: (1) The OPT and LUT methods approximate the maximum a posteriori estimator, exhibiting low bias but high variance and producing funnel-shaped scatter between retrieved and reference LAIs. (2) The LUT-mean and NN-based methods reduce variance by introducing bias, leading to overestimation in the mid-LAI range and underestimation in the high-LAI range, thereby producing S-shaped scatter. These characteristics enable the LUT-mean and NN-based methods to achieve lower RMSEs, with the NN-based method approximating the posterior mean estimator and attaining the lowest RMSE. Two alternative machine learning (ML)-based methods, i.e. , random forest (RF) and Gaussian process regression (GPR), share the same statistical interpretation as the NN-based method and exhibit similar retrieval performance. Our study identifies the bias-variance trade-off of inversion methods as one important yet previously underappreciated component of uncertainty in LAI monitoring and highlights the need to consider it in future LAI product development and evaluation.",
   "citation_count": 0,
   "concepts": [
-   "Aerosol",
-   "Environmental science",
-   "Nitrogen dioxide"
+   "Remote sensing",
+   "Inversion (geology)",
+   "Radiative transfer"
   ],
   "source": "openalex",
   "topics": [
+   "遥感",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213948626",
+  "title": "Optically consistent multi-parameter aerosol retrieval from dual-satellite polarimetric observations enabled by physics-guided deep learning",
+  "authors": [
+   "Zhihui Wang",
+   "Cheng Chen",
+   "Jing Wei",
+   "Xuefeng Lei",
+   "Zhenhai Liu",
+   "Li Fang",
+   "Hui Chen",
+   "Pengfei Ma",
+   "Yulong Fan",
+   "Lin Sun",
+   "Changqing Lin",
+   "Ke Xiao",
+   "Haixiao Yu",
+   "Shangpei Xun",
+   "Zhengqiang Li",
+   "Jin Hong"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-21",
+  "doi": "10.1016/j.rse.2026.115685",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115685",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Polarimetry",
+   "Aerosol"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7125683697",
+  "title": "Expert knowledge-guided decision calibration for accurate fine-grained tree species classification",
+  "authors": [
+   "Long Chen",
+   "Dian Chen",
+   "Ruifei Ding",
+   "Zhe Chen",
+   "Zhen Dong",
+   "Bisheng Yang"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-21",
+  "doi": "10.1016/j.isprsjprs.2026.09.013",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.013",
+  "abstract": "Accurate fine-grained tree species classification is critical for forest inventory and biodiversity monitoring. Existing methods predominantly focus on designing complex architectures to fit local data distributions. However, they often overlook the long-tailed distributions and high inter-class similarity inherent in limited data, thereby struggling to distinguish between few-shot or confusing categories. In the process of knowledge dissemination in the human world, individuals will actively seek expert assistance to transcend the limitations of local thinking. Inspired by this, we introduce an external ”Domain Expert” and propose an Expert Knowledge-Guided Classification Decision Calibration Network (EKDC-Net) to overcome these challenges. Our framework addresses two core issues: expert knowledge extraction and utilization. Specifically, we first develop a Local Prior Guided Knowledge Extraction Module (LPKEM). By leveraging Class Activation Map (CAM) analysis, LPKEM guides the domain expert to focus exclusively on discriminative features essential for classification. Subsequently, to effectively integrate this knowledge, we design an Uncertainty-Guided Decision Calibration Module (UDCM). This module dynamically corrects the local model’s decisions by considering both overall category uncertainty and instance-level prediction uncertainty. Furthermore, we present a large-scale classification dataset covering 102 tree species, named CU-Tree102 to address the issue of scarce diversity in current benchmarks. Experiments on three benchmark datasets demonstrate that our approach achieves state-of-the-art performance. Crucially, as a lightweight plug-and-play module, EKDC-Net improves backbone accuracy by 7.86% and precision by 12.89% using only 0.08M additional learnable parameters. The dataset, code, and pre-trained models are available at https://github.com/WHU-USI3DV/TreeCLS .",
+  "citation_count": 0,
+  "concepts": [
+   "Discriminative model",
+   "Computer science",
+   "Benchmark (surveying)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
    "机器学习",
    "三维与几何"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7213638741",
-  "title": "An Adaptive Dynamic AI-driven ParameTerization (ADAPT) framework for global hourly gross primary productivity estimation",
+  "id": "openalex:W7213871523",
+  "title": "Kinematic pattern interpretation of railway-corridor deformation from InSAR time series with transfer learning-based TCN",
   "authors": [
-   "Sejeong Bae",
-   "Gyeongbin Lee",
-   "Inchae Chung",
-   "Yejin Kim",
-   "Y -M Kim",
-   "Jungho Im",
-   "Soomin Hwang",
-   "Bokyung Son",
-   "Taejun Sung"
+   "Mengshi Yang",
+   "Kang Yin",
+   "Tianrui Zhao",
+   "Zhifang Zhao",
+   "Jisheng Xia",
+   "Ramon F. Hanssen"
   ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-19",
-  "doi": "10.1016/j.isprsjprs.2026.09.024",
+  "date": "2026-09-21",
+  "doi": "10.1016/j.jag.2026.105594",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.024",
-  "abstract": "High-frequency estimation of gross primary productivity (GPP) is crucial for understanding terrestrial carbon dynamics and ecosystem responses to rapidly changing environmental conditions. However, accurate GPP estimation at short-term timescales remains challenging, as it requires accounting for both instantaneous physiological reactions and legacy effects from antecedent environments. While light response curve (LRC) models effectively represent diurnal photosynthetic variations by capturing nonlinear light saturation, their global application has been constrained by static parameterizations. To address this, we propose the Adaptive Dynamic AI-driven ParameTerization (ADAPT) framework, which couples an LRC model with a deep learning approach. By integrating satellite-derived vegetation indices and 15-day antecedent meteorological statistics, ADAPT dynamically retrieves daily physiological parameters, enabling spatially explicit and temporally dynamic LRC parameterization. Using 328 eddy covariance flux sites globally (2001–2024), the dynamically parameterized model (LRC-DP) substantially mitigated underestimation biases associated with static models, achieving a site-level root mean squared error (RMSE) of 343.7 g C m −2 yr −1 for annual GPP. Against existing hourly products, ADAPT reduced RMSE by 25.8–32.4%, successfully reproducing midday peak productivity by overcoming the limitations of linear light-use efficiency assumptions and purely data-driven approaches. Global application at 0.05° resolution demonstrated that ADAPT captures sub-daily photosynthetic sensitivities and interannual variability consistent with global products. Highlighting its robustness under extreme climate stress, ADAPT demonstrated enhanced capability over existing products by accurately capturing daily and sub-daily GPP declines during heatwaves in the United States and Australia. This study highlights that integrating physiological mechanisms with dynamic parameterizations effectively resolves traditional scaling bottlenecks, advancing our capability to monitor high-resolution land–atmosphere carbon exchanges under climate extremes.",
+  "url": "https://doi.org/10.1016/j.jag.2026.105594",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Environmental science",
-   "Eddy covariance",
-   "Mean squared error"
+   "Interferometric synthetic aperture radar",
+   "Series (stratigraphy)",
+   "Geology"
   ],
   "source": "openalex",
   "topics": [
-   "计算机视觉",
+   "遥感",
    "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7213671967",
-  "title": "Spectral unmixing of hyperspectral lidar signals considering laser beam profile",
+  "id": "openalex:W7213903535",
+  "title": "Relaxing the clear-sky assumption: Cloud-tolerant spatiotemporal fusion via mask-guided feature modulation and temporal-memory collaboration",
   "authors": [
-   "Yuhao Xia",
-   "Shilong Xu",
-   "Ahui Hou",
-   "Jiajie Fang",
-   "Wanying Ding",
-   "Huifeng Tao",
-   "Xinyuan Zhang",
-   "Yicheng Wang",
-   "Fei Wang",
-   "Yihua Hu"
+   "Sichen Lu",
+   "Juanjuan Jing",
+   "Junhua Yu",
+   "Lei Yang",
+   "Boyang Nie",
+   "Jinsong Zhou"
   ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-19",
-  "doi": "10.1016/j.isprsjprs.2026.09.011",
+  "date": "2026-09-21",
+  "doi": "10.1016/j.jag.2026.105571",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.011",
-  "abstract": "Full-waveform hyperspectral LiDAR (FWHSL) provides range-resolved spectral measurements and enables quantitative interpretation of multiple targets within a laser footprint. Conventional spectral unmixing (SU), originally developed for passive hyperspectral imagery, estimates the fractional contribution of each endmember from a mixed spectrum and commonly relates this abundance to the area proportion of the corresponding target within pixels. However, HSL is an active sensing modality, and its measured mixed spectrum is inherently modulated by the spatial energy distribution of the emitted laser beam. As a result, in HSL data, the spectral contribution of a target depends not only on its reflectance and geometric coverage, but also on its position within the beam footprint. Directly applying conventional SU to HSL therefore ignores this intrinsic beam-profile weighting and can lead to a mismatch between energy-weighted spectral abundance and true geometric area proportion. To address this problem, this study formulates the beam-profile-induced energy-to-area mismatch and proposes a beam-profile-constrained geometric spectral unmixing method for FWHSL data. The method interprets the mixed spectrum as an energy constraint and uses a known, calibrated Gaussian beam profile together with a low-dimensional circular-arc boundary model to retrieve target area proportions. Simulations with controlled binary mixtures show that the method outperforms a linear mixing model (LMM)-only baseline, reducing mean relative error (RE) from 21.55 % to 9.64 % and composite root mean square error (CRMSE) from 25.81 % to 13.43 %. A laboratory 101-channel FWHSL system experiment further validates the method using leaf-wood board, leaf-red brick, and leaf-ceramic tile binary mixtures and image-based ground truth. Relative to the direct LMM baseline, the proposed method reduces the overall mean absolute error (MAE) from 0.2061 to 0.1321, across-group root mean square error (ARMSE) from 0.1412 to 0.0843, mean RE from 24.15 % to 15.48 %, and mean CRMSE from 0.1158 to 0.0660. These changes correspond to reductions of 35.90 %, 40.27 %, 35.91 %, and 42.97 %, respectively. These results indicate that accounting for laser beam-profile weighting can improve geometric area-proportion retrieval in FWHSL SU, particularly when the target boundary intersects beam-sensitive regions with large spatial energy gradients. The current validation is limited to binary mixtures with locally smooth boundaries and a known or calibrated beam profile. Extension to unknown or irregular beam profiles, multi-material mixtures, and more complex intra-footprint geometries remain a subject for future research.",
+  "url": "https://doi.org/10.1016/j.jag.2026.105571",
+  "abstract": "The precise characterization of dynamic Earth surface processes relies on time-series remote sensing imagery with both high spatial fidelity and frequent temporal coverage. While spatiotemporal fusion (STF) bridges this resolution trade-off by integrating complementary observations, its practical application remains constrained by the idealized ”clear-sky assumption”. This requirement often favors the selection of temporally distant cloud-free acquisitions over temporally closer but cloud-contaminated observations, potentially reducing the relevance of reference information. To address this limitation, we propose CloudSTF, a robust framework designed to achieve high-fidelity reconstruction by effectively exploiting partially occluded observations. Our approach employs a Mask-guided Multi-scale Swin Transformer (M 2 ST) encoder to capture cloud spatial patterns and suppress noise propagation during feature extraction. This is coupled with a Cross-temporal Memory-guided Fusion (CTMF) module that adaptively integrates temporal trends with textural details retrieved from a spatio-temporal memory bank. To validate this paradigm, we introduce the Global Cloud-shrouded Regions (GCR-STF) benchmark, a geographically distributed dataset comprising 24 representative agricultural and urban sites across six continents. Extensive experiments demonstrate that CloudSTF consistently outperforms state-of-the-art methods. Additional assessments across varying cloud densities and diverse landscapes further demonstrate the robustness and applicability of CloudSTF under realistic cloud-contaminated conditions. These results suggest that CloudSTF provides a reliable solution for continuous Earth monitoring in realistic, cloud-prone environments. Source code and the GCR-STF benchmark are available at https://github.com/Sichen-Lu/CloudSTF .",
   "citation_count": 0,
   "concepts": [
-   "Hyperspectral imaging",
-   "Lidar",
-   "Endmember"
+   "Artificial intelligence",
+   "Fusion",
+   "Feature (linguistics)"
   ],
   "source": "openalex",
   "topics": [
    "遥感",
    "计算机视觉",
-   "三维与几何"
+   "机器学习"
   ],
   "is_own": false
  }
