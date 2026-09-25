@@ -30,30 +30,37 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7214049895",
-  "title": "Spatiotemporal extension of all-sky downward shortwave radiation over mountainous area",
+  "id": "openalex:W7214073862",
+  "title": "A multi-sensor and multi-temporal GeoAI framework for resolving ecological scale mismatch in Antarctica",
   "authors": [
-   "Guangjian Yan",
-   "Shuo Cao",
-   "Chunqiang Zhao",
-   "Donghui Xie",
-   "Xihan Mu",
-   "Si Gao"
+   "Amarasingam Narmilan",
+   "Cassandra Newman",
+   "Melinda J. Waterman",
+   "Gabrielle Koerich",
+   "Elka Blackman",
+   "ASHRAY DOSHI",
+   "Len Norman Gillman",
+   "Charlotte V. Walshaw",
+   "Eva Bendix Nielsen",
+   "Tamara Pletzer",
+   "Johan Barthélemy",
+   "Sharon A. Robinson",
+   "Barbara A Bollard"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-22",
-  "doi": "10.1016/j.rse.2026.115678",
+  "date": "2026-09-23",
+  "doi": "10.1016/j.isprsjprs.2026.09.016",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115678",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.016",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Remote sensing",
-   "Shortwave radiation",
-   "Environmental science"
+   "Environmental science",
+   "Scale (ratio)",
+   "Remote sensing"
   ],
   "source": "openalex",
   "topics": [
@@ -62,166 +69,62 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7213950911",
-  "title": "Nested generative downscaling of passive microwave satellite data for navigation-scale Arctic sea ice forecasting",
+  "id": "openalex:W7214089967",
+  "title": "Extending ocean color product to three dimensions assisted by high spectral resolution lidar data",
   "authors": [
-   "Minki Choo",
-   "Young Jun Kim",
-   "Garyung Lee",
-   "Inchae Chung",
-   "Julienne Stroeve",
-   "Jungho Im"
+   "Yue Ma",
+   "Jiaming Ma",
+   "Jian Ping Yang",
+   "Huiying Zheng",
+   "Yuanqiang Zhao",
+   "Yao Li"
   ],
   "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
   "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-22",
-  "doi": "10.1016/j.isprsjprs.2026.09.021",
+  "date": "2026-09-23",
+  "doi": "10.1016/j.isprsjprs.2026.09.029",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.021",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.029",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Downscaling",
-   "Environmental science",
-   "Climatology"
-  ],
-  "source": "openalex",
-  "topics": [
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7214010783",
-  "title": "HELIOS-Net: Hourly daytime estimation of land surface temperature with integration of observational solar-cloud-satellite geometry and deep neural network",
-  "authors": [
-   "Y -M Kim",
-   "Dongjin Cho",
-   "Dukwon Bae",
-   "Yeonsu Lee",
-   "Siwoo Lee",
-   "Sejeong Bae",
-   "Jungho Im"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-22",
-  "doi": "10.1016/j.isprsjprs.2026.09.028",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.028",
-  "abstract": "Geostationary satellite-based land surface temperature (LST) is vital for monitoring diurnal thermal dynamics owing to its extensive spatial coverage and high temporal resolution. However, frequent cloud cover results in substantial data gaps, limiting its practical utility for reliable thermal monitoring applications. The solar-cloud-satellite geometry (SCSG) effect has recently been introduced to reflect direct cloud radiative effects in LST reconstruction, but its application has been largely limited to polar-orbiting satellites. To address this limitation, we propose HELIOS-Net, a deep learning (DL) framework for hourly daytime LST reconstruction using the GEO-KOMPSAT-2A satellite across South Korea, central Japan, and southeastern Australia. The framework combines SCSG-based regime partitioning with a generative adversarial network (GAN) to reconstruct spatially continuous all-sky LST by leveraging satellite observations and various meteorological and topographic variables. Validation against in-situ observations demonstrated that HELIOS-Net achieved high performance across all regions, with coefficient of determination (R 2 ) values of 0.63–0.94 and root mean square error (RMSE) values of 2.45–7.65 °C under cloudy-sky conditions. Comparative evaluation further indicated an overall performance advantage over ERA5-Land and an existing all-sky LST product derived from satellite observations. Additional analyses confirmed that both the SCSG effect and the DL framework contribute to enhancing the fidelity of hourly daytime LST reconstruction. These results highlight the potential of the proposed framework to enable high-quality, spatially continuous all-sky LST monitoring from geostationary satellites, providing a promising approach mitigating cloud-induced data gaps under diverse viewing geometries and environmental conditions.",
-  "citation_count": 0,
-  "concepts": [
-   "Daytime",
-   "Artificial neural network",
-   "Remote sensing"
+   "Remote sensing",
+   "Lidar",
+   "Ocean color"
   ],
   "source": "openalex",
   "topics": [
    "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7214017031",
-  "title": "PatchFusion: Resilient LiDAR-camera fusion for point cloud semantic segmentation in autonomous driving",
-  "authors": [
-   "Yifan Sun",
-   "Chenguang Dai",
-   "Yongsheng Zhang",
-   "Xuchu Yu",
-   "Song Ji",
-   "Xuanguang Liu",
-   "Wenke Li",
-   "Hanyun Wang"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-22",
-  "doi": "10.1016/j.isprsjprs.2026.09.008",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.008",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Point cloud",
-   "Segmentation"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
    "三维与几何"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7214017484",
-  "title": "SNAIL-Radar-Indoor:A large-scale handheld LiDAR–4D radar–IMU dataset for robust SLAM in degraded environments",
+  "id": "openalex:W7164124213",
+  "title": "Bridging cloud-induced gaps in MODIS leaf area index products using high-frequency geostationary satellite observations",
   "authors": [
-   "Yulong Han",
-   "Binliang Wang",
-   "Yuan Zhuang",
-   "Yuhao Liu",
-   "Qipeng Li",
-   "Jiasheng Zhou"
+   "Jiakai You",
+   "Yinghui Zhang",
+   "Zhongwen Hu",
+   "Jingzhe Wang",
+   "Guofeng Wu"
   ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-22",
-  "doi": "10.1016/j.isprsjprs.2026.09.004",
+  "date": "2026-09-23",
+  "doi": "10.1016/j.jag.2026.105611",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.004",
-  "abstract": "Multimodal sensing, particularly 4D imaging radar, is promising for emergency search and rescue because it remains informative under smoke and highly reflective structures. However, existing public radar datasets predominantly record outdoor vehicle motion or clean indoor spaces. We present SNAIL-Radar-Indoor, a large-scale handheld LiDAR–4D radar–IMU dataset for SLAM in smoke and other degraded environments. Extending our previous outdoor SNAIL-Radar benchmark, the new release contains 217 sequences totaling approximately 850 min, collected at 13 sites across six scene types, including offices, abandoned buildings, halls, factory workshops, underground parking areas, and connecting outdoor spaces. The sequences cover corridors, rooms, staircases, narrow corners, indoor–outdoor transitions, reflective structures, dynamic crowds, and real smoke. Data were recorded using a compact self-developed integrated platform comprising a 3D LiDAR, a low-cost single-chip 4D imaging radar, a consumer-grade IMU, and an optional barometer. Repeated traversals and closed paths are included where feasible to support place recognition and loop-closure evaluation. The released trajectories are method-generated references and do not constitute independent absolute ground truth. Smoke-free sequences mainly use loop-consistent LIO references; fully smoke-dominated sequences use an iRIOM-based radar–IMU reference with AHRS and barometer constraints; and partially degraded sequences use a smoke-aware piecewise RLIO reference. Closed sequences additionally include start–end LiDAR registration constraints, while non-closed sequences are accompanied by map-based end-to-end displacement checks. The dataset supports research on radar and multimodal registration, smoke-robust odometry and mapping, denoising, environmental perception, and navigation in degraded environments.",
+  "url": "https://doi.org/10.1016/j.jag.2026.105611",
+  "abstract": "Leaf Area Index (LAI) is a fundamental variable for characterizing vegetation canopy structure and ecosystem functioning. However, persistent cloud contamination substantially constrains the spatiotemporal continuity of LAI products derived from polar-orbiting satellite observations. In contrast, geostationary satellites provide dense temporal sampling, offering a valuable observational basis for filling data gaps in polar-orbiting satellite products. To bridge this observational gap, this study develops an observation-complementary framework that integrates high-frequency Himawari-8 Advanced Himawari Imager (AHI) observations with MODIS LAI products to achieve LAI reconstruction in cloud-prone regions. Within this framework, AHI observations are first used to retrieve LAI at a spatial resolution of 2 km using a Random Forest model trained with a high-quality MODIS-based benchmark dataset, and are then downscaled to 500 m using MODIS-derived spatial texture information. The reconstructed AHI LAI is subsequently integrated into low-quality or missing MODIS pixels to generate a fused AHI-MODIS LAI dataset over China. Validation against in-situ measurements and cross-comparison results show that the fused product maintains reasonable numerical consistency and stable temporal trajectories. Data availability increases from 67.60% to 90.20% under the 4-day compositing cycle. These results indicate that geostationary–polar-orbiting observation complementarity provides a practical pathway for improving the continuity and usability of optical LAI products in persistently cloudy regions, while remaining subject to the constraints of optical observations and cross-scale reconstruction assumptions.",
   "citation_count": 0,
   "concepts": [
-   "Computer science",
-   "Mobile device",
-   "Computer vision"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "三维与几何",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7214025497",
-  "title": "SaKD: Lightweight infrared small target detection via Spatial-Aware Knowledge Distillation for edge deployment",
-  "authors": [
-   "Qianwen Ma",
-   "Shangwei Deng",
-   "Ruoqi Lian",
-   "Zhen Zhu",
-   "Haofeng Hu",
-   "Xiaobo Li"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-22",
-  "doi": "10.1016/j.isprsjprs.2026.09.018",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.018",
-  "abstract": "Accurate infrared small target detection (IRSTD) in remote sensing remains challenging because targets of interest typically occupy only a few pixels and provide limited spatial cues against complex backgrounds. Existing high-performance methods rely on complex networks to enhance weak target representations, limiting their use on resource-constrained edge devices. Lightweight models reduce computation but struggle to capture scarce spatial cues of small targets. To preserve these spatial cues in lightweight models for remote sensing applications, we propose SaKD, a Spatial-Aware Knowledge Distillation method for IRSTD. SaKD explicitly captures complementary spatial cues associated with target responses from teacher predictions, thereby providing richer spatial discriminative supervision for the student model. Without changing the student inference structure, SaKD introduces two training stage components. The Multi-Scale Self Guidance Mechanism first derives auxiliary supervision from the student’s own responses at multiple scales to strengthen target representation before teacher guidance is introduced. Spatial Prior Distillation then transfers the teacher’s spatial priors by enforcing region, position, and scale consistency, corresponding to target region coverage, center localization, and response scale control. Experiments on multiple IRSTD datasets containing real remote sensing imagery show that SaKD consistently improves the undistilled lightweight student and achieves competitive detection performance with low model complexity. The distilled student contains only 0.895M parameters and 1.999G FLOPs. Deployment verification on a Jetson platform further demonstrates its practical efficiency for edge deployable remote sensing applications, reaching 142.7 FPS for standalone TensorRT FP16 inference at an input resolution of 256 × 256. The code will be available at: https://github.com/Kingwin97/SaKD .",
-  "citation_count": 0,
-  "concepts": [
-   "Software deployment",
-   "Computer science",
-   "Enhanced Data Rates for GSM Evolution"
+   "Leaf area index",
+   "Remote sensing",
+   "Geostationary orbit"
   ],
   "source": "openalex",
   "topics": [
@@ -231,30 +134,127 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7214057032",
-  "title": "Resampling-free jitter-aware bundle adjustment for HiRISE multi-CCD stereo mapping on Mars",
+  "id": "openalex:W4407176211",
+  "title": "BD-Diff: Generative Diffusion Model for Image Deblurring on Unknown Domains with Blur-Decoupled Learning",
   "authors": [
-   "Binliang Wang",
-   "Shuangming Zhao",
-   "Shiyan Wang",
-   "Xinyi Guo",
-   "Zhihao Zhan",
-   "Ke Wang"
+   "Junhao Cheng",
+   "Wei‐Ting Chen",
+   "Xi Lu",
+   "Ming–Hsuan Yang"
   ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-22",
-  "doi": "10.1016/j.isprsjprs.2026.09.020",
+  "date": "2026-09-23",
+  "doi": "10.1007/s11263-026-03026-4",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.020",
-  "abstract": "Accurate topographic reconstruction from High Resolution Imaging Science Experiment (HiRISE) stereo imagery is essential for Martian geomorphological analysis and landing-site assessment. However, high-frequency sensor jitter and geometric inconsistency among non-collinear charge-coupled devices (CCDs) can introduce seam-related artifacts, periodic residuals, and local digital elevation model (DEM) deformation. Conventional correction workflows often estimate jitter in image space or update attitude parameters before stereo measurement, and therefore do not fully exploit the internal overlap constraints of the HiRISE focal plane within bundle adjustment. This paper presents a resampling-free photogrammetric framework for HiRISE multi-CCD stereo mapping, in which harmonic jitter compensation is embedded directly into rigorous bundle adjustment. A time-continuous exterior orientation model combines low-order polynomial motion with Fourier-series-based jitter terms initialized from adjacent-CCD overlap disparities. Inter-orbit stereo tie points and inter-CCD overlap tie points are then jointly used to constrain stereo geometry, time-dependent pointing variation, and focal-plane consistency in a unified adjustment model. For original CCD-image matching, a constrained coarse-to-fine pipeline is developed. Pretrained XFeat with test-time descriptor adaptation is used mainly for prior-free coarse initialization at the lowest pyramid level, and the resulting geometric relation is propagated to guide efficient Harris + normalized cross-correlation (NCC) refinement and dense grid matching under local constraints. Experiments on four HiRISE stereo pairs covering the Spirit landing region, Mawrth Vallis, the Zhurong landing region, and a more topographically challenging inverted-channel area in Gale Crater are used to evaluate the proposed framework under different terrain-relief conditions. The results show that the proposed framework maintains sub-pixel mean check-point reprojection residuals in both image directions across all four stereo pairs, suppresses jitter-induced periodic residuals, improves consistency across CCD seams, and produces DEMs consistent with the Mars Orbiter Laser Altimeter (MOLA) and official HiRISE/Planetary Data System (PDS) references without image resampling. The implementation will be made publicly available at: https://github.com/wbl1997/mars_images_ba.git .",
+  "url": "https://doi.org/10.1007/s11263-026-03026-4",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Bundle adjustment",
-   "Geology",
-   "Mars Exploration Program"
+   "Deblurring",
+   "Image (mathematics)",
+   "Generative model"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7214068069",
+  "title": "TAME-MA: Taming Mobile Agents via Trajectory-Level Trustworthiness Under Jailbreak Manipulations",
+  "authors": [
+   "Siyuan Liang",
+   "Tianmeng Fang",
+   "Yongcheng Jing",
+   "Hanqing Zhao",
+   "Jiaxing Huang",
+   "Dacheng Tao"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-23",
+  "doi": "10.1007/s11263-026-03015-7",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03015-7",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Trustworthiness",
+   "Artificial intelligence"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7214085490",
+  "title": "PosePAL: Efficient Animal Pose Labeling Using Point Trackers",
+  "authors": [
+   "Zhuoyang Pan",
+   "Boxiao Pan",
+   "Guandao Yang",
+   "Adam W. Harley",
+   "Leonidas Guibas"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-23",
+  "doi": "10.1007/s11263-026-02976-z",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-02976-z",
+  "abstract": "Abstract Automatically estimating animal poses from videos is important for studying animal behavior. Existing methods do not perform reliably, partly because they rely on high-quality training data, and existing such datasets are small. It is challenging and expensive to create such data, due to the large variations in animal morphology and the difficulty of frame-wise video annotation in general. In this paper, we introduce an animal pose labeling pipeline that leverages test-time optimization of a point tracker, providing temporally-consistent annotations at low cost. Given a video, we fine-tune a lightweight appearance embedding inside a pre-trained general-purpose point tracker on a sparse set of annotated frames. These annotations can be obtained from human labelers or off-the-shelf pose detectors. The fine-tuned model is then applied to the rest of the frames for automatic labeling. Our method achieves state-of-the-art performance at a reasonable annotation cost. We believe our pipeline offers a valuable tool for the automatic quantification of animal behavior. Visit our project webpage at https://zhuoyang-pan.github.io/animal-labeling .",
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Pipeline (software)",
+   "Artificial intelligence"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7214090033",
+  "title": "Voxelized 3D Gaussian Representation for Dense Visual SLAM on Embedded Vision System",
+  "authors": [
+   "Tianchen Deng",
+   "Chang Nie",
+   "Shuhong Liu",
+   "Wenhua Wu",
+   "Jianfei Yang",
+   "Shenghai Yuan",
+   "Jiuming Liu",
+   "Zhe Liu",
+   "Danwei Wang",
+   "Hesheng Wang"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-23",
+  "doi": "10.1007/s11263-026-03039-z",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03039-z",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Gaussian",
+   "Artificial intelligence"
   ],
   "source": "openalex",
   "topics": [
