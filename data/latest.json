@@ -1,27 +1,27 @@
 [
  {
-  "id": "openalex:W7214065149",
-  "title": "Fusing SAR and SWIM observations to improve the global stokes drift estimates",
+  "id": "openalex:W7214228145",
+  "title": "Limited local classification performance but promising spatial transferability of AlphaEarth Foundations for crop mapping across thermal gradients",
   "authors": [
-   "Shi Chun Zou",
-   "Danièle Hauser",
-   "Charles Peureux",
-   "Qing Li"
+   "Cao Cheng",
+   "Nanshan You",
+   "Pengzhan Zhao",
+   "Jinwei Dong"
   ],
   "venue": "Remote Sensing of Environment",
   "venue_short": "RSE",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-23",
-  "doi": "10.1016/j.rse.2026.115687",
+  "date": "2026-09-25",
+  "doi": "10.1016/j.rse.2026.115694",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115687",
+  "url": "https://doi.org/10.1016/j.rse.2026.115694",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
+   "Transferability",
    "Remote sensing",
-   "Synthetic aperture radar",
-   "Geology"
+   "Environmental science"
   ],
   "source": "openalex",
   "topics": [
@@ -30,237 +30,224 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7214073862",
-  "title": "A multi-sensor and multi-temporal GeoAI framework for resolving ecological scale mismatch in Antarctica",
+  "id": "openalex:W7214236869",
+  "title": "Elevation-dependent regulation of alpine vegetation productivity by snow cover and grazing on the Tibetan Plateau under a warming–wetting climate",
   "authors": [
-   "Amarasingam Narmilan",
-   "Cassandra Newman",
-   "Melinda J. Waterman",
-   "Gabrielle Koerich",
-   "Elka Blackman",
-   "ASHRAY DOSHI",
-   "Len Norman Gillman",
-   "Charlotte V. Walshaw",
-   "Eva Bendix Nielsen",
-   "Tamara Pletzer",
-   "Johan Barthélemy",
-   "Sharon A. Robinson",
-   "Barbara A Bollard"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-23",
-  "doi": "10.1016/j.isprsjprs.2026.09.016",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.016",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Environmental science",
-   "Scale (ratio)",
-   "Remote sensing"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7214089967",
-  "title": "Extending ocean color product to three dimensions assisted by high spectral resolution lidar data",
-  "authors": [
-   "Yue Ma",
-   "Jiaming Ma",
-   "Jian Ping Yang",
-   "Huiying Zheng",
-   "Yuanqiang Zhao",
-   "Yao Li"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-23",
-  "doi": "10.1016/j.isprsjprs.2026.09.029",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.029",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Lidar",
-   "Ocean color"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7164124213",
-  "title": "Bridging cloud-induced gaps in MODIS leaf area index products using high-frequency geostationary satellite observations",
-  "authors": [
-   "Jiakai You",
-   "Yinghui Zhang",
-   "Zhongwen Hu",
-   "Jingzhe Wang",
-   "Guofeng Wu"
+   "Rongyu Lai",
+   "Jingping Wang",
+   "Xiaojuan Huang",
+   "Xufeng Wang",
+   "Liying Geng",
+   "Junlei Tan",
+   "Haibo Wang"
   ],
   "venue": "International Journal of Applied Earth Observation and Geoinformation",
   "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-23",
-  "doi": "10.1016/j.jag.2026.105611",
+  "date": "2026-09-25",
+  "doi": "10.1016/j.jag.2026.105613",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105611",
-  "abstract": "Leaf Area Index (LAI) is a fundamental variable for characterizing vegetation canopy structure and ecosystem functioning. However, persistent cloud contamination substantially constrains the spatiotemporal continuity of LAI products derived from polar-orbiting satellite observations. In contrast, geostationary satellites provide dense temporal sampling, offering a valuable observational basis for filling data gaps in polar-orbiting satellite products. To bridge this observational gap, this study develops an observation-complementary framework that integrates high-frequency Himawari-8 Advanced Himawari Imager (AHI) observations with MODIS LAI products to achieve LAI reconstruction in cloud-prone regions. Within this framework, AHI observations are first used to retrieve LAI at a spatial resolution of 2 km using a Random Forest model trained with a high-quality MODIS-based benchmark dataset, and are then downscaled to 500 m using MODIS-derived spatial texture information. The reconstructed AHI LAI is subsequently integrated into low-quality or missing MODIS pixels to generate a fused AHI-MODIS LAI dataset over China. Validation against in-situ measurements and cross-comparison results show that the fused product maintains reasonable numerical consistency and stable temporal trajectories. Data availability increases from 67.60% to 90.20% under the 4-day compositing cycle. These results indicate that geostationary–polar-orbiting observation complementarity provides a practical pathway for improving the continuity and usability of optical LAI products in persistently cloudy regions, while remaining subject to the constraints of optical observations and cross-scale reconstruction assumptions.",
-  "citation_count": 0,
-  "concepts": [
-   "Leaf area index",
-   "Remote sensing",
-   "Geostationary orbit"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W4407176211",
-  "title": "BD-Diff: Generative Diffusion Model for Image Deblurring on Unknown Domains with Blur-Decoupled Learning",
-  "authors": [
-   "Junhao Cheng",
-   "Wei‐Ting Chen",
-   "Xi Lu",
-   "Ming–Hsuan Yang"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-23",
-  "doi": "10.1007/s11263-026-03026-4",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03026-4",
+  "url": "https://doi.org/10.1016/j.jag.2026.105613",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Deblurring",
-   "Image (mathematics)",
-   "Generative model"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7214068069",
-  "title": "TAME-MA: Taming Mobile Agents via Trajectory-Level Trustworthiness Under Jailbreak Manipulations",
-  "authors": [
-   "Siyuan Liang",
-   "Tianmeng Fang",
-   "Yongcheng Jing",
-   "Hanqing Zhao",
-   "Jiaxing Huang",
-   "Dacheng Tao"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-23",
-  "doi": "10.1007/s11263-026-03015-7",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03015-7",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Trustworthiness",
-   "Artificial intelligence"
+   "Grazing",
+   "Snow cover",
+   "Productivity"
   ],
   "source": "openalex",
   "topics": [],
   "is_own": false
  },
  {
-  "id": "openalex:W7214085490",
-  "title": "PosePAL: Efficient Animal Pose Labeling Using Point Trackers",
+  "id": "openalex:W7214164832",
+  "title": "Retrieval of nighttime oceanic liquid cloud optical and microphysical parameters from VIIRS observations: a physics-informed machine learning approach",
   "authors": [
-   "Zhuoyang Pan",
-   "Boxiao Pan",
-   "Guandao Yang",
-   "Adam W. Harley",
-   "Leonidas Guibas"
+   "Ying-Chieh Chen",
+   "Meng Zhou",
+   "Jun Wang",
+   "Xi Chen",
+   "Jing Zeng",
+   "Yongxiang Hu"
   ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-23",
-  "doi": "10.1007/s11263-026-02976-z",
+  "date": "2026-09-24",
+  "doi": "10.1016/j.rse.2026.115684",
   "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-02976-z",
-  "abstract": "Abstract Automatically estimating animal poses from videos is important for studying animal behavior. Existing methods do not perform reliably, partly because they rely on high-quality training data, and existing such datasets are small. It is challenging and expensive to create such data, due to the large variations in animal morphology and the difficulty of frame-wise video annotation in general. In this paper, we introduce an animal pose labeling pipeline that leverages test-time optimization of a point tracker, providing temporally-consistent annotations at low cost. Given a video, we fine-tune a lightweight appearance embedding inside a pre-trained general-purpose point tracker on a sparse set of annotated frames. These annotations can be obtained from human labelers or off-the-shelf pose detectors. The fine-tuned model is then applied to the rest of the frames for automatic labeling. Our method achieves state-of-the-art performance at a reasonable annotation cost. We believe our pipeline offers a valuable tool for the automatic quantification of animal behavior. Visit our project webpage at https://zhuoyang-pan.github.io/animal-labeling .",
+  "url": "https://doi.org/10.1016/j.rse.2026.115684",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Computer science",
-   "Pipeline (software)",
-   "Artificial intelligence"
+   "Remote sensing",
+   "Environmental science",
+   "Cloud computing"
   ],
   "source": "openalex",
   "topics": [
-   "计算机视觉",
+   "遥感",
    "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7214090033",
-  "title": "Voxelized 3D Gaussian Representation for Dense Visual SLAM on Embedded Vision System",
+  "id": "openalex:W7214221010",
+  "title": "Piecewise log-normal modeling of Sentinel-1 co-cross polarization coherence and application to wind field Bayesian inversion",
   "authors": [
-   "Tianchen Deng",
-   "Chang Nie",
-   "Shuhong Liu",
-   "Wenhua Wu",
-   "Jianfei Yang",
-   "Shenghai Yuan",
-   "Jiuming Liu",
-   "Zhe Liu",
-   "Danwei Wang",
-   "Hesheng Wang"
+   "Aurélien Colin",
+   "Romain Husson",
+   "Alexis Mouche",
+   "Antoine Grouazel",
+   "Frédéric Nouguier"
   ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-23",
-  "doi": "10.1007/s11263-026-03039-z",
+  "date": "2026-09-24",
+  "doi": "10.1016/j.rse.2026.115664",
   "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03039-z",
+  "url": "https://doi.org/10.1016/j.rse.2026.115664",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Computer science",
-   "Gaussian",
-   "Artificial intelligence"
+   "Inversion (geology)",
+   "Remote sensing",
+   "Coherence (philosophical gambling strategy)"
   ],
   "source": "openalex",
   "topics": [
-   "计算机视觉",
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7214229353",
+  "title": "Remote sensing of hydrothermal alteration in active volcanic environments: A critical review and integrated analysis of Lastarria volcano",
+  "authors": [
+   "Ge Gao",
+   "Thomas R. Walter",
+   "Samuel T. Thiele"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-24",
+  "doi": "10.1016/j.rse.2026.115679",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115679",
+  "abstract": "Hydrothermal alteration is a key process in active volcanic systems, influencing edifice stability, fluid circulation, degassing pathways, and volcanic hazards. Remote sensing is widely used to map hydrothermal alteration; however, many approaches treat alteration-related surfaces as static targets, so their reliability, transferability, and process significance in active volcanic environments remain insufficiently evaluated. This study synthesizes commonly used remote sensing approaches and examines the behavior and interpretive implications of representative outputs at Lastarria volcano, which is an arid, high-altitude, vegetation-free system with active fumarolic fields. We compare visual interpretation, VNIR-SWIR reflectance products, pixel-based and sub-pixel mapping outputs, UAV thermal infrared observations, and LiDAR-derived surface-state information. The results show that visual interpretation, reflectance-based products, and pixel-based or sub-pixel outputs delineate broad alteration-related patterns, but their extent, internal structure, and interpretive meaning vary with methodological choices, surface mixing, and environmental surface states. Thermal infrared observations constrain apparent surface-temperature anomalies and fumarole-proximal activity, whereas LiDAR-derived products provide complementary information on surface state, morphology, and roughness. These observations do not converge on a single alteration representation; instead, they capture different aspects of the volcanic-hydrothermal system. Environmental, climatic, and surface controls, including exposure state, moisture, surface reworking, and seasonality, further limit direct transferability among volcanic settings. We suggest that remote sensing of hydrothermal alteration in active volcanic environments should move from deterministic mapping toward process-oriented and uncertainty-aware interpretation, with temporal persistence, spatial coherence, process plausibility, and independent support providing a basis for future multi-temporal analysis and monitoring.",
+  "citation_count": 0,
+  "concepts": [
+   "Volcano",
+   "Hydrothermal circulation",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
    "三维与几何"
   ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7214192307",
+  "title": "DescribeEarth: Detailed localized captioning for remote sensing images",
+  "authors": [
+   "Kaiyu Li",
+   "Zixuan Jiang",
+   "Xiangyong Cao",
+   "Jiayu Wang",
+   "Yuchen Xiao",
+   "Jing Yao",
+   "Chen Wu",
+   "Deyu Meng",
+   "Zhi Wang"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-24",
+  "doi": "10.1016/j.isprsjprs.2026.09.019",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.019",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Closed captioning",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7214146307",
+  "title": "160 Years of Etna summit craters through a photogrammetry-based time machine",
+  "authors": [
+   "C. Proietti",
+   "F.L. Bonali",
+   "M. Cantarero",
+   "Mimmo Palano",
+   "Maro Paratore",
+   "Emanuela De Beni"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-24",
+  "doi": "10.1016/j.jag.2026.105614",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105614",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Impact crater",
+   "Summit",
+   "Geology"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7214169499",
+  "title": "Atmospheric restoration is a prerequisite for sub-pixel fire mapping: A smoke-robust protocol across five fire regions",
+  "authors": [
+   "Xiaofeng Ma",
+   "Mengyuan Xu",
+   "Yongze Song",
+   "Jie Liu",
+   "Liangliang Jiang"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-24",
+  "doi": "10.1016/j.jag.2026.105608",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105608",
+  "abstract": "Wildfires exert profound impacts on global ecosystems; however, accurate satellite-based burn area extraction is frequently confounded by the inherent mixed-pixel issue and complex atmospheric conditions. Although sub-pixel mapping (SPM) can resolve the mixed pixel issue, the extent to which its extraction accuracy depends on initial atmospheric preprocessing under diverse haze and smoke conditions remains poorly quantified. Furthermore, the conditions under which such preprocessing remains effective, and the boundary of its operational envelope, are not well understood. This study introduces a Smoke-Robust Sub-pixel Mapping (SRSPM) protocol to systematically diagnose atmospheric preprocessing efficacy prior to SPM. Using both simulated and real atmospheric states across five distinct fire regions, we systematically evaluate the sensitivity of sub-pixel fire perimeter delineation to different levels of haze contamination. Our findings demonstrate that atmospheric scattering inherently degrades the spatial allocation capabilities of SPM, leading to severe omission errors. Restoring contaminated spectral signals is shown to be essential, rather than merely beneficial, for accurate mapping when haze contamination is substantial. Crucially, our quantitative diagnosis reveals the operational limits of the SRSPM protocol: the dehazing benefit grows with haze intensity and remains substantial up to the strongest simulated contamination ( w = 1); in one region it turns positive only beyond w ≈0.73, delineating the quantitative envelope of the SRSPM protocol. Overall, this work establishes the SRSPM protocol as a practical diagnostic tool for quantifying the interaction between atmospheric correction and sub-pixel spatial allocation, providing empirical guidance for operational disaster monitoring in complex atmospheric environments.",
+  "citation_count": 0,
+  "concepts": [
+   "Haze",
+   "Preprocessor",
+   "Environmental science"
+  ],
+  "source": "openalex",
+  "topics": [],
   "is_own": false
  }
 ]
