@@ -1,5 +1,34 @@
 [
  {
+  "id": "openalex:W7214297914",
+  "title": "Topology-preserving river vectorization via HydroSAM and differentiable graph optimization under coarse labels",
+  "authors": [
+   "Huazhen Zhou",
+   "Ming Wang",
+   "Kai Liu"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-26",
+  "doi": "10.1016/j.jag.2026.105601",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105601",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Vectorization (mathematics)",
+   "Differentiable function",
+   "Graph"
+  ],
+  "source": "openalex",
+  "topics": [
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7214228145",
   "title": "Limited local classification performance but promising spatial transferability of AlphaEarth Foundations for crop mapping across thermal gradients",
   "authors": [
@@ -30,6 +59,47 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7214277945",
+  "title": "Evaluating spectral unmixing techniques using imaging spectroscopy data for retrieval of green, non-photosynthetic vegetation, and soil fractional cover",
+  "authors": [
+   "Francisco Ochoa",
+   "Philip G. Brodrick",
+   "Jorge A. Ochoa Gonzalez",
+   "Sandra LeGrand",
+   "Madeleine Gillespie",
+   "Red Willow Coleman",
+   "Yoseline Angel",
+   "K. Dana Chadwick",
+   "Regina Eckert",
+   "Kathleen Grant",
+   "Thoralf Meyer",
+   "David R. Thompson",
+   "Robert O. Green",
+   "Gregory S. Okin"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-25",
+  "doi": "10.1016/j.rse.2026.115681",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115681",
+  "abstract": "Estimates of fractional cover of green vegetation (GV), non-photosynthetic vegetation (NPV), and soil provide valuable information about the Earth system. As the new generation of Earth visible-to-shortwave infrared (VSWIR) imaging spectrometers take orbit, global fractional cover data will be obtainable with new and improved spectral unmixing algorithms. Using an ASD Field Spectrometer and the spectral line point intercept (SLPIT) method, we estimate fractional cover from field measurements to compare to contemporaneous airborne (Airborne Visible/Infrared Imaging Spectrometer; AVIRIS NG ) and spaceborne (Earth surface Mineral dust source InvesTigation; EMIT) imaging spectroscopy data. Field data were collected in multiple biomes in the US Southwest at 84 validation sites. We used EndMember Combination Monte Carlo (E(MC) 2 ) and Multiple-Endmember Spectral Mixture Analysis (MESMA) to derive fractional cover, two candidate spectral unmixing algorithms used by current (e.g., EMIT) and future imaging spectroscopy missions. Field data exhibited strong agreement between ground and spaceborne/airborne measurements. Our best spectral unmixing approach, E(MC) 2 , produced mean absolute error of ≤0.05 for NPV, GV, and soil with uncertainties ≤0.08 for all classes. We further investigated the performance of global vs. local endmember libraries and found that the global library outperformed the local endmember library. We investigated normalization techniques and their effectiveness with our ground and image fractions. Additionally, we calculated uncertainties from both ground and image fractions. Field results aligned well and within uncertainty predictions from previously reported simulation work. These findings support the use of E(MC) 2 to be used in current and future imaging spectroscopy missions.",
+  "citation_count": 0,
+  "concepts": [
+   "Endmember",
+   "Remote sensing",
+   "Imaging spectrometer"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7214236869",
   "title": "Elevation-dependent regulation of alpine vegetation productivity by snow cover and grazing on the Tibetan Plateau under a warming–wetting climate",
   "authors": [
@@ -49,12 +119,81 @@
   "doi": "10.1016/j.jag.2026.105613",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.jag.2026.105613",
-  "abstract": null,
+  "abstract": "Grassland productivity on the Tibetan Plateau (TP) is fundamental to regional carbon cycling and ecosystem functioning and is strongly regulated by snow dynamics and grazing under a changing climate. However, the mechanisms by which alpine grassland productivity responds to interacting climatic, cryospheric, and anthropogenic drivers remain poorly constrained. Here, we integrated long-term multi-source Earth observation data to quantify the spatiotemporal trends of grassland gross primary productivity (GPP) across the TP from 1982 to 2018 and examined the relationships between GPP and snow dynamics, climate, and grazing intensity, with an explicit emphasis on elevation-dependent controls. Our results reveal a pronounced nonlinear reorganization of GPP controls along elevation gradients, with a critical transition zone at mid-elevations (∼3500–4000 m). Within this zone, warming exerted the strongest positive association with GPP, while grazing intensity also showed a positive spatial association with GPP. In contrast, at higher elevations (>4500 m), snow dynamics emerged as dominant constraints on GPP. Structural equation modeling further indicates that snow cover duration showed the strongest negative total effect among the modeled environmental variables, whereas grazing intensity showed an elevation – dependent association with GPP, shifting from a positive spatial correlation at mid – elevations to a negative correlation at high elevations. Across all elevation zones, soil moisture-mediated pathways consistently exert stronger controls on GPP than soil temperature pathways, highlighting water availability as the more direct and dominant constraint on alpine grassland productivity. These findings demonstrate that elevation fundamentally regulates the spatial organization of ecosystem productivity controls on the TP and underscore the importance of explicitly accounting for cryosphere–biosphere–human interactions when assessing alpine carbon dynamics under a warming and wetting climate.",
   "citation_count": 0,
   "concepts": [
    "Grazing",
    "Snow cover",
    "Productivity"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7214289093",
+  "title": "Active CO2 lidar extends satellite monitoring of urban fossil-fuel CO2 emissions to high-aerosol cities",
+  "authors": [
+   "Yiyang Huang",
+   "Ge Han",
+   "Jinchun Yi",
+   "Hongyuan Zhang",
+   "Yichi Zhang",
+   "Yike Wang",
+   "Zhipeng Pei",
+   "Haotian Luo",
+   "Tianchang Zhou",
+   "Siwei Li",
+   "Wei Gong"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-25",
+  "doi": "10.1016/j.jag.2026.105606",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105606",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Lidar",
+   "Remote sensing",
+   "Satellite"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W4406794439",
+  "title": "Parameter-Efficient Fine-Tuning for Foundation Models",
+  "authors": [
+   "Dan Zhang",
+   "Tao Feng",
+   "Lilong Xue",
+   "Yuandong Wang",
+   "Yuxiao Dong",
+   "Jie Tang"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-25",
+  "doi": "10.1007/s11263-026-03004-w",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03004-w",
+  "abstract": null,
+  "citation_count": 5,
+  "concepts": [
+   "Foundation (evidence)",
+   "Computer science"
   ],
   "source": "openalex",
   "topics": [],
@@ -111,7 +250,7 @@
   "doi": "10.1016/j.rse.2026.115664",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.rse.2026.115664",
-  "abstract": null,
+  "abstract": "Accurate estimates of kilometer-scale ocean surface wind fields is critical for many applications, including weather forecasting, marine navigation, offshore wind energy development, and coastal risk management. Synthetic Aperture Radar (SAR) plays a key role in retrieving wind speed by analyzing changes in sea surface roughness, described through Geophysical Model Functions (GMFs). However, the inverse problem of wind retrieval from SAR data is under-determined, requiring ancillary information from Numerical Weather Models (NWP) to resolve ambiguities in the wind direction. The Co-Cross-Polarization Coherence (CCPC) has recently emerged as a valuable SAR-derived observation for improving wind direction estimates. While an initial GMF for CCPC has been proposed, it proved inadequate for high wind speeds. We present PGMF-2, a refined GMF for CCPC, ensuring reliable performance up to approximately 25 m/s by modeling its wind speed components as log-normal functions. The need for crosstalk calibration is mitigated by a burst-based processing. Monte Carlo simulations confirm that the unique odd-symmetry of the CCPC and the different impact of the wind direction modulation on its real and imaginary parts complements the Normalized Radar Cross Section (NRCS) to estimate the wind direction. This combination enables wind direction retrieval without NWP priors, even outperforming NWP-based inversions between 7 and 15 m/s. The Mean Absolute Error on direction reaches as low as 25 ∘ in favorable (in particular between 30 ∘ –90 ∘ and 270 ∘ –330 ∘ of wind direction relative to the satellite antenna, where the NRCS and the CCPC have overlapping wind direction variability) high-wind conditions. Co-observations with the HY-2B scatterometer, supplemented by a case study on Storm Alex (2020), serve as a proof of concept of the Bayesian scheme on real-world observations, successfully retrieving the typical flow organization of the cyclonic system without reliance on NWP priors.",
   "citation_count": 0,
   "concepts": [
    "Inversion (geology)",
@@ -120,134 +259,9 @@
   ],
   "source": "openalex",
   "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7214229353",
-  "title": "Remote sensing of hydrothermal alteration in active volcanic environments: A critical review and integrated analysis of Lastarria volcano",
-  "authors": [
-   "Ge Gao",
-   "Thomas R. Walter",
-   "Samuel T. Thiele"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-24",
-  "doi": "10.1016/j.rse.2026.115679",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115679",
-  "abstract": "Hydrothermal alteration is a key process in active volcanic systems, influencing edifice stability, fluid circulation, degassing pathways, and volcanic hazards. Remote sensing is widely used to map hydrothermal alteration; however, many approaches treat alteration-related surfaces as static targets, so their reliability, transferability, and process significance in active volcanic environments remain insufficiently evaluated. This study synthesizes commonly used remote sensing approaches and examines the behavior and interpretive implications of representative outputs at Lastarria volcano, which is an arid, high-altitude, vegetation-free system with active fumarolic fields. We compare visual interpretation, VNIR-SWIR reflectance products, pixel-based and sub-pixel mapping outputs, UAV thermal infrared observations, and LiDAR-derived surface-state information. The results show that visual interpretation, reflectance-based products, and pixel-based or sub-pixel outputs delineate broad alteration-related patterns, but their extent, internal structure, and interpretive meaning vary with methodological choices, surface mixing, and environmental surface states. Thermal infrared observations constrain apparent surface-temperature anomalies and fumarole-proximal activity, whereas LiDAR-derived products provide complementary information on surface state, morphology, and roughness. These observations do not converge on a single alteration representation; instead, they capture different aspects of the volcanic-hydrothermal system. Environmental, climatic, and surface controls, including exposure state, moisture, surface reworking, and seasonality, further limit direct transferability among volcanic settings. We suggest that remote sensing of hydrothermal alteration in active volcanic environments should move from deterministic mapping toward process-oriented and uncertainty-aware interpretation, with temporal persistence, spatial coherence, process plausibility, and independent support providing a basis for future multi-temporal analysis and monitoring.",
-  "citation_count": 0,
-  "concepts": [
-   "Volcano",
-   "Hydrothermal circulation",
-   "Remote sensing"
-  ],
-  "source": "openalex",
-  "topics": [
    "遥感",
-   "三维与几何"
+   "计算机视觉"
   ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7214192307",
-  "title": "DescribeEarth: Detailed localized captioning for remote sensing images",
-  "authors": [
-   "Kaiyu Li",
-   "Zixuan Jiang",
-   "Xiangyong Cao",
-   "Jiayu Wang",
-   "Yuchen Xiao",
-   "Jing Yao",
-   "Chen Wu",
-   "Deyu Meng",
-   "Zhi Wang"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-24",
-  "doi": "10.1016/j.isprsjprs.2026.09.019",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.019",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Closed captioning",
-   "Computer science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7214146307",
-  "title": "160 Years of Etna summit craters through a photogrammetry-based time machine",
-  "authors": [
-   "C. Proietti",
-   "F.L. Bonali",
-   "M. Cantarero",
-   "Mimmo Palano",
-   "Maro Paratore",
-   "Emanuela De Beni"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-24",
-  "doi": "10.1016/j.jag.2026.105614",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105614",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Impact crater",
-   "Summit",
-   "Geology"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7214169499",
-  "title": "Atmospheric restoration is a prerequisite for sub-pixel fire mapping: A smoke-robust protocol across five fire regions",
-  "authors": [
-   "Xiaofeng Ma",
-   "Mengyuan Xu",
-   "Yongze Song",
-   "Jie Liu",
-   "Liangliang Jiang"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-24",
-  "doi": "10.1016/j.jag.2026.105608",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105608",
-  "abstract": "Wildfires exert profound impacts on global ecosystems; however, accurate satellite-based burn area extraction is frequently confounded by the inherent mixed-pixel issue and complex atmospheric conditions. Although sub-pixel mapping (SPM) can resolve the mixed pixel issue, the extent to which its extraction accuracy depends on initial atmospheric preprocessing under diverse haze and smoke conditions remains poorly quantified. Furthermore, the conditions under which such preprocessing remains effective, and the boundary of its operational envelope, are not well understood. This study introduces a Smoke-Robust Sub-pixel Mapping (SRSPM) protocol to systematically diagnose atmospheric preprocessing efficacy prior to SPM. Using both simulated and real atmospheric states across five distinct fire regions, we systematically evaluate the sensitivity of sub-pixel fire perimeter delineation to different levels of haze contamination. Our findings demonstrate that atmospheric scattering inherently degrades the spatial allocation capabilities of SPM, leading to severe omission errors. Restoring contaminated spectral signals is shown to be essential, rather than merely beneficial, for accurate mapping when haze contamination is substantial. Crucially, our quantitative diagnosis reveals the operational limits of the SRSPM protocol: the dehazing benefit grows with haze intensity and remains substantial up to the strongest simulated contamination ( w = 1); in one region it turns positive only beyond w ≈0.73, delineating the quantitative envelope of the SRSPM protocol. Overall, this work establishes the SRSPM protocol as a practical diagnostic tool for quantifying the interaction between atmospheric correction and sub-pixel spatial allocation, providing empirical guidance for operational disaster monitoring in complex atmospheric environments.",
-  "citation_count": 0,
-  "concepts": [
-   "Haze",
-   "Preprocessor",
-   "Environmental science"
-  ],
-  "source": "openalex",
-  "topics": [],
   "is_own": false
  }
 ]
