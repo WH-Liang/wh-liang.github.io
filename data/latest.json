@@ -1,5 +1,147 @@
 [
  {
+  "id": "openalex:W7214452206",
+  "title": "Sentinel-1 operational DInSAR services for surface displacements monitoring of the Italian territory through the P-SBAS processing chain: a review after 10 years of observations and data processing",
+  "authors": [
+   "F. Casu",
+   "I. Antoncecchi",
+   "M. Bonano",
+   "V. Bosi",
+   "C. De Luca",
+   "D. Di Bucci",
+   "A. Fagiani",
+   "D. Mangione",
+   "M. Manunta",
+   "F. Monterroso",
+   "G. Onorato",
+   "R. Sofia",
+   "I. Zinno",
+   "R. Lanari"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-26",
+  "doi": "10.1016/j.rse.2026.115692",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115692",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Data processing",
+   "Geology"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7214460669",
+  "title": "Validation of TROPOMI SIF products based on spatial representativeness grading and atmospheric-geometric effect assessment",
+  "authors": [
+   "Qian Zhang",
+   "Yan Liu",
+   "Josep Peñuelas",
+   "Adria Descals",
+   "Yang Yang",
+   "Jianli Shi",
+   "Xingfa GU"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-26",
+  "doi": "10.1016/j.rse.2026.115696",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115696",
+  "abstract": "Satellite solar-induced chlorophyll fluorescence (SIF) is important for carbon cycle research, but its direct validation is often hindered by spatial scale mismatch between satellite footprints and in situ measurements. We developed a quantitative spatial representativeness grading framework for in situ SIF measurements. The framework uses two proxy metrics, the consistency index ( 𝐶 𝑠 𝑖 𝑚 ) and relative absolute error ( 𝑅 𝐴 ⁢ 𝐸 𝑠 𝑖 𝑚 ), to diagnose local SIF simulation consistency and point-to-footprint deviation. Using 6240 HyPlant pseudo-point/footprint samples, a domain-level threshold search yielded Level 1 criteria of 𝐶 𝑠 𝑖 𝑚 ∈ [ 0 . 4 , 1 . 0 ] and 𝑅 𝐴 ⁢ 𝐸 𝑠 𝑖 𝑚 ≤ 0 . 4 . Samples with the same 𝐶 𝑠 𝑖 𝑚 range but 𝑅 𝐴 ⁢ 𝐸 𝑠 𝑖 𝑚 > 0 . 4 were classified as Level 2 and required upscaling. We applied this framework to 28 global sites to evaluate three TROPOMI SIF products using Sentinel-2 and ERA5-Land inputs. The framework retained 41–42% of the original matched samples. After controlling spatial scale effects, validation R 2 increased from 0.19 to 0.31 for TROPOSIF 735 and from 0.44 to 0.69 for both TROPOSIF 743 and TROPOSIF Caltech . Sensitivity analyses showed that this improvement was generally preserved under alternative tolerance thresholds and reference confidence criteria, although the proxy thresholds remain empirical. We further assessed cloud and sun-sensor geometry effects. TROPOSIF 735 was sensitive to cloud contamination, whereas TROPOSIF 743 and TROPOSIF Caltech remained robust under moderate cloud cover. Under clear skies, retrieval accuracy declined when solar zenith angle (SZA) exceeded 60 ° , while viewing zenith angle effects were limited after excluding large-SZA observations. Phase angle mismatch introduced systematic bias through canopy SIF anisotropy. Overall, this framework improves direct validation reliability and provides practical guidance for evaluating satellite SIF products.",
+  "citation_count": 0,
+  "concepts": [
+   "Representativeness heuristic",
+   "Remote sensing",
+   "Environmental science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7214478358",
+  "title": "Physics-informed machine learning for cloud detection",
+  "authors": [
+   "Shi Qiu",
+   "Zhe Zhu",
+   "Xiucheng Yang",
+   "Junchang Ju",
+   "Qiang Zhou",
+   "Christopher  S.R. Neigh"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-26",
+  "doi": "10.1016/j.rse.2026.115672",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115672",
+  "abstract": "Accurate cloud detection is a critical preprocessing step for analyzing optical remote sensing data, such as from Landsat and Sentinel-2. In this study, we developed Fmask 5 (Version 5 of Function of mask) for cloud detection in Landsats 4–9 (Landsat 4, 5, 7, 8, and 9) and Sentinel-2 (Sentinel-2 A, B, and C) imagery, based on a novel physics-informed machine learning (PIML) framework. This framework synergistically integrates physical rules with machine learning (ML) models, overcoming their respective limitations. Specifically, a base ML model first generates a preliminary cloud mask to adapt to the application of physical rules, determining the optimal combination of spectral tests and thresholds for that image. The resulting physical-rule-adapted mask serves as additional “localized” training data to fine-tune the ML model. For a global, independent validation dataset combining simple random and disagreement-stratified samples from over 600 images per sensor, Fmask 5 achieved overall accuracies of 93.46% for Landsats 8–9, 92.50% for Landsats 4–7, and 95.38% for Sentinel-2, representing improvements of 1.6–6.0 percentage points over Fmask 4. The Fmask 5 algorithm is CPU-efficient, making it suitable for large-scale operational processing.",
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Cloud computing",
+   "Preprocessor"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7214496765",
+  "title": "PC2Mesh: Reconstruction of building polygonal meshes from airborne LiDAR point clouds",
+  "authors": [
+   "Bingxin Han",
+   "Zuoquan Zhao",
+   "Yu Li",
+   "Zongzhou Wu",
+   "Xi Chen",
+   "Ben M. Chen"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-26",
+  "doi": "10.1016/j.isprsjprs.2026.09.022",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.022",
+  "abstract": "Polygonal meshes provide a compact and flexible representation for 3D buildings, supporting a wide range of photogrammetric and geometric applications. However, reconstructing high-fidelity building polygon meshes from airborne LiDAR point clouds remains challenging due to the non-uniform and variable-sided nature of polygonal topology and the complexity of urban environments characterized by diverse building geometries, uneven point densities, and occlusions. In this paper, we present PC2Mesh, a learning-based method that reconstructs polygonal building meshes directly from airborne LiDAR point clouds. While existing approaches rely on primitive detection (e.g., City3D, Point2Poly) or employ separate networks for vertex and face generation (e.g., Point2building), our method employs a unified transformer-based architecture that jointly learns mesh geometry and topology within a shared representation space. By representing arbitrary-sided polygons as learned token sequences, the method enables holistic mesh generation without preprocessing or handcrafted priors. This end-to-end formulation mitigates error propagation across stages and enhances reconstruction fidelity and robustness. Comprehensive experiments on open-source datasets demonstrate that our proposed method consistently outperforms state-of-the-art approaches in geometric accuracy and visual fidelity. Our method improves Edge Precision (EP) and Edge Recall (ER) by 9.1% and 24.7%, respectively, on the Zurich dataset, and by 8.3% and 20.2% on the Tallinn dataset. It also achieves the lowest Mean Distance Error (MDE), Hausdorff Distance (HD), and Chamfer Distance (CD) on both datasets. The source code of this work is freely available at https://github.com/BestyHon/PC2Mesh .",
+  "citation_count": 0,
+  "concepts": [
+   "Polygon mesh",
+   "Point cloud",
+   "Polygon (computer graphics)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7214297914",
   "title": "Topology-preserving river vectorization via HydroSAM and differentiable graph optimization under coarse labels",
   "authors": [
@@ -15,7 +157,7 @@
   "doi": "10.1016/j.jag.2026.105601",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.jag.2026.105601",
-  "abstract": null,
+  "abstract": "Accurate river-network extraction supports global hydrological management and environmental monitoring. Automated extraction from remote-sensing imagery remains challenging because river morphology is highly variable, fine tributaries have weak visual signals, canopy and infrastructure can obscure channels, and dense annotations are scarce or spatially incomplete. Conventional raster predictions can also be fragmented and lack structural continuity. We present HydroSAM, a three-stage framework for raster extraction and topology-aware vectorization. A frozen SAM 2 Hiera encoder is adapted with QV-LoRA and the proposed Directional Curvilinear Prior Injection (DCPI), while a gated Digital Elevation Model (DEM) branch contributes coarse-scale topographic context. Segmentation is produced in a zero-prompt setting by the native SAM 2 mask decoder. A graph-guided differentiable vectorization stage then converts probability maps into connected parametric river networks. We also present M2Hydro, a benchmark containing 7,947 high-resolution 4096 × 4096 source image-annotation pairs across China. In single-run tests, HydroSAM-MM attains an F1 of 0.6995 and clDice of 0.7753 on M2Hydro. The evaluations indicate that HydroSAM supports parameter-efficient adaptation and is more resilient to the evaluated cross-regional domain shift than the convolutional and Transformer baselines.",
   "citation_count": 0,
   "concepts": [
    "Vectorization (mathematics)",
@@ -24,7 +166,69 @@
   ],
   "source": "openalex",
   "topics": [
+   "计算机视觉",
    "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7117989774",
+  "title": "Thinking on maps: how foundation model agents explore, remember, and reason in map environments",
+  "authors": [
+   "Zhiwei Wei",
+   "Yuxing Liu",
+   "Hua Liao",
+   "Wenjia Xu"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-26",
+  "doi": "10.1080/15481603.2026.2730755",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2730755",
+  "abstract": "Map environments provide a fundamental medium for representing spatial structure. Understanding how foundation model (FM) agents understand and act in such environments is therefore critical for enabling reliable map-based reasoning and applications. However, most existing evaluations of spatial ability in FMs rely on static map inputs or text-based queries, overlooking the interactive and experience-driven nature of spatial understanding.In this paper, we propose an interactive evaluation framework to analyze how FM agents explore, remember, and reason in symbolic map environments. Agents incrementally explore partially observable grid-based maps consisting of roads, intersections, and points of interest (POIs), receiving only local observations at each step. Spatial understanding is then evaluated using six kinds of spatial tasks. By systematically varying exploration strategies, memory representations, and reasoning schemes across multiple foundation models, we reveal distinct functional roles of these components. Exploration primarily affects experience acquisition but has a limited impact on final reasoning accuracy. In contrast, memory representation plays a central role in consolidating spatial experience, with structured memories particularly sequential and graph-based representations, substantially improving performance on structure-intensive tasks such as path planning. Reasoning schemes further shape how stored spatial knowledge is used, with advanced prompts supporting more effective multi-step inference. We further observe that spatial reasoning performance saturates across model versions and scales beyond a certain capability threshold, indicating that improvements in map-based spatial understanding require mechanisms tailored to spatial representation and reasoning rather than scaling alone.",
+  "citation_count": 0,
+  "concepts": [
+   "Spatial intelligence",
+   "Computer science",
+   "Representation (politics)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7214477977",
+  "title": "Assessing heat dome effects on forest dynamics in the Pacific Northwest using Planet imagery",
+  "authors": [
+   "Aji John",
+   "Kavya Pradhan",
+   "Michael J. Case",
+   "Ailene K. Ettinger",
+   "Janneke HilleRisLambers"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-26",
+  "doi": "10.1080/15481603.2026.2728824",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2728824",
+  "abstract": "Increasingly frequent extreme heat events are imposing significant stress on forest ecosystems, with implications for both forests and the organisms that depend on them. This study evaluated the effects of the June 2021 Pacific Northwest (PNW) heat dome (a prolonged high-pressure system that generated record-breaking temperatures) on forest canopy health and subsequent recovery within the conifer-dominated Ellsworth Creek Preserve in Washington State, USA, using high-resolution Planet Labs satellite imagery. We analyzed normalized difference vegetation index (NDVI) trends from spring through fall from 2017 to 2025 to identify canopy stress and quantify changes in canopy greenness. The experimental forest thinning treatments, designed to accelerate old-growth structural characteristics, allowed us to evaluate canopy responses relative to restoration treatments. Our results showed marked declines in the summer NDVI during and following the 2021 heat dome, indicating substantial canopy stress. These declines differed from patterns observed in preceding years and occurred across all forest treatments. Changes in seasonal NDVI dynamics were evident in the control, thinned, clearcut, and old-growth stands; however, pairwise comparisons showed limited differences among canopy types, indicating broadly similar patterns of NDVI suppression during extreme events. The NDVI trajectories during the four post-heat dome years suggested partial recovery in canopy greenness, although the variability among the treatments remained high and overall NDVI levels remained below Pre2021 conditions in some stands through 2024. The recovery trajectories differed modestly among treatments, but we found limited evidence that canopy density substantially altered either the magnitude of canopy suppression or the subsequent recovery trajectories. Overall, these findings demonstrate that extreme heat events can induce widespread canopy stress across forest types and suggest that canopy structure alone may have a limited influence on canopy-scale responses under extreme atmospheric conditions. These results provide insight for adaptive forest management strategies aimed at maintaining ecosystem function under increasingly extreme climatic conditions.",
+  "citation_count": 0,
+  "concepts": [
+   "Canopy",
+   "Normalized Difference Vegetation Index",
+   "Environmental science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
   ],
   "is_own": false
  },
@@ -55,212 +259,6 @@
   "source": "openalex",
   "topics": [
    "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7214277945",
-  "title": "Evaluating spectral unmixing techniques using imaging spectroscopy data for retrieval of green, non-photosynthetic vegetation, and soil fractional cover",
-  "authors": [
-   "Francisco Ochoa",
-   "Philip G. Brodrick",
-   "Jorge A. Ochoa Gonzalez",
-   "Sandra LeGrand",
-   "Madeleine Gillespie",
-   "Red Willow Coleman",
-   "Yoseline Angel",
-   "K. Dana Chadwick",
-   "Regina Eckert",
-   "Kathleen Grant",
-   "Thoralf Meyer",
-   "David R. Thompson",
-   "Robert O. Green",
-   "Gregory S. Okin"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-25",
-  "doi": "10.1016/j.rse.2026.115681",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115681",
-  "abstract": "Estimates of fractional cover of green vegetation (GV), non-photosynthetic vegetation (NPV), and soil provide valuable information about the Earth system. As the new generation of Earth visible-to-shortwave infrared (VSWIR) imaging spectrometers take orbit, global fractional cover data will be obtainable with new and improved spectral unmixing algorithms. Using an ASD Field Spectrometer and the spectral line point intercept (SLPIT) method, we estimate fractional cover from field measurements to compare to contemporaneous airborne (Airborne Visible/Infrared Imaging Spectrometer; AVIRIS NG ) and spaceborne (Earth surface Mineral dust source InvesTigation; EMIT) imaging spectroscopy data. Field data were collected in multiple biomes in the US Southwest at 84 validation sites. We used EndMember Combination Monte Carlo (E(MC) 2 ) and Multiple-Endmember Spectral Mixture Analysis (MESMA) to derive fractional cover, two candidate spectral unmixing algorithms used by current (e.g., EMIT) and future imaging spectroscopy missions. Field data exhibited strong agreement between ground and spaceborne/airborne measurements. Our best spectral unmixing approach, E(MC) 2 , produced mean absolute error of ≤0.05 for NPV, GV, and soil with uncertainties ≤0.08 for all classes. We further investigated the performance of global vs. local endmember libraries and found that the global library outperformed the local endmember library. We investigated normalization techniques and their effectiveness with our ground and image fractions. Additionally, we calculated uncertainties from both ground and image fractions. Field results aligned well and within uncertainty predictions from previously reported simulation work. These findings support the use of E(MC) 2 to be used in current and future imaging spectroscopy missions.",
-  "citation_count": 0,
-  "concepts": [
-   "Endmember",
-   "Remote sensing",
-   "Imaging spectrometer"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7214236869",
-  "title": "Elevation-dependent regulation of alpine vegetation productivity by snow cover and grazing on the Tibetan Plateau under a warming–wetting climate",
-  "authors": [
-   "Rongyu Lai",
-   "Jingping Wang",
-   "Xiaojuan Huang",
-   "Xufeng Wang",
-   "Liying Geng",
-   "Junlei Tan",
-   "Haibo Wang"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-25",
-  "doi": "10.1016/j.jag.2026.105613",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105613",
-  "abstract": "Grassland productivity on the Tibetan Plateau (TP) is fundamental to regional carbon cycling and ecosystem functioning and is strongly regulated by snow dynamics and grazing under a changing climate. However, the mechanisms by which alpine grassland productivity responds to interacting climatic, cryospheric, and anthropogenic drivers remain poorly constrained. Here, we integrated long-term multi-source Earth observation data to quantify the spatiotemporal trends of grassland gross primary productivity (GPP) across the TP from 1982 to 2018 and examined the relationships between GPP and snow dynamics, climate, and grazing intensity, with an explicit emphasis on elevation-dependent controls. Our results reveal a pronounced nonlinear reorganization of GPP controls along elevation gradients, with a critical transition zone at mid-elevations (∼3500–4000 m). Within this zone, warming exerted the strongest positive association with GPP, while grazing intensity also showed a positive spatial association with GPP. In contrast, at higher elevations (>4500 m), snow dynamics emerged as dominant constraints on GPP. Structural equation modeling further indicates that snow cover duration showed the strongest negative total effect among the modeled environmental variables, whereas grazing intensity showed an elevation – dependent association with GPP, shifting from a positive spatial correlation at mid – elevations to a negative correlation at high elevations. Across all elevation zones, soil moisture-mediated pathways consistently exert stronger controls on GPP than soil temperature pathways, highlighting water availability as the more direct and dominant constraint on alpine grassland productivity. These findings demonstrate that elevation fundamentally regulates the spatial organization of ecosystem productivity controls on the TP and underscore the importance of explicitly accounting for cryosphere–biosphere–human interactions when assessing alpine carbon dynamics under a warming and wetting climate.",
-  "citation_count": 0,
-  "concepts": [
-   "Grazing",
-   "Snow cover",
-   "Productivity"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7214289093",
-  "title": "Active CO2 lidar extends satellite monitoring of urban fossil-fuel CO2 emissions to high-aerosol cities",
-  "authors": [
-   "Yiyang Huang",
-   "Ge Han",
-   "Jinchun Yi",
-   "Hongyuan Zhang",
-   "Yichi Zhang",
-   "Yike Wang",
-   "Zhipeng Pei",
-   "Haotian Luo",
-   "Tianchang Zhou",
-   "Siwei Li",
-   "Wei Gong"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-25",
-  "doi": "10.1016/j.jag.2026.105606",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105606",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Lidar",
-   "Remote sensing",
-   "Satellite"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W4406794439",
-  "title": "Parameter-Efficient Fine-Tuning for Foundation Models",
-  "authors": [
-   "Dan Zhang",
-   "Tao Feng",
-   "Lilong Xue",
-   "Yuandong Wang",
-   "Yuxiao Dong",
-   "Jie Tang"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-25",
-  "doi": "10.1007/s11263-026-03004-w",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03004-w",
-  "abstract": null,
-  "citation_count": 5,
-  "concepts": [
-   "Foundation (evidence)",
-   "Computer science"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7214164832",
-  "title": "Retrieval of nighttime oceanic liquid cloud optical and microphysical parameters from VIIRS observations: a physics-informed machine learning approach",
-  "authors": [
-   "Ying-Chieh Chen",
-   "Meng Zhou",
-   "Jun Wang",
-   "Xi Chen",
-   "Jing Zeng",
-   "Yongxiang Hu"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-24",
-  "doi": "10.1016/j.rse.2026.115684",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115684",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Environmental science",
-   "Cloud computing"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7214221010",
-  "title": "Piecewise log-normal modeling of Sentinel-1 co-cross polarization coherence and application to wind field Bayesian inversion",
-  "authors": [
-   "Aurélien Colin",
-   "Romain Husson",
-   "Alexis Mouche",
-   "Antoine Grouazel",
-   "Frédéric Nouguier"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-24",
-  "doi": "10.1016/j.rse.2026.115664",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115664",
-  "abstract": "Accurate estimates of kilometer-scale ocean surface wind fields is critical for many applications, including weather forecasting, marine navigation, offshore wind energy development, and coastal risk management. Synthetic Aperture Radar (SAR) plays a key role in retrieving wind speed by analyzing changes in sea surface roughness, described through Geophysical Model Functions (GMFs). However, the inverse problem of wind retrieval from SAR data is under-determined, requiring ancillary information from Numerical Weather Models (NWP) to resolve ambiguities in the wind direction. The Co-Cross-Polarization Coherence (CCPC) has recently emerged as a valuable SAR-derived observation for improving wind direction estimates. While an initial GMF for CCPC has been proposed, it proved inadequate for high wind speeds. We present PGMF-2, a refined GMF for CCPC, ensuring reliable performance up to approximately 25 m/s by modeling its wind speed components as log-normal functions. The need for crosstalk calibration is mitigated by a burst-based processing. Monte Carlo simulations confirm that the unique odd-symmetry of the CCPC and the different impact of the wind direction modulation on its real and imaginary parts complements the Normalized Radar Cross Section (NRCS) to estimate the wind direction. This combination enables wind direction retrieval without NWP priors, even outperforming NWP-based inversions between 7 and 15 m/s. The Mean Absolute Error on direction reaches as low as 25 ∘ in favorable (in particular between 30 ∘ –90 ∘ and 270 ∘ –330 ∘ of wind direction relative to the satellite antenna, where the NRCS and the CCPC have overlapping wind direction variability) high-wind conditions. Co-observations with the HY-2B scatterometer, supplemented by a case study on Storm Alex (2020), serve as a proof of concept of the Bayesian scheme on real-world observations, successfully retrieving the typical flow organization of the cyclonic system without reliance on NWP priors.",
-  "citation_count": 0,
-  "concepts": [
-   "Inversion (geology)",
-   "Remote sensing",
-   "Coherence (philosophical gambling strategy)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
   ],
   "is_own": false
  }
