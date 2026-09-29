@@ -1,36 +1,26 @@
 [
  {
-  "id": "openalex:W7214452206",
-  "title": "Sentinel-1 operational DInSAR services for surface displacements monitoring of the Italian territory through the P-SBAS processing chain: a review after 10 years of observations and data processing",
+  "id": "openalex:W7214518754",
+  "title": "HotSAM: A Hotspot-Spatial-Adaptive Multi-Resolution framework for efficient long-term deformation monitoring in terrestrial radar interferometry",
   "authors": [
-   "F. Casu",
-   "I. Antoncecchi",
-   "M. Bonano",
-   "V. Bosi",
-   "C. De Luca",
-   "D. Di Bucci",
-   "A. Fagiani",
-   "D. Mangione",
-   "M. Manunta",
-   "F. Monterroso",
-   "G. Onorato",
-   "R. Sofia",
-   "I. Zinno",
-   "R. Lanari"
+   "Yuhao Liu",
+   "Zeyu Zhang",
+   "Songbo Wu",
+   "Xiaoli Ding"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-26",
-  "doi": "10.1016/j.rse.2026.115692",
+  "date": "2026-09-28",
+  "doi": "10.1016/j.isprsjprs.2026.09.030",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115692",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.030",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
+   "Deformation monitoring",
    "Remote sensing",
-   "Data processing",
    "Geology"
   ],
   "source": "openalex",
@@ -40,225 +30,231 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7214460669",
-  "title": "Validation of TROPOMI SIF products based on spatial representativeness grading and atmospheric-geometric effect assessment",
+  "id": "openalex:W7214562281",
+  "title": "G2S2-IR: Glocal Gaussian Splatting with Surface Awareness for Inverse Rendering",
   "authors": [
-   "Qian Zhang",
-   "Yan Liu",
-   "Josep Peñuelas",
-   "Adria Descals",
-   "Yang Yang",
-   "Jianli Shi",
-   "Xingfa GU"
+   "Junnan Li",
+   "Shengping Zhang",
+   "Ru Li",
+   "Shunyuan Zheng",
+   "Chenyang Wang",
+   "Henglu Wei",
+   "Xiangyang Ji"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-26",
-  "doi": "10.1016/j.rse.2026.115696",
+  "date": "2026-09-28",
+  "doi": "10.1007/s11263-026-03022-8",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115696",
-  "abstract": "Satellite solar-induced chlorophyll fluorescence (SIF) is important for carbon cycle research, but its direct validation is often hindered by spatial scale mismatch between satellite footprints and in situ measurements. We developed a quantitative spatial representativeness grading framework for in situ SIF measurements. The framework uses two proxy metrics, the consistency index ( 𝐶 𝑠 𝑖 𝑚 ) and relative absolute error ( 𝑅 𝐴 ⁢ 𝐸 𝑠 𝑖 𝑚 ), to diagnose local SIF simulation consistency and point-to-footprint deviation. Using 6240 HyPlant pseudo-point/footprint samples, a domain-level threshold search yielded Level 1 criteria of 𝐶 𝑠 𝑖 𝑚 ∈ [ 0 . 4 , 1 . 0 ] and 𝑅 𝐴 ⁢ 𝐸 𝑠 𝑖 𝑚 ≤ 0 . 4 . Samples with the same 𝐶 𝑠 𝑖 𝑚 range but 𝑅 𝐴 ⁢ 𝐸 𝑠 𝑖 𝑚 > 0 . 4 were classified as Level 2 and required upscaling. We applied this framework to 28 global sites to evaluate three TROPOMI SIF products using Sentinel-2 and ERA5-Land inputs. The framework retained 41–42% of the original matched samples. After controlling spatial scale effects, validation R 2 increased from 0.19 to 0.31 for TROPOSIF 735 and from 0.44 to 0.69 for both TROPOSIF 743 and TROPOSIF Caltech . Sensitivity analyses showed that this improvement was generally preserved under alternative tolerance thresholds and reference confidence criteria, although the proxy thresholds remain empirical. We further assessed cloud and sun-sensor geometry effects. TROPOSIF 735 was sensitive to cloud contamination, whereas TROPOSIF 743 and TROPOSIF Caltech remained robust under moderate cloud cover. Under clear skies, retrieval accuracy declined when solar zenith angle (SZA) exceeded 60 ° , while viewing zenith angle effects were limited after excluding large-SZA observations. Phase angle mismatch introduced systematic bias through canopy SIF anisotropy. Overall, this framework improves direct validation reliability and provides practical guidance for evaluating satellite SIF products.",
+  "url": "https://doi.org/10.1007/s11263-026-03022-8",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Representativeness heuristic",
-   "Remote sensing",
-   "Environmental science"
+   "Computer science",
+   "Artificial intelligence",
+   "Computer vision"
   ],
   "source": "openalex",
   "topics": [
-   "遥感",
+   "计算机视觉",
    "三维与几何"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7214478358",
-  "title": "Physics-informed machine learning for cloud detection",
+  "id": "arxiv:2609.34047v1",
+  "title": "ARCH-B: Architectural Representation, Comprehension and Hierarchy Benchmark",
   "authors": [
-   "Shi Qiu",
-   "Zhe Zhu",
-   "Xiucheng Yang",
-   "Junchang Ju",
-   "Qiang Zhou",
-   "Christopher  S.R. Neigh"
+   "Kieran Sagar Parikh",
+   "Jose Luis Garcia del Castillo y Lopez"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-09-26",
-  "doi": "10.1016/j.rse.2026.115672",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115672",
-  "abstract": "Accurate cloud detection is a critical preprocessing step for analyzing optical remote sensing data, such as from Landsat and Sentinel-2. In this study, we developed Fmask 5 (Version 5 of Function of mask) for cloud detection in Landsats 4–9 (Landsat 4, 5, 7, 8, and 9) and Sentinel-2 (Sentinel-2 A, B, and C) imagery, based on a novel physics-informed machine learning (PIML) framework. This framework synergistically integrates physical rules with machine learning (ML) models, overcoming their respective limitations. Specifically, a base ML model first generates a preliminary cloud mask to adapt to the application of physical rules, determining the optimal combination of spectral tests and thresholds for that image. The resulting physical-rule-adapted mask serves as additional “localized” training data to fine-tune the ML model. For a global, independent validation dataset combining simple random and disagreement-stratified samples from over 600 images per sensor, Fmask 5 achieved overall accuracies of 93.46% for Landsats 8–9, 92.50% for Landsats 4–7, and 95.38% for Sentinel-2, representing improvements of 1.6–6.0 percentage points over Fmask 4. The Fmask 5 algorithm is CPU-efficient, making it suitable for large-scale operational processing.",
+  "date": "2026-09-28",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2609.34047v1",
+  "url": "https://arxiv.org/abs/2609.34047v1",
+  "abstract": "Multimodal models increasingly interpret visual environments, but their ability to recognize the same building across photographs, floor plans, elevations, sections, and renderings remains poorly characterized. We introduce ARCH-B, a benchmark of 354 four-choice questions across 11 cross-representational archetypes, constructed from a building-linked corpus of 3.9 million architectural images using visually similar distractors, model-guided difficulty screening, and manual validation. We evaluate 25 multimodal models and collect 5,830 responses from non-expert human participants. Model accuracy ranges from 10.45% to 83.90%, compared with a human baseline of 35.35%. Models perform comparatively well on mixed-representation outlier detection and photograph matching, but remain weaker on floorplan-to-photograph correspondence. Human and model difficulty across archetypes is only weakly correlated (Spearman's (ρ=0.33)). Held-out evaluation confirms that the difficulty identified during screening generalizes beyond the curation models. ARCH-B provides a diagnostic evaluation of visual correspondence and representation transfer across architectural media.",
   "citation_count": 0,
   "concepts": [
-   "Computer science",
-   "Cloud computing",
-   "Preprocessor"
+   "cs.CV",
+   "cs.AI"
   ],
-  "source": "openalex",
+  "arxiv_id": "2609.34047v1",
+  "source": "arxiv",
   "topics": [
-   "遥感",
    "计算机视觉",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2609.34044v1",
+  "title": "SCOPD: Sparse-Context On-Policy Self-Distillation for Efficient Vision-Language Models",
+  "authors": [
+   "Ahmadreza Jeddi",
+   "Enming Zhang",
+   "Jasper Gerigk",
+   "Hakki Karaimer",
+   "Mozhgan Nasr Azadani",
+   "Jiayun Luo",
+   "Minh Ngoc Le",
+   "Gholamali Aminian",
+   "Hugo Buurmeijer",
+   "Yongchao Chen",
+   "Leonid Sigal",
+   "Igor Gilitschenski",
+   "Konstantinos G. Derpanis",
+   "Marco Pavone",
+   "Babak Taati"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-09-28",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2609.34044v1",
+  "url": "https://arxiv.org/abs/2609.34044v1",
+  "abstract": "Reasoning vision-language models (VLMs) process images and videos as long sequences of visual tokens, making inference expensive. Training-free token pruning reduces this cost, but aggressive compression can sharply degrade performance, often attributed to irreversible loss of task-relevant visual information. We show that this explanation is incomplete. In a fixed-context Pass@K analysis, repeated sampling from the same pruned visual representation recovers many examples missed by greedy decoding, indicating that useful visual evidence can remain accessible but be used unreliably. We call this the representation-utilization gap. Motivated by this observation, we introduce SCOPD, a sparse-context on-policy self-distillation framework in which a student generates reasoning trajectories from pruned visual tokens while a privileged full-context teacher supervises the same on-policy prefixes. SCOPD requires no ground-truth responses, architectural changes, or additional inference-time computation. We further introduce SCOPD+, which uses a small visual-budget intervention to identify visually sensitive response positions and selectively distill them. At 10% visual-token retention, the Vanilla model retains 86.37% of its unpruned performance across 13 benchmarks. SCOPD raises this to 90.49%, while SCOPD+ further improves it to 92.43%. Across token budgets, benchmarks, and pruning operators, our results show that efficient reasoning depends not only on which visual information survives pruning, but also on how reliably the model learns to use it.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2609.34044v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2609.34049v1",
+  "title": "Thinking Outside the Box: Retention and Transmission of Information in Sliding-Window KV Inference",
+  "authors": [
+   "Timothy DeLise",
+   "Seth Cromelin"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-09-28",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2609.34049v1",
+  "url": "https://arxiv.org/abs/2609.34049v1",
+  "abstract": "Sliding-window KV inference refers to processing a sequence incrementally while retaining only a fixed-size cache of recent key and value states. It can be applied to pretrained causal transformers at inference time without additional training, while its KV-cache memory remains fixed as more tokens are processed. Because cached states are computed in the context of earlier tokens, they may carry information from beyond the current window and transmit it to later states. This study presents a series of experiments using five open-weight models spanning Qwen, Llama, Mistral, and Muse Glimmer. We investigate whether information originating outside the immediate context window can persist through a rolling KV cache and remain useful for retrieval. Initial results show that retaining previously computed states improves retrieval across the models tested compared with recomputing the final fixed window from raw tokens. We then measure how far this effect extends and find that Muse Glimmer and Mistral 7B show the strongest \\emph{latent information relay}: they can recover information even after the relevant source tokens have left the cache. Both models incorporate sliding-window attention in their published architectures, an association that motivates testing whether training with sliding windows promotes more reliable information retention.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.AI"
+  ],
+  "arxiv_id": "2609.34049v1",
+  "source": "arxiv",
+  "topics": [
    "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7214496765",
-  "title": "PC2Mesh: Reconstruction of building polygonal meshes from airborne LiDAR point clouds",
+  "id": "arxiv:2609.34039v1",
+  "title": "Large Language Models for Structured Clinical Data Analysis: Dual-Agent Grounding and Validation",
   "authors": [
-   "Bingxin Han",
-   "Zuoquan Zhao",
-   "Yu Li",
-   "Zongzhou Wu",
-   "Xi Chen",
-   "Ben M. Chen"
+   "Erfan D. Dehkalani",
+   "Seetha Shankaran",
+   "Abbot R. Laptook",
+   "C. Michael Cotten",
+   "P. Ellen Grant",
+   "Yangming Ou"
   ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-09-26",
-  "doi": "10.1016/j.isprsjprs.2026.09.022",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.022",
-  "abstract": "Polygonal meshes provide a compact and flexible representation for 3D buildings, supporting a wide range of photogrammetric and geometric applications. However, reconstructing high-fidelity building polygon meshes from airborne LiDAR point clouds remains challenging due to the non-uniform and variable-sided nature of polygonal topology and the complexity of urban environments characterized by diverse building geometries, uneven point densities, and occlusions. In this paper, we present PC2Mesh, a learning-based method that reconstructs polygonal building meshes directly from airborne LiDAR point clouds. While existing approaches rely on primitive detection (e.g., City3D, Point2Poly) or employ separate networks for vertex and face generation (e.g., Point2building), our method employs a unified transformer-based architecture that jointly learns mesh geometry and topology within a shared representation space. By representing arbitrary-sided polygons as learned token sequences, the method enables holistic mesh generation without preprocessing or handcrafted priors. This end-to-end formulation mitigates error propagation across stages and enhances reconstruction fidelity and robustness. Comprehensive experiments on open-source datasets demonstrate that our proposed method consistently outperforms state-of-the-art approaches in geometric accuracy and visual fidelity. Our method improves Edge Precision (EP) and Edge Recall (ER) by 9.1% and 24.7%, respectively, on the Zurich dataset, and by 8.3% and 20.2% on the Tallinn dataset. It also achieves the lowest Mean Distance Error (MDE), Hausdorff Distance (HD), and Chamfer Distance (CD) on both datasets. The source code of this work is freely available at https://github.com/BestyHon/PC2Mesh .",
+  "date": "2026-09-28",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2609.34039v1",
+  "url": "https://arxiv.org/abs/2609.34039v1",
+  "abstract": "Objective: To develop and characterize CLEAR-Med, a dual-agent framework for natural-language analysis of structured clinical data that separates SQL-based invocation from independent validation. Methods: CLEAR-Med uses one agent to translate a question into executable Structured Query Language (SQL), retain the executed query and database result, and produce a draft. Deterministic checks and a separately invoked cross-provider Validation Agent then accept the draft, request one bounded repair, or abstain. We formalized the system as a bounded selective pipeline and evaluated CLEAR-Med's configuration and scalability, and the Invocation Agent's accuracy and consistency on a 25-query development benchmark, using a harmonized 21-site neonatal hypoxic-ischemic encephalopathy table containing 532 de-identified infant records and approximately 1,300 variables. Results: CLEAR-Med completed all six nominal scalability configurations, including 500x1300. Across 25 development-benchmark queries repeated five times, the Invocation Agent answered 83 of 125 responses correctly (66.4%; query-cluster bootstrap 95% CI, 48.0-83.2%), compared with 15 of 125 (12.0%; 95% CI, 3.2-22.4%) for the ungrounded ChatGPT baseline, a paired improvement of 54.4 percentage points (95% CI, 36.8-72.0%). Conclusion: CLEAR-Med provides a general architecture for traceable analysis of structured clinical data: numerical claims remain linked to executed SQL, and unresolved cases can fail closed. The reported experiments characterize CLEAR-Med's configuration and scalability and the Invocation Agent's accuracy, while the formal analysis establishes the encoded-property guarantee of the complete control flow; a prospective full-pipeline evaluation of the validation and abstention stages is the next stage of this work.",
   "citation_count": 0,
   "concepts": [
-   "Polygon mesh",
-   "Point cloud",
-   "Polygon (computer graphics)"
+   "cs.AI"
   ],
-  "source": "openalex",
+  "arxiv_id": "2609.34039v1",
+  "source": "arxiv",
   "topics": [
-   "计算机视觉",
-   "机器学习",
-   "三维与几何"
+   "多模态"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7214297914",
-  "title": "Topology-preserving river vectorization via HydroSAM and differentiable graph optimization under coarse labels",
+  "id": "openalex:W7214539785",
+  "title": "Geometry-aware dynamic convolutional network for instance-level segmentation of Martian landforms from high-resolution Digital Elevation Model-derived point clouds",
   "authors": [
-   "Huazhen Zhou",
-   "Ming Wang",
-   "Kai Liu"
+   "Rong Huang",
+   "Peiqi Ye",
+   "Yusheng Xu",
+   "Ludwig Hoegner",
+   "Qunming Wang",
+   "Sicong Liu",
+   "Chao Wang",
+   "X. Tong"
   ],
   "venue": "International Journal of Applied Earth Observation and Geoinformation",
   "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-26",
-  "doi": "10.1016/j.jag.2026.105601",
+  "date": "2026-09-27",
+  "doi": "10.1016/j.jag.2026.105607",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105601",
-  "abstract": "Accurate river-network extraction supports global hydrological management and environmental monitoring. Automated extraction from remote-sensing imagery remains challenging because river morphology is highly variable, fine tributaries have weak visual signals, canopy and infrastructure can obscure channels, and dense annotations are scarce or spatially incomplete. Conventional raster predictions can also be fragmented and lack structural continuity. We present HydroSAM, a three-stage framework for raster extraction and topology-aware vectorization. A frozen SAM 2 Hiera encoder is adapted with QV-LoRA and the proposed Directional Curvilinear Prior Injection (DCPI), while a gated Digital Elevation Model (DEM) branch contributes coarse-scale topographic context. Segmentation is produced in a zero-prompt setting by the native SAM 2 mask decoder. A graph-guided differentiable vectorization stage then converts probability maps into connected parametric river networks. We also present M2Hydro, a benchmark containing 7,947 high-resolution 4096 × 4096 source image-annotation pairs across China. In single-run tests, HydroSAM-MM attains an F1 of 0.6995 and clDice of 0.7753 on M2Hydro. The evaluations indicate that HydroSAM supports parameter-efficient adaptation and is more resilient to the evaluated cross-regional domain shift than the convolutional and Transformer baselines.",
+  "url": "https://doi.org/10.1016/j.jag.2026.105607",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Vectorization (mathematics)",
-   "Differentiable function",
-   "Graph"
+   "Landform",
+   "Digital elevation model",
+   "Point cloud"
   ],
   "source": "openalex",
   "topics": [
    "计算机视觉",
-   "机器学习"
+   "三维与几何"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7117989774",
-  "title": "Thinking on maps: how foundation model agents explore, remember, and reason in map environments",
+  "id": "openalex:W7214550819",
+  "title": "High-Fidelity Implicit Text-to-Shape Generation with Voxelized Diffusion",
   "authors": [
-   "Zhiwei Wei",
-   "Yuxing Liu",
-   "Hua Liao",
-   "Wenjia Xu"
+   "Yueqi Duan",
+   "Fangfu Liu",
+   "Hanyang Wang",
+   "Muheng Li",
+   "Jiwen Lu",
+   "Jie Zhou"
   ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-09-26",
-  "doi": "10.1080/15481603.2026.2730755",
+  "date": "2026-09-27",
+  "doi": "10.1007/s11263-026-03055-z",
   "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2730755",
-  "abstract": "Map environments provide a fundamental medium for representing spatial structure. Understanding how foundation model (FM) agents understand and act in such environments is therefore critical for enabling reliable map-based reasoning and applications. However, most existing evaluations of spatial ability in FMs rely on static map inputs or text-based queries, overlooking the interactive and experience-driven nature of spatial understanding.In this paper, we propose an interactive evaluation framework to analyze how FM agents explore, remember, and reason in symbolic map environments. Agents incrementally explore partially observable grid-based maps consisting of roads, intersections, and points of interest (POIs), receiving only local observations at each step. Spatial understanding is then evaluated using six kinds of spatial tasks. By systematically varying exploration strategies, memory representations, and reasoning schemes across multiple foundation models, we reveal distinct functional roles of these components. Exploration primarily affects experience acquisition but has a limited impact on final reasoning accuracy. In contrast, memory representation plays a central role in consolidating spatial experience, with structured memories particularly sequential and graph-based representations, substantially improving performance on structure-intensive tasks such as path planning. Reasoning schemes further shape how stored spatial knowledge is used, with advanced prompts supporting more effective multi-step inference. We further observe that spatial reasoning performance saturates across model versions and scales beyond a certain capability threshold, indicating that improvements in map-based spatial understanding require mechanisms tailored to spatial representation and reasoning rather than scaling alone.",
-  "citation_count": 0,
-  "concepts": [
-   "Spatial intelligence",
-   "Computer science",
-   "Representation (politics)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7214477977",
-  "title": "Assessing heat dome effects on forest dynamics in the Pacific Northwest using Planet imagery",
-  "authors": [
-   "Aji John",
-   "Kavya Pradhan",
-   "Michael J. Case",
-   "Ailene K. Ettinger",
-   "Janneke HilleRisLambers"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-26",
-  "doi": "10.1080/15481603.2026.2728824",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2728824",
-  "abstract": "Increasingly frequent extreme heat events are imposing significant stress on forest ecosystems, with implications for both forests and the organisms that depend on them. This study evaluated the effects of the June 2021 Pacific Northwest (PNW) heat dome (a prolonged high-pressure system that generated record-breaking temperatures) on forest canopy health and subsequent recovery within the conifer-dominated Ellsworth Creek Preserve in Washington State, USA, using high-resolution Planet Labs satellite imagery. We analyzed normalized difference vegetation index (NDVI) trends from spring through fall from 2017 to 2025 to identify canopy stress and quantify changes in canopy greenness. The experimental forest thinning treatments, designed to accelerate old-growth structural characteristics, allowed us to evaluate canopy responses relative to restoration treatments. Our results showed marked declines in the summer NDVI during and following the 2021 heat dome, indicating substantial canopy stress. These declines differed from patterns observed in preceding years and occurred across all forest treatments. Changes in seasonal NDVI dynamics were evident in the control, thinned, clearcut, and old-growth stands; however, pairwise comparisons showed limited differences among canopy types, indicating broadly similar patterns of NDVI suppression during extreme events. The NDVI trajectories during the four post-heat dome years suggested partial recovery in canopy greenness, although the variability among the treatments remained high and overall NDVI levels remained below Pre2021 conditions in some stands through 2024. The recovery trajectories differed modestly among treatments, but we found limited evidence that canopy density substantially altered either the magnitude of canopy suppression or the subsequent recovery trajectories. Overall, these findings demonstrate that extreme heat events can induce widespread canopy stress across forest types and suggest that canopy structure alone may have a limited influence on canopy-scale responses under extreme atmospheric conditions. These results provide insight for adaptive forest management strategies aimed at maintaining ecosystem function under increasingly extreme climatic conditions.",
-  "citation_count": 0,
-  "concepts": [
-   "Canopy",
-   "Normalized Difference Vegetation Index",
-   "Environmental science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7214228145",
-  "title": "Limited local classification performance but promising spatial transferability of AlphaEarth Foundations for crop mapping across thermal gradients",
-  "authors": [
-   "Cao Cheng",
-   "Nanshan You",
-   "Pengzhan Zhao",
-   "Jinwei Dong"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-25",
-  "doi": "10.1016/j.rse.2026.115694",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115694",
+  "url": "https://doi.org/10.1007/s11263-026-03055-z",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Transferability",
-   "Remote sensing",
-   "Environmental science"
+   "Diffusion",
+   "Mathematics",
+   "Algorithm"
   ],
   "source": "openalex",
   "topics": [
-   "遥感"
+   "机器学习"
   ],
   "is_own": false
  }
