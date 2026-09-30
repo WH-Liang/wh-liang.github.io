@@ -1,225 +1,156 @@
 [
  {
-  "id": "openalex:W7214518754",
-  "title": "HotSAM: A Hotspot-Spatial-Adaptive Multi-Resolution framework for efficient long-term deformation monitoring in terrestrial radar interferometry",
+  "id": "arxiv:2609.36594v1",
+  "title": "Optimal detection of general moment changes: Simultaneous mean and covariance change detection and beyond",
   "authors": [
-   "Yuhao Liu",
-   "Zeyu Zhang",
-   "Songbo Wu",
-   "Xiaoli Ding"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-28",
-  "doi": "10.1016/j.isprsjprs.2026.09.030",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.030",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Deformation monitoring",
-   "Remote sensing",
-   "Geology"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7214562281",
-  "title": "G2S2-IR: Glocal Gaussian Splatting with Surface Awareness for Inverse Rendering",
-  "authors": [
-   "Junnan Li",
-   "Shengping Zhang",
-   "Ru Li",
-   "Shunyuan Zheng",
-   "Chenyang Wang",
-   "Henglu Wei",
-   "Xiangyang Ji"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-28",
-  "doi": "10.1007/s11263-026-03022-8",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03022-8",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Artificial intelligence",
-   "Computer vision"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2609.34047v1",
-  "title": "ARCH-B: Architectural Representation, Comprehension and Hierarchy Benchmark",
-  "authors": [
-   "Kieran Sagar Parikh",
-   "Jose Luis Garcia del Castillo y Lopez"
+   "Xiaokai Luo",
+   "Chenghao Xu",
+   "Haotian Xu",
+   "Carlos Misael Madrid Padilla",
+   "Daren Wang"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.34047v1",
-  "url": "https://arxiv.org/abs/2609.34047v1",
-  "abstract": "Multimodal models increasingly interpret visual environments, but their ability to recognize the same building across photographs, floor plans, elevations, sections, and renderings remains poorly characterized. We introduce ARCH-B, a benchmark of 354 four-choice questions across 11 cross-representational archetypes, constructed from a building-linked corpus of 3.9 million architectural images using visually similar distractors, model-guided difficulty screening, and manual validation. We evaluate 25 multimodal models and collect 5,830 responses from non-expert human participants. Model accuracy ranges from 10.45% to 83.90%, compared with a human baseline of 35.35%. Models perform comparatively well on mixed-representation outlier detection and photograph matching, but remain weaker on floorplan-to-photograph correspondence. Human and model difficulty across archetypes is only weakly correlated (Spearman's (ρ=0.33)). Held-out evaluation confirms that the difficulty identified during screening generalizes beyond the curation models. ARCH-B provides a diagnostic evaluation of visual correspondence and representation transfer across architectural media.",
+  "pdf": "https://arxiv.org/pdf/2609.36594v1",
+  "url": "https://arxiv.org/abs/2609.36594v1",
+  "abstract": "We study multiple change-point detection in multivariate time series whose distributions change in a piecewise constant manner. Distributional changes can manifest across different moment orders, from shifts in the mean and covariance to changes in higher-order moments. Higher-order moments capture increasingly rich distributional features but become difficult to estimate in high dimensions. Our tensor representation unifies moments of different orders within a common linear algebraic framework, enabling a new method to detect changes in moments of all orders up to a prescribed fixed order $p$. The resulting procedure accommodates temporal dependence and allows the dimension of the time series to grow with the sample size. Under suitable regularity conditions, the proposed procedure achieves a localization error rate that matches a newly developed minimax lower bound. We further derive limiting distributions under both nonvanishing and vanishing moment jumps and construct asymptotically valid confidence intervals in the vanishing-jump regime. Numerical experiments and real-data analyses demonstrate the method's effectiveness in detecting moment changes and a range of distributional shifts.",
+  "citation_count": 0,
+  "concepts": [
+   "stat.ME",
+   "math.ST",
+   "stat.ML"
+  ],
+  "arxiv_id": "2609.36594v1",
+  "source": "arxiv",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2609.36965v1",
+  "title": "Chinese-Jev: Bringing System One Model to Chinese-Language Tasks",
+  "authors": [
+   "Zexiao Wang",
+   "Zihao Zhang",
+   "Xudong Wang",
+   "Pan Wang",
+   "Ziyi Ye",
+   "Haoyu Zhao",
+   "Zuxuan Wu",
+   "Shuicheng Yan"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-09-29",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2609.36965v1",
+  "url": "https://arxiv.org/abs/2609.36965v1",
+  "abstract": "System One models such as Jev offer an efficient alternative to generative language models for tasks that require decisions rather than open-ended responses. However, existing Jev models exhibit limited Chinese-language decision accuracy, restricting their utility in both general and specialized settings. In this paper, we introduce Chinese-Jev, a System One model that addresses this gap through a unified data processing and training pipeline. Our data processing protocol converts heterogeneous Chinese-language annotations into probability targets over candidate options, enabling a shared training formulation across domains and question formats. To enable efficient inference, Chinese-Jev adopts a lightweight encoder-only backbone for text encoding and learns to score candidate answers through decision-oriented training. To address the misalignment between the pre-training distribution and downstream Chinese-language scenarios, we first train the model on a general-purpose corpus of 10 million examples, then fine-tune it separately for the medical, legal, and financial domains. To evaluate decision accuracy and calibration in both general and domain-specific Chinese-language settings, we introduce Chinese-Jev Bench (CJ-Bench). After first-stage pre-training, Chinese-Jev exceeds the accuracy of the closed-source Jev model by 1.24% on general-domain tasks while achieving a 20.3x speedup. Subsequent domain-specific fine-tuning yields a 4.0% accuracy improvement over Jev in medicine and achieves 92% of Jev's average accuracy across specialized domains, with a 17x speedup and an average latency of only 15 ms per example. We further demonstrate on-device deployment of an INT8-quantized model on mobile devices, achieving an inference latency of approximately 1.0 second per decision. The project is available at https://gulucaptain.github.io/Chinese-Jev/.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CL",
+   "cs.CV"
+  ],
+  "arxiv_id": "2609.36965v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2609.36957v1",
+  "title": "Beyond Readability: Evaluating Task Information Recoverability",
+  "authors": [
+   "Yiwei Liu"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-09-29",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2609.36957v1",
+  "url": "https://arxiv.org/abs/2609.36957v1",
+  "abstract": "Direct visual readability and task-information recoverability are different quantities. Failure to decode a target from a fixed observation need not eliminate access to that target through another recovery route. We develop an evaluation perspective that makes the observation, query, target, and available knowledge explicit and measures the overlap between routes' success sets. For information available on the original visible surface under suitable imaging conditions, direct optical recovery reads the target from the image, optionally after restoration; entity-linked recovery uses residual visual evidence to identify the depicted entity and accesses its target through an entity--attribute relation in a specified knowledge resource. Such access can draw on stored knowledge or an external source. A controlled book-cover study instantiates external access with a fixed title--author catalog, comparing optical author recovery with visual title resolution and deterministic lookup under resolution degradation. Entity-linked successes persist across the tested vision--language models, revealing information access beyond the tested direct visual frontier despite substantial differences in absolute performance. A substantial optical-only region remains. These complementary outcomes show why visual degradation should be evaluated through the task information accessible along specified routes and knowledge resources, alongside direct readability.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2609.36957v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2609.36940v1",
+  "title": "DispFlow-GS: Displacement Flow Supervision with Motion Disentangling for Monocular Deformable 3D Gaussian Splatting",
+  "authors": [
+   "Thai Duy Nguyen",
+   "Haitian Zhang",
+   "Addison Lin Wang"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-09-29",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2609.36940v1",
+  "url": "https://arxiv.org/abs/2609.36940v1",
+  "abstract": "Accurate dynamic scene reconstruction is important for robotic perception, where temporally consistent representations of dynamic environments are essential. Deformable 3D Gaussian Splatting (3DGS) models dynamic scenes through deformation fields, and recent methods incorporate motion supervision by aligning rendered Gaussian flow with optical flow. However, we find that such Gaussian-flow-based supervision provides only limited improvements in motion modeling. We identify a fundamental limitation of this supervision paradigm, namely a domain gap between rendered Gaussian flow and optical flow. To address this limitation, we propose a motion supervision framework built on Displacement Flow, which splats per-Gaussian 3D displacements onto the image plane to provide direct and stable optimization signals. We further disentangle scene motion from camera motion via intermediate-view rendering, enabling more reliable motion priors and targeted constraints on deformation and geometry. We also observe a discrepancy between motion fidelity and image-based evaluation, where improved motion awareness does not necessarily translate into better rendered image quality or higher image-based metric scores. Motivated by this mismatch, we introduce Deformation-Rendering Consistency (DRC), a motion-aware metric that measures the alignment between predicted deformation and rendering improvement. Experiments on dynamic scene benchmarks show substantial improvements in motion localization and motion--rendering consistency, reaching up to 39% and 6%, respectively, while image-based metrics change by only about 0.1%. These results confirm the observed mismatch between motion fidelity and image-based evaluation, demonstrating the significance of DRC for motion-aware evaluation.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2609.36940v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2609.36937v1",
+  "title": "WeLike2Party! In-Context Motion Transfer for Multi-Human Image Animation",
+  "authors": [
+   "Sangeyl Lee",
+   "Seunghyun Shin",
+   "Seungho Park",
+   "Wooseok Jeon",
+   "Hae-Gon Jeon"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-09-29",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2609.36937v1",
+  "url": "https://arxiv.org/abs/2609.36937v1",
+  "abstract": "Human image animation aims to transfer motion from a driving video to subjects in a reference image. Despite remarkable progress in video generation, achieving high-fidelity animation of multiple interacting subjects remains a challenge. Many existing approaches rely on explicit motion representations such as 2D skeletons or parametric body meshes and struggle to preserve identity-motion binding under inter-person occlusion. To address this limitation, we propose WeLike2Party, a multi-human animation framework built on direct in-context video conditioning without explicit pose or mesh extraction at inference. We further introduce Reference Asymmetric RoPE Conditioning to preserve fine-grained appearance details, and Identity Binding Supervision to associate each reference identity with its intended motion trajectory. To support cross-identity training, we construct MotionTwin, a large-scale synthetic dataset comprising 14.4K cross-identity video pairs with shared subject and camera motions, totaling 84.3 hours of photorealistic video. We additionally present MotionTwin-Bench, a cross-identity benchmark specifically designed to evaluate subject-level visual fidelity and identity-motion binding. Extensive experiments on MotionTwin-Bench and real-world videos demonstrate that WeLike2Party outperforms recent state-of-the-art methods in subject-level visual fidelity, identity-motion binding, and overall perceptual quality, particularly in multi-person interactions with substantial occlusion.",
   "citation_count": 0,
   "concepts": [
    "cs.CV",
    "cs.AI"
   ],
-  "arxiv_id": "2609.34047v1",
+  "arxiv_id": "2609.36937v1",
   "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2609.34044v1",
-  "title": "SCOPD: Sparse-Context On-Policy Self-Distillation for Efficient Vision-Language Models",
-  "authors": [
-   "Ahmadreza Jeddi",
-   "Enming Zhang",
-   "Jasper Gerigk",
-   "Hakki Karaimer",
-   "Mozhgan Nasr Azadani",
-   "Jiayun Luo",
-   "Minh Ngoc Le",
-   "Gholamali Aminian",
-   "Hugo Buurmeijer",
-   "Yongchao Chen",
-   "Leonid Sigal",
-   "Igor Gilitschenski",
-   "Konstantinos G. Derpanis",
-   "Marco Pavone",
-   "Babak Taati"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-09-28",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.34044v1",
-  "url": "https://arxiv.org/abs/2609.34044v1",
-  "abstract": "Reasoning vision-language models (VLMs) process images and videos as long sequences of visual tokens, making inference expensive. Training-free token pruning reduces this cost, but aggressive compression can sharply degrade performance, often attributed to irreversible loss of task-relevant visual information. We show that this explanation is incomplete. In a fixed-context Pass@K analysis, repeated sampling from the same pruned visual representation recovers many examples missed by greedy decoding, indicating that useful visual evidence can remain accessible but be used unreliably. We call this the representation-utilization gap. Motivated by this observation, we introduce SCOPD, a sparse-context on-policy self-distillation framework in which a student generates reasoning trajectories from pruned visual tokens while a privileged full-context teacher supervises the same on-policy prefixes. SCOPD requires no ground-truth responses, architectural changes, or additional inference-time computation. We further introduce SCOPD+, which uses a small visual-budget intervention to identify visually sensitive response positions and selectively distill them. At 10% visual-token retention, the Vanilla model retains 86.37% of its unpruned performance across 13 benchmarks. SCOPD raises this to 90.49%, while SCOPD+ further improves it to 92.43%. Across token budgets, benchmarks, and pruning operators, our results show that efficient reasoning depends not only on which visual information survives pruning, but also on how reliably the model learns to use it.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2609.34044v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2609.34049v1",
-  "title": "Thinking Outside the Box: Retention and Transmission of Information in Sliding-Window KV Inference",
-  "authors": [
-   "Timothy DeLise",
-   "Seth Cromelin"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-09-28",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.34049v1",
-  "url": "https://arxiv.org/abs/2609.34049v1",
-  "abstract": "Sliding-window KV inference refers to processing a sequence incrementally while retaining only a fixed-size cache of recent key and value states. It can be applied to pretrained causal transformers at inference time without additional training, while its KV-cache memory remains fixed as more tokens are processed. Because cached states are computed in the context of earlier tokens, they may carry information from beyond the current window and transmit it to later states. This study presents a series of experiments using five open-weight models spanning Qwen, Llama, Mistral, and Muse Glimmer. We investigate whether information originating outside the immediate context window can persist through a rolling KV cache and remain useful for retrieval. Initial results show that retaining previously computed states improves retrieval across the models tested compared with recomputing the final fixed window from raw tokens. We then measure how far this effect extends and find that Muse Glimmer and Mistral 7B show the strongest \\emph{latent information relay}: they can recover information even after the relevant source tokens have left the cache. Both models incorporate sliding-window attention in their published architectures, an association that motivates testing whether training with sliding windows promotes more reliable information retention.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.AI"
-  ],
-  "arxiv_id": "2609.34049v1",
-  "source": "arxiv",
-  "topics": [
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2609.34039v1",
-  "title": "Large Language Models for Structured Clinical Data Analysis: Dual-Agent Grounding and Validation",
-  "authors": [
-   "Erfan D. Dehkalani",
-   "Seetha Shankaran",
-   "Abbot R. Laptook",
-   "C. Michael Cotten",
-   "P. Ellen Grant",
-   "Yangming Ou"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-09-28",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.34039v1",
-  "url": "https://arxiv.org/abs/2609.34039v1",
-  "abstract": "Objective: To develop and characterize CLEAR-Med, a dual-agent framework for natural-language analysis of structured clinical data that separates SQL-based invocation from independent validation. Methods: CLEAR-Med uses one agent to translate a question into executable Structured Query Language (SQL), retain the executed query and database result, and produce a draft. Deterministic checks and a separately invoked cross-provider Validation Agent then accept the draft, request one bounded repair, or abstain. We formalized the system as a bounded selective pipeline and evaluated CLEAR-Med's configuration and scalability, and the Invocation Agent's accuracy and consistency on a 25-query development benchmark, using a harmonized 21-site neonatal hypoxic-ischemic encephalopathy table containing 532 de-identified infant records and approximately 1,300 variables. Results: CLEAR-Med completed all six nominal scalability configurations, including 500x1300. Across 25 development-benchmark queries repeated five times, the Invocation Agent answered 83 of 125 responses correctly (66.4%; query-cluster bootstrap 95% CI, 48.0-83.2%), compared with 15 of 125 (12.0%; 95% CI, 3.2-22.4%) for the ungrounded ChatGPT baseline, a paired improvement of 54.4 percentage points (95% CI, 36.8-72.0%). Conclusion: CLEAR-Med provides a general architecture for traceable analysis of structured clinical data: numerical claims remain linked to executed SQL, and unresolved cases can fail closed. The reported experiments characterize CLEAR-Med's configuration and scalability and the Invocation Agent's accuracy, while the formal analysis establishes the encoded-property guarantee of the complete control flow; a prospective full-pipeline evaluation of the validation and abstention stages is the next stage of this work.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.AI"
-  ],
-  "arxiv_id": "2609.34039v1",
-  "source": "arxiv",
-  "topics": [
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7214539785",
-  "title": "Geometry-aware dynamic convolutional network for instance-level segmentation of Martian landforms from high-resolution Digital Elevation Model-derived point clouds",
-  "authors": [
-   "Rong Huang",
-   "Peiqi Ye",
-   "Yusheng Xu",
-   "Ludwig Hoegner",
-   "Qunming Wang",
-   "Sicong Liu",
-   "Chao Wang",
-   "X. Tong"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-27",
-  "doi": "10.1016/j.jag.2026.105607",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105607",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Landform",
-   "Digital elevation model",
-   "Point cloud"
-  ],
-  "source": "openalex",
   "topics": [
    "计算机视觉",
    "三维与几何"
@@ -227,34 +158,94 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7214550819",
-  "title": "High-Fidelity Implicit Text-to-Shape Generation with Voxelized Diffusion",
+  "id": "arxiv:2609.36929v1",
+  "title": "SFE-VGGT: Source-Free VGGT Distillation for Event-Based Monocular Depth Estimation",
   "authors": [
-   "Yueqi Duan",
-   "Fangfu Liu",
-   "Hanyang Wang",
-   "Muheng Li",
-   "Jiwen Lu",
-   "Jie Zhou"
+   "Thai Duy Nguyen",
+   "Addison Lin Wang"
   ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-09-27",
-  "doi": "10.1007/s11263-026-03055-z",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03055-z",
-  "abstract": null,
+  "date": "2026-09-29",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2609.36929v1",
+  "url": "https://arxiv.org/abs/2609.36929v1",
+  "abstract": "Recent event-based depth estimation methods successfully transfer geometric priors from vision foundation models via cross-modal distillation. However, their reliance on synchronized RGB-event pairs or depth annotations during training severely restricts practical deployment. To overcome this bottleneck, we propose SFE-VGGT, a novel source-free framework that distills the geometric priors of VGGT to the event domain without any paired RGB observations. Our core idea is to reconstruct surrogate frames directly from the target event stream to act as a frozen geometric teacher, entirely eliminating the need for genuine source RGB data. Crucially, as these surrogate frames inherently yield imperfect and spatially varying supervision, directly distilling from them propagates artifacts. To resolve this, we introduce a novel reliability-aware distillation strategy. This includes Density-Aware Feature Distillation to emphasize informative event regions, and Confidence-Weighted Depth Distillation to dynamically regulate supervision based on relative teacher-student prediction confidence. Meanwhile, we propose a Cross-Frame Relational Consistency loss that enforces temporal geometric stability using reliable inter-frame correspondences, bypassing the need for temporally consistent teacher's depth. Extensive experiments demonstrate that, despite source-free, our SFE-VGGT closely matches the accuracy of RGB-dependent baselines under standard conditions and significantly surpasses them in challenging nighttime scenarios. Across MVSEC nighttime sequences, SFE-VGGT reduces the average 10 m depth error by 15.3% compared with EventVGGT. Moreover, our method exhibits robust zero-shot generalization across real-world datasets, proving that highly effective geometric priors can be transferred to event cameras using strictly source-free supervision.",
   "citation_count": 0,
   "concepts": [
-   "Diffusion",
-   "Mathematics",
-   "Algorithm"
+   "cs.CV"
   ],
-  "source": "openalex",
+  "arxiv_id": "2609.36929v1",
+  "source": "arxiv",
   "topics": [
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2609.36924v1",
+  "title": "Track-and-Complete: Learning Humanoid Skills from a Single Failed Human Video",
+  "authors": [
+   "Sarmad Idrees",
+   "Jongeun Choi"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-09-29",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2609.36924v1",
+  "url": "https://arxiv.org/abs/2609.36924v1",
+  "abstract": "Learning humanoid skills from videos typically requires a successful human demonstration, which often demands custom data collection. Although failures have traditionally been treated only as negative examples in robot learning, they can still reveal a usable trajectory prefix before the task fails, as well as the intended outcome. To leverage this information from a failed-attempt video, we propose TRACC, a pipeline that imitates the useful portion of the motion trajectory and then completes the task based on the inferred task outcome. The usable motion prefix serves as prior knowledge until the failure occurs, after which the task-completion reward guides the policy to learn the intended task goal without requiring a successful task trajectory. We evaluate our method on six in-the-wild failed human tasks from the Oops! dataset. Our experimental results demonstrate the effectiveness of the proposed approach for learning from failed attempts when no successful demonstration is available. Thus, these findings establish failed human videos as a viable source of supervision for humanoid skill learning.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.RO",
+   "cs.CV"
+  ],
+  "arxiv_id": "2609.36924v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
    "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2609.36918v1",
+  "title": "Seg3DParts: Segmentation-Grounded Controllable Part-Level 3D Generation",
+  "authors": [
+   "Jiantao Lin",
+   "Meixi Chen",
+   "Yingjie Xu",
+   "Chenbo Fu",
+   "Leyi Wu",
+   "Hao Chen",
+   "Yinchuan Li",
+   "Ying-Cong Chen"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-09-29",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2609.36918v1",
+  "url": "https://arxiv.org/abs/2609.36918v1",
+  "abstract": "Part-level 3D assets are essential for editing, reassembly, and interaction, yet recovering such structure from a single image remains challenging due to occlusion, ambiguous boundaries, and the need for coherent multi-part reasoning. Existing approaches struggle to achieve both controllable part-level generation and coherent multi-part structure, as part identity and spatial allocation are typically inferred implicitly. We present Seg3DParts, a segmentation-grounded framework for controllable part-level 3D generation from a single image. By treating segmentation as an explicit grounding signal, our method defines part identity during generation, enabling each component to be anchored to a corresponding image region. To ensure coherent assemblies, we introduce structured cross-part interaction that allows components to exchange global context throughout the generative process. As a result, Seg3DParts directly generates well-aligned part meshes in a shared canonical space without post-hoc alignment, supporting flexible and controllable decomposition. We further introduce PartObjectNet, a large-scale dataset with over 200K objects and 1M annotated parts. Experiments demonstrate that Seg3DParts achieves superior geometry quality, cross-part coherence, and part-level controllability over existing methods.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2609.36918v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "三维与几何"
   ],
   "is_own": false
  }
