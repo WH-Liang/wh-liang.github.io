@@ -1,188 +1,121 @@
 [
  {
-  "id": "openalex:W7214795214",
-  "title": "A framework for inversion and assimilation of deep-sea mirror ocean acoustic tomography observations",
+  "id": "arxiv:2610.01283v1",
+  "title": "ShelfChange3D: Object-Level 3D Change Detection for Retail Shelf Monitoring",
   "authors": [
-   "Weishuai Xu",
-   "Yan Chen",
-   "Yifei Jiang",
-   "Zhanglong Li",
-   "Xiaohui Wang",
-   "Bo Li",
-   "Ningning Li",
-   "Weimin Zhang"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-30",
-  "doi": "10.1016/j.jag.2026.105626",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105626",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Inversion (geology)",
-   "Geology",
-   "Tomography"
-  ],
-  "source": "openalex",
-  "topics": [
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2609.39184v1",
-  "title": "Fiber-Resolved Microstructure Quantification from Multi-Shell Diffusion MRI using Detection Transformers",
-  "authors": [
-   "Sebastian Endt",
-   "Marcus Wirth",
-   "Johannes Reinhold Schlund",
-   "Marion Irene Menzel"
+   "Lingyi Zhou",
+   "Yunke Wang",
+   "Mengyu Zheng",
+   "Wenbo Wang",
+   "Zijian Wang",
+   "Chang Xu"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.39184v1",
-  "url": "https://arxiv.org/abs/2609.39184v1",
-  "abstract": "Fiber orientation and compartmental microstructure are central to the characterization of white matter tissue in diffusion MRI, yet existing methods either resolve fiber orientations without quantifying microstructure, or quantify microstructure while assuming a fixed number of compartments and a single fiber direction. Nonparametric approaches that recover both require tensor-valued diffusion encoding and computationally expensive Monte-Carlo inversion of an ill-posed inverse Laplace transform. We propose to reframe this problem as an object detection-like task, adopting the Detection Transformer (DETR) architecture to jointly predict mean diffusivity (MD), fractional anisotropy (FA), main fiber direction, and signal fraction for a variable number of compartments per voxel from standard multi-shell diffusion MRI with linear encoding. Hungarian matching during training resolves permutation invariance across compartments. We introduce mean Average Precision as a reproducible benchmark metric. Evaluated on synthetic test data with up to five compartments per voxel, our model achieves $R^2=0.95$ for MD, $R^2=0.88$ for FA, and a median angular error of 4.2°, with performance scaling naturally with compartmental signal fraction.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.LG",
-   "physics.med-ph"
-  ],
-  "arxiv_id": "2609.39184v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2609.38956v1",
-  "title": "Routing Probes Can Improve Without New Information: An Exact-Null Audit of Uncertainty Beyond Model Outputs",
-  "authors": [
-   "Wenhao Liang",
-   "Lin Yue",
-   "Wei Emma Zhang",
-   "Mingyu Guo",
-   "Olaf Maennel",
-   "Weitong Chen"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-09-30",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.38956v1",
-  "url": "https://arxiv.org/abs/2609.38956v1",
-  "abstract": "Routing signals of modern vision transformers -- expert gates, attention-residual weights and halting scores -- often improve probes that predict whether the model is correct, and the improvement is commonly read as evidence that routing carries information about errors beyond the model's outputs. We test this inference directly: keeping real output-routing pairs, we redraw correctness labels from a frozen output-only generator fitted on disjoint data, so that routing is uninformative by construction. Under this exact label null, a width-matched MLP comparison still reports a routing gain in 51.3% of confidence-only evaluations (308/600), while a linear comparison reports none. Holding each training trajectory fixed on a six-model panel and selecting the checkpoint by validation log loss instead of validation accuracy removes the detections (50/120 to 0/120, and 83/120 to 0/120 in an independently implemented probe), identifying accuracy-based checkpoint selection as the cause; across all output views the raw detection rate falls from 27.5% (528/1,920) to zero observed detections. The repaired comparison is not sensitive, detecting an implanted signal of about 0.005 nats in 0/20 replicates in each of two matched settings, whereas a conditional permutation test built on an estimated routing law detects it in 11/20 and 10/20 and rejects rarely under the null. On real correctness labels, the conditional analysis yields model-relative evidence in five DeiT attention-residual families; in four it persists under two specified variants of the conditional law, and no family passes an additional noise criterion. Fitting a better probe and testing for incremental information are different problems, and each needs its own validation.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.AI"
-  ],
-  "arxiv_id": "2609.38956v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2609.38930v1",
-  "title": "On the Relaxation of Conditional Independence Assumption for Image Segmentation",
-  "authors": [
-   "Zixun Wang",
-   "Ben Dai"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-09-30",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.38930v1",
-  "url": "https://arxiv.org/abs/2609.38930v1",
-  "abstract": "In semantic segmentation, a recent line of RankSEG methods directly optimizes Dice/IoU scores at inference time, improving alignment with evaluation metrics without modifying model training. Despite its theoretical and empirical success, RankSEG relies on the restrictive Conditional Independence Assumption (CIA), which ignores crucial label correlations and therefore degrades performance in ambiguous or low-contrast scenarios. However, accounting for full label dependence is computationally prohibitive, requiring $\\mathcal{O}(d^3)$ time. To address this, we replace the CIA with a Spatially Localized Dependence (SLD) structure that captures local label correlations while keeping the dependence model tractable. We further overcome the remaining computational bottleneck via a Reciprocal Moment Approximation coupled with a novel fixed-point optimization strategy that eliminates exhaustive search. The proposed algorithm achieves a highly practical $\\mathcal{O}(d \\log d)$ complexity and consistently outperforms conventional argmax and CIA-based RankSEG across diverse segmentation benchmarks. Improvements are significant in low-contrast or small-object scenarios, where label dependence offers valuable signals complementary to image information for accurate segmentation. The code of experiments is available at https://github.com/ZixunWang/RankSEG-DEP.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.AI",
-   "cs.LG"
-  ],
-  "arxiv_id": "2609.38930v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2609.38747v1",
-  "title": "Consensus-Aware Multi-Source Fusion for Reference-Guided Camouflaged Object Detection",
-  "authors": [
-   "Junyang Xia",
-   "Luocheng Zhang",
-   "Wenwen Pan",
-   "Chifeng Zhu",
-   "Yang Yang",
-   "Xinchun Liu",
-   "Jiajun Ding"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-09-30",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.38747v1",
-  "url": "https://arxiv.org/abs/2609.38747v1",
-  "abstract": "Reference-guided camouflaged object detection aims to segment a target whose visual appearance closely resembles its surroundings by exploiting auxiliary reference samples. The task remains difficult because reference samples contain inconsistent target cues, while generic visual representations are not inherently aligned with the target specified by the references. To handle these problems, we present a consensus-aware multi-source fusion framework. Reference-Conditioned Dual-Backbone Fusion (RCDF) couples trainable PVTv2 query features with frozen DINOv3 representations and uses reference-conditioned correlation to select foundation-model evidence before multi-scale fusion. The framework also aggregates multiple references through cross-reference consensus aggregation and injects reference information at semantic depths matched to the query features. Extensive experiments demonstrate the effectiveness of the proposed method. The results further show that reference consensus, target-conditioned foundation features, and hierarchical decoding provide complementary improvements under the evaluation protocol. The source code will be made publicly available upon acceptance.",
+  "pdf": "https://arxiv.org/pdf/2610.01283v1",
+  "url": "https://arxiv.org/abs/2610.01283v1",
+  "abstract": "Reliable shelf monitoring is an important capability for retail automation, yet existing out-of-stock detection methods mainly operate in image space and lack metric 3D localization for downstream robotic systems. We formulate shelf monitoring as object-level 3D change detection: given two RGB-D observations captured at different times, the goal is to identify changed products and localize each change with a 3D bounding box. To support this task, we introduce ShelfChange3D, comprising 145K synthetic and 5K real-world paired RGB-D observations with object-level 3D change annotations. We further propose ChangeBox, an end-to-end framework that jointly reasons over paired observations and predicts object-level 3D change boxes. To improve localization accuracy, we introduce a geometry-based refinement stage that exploits depth and gravity prior to estimate relative pose and refine predicted boxes. Experiments show that ChangeBox outperforms existing change detection baselines, with further gains from refinement and effective transfer from synthetic to real-world observations.",
   "citation_count": 0,
   "concepts": [
    "cs.CV"
   ],
-  "arxiv_id": "2609.38747v1",
+  "arxiv_id": "2610.01283v1",
   "source": "arxiv",
   "topics": [
+   "遥感",
    "计算机视觉",
    "三维与几何"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2609.39195v1",
-  "title": "Uruqi: Learning Spatial Cognition from Visual Experience",
+  "id": "arxiv:2610.01134v1",
+  "title": "Open Vocabulary Word Recognition From Transcribed Bangla Texts",
   "authors": [
-   "Shichao Li",
-   "Meiqi Wang",
-   "Fei Su",
-   "Zhicheng Zhao"
+   "Faias Satter",
+   "Sk. Md. Masudul Ahsan"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.39195v1",
-  "url": "https://arxiv.org/abs/2609.39195v1",
-  "abstract": "Spatial intelligence requires maintaining a coherent understanding of the world as the embodied agent moves. Like humans, the agent must use its own motion to interpret changes across observations and update object locations and spatial relations accordingly. Despite spatial post-training having substantially broadened the spatial intelligence of vision-language models (VLMs), they still struggle with two atomic spatial capabilities: tracking self-motion and mapping the surrounding world during motion. To address this gap, we provide dense multi-turn supervision over interleaved atomic capabilities within each training episode, mimicking the visual experience of a continuously moving agent that reasons as it observes. To scale this up, we synthesize 11,738 motif-driven camera trajectories over a broad range of 3D scenes, supporting self-motion tracking, persistent object mapping, and rich spatial operations within each visual experience. By training models to reason over these atomic questions, our URUQI$_{\\mathrm{Syn}}$-8B improves accuracy from 15.84% to 47.73% on our Uruqi benchmark comprising 52k questions across 2.7k episodes. URUQI-SI-Mix-8B further reaches 50.41%, comparable to the 50.08% achieved by GPT-6 Astra. Trained solely on our synthesized data, URUQI$_{\\mathrm{Syn}}$-8B achieves an average relative accuracy improvement of 17.13% over its InternVL3-8B backbone across three external spatial benchmarks. These results highlight continuous visual experience as a scalable source of supervision for developing spatial cognition in VLMs.",
+  "pdf": "https://arxiv.org/pdf/2610.01134v1",
+  "url": "https://arxiv.org/abs/2610.01134v1",
+  "abstract": "An optical character recognition (OCR) can scan a paper and extract text using technology, making people's jobs easier. While various OCR systems are available in the software industry, finding a reliable equivalent solution for Bangla takes much work. When it comes to handwritten texts, the situation is much more unusual. Recognizing words from word images is the most critical stage in any OCR process. It is the second stage after segmenting words from text pictures. If this stage fails, the overall performance of the OCR will be poor, regardless of how well the other phases perform. This study aims to recognize words using deep learning in a handwritten Bangla word image. Three object detection models, SSD with MobileNetV2, Faster R-CNN with InceptionResNetV2, and an ensemble model of these two, have been used to train and test handwritten word images. A modified Non-Maximum Suppression has been introduced to enhance the effectiveness of the models' results. A customized dataset of 9841 handwritten Bangla word images has been compiled, featuring diverse handwriting styles from various individuals. All three models' performances have been checked against the test dataset, and the ensemble model has been the most impressive, with an F1-score of 92.61%. Also, at the word level, the ensemble model correctly recognizes 96.12% of the words to some extent. The system can be further improved by introducing a post-processing phase to correct errors generated by the system.",
   "citation_count": 0,
   "concepts": [
-   "cs.CV"
+   "cs.CV",
+   "cs.LG"
   ],
-  "arxiv_id": "2609.39195v1",
+  "arxiv_id": "2610.01134v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.01067v1",
+  "title": "Online Planning for Sparse Ground Target Search from a High-Altitude UAV under Partial Observability",
+  "authors": [
+   "Ashik E Rasul",
+   "Hyung-Jin Yoon"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-01",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.01067v1",
+  "url": "https://arxiv.org/abs/2610.01067v1",
+  "abstract": "Unmanned aerial vehicles (UAVs) searching for ground targets from a high altitude face a unique challenge, particularly when the target is already within the field of view but effectively unobservable because of its small apparent scale. Standard object detectors often underperform in such scenarios because of resolution downscaling and limited context. In contrast, active object search frameworks address this challenge by directing the agent to a suitable pose to gather richer visual information. However, flight regulations in urban airspace often restrict such physical movements for UAVs. As an alternative active sensing approach, the UAV can leverage the pan-tilt-zoom (PTZ) mechanism of the onboard camera to dynamically adjust its field of view and sequentially gather enhanced visual information from specific regions of interest. Once the candidate locations of the target are identified, it can deploy more expensive object detection schemes, such as an ensemble of multiple models, to get better reasoning at a fixed scale. In this work, we formulate the sequential exploration with PTZ operation as a partially observable Markov decision process (POMDP), in which the agent maintains a belief state over the target's true location. To solve the POMDP, we deploy partially observable Monte Carlo planning (POMCP), where we condition the sensing reliability on target object scale and deploy selective ensemble detection as an additional reasoning step. We validate our methodology with experiments in a photorealistic simulator under different environmental conditions and vehicle states, showing detection of ground targets at variable scales with significantly fewer steps and minimal dependence on sensor resolution compared to baseline methods.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.RO"
+  ],
+  "arxiv_id": "2610.01067v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.00855v1",
+  "title": "Lang3DSeg: Annotation-Free Open-Vocabulary 3D Segmentation with Point Transformers",
+  "authors": [
+   "Cigdem Kokenoz",
+   "Amir Salarpour",
+   "Alkim Domeke",
+   "Christopher Salas",
+   "Pedram MohajerAnsari",
+   "Long Cheng",
+   "Mert D. Pesé",
+   "Bing Li"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-01",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.00855v1",
+  "url": "https://arxiv.org/abs/2610.00855v1",
+  "abstract": "Accurate 3D semantic perception is critical for safe autonomous navigation. However, supervised LiDAR segmentation remains tied to closed taxonomies and to the cost of point-wise manual annotation. Open-vocabulary methods avoid that cost by projecting the output of 2D vision-language models onto LiDAR and distilling it into a 3D network. These methods rely almost exclusively on voxel-based sparse convolutions, and point transformers have so far been limited to indoor environments, where 3D data is dense and bounded. We present Lang3DSeg, which establishes a point transformer as the backbone for annotation-free open-vocabulary segmentation of outdoor 3D LiDAR, and is trained from scratch without geometric pre-training. This training paradigm necessitates addressing the inherent noise in 2D-to-3D label projections; specifically, naive projection often suffers from depth ambiguity, where points behind an object are erroneously assigned its semantic label. We therefore composite masks using an explicit class-priority rule and truncate each projected instance at the first gap in its depth distribution, correcting the projection error directly rather than averaging it over registered sequences. Lang3DSeg achieves 52.8% mIoU on nuScenes validation and 41.4% on SemanticKITTI, the highest among published annotation-free methods on both benchmarks. Every 3D semantic segmentation is on a single LiDAR sweep, and inference operates in real-time without running vision-language models.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV",
+   "cs.RO"
+  ],
+  "arxiv_id": "2610.00855v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
@@ -192,31 +125,65 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2609.39183v1",
-  "title": "Aligning Thoughts with Answers: Probability Rewards to Tame Thinking Drift",
+  "id": "arxiv:2610.01352v1",
+  "title": "MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning",
   "authors": [
-   "Pengzhan Sun",
-   "Shiu-hong Kao",
-   "Shijie Li",
-   "Yongyi Su",
-   "Junbin Xiao",
-   "Arjun Reddy Akula",
-   "Angela Yao"
+   "Juekai Lin",
+   "Honglin Lin",
+   "Yuqian Yuan",
+   "Xiaolong Wu",
+   "Jie Cao",
+   "Liang Liang",
+   "Yunqi Cao",
+   "Yun Zhu",
+   "Wenqiao Zhang",
+   "Lijun Wu"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.39183v1",
-  "url": "https://arxiv.org/abs/2609.39183v1",
-  "abstract": "This paper studies \\textbf{thinking--answer consistency} in vision-language models. We focus on Visual Intention Grounding, where a model infers a target object based on a human intention query and predicts a bounding box. We reveal that previous IoU-based reinforcement learning (RL) frameworks suffer from ``thinking drift'', where the model produces a correct bounding box, despite having an incorrect reasoning process pointing to a different target object. Thus, we propose \\textbf{Rita} (\\textit{ReInforcing Thinking--Answer consistency}) as a novel RL paradigm to tame the drift. Specifically, Rita introduces two reasoning-label-free RL rewards, constructed from the conditional probability of reference answers: a \\textbf{thinking reward} and a \\textbf{consistency reward}. It also adopts a difficulty-aware \\textbf{data filtering} strategy that selects informative easy-to-medium samples for RL using rollout error rate and reward variance. Extensive experiments on EgoIntention and the new RefEgo-Int benchmarks show that Rita performs consistently superior to the supervised finetuning approaches and vanilla RL-finetuned frameworks.",
+  "pdf": "https://arxiv.org/pdf/2610.01352v1",
+  "url": "https://arxiv.org/abs/2610.01352v1",
+  "abstract": "Open multimodal reasoning models have benefited from large-scale reasoning supervision, yet reliable post-training remains challenging due to uneven data quality, inefficient supervision construction, imbalanced difficulty, and cross-domain interference. We introduce MMVistaReason (MVR), an open-data post-training recipe with three components: (1) broader capability coverage across complementary Analytical and Real-World reasoning groups, emphasizing structured reasoning versus visual perception and spatial grounding; (2) efficient SFT and RL data construction, standardizing heterogeneous open data through staged cleaning and annotation, combining difficulty-aware cascaded teacher distillation with answer-likelihood-based trajectory selection to construct MVR-SFT-528K, and applying scale-specific frontier filtering for MVR-RL-63K; and (3) specialize-then-integrate training, which trains complementary RL experts and consolidates their capabilities through multi-teacher on-policy distillation (MOPD). Our analyses reveal a capacity-dependent interaction between supervision difficulty, trajectory quality, and model capacity: smaller students benefit more from selected supervision, while larger students are robust to trajectory variation and mixed-domain interference. Mixed-domain RL introduces benchmark-level negative transfer, whereas MOPD provides consistent capability integration, with the preferred KL direction varying across model scales. Across 15 multimodal benchmarks, MVR-4B achieves an average score of 72.8, outperforming Qwen3.5-9B (Instruct) and MMFineReason-8B while using about 70% fewer samples than MMFineReason. Scaling to 9B improves the average to 74.4, surpassing Qwen3.5-35B-A3B (Instruct). Overall, MMVistaReason demonstrates that systematic open-data construction and capacity-aware post-training provide a practical and scalable path toward reliable multimodal reasoning.",
   "citation_count": 0,
   "concepts": [
    "cs.CV"
   ],
-  "arxiv_id": "2609.39183v1",
+  "arxiv_id": "2610.01352v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.01331v1",
+  "title": "CLASP: Continual Low-rank Adapters for Spatially Placed Concepts from One Hypernetwork",
+  "authors": [
+   "Wojciech Gromski",
+   "Patryk Krukowski",
+   "Jan Miksa",
+   "Maciej Zieba",
+   "Przemysław Spurek"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-01",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.01331v1",
+  "url": "https://arxiv.org/abs/2610.01331v1",
+  "abstract": "Continual personalization of text-to-image diffusion models requires sequentially acquiring new concepts while retaining previously learned ones. However, existing methods either suffer from catastrophic forgetting or rely on storing additional concept-specific parameters and spatial components, causing their parameter footprint to grow with the concept stream. This limits their ability to scale to long sequences of personalization tasks. We propose a rehearsal-free approach that uses a single fixed-size hypernetwork to continually personalize a frozen diffusion model. Instead of expanding the model as new concepts are acquired, the hypernetwork dynamically produces the concept-specific adaptations required for personalization while preserving previously learned concepts. Our framework further integrates spatial control into the personalization process, allowing users to specify where a personalized concept should appear without introducing additional per-concept components. This formulation enables continual personalization with a parameter footprint that remains independent of the number of learned concepts, aside from compact concept representations. Experiments demonstrate strong retention of previously learned concepts and reliable spatial grounding, matching or improving upon existing methods while scaling effectively to long streams of personalization tasks.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2610.01331v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
@@ -226,34 +193,64 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2609.39182v1",
-  "title": "MEND: Label-Free Detection, Localisation, and Correction of Latent Hallucination in World Models",
+  "id": "arxiv:2610.01314v1",
+  "title": "ARROW: Arbitrary Reconstruction and Tracking of 4D Observations in the Wild",
   "authors": [
-   "Ali J Alrasheed",
-   "Aryan Yazdan Parast",
-   "Basim Azam",
-   "James Bailey",
-   "Naveed Akhtar"
+   "Ilya Fradlin",
+   "Christian Schmidt",
+   "Jens Piekenbrinck",
+   "Karim Knaebel",
+   "Gonzalo Martin Garcia",
+   "Bastian Leibe"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2609.39182v1",
-  "url": "https://arxiv.org/abs/2609.39182v1",
-  "abstract": "World Models are appearing as the next major frontier in computer vision. However, their robustness is currently largely unexplored. We identify the phenomenon of hallucination in latent World Models: given a state and an action, the predicted next latent can decode to a scene that never occurs. Because the prediction is statistically ordinary and is fed back autoregressively by the model, the error is both silent and compounding. We study whether such latent hallucination can be detected, localised, and corrected at inference time, on a frozen self-supervised world model in the absence of ground-truth error labels. We introduce Masked Empirical-Bayes Neural Denoising (MEND), a single conditional score network trained by denoising score matching on real transitions, whose score field serves three roles: its magnitude detects hallucination, its per-token field localises it to specific image patches, and it defines an inference-time correction direction. On two navigation environments MEND detects hallucination with an AUROC of up to 0.80 without using actions, exceeding a single-Gaussian density baseline while also localising the error (per-token AUPRC up to 0.87) and correcting it, all from one score field. Our correction reliably reduces single-step latent error and improves predictions. We identify that a part of the error is tangent to the data manifold, hence, we focus on detection and localisation while highlighting promises of the correction.",
+  "pdf": "https://arxiv.org/pdf/2610.01314v1",
+  "url": "https://arxiv.org/abs/2610.01314v1",
+  "abstract": "Dynamic scenes may be captured by a moving camera, multiple video streams, or images taken at different times. These observations reveal complementary aspects of scene geometry and motion, yet bringing them together requires establishing correspondence across viewpoints, capture times, and visibility changes. We introduce ARROW, a feed-forward model that unifies 3D reconstruction and 3D point tracking from arbitrary image sets. At its core is a novel order-invariant querying approach, which allows the association of queries with observations across arbitrary inputs. We show that exposing the model to more diverse sets of inputs during training results in improved task performance. Moreover, the resulting model is capable of generalization to a wider range of tasks including multi-view tracking. Trained with this strategy, ARROW establishes a new state of the art in 3D tracking on WorldTrack and TAPVid-3D and outperforms dedicated multi-view trackers on an adapted RGB-only MVTracker benchmark, while remaining competitive across 3D reconstruction tasks. Code and weights are publicly available.",
   "citation_count": 0,
   "concepts": [
-   "cs.CV",
-   "cs.AI"
+   "cs.CV"
   ],
-  "arxiv_id": "2609.39182v1",
+  "arxiv_id": "2610.01314v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
-   "机器学习"
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.01302v1",
+  "title": "STAGE: Subspace-Targeted Affine Generative Erasure for Text-to-3D Models",
+  "authors": [
+   "Karol Dziekan",
+   "Przemysław Spurek",
+   "Dawid Malarz"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-01",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.01302v1",
+  "url": "https://arxiv.org/abs/2610.01302v1",
+  "abstract": "Concept erasure suppresses a target concept while preserving behavior on unrelated inputs. Existing closed-form methods were designed for 2D image diffusion and assume a single generative pathway, so one edit must cover geometry and texture at once. Native 3D generators, which synthesize structured 3D representations directly rather than by lifting 2D samples, violate this assumption. We show that shape and object concepts must be erased in the structural stage of the pipeline and material concepts in the appearance stage. We therefore formulate erasure in native text-to-3D as a stage-aware editing problem and introduce STAGE, a training-free, closed-form framework. STAGE confines each edit to the low-dimensional subspace spanned by the differences between erase and anchor embeddings, and relaxes the norm-preserving (orthogonal) constraint of prior editors into a least-squares affine correction that maps target activations onto safe anchors subject to a penalty on the displacement of retained prompts. The correction applies to the structural stage, the appearance stage, or both. We find that the stage an edit must reach is determined by concept type. On TRELLIS, the standard open native 3D generator, across 15 shape, material, and object concepts, STAGE reaches 66.7 on a composite score that balances forgetting the target concept against preserving everything else, aggregating CLIP-based semantic and physical metrics, versus 53.2 for the strongest adapted baseline. Code: https://github.com/gmum/STAGE/ Project Page https://gmum.github.io/STAGE/",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2610.01302v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "三维与几何"
   ],
   "is_own": false
  }
