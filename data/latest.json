@@ -1,30 +1,73 @@
 [
  {
-  "id": "arxiv:2610.01283v1",
-  "title": "ShelfChange3D: Object-Level 3D Change Detection for Retail Shelf Monitoring",
+  "id": "openalex:W7215062018",
+  "title": "A scene-mapped framework for deriving clear-sky surface longwave downward radiation from remotely sensed measurements",
   "authors": [
-   "Lingyi Zhou",
-   "Yunke Wang",
-   "Mengyu Zheng",
-   "Wenbo Wang",
-   "Zijian Wang",
-   "Chang Xu"
+   "Yihan Du",
+   "Tianxing Wang",
+   "Yi Zheng",
+   "Dahui Li",
+   "Yuyang Xian",
+   "Feiyao Gao",
+   "Stefan A. Buehler"
   ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-01",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.01283v1",
-  "url": "https://arxiv.org/abs/2610.01283v1",
-  "abstract": "Reliable shelf monitoring is an important capability for retail automation, yet existing out-of-stock detection methods mainly operate in image space and lack metric 3D localization for downstream robotic systems. We formulate shelf monitoring as object-level 3D change detection: given two RGB-D observations captured at different times, the goal is to identify changed products and localize each change with a 3D bounding box. To support this task, we introduce ShelfChange3D, comprising 145K synthetic and 5K real-world paired RGB-D observations with object-level 3D change annotations. We further propose ChangeBox, an end-to-end framework that jointly reasons over paired observations and predicts object-level 3D change boxes. To improve localization accuracy, we introduce a geometry-based refinement stage that exploits depth and gravity prior to estimate relative pose and refine predicted boxes. Experiments show that ChangeBox outperforms existing change detection baselines, with further gains from refinement and effective transfer from synthetic to real-world observations.",
+  "date": "2026-10-02",
+  "doi": "10.1016/j.rse.2026.115707",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115707",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "cs.CV"
+   "Remote sensing",
+   "Longwave",
+   "Environmental science"
   ],
-  "arxiv_id": "2610.01283v1",
-  "source": "arxiv",
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7215043648",
+  "title": "RTAS: A radiative transfer model for agricultural strip-intercropping structures",
+  "authors": [
+   "Run Zhong",
+   "Dalei Hao",
+   "Zhihong Li",
+   "Carlos Camino",
+   "Si Gao",
+   "Qing Li",
+   "Yanan Wei",
+   "Higor  de Queiroz Ribeiro",
+   "Hong Sun",
+   "Feng Yang",
+   "Matheus Pinheiro Ferreirad",
+   "Haoran Liu",
+   "Renan Caldas Umburanas",
+   "Durval Dourado Neto",
+   "Yelu Zeng"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-01",
+  "doi": "10.1016/j.rse.2026.115708",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115708",
+  "abstract": "Agricultural strip-intercropping, characterized by alternating tall and short crops, poses substantial challenges for current radiative transfer (RT) modeling due to complex mutual shadowing and heterogeneous canopy optical and structural properties. Most existing geometric-optical models for row crops are restricted to monoculture configurations, unable to account for the asymmetric radiative interactions arising from the coexistence of two distinct crop species. In this study, we developed the Radiative Transfer Model for Agricultural Strip-intercropping Structures (RTAS), a hybrid analytical model integrating geometric-optical (GO) principles and turbid-medium RT theory under periodic boundary conditions. RTAS showed strong agreement with 3D reference simulations from the LESS (Large-scale Remote Sensing Data and Image Simulation Framework) ray-tracing model in both red and near-infrared (NIR) bands ( R 2 ≥ 0.93, RRMSE ≤3.96%) and with multi-angular unmanned aerial vehicle (UAV) observations ( R 2 = 0.94, RMSE ≤0.0252, RRMSE ≤12.44%). Structural sensitivity analysis showed stable performance across the tested intercropping configurations, with the RRMSE remaining below 8%. RTAS also outperformed the Spectral Linear Mixture (SLM) model and GO baseline, whose red-band errors exceeded 14% and reached nearly 27% at large solar zenith angles. Furthermore, component-level analysis revealed a wavelength-dependent difference between geometric visibility and radiative contribution in the NIR band, associated with enhanced multiple scattering and non-negligible contributions from shaded vegetation. RTAS provides an efficient forward simulation framework with potential for future retrieval studies in complex strip-intercropping structures.",
+  "citation_count": 0,
+  "concepts": [
+   "Radiative transfer",
+   "Atmospheric radiative transfer codes",
+   "Remote sensing"
+  ],
+  "source": "openalex",
   "topics": [
    "遥感",
    "计算机视觉",
@@ -33,223 +76,209 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2610.01134v1",
-  "title": "Open Vocabulary Word Recognition From Transcribed Bangla Texts",
+  "id": "openalex:W7215051418",
+  "title": "Improving regional winter wheat yield estimation by assimilating cross-scale heterogeneity information from UAV and satellite remote sensing",
   "authors": [
-   "Faias Satter",
-   "Sk. Md. Masudul Ahsan"
+   "Zhikai Cheng",
+   "Xiaobo Gu",
+   "Yang Xu",
+   "Xiaohai Fang",
+   "Zhengtao Zhang",
+   "Penglin Li",
+   "Yupeng Li",
+   "Shikun Sun",
+   "Yadan Du",
+   "Huanjie Cai"
   ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
   "year": 2026,
   "date": "2026-10-01",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.01134v1",
-  "url": "https://arxiv.org/abs/2610.01134v1",
-  "abstract": "An optical character recognition (OCR) can scan a paper and extract text using technology, making people's jobs easier. While various OCR systems are available in the software industry, finding a reliable equivalent solution for Bangla takes much work. When it comes to handwritten texts, the situation is much more unusual. Recognizing words from word images is the most critical stage in any OCR process. It is the second stage after segmenting words from text pictures. If this stage fails, the overall performance of the OCR will be poor, regardless of how well the other phases perform. This study aims to recognize words using deep learning in a handwritten Bangla word image. Three object detection models, SSD with MobileNetV2, Faster R-CNN with InceptionResNetV2, and an ensemble model of these two, have been used to train and test handwritten word images. A modified Non-Maximum Suppression has been introduced to enhance the effectiveness of the models' results. A customized dataset of 9841 handwritten Bangla word images has been compiled, featuring diverse handwriting styles from various individuals. All three models' performances have been checked against the test dataset, and the ensemble model has been the most impressive, with an F1-score of 92.61%. Also, at the word level, the ensemble model correctly recognizes 96.12% of the words to some extent. The system can be further improved by introducing a post-processing phase to correct errors generated by the system.",
+  "doi": "10.1016/j.rse.2026.115701",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115701",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "cs.CV",
-   "cs.LG"
+   "Remote sensing",
+   "Environmental science",
+   "Satellite"
   ],
-  "arxiv_id": "2610.01134v1",
-  "source": "arxiv",
+  "source": "openalex",
   "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7215069828",
+  "title": "Tackling fluffy clouds: robust agricultural field boundary delineation from Sentinel-1 and Sentinel-2 satellite image time series",
+  "authors": [
+   "Foivos I. Diakogiannis",
+   "Zheng-Shu Zhou",
+   "Jeff Wang",
+   "Gonzalo Mata",
+   "David A. Henry",
+   "Roger Lawes",
+   "Amy Laura Parker",
+   "Peter A. Caccetta",
+   "Suzanne L. Furby",
+   "Rodrigo Ibata",
+   "Ondrej Hlinka",
+   "Jonathan Richetti",
+   "Kathryn L. Batchelor",
+   "Chris Herrmann",
+   "Andrew Toovey",
+   "John Taylor"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-01",
+  "doi": "10.1016/j.rse.2026.115695",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115695",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Series (stratigraphy)",
+   "Satellite"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7215074872",
+  "title": "High-spatial-resolution mapping of annual anthropogenic heat flux in the Beijing-Tianjin-Hebei urban agglomeration using the CUNTLI-based inventory method",
+  "authors": [
+   "Biyun Guo",
+   "Yingchun Fu",
+   "Deyong Hu",
+   "Yaolong Zhao",
+   "鄭啟明",
+   "Yuyu Zhou"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-01",
+  "doi": "10.1016/j.rse.2026.115704",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115704",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Environmental science",
+   "Remote sensing",
+   "Economies of agglomeration"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7215083862",
+  "title": "Discrepancies between Sentinel-2 and LiDAR-derived LAI in temperate deciduous forests: Influence of apparent optical depth, radiative transfer priors, and horizontal heterogeneity",
+  "authors": [
+   "Nathan Corroyez",
+   "Jean‐Baptiste Féret",
+   "Jérôme Ogée",
+   "Jonathan Lenoir",
+   "Sylvie Durrieu"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-01",
+  "doi": "10.1016/j.rse.2026.115698",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115698",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Environmental science",
+   "Radiative transfer"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7215031455",
+  "title": "Distilling adaptive scale knowledge for remote sensing object detection",
+  "authors": [
+   "Seonghak Kim",
+   "Deukryeol Yoon",
+   "Young-Hwa Sung"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-01",
+  "doi": "10.1016/j.isprsjprs.2026.09.033",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.033",
+  "abstract": "Knowledge Distillation (KD) is a promising method for improving student model performance by transferring knowledge from high-capacity teacher models. However, in remote sensing object detection, where small objects are densely clustered, existing KD techniques suffer from notable limitations. By compressing scale-dependent characteristics into a single feature embedding, these methods often overlook scale-specific information, leading to scale entanglement dominated by large objects and, ultimately, degraded detection performance. We propose Distilling Adaptive Scale Knowledge (DASK), a framework designed to address these challenges by decoupling features into multi-scale representations for knowledge transfer and independent optimization. DASK consists of two key components: (1) Multi-Scale Feature (MSF), which separates features corresponding to small, medium, and large objects with multiple dilation rates; and (2) Scale-Specific Update (SSU), which mitigates inter-scale interference and regulates optimization dynamics. Specifically, SSU assigns a lower momentum to feature losses associated with small objects to induce a careful and precise optimization process, while applying a higher momentum to large object features to ensure stable and accelerated training. This design promotes more balanced optimization across scales. Extensive experiments on DOTA, VisDrone, and a custom dataset demonstrate that DASK consistently outperforms existing KD methods, highlighting its effectiveness for remote sensing applications.",
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Feature (linguistics)",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
    "计算机视觉",
    "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2610.01067v1",
-  "title": "Online Planning for Sparse Ground Target Search from a High-Altitude UAV under Partial Observability",
+  "id": "openalex:W7215036634",
+  "title": "Integrating spherical geometry and spectral dynamics for improved satellite-based cloud cover forecasting",
   "authors": [
-   "Ashik E Rasul",
-   "Hyung-Jin Yoon"
+   "Xiangxu Meng",
+   "Kaibin Lin",
+   "Yun Zhong",
+   "Shuai Liu",
+   "Qingfang Jiang",
+   "Weiwei Li",
+   "Kanglian Zhao"
   ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
   "year": 2026,
   "date": "2026-10-01",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.01067v1",
-  "url": "https://arxiv.org/abs/2610.01067v1",
-  "abstract": "Unmanned aerial vehicles (UAVs) searching for ground targets from a high altitude face a unique challenge, particularly when the target is already within the field of view but effectively unobservable because of its small apparent scale. Standard object detectors often underperform in such scenarios because of resolution downscaling and limited context. In contrast, active object search frameworks address this challenge by directing the agent to a suitable pose to gather richer visual information. However, flight regulations in urban airspace often restrict such physical movements for UAVs. As an alternative active sensing approach, the UAV can leverage the pan-tilt-zoom (PTZ) mechanism of the onboard camera to dynamically adjust its field of view and sequentially gather enhanced visual information from specific regions of interest. Once the candidate locations of the target are identified, it can deploy more expensive object detection schemes, such as an ensemble of multiple models, to get better reasoning at a fixed scale. In this work, we formulate the sequential exploration with PTZ operation as a partially observable Markov decision process (POMDP), in which the agent maintains a belief state over the target's true location. To solve the POMDP, we deploy partially observable Monte Carlo planning (POMCP), where we condition the sensing reliability on target object scale and deploy selective ensemble detection as an additional reasoning step. We validate our methodology with experiments in a photorealistic simulator under different environmental conditions and vehicle states, showing detection of ground targets at variable scales with significantly fewer steps and minimal dependence on sensor resolution compared to baseline methods.",
+  "doi": "10.1016/j.isprsjprs.2026.09.017",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.017",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "cs.RO"
+   "Remote sensing",
+   "Geometry",
+   "Cover (algebra)"
   ],
-  "arxiv_id": "2610.01067v1",
-  "source": "arxiv",
+  "source": "openalex",
   "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.00855v1",
-  "title": "Lang3DSeg: Annotation-Free Open-Vocabulary 3D Segmentation with Point Transformers",
-  "authors": [
-   "Cigdem Kokenoz",
-   "Amir Salarpour",
-   "Alkim Domeke",
-   "Christopher Salas",
-   "Pedram MohajerAnsari",
-   "Long Cheng",
-   "Mert D. Pesé",
-   "Bing Li"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-01",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.00855v1",
-  "url": "https://arxiv.org/abs/2610.00855v1",
-  "abstract": "Accurate 3D semantic perception is critical for safe autonomous navigation. However, supervised LiDAR segmentation remains tied to closed taxonomies and to the cost of point-wise manual annotation. Open-vocabulary methods avoid that cost by projecting the output of 2D vision-language models onto LiDAR and distilling it into a 3D network. These methods rely almost exclusively on voxel-based sparse convolutions, and point transformers have so far been limited to indoor environments, where 3D data is dense and bounded. We present Lang3DSeg, which establishes a point transformer as the backbone for annotation-free open-vocabulary segmentation of outdoor 3D LiDAR, and is trained from scratch without geometric pre-training. This training paradigm necessitates addressing the inherent noise in 2D-to-3D label projections; specifically, naive projection often suffers from depth ambiguity, where points behind an object are erroneously assigned its semantic label. We therefore composite masks using an explicit class-priority rule and truncate each projected instance at the first gap in its depth distribution, correcting the projection error directly rather than averaging it over registered sequences. Lang3DSeg achieves 52.8% mIoU on nuScenes validation and 41.4% on SemanticKITTI, the highest among published annotation-free methods on both benchmarks. Every 3D semantic segmentation is on a single LiDAR sweep, and inference operates in real-time without running vision-language models.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.RO"
-  ],
-  "arxiv_id": "2610.00855v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.01352v1",
-  "title": "MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning",
-  "authors": [
-   "Juekai Lin",
-   "Honglin Lin",
-   "Yuqian Yuan",
-   "Xiaolong Wu",
-   "Jie Cao",
-   "Liang Liang",
-   "Yunqi Cao",
-   "Yun Zhu",
-   "Wenqiao Zhang",
-   "Lijun Wu"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-01",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.01352v1",
-  "url": "https://arxiv.org/abs/2610.01352v1",
-  "abstract": "Open multimodal reasoning models have benefited from large-scale reasoning supervision, yet reliable post-training remains challenging due to uneven data quality, inefficient supervision construction, imbalanced difficulty, and cross-domain interference. We introduce MMVistaReason (MVR), an open-data post-training recipe with three components: (1) broader capability coverage across complementary Analytical and Real-World reasoning groups, emphasizing structured reasoning versus visual perception and spatial grounding; (2) efficient SFT and RL data construction, standardizing heterogeneous open data through staged cleaning and annotation, combining difficulty-aware cascaded teacher distillation with answer-likelihood-based trajectory selection to construct MVR-SFT-528K, and applying scale-specific frontier filtering for MVR-RL-63K; and (3) specialize-then-integrate training, which trains complementary RL experts and consolidates their capabilities through multi-teacher on-policy distillation (MOPD). Our analyses reveal a capacity-dependent interaction between supervision difficulty, trajectory quality, and model capacity: smaller students benefit more from selected supervision, while larger students are robust to trajectory variation and mixed-domain interference. Mixed-domain RL introduces benchmark-level negative transfer, whereas MOPD provides consistent capability integration, with the preferred KL direction varying across model scales. Across 15 multimodal benchmarks, MVR-4B achieves an average score of 72.8, outperforming Qwen3.5-9B (Instruct) and MMFineReason-8B while using about 70% fewer samples than MMFineReason. Scaling to 9B improves the average to 74.4, surpassing Qwen3.5-35B-A3B (Instruct). Overall, MMVistaReason demonstrates that systematic open-data construction and capacity-aware post-training provide a practical and scalable path toward reliable multimodal reasoning.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2610.01352v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.01331v1",
-  "title": "CLASP: Continual Low-rank Adapters for Spatially Placed Concepts from One Hypernetwork",
-  "authors": [
-   "Wojciech Gromski",
-   "Patryk Krukowski",
-   "Jan Miksa",
-   "Maciej Zieba",
-   "Przemysław Spurek"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-01",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.01331v1",
-  "url": "https://arxiv.org/abs/2610.01331v1",
-  "abstract": "Continual personalization of text-to-image diffusion models requires sequentially acquiring new concepts while retaining previously learned ones. However, existing methods either suffer from catastrophic forgetting or rely on storing additional concept-specific parameters and spatial components, causing their parameter footprint to grow with the concept stream. This limits their ability to scale to long sequences of personalization tasks. We propose a rehearsal-free approach that uses a single fixed-size hypernetwork to continually personalize a frozen diffusion model. Instead of expanding the model as new concepts are acquired, the hypernetwork dynamically produces the concept-specific adaptations required for personalization while preserving previously learned concepts. Our framework further integrates spatial control into the personalization process, allowing users to specify where a personalized concept should appear without introducing additional per-concept components. This formulation enables continual personalization with a parameter footprint that remains independent of the number of learned concepts, aside from compact concept representations. Experiments demonstrate strong retention of previously learned concepts and reliable spatial grounding, matching or improving upon existing methods while scaling effectively to long streams of personalization tasks.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2610.01331v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.01314v1",
-  "title": "ARROW: Arbitrary Reconstruction and Tracking of 4D Observations in the Wild",
-  "authors": [
-   "Ilya Fradlin",
-   "Christian Schmidt",
-   "Jens Piekenbrinck",
-   "Karim Knaebel",
-   "Gonzalo Martin Garcia",
-   "Bastian Leibe"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-01",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.01314v1",
-  "url": "https://arxiv.org/abs/2610.01314v1",
-  "abstract": "Dynamic scenes may be captured by a moving camera, multiple video streams, or images taken at different times. These observations reveal complementary aspects of scene geometry and motion, yet bringing them together requires establishing correspondence across viewpoints, capture times, and visibility changes. We introduce ARROW, a feed-forward model that unifies 3D reconstruction and 3D point tracking from arbitrary image sets. At its core is a novel order-invariant querying approach, which allows the association of queries with observations across arbitrary inputs. We show that exposing the model to more diverse sets of inputs during training results in improved task performance. Moreover, the resulting model is capable of generalization to a wider range of tasks including multi-view tracking. Trained with this strategy, ARROW establishes a new state of the art in 3D tracking on WorldTrack and TAPVid-3D and outperforms dedicated multi-view trackers on an adapted RGB-only MVTracker benchmark, while remaining competitive across 3D reconstruction tasks. Code and weights are publicly available.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2610.01314v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.01302v1",
-  "title": "STAGE: Subspace-Targeted Affine Generative Erasure for Text-to-3D Models",
-  "authors": [
-   "Karol Dziekan",
-   "Przemysław Spurek",
-   "Dawid Malarz"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-01",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.01302v1",
-  "url": "https://arxiv.org/abs/2610.01302v1",
-  "abstract": "Concept erasure suppresses a target concept while preserving behavior on unrelated inputs. Existing closed-form methods were designed for 2D image diffusion and assume a single generative pathway, so one edit must cover geometry and texture at once. Native 3D generators, which synthesize structured 3D representations directly rather than by lifting 2D samples, violate this assumption. We show that shape and object concepts must be erased in the structural stage of the pipeline and material concepts in the appearance stage. We therefore formulate erasure in native text-to-3D as a stage-aware editing problem and introduce STAGE, a training-free, closed-form framework. STAGE confines each edit to the low-dimensional subspace spanned by the differences between erase and anchor embeddings, and relaxes the norm-preserving (orthogonal) constraint of prior editors into a least-squares affine correction that maps target activations onto safe anchors subject to a penalty on the displacement of retained prompts. The correction applies to the structural stage, the appearance stage, or both. We find that the stage an edit must reach is determined by concept type. On TRELLIS, the standard open native 3D generator, across 15 shape, material, and object concepts, STAGE reaches 66.7 on a composite score that balances forgetting the target concept against preserving everything else, aggregating CLIP-based semantic and physical metrics, versus 53.2 for the strongest adapted baseline. Code: https://github.com/gmum/STAGE/ Project Page https://gmum.github.io/STAGE/",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2610.01302v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
+   "遥感",
    "三维与几何"
   ],
   "is_own": false
