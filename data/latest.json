@@ -1,5 +1,37 @@
 [
  {
+  "id": "openalex:W7215896942",
+  "title": "Single-scene thin-cloud correction for dynamic macroalgal blooms via water-referenced radiative transfer",
+  "authors": [
+   "Furong Zhang",
+   "Shaohui Chen",
+   "Hongbo Su",
+   "Kai Liu",
+   "Chengyi Wang",
+   "Weimin Wang"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-03",
+  "doi": "10.1016/j.jag.2026.105619",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105619",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Radiative transfer",
+   "Environmental science",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7215062018",
   "title": "A scene-mapped framework for deriving clear-sky surface longwave downward radiation from remotely sensed measurements",
   "authors": [
@@ -19,7 +51,7 @@
   "doi": "10.1016/j.rse.2026.115707",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.rse.2026.115707",
-  "abstract": null,
+  "abstract": "Accurate estimation of clear-sky surface longwave downward radiation (LWDR) is fundamental to surface energy budget studies, yet widely used parameterizations and conventional lookup-table (LUT) searches often suffer from regional biases and limited transferability. This study develops a scene-mapped LUT framework that operates in brightness-temperature (BT) space and uses surface temperature (ST) and total column water vapor (TCWV) as physical descriptors to define scene-specific subsets and constrain spectral matching to locally consistent surface–atmosphere states. Two implementations are proposed within the scene-mapped framework: S-Poly (polynomial regression) and S-LUT (sub-LUT distance search). Validation against multi-network ground measurements using MODIS inputs yielded RMSEs of 26.36 and 26.89 W m −2 and biases of −0.86 and −2.75 W m −2 for S-LUT and S-Poly, respectively. The corresponding RMSEs were lower than those of the global-LUT benchmark (29.26 W m −2 ) and the evaluated general clear-sky parameterization benchmark (30.03 W m −2 ), representing reductions of 12.2% and 10.5% relative to the latter. Both methods generally maintained stable accuracy across diverse surface types and climatic regions. S-LUT was more consistent across the evaluated configurations and achieved an RMSE of 22.48 W m −2 under the mixed MODIS–ERA5 configuration. The flexible scene-mapping framework may also provide a useful methodological concept for adapting radiation retrieval to different sensors and exploring future extensions toward all-sky conditions.",
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
@@ -28,8 +60,117 @@
   ],
   "source": "openalex",
   "topics": [
-   "遥感"
+   "遥感",
+   "计算机视觉"
   ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7215681984",
+  "title": "Assessing plant area index and 3D plant area distribution in wheat canopies from a terrestrial LiDAR system for high-throughput plant phenotyping",
+  "authors": [
+   "Raúl López‐Lozano",
+   "Tian Ma",
+   "Maxime Soma",
+   "Marie Weiss",
+   "Aurélien Ausset",
+   "Philippe Burger",
+   "Bruno Berthon",
+   "Romain Chapuis",
+   "Marie-Pia D'argaignon",
+   "Antonin Grau",
+   "Florian Larue",
+   "Romane Le-Roy",
+   "Rémy Marandel",
+   "Vincent Mercier",
+   "Mathieu Roy",
+   "Gilles Tison",
+   "Frédéric Venault",
+   "Pierre Martre",
+   "Frédéric Baret"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-02",
+  "doi": "10.1016/j.rse.2026.115711",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115711",
+  "abstract": "This study investigates a new methodology to estimate plant area index ( PAI ) and its spatial distribution from 3D point clouds acquired by a system of 3 LiDARs (2 nadir-viewing and one at 45°) mounted on the Phenomobile Unmanned Ground Vehicle designed for high-throughput phenotyping of herbaceous crops. It relies on the computation of the gap fraction at the voxel level using the trajectories of the laser beams to numerically invert the Beer-Lambert law (BL), enabling the simultaneous estimation of PAI and AIA (Average Inclination Angle, in°). The method is evaluated on wheat crops both in silico (i.e. simulations based on the AdelWheat functional structural crop model coupled with a point cloud simulator) and in actual phenotyping trials of a panel of 10 bread wheat genotypes grown in two study sites under different treatments of plant density, water stress and sowing dates. The in silico validation indicates that the numeric inversion of BL with the LiDAR system of the Phenomobile leads to a relative error of 9.8% (RMSE = 0.32, R 2 = 0.99) and 8.4% (RMSE =5.4°, R 2 = 0.95) in the estimation of PAI and AIA , respectively. The validation in actual phenotyping experiments against destructive measurements produced satisfactory results for canopy PAI (RMSE = 1.44, R 2 = 0.82), while requiring prior knowledge on AIA , e.g. either by (i) introducing a regularization term in the cost function used to invert BL, to avoid unexpected high AIA estimations, (ii) using a fixed, reference value of 60°. The analysis of the results indicates that the inclusion of a regularization term mitigates the impact of actual differences in leaf inclination among cultivars on PAI accuracy, while providing a relative description of the actual variability in the vertical profile of leaf inclination across the different cultivars.",
+  "citation_count": 0,
+  "concepts": [
+   "Point cloud",
+   "Remote sensing",
+   "Lidar"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7215849220",
+  "title": "Hydroclimatic signatures of flash drought heterogeneity and rice-yield responses in China",
+  "authors": [
+   "Yangyang Li",
+   "Yanchao Zheng",
+   "Huazhu Xue",
+   "Yanmin Jiang",
+   "栾文飞",
+   "Tianjie Zhao",
+   "Jie Wang",
+   "Xuhui BU"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-02",
+  "doi": "10.1080/15481603.2026.2741471",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2741471",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "China",
+   "Environmental science",
+   "Climatology"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7216144774",
+  "title": "Stage-integrated fire resilience assessment of forest vegetation and its driving factors",
+  "authors": [
+   "Sen Wang",
+   "Xingpeng Liu",
+   "Bing Ma",
+   "Rima Ga",
+   "Zhijun Tong",
+   "Jiquan Zhang"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-02",
+  "doi": "10.1080/15481603.2026.2742614",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2742614",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Vegetation (pathology)",
+   "Environmental science",
+   "Geography"
+  ],
+  "source": "openalex",
+  "topics": [],
   "is_own": false
  },
  {
@@ -98,7 +239,7 @@
   "doi": "10.1016/j.rse.2026.115701",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.rse.2026.115701",
-  "abstract": null,
+  "abstract": "Accurate high-resolution winter wheat yield estimation remains challenging in heterogeneous agricultural systems. Conventional yield estimation approaches remain limited by high uncertainty (process-based crop models) or weak transferability due to insufficient physical knowledge and scarce sample sizes (statistical models based on remote sensing data). Data assimilation offers a promising approach to overcome these limitations, but its performance is constrained by the neglect of heterogeneous information within assimilation grids, particularly in low-intensity agricultural systems. Therefore, we developed a novel cross-scale data assimilation framework to enhance winter wheat yield estimation by integrating unmanned aerial vehicle (UAV) and satellite remote sensing with the WOFOST crop model. First, UAV-derived crop-soil parameters, including leaf area index (LAI), aboveground biomass (AGB), and soil moisture at 10 and 20 cm depths (SMC-10 and SMC-20), served as a bridge linking in situ sampling data with Sentinel satellite images. Next, a mixture density network (MDN) was employed to construct an upscaling model for predicting probability distributions, thereby obtaining the distribution of crop-soil parameters within each satellite pixel as field heterogeneity information. Finally, these heterogeneity distributions were incorporated into WOFOST through an improved particle filter to generate high-resolution yield (10 m × 10 m) estimates at the regional scale. The results showed that robust crop-soil parameter inversion models were constructed using random forest with multispectral and thermal UAV images (R 2 : 0.73–0.88; NRMSE: 12.30%–22.83%). The MDN quantified within-pixel heterogeneity of crop-soil parameters through a UAV-satellite upscaling approach. The joint assimilation of LAI, AGB, and SMC-10 achieved optimal winter wheat yield estimation performance for MDN-based cross-scale data assimilation (R 2 = 0.83, NRMSE = 15.70% in 2024–2025), outperforming satellite-based and mean-based cross-scale assimilation. The proposed framework showed stable interannual performance in Xianyang (RMSE ≤758 kg ha −1 , NRMSE ≤17.20% in 2017–2023) and reasonable transferability in two external winter wheat regions (RMSE ≤943 kg ha −1 ; NRMSE ≤18.29% in Baoding and Changji). Overall, the cross-scale data assimilation framework exhibited strong performance in wheat yield estimation and would provide scientific support for intensive agricultural development.",
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
@@ -107,7 +248,9 @@
   ],
   "source": "openalex",
   "topics": [
-   "遥感"
+   "遥感",
+   "计算机视觉",
+   "三维与几何"
   ],
   "is_own": false
  },
@@ -140,7 +283,7 @@
   "doi": "10.1016/j.rse.2026.115695",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.rse.2026.115695",
-  "abstract": null,
+  "abstract": "Accurate delineation of agricultural field boundaries is essential for effective crop monitoring and resource management. However, competing methodologies often face significant challenges, particularly in their reliance on extensive manual efforts for cloud-free data curation and their limited adaptability to diverse global conditions. In this paper, we introduce PTAViT3D, a deep learning architecture specifically designed for processing three-dimensional time series of satellite imagery from either Sentinel-1 (S1) or Sentinel-2 (S2). Additionally, we present PTAViT3D-CA, an extension of the PTAViT3D model incorporating cross-attention mechanisms to fuse S1 and S2 datasets, enhancing robustness in cloud-contaminated scenarios. The proposed methods leverage spatio-temporal correlations through a memory-efficient 3D Vision Transformer architecture, facilitating accurate boundary delineation directly from preprocessed, cloud-affected imagery. We comprehensively validate our models through extensive testing on various datasets, including Australia’s ePaddocks™ – CSIRO’s national, continental-scale agricultural field boundary product covering Australia’s cropping regions – alongside public benchmarks Fields-of-the-World, PASTIS, and AI4SmallFarms. Our results consistently demonstrate state-of-the-art performance, highlighting excellent global transferability and robustness. Crucially, our approach significantly simplifies data preparation workflows by reliably processing cloud-affected imagery, thereby offering strong adaptability across diverse agricultural environments. Our code and models are publicly available at https://github.com/feevos/tfcl .",
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
@@ -150,136 +293,8 @@
   "source": "openalex",
   "topics": [
    "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7215074872",
-  "title": "High-spatial-resolution mapping of annual anthropogenic heat flux in the Beijing-Tianjin-Hebei urban agglomeration using the CUNTLI-based inventory method",
-  "authors": [
-   "Biyun Guo",
-   "Yingchun Fu",
-   "Deyong Hu",
-   "Yaolong Zhao",
-   "鄭啟明",
-   "Yuyu Zhou"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-01",
-  "doi": "10.1016/j.rse.2026.115704",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115704",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Environmental science",
-   "Remote sensing",
-   "Economies of agglomeration"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7215083862",
-  "title": "Discrepancies between Sentinel-2 and LiDAR-derived LAI in temperate deciduous forests: Influence of apparent optical depth, radiative transfer priors, and horizontal heterogeneity",
-  "authors": [
-   "Nathan Corroyez",
-   "Jean‐Baptiste Féret",
-   "Jérôme Ogée",
-   "Jonathan Lenoir",
-   "Sylvie Durrieu"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-01",
-  "doi": "10.1016/j.rse.2026.115698",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115698",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Environmental science",
-   "Radiative transfer"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7215031455",
-  "title": "Distilling adaptive scale knowledge for remote sensing object detection",
-  "authors": [
-   "Seonghak Kim",
-   "Deukryeol Yoon",
-   "Young-Hwa Sung"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-01",
-  "doi": "10.1016/j.isprsjprs.2026.09.033",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.033",
-  "abstract": "Knowledge Distillation (KD) is a promising method for improving student model performance by transferring knowledge from high-capacity teacher models. However, in remote sensing object detection, where small objects are densely clustered, existing KD techniques suffer from notable limitations. By compressing scale-dependent characteristics into a single feature embedding, these methods often overlook scale-specific information, leading to scale entanglement dominated by large objects and, ultimately, degraded detection performance. We propose Distilling Adaptive Scale Knowledge (DASK), a framework designed to address these challenges by decoupling features into multi-scale representations for knowledge transfer and independent optimization. DASK consists of two key components: (1) Multi-Scale Feature (MSF), which separates features corresponding to small, medium, and large objects with multiple dilation rates; and (2) Scale-Specific Update (SSU), which mitigates inter-scale interference and regulates optimization dynamics. Specifically, SSU assigns a lower momentum to feature losses associated with small objects to induce a careful and precise optimization process, while applying a higher momentum to large object features to ensure stable and accelerated training. This design promotes more balanced optimization across scales. Extensive experiments on DOTA, VisDrone, and a custom dataset demonstrate that DASK consistently outperforms existing KD methods, highlighting its effectiveness for remote sensing applications.",
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Feature (linguistics)",
-   "Remote sensing"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
    "计算机视觉",
    "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7215036634",
-  "title": "Integrating spherical geometry and spectral dynamics for improved satellite-based cloud cover forecasting",
-  "authors": [
-   "Xiangxu Meng",
-   "Kaibin Lin",
-   "Yun Zhong",
-   "Shuai Liu",
-   "Qingfang Jiang",
-   "Weiwei Li",
-   "Kanglian Zhao"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-01",
-  "doi": "10.1016/j.isprsjprs.2026.09.017",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.017",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Geometry",
-   "Cover (algebra)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "三维与几何"
   ],
   "is_own": false
  }
