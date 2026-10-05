@@ -1,5 +1,38 @@
 [
  {
+  "id": "openalex:W7218622650",
+  "title": "Towards continental-scale SWOT-based modeling of reservoir operations",
+  "authors": [
+   "Elyssa L. Collins",
+   "Augusto Getirana",
+   "Sujay Kumar",
+   "Yeosang Yoon",
+   "Chi-Hsiang Huang",
+   "Huilin Gao",
+   "Fuad Yassin"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-04",
+  "doi": "10.1016/j.rse.2026.115714",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115714",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Geology",
+   "Environmental science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7215896942",
   "title": "Single-scene thin-cloud correction for dynamic macroalgal blooms via water-referenced radiative transfer",
   "authors": [
@@ -18,7 +51,7 @@
   "doi": "10.1016/j.jag.2026.105619",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.jag.2026.105619",
-  "abstract": null,
+  "abstract": "Thin clouds substantially attenuate spectral signals in satellite imagery, leading to systematic underestimation of macroalgal bloom coverage. Existing thin-cloud correction methods have critical limitations for dynamically drifting blooms: they typically require paired cloudy-clear observations or stable surface conditions, which are rarely available, or inadequately account for cloud-induced attenuation, particularly in the near-infrared band that is essential for algal quantification. This study proposes a single-scene thin-cloud correction framework for dynamic macroalgal blooms that removes both additive scattering and multiplicative attenuation from visible to NIR bands. By exploiting local atmospheric consistency between algal patches and adjacent water, the method infers localized cloud effects from neighboring water pixels. Cloud-free and cloud-affected water pixels are first identified to estimate clear-sky and cloudy top-of-atmosphere reflectance. A linear conversion model derived from radiative transfer theory then relates these two reflectances through coefficients C T and C R , whose relationship is constrained by a MODTRAN-based lookup table (LUT). The coefficients are solved by combining the conversion model with a quadratic polynomial relationship between C T and C R established from the LUT. Validation using GaoFen‑1 and Landsat‑8 imagery against near-concurrent Sentinel‑2 observations over the Southern Yellow Sea demonstrates effective near-infrared restoration. Using two complementary validation strategies—macroalgal area estimation from real images and reflectance evaluation from simulated cloudy data—the proposed method achieves consistently higher accuracy than representative state‑of‑the‑art methods. Application to golden tide events in the East China Sea further confirms its robustness and transferability. The method provides a practical, physics-guided solution for monitoring dynamic macroalgal blooms under thin-clouds contamination.",
   "citation_count": 0,
   "concepts": [
    "Radiative transfer",
@@ -27,7 +60,108 @@
   ],
   "source": "openalex",
   "topics": [
-   "遥感"
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7218499966",
+  "title": "Satellite-based coastal monitoring through variance image composites (SatVar)",
+  "authors": [
+   "Pilar Martín-Gallego",
+   "Juan Montes",
+   "Irene Delgado‐Fernández",
+   "Laura Del Rı́o",
+   "Theocharis A. Plomaritis",
+   "Christopher G. Marston"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-03",
+  "doi": "10.1016/j.jag.2026.105630",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105630",
+  "abstract": "The past decade has seen rapid advancements in satellite remote sensing data availability and analysis. In coastal environments, this has enabled regional to global assessments of shoreline trends, a key practical application for management and planning. However, coastal zones are inherently dynamic, while instantaneous shorelines only capture the state of the system at a particular moment in time. This study introduces a novel approach for monitoring dynamic coastal environments using satellite imagery, adapting the principle from ground-based video monitoring systems. The SatVar approach presented here uses freely available, medium resolution satellite imagery and Google Earth Engine. The method takes advantage of the increasing availability of cost-free Sentinel-2 imagery and the flexibility of collections acquired over different time periods to automatically detect highly dynamic zones through variance composites, image compositing and segmentation to obtain medium-term trends of coastal dynamics. Natural boundaries are rarely abrupt, so a zone-based (instead of a line-based) approach provides more nuanced information about transitional zones. The identified highly dynamic zones correspond to morphological processes described in literature, and are also used for shoreline extraction. This combined information can enrich understanding of coastal dynamics and overcome some of the limitations of instantaneous shorelines. The approach is tested at three locations with different morphodynamic characteristics and tidal regimes: Sancti Petri (Spain, mesotidal), Narrabeen (Australia, microtidal) and Sefton (UK, macrotidal). Potential applications to monitor changes outside the upper shoreface such as coastal dune dynamics or back-barrier environments are also discussed.",
+  "citation_count": 0,
+  "concepts": [
+   "Shore",
+   "Compositing",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7218582435",
+  "title": "Robust hyperspectral retrieval of mangrove functional traits across species and spatial scales using GA-ELM",
+  "authors": [
+   "Zhijun Feng",
+   "Shan Lu",
+   "Rong Zhang",
+   "Haihang Zeng",
+   "Chuanpeng Zhao",
+   "Mingming Jia",
+   "Zongming WANG"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-03",
+  "doi": "10.1016/j.jag.2026.105616",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105616",
+  "abstract": "Plant functional traits provide critical indicators of ecosystem functioning, biodiversity maintenance, and plant adaptive strategies under environmental change. However, hyperspectral retrieval of mangrove functional traits remains challenging because trait-related spectral signals are strongly influenced by species composition, canopy structural heterogeneity, and intertidal background effects, leading to unstable trait-spectrum relationships across species and scales. To address these limitations, this study developed a genetic algorithm-optimized extreme learning machine (GA-ELM) framework for robust retrieval of mangrove functional traits under heterogeneous mangrove spectral conditions. Three key traits, including chlorophyll content (Cab), equivalent water thickness (EWT), and leaf mass per area (LMA), were retrieved for four dominant mangrove species using leaf-level hyperspectral measurements and canopy-scale GF-5 imagery. GA-ELM generally outperformed PLSR, RF, and conventional ELM in species-specific comparisons. Leave-one-species-out validation yielded R 2 ranges of 0.61–0.75 for Cab, 0.60–0.72 for EWT, and 0.66–0.76 for LMA, indicating moderate predictive capability for previously unseen species, with performance varying among species and traits. At the canopy scale, GA-ELM achieved stable estimation accuracy for Cab, EWT, and LMA based on GF-5 imagery ( R 2 > 0.75), demonstrating that the framework can be independently calibrated for canopy-scale retrieval. Independent cross-regional validation yielded R 2 values of 0.60, 0.49, and 0.44 for Cab, EWT, and LMA, respectively, indicating moderate but reduced cross-regional transferability. Spectral sensitivity and band-selection analyses revealed species- and trait-dependent patterns that provided context for interpreting variation in predictive performance. These results remain conditional on one GF-5 acquisition per site and 30 m mixed-pixel conditions, and broader tidal-stage and cross-sensor validation is still required. These findings demonstrate the potential of GA-ELM for hyperspectral retrieval and spatial mapping of mangrove functional traits.",
+  "citation_count": 0,
+  "concepts": [
+   "Hyperspectral imaging",
+   "Mangrove",
+   "Canopy"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7218339222",
+  "title": "Spaceborne multi-sensor tracking reveals hydrologic decoupling during the record-breaking Sahara flood",
+  "authors": [
+   "Jun Li",
+   "Richard Iestyn Woolway",
+   "Kai Liu",
+   "Hui Zhang",
+   "Chunqiao Song"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-03",
+  "doi": "10.1080/15481603.2026.2740867",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2740867",
+  "abstract": "Satellite remote sensing enables large-scale quantification of extreme hydrologic events in data-scarce regions, yet the integration of multi-sensor observations to resolve hydrologic responses remains limited. The record-breaking 2024 Sahara flood presents a unique opportunity to evaluate satellite-based characterisation of hydrologic extremes in hyper-arid environments. By integrating multi-sensor satellite observations of precipitation, surface inundation, and terrestrial water storage, we provide a comprehensive assessment of this event’s hydrologic scope. Intense rainfall, delivering annual precipitation totals within just a few days, triggered widespread flooding, with the 2024 inundation extent estimated to show an approximate cross-sensor increase of 38 ± 9% relative to the historical GLAD/Landsat benchmark (1999–2023), reaching up to a 40-fold increase in some basins. Concurrently, regional terrestrial water storage exhibited an unprecedented surge, with its intra-annual amplitude doubling the long-term average. However, this hydrologic response was spatially variable. In the eastern basins, surface inundation and terrestrial water storage increased concurrently, indicating strong hydrologic coupling. In contrast, several western basins exhibited pronounced surface flooding but comparatively weak TWS responses, revealing a decoupling between flood magnitude and basin-scale storage response. These findings highlight the capability of multi-sensor satellite observations to resolve spatially heterogeneous hydrologic responses and reveal the non-stationarity in the conversion of flood hazards into terrestrial water storage gains in hyper-arid environments. This study provides a transferable approach for monitoring hydrologic extremes in ungauged regions.",
+  "citation_count": 0,
+  "concepts": [
+   "Environmental science",
+   "Flood myth",
+   "Hydrological modelling"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
   ],
   "is_own": false
  },
@@ -141,161 +275,6 @@
   ],
   "source": "openalex",
   "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7216144774",
-  "title": "Stage-integrated fire resilience assessment of forest vegetation and its driving factors",
-  "authors": [
-   "Sen Wang",
-   "Xingpeng Liu",
-   "Bing Ma",
-   "Rima Ga",
-   "Zhijun Tong",
-   "Jiquan Zhang"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-02",
-  "doi": "10.1080/15481603.2026.2742614",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2742614",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Vegetation (pathology)",
-   "Environmental science",
-   "Geography"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7215043648",
-  "title": "RTAS: A radiative transfer model for agricultural strip-intercropping structures",
-  "authors": [
-   "Run Zhong",
-   "Dalei Hao",
-   "Zhihong Li",
-   "Carlos Camino",
-   "Si Gao",
-   "Qing Li",
-   "Yanan Wei",
-   "Higor  de Queiroz Ribeiro",
-   "Hong Sun",
-   "Feng Yang",
-   "Matheus Pinheiro Ferreirad",
-   "Haoran Liu",
-   "Renan Caldas Umburanas",
-   "Durval Dourado Neto",
-   "Yelu Zeng"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-01",
-  "doi": "10.1016/j.rse.2026.115708",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115708",
-  "abstract": "Agricultural strip-intercropping, characterized by alternating tall and short crops, poses substantial challenges for current radiative transfer (RT) modeling due to complex mutual shadowing and heterogeneous canopy optical and structural properties. Most existing geometric-optical models for row crops are restricted to monoculture configurations, unable to account for the asymmetric radiative interactions arising from the coexistence of two distinct crop species. In this study, we developed the Radiative Transfer Model for Agricultural Strip-intercropping Structures (RTAS), a hybrid analytical model integrating geometric-optical (GO) principles and turbid-medium RT theory under periodic boundary conditions. RTAS showed strong agreement with 3D reference simulations from the LESS (Large-scale Remote Sensing Data and Image Simulation Framework) ray-tracing model in both red and near-infrared (NIR) bands ( R 2 ≥ 0.93, RRMSE ≤3.96%) and with multi-angular unmanned aerial vehicle (UAV) observations ( R 2 = 0.94, RMSE ≤0.0252, RRMSE ≤12.44%). Structural sensitivity analysis showed stable performance across the tested intercropping configurations, with the RRMSE remaining below 8%. RTAS also outperformed the Spectral Linear Mixture (SLM) model and GO baseline, whose red-band errors exceeded 14% and reached nearly 27% at large solar zenith angles. Furthermore, component-level analysis revealed a wavelength-dependent difference between geometric visibility and radiative contribution in the NIR band, associated with enhanced multiple scattering and non-negligible contributions from shaded vegetation. RTAS provides an efficient forward simulation framework with potential for future retrieval studies in complex strip-intercropping structures.",
-  "citation_count": 0,
-  "concepts": [
-   "Radiative transfer",
-   "Atmospheric radiative transfer codes",
-   "Remote sensing"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7215051418",
-  "title": "Improving regional winter wheat yield estimation by assimilating cross-scale heterogeneity information from UAV and satellite remote sensing",
-  "authors": [
-   "Zhikai Cheng",
-   "Xiaobo Gu",
-   "Yang Xu",
-   "Xiaohai Fang",
-   "Zhengtao Zhang",
-   "Penglin Li",
-   "Yupeng Li",
-   "Shikun Sun",
-   "Yadan Du",
-   "Huanjie Cai"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-01",
-  "doi": "10.1016/j.rse.2026.115701",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115701",
-  "abstract": "Accurate high-resolution winter wheat yield estimation remains challenging in heterogeneous agricultural systems. Conventional yield estimation approaches remain limited by high uncertainty (process-based crop models) or weak transferability due to insufficient physical knowledge and scarce sample sizes (statistical models based on remote sensing data). Data assimilation offers a promising approach to overcome these limitations, but its performance is constrained by the neglect of heterogeneous information within assimilation grids, particularly in low-intensity agricultural systems. Therefore, we developed a novel cross-scale data assimilation framework to enhance winter wheat yield estimation by integrating unmanned aerial vehicle (UAV) and satellite remote sensing with the WOFOST crop model. First, UAV-derived crop-soil parameters, including leaf area index (LAI), aboveground biomass (AGB), and soil moisture at 10 and 20 cm depths (SMC-10 and SMC-20), served as a bridge linking in situ sampling data with Sentinel satellite images. Next, a mixture density network (MDN) was employed to construct an upscaling model for predicting probability distributions, thereby obtaining the distribution of crop-soil parameters within each satellite pixel as field heterogeneity information. Finally, these heterogeneity distributions were incorporated into WOFOST through an improved particle filter to generate high-resolution yield (10 m × 10 m) estimates at the regional scale. The results showed that robust crop-soil parameter inversion models were constructed using random forest with multispectral and thermal UAV images (R 2 : 0.73–0.88; NRMSE: 12.30%–22.83%). The MDN quantified within-pixel heterogeneity of crop-soil parameters through a UAV-satellite upscaling approach. The joint assimilation of LAI, AGB, and SMC-10 achieved optimal winter wheat yield estimation performance for MDN-based cross-scale data assimilation (R 2 = 0.83, NRMSE = 15.70% in 2024–2025), outperforming satellite-based and mean-based cross-scale assimilation. The proposed framework showed stable interannual performance in Xianyang (RMSE ≤758 kg ha −1 , NRMSE ≤17.20% in 2017–2023) and reasonable transferability in two external winter wheat regions (RMSE ≤943 kg ha −1 ; NRMSE ≤18.29% in Baoding and Changji). Overall, the cross-scale data assimilation framework exhibited strong performance in wheat yield estimation and would provide scientific support for intensive agricultural development.",
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Environmental science",
-   "Satellite"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7215069828",
-  "title": "Tackling fluffy clouds: robust agricultural field boundary delineation from Sentinel-1 and Sentinel-2 satellite image time series",
-  "authors": [
-   "Foivos I. Diakogiannis",
-   "Zheng-Shu Zhou",
-   "Jeff Wang",
-   "Gonzalo Mata",
-   "David A. Henry",
-   "Roger Lawes",
-   "Amy Laura Parker",
-   "Peter A. Caccetta",
-   "Suzanne L. Furby",
-   "Rodrigo Ibata",
-   "Ondrej Hlinka",
-   "Jonathan Richetti",
-   "Kathryn L. Batchelor",
-   "Chris Herrmann",
-   "Andrew Toovey",
-   "John Taylor"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-01",
-  "doi": "10.1016/j.rse.2026.115695",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115695",
-  "abstract": "Accurate delineation of agricultural field boundaries is essential for effective crop monitoring and resource management. However, competing methodologies often face significant challenges, particularly in their reliance on extensive manual efforts for cloud-free data curation and their limited adaptability to diverse global conditions. In this paper, we introduce PTAViT3D, a deep learning architecture specifically designed for processing three-dimensional time series of satellite imagery from either Sentinel-1 (S1) or Sentinel-2 (S2). Additionally, we present PTAViT3D-CA, an extension of the PTAViT3D model incorporating cross-attention mechanisms to fuse S1 and S2 datasets, enhancing robustness in cloud-contaminated scenarios. The proposed methods leverage spatio-temporal correlations through a memory-efficient 3D Vision Transformer architecture, facilitating accurate boundary delineation directly from preprocessed, cloud-affected imagery. We comprehensively validate our models through extensive testing on various datasets, including Australia’s ePaddocks™ – CSIRO’s national, continental-scale agricultural field boundary product covering Australia’s cropping regions – alongside public benchmarks Fields-of-the-World, PASTIS, and AI4SmallFarms. Our results consistently demonstrate state-of-the-art performance, highlighting excellent global transferability and robustness. Crucially, our approach significantly simplifies data preparation workflows by reliably processing cloud-affected imagery, thereby offering strong adaptability across diverse agricultural environments. Our code and models are publicly available at https://github.com/feevos/tfcl .",
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Series (stratigraphy)",
-   "Satellite"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
   "is_own": false
  }
 ]
