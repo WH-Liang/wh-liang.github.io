@@ -1,131 +1,60 @@
 [
  {
-  "id": "openalex:W7218622650",
-  "title": "Towards continental-scale SWOT-based modeling of reservoir operations",
+  "id": "arxiv:2610.05790v1",
+  "title": "FairRSFM: A Biome-Aware Benchmark and Debiasing Framework for Remote Sensing Foundation Models",
   "authors": [
-   "Elyssa L. Collins",
-   "Augusto Getirana",
-   "Sujay Kumar",
-   "Yeosang Yoon",
-   "Chi-Hsiang Huang",
-   "Huilin Gao",
-   "Fuad Yassin"
+   "Md Aminur Hossain",
+   "Omkumar Vaghasiya",
+   "Rajeev Ranjan Dwivedi",
+   "Vinod Kurmi",
+   "Biplab Banerjee"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-04",
-  "doi": "10.1016/j.rse.2026.115714",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115714",
-  "abstract": null,
+  "date": "2026-10-05",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.05790v1",
+  "url": "https://arxiv.org/abs/2610.05790v1",
+  "abstract": "Remote sensing foundation models (RSFMs) are commonly evaluated using aggregate metrics, which can hide systematic performance disparities across ecological regions. We introduce FairRSFM, a biome-aware benchmark for evaluating ecological group robustness in RSFMs. FairRSFM maps georeferenced samples from 14 terrestrial biome classes into six ecologically meaningful macro-groups and evaluates models under a unified frozen-backbone evaluation protocol. The benchmark covers four downstream datasets: m-EuroSAT, m-BigEarthNet, m-SA-Crop-Type, and MMEarth20K with Dynamic World label maps. Using Prithvi-EO-2.0, SatMAE, and DOFA across three random seeds, we show that aggregate performance consistently masks biome-dependent disparities across architectures and tasks. For example, Prithvi-EO-2.0 reaches 90.98% overall macro-F1 on m-EuroSAT but a mean worst-group score of only 83.72%, while m-SA-Crop-Type drops from 27.30% overall mIoU to 18.47% in the Xeric and Mineralogical group. We further evaluate Biome-Orthogonal Linear Probing (BOLP), Dynamic Biome Reweighting (DBR), and GroupDRO as complementary mitigation baselines. Their effectiveness is model- and task-dependent; for example, BOLP improves Prithvi-EO-2.0 worst-group F1@opt on m-BigEarthNet from 46.12% to 50.27% without updating the RSFM backbone. FairRSFM provides a reusable protocol for diagnosing and mitigating ecological robustness gaps in remote sensing foundation models. Code and datasets are available at: https://github.com/aminurhossain/FairRSFM.",
   "citation_count": 0,
   "concepts": [
-   "Remote sensing",
-   "Geology",
-   "Environmental science"
+   "cs.CV"
   ],
-  "source": "openalex",
+  "arxiv_id": "2610.05790v1",
+  "source": "arxiv",
   "topics": [
    "遥感"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7215896942",
-  "title": "Single-scene thin-cloud correction for dynamic macroalgal blooms via water-referenced radiative transfer",
+  "id": "arxiv:2610.05731v1",
+  "title": "T-JEPA: A Temporal Joint-Embedding Predictive Architecture for Learning Better Remote Sensing Representations",
   "authors": [
-   "Furong Zhang",
-   "Shaohui Chen",
-   "Hongbo Su",
-   "Kai Liu",
-   "Chengyi Wang",
-   "Weimin Wang"
+   "Bowen Peng",
+   "Li Liu",
+   "Yongxiang Liu",
+   "Weijie Li",
+   "Jie Zhou",
+   "Zhen Liu"
   ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-03",
-  "doi": "10.1016/j.jag.2026.105619",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105619",
-  "abstract": "Thin clouds substantially attenuate spectral signals in satellite imagery, leading to systematic underestimation of macroalgal bloom coverage. Existing thin-cloud correction methods have critical limitations for dynamically drifting blooms: they typically require paired cloudy-clear observations or stable surface conditions, which are rarely available, or inadequately account for cloud-induced attenuation, particularly in the near-infrared band that is essential for algal quantification. This study proposes a single-scene thin-cloud correction framework for dynamic macroalgal blooms that removes both additive scattering and multiplicative attenuation from visible to NIR bands. By exploiting local atmospheric consistency between algal patches and adjacent water, the method infers localized cloud effects from neighboring water pixels. Cloud-free and cloud-affected water pixels are first identified to estimate clear-sky and cloudy top-of-atmosphere reflectance. A linear conversion model derived from radiative transfer theory then relates these two reflectances through coefficients C T and C R , whose relationship is constrained by a MODTRAN-based lookup table (LUT). The coefficients are solved by combining the conversion model with a quadratic polynomial relationship between C T and C R established from the LUT. Validation using GaoFen‑1 and Landsat‑8 imagery against near-concurrent Sentinel‑2 observations over the Southern Yellow Sea demonstrates effective near-infrared restoration. Using two complementary validation strategies—macroalgal area estimation from real images and reflectance evaluation from simulated cloudy data—the proposed method achieves consistently higher accuracy than representative state‑of‑the‑art methods. Application to golden tide events in the East China Sea further confirms its robustness and transferability. The method provides a practical, physics-guided solution for monitoring dynamic macroalgal blooms under thin-clouds contamination.",
+  "date": "2026-10-05",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.05731v1",
+  "url": "https://arxiv.org/abs/2610.05731v1",
+  "abstract": "Earth observation (EO) data provide rich temporal supervision, yet existing remote sensing foundation models mainly exploit sequential observations through imposing predefined pairwise relations or aggregating holistic reconstruction context. We seek to further exploit the sparse and nonuniform temporal sampling inherent in EO sequences as supervisory signals. To this end, we propose T-JEPA, a temporal joint-embedding predictive architecture that learns time-gap-conditioned latent transitions. A shared single-frame encoder processes each observation, while a temporal predictor estimates the complete target latent field from a masked source latent representation and the actual elapsed time. Across multiple temporal intervals, these predictive constraints organize observed states into structured latent trajectories. Asymmetric metadata injection mitigates shortcut learning, and direct supervision across multiple temporal scales proves more effective than recursively rolling out intermediate states. In parallel, masked pixel reconstruction provides complementary supervision for preserving spatial details. Under matched pre-training data and throughput, T-JEPA achieves leading transfer performance on both static and temporal tasks. Analyses further reveal that T-JEPA learns representations with time-gap-dependent transition predictability and coherent latent dynamics, while maintaining strong cross-period consistency, representation diversity, and semantic discriminability.",
   "citation_count": 0,
   "concepts": [
-   "Radiative transfer",
-   "Environmental science",
-   "Remote sensing"
+   "cs.CV"
   ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7218499966",
-  "title": "Satellite-based coastal monitoring through variance image composites (SatVar)",
-  "authors": [
-   "Pilar Martín-Gallego",
-   "Juan Montes",
-   "Irene Delgado‐Fernández",
-   "Laura Del Rı́o",
-   "Theocharis A. Plomaritis",
-   "Christopher G. Marston"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-03",
-  "doi": "10.1016/j.jag.2026.105630",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105630",
-  "abstract": "The past decade has seen rapid advancements in satellite remote sensing data availability and analysis. In coastal environments, this has enabled regional to global assessments of shoreline trends, a key practical application for management and planning. However, coastal zones are inherently dynamic, while instantaneous shorelines only capture the state of the system at a particular moment in time. This study introduces a novel approach for monitoring dynamic coastal environments using satellite imagery, adapting the principle from ground-based video monitoring systems. The SatVar approach presented here uses freely available, medium resolution satellite imagery and Google Earth Engine. The method takes advantage of the increasing availability of cost-free Sentinel-2 imagery and the flexibility of collections acquired over different time periods to automatically detect highly dynamic zones through variance composites, image compositing and segmentation to obtain medium-term trends of coastal dynamics. Natural boundaries are rarely abrupt, so a zone-based (instead of a line-based) approach provides more nuanced information about transitional zones. The identified highly dynamic zones correspond to morphological processes described in literature, and are also used for shoreline extraction. This combined information can enrich understanding of coastal dynamics and overcome some of the limitations of instantaneous shorelines. The approach is tested at three locations with different morphodynamic characteristics and tidal regimes: Sancti Petri (Spain, mesotidal), Narrabeen (Australia, microtidal) and Sefton (UK, macrotidal). Potential applications to monitor changes outside the upper shoreface such as coastal dune dynamics or back-barrier environments are also discussed.",
-  "citation_count": 0,
-  "concepts": [
-   "Shore",
-   "Compositing",
-   "Remote sensing"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7218582435",
-  "title": "Robust hyperspectral retrieval of mangrove functional traits across species and spatial scales using GA-ELM",
-  "authors": [
-   "Zhijun Feng",
-   "Shan Lu",
-   "Rong Zhang",
-   "Haihang Zeng",
-   "Chuanpeng Zhao",
-   "Mingming Jia",
-   "Zongming WANG"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-03",
-  "doi": "10.1016/j.jag.2026.105616",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105616",
-  "abstract": "Plant functional traits provide critical indicators of ecosystem functioning, biodiversity maintenance, and plant adaptive strategies under environmental change. However, hyperspectral retrieval of mangrove functional traits remains challenging because trait-related spectral signals are strongly influenced by species composition, canopy structural heterogeneity, and intertidal background effects, leading to unstable trait-spectrum relationships across species and scales. To address these limitations, this study developed a genetic algorithm-optimized extreme learning machine (GA-ELM) framework for robust retrieval of mangrove functional traits under heterogeneous mangrove spectral conditions. Three key traits, including chlorophyll content (Cab), equivalent water thickness (EWT), and leaf mass per area (LMA), were retrieved for four dominant mangrove species using leaf-level hyperspectral measurements and canopy-scale GF-5 imagery. GA-ELM generally outperformed PLSR, RF, and conventional ELM in species-specific comparisons. Leave-one-species-out validation yielded R 2 ranges of 0.61–0.75 for Cab, 0.60–0.72 for EWT, and 0.66–0.76 for LMA, indicating moderate predictive capability for previously unseen species, with performance varying among species and traits. At the canopy scale, GA-ELM achieved stable estimation accuracy for Cab, EWT, and LMA based on GF-5 imagery ( R 2 > 0.75), demonstrating that the framework can be independently calibrated for canopy-scale retrieval. Independent cross-regional validation yielded R 2 values of 0.60, 0.49, and 0.44 for Cab, EWT, and LMA, respectively, indicating moderate but reduced cross-regional transferability. Spectral sensitivity and band-selection analyses revealed species- and trait-dependent patterns that provided context for interpreting variation in predictive performance. These results remain conditional on one GF-5 acquisition per site and 30 m mixed-pixel conditions, and broader tidal-stage and cross-sensor validation is still required. These findings demonstrate the potential of GA-ELM for hyperspectral retrieval and spatial mapping of mangrove functional traits.",
-  "citation_count": 0,
-  "concepts": [
-   "Hyperspectral imaging",
-   "Mangrove",
-   "Canopy"
-  ],
-  "source": "openalex",
+  "arxiv_id": "2610.05731v1",
+  "source": "arxiv",
   "topics": [
    "遥感",
    "计算机视觉",
@@ -134,147 +63,194 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7218339222",
-  "title": "Spaceborne multi-sensor tracking reveals hydrologic decoupling during the record-breaking Sahara flood",
+  "id": "arxiv:2610.05639v1",
+  "title": "FOCUS: Fine-Grained Open-Vocabulary Change Detection for Uncertainty-Aware Semi-Static Scenes",
   "authors": [
-   "Jun Li",
-   "Richard Iestyn Woolway",
-   "Kai Liu",
-   "Hui Zhang",
-   "Chunqiao Song"
+   "Can Xu",
+   "Mingfeng Yuan",
+   "Mahan Mohammadi",
+   "Steven L. Waslander"
   ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-03",
-  "doi": "10.1080/15481603.2026.2740867",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2740867",
-  "abstract": "Satellite remote sensing enables large-scale quantification of extreme hydrologic events in data-scarce regions, yet the integration of multi-sensor observations to resolve hydrologic responses remains limited. The record-breaking 2024 Sahara flood presents a unique opportunity to evaluate satellite-based characterisation of hydrologic extremes in hyper-arid environments. By integrating multi-sensor satellite observations of precipitation, surface inundation, and terrestrial water storage, we provide a comprehensive assessment of this event’s hydrologic scope. Intense rainfall, delivering annual precipitation totals within just a few days, triggered widespread flooding, with the 2024 inundation extent estimated to show an approximate cross-sensor increase of 38 ± 9% relative to the historical GLAD/Landsat benchmark (1999–2023), reaching up to a 40-fold increase in some basins. Concurrently, regional terrestrial water storage exhibited an unprecedented surge, with its intra-annual amplitude doubling the long-term average. However, this hydrologic response was spatially variable. In the eastern basins, surface inundation and terrestrial water storage increased concurrently, indicating strong hydrologic coupling. In contrast, several western basins exhibited pronounced surface flooding but comparatively weak TWS responses, revealing a decoupling between flood magnitude and basin-scale storage response. These findings highlight the capability of multi-sensor satellite observations to resolve spatially heterogeneous hydrologic responses and reveal the non-stationarity in the conversion of flood hazards into terrestrial water storage gains in hyper-arid environments. This study provides a transferable approach for monitoring hydrologic extremes in ungauged regions.",
+  "date": "2026-10-05",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.05639v1",
+  "url": "https://arxiv.org/abs/2610.05639v1",
+  "abstract": "Autonomous robots operating over long periods must keep their environmental memory up to date as the world changes between visits. In semi-static environments, an object may be replaced in place by a different but geometrically and semantically similar instance, making the identity change difficult to detect from geometry or coarse semantics alone. We present FOCUS, an uncertainty-aware framework for object-level change detection and map maintenance. We formulate semi-static memory maintenance as probabilistic inference that fuses geometric likelihood with appearance likelihood rendered from a 3D Gaussian map. A recursive three-state estimator maintains whether each mapped object is PERSISTED, REPLACED, or REMOVED. To account for imperfect 3DGS rendering, we model the rendered appearance evidence probabilistically rather than using it as a direct change score, with the model parameters automatically calibrated from a change-free replay of the initial mapping session. We evaluate our method on a new Isaac Sim warehouse benchmark with ambiguous in-place replacements and on the real-world TorWIC dataset. It improves object-level replacement F1 from 0.20 to 0.84 over a probabilistic baseline and transfers to real-world data without manual parameter retuning.",
   "citation_count": 0,
   "concepts": [
-   "Environmental science",
-   "Flood myth",
-   "Hydrological modelling"
+   "cs.RO"
   ],
-  "source": "openalex",
+  "arxiv_id": "2610.05639v1",
+  "source": "arxiv",
   "topics": [
    "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7215062018",
-  "title": "A scene-mapped framework for deriving clear-sky surface longwave downward radiation from remotely sensed measurements",
-  "authors": [
-   "Yihan Du",
-   "Tianxing Wang",
-   "Yi Zheng",
-   "Dahui Li",
-   "Yuyang Xian",
-   "Feiyao Gao",
-   "Stefan A. Buehler"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-02",
-  "doi": "10.1016/j.rse.2026.115707",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115707",
-  "abstract": "Accurate estimation of clear-sky surface longwave downward radiation (LWDR) is fundamental to surface energy budget studies, yet widely used parameterizations and conventional lookup-table (LUT) searches often suffer from regional biases and limited transferability. This study develops a scene-mapped LUT framework that operates in brightness-temperature (BT) space and uses surface temperature (ST) and total column water vapor (TCWV) as physical descriptors to define scene-specific subsets and constrain spectral matching to locally consistent surface–atmosphere states. Two implementations are proposed within the scene-mapped framework: S-Poly (polynomial regression) and S-LUT (sub-LUT distance search). Validation against multi-network ground measurements using MODIS inputs yielded RMSEs of 26.36 and 26.89 W m −2 and biases of −0.86 and −2.75 W m −2 for S-LUT and S-Poly, respectively. The corresponding RMSEs were lower than those of the global-LUT benchmark (29.26 W m −2 ) and the evaluated general clear-sky parameterization benchmark (30.03 W m −2 ), representing reductions of 12.2% and 10.5% relative to the latter. Both methods generally maintained stable accuracy across diverse surface types and climatic regions. S-LUT was more consistent across the evaluated configurations and achieved an RMSE of 22.48 W m −2 under the mixed MODIS–ERA5 configuration. The flexible scene-mapping framework may also provide a useful methodological concept for adapting radiation retrieval to different sensors and exploring future extensions toward all-sky conditions.",
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Longwave",
-   "Environmental science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7215681984",
-  "title": "Assessing plant area index and 3D plant area distribution in wheat canopies from a terrestrial LiDAR system for high-throughput plant phenotyping",
-  "authors": [
-   "Raúl López‐Lozano",
-   "Tian Ma",
-   "Maxime Soma",
-   "Marie Weiss",
-   "Aurélien Ausset",
-   "Philippe Burger",
-   "Bruno Berthon",
-   "Romain Chapuis",
-   "Marie-Pia D'argaignon",
-   "Antonin Grau",
-   "Florian Larue",
-   "Romane Le-Roy",
-   "Rémy Marandel",
-   "Vincent Mercier",
-   "Mathieu Roy",
-   "Gilles Tison",
-   "Frédéric Venault",
-   "Pierre Martre",
-   "Frédéric Baret"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-02",
-  "doi": "10.1016/j.rse.2026.115711",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115711",
-  "abstract": "This study investigates a new methodology to estimate plant area index ( PAI ) and its spatial distribution from 3D point clouds acquired by a system of 3 LiDARs (2 nadir-viewing and one at 45°) mounted on the Phenomobile Unmanned Ground Vehicle designed for high-throughput phenotyping of herbaceous crops. It relies on the computation of the gap fraction at the voxel level using the trajectories of the laser beams to numerically invert the Beer-Lambert law (BL), enabling the simultaneous estimation of PAI and AIA (Average Inclination Angle, in°). The method is evaluated on wheat crops both in silico (i.e. simulations based on the AdelWheat functional structural crop model coupled with a point cloud simulator) and in actual phenotyping trials of a panel of 10 bread wheat genotypes grown in two study sites under different treatments of plant density, water stress and sowing dates. The in silico validation indicates that the numeric inversion of BL with the LiDAR system of the Phenomobile leads to a relative error of 9.8% (RMSE = 0.32, R 2 = 0.99) and 8.4% (RMSE =5.4°, R 2 = 0.95) in the estimation of PAI and AIA , respectively. The validation in actual phenotyping experiments against destructive measurements produced satisfactory results for canopy PAI (RMSE = 1.44, R 2 = 0.82), while requiring prior knowledge on AIA , e.g. either by (i) introducing a regularization term in the cost function used to invert BL, to avoid unexpected high AIA estimations, (ii) using a fixed, reference value of 60°. The analysis of the results indicates that the inclusion of a regularization term mitigates the impact of actual differences in leaf inclination among cultivars on PAI accuracy, while providing a relative description of the actual variability in the vertical profile of leaf inclination across the different cultivars.",
-  "citation_count": 0,
-  "concepts": [
-   "Point cloud",
-   "Remote sensing",
-   "Lidar"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
+   "计算机视觉",
    "三维与几何"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7215849220",
-  "title": "Hydroclimatic signatures of flash drought heterogeneity and rice-yield responses in China",
+  "id": "arxiv:2610.05870v1",
+  "title": "Certification of Real Images through Calibrated Content Authentication",
   "authors": [
-   "Yangyang Li",
-   "Yanchao Zheng",
-   "Huazhu Xue",
-   "Yanmin Jiang",
-   "栾文飞",
-   "Tianjie Zhao",
-   "Jie Wang",
-   "Xuhui BU"
+   "Sarim Hashmi",
+   "Abdelrahman Elsayed",
+   "Mohammed Talha Alam",
+   "Samuele Poppi",
+   "Nils Lukas"
   ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-02",
-  "doi": "10.1080/15481603.2026.2741471",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2741471",
-  "abstract": null,
+  "date": "2026-10-05",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.05870v1",
+  "url": "https://arxiv.org/abs/2610.05870v1",
+  "abstract": "Generative models can synthesize high-quality inauthentic multimedia content that is already being misused at scale. We evaluate twenty deepfake detectors against ten generators released in the last four years and find accuracy decreasing over time, from near-perfect 99.5% to 76%. Adversarial perturbations further reduce every baseline detector to below 2% accuracy, effectively inverting the detector's assigned label. We argue that this unreliability reflects a fundamental ambiguity: generators can reproduce authentic content exactly (e.g., through memorization), so content alone cannot reveal the true provenance label.For this reason, content produced by a generator must admit a faithful reconstruction by that same generator, and finding such a reconstruction makes synthetic provenance plausible and authenticity plausibly deniable.We therefore propose and evaluate a detection paradigm that outputs a calibrated prediction of whether authenticity is plausibly deniable: a faithful reconstruction by any known generator establishes plausible deniability, while calibration bounds how often content from known generators fails to be reproduced. Our evaluation shows that (i) our detector can be calibrated so that at most 1% of generated content is wrongly certified, an operating point at which most baseline detectors reach near-zero recall, including the strongest with 93% accuracy; (ii) calibrating a stricter security threshold on attacked samples preserves this bound against adaptive adversaries within the evaluated bounded-perturbation attack space, whose perturbations break every baseline, but does not cover arbitrary adversarial transformations; and (iii) post-hoc verifiability is eroding, as 1,116 of 3,000 Reddit images resist reproduction by a 2022 generator, but only 55 to 79 resist reproduction by 2024 generators.",
   "citation_count": 0,
   "concepts": [
-   "China",
-   "Environmental science",
-   "Climatology"
+   "cs.CV"
   ],
-  "source": "openalex",
-  "topics": [],
+  "arxiv_id": "2610.05870v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.05865v1",
+  "title": "Weave Mamba Fusion: Global Cross-Scale Interaction for Lightweight Face Detection",
+  "authors": [
+   "Dohun Kim",
+   "Jinmyung Jung"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-05",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.05865v1",
+  "url": "https://arxiv.org/abs/2610.05865v1",
+  "abstract": "Feature pyramid methods, from FPN to BiFPN, have achieved strong performance in face detection by fusing multi-scale features. However, detecting faces under unconstrained conditions, such as small scale, occlusion, and extreme pose, remains difficult, as it requires global cross-scale dependencies that local fusion cannot model. State space models such as Mamba provide global context with linear complexity by scanning features as a sequence, and therefore offer a promising direction for this problem. Nevertheless, such a scan needs the two pyramid scales combined into a single feature map, and the way they are combined determines whether cross-scale structure is preserved. Summation collapses the two scales before the scan, so the scan has no cross-scale structure to exploit, while concatenation keeps both scales but at far higher cost. To address this, we propose \\textbf{Weave Mamba Fusion (WMF)}, which interleaves two adjacent pyramid scales column by column so that each step of a horizontal bidirectional SS2D scan moves from one scale to the other. With partial-channel processing and parameter-free de-weaving, WMF enables efficient cross-scale interaction while preserving feature structure. Integrating WMF into every fusion node yields \\textbf{WeaveBiFPN}, the neck of our \\textbf{WeaveFace} detector. On WIDER FACE, WeaveFace achieves 91.41\\% mean AP with only 0.34M parameters and 1.16 GFLOPs, outperforming prior detectors under 0.5M parameters. Its largest gains are on the Hard subset, where it reaches 87.14\\% AP. The code is publicly available at \\url{https://github.com/dohun-mat/WeaveMambaFusion}.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV",
+   "cs.AI"
+  ],
+  "arxiv_id": "2610.05865v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.05861v1",
+  "title": "Imagine to Act: High-Fidelity Data Synthesis via Image Editing World Model for Scalable GUI Agent Training",
+  "authors": [
+   "Yongxin Ning",
+   "Runliang Niu",
+   "Qianli Xing",
+   "Zhiyi Duan",
+   "Qingzu He",
+   "Pan Wang",
+   "Qi Wang"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-05",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.05861v1",
+  "url": "https://arxiv.org/abs/2610.05861v1",
+  "abstract": "Graphical User Interface (GUI) agents have emerged as a promising paradigm for automating complex digital workflows across diverse applications. However, training highly capable and generalizable agents fundamentally relies on massive, high-fidelity visual-action trajectories, which are notoriously difficult to acquire. While human demonstrations are unscalable, existing GUI world models rely on text descriptions or HTML rendering, discarding crucial pixel-level visual details like icons and layout styles. To address this issue, we introduce Infinite-Dreamer, a simulation-free data synthesis method powered by a pixel-level Image Editing World Model. By conceptualizing GUI transitions as image editing tasks, we leverage Vision-Language Models (VLMs) to describe action-induced UI changes as structured delta-text. We then fine-tune an image editing backbone to controllably synthesize realistic screenshot transitions. We utilize this model to generate both single-frame visual robustness data and multi-step imaginary trajectories. To validate the effectiveness of our approach, we fine-tune the Qwen3-VL baseline solely on the synthesized data to obtain Infinite-Actor, and evaluate it on AndroidWorld, MobileWorld, and AndroidControl-Curated benchmarks. Infinite-Actor consistently outperforms the Qwen3-VL baselines across scales: Infinite-Actor-8B improves AndroidWorld Pass@1 by +4.45 and nearly doubles the MobileWorld Pass@3 success rate, while Infinite-Actor-2B improves Pass@1 by +9.05. Code is available at https://github.com/swaydy-n/Infinite-Dreamer.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV",
+   "cs.AI"
+  ],
+  "arxiv_id": "2610.05861v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.05839v1",
+  "title": "Dual-Rate Force-Image Control with Model-Based Orientation Limits for Robotic Ultrasound",
+  "authors": [
+   "Tyler Foster",
+   "Qiang Zhang",
+   "A B M Tahidul Haque",
+   "Anh Thu Nguyen"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-05",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.05839v1",
+  "url": "https://arxiv.org/abs/2610.05839v1",
+  "abstract": "Robotic ultrasound couples a high-rate contact-force loop with slower, delayed image feedback, so image-guided ultrasound probe rotation can perturb contact force before the resulting image response is observed. We derive a closed-form orientation-rate limit that bounds the modeled rotation-induced estimated-force excursion over a finite horizon while accounting for disturbance rejection by the fast force loop. The limit depends on local contact stiffness, force-loop gains, a conservative rotation-to-force gain bound, the excursion budget, and the prediction horizon. We implement this model in a dual-rate controller with timestamp-based delay reconstruction and joint-torque-based force estimation, and evaluate it on a curved gelatin phantom using paired controller comparisons and component ablations. Relative to unconstrained image guidance, the proposed rate-limited controller reduced first-second root-mean-square (RMS) estimated-force error by 0.40 N while increasing cue-convergence time by 0.94 s. A fixed rate cap near the analytically predicted ceiling produced no resolvable difference in force error and converged 0.32 s faster, indicating that the principal practical value of the model is the rate-design rule rather than online prediction. Delay reconstruction had no resolvable effect at the tested latency. A single-subject popliteal scan demonstrated feasibility, although the image cue was noise-limited on heterogeneous tissue.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.RO",
+   "cs.CV",
+   "eess.SY"
+  ],
+  "arxiv_id": "2610.05839v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.05816v1",
+  "title": "Level-of-Token Diffusion",
+  "authors": [
+   "Kiyohiro Nakayama",
+   "Brian Chao",
+   "Jan Ackermann",
+   "Hansheng Chen",
+   "Federico Tombari",
+   "Leonidas Guibas",
+   "Lior Yariv",
+   "Gordon Wetzstein"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-05",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.05816v1",
+  "url": "https://arxiv.org/abs/2610.05816v1",
+  "abstract": "Image and video diffusion models allocate equal computation to every region, even when the intended scene calls for varying levels of detail. The spatial distribution of detail can often be anticipated before generation, indicating where computation can be reduced. We introduce Level-of-Token (LoT) Diffusion, a framework that turns this knowledge into an explicit multiresolution token layout (Level-of-Token layout) for adaptive and efficient generation. Tokens represent rectangular patches of varying sizes and shapes, allocating finer tokens where detail is needed and coarser tokens elsewhere. We adapt pretrained diffusion transformers to LoT layouts through a patch-wise asymmetric flow parametrization and embeddings for multiresolution tokens, preserving full-resolution flow prediction at every denoising step while processing only a reduced token sequence. LoT Diffusion enables layout-adaptive generation while preserving pretrained generative priors. We demonstrate LoT with layouts derived from semantic masks, bounding boxes, texture variance, and depth-of-field cues, as well as agentic plans. Across image and video generation, LoT offers favorable quality-efficiency tradeoffs, with significant speedups determined by the layout's token budget. Our project website is at https://georgenakayama.github.io/lotdiffusion/.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV",
+   "cs.AI"
+  ],
+  "arxiv_id": "2610.05816v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "三维与几何"
+  ],
   "is_own": false
  }
 ]
