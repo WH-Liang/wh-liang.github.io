@@ -1,59 +1,59 @@
 [
  {
-  "id": "arxiv:2610.05790v1",
-  "title": "FairRSFM: A Biome-Aware Benchmark and Debiasing Framework for Remote Sensing Foundation Models",
+  "id": "arxiv:2610.08126v1",
+  "title": "Supermarket Product Detection and Recognition: Utilizing Deep Learning with Rectified Imagery",
   "authors": [
-   "Md Aminur Hossain",
-   "Omkumar Vaghasiya",
-   "Rajeev Ranjan Dwivedi",
-   "Vinod Kurmi",
-   "Biplab Banerjee"
+   "Mayank Sah",
+   "Jimson Mathew"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.05790v1",
-  "url": "https://arxiv.org/abs/2610.05790v1",
-  "abstract": "Remote sensing foundation models (RSFMs) are commonly evaluated using aggregate metrics, which can hide systematic performance disparities across ecological regions. We introduce FairRSFM, a biome-aware benchmark for evaluating ecological group robustness in RSFMs. FairRSFM maps georeferenced samples from 14 terrestrial biome classes into six ecologically meaningful macro-groups and evaluates models under a unified frozen-backbone evaluation protocol. The benchmark covers four downstream datasets: m-EuroSAT, m-BigEarthNet, m-SA-Crop-Type, and MMEarth20K with Dynamic World label maps. Using Prithvi-EO-2.0, SatMAE, and DOFA across three random seeds, we show that aggregate performance consistently masks biome-dependent disparities across architectures and tasks. For example, Prithvi-EO-2.0 reaches 90.98% overall macro-F1 on m-EuroSAT but a mean worst-group score of only 83.72%, while m-SA-Crop-Type drops from 27.30% overall mIoU to 18.47% in the Xeric and Mineralogical group. We further evaluate Biome-Orthogonal Linear Probing (BOLP), Dynamic Biome Reweighting (DBR), and GroupDRO as complementary mitigation baselines. Their effectiveness is model- and task-dependent; for example, BOLP improves Prithvi-EO-2.0 worst-group F1@opt on m-BigEarthNet from 46.12% to 50.27% without updating the RSFM backbone. FairRSFM provides a reusable protocol for diagnosing and mitigating ecological robustness gaps in remote sensing foundation models. Code and datasets are available at: https://github.com/aminurhossain/FairRSFM.",
+  "pdf": "https://arxiv.org/pdf/2610.08126v1",
+  "url": "https://arxiv.org/abs/2610.08126v1",
+  "abstract": "Product Identification has sprung up to become one of the most challenging problems in the automation of the retail industry. With the new industry 5.0 standards, automated inventory management, and catalog creation tasks are vitally important. Object identification models have emerged as a viable answer with their unprecedented identification and localization accuracy. However, the close-knit rack design of supermarkets generates the problem of angle variation in capturing images. The angle-variant densely packed images(a single image contains many objects) become overwhelming for these models alone. In this paper, we try to supplement object detection models with traditional Hough transform (HT) and homogeneous estimation concepts. We study the effect of rectified images using homography estimation and hough transform and their limitations on the problem of grocery identification. We make a case for creating a new dataset to test the effects of such rectification and produce analytical results on different scenarios of angle variation and object densities per image. Extensive experiments on different object detection models suggest that image rectification of angled images improves the detection accuracy of grocery products in images. The results also highlight the limitation of rectification on the angle of image capture and the object density of the image.",
   "citation_count": 0,
   "concepts": [
-   "cs.CV"
+   "cs.CV",
+   "cs.AI"
   ],
-  "arxiv_id": "2610.05790v1",
+  "arxiv_id": "2610.08126v1",
   "source": "arxiv",
   "topics": [
-   "遥感"
+   "计算机视觉",
+   "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2610.05731v1",
-  "title": "T-JEPA: A Temporal Joint-Embedding Predictive Architecture for Learning Better Remote Sensing Representations",
+  "id": "arxiv:2610.07951v1",
+  "title": "A Multimodal Hyperspectral and Laser Speckle Imaging Platform for Simultaneous Monitoring of Spinal Cord Oxygenation, Perfusion and Metabolism",
   "authors": [
-   "Bowen Peng",
-   "Li Liu",
-   "Yongxiang Liu",
-   "Weijie Li",
-   "Jie Zhou",
-   "Zhen Liu"
+   "Junda Wang",
+   "Luca Giannoni",
+   "Ayse Gertrude Yenicelik",
+   "Eleni Giama",
+   "Frederic Lange",
+   "Ilias Tachtsidis"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.05731v1",
-  "url": "https://arxiv.org/abs/2610.05731v1",
-  "abstract": "Earth observation (EO) data provide rich temporal supervision, yet existing remote sensing foundation models mainly exploit sequential observations through imposing predefined pairwise relations or aggregating holistic reconstruction context. We seek to further exploit the sparse and nonuniform temporal sampling inherent in EO sequences as supervisory signals. To this end, we propose T-JEPA, a temporal joint-embedding predictive architecture that learns time-gap-conditioned latent transitions. A shared single-frame encoder processes each observation, while a temporal predictor estimates the complete target latent field from a masked source latent representation and the actual elapsed time. Across multiple temporal intervals, these predictive constraints organize observed states into structured latent trajectories. Asymmetric metadata injection mitigates shortcut learning, and direct supervision across multiple temporal scales proves more effective than recursively rolling out intermediate states. In parallel, masked pixel reconstruction provides complementary supervision for preserving spatial details. Under matched pre-training data and throughput, T-JEPA achieves leading transfer performance on both static and temporal tasks. Analyses further reveal that T-JEPA learns representations with time-gap-dependent transition predictability and coherent latent dynamics, while maintaining strong cross-period consistency, representation diversity, and semantic discriminability.",
+  "pdf": "https://arxiv.org/pdf/2610.07951v1",
+  "url": "https://arxiv.org/abs/2610.07951v1",
+  "abstract": "Hyperspectral imaging (HSI) enables spatial mapping of haemoglobin oxygenation and cytochrome-c-oxidase (CCO) redox changes in exposed neural tissue. In this study, we present a technical upgrade of an existing HSI platform by the integration of laser speckle contrast imaging (LSCI), enabling contemporaneous assessment of oxygenation, oxidative metabolism, relative perfusion and a derived relative oxygen metabolic index in exposed spinal cord in a rat preclinical model. The upgraded system (hNIR+) uses a shared optical path and a single camera to acquire HSI and LSCI images from the same field of view using a sequential acquisition workflow. Hyperspectral images are acquired at 11 discrete wavelengths (600, 630, 665, 784, 800, 818, 835, 851, 868, 881, and 894 nm) to estimate changes in oxygenated haemoglobin (HbO2), deoxygenated haemoglobin (HHb) and oxidized CCO (oxCCO). LSCI is implemented using 632.8-nm coherent illumination to generate relative blood-flow index (rBFI) maps. The LSCI subsystem was validated using a controlled blood-flow phantom, where the LSCI-derived inverse speckle contrast index showed a strong positive linear relationship with pump-controlled flow. The upgraded platform was then evaluated in proof-of-concept observations of the rat spinal cord under normoxia, hypoxia and recovery conditions. Representative multimodal maps and ROI-based time-course analysis showed clear dynamic responses in HbO2, HHb, oxCCO and rBFI during oxygen challenges that were consistent with the expected physiological responses of the spinal cord during hypoxia, hyperoxia and subsequent recoveries. Overall, these results demonstrate that integrating LSCI into HSI extends the platform to multimodal and simultaneous monitoring of haemodynamic-metabolic coupling.",
   "citation_count": 0,
   "concepts": [
-   "cs.CV"
+   "physics.med-ph",
+   "physics.optics"
   ],
-  "arxiv_id": "2610.05731v1",
+  "arxiv_id": "2610.07951v1",
   "source": "arxiv",
   "topics": [
    "遥感",
@@ -63,154 +63,128 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2610.05639v1",
-  "title": "FOCUS: Fine-Grained Open-Vocabulary Change Detection for Uncertainty-Aware Semi-Static Scenes",
+  "id": "arxiv:2610.07819v1",
+  "title": "$α$Transfer: Coefficient Transfer for Efficient Model Merging",
   "authors": [
-   "Can Xu",
-   "Mingfeng Yuan",
-   "Mahan Mohammadi",
-   "Steven L. Waslander"
+   "Shih-Cheng Huang",
+   "Zhi Rui Tam",
+   "Chieh-Yen Lin",
+   "Yun-Nung Chen",
+   "Hung-yi Lee",
+   "Shao-Hua Sun"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.05639v1",
-  "url": "https://arxiv.org/abs/2610.05639v1",
-  "abstract": "Autonomous robots operating over long periods must keep their environmental memory up to date as the world changes between visits. In semi-static environments, an object may be replaced in place by a different but geometrically and semantically similar instance, making the identity change difficult to detect from geometry or coarse semantics alone. We present FOCUS, an uncertainty-aware framework for object-level change detection and map maintenance. We formulate semi-static memory maintenance as probabilistic inference that fuses geometric likelihood with appearance likelihood rendered from a 3D Gaussian map. A recursive three-state estimator maintains whether each mapped object is PERSISTED, REPLACED, or REMOVED. To account for imperfect 3DGS rendering, we model the rendered appearance evidence probabilistically rather than using it as a direct change score, with the model parameters automatically calibrated from a change-free replay of the initial mapping session. We evaluate our method on a new Isaac Sim warehouse benchmark with ambiguous in-place replacements and on the real-world TorWIC dataset. It improves object-level replacement F1 from 0.20 to 0.84 over a probabilistic baseline and transfers to real-world data without manual parameter retuning.",
+  "pdf": "https://arxiv.org/pdf/2610.07819v1",
+  "url": "https://arxiv.org/abs/2610.07819v1",
+  "abstract": "Model merging offers a promising solution for combining multiple fine-tuned checkpoints into a single model through parameter arithmetic. However, finding optimal merging coefficients requires an extensive search that becomes prohibitively expensive as models scale in both size and number, due to high memory requirements and combinatorial growth in the search space. We show that, within the same model family, models exhibit highly congruent performance distributions over merging coefficients across different model sizes. This distributional similarity enables a practical paradigm we call \\textit{$α$Transfer}: searching for optimal coefficients on a small proxy model, then directly transfer them to larger target models. We verify $α$Transfer across multiple merging methods, model families, and tasks. Experimental results demonstrate a 6$\\times$ speedup and 70\\% memory reduction on vision transformers, and a 20$\\times$ speedup and 85\\% memory reduction on large language models, while maintaining comparable performance. Our findings establish $α$Transfer as an efficient and generalizable approach to scaling model merging.",
   "citation_count": 0,
   "concepts": [
-   "cs.RO"
-  ],
-  "arxiv_id": "2610.05639v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.05870v1",
-  "title": "Certification of Real Images through Calibrated Content Authentication",
-  "authors": [
-   "Sarim Hashmi",
-   "Abdelrahman Elsayed",
-   "Mohammed Talha Alam",
-   "Samuele Poppi",
-   "Nils Lukas"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-05",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.05870v1",
-  "url": "https://arxiv.org/abs/2610.05870v1",
-  "abstract": "Generative models can synthesize high-quality inauthentic multimedia content that is already being misused at scale. We evaluate twenty deepfake detectors against ten generators released in the last four years and find accuracy decreasing over time, from near-perfect 99.5% to 76%. Adversarial perturbations further reduce every baseline detector to below 2% accuracy, effectively inverting the detector's assigned label. We argue that this unreliability reflects a fundamental ambiguity: generators can reproduce authentic content exactly (e.g., through memorization), so content alone cannot reveal the true provenance label.For this reason, content produced by a generator must admit a faithful reconstruction by that same generator, and finding such a reconstruction makes synthetic provenance plausible and authenticity plausibly deniable.We therefore propose and evaluate a detection paradigm that outputs a calibrated prediction of whether authenticity is plausibly deniable: a faithful reconstruction by any known generator establishes plausible deniability, while calibration bounds how often content from known generators fails to be reproduced. Our evaluation shows that (i) our detector can be calibrated so that at most 1% of generated content is wrongly certified, an operating point at which most baseline detectors reach near-zero recall, including the strongest with 93% accuracy; (ii) calibrating a stricter security threshold on attacked samples preserves this bound against adaptive adversaries within the evaluated bounded-perturbation attack space, whose perturbations break every baseline, but does not cover arbitrary adversarial transformations; and (iii) post-hoc verifiability is eroding, as 1,116 of 3,000 Reddit images resist reproduction by a 2022 generator, but only 55 to 79 resist reproduction by 2024 generators.",
-  "citation_count": 0,
-  "concepts": [
+   "cs.LG",
+   "cs.CL",
    "cs.CV"
   ],
-  "arxiv_id": "2610.05870v1",
+  "arxiv_id": "2610.07819v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.05865v1",
-  "title": "Weave Mamba Fusion: Global Cross-Scale Interaction for Lightweight Face Detection",
-  "authors": [
-   "Dohun Kim",
-   "Jinmyung Jung"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-05",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.05865v1",
-  "url": "https://arxiv.org/abs/2610.05865v1",
-  "abstract": "Feature pyramid methods, from FPN to BiFPN, have achieved strong performance in face detection by fusing multi-scale features. However, detecting faces under unconstrained conditions, such as small scale, occlusion, and extreme pose, remains difficult, as it requires global cross-scale dependencies that local fusion cannot model. State space models such as Mamba provide global context with linear complexity by scanning features as a sequence, and therefore offer a promising direction for this problem. Nevertheless, such a scan needs the two pyramid scales combined into a single feature map, and the way they are combined determines whether cross-scale structure is preserved. Summation collapses the two scales before the scan, so the scan has no cross-scale structure to exploit, while concatenation keeps both scales but at far higher cost. To address this, we propose \\textbf{Weave Mamba Fusion (WMF)}, which interleaves two adjacent pyramid scales column by column so that each step of a horizontal bidirectional SS2D scan moves from one scale to the other. With partial-channel processing and parameter-free de-weaving, WMF enables efficient cross-scale interaction while preserving feature structure. Integrating WMF into every fusion node yields \\textbf{WeaveBiFPN}, the neck of our \\textbf{WeaveFace} detector. On WIDER FACE, WeaveFace achieves 91.41\\% mean AP with only 0.34M parameters and 1.16 GFLOPs, outperforming prior detectors under 0.5M parameters. Its largest gains are on the Hard subset, where it reaches 87.14\\% AP. The code is publicly available at \\url{https://github.com/dohun-mat/WeaveMambaFusion}.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.AI"
-  ],
-  "arxiv_id": "2610.05865v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.05861v1",
-  "title": "Imagine to Act: High-Fidelity Data Synthesis via Image Editing World Model for Scalable GUI Agent Training",
-  "authors": [
-   "Yongxin Ning",
-   "Runliang Niu",
-   "Qianli Xing",
-   "Zhiyi Duan",
-   "Qingzu He",
-   "Pan Wang",
-   "Qi Wang"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-05",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.05861v1",
-  "url": "https://arxiv.org/abs/2610.05861v1",
-  "abstract": "Graphical User Interface (GUI) agents have emerged as a promising paradigm for automating complex digital workflows across diverse applications. However, training highly capable and generalizable agents fundamentally relies on massive, high-fidelity visual-action trajectories, which are notoriously difficult to acquire. While human demonstrations are unscalable, existing GUI world models rely on text descriptions or HTML rendering, discarding crucial pixel-level visual details like icons and layout styles. To address this issue, we introduce Infinite-Dreamer, a simulation-free data synthesis method powered by a pixel-level Image Editing World Model. By conceptualizing GUI transitions as image editing tasks, we leverage Vision-Language Models (VLMs) to describe action-induced UI changes as structured delta-text. We then fine-tune an image editing backbone to controllably synthesize realistic screenshot transitions. We utilize this model to generate both single-frame visual robustness data and multi-step imaginary trajectories. To validate the effectiveness of our approach, we fine-tune the Qwen3-VL baseline solely on the synthesized data to obtain Infinite-Actor, and evaluate it on AndroidWorld, MobileWorld, and AndroidControl-Curated benchmarks. Infinite-Actor consistently outperforms the Qwen3-VL baselines across scales: Infinite-Actor-8B improves AndroidWorld Pass@1 by +4.45 and nearly doubles the MobileWorld Pass@3 success rate, while Infinite-Actor-2B improves Pass@1 by +9.05. Code is available at https://github.com/swaydy-n/Infinite-Dreamer.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.AI"
-  ],
-  "arxiv_id": "2610.05861v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
+   "机器学习",
    "多模态"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2610.05839v1",
-  "title": "Dual-Rate Force-Image Control with Model-Based Orientation Limits for Robotic Ultrasound",
+  "id": "arxiv:2610.07758v1",
+  "title": "Later Is Better: Token Reduction for ViTs Under Distribution Shift",
   "authors": [
-   "Tyler Foster",
-   "Qiang Zhang",
-   "A B M Tahidul Haque",
-   "Anh Thu Nguyen"
+   "Hyeongheon Cha",
+   "Hyungjun Yoon",
+   "Sung-Ju Lee"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.05839v1",
-  "url": "https://arxiv.org/abs/2610.05839v1",
-  "abstract": "Robotic ultrasound couples a high-rate contact-force loop with slower, delayed image feedback, so image-guided ultrasound probe rotation can perturb contact force before the resulting image response is observed. We derive a closed-form orientation-rate limit that bounds the modeled rotation-induced estimated-force excursion over a finite horizon while accounting for disturbance rejection by the fast force loop. The limit depends on local contact stiffness, force-loop gains, a conservative rotation-to-force gain bound, the excursion budget, and the prediction horizon. We implement this model in a dual-rate controller with timestamp-based delay reconstruction and joint-torque-based force estimation, and evaluate it on a curved gelatin phantom using paired controller comparisons and component ablations. Relative to unconstrained image guidance, the proposed rate-limited controller reduced first-second root-mean-square (RMS) estimated-force error by 0.40 N while increasing cue-convergence time by 0.94 s. A fixed rate cap near the analytically predicted ceiling produced no resolvable difference in force error and converged 0.32 s faster, indicating that the principal practical value of the model is the rate-design rule rather than online prediction. Delay reconstruction had no resolvable effect at the tested latency. A single-subject popliteal scan demonstrated feasibility, although the image cue was noise-limited on heterogeneous tissue.",
+  "pdf": "https://arxiv.org/pdf/2610.07758v1",
+  "url": "https://arxiv.org/abs/2610.07758v1",
+  "abstract": "Training-free token reduction accelerates vision transformers by removing redundant tokens across layers, recovering most of the original accuracy at a fraction of the compute. These methods, however, are designed and evaluated primarily on clean data, and under real-world distribution shift their accuracy gap to the uncompressed model widens with the removal rate. We show that this gap is governed by the reduction schedule, the depth profile of removal, usually left fixed as an implementation detail. Concretely, we introduce a one-parameter late-concentrated power-law schedule that consistently improves out-of-distribution accuracy over flat at no extra inference cost. On ImageNet-C with DeiT-S, the late schedule closes 83% of that gap at a 26% compute reduction (+1.17pp), and 99% of it at a lighter 7% reduction (+0.26pp). The gain cannot be attributed to retaining more tokens or using extra compute: held to flat's compute, the late schedule removes more tokens in total and leaves fewer tokens at the end, yet still wins. Single-layer probes point to a mechanism: earlier reductions perturb features that pass through more remaining layers, front-loading reduction error in depth. The effect is broad, holding across five token-reduction methods (ToMe, EViT, ATS, ATC, PiToMe), nine backbones, all ImageNet-C corruption types, eight further shift suites, and two further modalities, video and vision-language QA. It is also specific to shift, still positive on clean and rising monotonically to ~4x that at the highest severity 5. The schedule keeps its gain under six test-time adaptation methods, and needs no per-input or per-domain tuning.",
   "citation_count": 0,
   "concepts": [
-   "cs.RO",
    "cs.CV",
-   "eess.SY"
+   "cs.AI"
   ],
-  "arxiv_id": "2610.05839v1",
+  "arxiv_id": "2610.07758v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.07698v1",
+  "title": "RBMatch: Dual-Level Class Rebalancing for Semi-Supervised Building Footprint Extraction",
+  "authors": [
+   "Akil Ahmad Taki",
+   "Shaikh Anowarul Fattah"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-06",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.07698v1",
+  "url": "https://arxiv.org/abs/2610.07698v1",
+  "abstract": "Accurate building footprint extraction from high-resolution remote sensing imagery is essential for urban planning, disaster response, and environmental monitoring. However, obtaining dense pixel-level annotations is costly, motivating the use of semi-supervised learning (SSL) to leverage unlabeled imagery. In remote sensing, severe foreground--background imbalance poses a particular challenge for self-training, as it can bias pseudo-label generation and the resulting unsupervised optimization toward the majority background class. We show that addressing this imbalance at only one stage is insufficient: balancing pseudo-label selection alone does not prevent background bias from re-emerging during unsupervised loss optimization, a failure mode we term \\emph{imbalance leak}. To address this issue, we propose \\textbf{RBMatch}, a dual-level class-rebalancing framework that jointly regulates pseudo-label generation and unsupervised optimization. RBMatch combines a supervised learning pathway with a self-training module comprising three components: adaptive class-specific thresholding (ACT) for balanced pseudo-label selection, confidence-aware class-balanced reweighting (CACBR) for mitigating class bias in the unsupervised loss, and distribution alignment (DAL) for matching the predicted unlabeled-data distribution to the labeled-data prior. Experiments on the WHU, INRIA, and Massachusetts building footprint datasets across labeled ratios of 1%--10% show that RBMatch consistently achieves the best building IoU and F1-score among the evaluated methods. The improvement is most pronounced on the highly imbalanced Massachusetts dataset, where RBMatch improves IoU by 1.37 points over the strongest baseline at a 1% labeling ratio and is the only method to outperform the fully supervised baseline across all twelve dataset--ratio settings.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2610.07698v1",
+  "source": "arxiv",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.07669v1",
+  "title": "Evaluating human-AI workflows for field research in viticulture",
+  "authors": [
+   "Niko Carvajal Janke",
+   "Daoyuan Jin",
+   "Shivranjani Baruah",
+   "Nicholas Gunner",
+   "Jacob Maus",
+   "Yu Jiang",
+   "Kaitlin M. Gold"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-06",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.07669v1",
+  "url": "https://arxiv.org/abs/2610.07669v1",
+  "abstract": "We assessed the value of two live human-AI interactions in a precision disease control project in California vineyards. The project tested whether 2021-2024 commercial scouting records and remote-sensing measurements across 140 hectares could support 2025 red-leaf symptom forecasting for prioritized scouting and virus testing. In Workflow 1, Aleks v1, a multi-agent research system, developed forecasting models with iterative human refinement. We applied Aleks's 2024 vine-scale model to updated 2025 predictors and evaluated red-leaf forecasts against independent 2025 scouting. In retrospective simulations surveying 45% of all vine positions, adding model-informed row prioritization to adaptive scouting increased the encountered proportion of newly recorded red-leaf observations from 85.8% to 94.1%. Within-block scouting comparisons suggested the model mainly improved scouting allocation among blocks. Despite unreliable internal 2024 performance estimates from synthetic oversampling before train/test splitting, Aleks developed an informative vine-scale model in 145 minutes, increasing throughput and answering our research questions. In Workflow 2, we assessed whether higher model-score vines had more frequent virus detection, and whether Aleks could infer this sampling goal from a general prompt with data and literature. Aleks's plan prioritized balanced vineyard and model score coverage, while our plan prioritized field efficiency and high-model-score oversampling. Aleks's and our plans yielded 41/50 (82%) and 97/100 (97%) sampled vines. Aleks's plan omitted instructions for replacing missing vines, limiting implementation and operational value. Five of 137 sampled vines tested positive for grapevine red blotch virus (model score ROC AUC 0.735). These findings support assessing AI interactions by how well they advance field research objectives under live, project-specific constraints.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.HC",
+   "cs.AI",
+   "cs.CY"
+  ],
+  "arxiv_id": "2610.07669v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉"
@@ -218,38 +192,65 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2610.05816v1",
-  "title": "Level-of-Token Diffusion",
+  "id": "arxiv:2610.07603v1",
+  "title": "Emoception: Selective Affective Layer Fine-Tuning of Video Vision Transformers for Player Arousal Change Recognition From Gameplay Footage",
   "authors": [
-   "Kiyohiro Nakayama",
-   "Brian Chao",
-   "Jan Ackermann",
-   "Hansheng Chen",
-   "Federico Tombari",
-   "Leonidas Guibas",
-   "Lior Yariv",
-   "Gordon Wetzstein"
+   "Yi Xia",
+   "Ibrahim Khan",
+   "Mury Fajar Dewantoro",
+   "Wenwen Ouyang",
+   "Ruck Thawonmas"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.05816v1",
-  "url": "https://arxiv.org/abs/2610.05816v1",
-  "abstract": "Image and video diffusion models allocate equal computation to every region, even when the intended scene calls for varying levels of detail. The spatial distribution of detail can often be anticipated before generation, indicating where computation can be reduced. We introduce Level-of-Token (LoT) Diffusion, a framework that turns this knowledge into an explicit multiresolution token layout (Level-of-Token layout) for adaptive and efficient generation. Tokens represent rectangular patches of varying sizes and shapes, allocating finer tokens where detail is needed and coarser tokens elsewhere. We adapt pretrained diffusion transformers to LoT layouts through a patch-wise asymmetric flow parametrization and embeddings for multiresolution tokens, preserving full-resolution flow prediction at every denoising step while processing only a reduced token sequence. LoT Diffusion enables layout-adaptive generation while preserving pretrained generative priors. We demonstrate LoT with layouts derived from semantic masks, bounding boxes, texture variance, and depth-of-field cues, as well as agentic plans. Across image and video generation, LoT offers favorable quality-efficiency tradeoffs, with significant speedups determined by the layout's token budget. Our project website is at https://georgenakayama.github.io/lotdiffusion/.",
+  "pdf": "https://arxiv.org/pdf/2610.07603v1",
+  "url": "https://arxiv.org/abs/2610.07603v1",
+  "abstract": "This article proposes Selective Affective Layer Fine-Tuning (SALFT), an efficient adaptation framework for Video Vision Transformers in player arousal recognition from gameplay. To bypass computationally expensive full fine-tuning, SALFT introduces a selection criterion based on the L2-norm change in layer parameters after brief adaptation, directly measuring representational shifts and providing a more stable basis than gradient-based alternatives. Evaluated via five-fold cross-validation on the Arousal Video Game AnnotatIoN dataset, SALFT achieves performance comparable to full fine-tuning across all games without statistically significant degradation ($p>0.05$), while updating only $\\approx$8% of parameters (over 92% reduction). Notably, in one game, SALFT consistently outperforms both full fine-tuning and the best baseline across all metrics and folds, reaching the theoretical minimum p-value (p=0.0625, exact two-sided Wilcoxon signed-rank test). In addition, we introduce an interpretability method to trace attention patterns, enhancing model transparency. These results establish SALFT as an effective and efficient approach for affective game computing.",
   "citation_count": 0,
   "concepts": [
-   "cs.CV",
-   "cs.AI"
+   "cs.HC",
+   "cs.AI",
+   "cs.CV"
   ],
-  "arxiv_id": "2610.05816v1",
+  "arxiv_id": "2610.07603v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
-   "机器学习",
-   "三维与几何"
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.07585v1",
+  "title": "REViT-v2: Hierarchical Windowed Roto-reflection Equivariant ViT for Equivariant Feature Extraction",
+  "authors": [
+   "Sheir A. Zaheer",
+   "Jihwan Moon",
+   "Chan Y. Park"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-06",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.07585v1",
+  "url": "https://arxiv.org/abs/2610.07585v1",
+  "abstract": "We propose a scalable roto-reflection-group-equivariant vision transformer based on windowed group-convolutional self-attention and a hierarchical feature architecture. We demonstrate that our approach can be scaled to group-equivariant vision transformers (ViTs) with millions of parameters and large datasets with practically sized images, i.e., ImageNet. The code and pretrained weights for the proposed Hierarchical Windowed Roto-reflection Equivariant ViTs (REViT-v2) are available at https://github.com/kc-ml2/revit.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV",
+   "cs.LG"
+  ],
+  "arxiv_id": "2610.07585v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
   ],
   "is_own": false
  }
