@@ -1,60 +1,39 @@
 [
  {
-  "id": "arxiv:2610.08126v1",
-  "title": "Supermarket Product Detection and Recognition: Utilizing Deep Learning with Rectified Imagery",
+  "id": "openalex:W7220742665",
+  "title": "Remote sensing and deep learning for standing dead-tree detection and mapping: a review of advances, challenges, and future directions",
   "authors": [
-   "Mayank Sah",
-   "Jimson Mathew"
+   "Anwarul Islam Chowdhury",
+   "Mirela Beloiu",
+   "Teja Kattenborn",
+   "Clemens Mosig",
+   "Mete Ahishali",
+   "Mikko Vastaranta",
+   "Eetu Puttonen",
+   "Eija Honkavaara",
+   "Langning Huo",
+   "Md. Jamal Uddin",
+   "Verena C. Griess",
+   "Anton Kuzmin",
+   "Yan Pei Cheng",
+   "Samuli Junttila"
   ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-06",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.08126v1",
-  "url": "https://arxiv.org/abs/2610.08126v1",
-  "abstract": "Product Identification has sprung up to become one of the most challenging problems in the automation of the retail industry. With the new industry 5.0 standards, automated inventory management, and catalog creation tasks are vitally important. Object identification models have emerged as a viable answer with their unprecedented identification and localization accuracy. However, the close-knit rack design of supermarkets generates the problem of angle variation in capturing images. The angle-variant densely packed images(a single image contains many objects) become overwhelming for these models alone. In this paper, we try to supplement object detection models with traditional Hough transform (HT) and homogeneous estimation concepts. We study the effect of rectified images using homography estimation and hough transform and their limitations on the problem of grocery identification. We make a case for creating a new dataset to test the effects of such rectification and produce analytical results on different scenarios of angle variation and object densities per image. Extensive experiments on different object detection models suggest that image rectification of angled images improves the detection accuracy of grocery products in images. The results also highlight the limitation of rectification on the angle of image capture and the object density of the image.",
+  "date": "2026-10-07",
+  "doi": "10.1016/j.isprsjprs.2026.09.050",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.050",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "cs.CV",
-   "cs.AI"
+   "Remote sensing",
+   "Deep learning",
+   "Computer science"
   ],
-  "arxiv_id": "2610.08126v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.07951v1",
-  "title": "A Multimodal Hyperspectral and Laser Speckle Imaging Platform for Simultaneous Monitoring of Spinal Cord Oxygenation, Perfusion and Metabolism",
-  "authors": [
-   "Junda Wang",
-   "Luca Giannoni",
-   "Ayse Gertrude Yenicelik",
-   "Eleni Giama",
-   "Frederic Lange",
-   "Ilias Tachtsidis"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-06",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.07951v1",
-  "url": "https://arxiv.org/abs/2610.07951v1",
-  "abstract": "Hyperspectral imaging (HSI) enables spatial mapping of haemoglobin oxygenation and cytochrome-c-oxidase (CCO) redox changes in exposed neural tissue. In this study, we present a technical upgrade of an existing HSI platform by the integration of laser speckle contrast imaging (LSCI), enabling contemporaneous assessment of oxygenation, oxidative metabolism, relative perfusion and a derived relative oxygen metabolic index in exposed spinal cord in a rat preclinical model. The upgraded system (hNIR+) uses a shared optical path and a single camera to acquire HSI and LSCI images from the same field of view using a sequential acquisition workflow. Hyperspectral images are acquired at 11 discrete wavelengths (600, 630, 665, 784, 800, 818, 835, 851, 868, 881, and 894 nm) to estimate changes in oxygenated haemoglobin (HbO2), deoxygenated haemoglobin (HHb) and oxidized CCO (oxCCO). LSCI is implemented using 632.8-nm coherent illumination to generate relative blood-flow index (rBFI) maps. The LSCI subsystem was validated using a controlled blood-flow phantom, where the LSCI-derived inverse speckle contrast index showed a strong positive linear relationship with pump-controlled flow. The upgraded platform was then evaluated in proof-of-concept observations of the rat spinal cord under normoxia, hypoxia and recovery conditions. Representative multimodal maps and ROI-based time-course analysis showed clear dynamic responses in HbO2, HHb, oxCCO and rBFI during oxygen challenges that were consistent with the expected physiological responses of the spinal cord during hypoxia, hyperoxia and subsequent recoveries. Overall, these results demonstrate that integrating LSCI into HSI extends the platform to multimodal and simultaneous monitoring of haemodynamic-metabolic coupling.",
-  "citation_count": 0,
-  "concepts": [
-   "physics.med-ph",
-   "physics.optics"
-  ],
-  "arxiv_id": "2610.07951v1",
-  "source": "arxiv",
+  "source": "openalex",
   "topics": [
    "遥感",
    "计算机视觉",
@@ -63,63 +42,62 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2610.07819v1",
-  "title": "$α$Transfer: Coefficient Transfer for Efficient Model Merging",
+  "id": "openalex:W7220684545",
+  "title": "VLM-Mapper: Multimodal vision-language models for prior guided lane-level HD map construction",
   "authors": [
-   "Shih-Cheng Huang",
-   "Zhi Rui Tam",
-   "Chieh-Yen Lin",
-   "Yun-Nung Chen",
-   "Hung-yi Lee",
-   "Shao-Hua Sun"
+   "Haofeng Xie",
+   "Huiwei Jiang",
+   "Yibing Xiong",
+   "Pengwei Dong",
+   "Yandi Yang",
+   "Xiangyun Hu"
   ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-06",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.07819v1",
-  "url": "https://arxiv.org/abs/2610.07819v1",
-  "abstract": "Model merging offers a promising solution for combining multiple fine-tuned checkpoints into a single model through parameter arithmetic. However, finding optimal merging coefficients requires an extensive search that becomes prohibitively expensive as models scale in both size and number, due to high memory requirements and combinatorial growth in the search space. We show that, within the same model family, models exhibit highly congruent performance distributions over merging coefficients across different model sizes. This distributional similarity enables a practical paradigm we call \\textit{$α$Transfer}: searching for optimal coefficients on a small proxy model, then directly transfer them to larger target models. We verify $α$Transfer across multiple merging methods, model families, and tasks. Experimental results demonstrate a 6$\\times$ speedup and 70\\% memory reduction on vision transformers, and a 20$\\times$ speedup and 85\\% memory reduction on large language models, while maintaining comparable performance. Our findings establish $α$Transfer as an efficient and generalizable approach to scaling model merging.",
+  "date": "2026-10-07",
+  "doi": "10.1016/j.jag.2026.105632",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105632",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "cs.LG",
-   "cs.CL",
-   "cs.CV"
+   "Computer science",
+   "Artificial intelligence",
+   "Geography"
   ],
-  "arxiv_id": "2610.07819v1",
-  "source": "arxiv",
+  "source": "openalex",
   "topics": [
    "计算机视觉",
-   "机器学习",
    "多模态"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2610.07758v1",
-  "title": "Later Is Better: Token Reduction for ViTs Under Distribution Shift",
+  "id": "arxiv:2610.10539v1",
+  "title": "Tetris3D: 3D Scene Generation With Objects That Fit Together",
   "authors": [
-   "Hyeongheon Cha",
-   "Hyungjun Yoon",
-   "Sung-Ju Lee"
+   "Jaeyeong Kim",
+   "Jinhyuk Jang",
+   "Jongmin Lee",
+   "Kyehong Park",
+   "Seungryong Kim"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.07758v1",
-  "url": "https://arxiv.org/abs/2610.07758v1",
-  "abstract": "Training-free token reduction accelerates vision transformers by removing redundant tokens across layers, recovering most of the original accuracy at a fraction of the compute. These methods, however, are designed and evaluated primarily on clean data, and under real-world distribution shift their accuracy gap to the uncompressed model widens with the removal rate. We show that this gap is governed by the reduction schedule, the depth profile of removal, usually left fixed as an implementation detail. Concretely, we introduce a one-parameter late-concentrated power-law schedule that consistently improves out-of-distribution accuracy over flat at no extra inference cost. On ImageNet-C with DeiT-S, the late schedule closes 83% of that gap at a 26% compute reduction (+1.17pp), and 99% of it at a lighter 7% reduction (+0.26pp). The gain cannot be attributed to retaining more tokens or using extra compute: held to flat's compute, the late schedule removes more tokens in total and leaves fewer tokens at the end, yet still wins. Single-layer probes point to a mechanism: earlier reductions perturb features that pass through more remaining layers, front-loading reduction error in depth. The effect is broad, holding across five token-reduction methods (ToMe, EViT, ATS, ATC, PiToMe), nine backbones, all ImageNet-C corruption types, eight further shift suites, and two further modalities, video and vision-language QA. It is also specific to shift, still positive on clean and rising monotonically to ~4x that at the highest severity 5. The schedule keeps its gain under six test-time adaptation methods, and needs no per-input or per-domain tuning.",
+  "pdf": "https://arxiv.org/pdf/2610.10539v1",
+  "url": "https://arxiv.org/abs/2610.10539v1",
+  "abstract": "We propose Tetris3D, a generative framework for single-image 3D scene reconstruction that recovers objects which are physically and geometrically coherent as a scene. Existing methods often generate objects independently or couple them implicitly, providing limited guidance for ensuring fine-grained spatial compatibility between neighboring objects that interact with one another. To address this, we explicitly condition the generation of each object on the geometry of surrounding objects and their physical relationships, guiding its shape and pose to remain geometrically and physically plausible within the scene. Moreover, we introduce ComOb, a physics simulation-based dataset of 1.2M scenes featuring physical interactions across diverse object categories, with per-object meshes and pairwise physical relation annotations. Comprehensive experiments on synthetic and realworld scenes show that Tetris3D recovers coherent object shapes and poses even when interacting regions are occluded, and achieves state-of-the-art performance in both generation quality and physical stability.",
   "citation_count": 0,
   "concepts": [
-   "cs.CV",
-   "cs.AI"
+   "cs.CV"
   ],
-  "arxiv_id": "2610.07758v1",
+  "arxiv_id": "2610.10539v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
@@ -129,124 +107,172 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2610.07698v1",
-  "title": "RBMatch: Dual-Level Class Rebalancing for Semi-Supervised Building Footprint Extraction",
+  "id": "arxiv:2610.10538v1",
+  "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
   "authors": [
-   "Akil Ahmad Taki",
-   "Shaikh Anowarul Fattah"
+   "Shravan Chaudhari",
+   "William Paul",
+   "Suchi Saria",
+   "Rama Chellappa",
+   "Homanga Bharadhwaj"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.07698v1",
-  "url": "https://arxiv.org/abs/2610.07698v1",
-  "abstract": "Accurate building footprint extraction from high-resolution remote sensing imagery is essential for urban planning, disaster response, and environmental monitoring. However, obtaining dense pixel-level annotations is costly, motivating the use of semi-supervised learning (SSL) to leverage unlabeled imagery. In remote sensing, severe foreground--background imbalance poses a particular challenge for self-training, as it can bias pseudo-label generation and the resulting unsupervised optimization toward the majority background class. We show that addressing this imbalance at only one stage is insufficient: balancing pseudo-label selection alone does not prevent background bias from re-emerging during unsupervised loss optimization, a failure mode we term \\emph{imbalance leak}. To address this issue, we propose \\textbf{RBMatch}, a dual-level class-rebalancing framework that jointly regulates pseudo-label generation and unsupervised optimization. RBMatch combines a supervised learning pathway with a self-training module comprising three components: adaptive class-specific thresholding (ACT) for balanced pseudo-label selection, confidence-aware class-balanced reweighting (CACBR) for mitigating class bias in the unsupervised loss, and distribution alignment (DAL) for matching the predicted unlabeled-data distribution to the labeled-data prior. Experiments on the WHU, INRIA, and Massachusetts building footprint datasets across labeled ratios of 1%--10% show that RBMatch consistently achieves the best building IoU and F1-score among the evaluated methods. The improvement is most pronounced on the highly imbalanced Massachusetts dataset, where RBMatch improves IoU by 1.37 points over the strongest baseline at a 1% labeling ratio and is the only method to outperform the fully supervised baseline across all twelve dataset--ratio settings.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2610.07698v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.07669v1",
-  "title": "Evaluating human-AI workflows for field research in viticulture",
-  "authors": [
-   "Niko Carvajal Janke",
-   "Daoyuan Jin",
-   "Shivranjani Baruah",
-   "Nicholas Gunner",
-   "Jacob Maus",
-   "Yu Jiang",
-   "Kaitlin M. Gold"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-06",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.07669v1",
-  "url": "https://arxiv.org/abs/2610.07669v1",
-  "abstract": "We assessed the value of two live human-AI interactions in a precision disease control project in California vineyards. The project tested whether 2021-2024 commercial scouting records and remote-sensing measurements across 140 hectares could support 2025 red-leaf symptom forecasting for prioritized scouting and virus testing. In Workflow 1, Aleks v1, a multi-agent research system, developed forecasting models with iterative human refinement. We applied Aleks's 2024 vine-scale model to updated 2025 predictors and evaluated red-leaf forecasts against independent 2025 scouting. In retrospective simulations surveying 45% of all vine positions, adding model-informed row prioritization to adaptive scouting increased the encountered proportion of newly recorded red-leaf observations from 85.8% to 94.1%. Within-block scouting comparisons suggested the model mainly improved scouting allocation among blocks. Despite unreliable internal 2024 performance estimates from synthetic oversampling before train/test splitting, Aleks developed an informative vine-scale model in 145 minutes, increasing throughput and answering our research questions. In Workflow 2, we assessed whether higher model-score vines had more frequent virus detection, and whether Aleks could infer this sampling goal from a general prompt with data and literature. Aleks's plan prioritized balanced vineyard and model score coverage, while our plan prioritized field efficiency and high-model-score oversampling. Aleks's and our plans yielded 41/50 (82%) and 97/100 (97%) sampled vines. Aleks's plan omitted instructions for replacing missing vines, limiting implementation and operational value. Five of 137 sampled vines tested positive for grapevine red blotch virus (model score ROC AUC 0.735). These findings support assessing AI interactions by how well they advance field research objectives under live, project-specific constraints.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.HC",
-   "cs.AI",
-   "cs.CY"
-  ],
-  "arxiv_id": "2610.07669v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.07603v1",
-  "title": "Emoception: Selective Affective Layer Fine-Tuning of Video Vision Transformers for Player Arousal Change Recognition From Gameplay Footage",
-  "authors": [
-   "Yi Xia",
-   "Ibrahim Khan",
-   "Mury Fajar Dewantoro",
-   "Wenwen Ouyang",
-   "Ruck Thawonmas"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-06",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.07603v1",
-  "url": "https://arxiv.org/abs/2610.07603v1",
-  "abstract": "This article proposes Selective Affective Layer Fine-Tuning (SALFT), an efficient adaptation framework for Video Vision Transformers in player arousal recognition from gameplay. To bypass computationally expensive full fine-tuning, SALFT introduces a selection criterion based on the L2-norm change in layer parameters after brief adaptation, directly measuring representational shifts and providing a more stable basis than gradient-based alternatives. Evaluated via five-fold cross-validation on the Arousal Video Game AnnotatIoN dataset, SALFT achieves performance comparable to full fine-tuning across all games without statistically significant degradation ($p>0.05$), while updating only $\\approx$8% of parameters (over 92% reduction). Notably, in one game, SALFT consistently outperforms both full fine-tuning and the best baseline across all metrics and folds, reaching the theoretical minimum p-value (p=0.0625, exact two-sided Wilcoxon signed-rank test). In addition, we introduce an interpretability method to trace attention patterns, enhancing model transparency. These results establish SALFT as an effective and efficient approach for affective game computing.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.HC",
-   "cs.AI",
-   "cs.CV"
-  ],
-  "arxiv_id": "2610.07603v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.07585v1",
-  "title": "REViT-v2: Hierarchical Windowed Roto-reflection Equivariant ViT for Equivariant Feature Extraction",
-  "authors": [
-   "Sheir A. Zaheer",
-   "Jihwan Moon",
-   "Chan Y. Park"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-06",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.07585v1",
-  "url": "https://arxiv.org/abs/2610.07585v1",
-  "abstract": "We propose a scalable roto-reflection-group-equivariant vision transformer based on windowed group-convolutional self-attention and a hierarchical feature architecture. We demonstrate that our approach can be scaled to group-equivariant vision transformers (ViTs) with millions of parameters and large datasets with practically sized images, i.e., ImageNet. The code and pretrained weights for the proposed Hierarchical Windowed Roto-reflection Equivariant ViTs (REViT-v2) are available at https://github.com/kc-ml2/revit.",
+  "pdf": "https://arxiv.org/pdf/2610.10538v1",
+  "url": "https://arxiv.org/abs/2610.10538v1",
+  "abstract": "As we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later. We are capable of recalling where we left something or what was inside a container, even without knowing we would need it later. Here, we study how an embodied assistant can build a similar memory from egocentric videos, by observing a person's day-to-day activities. We present Ledger, a persistent 3D object memory that combines object locations, their histories, and contextual descriptions. It associates observations across the recording and retains objects after they leave the view, including those the person never touches. It clusters each object's observations by resting locations and records a move only after repeated evidence, reducing the effect of localization noise. Short descriptions preserve details such as an object's contents or supporting surface. It saves these records to later answer spatial questions without having to access the original images or video. Our memory raises HD-EPIC accuracy from 29.7% to 42.6%, UCS-Bench accuracy from 33.8% to 38.5% and localizes Ego4D objects with a 0.99 m median error on returned predictions. Our analyses identify complementary roles for temporal persistence, contextual descriptions, and retrieval. Our study on 100 stitched streams of multiple scenes each further exposes failures in both retrieval and construction. Per-scene construction partially recovers the performance lost across scene changes compared to that of single scene streams.",
   "citation_count": 0,
   "concepts": [
    "cs.CV",
-   "cs.LG"
+   "cs.AI",
+   "cs.RO"
   ],
-  "arxiv_id": "2610.07585v1",
+  "arxiv_id": "2610.10538v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.10528v1",
+  "title": "Long-WAM: Scaling the Context of World-Action Models",
+  "authors": [
+   "Wei Huang",
+   "Bohan Zhang",
+   "Chenzhi Liu",
+   "Isabella Liu",
+   "Shuai Yang",
+   "Weian Mao",
+   "Luozhou Wang",
+   "Yicheng Xiao",
+   "Weifeng Lin",
+   "Qixin Hu",
+   "Bryan Chu",
+   "Sifei Liu",
+   "Linxi Fan",
+   "Xiaojuan Qi",
+   "Song Han",
+   "Yukang Chen"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-07",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.10528v1",
+  "url": "https://arxiv.org/abs/2610.10528v1",
+  "abstract": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that access to history is not the same as using it: longer histories pay off far more when the video foundation is pretrained autoregressively (AR). We first learn causal prediction from robot and egocentric videos without action labels, then preserve this history-to-future structure during world-action adaptation. On RoboCasa GR-1, increasing context from 0.0 to 19.2 seconds raises success from 63.3% to 78.7%, whereas a bidirectionally pretrained initialization shows no net gain; robot-domain AR pretraining further raises peak success on GR-1 and LIBERO-Long. Long-WAM also achieves the best results among compared methods on LIBERO-Long, RoboTwin 2.0, and DOMINO. Streaming observation encoding, asynchronous execution, and hardware-specific acceleration enable deployment on RTX 5090, DGX Spark, and Jetson AGX Thor without dropping future prediction; on RTX 5090, each action chunk, including future-video latent prediction, takes 107.4 ms. Real-time deployment on Unitree G1 and YAM supports dynamic and long-horizon manipulation, including 95% success on dynamic cup stacking, where Pi0.5 and Fast-WAM succeed in none of 20 trials. As a memory-informed executor, Long-WAM also complements higher-level planning in composite tasks.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.RO",
+   "cs.AI",
+   "cs.CV"
+  ],
+  "arxiv_id": "2610.10528v1",
+  "source": "arxiv",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.10524v1",
+  "title": "GRACE: Generation-aware latent compression for efficient video generation",
+  "authors": [
+   "Jiyoung Kim",
+   "Paul Hyunbin Cho",
+   "Jisu Nam",
+   "Donghoon Lee",
+   "Hyunsung Go",
+   "Yeonkyeong Lee",
+   "Hansaem Kim",
+   "Seungryong Kim"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-07",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.10524v1",
+  "url": "https://arxiv.org/abs/2610.10524v1",
+  "abstract": "Highly compressed video autoencoders offer an effective way to accelerate video diffusion models, as the Diffusion Transformer (DiT) operates on far fewer tokens. However, such autoencoders are challenging to train, since a higher compression ratio degrades reconstruction quality and recovering it requires more channels, which is known to slow the convergence of the DiT. The compressed latent also differs from the one the DiT was trained on, so the pretrained DiT must be either retrained from scratch or adapted at considerable cost. Compressing the autoencoder the DiT was trained with appears to preserve compatibility, yet optimizing it for reconstruction alone still shifts the latent away from the distribution the DiT has learned. To address this, we propose Generation-Aware Latent Compression for Efficient Video Generation (GRACE), a two-stage framework that compresses a pretrained video autoencoder while keeping it compatible with the pretrained DiT. Specifically, we keep a frozen base latent from the pretrained encoder and learn a residual latent for the information lost under stronger compression, while aligning the compressed latent with the pretrained latent in the feature space of the frozen DiT so that the autoencoder is optimized for generation. We then adapt the DiT with lightweight fine-tuning and asymmetric denoising, where the base is denoised ahead of the residual. GRACE reduces the token count of Wan2.1-I2V-14B by 8x and its latency by 11.1x at 480x832x81, while matching the generation quality of the pretrained pipeline before compression on VBench.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2610.10524v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.10512v1",
+  "title": "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
+  "authors": [
+   "Chen Xu",
+   "Yunqi Li",
+   "Binbin Huang",
+   "Brent Yi",
+   "Shenghua Gao",
+   "Yi Ma"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-07",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.10512v1",
+  "url": "https://arxiv.org/abs/2610.10512v1",
+  "abstract": "Recovering faithful 3D hand motion from video remains challenging due to frequent occlusions and incomplete visual observations, which make frame-wise pose estimates unreliable and temporally inconsistent. To address this problem, we propose JoHan, a unified generative framework that recovers hand motion directly from video sequences without relying on intermediate per-frame pose predictions. Trained from scratch, our model jointly generates aligned 2D and 3D local hand pose sequences by learning their temporal dynamics and cross-representation correspondence. The generated 2D trajectories exploit direct spatial and temporal cues from the 2D images to guide the following generative 3D motion reconstruction, while the learned motion prior promotes temporal consistency. Their learned 2D-3D correspondence further enables recovery of the hand's global position and orientation relative to the camera. Extensive experiments on challenging benchmarks demonstrate significantly improved accuracy and speed in local hand-pose and camera-space reconstruction. Notably, our method captures much better hand-motion dynamics, producing significantly smoother motion than previous methods while maintaining high per-frame pose accuracy.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2610.10512v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.10497v1",
+  "title": "QuadTok: Quadtree Visual Tokenizer for Autoregressive Image Generation",
+  "authors": [
+   "Yucheng Mao",
+   "Zeyuan Chen",
+   "Xiaojun Shan",
+   "Xiang Zhang",
+   "Divyansh Srivastava",
+   "Bingnan Li",
+   "Zhuowen Tu"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-07",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.10497v1",
+  "url": "https://arxiv.org/abs/2610.10497v1",
+  "abstract": "We introduce QuadTok, a novel framework for visual tokenization and autoregressive image generation. Compared to traditional approaches using 2D grids or 1D token sequences, we propose a hierarchical quadtree structure, bridging the gap between 2D spatial binding and 1D sequence-level flexibility. The QuadTok tokenizer dynamically allocates representational capacity to visually intricate areas while leaving homogeneous regions at a coarse resolution. Compared with a fixed 256-token grid, our ImageNet-trained tokenizer saves approximately 10% of tokens on ImageNet and 9% when transferred zero-shot to the COCO dataset, while maintaining comparable reconstruction fidelity. Furthermore, the natural causality introduced by the tree structure seamlessly enables autoregressive image generation. Conditioned on a quadtree topology supplied before generation, our 947M GPT-style generative model achieves a 2.08 gFID on the ImageNet $256 \\times 256$ benchmark. Additionally, leveraging the strong spatial correlation preserved by the quadtree structure, the QuadTok generator enables zero-shot spatially controlled image generation capabilities. Code: https://github.com/myc634/QuadTok.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2610.10497v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
