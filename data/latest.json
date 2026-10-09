@@ -1,39 +1,60 @@
 [
  {
-  "id": "openalex:W7220742665",
-  "title": "Remote sensing and deep learning for standing dead-tree detection and mapping: a review of advances, challenges, and future directions",
+  "id": "arxiv:2610.12448v1",
+  "title": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
   "authors": [
-   "Anwarul Islam Chowdhury",
-   "Mirela Beloiu",
-   "Teja Kattenborn",
-   "Clemens Mosig",
-   "Mete Ahishali",
-   "Mikko Vastaranta",
-   "Eetu Puttonen",
-   "Eija Honkavaara",
-   "Langning Huo",
-   "Md. Jamal Uddin",
-   "Verena C. Griess",
-   "Anton Kuzmin",
-   "Yan Pei Cheng",
-   "Samuli Junttila"
+   "Adrian Bulat",
+   "Yassine Ouali",
+   "Georgios Tzimiropoulos"
   ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-07",
-  "doi": "10.1016/j.isprsjprs.2026.09.050",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.050",
-  "abstract": null,
+  "date": "2026-10-08",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.12448v1",
+  "url": "https://arxiv.org/abs/2610.12448v1",
+  "abstract": "In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation. reViT restores depth-specific transformations by representing the FFN at each recurrent depth as a convex combination of a small shared expert bank. A continuous normalized-depth coordinate programs this mixture, defining a resampleable trajectory through FFN parameter space. We evaluate this design in two regimes: supervised ImageNet-1k training and distillation from a DINOv2 teacher. Across both regimes, controlled adaptations identify weight-space merging as the strongest tested MoE family at a matching one-FFN budget, ahead of the token-dispatch and output-mixture alternatives. Trained from scratch, reViT-B/16 attains DeiT III accuracy with about 70\\% fewer stored parameters. An 8-experts model distilled using only the teacher's output features retains nearly all of its DINOv2 teacher's linear-probe accuracy and transfers across classification, segmentation, and depth prediction. Elastic-depth training allows one checkpoint (trained model) to operate at multiple tested depths by resampling the same normalized coordinate interval. For fixed-depth deployment, the recurrent block can be materialized as a conventional dense graph, removing online routing and merging without changing the one-FFN-per-depth compute but expanding deployment storage.",
   "citation_count": 0,
   "concepts": [
-   "Remote sensing",
-   "Deep learning",
-   "Computer science"
+   "cs.CV",
+   "cs.LG"
   ],
-  "source": "openalex",
+  "arxiv_id": "2610.12448v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.12200v1",
+  "title": "Quickest Change Detection with Diffusion-Integrated Scores",
+  "authors": [
+   "Arman Adibi",
+   "Mohammadreza Maleki",
+   "Sanjeev Kulkarni",
+   "H. Vincent Poor"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-08",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.12200v1",
+  "url": "https://arxiv.org/abs/2610.12200v1",
+  "abstract": "Classical CUSUM relies on the log-likelihood ratio of the underlying distributions, which cannot generally be computed from finite pre- and post-change samples alone. We propose diffusion-integrated score CUSUM (DI-SCUSUM), a training-free detector. We add Gaussian noise to the samples to form two smooth density estimates and calculate their Hyvärinen scores exactly, without training a score network. For each incoming observation, we sample a diffusion time, perturb the observation, and use the importance-weighted score difference as an increment in the DI-SCUSUM recursion. Under the assumption that observations follow the fixed empirical distributions, the post-change mean increment is proportional to the Kullback-Leibler (KL) divergence from the smoothed post-change to the smoothed pre-change empirical distribution. We establish exponential false-alarm scaling and a first-order delay bound that, for a fixed threshold and increment scaling, is inversely proportional to the KL divergence. In the calibrated anisotropic Gaussian simulation, DI-SCUSUM nearly matches likelihood-ratio CUSUM and reduces the measured detection delay by about 91% relative to score-based CUSUM. On MNIST and Oxford-IIIT Pet, DI-SCUSUM also has lower empirical conditional detection delay than SCUSUM at comparable false-alarm levels.",
+  "citation_count": 0,
+  "concepts": [
+   "stat.ML",
+   "cs.LG"
+  ],
+  "arxiv_id": "2610.12200v1",
+  "source": "arxiv",
   "topics": [
    "遥感",
    "计算机视觉",
@@ -42,171 +63,147 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7220684545",
-  "title": "VLM-Mapper: Multimodal vision-language models for prior guided lane-level HD map construction",
+  "id": "arxiv:2610.12182v1",
+  "title": "AI-Based On-Board Maritime Object Detection for Earth Observation Payload Data Reduction on Versal Embedded Hardware",
   "authors": [
-   "Haofeng Xie",
-   "Huiwei Jiang",
-   "Yibing Xiong",
-   "Pengwei Dong",
-   "Yandi Yang",
-   "Xiangyun Hu"
+   "Thomas Goudemant",
+   "Aurélien Bobey",
+   "Omar Hlimi",
+   "Marjorie Bellizzi"
   ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-07",
-  "doi": "10.1016/j.jag.2026.105632",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105632",
-  "abstract": null,
+  "date": "2026-10-08",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.12182v1",
+  "url": "https://arxiv.org/abs/2610.12182v1",
+  "abstract": "Very-high-resolution Earth-observation satellites acquire more data than they can store and downlink, while in maritime surveillance the vessels cover a tiny fraction of each scene. We study onboard vessel detection as a way to select what is downlinked, which reduces the data according to its content rather than coding every pixel; it is complementary to conventional onboard compression. The work follows three axes. (i) Data and algorithm: a controlled dataset is generated from 68 annotated Maxar scenes with 43 vessel classes, and a YOLOX-S detector is trained on it. (ii) Embedded deployment: the detector is quantized and deployed on the DPU of a Versal VC1902, with a limited loss of detection quality and a processing time of a few seconds per scene. (iii) Data reduction: we propose several downlink modes, from metadata only (box, class and score of each detection) to image crops around vessels, tiles holding detections, or the whole scene with a degraded background, and estimate from the measured detection errors the trade-off each offers between the vessels kept and the volume downlinked. On our dense harbor and coastal scenes, tiles keep 98% of the vessels with 29% of the scene volume, and crops 83% with 3%.",
   "citation_count": 0,
   "concepts": [
-   "Computer science",
-   "Artificial intelligence",
-   "Geography"
+   "cs.CV",
+   "cs.AI"
   ],
-  "source": "openalex",
+  "arxiv_id": "2610.12182v1",
+  "source": "arxiv",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.12149v1",
+  "title": "Reliability Characterization for N-version Object Detection",
+  "authors": [
+   "Shunsuke Nagao",
+   "Fumio Machida"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-08",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.12149v1",
+  "url": "https://arxiv.org/abs/2610.12149v1",
+  "abstract": "N-version object detection (OD) is an approach to diversifying detection results using multiple models or input frames and reducing detection errors by aggregating individual results. Diversity and consistency across multiple detection results are critical information for characterizing the reliability of possible configurations of N-version OD systems. However, existing performance metrics such as mAP and Accuracy fail to capture these factors, as they are defined solely on the final outcome after aggregation. To overcome this limitation, we propose two reliability metrics particularly defined for N-version OD, namely coverage of errors in OD (Cov_OD) and certainty of accurate prediction in OD (Cer_OD), which can be computed from individual detection results without relying on voting strategies. We empirically demonstrate the unique features of the proposed metrics through a case study of N-version OD for a vehicle in an autonomous-driving simulator. We show that the proposed metrics can be used for 1) selecting version combinations with complementary error characteristics, 2) choosing an effective voting strategy based on diversity and consistency profiles, and 3) guiding incremental construction of N-version OD systems via pairwise two-version analysis. These results highlight the importance of the metrics that can guide the design of reliable N-version OD applications.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.SE"
+  ],
+  "arxiv_id": "2610.12149v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.12147v1",
+  "title": "Healthy Counterfactual Generation via Diffusion Inpainting for Mammography Classification",
+  "authors": [
+   "Inês Cruchinho Garcia",
+   "Mariana Mourão",
+   "Francisco Maria Calisto",
+   "Carlos Santiago",
+   "Jacinto Nascimento"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-08",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.12147v1",
+  "url": "https://arxiv.org/abs/2610.12147v1",
+  "abstract": "False negatives remain a critical limitation of computer-aided diagnosis (CAD) systems for breast cancer screening due to delayed detection and treatment. To address this issue, we propose a counterfactual data augmentation strategy that generates healthy mammograms by \"erasing\" lesions from anomalous images, thereby enriching the training distribution. We train a Denoising Diffusion Probabilistic Model on BI-RADS 1 (healthy) mammograms and use a RePaint-based sampling strategy to inpaint realistic normal tissue within annotated lesion bounding boxes. The resulting healthy counterfactuals replace annotated lesion regions with realistic healthy tissue while preserving patient-specific anatomical structure, as supported by similarity metrics between real and generated images. Image realism was further assessed by radiologists and found to be consistent with the original dataset quality. We evaluate counterfactual augmentation across four representative classifier architectures: a convolutional neural network (ConvNeXt), a vision transformer (ViT), a vision-language model pre-trained on mammogram-report pairs (Mammo-CLIP) and a multi-scale attention-based multiple-instance learning framework (FPN-MIL). Experiments conducted on the VinDr-Mammo dataset show improvements in sensitivity across all architectures, particularly at 80\\% fixed specificity, contributing towards more reliable CAD systems for breast cancer. Code is available at: https://github.com/ines03garcia/diffusion-based-counterfactual-generation.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2610.12147v1",
+  "source": "arxiv",
   "topics": [
    "计算机视觉",
+   "机器学习",
    "多模态"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2610.10539v1",
-  "title": "Tetris3D: 3D Scene Generation With Objects That Fit Together",
+  "id": "arxiv:2610.12051v1",
+  "title": "On-chip filled array hyperspectral kinetic inductance detectors (FHYKID) for line intensity mapping",
   "authors": [
-   "Jaeyeong Kim",
-   "Jinhyuk Jang",
-   "Jongmin Lee",
-   "Kyehong Park",
-   "Seungryong Kim"
+   "Emile Prêle",
+   "Martino Calvo",
+   "Usasi Chowdhury",
+   "Gregory Garde",
+   "Florence Levy-Bertrand",
+   "Alessandro Monfardini"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.10539v1",
-  "url": "https://arxiv.org/abs/2610.10539v1",
-  "abstract": "We propose Tetris3D, a generative framework for single-image 3D scene reconstruction that recovers objects which are physically and geometrically coherent as a scene. Existing methods often generate objects independently or couple them implicitly, providing limited guidance for ensuring fine-grained spatial compatibility between neighboring objects that interact with one another. To address this, we explicitly condition the generation of each object on the geometry of surrounding objects and their physical relationships, guiding its shape and pose to remain geometrically and physically plausible within the scene. Moreover, we introduce ComOb, a physics simulation-based dataset of 1.2M scenes featuring physical interactions across diverse object categories, with per-object meshes and pairwise physical relation annotations. Comprehensive experiments on synthetic and realworld scenes show that Tetris3D recovers coherent object shapes and poses even when interacting regions are occluded, and achieves state-of-the-art performance in both generation quality and physical stability.",
+  "pdf": "https://arxiv.org/pdf/2610.12051v1",
+  "url": "https://arxiv.org/abs/2610.12051v1",
+  "abstract": "The next generation Line Intensity Mapping (LIM) experiments will require very high throughput instrumentation, and as a consequence high pixel counts focal planes. For the study of the [CII] line in the redshift range z=7-8, we develop a hyperspectral filled focal plane (FHYKID) operating in the range 210-235 GHz and with a spectral resolution reaching 120. The spectral filtering is achieved thanks to planar Slot Split Ring Resonators (SSRR) coupled to Lumped Element Kinetic Inductance Detectors (LEKID). This robust concept achieves, thanks to its simplicity, large quantum efficiency and is scalable, even with current readout electronics systems, to several tens of thousands beams on Sky. Our FHYKID will be one of the four channels of the NIKONA instrument, currently seeking funding and to be installed at the IRAM 30-meter telescope at Pico Veleta. Among the science goals, simultaneously mapping the local (galactic and nearby-galaxies) CO line and the cosmological [CII].",
   "citation_count": 0,
   "concepts": [
-   "cs.CV"
+   "astro-ph.IM"
   ],
-  "arxiv_id": "2610.10539v1",
+  "arxiv_id": "2610.12051v1",
   "source": "arxiv",
   "topics": [
-   "计算机视觉",
-   "机器学习",
-   "三维与几何"
+   "遥感"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2610.10538v1",
-  "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
+  "id": "arxiv:2610.11754v1",
+  "title": "What Output-Only Review Cannot Verify: Study Contracts for Research Agents",
   "authors": [
-   "Shravan Chaudhari",
-   "William Paul",
-   "Suchi Saria",
-   "Rama Chellappa",
-   "Homanga Bharadhwaj"
+   "Eitan Waks",
+   "Ben Glocker"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.10538v1",
-  "url": "https://arxiv.org/abs/2610.10538v1",
-  "abstract": "As we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later. We are capable of recalling where we left something or what was inside a container, even without knowing we would need it later. Here, we study how an embodied assistant can build a similar memory from egocentric videos, by observing a person's day-to-day activities. We present Ledger, a persistent 3D object memory that combines object locations, their histories, and contextual descriptions. It associates observations across the recording and retains objects after they leave the view, including those the person never touches. It clusters each object's observations by resting locations and records a move only after repeated evidence, reducing the effect of localization noise. Short descriptions preserve details such as an object's contents or supporting surface. It saves these records to later answer spatial questions without having to access the original images or video. Our memory raises HD-EPIC accuracy from 29.7% to 42.6%, UCS-Bench accuracy from 33.8% to 38.5% and localizes Ego4D objects with a 0.99 m median error on returned predictions. Our analyses identify complementary roles for temporal persistence, contextual descriptions, and retrieval. Our study on 100 stitched streams of multiple scenes each further exposes failures in both retrieval and construction. Per-scene construction partially recovers the performance lost across scene changes compared to that of single scene streams.",
+  "pdf": "https://arxiv.org/pdf/2610.11754v1",
+  "url": "https://arxiv.org/abs/2610.11754v1",
+  "abstract": "Some defects in an AI-generated study can be identified from its artifacts; others require knowledge of what was approved before execution. We propose study contracts that bind declared experimental choices, run obligations and claim scope to recorded execution evidence, and distinguish this contract-relative verification from scientific truth. A diagnostic using eight self-authored clean/mutated pairs illustrates the information boundary. A deterministic checker applying a registered, fault-specific rule to approved and executed objects detected all eight registered mutations. Across eighteen recorded judge aliases given individual metadata-filtered packages without pair context or the registry-selected fault label, 104 of 144 mutated evaluation cases received defect flags; the remaining cases comprised 32 abstentions and eight terminal failures, with no explicit clean decisions on mutated cases. Some packages retained approval and execution fields, including digests. The prompt instructed judges to abstain when evidence was insufficient. These results characterize a deliberately information-asymmetric development setting; they do not isolate the effect of authoritative information from differences in task specification and rule selection, and they are not comparative verifier quality or agent reward hacking. We identify full-information comparisons, legitimate-adaptation controls and closed-loop agent evaluations as necessary tests of whether contract checks improve useful compliant completion under optimization.",
   "citation_count": 0,
   "concepts": [
-   "cs.CV",
-   "cs.AI",
-   "cs.RO"
+   "cs.AI"
   ],
-  "arxiv_id": "2610.10538v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.10528v1",
-  "title": "Long-WAM: Scaling the Context of World-Action Models",
-  "authors": [
-   "Wei Huang",
-   "Bohan Zhang",
-   "Chenzhi Liu",
-   "Isabella Liu",
-   "Shuai Yang",
-   "Weian Mao",
-   "Luozhou Wang",
-   "Yicheng Xiao",
-   "Weifeng Lin",
-   "Qixin Hu",
-   "Bryan Chu",
-   "Sifei Liu",
-   "Linxi Fan",
-   "Xiaojuan Qi",
-   "Song Han",
-   "Yukang Chen"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-07",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.10528v1",
-  "url": "https://arxiv.org/abs/2610.10528v1",
-  "abstract": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that access to history is not the same as using it: longer histories pay off far more when the video foundation is pretrained autoregressively (AR). We first learn causal prediction from robot and egocentric videos without action labels, then preserve this history-to-future structure during world-action adaptation. On RoboCasa GR-1, increasing context from 0.0 to 19.2 seconds raises success from 63.3% to 78.7%, whereas a bidirectionally pretrained initialization shows no net gain; robot-domain AR pretraining further raises peak success on GR-1 and LIBERO-Long. Long-WAM also achieves the best results among compared methods on LIBERO-Long, RoboTwin 2.0, and DOMINO. Streaming observation encoding, asynchronous execution, and hardware-specific acceleration enable deployment on RTX 5090, DGX Spark, and Jetson AGX Thor without dropping future prediction; on RTX 5090, each action chunk, including future-video latent prediction, takes 107.4 ms. Real-time deployment on Unitree G1 and YAM supports dynamic and long-horizon manipulation, including 95% success on dynamic cup stacking, where Pi0.5 and Fast-WAM succeed in none of 20 trials. As a memory-informed executor, Long-WAM also complements higher-level planning in composite tasks.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.RO",
-   "cs.AI",
-   "cs.CV"
-  ],
-  "arxiv_id": "2610.10528v1",
-  "source": "arxiv",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.10524v1",
-  "title": "GRACE: Generation-aware latent compression for efficient video generation",
-  "authors": [
-   "Jiyoung Kim",
-   "Paul Hyunbin Cho",
-   "Jisu Nam",
-   "Donghoon Lee",
-   "Hyunsung Go",
-   "Yeonkyeong Lee",
-   "Hansaem Kim",
-   "Seungryong Kim"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-07",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.10524v1",
-  "url": "https://arxiv.org/abs/2610.10524v1",
-  "abstract": "Highly compressed video autoencoders offer an effective way to accelerate video diffusion models, as the Diffusion Transformer (DiT) operates on far fewer tokens. However, such autoencoders are challenging to train, since a higher compression ratio degrades reconstruction quality and recovering it requires more channels, which is known to slow the convergence of the DiT. The compressed latent also differs from the one the DiT was trained on, so the pretrained DiT must be either retrained from scratch or adapted at considerable cost. Compressing the autoencoder the DiT was trained with appears to preserve compatibility, yet optimizing it for reconstruction alone still shifts the latent away from the distribution the DiT has learned. To address this, we propose Generation-Aware Latent Compression for Efficient Video Generation (GRACE), a two-stage framework that compresses a pretrained video autoencoder while keeping it compatible with the pretrained DiT. Specifically, we keep a frozen base latent from the pretrained encoder and learn a residual latent for the information lost under stronger compression, while aligning the compressed latent with the pretrained latent in the feature space of the frozen DiT so that the autoencoder is optimized for generation. We then adapt the DiT with lightweight fine-tuning and asymmetric denoising, where the base is denoised ahead of the residual. GRACE reduces the token count of Wan2.1-I2V-14B by 8x and its latency by 11.1x at 480x832x81, while matching the generation quality of the pretrained pipeline before compression on VBench.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2610.10524v1",
+  "arxiv_id": "2610.11754v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
@@ -215,64 +212,29 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2610.10512v1",
-  "title": "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
+  "id": "arxiv:2610.11579v1",
+  "title": "SV-TAD: Native Sparse Convs for Efficient Temporal Action Detection",
   "authors": [
-   "Chen Xu",
-   "Yunqi Li",
-   "Binbin Huang",
-   "Brent Yi",
-   "Shenghua Gao",
-   "Yi Ma"
+   "Ricardo Pizarro",
+   "Roberto Valle",
+   "José M. Buenaposada",
+   "Luis M. Bergasa",
+   "Luis Baumela"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.10512v1",
-  "url": "https://arxiv.org/abs/2610.10512v1",
-  "abstract": "Recovering faithful 3D hand motion from video remains challenging due to frequent occlusions and incomplete visual observations, which make frame-wise pose estimates unreliable and temporally inconsistent. To address this problem, we propose JoHan, a unified generative framework that recovers hand motion directly from video sequences without relying on intermediate per-frame pose predictions. Trained from scratch, our model jointly generates aligned 2D and 3D local hand pose sequences by learning their temporal dynamics and cross-representation correspondence. The generated 2D trajectories exploit direct spatial and temporal cues from the 2D images to guide the following generative 3D motion reconstruction, while the learned motion prior promotes temporal consistency. Their learned 2D-3D correspondence further enables recovery of the hand's global position and orientation relative to the camera. Extensive experiments on challenging benchmarks demonstrate significantly improved accuracy and speed in local hand-pose and camera-space reconstruction. Notably, our method captures much better hand-motion dynamics, producing significantly smoother motion than previous methods while maintaining high per-frame pose accuracy.",
+  "pdf": "https://arxiv.org/pdf/2610.11579v1",
+  "url": "https://arxiv.org/abs/2610.11579v1",
+  "abstract": "To adapt billion-parameter Vision Transformers for long-video understanding, recent methods freeze the backbone and train lightweight convolutional modules. While effective for parameter-efficient training, existing adapters do not reduce inference-time computation, leaving scalability with respect to video length largely unaddressed. Token selection can reduce attention cost by pruning redundant tokens, but it breaks the spatial grid structure required by convolutional adapters. This forces an expensive dense reconstruction, nullifying much of the potential speedup. We address this by introducing native sparse 2D convolutions, a primitive that allows these adapters, for the first time, to operate directly and efficiently on dynamically pruned token sets. We integrate this primitive into SV-TAD, an adapter framework for temporal action detection, reducing VideoMAEv2-L computation by up to 64% and achieving 2.2x faster inference, while maintaining state-of-the-art accuracy on THUMOS-14 and ActivityNet-1.3. When scaled to InternVideoNext-L, our approach surpasses the previous state of the art at roughly half its computational cost. Moreover, the sparse formulation naturally supports auxiliary task tokens, which improves fine-grained assembly detection on ATTACH.",
   "citation_count": 0,
   "concepts": [
    "cs.CV"
   ],
-  "arxiv_id": "2610.10512v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.10497v1",
-  "title": "QuadTok: Quadtree Visual Tokenizer for Autoregressive Image Generation",
-  "authors": [
-   "Yucheng Mao",
-   "Zeyuan Chen",
-   "Xiaojun Shan",
-   "Xiang Zhang",
-   "Divyansh Srivastava",
-   "Bingnan Li",
-   "Zhuowen Tu"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-07",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.10497v1",
-  "url": "https://arxiv.org/abs/2610.10497v1",
-  "abstract": "We introduce QuadTok, a novel framework for visual tokenization and autoregressive image generation. Compared to traditional approaches using 2D grids or 1D token sequences, we propose a hierarchical quadtree structure, bridging the gap between 2D spatial binding and 1D sequence-level flexibility. The QuadTok tokenizer dynamically allocates representational capacity to visually intricate areas while leaving homogeneous regions at a coarse resolution. Compared with a fixed 256-token grid, our ImageNet-trained tokenizer saves approximately 10% of tokens on ImageNet and 9% when transferred zero-shot to the COCO dataset, while maintaining comparable reconstruction fidelity. Furthermore, the natural causality introduced by the tree structure seamlessly enables autoregressive image generation. Conditioned on a quadtree topology supplied before generation, our 947M GPT-style generative model achieves a 2.08 gFID on the ImageNet $256 \\times 256$ benchmark. Additionally, leveraging the strong spatial correlation preserved by the quadtree structure, the QuadTok generator enables zero-shot spatially controlled image generation capabilities. Code: https://github.com/myc634/QuadTok.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2610.10497v1",
+  "arxiv_id": "2610.11579v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
