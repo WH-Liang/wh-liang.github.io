@@ -1,5 +1,241 @@
 [
  {
+  "id": "openalex:W7220986524",
+  "title": "Methodology for assessing the accuracy of long-term, annual land cover monitoring at national scale: Experiences from the Land Change Monitoring, Assessment, and Projection (LCMAP) initiative",
+  "authors": [
+   "Danika Wellington",
+   "Stephen V. Stehman",
+   "Josephine A. Horton",
+   "Bruce W. Pengra",
+   "Christopher Barber"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-09",
+  "doi": "10.1016/j.rse.2026.115705",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115705",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Land cover",
+   "Projection (relational algebra)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7220905826",
+  "title": "Extracting sea-ice in the arctic by integrating microwave scattering mechanisms with superpixel-based synergistic constraints",
+  "authors": [
+   "Zhenqi Song",
+   "Jia Li",
+   "Jiahao Dian",
+   "Huiguo Ye",
+   "Xunzhe Dai",
+   "Jiaqiao Li"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-09",
+  "doi": "10.1016/j.isprsjprs.2026.09.039",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.039",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Microwave",
+   "Environmental science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7220912876",
+  "title": "Corrigendum to “Single-stage signal Attenuation Diffusion Model for Low-Light Image Enhancement and denoising” [Pattern Recognition 183 (2027) 114918]",
+  "authors": [
+   "Ying Liu",
+   "Junchao Zhang",
+   "Caiyun Wu"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-09",
+  "doi": "10.1016/j.patcog.2026.115075",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115075",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Image enhancement",
+   "Attenuation",
+   "Image (mathematics)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7220955370",
+  "title": "Comparison of NASA Harmonized Landsat and Sentinel-2 (HLS) surface reflectance products with MODIS NBAR",
+  "authors": [
+   "Qiang Zhou",
+   "Min Feng",
+   "Junchang Ju",
+   "Joe Sexton",
+   "Eric F. Vermote",
+   "Panshi Wang",
+   "Amit Angal",
+   "Margaret Wooten",
+   "Madhu Sridhar",
+   "Saurabh Channan",
+   "Nathan Thomas",
+   "Christopher  S.R. Neigh"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-08",
+  "doi": "10.1016/j.rse.2026.115717",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115717",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Reflectivity",
+   "Environmental science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7220936680",
+  "title": "Degeneracy-resilient LiDAR-inertial SLAM for autonomous tunnel inspection robots",
+  "authors": [
+   "Yi Yan",
+   "Limao Zhang",
+   "Jiaqi Wang",
+   "Yongsheng Li",
+   "Weiyi Chen"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-08",
+  "doi": "10.1016/j.isprsjprs.2026.09.049",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.049",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Robot",
+   "Computer science",
+   "Computer vision"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7220997028",
+  "title": "Nationwide deadwood mapping reveals rising mountain forests vulnerability",
+  "authors": [
+   "Luca Ferrari",
+   "Lars T. Waser‬",
+   "Achilleas Psomas",
+   "Clemens Mosig",
+   "Teja Kattenborn",
+   "Christian Ginzler",
+   "Verena C. Griess",
+   "Mirela Beloiu"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-08",
+  "doi": "10.1016/j.isprsjprs.2026.09.041",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.041",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Geography",
+   "Vulnerability (computing)",
+   "Environmental resource management"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7171662888",
+  "title": "Tracking vegetation disturbance, recovery, and sustainability in open-pit mining areas of Beijing–Tianjin–Hebei Region from 2000 to 2024",
+  "authors": [
+   "Xuliang Guo",
+   "Weidong Man",
+   "Mingming Jia",
+   "Fuping Li",
+   "Youbang Lai",
+   "Yong Zhou",
+   "Chen Juannong",
+   "Yongbin Zhang",
+   "M Chen",
+   "Xiaojie Chi",
+   "Xiaohui Hu",
+   "Mingyue Liu",
+   "Dehua Mao"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-08",
+  "doi": "10.1080/15481603.2026.2744076",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2744076",
+  "abstract": "Evaluating the overarching efficacy of environmental rehabilitation initiatives and driving sustainable progress within open-pit mining areas heavily depends on the precise, sustained tracking of both vegetative degradation and its subsequent regenerative phases. Overcoming the bottlenecks of conventional methods in decoupling vegetation abrupt disturbances from gradual recovery processes, this research utilizes the Google Earth Engine (GEE) and Landsat data spanning from 2000 to 2024. The investigation explicitly targets open-pit mining areas across the Beijing-Tianjin-Hebei region. Through the synergistic integration of the Continuous Change Detection and Classification (CCDC) and an adaptively refined NDVI segmentation baseline, we extracted the spatiotemporal dynamics of abrupt vegetation disturbance and gradual recovery events. Furthermore, to rigorously quantify the enduring stability and long-term persistence of these vegetative successions, the study coupled the non-parametric Sen-MK trend estimator with calculations of the Hurst exponent. The results demonstrate that the F1 score for detecting disturbance and recovery events over the past 25 years stably exceeded 0.8, exhibiting excellent temporal robustness. The derived chronological trajectories pinpoint 2013 as a pivotal reversal node for regional ecological health. Before this critical juncture, the landscape suffered from intense degradation, marked by an average annual vegetative deficit of 962.19 ha. In the post-2013 era, a recovery-dominated paradigm emerged, characterized by an average yearly restoration of 831.37 ha. Crucially, the aggregate intensity of this ecological rehabilitation reached 1.64, substantially overshadowing the historical extraction-induced disturbance magnitude of 1.23. Concurrently, evaluations of trajectory persistence reveal that while a substantial 36.56% of the monitored landscape is undergoing sustained ecological enhancement, a concerning 22.46% persists in a state of relentless environmental deterioration. The acquired quantitative remote sensing evidence not only reveals the core role of macro-policy regulation in driving the reshaping of surface landscapes in mining areas but also provides solid scientific support for the future refined ecological governance of regional territorial space.",
+  "citation_count": 0,
+  "concepts": [
+   "Disturbance (geology)",
+   "Vegetation (pathology)",
+   "Environmental science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
   "id": "arxiv:2610.12448v1",
   "title": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
   "authors": [
@@ -27,218 +263,6 @@
    "计算机视觉",
    "机器学习",
    "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.12200v1",
-  "title": "Quickest Change Detection with Diffusion-Integrated Scores",
-  "authors": [
-   "Arman Adibi",
-   "Mohammadreza Maleki",
-   "Sanjeev Kulkarni",
-   "H. Vincent Poor"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-08",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.12200v1",
-  "url": "https://arxiv.org/abs/2610.12200v1",
-  "abstract": "Classical CUSUM relies on the log-likelihood ratio of the underlying distributions, which cannot generally be computed from finite pre- and post-change samples alone. We propose diffusion-integrated score CUSUM (DI-SCUSUM), a training-free detector. We add Gaussian noise to the samples to form two smooth density estimates and calculate their Hyvärinen scores exactly, without training a score network. For each incoming observation, we sample a diffusion time, perturb the observation, and use the importance-weighted score difference as an increment in the DI-SCUSUM recursion. Under the assumption that observations follow the fixed empirical distributions, the post-change mean increment is proportional to the Kullback-Leibler (KL) divergence from the smoothed post-change to the smoothed pre-change empirical distribution. We establish exponential false-alarm scaling and a first-order delay bound that, for a fixed threshold and increment scaling, is inversely proportional to the KL divergence. In the calibrated anisotropic Gaussian simulation, DI-SCUSUM nearly matches likelihood-ratio CUSUM and reduces the measured detection delay by about 91% relative to score-based CUSUM. On MNIST and Oxford-IIIT Pet, DI-SCUSUM also has lower empirical conditional detection delay than SCUSUM at comparable false-alarm levels.",
-  "citation_count": 0,
-  "concepts": [
-   "stat.ML",
-   "cs.LG"
-  ],
-  "arxiv_id": "2610.12200v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.12182v1",
-  "title": "AI-Based On-Board Maritime Object Detection for Earth Observation Payload Data Reduction on Versal Embedded Hardware",
-  "authors": [
-   "Thomas Goudemant",
-   "Aurélien Bobey",
-   "Omar Hlimi",
-   "Marjorie Bellizzi"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-08",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.12182v1",
-  "url": "https://arxiv.org/abs/2610.12182v1",
-  "abstract": "Very-high-resolution Earth-observation satellites acquire more data than they can store and downlink, while in maritime surveillance the vessels cover a tiny fraction of each scene. We study onboard vessel detection as a way to select what is downlinked, which reduces the data according to its content rather than coding every pixel; it is complementary to conventional onboard compression. The work follows three axes. (i) Data and algorithm: a controlled dataset is generated from 68 annotated Maxar scenes with 43 vessel classes, and a YOLOX-S detector is trained on it. (ii) Embedded deployment: the detector is quantized and deployed on the DPU of a Versal VC1902, with a limited loss of detection quality and a processing time of a few seconds per scene. (iii) Data reduction: we propose several downlink modes, from metadata only (box, class and score of each detection) to image crops around vessels, tiles holding detections, or the whole scene with a degraded background, and estimate from the measured detection errors the trade-off each offers between the vessels kept and the volume downlinked. On our dense harbor and coastal scenes, tiles keep 98% of the vessels with 29% of the scene volume, and crops 83% with 3%.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.AI"
-  ],
-  "arxiv_id": "2610.12182v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.12149v1",
-  "title": "Reliability Characterization for N-version Object Detection",
-  "authors": [
-   "Shunsuke Nagao",
-   "Fumio Machida"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-08",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.12149v1",
-  "url": "https://arxiv.org/abs/2610.12149v1",
-  "abstract": "N-version object detection (OD) is an approach to diversifying detection results using multiple models or input frames and reducing detection errors by aggregating individual results. Diversity and consistency across multiple detection results are critical information for characterizing the reliability of possible configurations of N-version OD systems. However, existing performance metrics such as mAP and Accuracy fail to capture these factors, as they are defined solely on the final outcome after aggregation. To overcome this limitation, we propose two reliability metrics particularly defined for N-version OD, namely coverage of errors in OD (Cov_OD) and certainty of accurate prediction in OD (Cer_OD), which can be computed from individual detection results without relying on voting strategies. We empirically demonstrate the unique features of the proposed metrics through a case study of N-version OD for a vehicle in an autonomous-driving simulator. We show that the proposed metrics can be used for 1) selecting version combinations with complementary error characteristics, 2) choosing an effective voting strategy based on diversity and consistency profiles, and 3) guiding incremental construction of N-version OD systems via pairwise two-version analysis. These results highlight the importance of the metrics that can guide the design of reliable N-version OD applications.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.SE"
-  ],
-  "arxiv_id": "2610.12149v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.12147v1",
-  "title": "Healthy Counterfactual Generation via Diffusion Inpainting for Mammography Classification",
-  "authors": [
-   "Inês Cruchinho Garcia",
-   "Mariana Mourão",
-   "Francisco Maria Calisto",
-   "Carlos Santiago",
-   "Jacinto Nascimento"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-08",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.12147v1",
-  "url": "https://arxiv.org/abs/2610.12147v1",
-  "abstract": "False negatives remain a critical limitation of computer-aided diagnosis (CAD) systems for breast cancer screening due to delayed detection and treatment. To address this issue, we propose a counterfactual data augmentation strategy that generates healthy mammograms by \"erasing\" lesions from anomalous images, thereby enriching the training distribution. We train a Denoising Diffusion Probabilistic Model on BI-RADS 1 (healthy) mammograms and use a RePaint-based sampling strategy to inpaint realistic normal tissue within annotated lesion bounding boxes. The resulting healthy counterfactuals replace annotated lesion regions with realistic healthy tissue while preserving patient-specific anatomical structure, as supported by similarity metrics between real and generated images. Image realism was further assessed by radiologists and found to be consistent with the original dataset quality. We evaluate counterfactual augmentation across four representative classifier architectures: a convolutional neural network (ConvNeXt), a vision transformer (ViT), a vision-language model pre-trained on mammogram-report pairs (Mammo-CLIP) and a multi-scale attention-based multiple-instance learning framework (FPN-MIL). Experiments conducted on the VinDr-Mammo dataset show improvements in sensitivity across all architectures, particularly at 80\\% fixed specificity, contributing towards more reliable CAD systems for breast cancer. Code is available at: https://github.com/ines03garcia/diffusion-based-counterfactual-generation.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2610.12147v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.12051v1",
-  "title": "On-chip filled array hyperspectral kinetic inductance detectors (FHYKID) for line intensity mapping",
-  "authors": [
-   "Emile Prêle",
-   "Martino Calvo",
-   "Usasi Chowdhury",
-   "Gregory Garde",
-   "Florence Levy-Bertrand",
-   "Alessandro Monfardini"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-08",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.12051v1",
-  "url": "https://arxiv.org/abs/2610.12051v1",
-  "abstract": "The next generation Line Intensity Mapping (LIM) experiments will require very high throughput instrumentation, and as a consequence high pixel counts focal planes. For the study of the [CII] line in the redshift range z=7-8, we develop a hyperspectral filled focal plane (FHYKID) operating in the range 210-235 GHz and with a spectral resolution reaching 120. The spectral filtering is achieved thanks to planar Slot Split Ring Resonators (SSRR) coupled to Lumped Element Kinetic Inductance Detectors (LEKID). This robust concept achieves, thanks to its simplicity, large quantum efficiency and is scalable, even with current readout electronics systems, to several tens of thousands beams on Sky. Our FHYKID will be one of the four channels of the NIKONA instrument, currently seeking funding and to be installed at the IRAM 30-meter telescope at Pico Veleta. Among the science goals, simultaneously mapping the local (galactic and nearby-galaxies) CO line and the cosmological [CII].",
-  "citation_count": 0,
-  "concepts": [
-   "astro-ph.IM"
-  ],
-  "arxiv_id": "2610.12051v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.11754v1",
-  "title": "What Output-Only Review Cannot Verify: Study Contracts for Research Agents",
-  "authors": [
-   "Eitan Waks",
-   "Ben Glocker"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-08",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.11754v1",
-  "url": "https://arxiv.org/abs/2610.11754v1",
-  "abstract": "Some defects in an AI-generated study can be identified from its artifacts; others require knowledge of what was approved before execution. We propose study contracts that bind declared experimental choices, run obligations and claim scope to recorded execution evidence, and distinguish this contract-relative verification from scientific truth. A diagnostic using eight self-authored clean/mutated pairs illustrates the information boundary. A deterministic checker applying a registered, fault-specific rule to approved and executed objects detected all eight registered mutations. Across eighteen recorded judge aliases given individual metadata-filtered packages without pair context or the registry-selected fault label, 104 of 144 mutated evaluation cases received defect flags; the remaining cases comprised 32 abstentions and eight terminal failures, with no explicit clean decisions on mutated cases. Some packages retained approval and execution fields, including digests. The prompt instructed judges to abstain when evidence was insufficient. These results characterize a deliberately information-asymmetric development setting; they do not isolate the effect of authoritative information from differences in task specification and rule selection, and they are not comparative verifier quality or agent reward hacking. We identify full-information comparisons, legitimate-adaptation controls and closed-loop agent evaluations as necessary tests of whether contract checks improve useful compliant completion under optimization.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.AI"
-  ],
-  "arxiv_id": "2610.11754v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.11579v1",
-  "title": "SV-TAD: Native Sparse Convs for Efficient Temporal Action Detection",
-  "authors": [
-   "Ricardo Pizarro",
-   "Roberto Valle",
-   "José M. Buenaposada",
-   "Luis M. Bergasa",
-   "Luis Baumela"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-08",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.11579v1",
-  "url": "https://arxiv.org/abs/2610.11579v1",
-  "abstract": "To adapt billion-parameter Vision Transformers for long-video understanding, recent methods freeze the backbone and train lightweight convolutional modules. While effective for parameter-efficient training, existing adapters do not reduce inference-time computation, leaving scalability with respect to video length largely unaddressed. Token selection can reduce attention cost by pruning redundant tokens, but it breaks the spatial grid structure required by convolutional adapters. This forces an expensive dense reconstruction, nullifying much of the potential speedup. We address this by introducing native sparse 2D convolutions, a primitive that allows these adapters, for the first time, to operate directly and efficiently on dynamically pruned token sets. We integrate this primitive into SV-TAD, an adapter framework for temporal action detection, reducing VideoMAEv2-L computation by up to 64% and achieving 2.2x faster inference, while maintaining state-of-the-art accuracy on THUMOS-14 and ActivityNet-1.3. When scaled to InternVideoNext-L, our approach surpasses the previous state of the art at roughly half its computational cost. Moreover, the sparse formulation naturally supports auxiliary task tokens, which improves fine-grained assembly detection on ATTACH.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2610.11579v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
   ],
   "is_own": false
  }
