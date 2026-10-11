@@ -1,5 +1,32 @@
 [
  {
+  "id": "openalex:W7221186294",
+  "title": "Quantile-based homogeneity selection and similarity-weighted robust coherence matrix for distributed scatterer interferometry in mining deformation monitoring",
+  "authors": [
+   "Zeming Tian",
+   "Hongdong Fan",
+   "Jian Li"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-10",
+  "doi": "10.1016/j.jag.2026.105638",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105638",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Interferometry",
+   "Deformation monitoring",
+   "Coherence (philosophical gambling strategy)"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7220986524",
   "title": "Methodology for assessing the accuracy of long-term, annual land cover monitoring at national scale: Experiences from the Land Change Monitoring, Assessment, and Projection (LCMAP) initiative",
   "authors": [
@@ -17,7 +44,7 @@
   "doi": "10.1016/j.rse.2026.115705",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.rse.2026.115705",
-  "abstract": null,
+  "abstract": "Annual land cover monitoring using medium-resolution satellite imagery represents a transition from periodic mapping campaigns to continuous observation systems. This transition introduces accuracy assessment challenges not encountered in one-time mapping efforts, particularly when the initial monitoring period is extended forward in time. These challenges are not addressed in existing guidance, which remains largely framed around the evaluation of maps of a single date or maps showing changes between two dates. We present a set of methodological adaptations to adjust to this evolving paradigm, using as a case study the U.S. Geological Survey (USGS) Land Change Monitoring, Assessment, and Projection (LCMAP) initiative, which generated annual land cover and land cover change products across the historical Landsat archive. Assessing the accuracy of these products was an essential component of LCMAP and resulted in an extensive reference sample dataset that may be used for accuracy estimation, area estimation, or support in the development of new algorithms or models. We review the LCMAP methodology and highlight challenges encountered and lessons learned that are transferable to other long-term, temporally dense monitoring programs. This framework demonstrates that statistically rigorous assessment can scale to operational annual land cover production, while the experiences of the project clarify where existing good practice guidance should be extended to support the needs of ongoing, continuous land cover monitoring.",
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
@@ -26,7 +53,8 @@
   ],
   "source": "openalex",
   "topics": [
-   "遥感"
+   "遥感",
+   "计算机视觉"
   ],
   "is_own": false
  },
@@ -36,9 +64,11 @@
   "authors": [
    "Zhenqi Song",
    "Jia Li",
+   "Jia Li",
    "Jiahao Dian",
    "Huiguo Ye",
    "Xunzhe Dai",
+   "Jiaqiao Li",
    "Jiaqiao Li"
   ],
   "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
@@ -49,7 +79,7 @@
   "doi": "10.1016/j.isprsjprs.2026.09.039",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.039",
-  "abstract": null,
+  "abstract": "High-resolution, fine-scale sea-ice extraction is essential for assessing navigation risk in Arctic shipping routes. Synthetic aperture radar (SAR) provides all-weather observations and is therefore a key data source for polar sea-ice classification. However, conventional pixel-level SAR classification methods are vulnerable to speckle noise and often produce fragmented misclassifications, and fine-scale ice-water boundary delineation remains challenging when reliable labelled samples are limited and SAR backscatter responses overlap under complex ice conditions. Here, we propose Microwave-scattering Feature and Superpixel Synergy for Ice Classification (MFSS-IC), a fine-scale sea-ice classification model that integrates microwave scattering mechanisms with superpixel-based synergistic constraints. The model first uses simple non-iterative clustering to reconstruct SAR images into radiometrically homogeneous superpixel objects, and then integrates dual-polarization backscatter intensity, global statistical priors derived from Otsu thresholding, and morphological structural constraints, enabling adaptive suppression of speckle noise and fine delineation of ice-water boundaries at the object scale. Reconstruction of sea-ice distributions from the 2015–2022 Sentinel-1 images over the Arctic Northwest Passage, together with cross-validation, showed that: (1) under complex ice conditions, MFSS-IC achieved an overall accuracy (OA) of 98.90%; its superpixel-based synergistic constraints suppressed local high-frequency noise, maintained the spatial connectivity of sea-ice classification results, and effectively reduced the salt-and-pepper artifacts common in conventional methods; (2) under the same regional evaluation, MFSS-IC achieved the highest Kappa coefficient (0.978) and user’s accuracy (UA; 99.20%) among U-Net, DeepLabv3+, and MFSS-IC; its OA exceeded those of U-Net and DeepLabv3+ by 0.50 and 0.23 percentage points, respectively; and (3) MFSS-IC showed strong spatiotemporal generalization, captured nonlinear interannual oscillations in sea-ice distribution driven by climate forcing, and accurately extracted submesoscale fragmented sea-ice in bottleneck regions of the Northwest Passage. The proposed model improves the spatial representation of submesoscale fragmented sea-ice and provides a more reliable basis for quantitative assessment of navigation risk in polar shipping routes.",
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
@@ -58,7 +88,115 @@
   ],
   "source": "openalex",
   "topics": [
-   "遥感"
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7221070541",
+  "title": "A Bayesian MCMC approach for snow density estimation from SMOS over the Northern Hemisphere",
+  "authors": [
+   "Xiaowen Gao",
+   "Jinmei Pan",
+   "Lingmei Jiang",
+   "Zhiqing Peng",
+   "Lu Hu",
+   "Jianwei Yang",
+   "Jiancheng Shi"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-09",
+  "doi": "10.1016/j.isprsjprs.2026.09.047",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.047",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Markov chain Monte Carlo",
+   "Northern Hemisphere",
+   "Snow"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7221080255",
+  "title": "From granularity to consensus: Mitigating sample defects for Remote Sensing Image–Text Retrieval",
+  "authors": [
+   "Shaofan Chen",
+   "卢天奎",
+   "Wentao Ma",
+   "Tongqing Zhou",
+   "Jin He",
+   "Mengyu Wang",
+   "Yuwei Wang",
+   "Lu Liu",
+   "Lichuan Gu"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-09",
+  "doi": "10.1016/j.isprsjprs.2026.09.040",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.040",
+  "abstract": "Remote Sensing Image–Text Retrieval (RSITR) aims to retrieve remote sensing images or text descriptions when only one modality is available. Despite recent progress, existing RSITR methods often suffer from sample defects, which cause them to mistakenly treat semantically related pairs as negatives, thereby limiting the benefits of advanced feature representations. To tackle the sample defect issue, we propose a novel Dual-Granularity Consensus-guided False Negative Suppression Network (CFSN 2 ), which jointly improves cross-modal alignment and false negative (FN) learning. First, CFSN 2 extracts momentum-updated feature queues for both global and local representations, enabling temporally coherent and stable similarity estimation. Second, it models dual-granularity similarity distributions via Gaussian Mixture Models and detects potential FNs through probabilistic cross-granularity consensus. Finally, the detected FNs are dynamically reweighted based on their FN confidence, softly suppressing their gradients while preserving informative negatives for a balanced optimization process. Extensive experiments across three datasets show that CFSN 2 achieves strong overall retrieval performance, with R@1 scores of 19.12, 28.96, and 22.86 in image-to-text retrieval, and 15.02, 25.22, and 18.00 in text-to-image retrieval, respectively, compared with 26 baselines.",
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Granularity",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7221158478",
+  "title": "SAMWater: a prompt-guided multimodal framework for transferable water mapping with the segment anything model",
+  "authors": [
+   "Yuchen Liu",
+   "Kang Zheng",
+   "Yongze Song",
+   "Lai Lai",
+   "Ming Shen",
+   "Yanzhu Dong",
+   "Yuxuan Wang",
+   "Xiaoxiao Guo",
+   "Dong Sheng",
+   "Zunyi Xie",
+   "Richard Iestyn Woolway"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-09",
+  "doi": "10.1080/15481603.2026.2745243",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2745243",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Remote sensing",
+   "Geography"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "多模态"
   ],
   "is_own": false
  },
@@ -117,7 +255,7 @@
   "doi": "10.1016/j.rse.2026.115717",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.rse.2026.115717",
-  "abstract": null,
+  "abstract": "Frequent surface reflectance measurements at fine spatial resolutions are crucial for land surface monitoring. The NASA Harmonized Landsat and Sentinel-2 (HLS) project addresses this need by combining data from Landsat and Sentinel-2 missions to provide 30-m surface reflectance products with a global average revisit frequency of 2-3 days. This study evaluates the consistency of the HLS Version 2 (V2.0) product against the established Moderate Resolution Imaging Spectroradiometer (MODIS) Nadir Bidirectional Reflectance Distribution Function-Adjusted Reflectance (NBAR) dataset. We found a high degree of consistency between HLS and MODIS NBAR, with strong positive correlations across all six common spectral bands (R 2 values: 0.939–0.986). Globally, mean absolute differences (MADs) were generally low, typically under 0.03 for visible bands and below 0.05 for NIR and SWIR bands. However, we observed band-dependent discrepancies, with higher discrepancies in the blue and SWIR1 bands. Spatially, substantial differences were found in polar regions, largely due to isolated snow, ice, and water which are fractional and hard to detect within the coarser MODIS pixels but are filtered out in the HLS data. This finding suggests a potential explanation for past disagreements in vegetation trend analyses involving the use of satellite data of different spatial resolutions, as coarser-resolution datasets may mischaracterize greening trends in areas with partial snow and ice cover. These insights are vital for helping users interpret HLS data more effectively and for refining multi-sensor data fusion methods. Our research also provides a valuable baseline for ongoing quality assessment of the HLS product for applications such as vegetation monitoring, land management, and disaster response.",
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
@@ -127,142 +265,6 @@
   "source": "openalex",
   "topics": [
    "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7220936680",
-  "title": "Degeneracy-resilient LiDAR-inertial SLAM for autonomous tunnel inspection robots",
-  "authors": [
-   "Yi Yan",
-   "Limao Zhang",
-   "Jiaqi Wang",
-   "Yongsheng Li",
-   "Weiyi Chen"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-08",
-  "doi": "10.1016/j.isprsjprs.2026.09.049",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.049",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Robot",
-   "Computer science",
-   "Computer vision"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7220997028",
-  "title": "Nationwide deadwood mapping reveals rising mountain forests vulnerability",
-  "authors": [
-   "Luca Ferrari",
-   "Lars T. Waser‬",
-   "Achilleas Psomas",
-   "Clemens Mosig",
-   "Teja Kattenborn",
-   "Christian Ginzler",
-   "Verena C. Griess",
-   "Mirela Beloiu"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-08",
-  "doi": "10.1016/j.isprsjprs.2026.09.041",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.041",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Geography",
-   "Vulnerability (computing)",
-   "Environmental resource management"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7171662888",
-  "title": "Tracking vegetation disturbance, recovery, and sustainability in open-pit mining areas of Beijing–Tianjin–Hebei Region from 2000 to 2024",
-  "authors": [
-   "Xuliang Guo",
-   "Weidong Man",
-   "Mingming Jia",
-   "Fuping Li",
-   "Youbang Lai",
-   "Yong Zhou",
-   "Chen Juannong",
-   "Yongbin Zhang",
-   "M Chen",
-   "Xiaojie Chi",
-   "Xiaohui Hu",
-   "Mingyue Liu",
-   "Dehua Mao"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-08",
-  "doi": "10.1080/15481603.2026.2744076",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2744076",
-  "abstract": "Evaluating the overarching efficacy of environmental rehabilitation initiatives and driving sustainable progress within open-pit mining areas heavily depends on the precise, sustained tracking of both vegetative degradation and its subsequent regenerative phases. Overcoming the bottlenecks of conventional methods in decoupling vegetation abrupt disturbances from gradual recovery processes, this research utilizes the Google Earth Engine (GEE) and Landsat data spanning from 2000 to 2024. The investigation explicitly targets open-pit mining areas across the Beijing-Tianjin-Hebei region. Through the synergistic integration of the Continuous Change Detection and Classification (CCDC) and an adaptively refined NDVI segmentation baseline, we extracted the spatiotemporal dynamics of abrupt vegetation disturbance and gradual recovery events. Furthermore, to rigorously quantify the enduring stability and long-term persistence of these vegetative successions, the study coupled the non-parametric Sen-MK trend estimator with calculations of the Hurst exponent. The results demonstrate that the F1 score for detecting disturbance and recovery events over the past 25 years stably exceeded 0.8, exhibiting excellent temporal robustness. The derived chronological trajectories pinpoint 2013 as a pivotal reversal node for regional ecological health. Before this critical juncture, the landscape suffered from intense degradation, marked by an average annual vegetative deficit of 962.19 ha. In the post-2013 era, a recovery-dominated paradigm emerged, characterized by an average yearly restoration of 831.37 ha. Crucially, the aggregate intensity of this ecological rehabilitation reached 1.64, substantially overshadowing the historical extraction-induced disturbance magnitude of 1.23. Concurrently, evaluations of trajectory persistence reveal that while a substantial 36.56% of the monitored landscape is undergoing sustained ecological enhancement, a concerning 22.46% persists in a state of relentless environmental deterioration. The acquired quantitative remote sensing evidence not only reveals the core role of macro-policy regulation in driving the reshaping of surface landscapes in mining areas but also provides solid scientific support for the future refined ecological governance of regional territorial space.",
-  "citation_count": 0,
-  "concepts": [
-   "Disturbance (geology)",
-   "Vegetation (pathology)",
-   "Environmental science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.12448v1",
-  "title": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
-  "authors": [
-   "Adrian Bulat",
-   "Yassine Ouali",
-   "Georgios Tzimiropoulos"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-08",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.12448v1",
-  "url": "https://arxiv.org/abs/2610.12448v1",
-  "abstract": "In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation. reViT restores depth-specific transformations by representing the FFN at each recurrent depth as a convex combination of a small shared expert bank. A continuous normalized-depth coordinate programs this mixture, defining a resampleable trajectory through FFN parameter space. We evaluate this design in two regimes: supervised ImageNet-1k training and distillation from a DINOv2 teacher. Across both regimes, controlled adaptations identify weight-space merging as the strongest tested MoE family at a matching one-FFN budget, ahead of the token-dispatch and output-mixture alternatives. Trained from scratch, reViT-B/16 attains DeiT III accuracy with about 70\\% fewer stored parameters. An 8-experts model distilled using only the teacher's output features retains nearly all of its DINOv2 teacher's linear-probe accuracy and transfers across classification, segmentation, and depth prediction. Elastic-depth training allows one checkpoint (trained model) to operate at multiple tested depths by resampling the same normalized coordinate interval. For fixed-depth deployment, the recurrent block can be materialized as a conventional dense graph, removing online routing and merging without changing the one-FFN-per-depth compute but expanding deployment storage.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.LG"
-  ],
-  "arxiv_id": "2610.12448v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "三维与几何"
   ],
   "is_own": false
  }
