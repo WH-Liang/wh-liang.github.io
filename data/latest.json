@@ -1,5 +1,86 @@
 [
  {
+  "id": "openalex:W7221318713",
+  "title": "A semi-empirical BPDF model for improving characterization of polarimetric reflection of land surfaces: Validation using laboratory and POLDER polarization data",
+  "authors": [
+   "Cong Liu",
+   "Zhongqiu Sun",
+   "Shan Lu",
+   "Kenji Omasa"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-10",
+  "doi": "10.1016/j.rse.2026.115722",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115722",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Polarimetry",
+   "Polarization (electrochemistry)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7221349301",
+  "title": "Editorial Board",
+  "authors": [],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-10",
+  "doi": "10.1016/s0034-4257(26)00499-2",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/s0034-4257(26)00499-2",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7221354240",
+  "title": "Extent and dynamics of tropical flooded forests with multi-year SAR composites and altimetry",
+  "authors": [
+   "Paul Senty",
+   "Cecile Kittel",
+   "Fabrice Papa",
+   "Rasmus Fensholt",
+   "Monica Coppo Frias",
+   "Stéphanie Horion"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-10",
+  "doi": "10.1016/j.rse.2026.115720",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115720",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Altimeter",
+   "Synthetic aperture radar"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7221186294",
   "title": "Quantile-based homogeneity selection and similarity-weighted robust coherence matrix for distributed scatterer interferometry in mining deformation monitoring",
   "authors": [
@@ -15,7 +96,7 @@
   "doi": "10.1016/j.jag.2026.105638",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.jag.2026.105638",
-  "abstract": null,
+  "abstract": "Coal mining can lead to a series of geological issues, making it crucial to monitor surface deformation for early hazard warning in mining areas. Distributed Scatterer Interferometry (DSI) enables the monitoring of deformation in overlying strata above mining working faces. However, the accuracy of this technology is often affected by spatiotemporal decorrelation, necessitating phase recovery processing. The Phase Linking (PL) algorithm can effectively recover the interferometric phase, but it is limited by the correctness of statistical homogeneous pixel selection (SHPs) and the utilization of spatial dimensional information, making it difficult to obtain a sample complex coherence matrix (SCCM) that closely resembles the true situation. This severely impacts the accuracy of the PL estimation results. To address this, this paper proposes two solutions: (1) For SHPs, the medcouple (MC) method is used as a robust measure of skewed distributions, adjusting the boxplot to optimize homogeneous samples in the intensity map, removing outliers and enhancing sample robustness; (2) For SCCM construction, a similarity measure between reference pixels and homogeneous pixels is used as a weight, and a weighted sum with constraint processing is applied to obtain a robust coherence matrix. Simulation and real-world results show that the proposed method can recover phase information severely affected by noise, maintain phase stability, and significantly increase the monitoring point density; its high reliability has been validated through leveling data verification.",
   "citation_count": 0,
   "concepts": [
    "Interferometry",
@@ -23,7 +104,39 @@
    "Coherence (philosophical gambling strategy)"
   ],
   "source": "openalex",
-  "topics": [],
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7221360080",
+  "title": "Design for Machinability: Topology Optimization for Subtractive Machining Using Trimmed Neural Fields",
+  "authors": [
+   "Hongrui Chen",
+   "Levent Burak Kara"
+  ],
+  "venue": "ACM Transactions on Graphics",
+  "venue_short": "TOG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-10",
+  "doi": "10.1145/3847303",
+  "pdf": null,
+  "url": "https://doi.org/10.1145/3847303",
+  "abstract": "Topology optimization has found significant utility in additive manufacturing, but the resulting geometries are often difficult to realize using subtractive methods. The complex, curved surfaces of optimized designs typically require time-consuming point milling operations. In contrast, geometries composed of developable surfaces are well suited to flank milling, enabling substantial improvements in machining efficiency and surface quality. However, globally minimizing Gaussian curvature leads to overly simplistic designs. We address this challenge with a novel method that represents geometry using three implicit neural fields, optimized to produce machinable components. The resulting designs consist of regions of developable surfaces separated by seamlines where curvature is concentrated. Seamlines are efficiently computed as intersections of the implicit fields, while the geometry emerges through their product. By constraining surfaces to align with the cutter’s normal or tangential direction, our approach further accommodates practical constraints of 3-axis machining. We demonstrate concurrent optimization of topology and Gaussian curvature, enabling control over seamline feature scale. Compared to methods that enforce subtractive machinability without considering milling efficiency, our approach consistently reduces machining time while maintaining competitive structural performance.",
+  "citation_count": 0,
+  "concepts": [
+   "Subtractive color",
+   "Machining",
+   "Gaussian curvature"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "三维与几何"
+  ],
   "is_own": false
  },
  {
@@ -114,7 +227,7 @@
   "doi": "10.1016/j.isprsjprs.2026.09.047",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.047",
-  "abstract": null,
+  "abstract": "Snow density is a key parameter for calculating snow water equivalent, snow albedo, snow emissivity, and snow mechanical properties. It is therefore essential in water resource management, snow-air energy exchange computation, cold regions engineering design, and avalanche prevention. In a warming climate, snow density is undergoing rapid changes, which pose challenges for static snow density evolution equations in predicting spatiotemporal variability. Therefore, in this paper, we developed a physically-based snow density retrieval algorithm in the Northern Hemisphere based on SMOS (Soil Moisture and Ocean Salinity) L-band multi-angle radiometer. We first mitigated signal contamination from water bodies through sub-pixel decomposition and explicitly accounted for forest canopy and soil contribution using a coupled forest-snow-soil radiative transfer model. A Bayesian framework incorporating priors from snow classification and ERA5-Land reanalysis was further introduced to improve retrieval stability. The algorithm was tested over the 2019–2020 snow season and evaluated against 1,460 in-situ sites from the SNOTEL, CanSWE, and SnMar observation networks across North America and Eurasia. Results show that our algorithm corrects the systematic underestimation of ERA5-Land snow density during early- and mid-snow seasons. During the stable snow cover period (January-March 2020), the retrieval achieves an RMSE of 42.6 kg/m 3 and a mean bias of −4.0 kg/m 3 , corresponding to reductions of approximately 25 % and 89 % compared to respective values of 56.7 kg/m 3 and −36.4 kg/m 3 for ERA5-Land. These results highlight the value of microwave remote sensing in providing independent information to improve the snow density estimation in land surface modeling.",
   "citation_count": 0,
   "concepts": [
    "Markov chain Monte Carlo",
@@ -122,149 +235,9 @@
    "Snow"
   ],
   "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221080255",
-  "title": "From granularity to consensus: Mitigating sample defects for Remote Sensing Image–Text Retrieval",
-  "authors": [
-   "Shaofan Chen",
-   "卢天奎",
-   "Wentao Ma",
-   "Tongqing Zhou",
-   "Jin He",
-   "Mengyu Wang",
-   "Yuwei Wang",
-   "Lu Liu",
-   "Lichuan Gu"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-09",
-  "doi": "10.1016/j.isprsjprs.2026.09.040",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.040",
-  "abstract": "Remote Sensing Image–Text Retrieval (RSITR) aims to retrieve remote sensing images or text descriptions when only one modality is available. Despite recent progress, existing RSITR methods often suffer from sample defects, which cause them to mistakenly treat semantically related pairs as negatives, thereby limiting the benefits of advanced feature representations. To tackle the sample defect issue, we propose a novel Dual-Granularity Consensus-guided False Negative Suppression Network (CFSN 2 ), which jointly improves cross-modal alignment and false negative (FN) learning. First, CFSN 2 extracts momentum-updated feature queues for both global and local representations, enabling temporally coherent and stable similarity estimation. Second, it models dual-granularity similarity distributions via Gaussian Mixture Models and detects potential FNs through probabilistic cross-granularity consensus. Finally, the detected FNs are dynamically reweighted based on their FN confidence, softly suppressing their gradients while preserving informative negatives for a balanced optimization process. Extensive experiments across three datasets show that CFSN 2 achieves strong overall retrieval performance, with R@1 scores of 19.12, 28.96, and 22.86 in image-to-text retrieval, and 15.02, 25.22, and 18.00 in text-to-image retrieval, respectively, compared with 26 baselines.",
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Granularity",
-   "Remote sensing"
-  ],
-  "source": "openalex",
   "topics": [
    "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221158478",
-  "title": "SAMWater: a prompt-guided multimodal framework for transferable water mapping with the segment anything model",
-  "authors": [
-   "Yuchen Liu",
-   "Kang Zheng",
-   "Yongze Song",
-   "Lai Lai",
-   "Ming Shen",
-   "Yanzhu Dong",
-   "Yuxuan Wang",
-   "Xiaoxiao Guo",
-   "Dong Sheng",
-   "Zunyi Xie",
-   "Richard Iestyn Woolway"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-09",
-  "doi": "10.1080/15481603.2026.2745243",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2745243",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Remote sensing",
-   "Geography"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7220912876",
-  "title": "Corrigendum to “Single-stage signal Attenuation Diffusion Model for Low-Light Image Enhancement and denoising” [Pattern Recognition 183 (2027) 114918]",
-  "authors": [
-   "Ying Liu",
-   "Junchao Zhang",
-   "Caiyun Wu"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-09",
-  "doi": "10.1016/j.patcog.2026.115075",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115075",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Image enhancement",
-   "Attenuation",
-   "Image (mathematics)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7220955370",
-  "title": "Comparison of NASA Harmonized Landsat and Sentinel-2 (HLS) surface reflectance products with MODIS NBAR",
-  "authors": [
-   "Qiang Zhou",
-   "Min Feng",
-   "Junchang Ju",
-   "Joe Sexton",
-   "Eric F. Vermote",
-   "Panshi Wang",
-   "Amit Angal",
-   "Margaret Wooten",
-   "Madhu Sridhar",
-   "Saurabh Channan",
-   "Nathan Thomas",
-   "Christopher  S.R. Neigh"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-08",
-  "doi": "10.1016/j.rse.2026.115717",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115717",
-  "abstract": "Frequent surface reflectance measurements at fine spatial resolutions are crucial for land surface monitoring. The NASA Harmonized Landsat and Sentinel-2 (HLS) project addresses this need by combining data from Landsat and Sentinel-2 missions to provide 30-m surface reflectance products with a global average revisit frequency of 2-3 days. This study evaluates the consistency of the HLS Version 2 (V2.0) product against the established Moderate Resolution Imaging Spectroradiometer (MODIS) Nadir Bidirectional Reflectance Distribution Function-Adjusted Reflectance (NBAR) dataset. We found a high degree of consistency between HLS and MODIS NBAR, with strong positive correlations across all six common spectral bands (R 2 values: 0.939–0.986). Globally, mean absolute differences (MADs) were generally low, typically under 0.03 for visible bands and below 0.05 for NIR and SWIR bands. However, we observed band-dependent discrepancies, with higher discrepancies in the blue and SWIR1 bands. Spatially, substantial differences were found in polar regions, largely due to isolated snow, ice, and water which are fractional and hard to detect within the coarser MODIS pixels but are filtered out in the HLS data. This finding suggests a potential explanation for past disagreements in vegetation trend analyses involving the use of satellite data of different spatial resolutions, as coarser-resolution datasets may mischaracterize greening trends in areas with partial snow and ice cover. These insights are vital for helping users interpret HLS data more effectively and for refining multi-sensor data fusion methods. Our research also provides a valuable baseline for ongoing quality assessment of the HLS product for applications such as vegetation monitoring, land management, and disaster response.",
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Reflectivity",
-   "Environmental science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
+   "计算机视觉"
   ],
   "is_own": false
  }
