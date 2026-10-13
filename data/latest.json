@@ -1,5 +1,73 @@
 [
  {
+  "id": "openalex:W7221449399",
+  "title": "Reliability-aware superpoint graph learning for large-scale point cloud semantic segmentation: Evaluation on indoor, mobile, and airborne benchmarks",
+  "authors": [
+   "Songyu Zhang",
+   "Shaoyan Gai",
+   "Feipeng Da"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-11",
+  "doi": "10.1016/j.isprsjprs.2026.10.002",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.002",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Point cloud",
+   "Graph"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7221468355",
+  "title": "Hillslope-scale daily snow cover reconstruction in complex mountains: a novel framework integrating long-term snow persistence",
+  "authors": [
+   "Guigang Wang",
+   "Tao Che",
+   "Liyun Dai",
+   "Yanxing Hu",
+   "Xuemei Li",
+   "Dongdong Feng",
+   "Yaqiong Mu",
+   "Yang Zhang",
+   "Ye Jiang",
+   "Jing Wang",
+   "Saiyao Meng"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-11",
+  "doi": "10.1080/15481603.2026.2745218",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2745218",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Snow",
+   "Snow cover",
+   "Persistence (discontinuity)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7221318713",
   "title": "A semi-empirical BPDF model for improving characterization of polarimetric reflection of land surfaces: Validation using laboratory and POLDER polarization data",
   "authors": [
@@ -16,7 +84,7 @@
   "doi": "10.1016/j.rse.2026.115722",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.rse.2026.115722",
-  "abstract": null,
+  "abstract": "Bidirectional Polarization Distribution Function (BPDF) models, widely used to characterize the polarimetric properties of light reflected from targets, are crucial for linking polarization with land surface structural parameters and understanding surface contributions to polarization in radiative transfer. However, existing BPDF models face challenges in accurately representing variations in both the magnitude and distribution of polarimetric reflection across surfaces with varying structural characteristics. In this study, a three-parameter BPDF model (GMF model), which can effectively characterize polarimetric reflection of surfaces ranging from smooth to rough, was developed by combining the GGX distribution function with the Fresnel equation and a shadowing function. Multi-angular polarimetric data from laboratory measurements over three plant samples and from Polarization and Directionality of the Earth's Reflectances (POLDER) satellite observations over various land surfaces, each exhibiting distinct polarimetric reflection properties, were used to validate the proposed model. Compared with five existing models, the new model achieved the highest accuracy in simulating polarimetric reflection, reducing the overall RMSE by 33%–68% for laboratory samples and by 8%–30% for POLDER observations. This improvement is attributed to the incorporation of the GGX distribution function, which enables the new polarization model to accurately characterize the polarimetric properties of surfaces with varying structures, including sharp specular peaks over smooth surfaces and broad angular distributions over rough surfaces. Furthermore, the analysis of the model's response to parameter variations demonstrated that the GGX distribution function enhanced the ability of the GMF model to modulate the magnitude and distribution of polarimetric reflection induced by surface structure variations. The proposed polarization model is expected to advance polarized remote sensing applications in land surface monitoring.",
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
@@ -25,7 +93,8 @@
   ],
   "source": "openalex",
   "topics": [
-   "遥感"
+   "遥感",
+   "计算机视觉"
   ],
   "is_own": false
  },
@@ -39,7 +108,7 @@
   "year": 2026,
   "date": "2026-10-10",
   "doi": "10.1016/s0034-4257(26)00499-2",
-  "pdf": null,
+  "pdf": "https://www.sciencedirect.com/science/article/pii/S0034425726004992/pdf",
   "url": "https://doi.org/10.1016/s0034-4257(26)00499-2",
   "abstract": null,
   "citation_count": 0,
@@ -53,7 +122,7 @@
   "title": "Extent and dynamics of tropical flooded forests with multi-year SAR composites and altimetry",
   "authors": [
    "Paul Senty",
-   "Cecile Kittel",
+   "Cécile Marie Margaretha Kittel",
    "Fabrice Papa",
    "Rasmus Fensholt",
    "Monica Coppo Frias",
@@ -67,7 +136,7 @@
   "doi": "10.1016/j.rse.2026.115720",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.rse.2026.115720",
-  "abstract": null,
+  "abstract": "Flood dynamics regulate greenhouse gas emissions from tropical flooded forests, but monitoring flooding beneath dense canopies is challenging. We introduce a L-band SAR approach that uses more than a decade of ALOS-2 PALSAR-2 observations to detect sub-canopy flooding at 100 m resolution across the Amazon and Congo rainforests. We generate multi-year composites of HH and HV backscatter that represent low-, intermediate-, and high-water stages. These hydrological stages are defined locally using over 7000 satellite altimetry time series, accounting for the large variability in the timings of high-water conditions across both rainforests. Flooded forests display a characteristic dual-polarization signature: HV backscatter is comparable to that of non-flooded forests, while HH backscatter is higher due to double-bounce scattering. Quantifying deviations in the HH-HV space, we determine the extent of flooded forests at high-water stage and estimate their seasonal dynamics using a discrete stage-count metric, informing on the number of hydrological stages at which a pixel is classified as flooded forest. Multi-year compositing reduces speckle noise relative to single scenes, enabling the detection of narrow floodplains, while the local definition of high-water conditions improves the representation of high-water conditions across the two rainforests. We estimate approximately 827,000 km 2 of flooded forests under typical high-water conditions, ~687,000 km 2 in the Amazon and ~ 140,000 km 2 in the Congo rainforest. In the Amazon basin, agreement with estimates from Hess et al. (2015), Rosenqvist et al. (2020) and Fleischmann et al. (2022) varies spatially, with high agreement in wide floodplains (e.g., Solimões and Purus rivers), lower agreement along narrower floodplains, and substantial discrepancies in sparsely vegetated areas, partly explained by differences in forest definitions. In the Cuvette Centrale, our estimates show spatial consistency with the estimated extent of peat swamp forests by Crezee et al. (2022), although our flooded forest extent is more spatially restricted. We also found a good correlation between our stage-count map and the microtopography of the Solimões floodplain. By resolving both the extent and seasonal dynamics of flooded forests at 100 m resolution, these maps can support ecological, hydrological, and carbon studies in tropical forests.",
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
@@ -76,7 +145,8 @@
   ],
   "source": "openalex",
   "topics": [
-   "遥感"
+   "遥感",
+   "计算机视觉"
   ],
   "is_own": false
  },
@@ -163,76 +233,6 @@
    "Remote sensing",
    "Land cover",
    "Projection (relational algebra)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7220905826",
-  "title": "Extracting sea-ice in the arctic by integrating microwave scattering mechanisms with superpixel-based synergistic constraints",
-  "authors": [
-   "Zhenqi Song",
-   "Jia Li",
-   "Jia Li",
-   "Jiahao Dian",
-   "Huiguo Ye",
-   "Xunzhe Dai",
-   "Jiaqiao Li",
-   "Jiaqiao Li"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-09",
-  "doi": "10.1016/j.isprsjprs.2026.09.039",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.039",
-  "abstract": "High-resolution, fine-scale sea-ice extraction is essential for assessing navigation risk in Arctic shipping routes. Synthetic aperture radar (SAR) provides all-weather observations and is therefore a key data source for polar sea-ice classification. However, conventional pixel-level SAR classification methods are vulnerable to speckle noise and often produce fragmented misclassifications, and fine-scale ice-water boundary delineation remains challenging when reliable labelled samples are limited and SAR backscatter responses overlap under complex ice conditions. Here, we propose Microwave-scattering Feature and Superpixel Synergy for Ice Classification (MFSS-IC), a fine-scale sea-ice classification model that integrates microwave scattering mechanisms with superpixel-based synergistic constraints. The model first uses simple non-iterative clustering to reconstruct SAR images into radiometrically homogeneous superpixel objects, and then integrates dual-polarization backscatter intensity, global statistical priors derived from Otsu thresholding, and morphological structural constraints, enabling adaptive suppression of speckle noise and fine delineation of ice-water boundaries at the object scale. Reconstruction of sea-ice distributions from the 2015–2022 Sentinel-1 images over the Arctic Northwest Passage, together with cross-validation, showed that: (1) under complex ice conditions, MFSS-IC achieved an overall accuracy (OA) of 98.90%; its superpixel-based synergistic constraints suppressed local high-frequency noise, maintained the spatial connectivity of sea-ice classification results, and effectively reduced the salt-and-pepper artifacts common in conventional methods; (2) under the same regional evaluation, MFSS-IC achieved the highest Kappa coefficient (0.978) and user’s accuracy (UA; 99.20%) among U-Net, DeepLabv3+, and MFSS-IC; its OA exceeded those of U-Net and DeepLabv3+ by 0.50 and 0.23 percentage points, respectively; and (3) MFSS-IC showed strong spatiotemporal generalization, captured nonlinear interannual oscillations in sea-ice distribution driven by climate forcing, and accurately extracted submesoscale fragmented sea-ice in bottleneck regions of the Northwest Passage. The proposed model improves the spatial representation of submesoscale fragmented sea-ice and provides a more reliable basis for quantitative assessment of navigation risk in polar shipping routes.",
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Microwave",
-   "Environmental science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221070541",
-  "title": "A Bayesian MCMC approach for snow density estimation from SMOS over the Northern Hemisphere",
-  "authors": [
-   "Xiaowen Gao",
-   "Jinmei Pan",
-   "Lingmei Jiang",
-   "Zhiqing Peng",
-   "Lu Hu",
-   "Jianwei Yang",
-   "Jiancheng Shi"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-09",
-  "doi": "10.1016/j.isprsjprs.2026.09.047",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.047",
-  "abstract": "Snow density is a key parameter for calculating snow water equivalent, snow albedo, snow emissivity, and snow mechanical properties. It is therefore essential in water resource management, snow-air energy exchange computation, cold regions engineering design, and avalanche prevention. In a warming climate, snow density is undergoing rapid changes, which pose challenges for static snow density evolution equations in predicting spatiotemporal variability. Therefore, in this paper, we developed a physically-based snow density retrieval algorithm in the Northern Hemisphere based on SMOS (Soil Moisture and Ocean Salinity) L-band multi-angle radiometer. We first mitigated signal contamination from water bodies through sub-pixel decomposition and explicitly accounted for forest canopy and soil contribution using a coupled forest-snow-soil radiative transfer model. A Bayesian framework incorporating priors from snow classification and ERA5-Land reanalysis was further introduced to improve retrieval stability. The algorithm was tested over the 2019–2020 snow season and evaluated against 1,460 in-situ sites from the SNOTEL, CanSWE, and SnMar observation networks across North America and Eurasia. Results show that our algorithm corrects the systematic underestimation of ERA5-Land snow density during early- and mid-snow seasons. During the stable snow cover period (January-March 2020), the retrieval achieves an RMSE of 42.6 kg/m 3 and a mean bias of −4.0 kg/m 3 , corresponding to reductions of approximately 25 % and 89 % compared to respective values of 56.7 kg/m 3 and −36.4 kg/m 3 for ERA5-Land. These results highlight the value of microwave remote sensing in providing independent information to improve the snow density estimation in land surface modeling.",
-  "citation_count": 0,
-  "concepts": [
-   "Markov chain Monte Carlo",
-   "Northern Hemisphere",
-   "Snow"
   ],
   "source": "openalex",
   "topics": [
