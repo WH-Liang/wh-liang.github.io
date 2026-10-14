@@ -1,177 +1,221 @@
 [
  {
-  "id": "openalex:W7221449399",
-  "title": "Reliability-aware superpoint graph learning for large-scale point cloud semantic segmentation: Evaluation on indoor, mobile, and airborne benchmarks",
+  "id": "openalex:W7221559497",
+  "title": "Substantial disagreement between satellite- and ground-level nighttime light patterns revealed by SDGSAT-1 and street view imagery",
   "authors": [
-   "Songyu Zhang",
-   "Shaoyan Gai",
-   "Feipeng Da"
+   "Yu Gong",
+   "鄭啟明",
+   "Filip Biljecki",
+   "Waishan Qiu",
+   "Zicheng Fan",
+   "Zihao Zheng",
+   "Lin Yan",
+   "C. S. J. Pun",
+   "Sylvia Y. He"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-13",
+  "doi": "10.1016/j.rse.2026.115724",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115724",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Environmental science",
+   "Reflectivity"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7221513887",
+  "title": "A decade of summer glacier fronts and calved glacier ice distribution in Kongs- and Krossfjorden, Svalbard, observed by Sentinel-1 extra wide swath",
+  "authors": [
+   "Jörg Haarpaintner",
+   "Geir Moholdt",
+   "Manon Tranchand-Besset",
+   "Valentin Pillet"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-12",
+  "doi": "10.1016/j.rse.2026.115693",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115693",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Geology",
+   "Glacier",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7221556497",
+  "title": "From national to global: Mapping global center-pivot irrigated cropland with knowledge-guided data augmentation",
+  "authors": [
+   "Xiangyu Liu",
+   "Wei He",
+   "Yu Xia",
+   "Jie Wang",
+   "Hongyan Zhang"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-12",
+  "doi": "10.1016/j.rse.2026.115736",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115736",
+  "abstract": "Center-pivot irrigated cropland (CPIC) is a large-scale, intensive agricultural irrigation practice with high water-use efficiency. This characteristic enables CPIC to increase crop yields and promote agricultural development, while simultaneously causing groundwater overexploitation and subsequent environmental issues. Mapping the global distribution of CPIC is critical for enhancing water resource management, guiding agricultural policies, and assessing ecological impacts. This study developed a novel methodological framework integrating CPIC prior knowledge into the generation of a global training dataset through designed algorithms, ultimately producing a 2020 global CPIC map (GCMap) based on Landsat imagery. Specifically, we first proposed a shape-prior guided Projection Simulation (PS) to enhance the diversity of national-scale CPIC samples, enabling global CPIC pseudo-label generation through a teacher model. Subsequently, a stratified sampling strategy was implemented to improve sample representativeness across different regions using the pseudo-labels of global CPIC. Furthermore, a dual-temporal correction mechanism was proposed to clean sample labels, ultimately generating high-confidence global training samples. Finally, based on this dataset, a student model was trained using a noise-resistant loss function and deployed on cloud computing platforms to generate the GCMap rapidly. Following Olofsson's design-based stratified sampling and error-matrix framework, we derived statistically rigorous area estimates with explicit 95% confidence intervals and assessed mapping accuracy using the corresponding user's accuracy (UA), producer's accuracy (PA), and overall accuracy (OA) metrics. In comparison with current CPIC products, our GCMap attained a PA of 0.86 ± 0.02, representing a marked reduction in omission errors. Our results show that the global error-adjusted area of CPIC in 2020 was estimated at 18.70 ± 0.42 Mha, representing a 63% increase relative to the previous estimate of 11.5 Mha and revealing substantial underestimation in previous estimates. Geographically, the semi-arid zone has the largest share of CPIC, covering 9.27 ± 0.29 Mha (49.28% of the total), followed by the arid zone (4.69 ± 0.20 Mha, 24.95%) and humid zone (2.99 ± 0.22 Mha, 15.92%). Further analysis indicates that most CPIC is distributed in aquifers with limited underwater recharge. Approximately 15.25 ± 0.87 Mha (82.04%) of CPIC areas are located in regions with recharge rates below 100 mm/year, of which 9.97 ± 0.48 Mha (53.62% of total CPIC) fall within extremely low recharge zones (<20 mm/year). These findings provide an essential foundation for further research on irrigation-groundwater interactions and sustainable policymaking about agricultural development and water usage. Our GCMap inventory is publicly available in an online repository at: https://doi.org/10.12436/GCMap.62.20250711 .",
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Environmental science",
+   "Sampling (signal processing)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7202194221",
+  "title": "GeoPhysAdapter: Scale-matched geophysical adaptation for cross-domain landslide mapping with vision foundation models",
+  "authors": [
+   "Zhihang Liu",
+   "Mei‐Po Kwan",
+   "Jinlin Wu",
+   "Hao Li"
   ],
   "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
   "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-11",
-  "doi": "10.1016/j.isprsjprs.2026.10.002",
+  "date": "2026-10-12",
+  "doi": "10.1016/j.isprsjprs.2026.09.035",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.002",
-  "abstract": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.035",
+  "abstract": "Newly triggered landslides rarely carry immediate annotations, so cross-domain transferability determines the value of landslide mapping for emergency response and regional risk assessment. Vision foundation models have strengthened representational transfer, yet on unseen regions, events, and data sources they still generate high-confidence false alarms. Terrain, material, and rainfall triggering can constrain such errors, but their supports are local, regional, and event-scale, so that resampling onto a 10~m grid misaligns them with the segmentation decision unit and compounds the uncertain geographic context problem (UGCoP). We propose GeoPhysAdapter, which anchors on a frozen vision foundation model, restricts terrain, material, and triggering to dense spatial guidance, regional modulation, and event-timing forcing, and applies bounded adaptation at two decision units, the pixel and the candidate landslide body, reverting exactly to the visual prediction where support is insufficient. On an event-isolated PILD dataset of four public sources, 55 global landslide events, and 7,890 test samples, 70.3% of cross-domain false-positive mass lies in near-pure spurious bodies of median equivalent diameter 207m, matching coarse-prior support rather than the pixel. Pixel-level adaptation removes a net 507,817 erroneous pixels and reduces error by 7.76%, whereas raising the decision unit to the candidate body, under identical samples, anchor, and baseline, increases error reduction to 23.99%, approximately 3.1 times the pixel-level effect, improves IoU by 0.031 (14.2% relative), and corrects 9.92 pixels per pixel harmed. The data and code are publicly available at: https://github.com/Liu-Zhihang/geophysadapter.",
   "citation_count": 0,
   "concepts": [
-   "Computer science",
-   "Point cloud",
-   "Graph"
+   "Pixel",
+   "Spurious relationship",
+   "Context (archaeology)"
   ],
   "source": "openalex",
   "topics": [
-   "计算机视觉",
-   "机器学习",
-   "三维与几何"
+   "计算机视觉"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7221468355",
-  "title": "Hillslope-scale daily snow cover reconstruction in complex mountains: a novel framework integrating long-term snow persistence",
+  "id": "openalex:W7221506428",
+  "title": "Cross-sensor continual maritime object recognition via spectral shift modulation in heterogeneous infrared–visible UAV imagery",
   "authors": [
-   "Guigang Wang",
-   "Tao Che",
-   "Liyun Dai",
-   "Yanxing Hu",
-   "Xuemei Li",
-   "Dongdong Feng",
-   "Yaqiong Mu",
-   "Yang Zhang",
-   "Ye Jiang",
-   "Jing Wang",
-   "Saiyao Meng"
+   "Dingyuan Chen",
+   "Yu Liu",
+   "Zhaohui Song"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-12",
+  "doi": "10.1016/j.isprsjprs.2026.09.025",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.025",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer vision",
+   "Computer science",
+   "Artificial intelligence"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7221516449",
+  "title": "Integrating multi-source physical knowledge into deep learning for satellite soil moisture downscaling",
+  "authors": [
+   "Jinhua Gao",
+   "Hao Sun",
+   "Ximin Cui",
+   "Jinbao Jiang",
+   "Zhenheng Xu",
+   "Yunjia Wang",
+   "Yuxin Wang"
   ],
   "venue": "GIScience & Remote Sensing",
   "venue_short": "GISci. Remote Sens.",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-11",
-  "doi": "10.1080/15481603.2026.2745218",
+  "date": "2026-10-12",
+  "doi": "10.1080/15481603.2026.2745215",
   "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2745218",
+  "url": "https://doi.org/10.1080/15481603.2026.2745215",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Snow",
-   "Snow cover",
-   "Persistence (discontinuity)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221318713",
-  "title": "A semi-empirical BPDF model for improving characterization of polarimetric reflection of land surfaces: Validation using laboratory and POLDER polarization data",
-  "authors": [
-   "Cong Liu",
-   "Zhongqiu Sun",
-   "Shan Lu",
-   "Kenji Omasa"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-10",
-  "doi": "10.1016/j.rse.2026.115722",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115722",
-  "abstract": "Bidirectional Polarization Distribution Function (BPDF) models, widely used to characterize the polarimetric properties of light reflected from targets, are crucial for linking polarization with land surface structural parameters and understanding surface contributions to polarization in radiative transfer. However, existing BPDF models face challenges in accurately representing variations in both the magnitude and distribution of polarimetric reflection across surfaces with varying structural characteristics. In this study, a three-parameter BPDF model (GMF model), which can effectively characterize polarimetric reflection of surfaces ranging from smooth to rough, was developed by combining the GGX distribution function with the Fresnel equation and a shadowing function. Multi-angular polarimetric data from laboratory measurements over three plant samples and from Polarization and Directionality of the Earth's Reflectances (POLDER) satellite observations over various land surfaces, each exhibiting distinct polarimetric reflection properties, were used to validate the proposed model. Compared with five existing models, the new model achieved the highest accuracy in simulating polarimetric reflection, reducing the overall RMSE by 33%–68% for laboratory samples and by 8%–30% for POLDER observations. This improvement is attributed to the incorporation of the GGX distribution function, which enables the new polarization model to accurately characterize the polarimetric properties of surfaces with varying structures, including sharp specular peaks over smooth surfaces and broad angular distributions over rough surfaces. Furthermore, the analysis of the model's response to parameter variations demonstrated that the GGX distribution function enhanced the ability of the GMF model to modulate the magnitude and distribution of polarimetric reflection induced by surface structure variations. The proposed polarization model is expected to advance polarized remote sensing applications in land surface monitoring.",
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Polarimetry",
-   "Polarization (electrochemistry)"
+   "Downscaling",
+   "Satellite",
+   "Remote sensing"
   ],
   "source": "openalex",
   "topics": [
    "遥感",
-   "计算机视觉"
+   "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7221349301",
-  "title": "Editorial Board",
-  "authors": [],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
+  "id": "openalex:W7221526212",
+  "title": "Adaptive smooth constrained stereo matching and disparity refinement for satellite DSM generation",
+  "authors": [
+   "Changyou Xu",
+   "Yusheng Xu",
+   "Rong Huang",
+   "Hongyang Zhang",
+   "Zhonghua Hong",
+   "Zhen Ye",
+   "Xiaohua Tong"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-10",
-  "doi": "10.1016/s0034-4257(26)00499-2",
-  "pdf": "https://www.sciencedirect.com/science/article/pii/S0034425726004992/pdf",
-  "url": "https://doi.org/10.1016/s0034-4257(26)00499-2",
+  "date": "2026-10-12",
+  "doi": "10.1080/15481603.2026.2745213",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2745213",
   "abstract": null,
   "citation_count": 0,
-  "concepts": [],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221354240",
-  "title": "Extent and dynamics of tropical flooded forests with multi-year SAR composites and altimetry",
-  "authors": [
-   "Paul Senty",
-   "Cécile Marie Margaretha Kittel",
-   "Fabrice Papa",
-   "Rasmus Fensholt",
-   "Monica Coppo Frias",
-   "Stéphanie Horion"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-10",
-  "doi": "10.1016/j.rse.2026.115720",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115720",
-  "abstract": "Flood dynamics regulate greenhouse gas emissions from tropical flooded forests, but monitoring flooding beneath dense canopies is challenging. We introduce a L-band SAR approach that uses more than a decade of ALOS-2 PALSAR-2 observations to detect sub-canopy flooding at 100 m resolution across the Amazon and Congo rainforests. We generate multi-year composites of HH and HV backscatter that represent low-, intermediate-, and high-water stages. These hydrological stages are defined locally using over 7000 satellite altimetry time series, accounting for the large variability in the timings of high-water conditions across both rainforests. Flooded forests display a characteristic dual-polarization signature: HV backscatter is comparable to that of non-flooded forests, while HH backscatter is higher due to double-bounce scattering. Quantifying deviations in the HH-HV space, we determine the extent of flooded forests at high-water stage and estimate their seasonal dynamics using a discrete stage-count metric, informing on the number of hydrological stages at which a pixel is classified as flooded forest. Multi-year compositing reduces speckle noise relative to single scenes, enabling the detection of narrow floodplains, while the local definition of high-water conditions improves the representation of high-water conditions across the two rainforests. We estimate approximately 827,000 km 2 of flooded forests under typical high-water conditions, ~687,000 km 2 in the Amazon and ~ 140,000 km 2 in the Congo rainforest. In the Amazon basin, agreement with estimates from Hess et al. (2015), Rosenqvist et al. (2020) and Fleischmann et al. (2022) varies spatially, with high agreement in wide floodplains (e.g., Solimões and Purus rivers), lower agreement along narrower floodplains, and substantial discrepancies in sparsely vegetated areas, partly explained by differences in forest definitions. In the Cuvette Centrale, our estimates show spatial consistency with the estimated extent of peat swamp forests by Crezee et al. (2022), although our flooded forest extent is more spatially restricted. We also found a good correlation between our stage-count map and the microtopography of the Solimões floodplain. By resolving both the extent and seasonal dynamics of flooded forests at 100 m resolution, these maps can support ecological, hydrological, and carbon studies in tropical forests.",
-  "citation_count": 0,
   "concepts": [
-   "Remote sensing",
-   "Altimeter",
-   "Synthetic aperture radar"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221186294",
-  "title": "Quantile-based homogeneity selection and similarity-weighted robust coherence matrix for distributed scatterer interferometry in mining deformation monitoring",
-  "authors": [
-   "Zeming Tian",
-   "Hongdong Fan",
-   "Jian Li"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-10",
-  "doi": "10.1016/j.jag.2026.105638",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105638",
-  "abstract": "Coal mining can lead to a series of geological issues, making it crucial to monitor surface deformation for early hazard warning in mining areas. Distributed Scatterer Interferometry (DSI) enables the monitoring of deformation in overlying strata above mining working faces. However, the accuracy of this technology is often affected by spatiotemporal decorrelation, necessitating phase recovery processing. The Phase Linking (PL) algorithm can effectively recover the interferometric phase, but it is limited by the correctness of statistical homogeneous pixel selection (SHPs) and the utilization of spatial dimensional information, making it difficult to obtain a sample complex coherence matrix (SCCM) that closely resembles the true situation. This severely impacts the accuracy of the PL estimation results. To address this, this paper proposes two solutions: (1) For SHPs, the medcouple (MC) method is used as a robust measure of skewed distributions, adjusting the boxplot to optimize homogeneous samples in the intensity map, removing outliers and enhancing sample robustness; (2) For SCCM construction, a similarity measure between reference pixels and homogeneous pixels is used as a weight, and a weighted sum with constraint processing is applied to obtain a robust coherence matrix. Simulation and real-world results show that the proposed method can recover phase information severely affected by noise, maintain phase stability, and significantly increase the monitoring point density; its high reliability has been validated through leveling data verification.",
-  "citation_count": 0,
-  "concepts": [
-   "Interferometry",
-   "Deformation monitoring",
-   "Coherence (philosophical gambling strategy)"
+   "Artificial intelligence",
+   "Computer vision",
+   "Computer science"
   ],
   "source": "openalex",
   "topics": [
@@ -180,64 +224,37 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7221360080",
-  "title": "Design for Machinability: Topology Optimization for Subtractive Machining Using Trimmed Neural Fields",
+  "id": "openalex:W7221534701",
+  "title": "A large-scale spatiotemporal NDVI prediction method coupling multivariable constraints and structured modeling",
   "authors": [
-   "Hongrui Chen",
-   "Levent Burak Kara"
+   "Yan Guo",
+   "Yuchao Yan",
+   "Lifeng Zhang",
+   "Yi He",
+   "Ronghua Li",
+   "Yao Pan",
+   "Haoming Zhuang",
+   "Jinpei Ou"
   ],
-  "venue": "ACM Transactions on Graphics",
-  "venue_short": "TOG",
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-10",
-  "doi": "10.1145/3847303",
+  "date": "2026-10-12",
+  "doi": "10.1080/15481603.2026.2747435",
   "pdf": null,
-  "url": "https://doi.org/10.1145/3847303",
-  "abstract": "Topology optimization has found significant utility in additive manufacturing, but the resulting geometries are often difficult to realize using subtractive methods. The complex, curved surfaces of optimized designs typically require time-consuming point milling operations. In contrast, geometries composed of developable surfaces are well suited to flank milling, enabling substantial improvements in machining efficiency and surface quality. However, globally minimizing Gaussian curvature leads to overly simplistic designs. We address this challenge with a novel method that represents geometry using three implicit neural fields, optimized to produce machinable components. The resulting designs consist of regions of developable surfaces separated by seamlines where curvature is concentrated. Seamlines are efficiently computed as intersections of the implicit fields, while the geometry emerges through their product. By constraining surfaces to align with the cutter’s normal or tangential direction, our approach further accommodates practical constraints of 3-axis machining. We demonstrate concurrent optimization of topology and Gaussian curvature, enabling control over seamline feature scale. Compared to methods that enforce subtractive machinability without considering milling efficiency, our approach consistently reduces machining time while maintaining competitive structural performance.",
+  "url": "https://doi.org/10.1080/15481603.2026.2747435",
+  "abstract": "Accurate prediction of vegetation dynamics is essential for understanding terrestrial ecosystems carbon and water cycles. However, existing Normalized Difference Vegetation Index (NDVI) prediction methods are limited in their ability to represent spatiotemporal heterogeneity and nonlinear interactions among multiple driving variables, which restrict predictive accuracy and extrapolation performance at large scales. To address these limitations, this study proposed a structured large-scale NDVI spatiotemporal prediction method incorporating multivariable constraints (MCS-LSTP) to characterize vegetation dynamics in complex and heterogeneous environments. MCS-LSTP incorporates multiple key driving variables and enhances the comprehensive representation of complex spatiotemporal dependencies and spatial heterogeneity through homogeneous spatial unit partitioning, unit-level temporal modeling, and continuous surface reconstruction. Results showed that MCS-LSTP model exhibited superior performance in terms of stability and prediction accuracy when compared to AutoRegressive Integrated Moving Average (ARIMA), Random Forest (RF), and Transformer models. The mean Population Stability Index (PSI) reached 0.0572, with 98.7% of prediction units exhibiting PSI values below 0.1, indicating no significant deviation between the observed and simulated NDVI values. The average R2 and RMSE on the test set were 0.8551 and 0.2171, respectively. Furthermore, MCS-LSTP accurately reproduced seasonal NDVI fluctuations and meridional spatial gradients, with particularly high agreement between simulated and reference values during the growing season. This study provides a robust and scalable solution for large-scale NDVI spatiotemporal prediction and offers critical technical support for ecological risk assessment in the Yellow River Basin and other ecologically vulnerable regions.",
   "citation_count": 0,
   "concepts": [
-   "Subtractive color",
-   "Machining",
-   "Gaussian curvature"
+   "Normalized Difference Vegetation Index",
+   "Multivariable calculus",
+   "Extrapolation"
   ],
   "source": "openalex",
   "topics": [
    "计算机视觉",
-   "机器学习",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7220986524",
-  "title": "Methodology for assessing the accuracy of long-term, annual land cover monitoring at national scale: Experiences from the Land Change Monitoring, Assessment, and Projection (LCMAP) initiative",
-  "authors": [
-   "Danika Wellington",
-   "Stephen V. Stehman",
-   "Josephine A. Horton",
-   "Bruce W. Pengra",
-   "Christopher Barber"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-09",
-  "doi": "10.1016/j.rse.2026.115705",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115705",
-  "abstract": "Annual land cover monitoring using medium-resolution satellite imagery represents a transition from periodic mapping campaigns to continuous observation systems. This transition introduces accuracy assessment challenges not encountered in one-time mapping efforts, particularly when the initial monitoring period is extended forward in time. These challenges are not addressed in existing guidance, which remains largely framed around the evaluation of maps of a single date or maps showing changes between two dates. We present a set of methodological adaptations to adjust to this evolving paradigm, using as a case study the U.S. Geological Survey (USGS) Land Change Monitoring, Assessment, and Projection (LCMAP) initiative, which generated annual land cover and land cover change products across the historical Landsat archive. Assessing the accuracy of these products was an essential component of LCMAP and resulted in an extensive reference sample dataset that may be used for accuracy estimation, area estimation, or support in the development of new algorithms or models. We review the LCMAP methodology and highlight challenges encountered and lessons learned that are transferable to other long-term, temporally dense monitoring programs. This framework demonstrates that statistically rigorous assessment can scale to operational annual land cover production, while the experiences of the project clarify where existing good practice guidance should be extended to support the needs of ongoing, continuous land cover monitoring.",
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Land cover",
-   "Projection (relational algebra)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
+   "机器学习"
   ],
   "is_own": false
  }
