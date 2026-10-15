@@ -21,7 +21,7 @@
   "doi": "10.1016/j.rse.2026.115724",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.rse.2026.115724",
-  "abstract": null,
+  "abstract": "Over the past three decades, nighttime light (NTL) has become one of the most widely used and powerful proxies for characterizing human activities. Despite the recent proliferation of available NTL data from both satellite- and ground-level sensors, intrinsic differences between these two observation approaches can result in distinct NTL brightness patterns (satellite-ground disagreement). Such disagreement, particularly its spatial heterogeneity, represents a critical yet largely overlooked issue in NTL studies, introducing uncertainty into the interpretation and application of NTL observations. Here, by incorporating SDGSAT-1 glimmer imagery and panoramic nighttime street view imagery with geospatial AI approaches, we present a spatially explicit, wall-to-wall investigation into satellite-ground disagreement across Singapore. Specifically, we characterized citywide disagreement and its variation across land-use types, analyzed contributing factors, and assessed its implications for NTL-based applications, reinforced by Monte Carlo-based uncertainty quantification and sensitivity analyses using independent observations from Singapore and Shenzhen, China. Our study revealed substantial and spatially heterogeneous satellite-ground disagreement across Singapore. Relative disagreement averaged 15% ± 13% citywide but reached 42% ± 12% in 13% of the city. Such pronounced heterogeneity was likewise evident across land-use types, with commercial areas standing out for consistently significant disagreement, where ground-level NTL brightness was 29% ± 26% higher than satellite-level NTL brightness. Building morphology, vegetation canopy cover, and sensor spectral response contributed to satellite-ground disagreement, suggestive of distinct mechanisms underlying the identified patterns. Applying satellite- and ground-level NTL data yielded relative differences of at least 115% and 83% in GDP estimation and NTL exposure inequality assessment, respectively. This study sheds new light on satellite-ground disagreement by moving beyond discrete comparisons toward a comprehensive analysis of its heterogeneity and implications, thereby establishing an empirical basis for integrating NTL observations and contributing to more reliable NTL-based applications and evidence-informed policies on sustainable urbanization.",
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
@@ -36,28 +36,33 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7221513887",
-  "title": "A decade of summer glacier fronts and calved glacier ice distribution in Kongs- and Krossfjorden, Svalbard, observed by Sentinel-1 extra wide swath",
+  "id": "openalex:W7221630985",
+  "title": "Evaluating multi-satellite VIIRS active fire observations as a burned area proxy across North America",
   "authors": [
-   "Jörg Haarpaintner",
-   "Geir Moholdt",
-   "Manon Tranchand-Besset",
-   "Valentin Pillet"
+   "Dong Chen",
+   "Yiming Zhang",
+   "Jiena He",
+   "Monica Adjei",
+   "Joshua Stone",
+   "Nora Romano",
+   "Aubrey Cramer",
+   "Ruohan Li",
+   "Louis Giglio"
   ],
   "venue": "Remote Sensing of Environment",
   "venue_short": "RSE",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-12",
-  "doi": "10.1016/j.rse.2026.115693",
+  "date": "2026-10-13",
+  "doi": "10.1016/j.rse.2026.115725",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115693",
+  "url": "https://doi.org/10.1016/j.rse.2026.115725",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Geology",
-   "Glacier",
-   "Remote sensing"
+   "Remote sensing",
+   "Environmental science",
+   "Proxy (statistics)"
   ],
   "source": "openalex",
   "topics": [
@@ -66,195 +71,203 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7221556497",
-  "title": "From national to global: Mapping global center-pivot irrigated cropland with knowledge-guided data augmentation",
+  "id": "openalex:W7221726762",
+  "title": "Divergent transpiration regulation among 20 urban tree species under extreme heat revealed by UAV multisource remote sensing",
   "authors": [
-   "Xiangyu Liu",
-   "Wei He",
-   "Yu Xia",
-   "Jie Wang",
-   "Hongyan Zhang"
+   "Tuqiang Chen",
+   "Jinhui Jeanne Huang"
   ],
   "venue": "Remote Sensing of Environment",
   "venue_short": "RSE",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-12",
-  "doi": "10.1016/j.rse.2026.115736",
+  "date": "2026-10-13",
+  "doi": "10.1016/j.rse.2026.115712",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115736",
-  "abstract": "Center-pivot irrigated cropland (CPIC) is a large-scale, intensive agricultural irrigation practice with high water-use efficiency. This characteristic enables CPIC to increase crop yields and promote agricultural development, while simultaneously causing groundwater overexploitation and subsequent environmental issues. Mapping the global distribution of CPIC is critical for enhancing water resource management, guiding agricultural policies, and assessing ecological impacts. This study developed a novel methodological framework integrating CPIC prior knowledge into the generation of a global training dataset through designed algorithms, ultimately producing a 2020 global CPIC map (GCMap) based on Landsat imagery. Specifically, we first proposed a shape-prior guided Projection Simulation (PS) to enhance the diversity of national-scale CPIC samples, enabling global CPIC pseudo-label generation through a teacher model. Subsequently, a stratified sampling strategy was implemented to improve sample representativeness across different regions using the pseudo-labels of global CPIC. Furthermore, a dual-temporal correction mechanism was proposed to clean sample labels, ultimately generating high-confidence global training samples. Finally, based on this dataset, a student model was trained using a noise-resistant loss function and deployed on cloud computing platforms to generate the GCMap rapidly. Following Olofsson's design-based stratified sampling and error-matrix framework, we derived statistically rigorous area estimates with explicit 95% confidence intervals and assessed mapping accuracy using the corresponding user's accuracy (UA), producer's accuracy (PA), and overall accuracy (OA) metrics. In comparison with current CPIC products, our GCMap attained a PA of 0.86 ± 0.02, representing a marked reduction in omission errors. Our results show that the global error-adjusted area of CPIC in 2020 was estimated at 18.70 ± 0.42 Mha, representing a 63% increase relative to the previous estimate of 11.5 Mha and revealing substantial underestimation in previous estimates. Geographically, the semi-arid zone has the largest share of CPIC, covering 9.27 ± 0.29 Mha (49.28% of the total), followed by the arid zone (4.69 ± 0.20 Mha, 24.95%) and humid zone (2.99 ± 0.22 Mha, 15.92%). Further analysis indicates that most CPIC is distributed in aquifers with limited underwater recharge. Approximately 15.25 ± 0.87 Mha (82.04%) of CPIC areas are located in regions with recharge rates below 100 mm/year, of which 9.97 ± 0.48 Mha (53.62% of total CPIC) fall within extremely low recharge zones (<20 mm/year). These findings provide an essential foundation for further research on irrigation-groundwater interactions and sustainable policymaking about agricultural development and water usage. Our GCMap inventory is publicly available in an online repository at: https://doi.org/10.12436/GCMap.62.20250711 .",
+  "url": "https://doi.org/10.1016/j.rse.2026.115712",
+  "abstract": "Urban areas face increasing extreme heat risk, yet satellite remote sensing struggles to quantify crown-scale transpiration in heterogeneous urban landscapes. Consequently, species-specific heat responses, key regulatory factors, and tipping points of urban tree transpiration remain poorly understood. Here, we integrated unmanned aerial vehicle (UAV) multispectral, thermal infrared, and LiDAR observations with field surveys of 665 trees across 20 species to estimate crown-scale transpiration for nearly 50,000 trees. The UAV-based single-source energy balance model captured diurnal evapotranspiration (ET) dynamics and agreed well with eddy covariance measurements (R 2 = 0.86, RMSE = 0.04 mm h −1 ). At the individual-tree scale, UAV-derived crown-scale transpiration agreed closely with sap-flow-derived transpiration (R 2 = 0.88, RMSE = 0.05 mm h −1 ) and leaf area index (LAI)-upscaled portable-photosynthesis-system transpiration estimates (R 2 = 0.88, RMSE = 0.06 mm h −1 ). Compared with the normal day, landscape ET was higher on the extreme-heat day, mainly reflecting higher tree transpiration (0.47 vs. 0.40 mm h −1 ), whereas grassland and shrub ET remained relatively stable. At the species level, three event-specific response groups were identified: enhanced with significantly higher transpiration under extreme heat (12 species), neutral with no significant change (3 species), and suppressed with significantly reduced transpiration (5 species). Random forest analysis identified the temperature vegetation dryness index (TVDI) and leaf-to-air vapor pressure deficit (VPD L ) as dominant controls of crown-scale transpiration, with tree height (TH) also exerting a strong influence. SHAP-derived tipping points for TH were identified at 7.01, 4.42, and 3.65 m in the enhanced, neutral, and suppressed response groups, respectively. SHAP-derived tipping points for TVDI (0.23–0.34) and VPD L (5.34–5.84 kPa) suggested the transition toward soil-water limitation and atmospheric-demand regulation. Overall, this framework enables spatially explicit assessment of urban tree water use and provides a basis for species selection and irrigation management during extreme heat.",
   "citation_count": 0,
   "concepts": [
-   "Computer science",
+   "Transpiration",
    "Environmental science",
-   "Sampling (signal processing)"
+   "Evapotranspiration"
   ],
   "source": "openalex",
   "topics": [
    "遥感",
-   "计算机视觉"
+   "三维与几何"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7202194221",
-  "title": "GeoPhysAdapter: Scale-matched geophysical adaptation for cross-domain landslide mapping with vision foundation models",
+  "id": "openalex:W4415289317",
+  "title": "DynamicVis: Dynamic visual perception for efficient remote sensing foundation models",
   "authors": [
-   "Zhihang Liu",
-   "Mei‐Po Kwan",
-   "Jinlin Wu",
-   "Hao Li"
+   "Keyan Chen",
+   "Chenyang Liu",
+   "Bowen Chen",
+   "Wenyuan Li",
+   "Zhengxia Zou",
+   "Shijian Lu",
+   "Zhenwei Shi"
   ],
   "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
   "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-12",
-  "doi": "10.1016/j.isprsjprs.2026.09.035",
+  "date": "2026-10-13",
+  "doi": "10.1016/j.isprsjprs.2026.09.042",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.035",
-  "abstract": "Newly triggered landslides rarely carry immediate annotations, so cross-domain transferability determines the value of landslide mapping for emergency response and regional risk assessment. Vision foundation models have strengthened representational transfer, yet on unseen regions, events, and data sources they still generate high-confidence false alarms. Terrain, material, and rainfall triggering can constrain such errors, but their supports are local, regional, and event-scale, so that resampling onto a 10~m grid misaligns them with the segmentation decision unit and compounds the uncertain geographic context problem (UGCoP). We propose GeoPhysAdapter, which anchors on a frozen vision foundation model, restricts terrain, material, and triggering to dense spatial guidance, regional modulation, and event-timing forcing, and applies bounded adaptation at two decision units, the pixel and the candidate landslide body, reverting exactly to the visual prediction where support is insufficient. On an event-isolated PILD dataset of four public sources, 55 global landslide events, and 7,890 test samples, 70.3% of cross-domain false-positive mass lies in near-pure spurious bodies of median equivalent diameter 207m, matching coarse-prior support rather than the pixel. Pixel-level adaptation removes a net 507,817 erroneous pixels and reduces error by 7.76%, whereas raising the decision unit to the candidate body, under identical samples, anchor, and baseline, increases error reduction to 23.99%, approximately 3.1 times the pixel-level effect, improves IoU by 0.031 (14.2% relative), and corrects 9.92 pixels per pixel harmed. The data and code are publicly available at: https://github.com/Liu-Zhihang/geophysadapter.",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.042",
+  "abstract": "The continuous advancement of remote sensing technology has enabled high-resolution Earth observation; however, interpreting these expansive images using modern Vision Foundation Models (VFMs) remains a significant challenge. Unlike object-centric natural images, remote sensing imagery is fundamentally characterized by extreme target sparsity and massive spatial redundancy. Key objects of interest (e.g., ships, vehicles, scattered buildings) often occupy less than 1% of the spatial extent, surrounded by vast, target-free backgrounds. Many existing VFMs rely on uniform dense processing (e.g., Vision Transformers), while a substantial branch adopts pixel-reconstruction pre-training paradigms (e.g., Masked Autoencoders). These designs may waste substantial computational capacity on modeling redundant backgrounds and dilute the feature representations of small, sparse targets. To bridge this structural misalignment, we propose DynamicVis , a remote sensing visual foundation model explicitly tailored to spatial sparsity in high-resolution imagery, with a focus on large-scale visual pre-training and transferable spatial representations for diverse downstream perception tasks. Architecturally, DynamicVis introduces a Dynamic Region-Aware State Space Model (SSM) that bypasses uniform computation. It adaptively routes and incrementally models only task-relevant, high-salience tokens while employing a parameter-free integration for background context, drastically reducing the complexity of processing ultra-long 2D token sequences ( ∼ 100,000). Crucially, to equip the network with robust spatial-selection capabilities, we propose a novel weakly supervised Region-Level Meta-Embedding Multi-Instance Learning (MIL) pre-training paradigm. Trained on a million-scale dataset, this paradigm promotes foreground-aware regional discrimination in the latent semantic space, mitigating the semantic ambiguity of conventional pixel-reconstruction methods. Extensive evaluations across nine diverse downstream visual perception tasks reveal that DynamicVis achieves competitive performance across region-, instance-, and pixel-level remote sensing tasks, with particularly strong results in sparse-target and instance-level perception tasks (e.g., small object detection and instance segmentation). Notably, DynamicVis processes high-resolution imagery (2048 × 2048) with merely 97 ms latency and 833 MB of memory consumption without employing any acceleration techniques (approximately 6% and 3% of a base ViT, respectively), offering a favorable trade-off between computational scalability and representation accuracy for multi-granular remote sensing analysis. Source code is available at https://github.com/KyanChen/DynamicVis .",
   "citation_count": 0,
   "concepts": [
-   "Pixel",
-   "Spurious relationship",
-   "Context (archaeology)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221506428",
-  "title": "Cross-sensor continual maritime object recognition via spectral shift modulation in heterogeneous infrared–visible UAV imagery",
-  "authors": [
-   "Dingyuan Chen",
-   "Yu Liu",
-   "Zhaohui Song"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-12",
-  "doi": "10.1016/j.isprsjprs.2026.09.025",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.025",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer vision",
    "Computer science",
+   "Leverage (statistics)",
    "Artificial intelligence"
   ],
   "source": "openalex",
   "topics": [
-   "计算机视觉"
+   "遥感",
+   "计算机视觉",
+   "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7221516449",
-  "title": "Integrating multi-source physical knowledge into deep learning for satellite soil moisture downscaling",
+  "id": "openalex:W7134836459",
+  "title": "Global cross-modal geo-localization: A million-scale dataset and a physical consistency learning framework",
   "authors": [
-   "Jinhua Gao",
-   "Hao Sun",
-   "Ximin Cui",
-   "Jinbao Jiang",
-   "Zhenheng Xu",
-   "Yunjia Wang",
-   "Yuxin Wang"
+   "Yutong Hu",
+   "Jinhui Chen",
+   "Chaoqiang Xu",
+   "Yuan Kou",
+   "Sili Zhou",
+   "Shaocheng Yan",
+   "Pengcheng Shi",
+   "Qingwu Hu",
+   "Jiayuan Li"
   ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-12",
-  "doi": "10.1080/15481603.2026.2745215",
+  "date": "2026-10-13",
+  "doi": "10.1016/j.isprsjprs.2026.10.001",
   "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2745215",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.001",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Downscaling",
-   "Satellite",
-   "Remote sensing"
+   "Computer science",
+   "Leverage (statistics)",
+   "Pedestrian"
+  ],
+  "source": "openalex",
+  "topics": [
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7163874252",
+  "title": "Physics-driven semantic scattering structure understanding of aircraft target in SAR images",
+  "authors": [
+   "Yifei Yin",
+   "Xiaogang Yu",
+   "Hao Shi",
+   "Liang Chen",
+   "Wei Li"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-13",
+  "doi": "10.1016/j.isprsjprs.2026.10.003",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.003",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Scattering",
+   "Computer science",
+   "Robustness (evolution)"
   ],
   "source": "openalex",
   "topics": [
    "遥感",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221526212",
-  "title": "Adaptive smooth constrained stereo matching and disparity refinement for satellite DSM generation",
-  "authors": [
-   "Changyou Xu",
-   "Yusheng Xu",
-   "Rong Huang",
-   "Hongyang Zhang",
-   "Zhonghua Hong",
-   "Zhen Ye",
-   "Xiaohua Tong"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-12",
-  "doi": "10.1080/15481603.2026.2745213",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2745213",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Artificial intelligence",
-   "Computer vision",
-   "Computer science"
-  ],
-  "source": "openalex",
-  "topics": [
    "计算机视觉"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7221534701",
-  "title": "A large-scale spatiotemporal NDVI prediction method coupling multivariable constraints and structured modeling",
+  "id": "openalex:W7221596536",
+  "title": "Breaking modal barriers: Achieving modality-balanced semantic segmentation across optical and SAR images through optical image-supervised learning",
   "authors": [
-   "Yan Guo",
-   "Yuchao Yan",
-   "Lifeng Zhang",
-   "Yi He",
-   "Ronghua Li",
-   "Yao Pan",
-   "Haoming Zhuang",
-   "Jinpei Ou"
+   "Hao Cui",
+   "Guo Zhang",
+   "Xue Li",
+   "Shasha Hou",
+   "Yujia Chen",
+   "Jing Cui",
+   "ZEREN ZHIMA",
+   "Wenliang Jiang",
+   "Jiaqi Yao",
+   "Wenxuan Liu",
+   "Deren Li"
   ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-12",
-  "doi": "10.1080/15481603.2026.2747435",
+  "date": "2026-10-13",
+  "doi": "10.1016/j.jag.2026.105621",
   "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2747435",
-  "abstract": "Accurate prediction of vegetation dynamics is essential for understanding terrestrial ecosystems carbon and water cycles. However, existing Normalized Difference Vegetation Index (NDVI) prediction methods are limited in their ability to represent spatiotemporal heterogeneity and nonlinear interactions among multiple driving variables, which restrict predictive accuracy and extrapolation performance at large scales. To address these limitations, this study proposed a structured large-scale NDVI spatiotemporal prediction method incorporating multivariable constraints (MCS-LSTP) to characterize vegetation dynamics in complex and heterogeneous environments. MCS-LSTP incorporates multiple key driving variables and enhances the comprehensive representation of complex spatiotemporal dependencies and spatial heterogeneity through homogeneous spatial unit partitioning, unit-level temporal modeling, and continuous surface reconstruction. Results showed that MCS-LSTP model exhibited superior performance in terms of stability and prediction accuracy when compared to AutoRegressive Integrated Moving Average (ARIMA), Random Forest (RF), and Transformer models. The mean Population Stability Index (PSI) reached 0.0572, with 98.7% of prediction units exhibiting PSI values below 0.1, indicating no significant deviation between the observed and simulated NDVI values. The average R2 and RMSE on the test set were 0.8551 and 0.2171, respectively. Furthermore, MCS-LSTP accurately reproduced seasonal NDVI fluctuations and meridional spatial gradients, with particularly high agreement between simulated and reference values during the growing season. This study provides a robust and scalable solution for large-scale NDVI spatiotemporal prediction and offers critical technical support for ecological risk assessment in the Yellow River Basin and other ecologically vulnerable regions.",
+  "url": "https://doi.org/10.1016/j.jag.2026.105621",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Normalized Difference Vegetation Index",
-   "Multivariable calculus",
-   "Extrapolation"
+   "Segmentation",
+   "Artificial intelligence",
+   "Modal"
   ],
   "source": "openalex",
   "topics": [
+   "遥感",
    "计算机视觉",
    "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7221614344",
+  "title": "GeoSeg-SAM: Task-aligned adaptation of SAM for geological remote sensing interpretation",
+  "authors": [
+   "Wei Han",
+   "Zhipeng Wan",
+   "Xi Chen",
+   "Sheng Wang",
+   "Lizhe Wang"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-13",
+  "doi": "10.1016/j.jag.2026.105629",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105629",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Interpretation (philosophy)",
+   "Adaptation (eye)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
   ],
   "is_own": false
  }
