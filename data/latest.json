@@ -1,5 +1,67 @@
 [
  {
+  "id": "openalex:W7222270449",
+  "title": "Passive microwave sea ice concentration biases in the Southern Hemisphere revealed by ICESat-2 linear ice fraction",
+  "authors": [
+   "Christopher Horvat",
+   "Aikaterini Tavri",
+   "Kimia Mohammadnezhad"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-15",
+  "doi": "10.1016/j.rse.2026.115723",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115723",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Sea ice",
+   "Southern Hemisphere",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7222275646",
+  "title": "A revised model for atmospheric adjacency effect correction in optical satellite earth observation images",
+  "authors": [
+   "Kevin Walcarius",
+   "Mustapha Moulana",
+   "Didier Ramon",
+   "Micaël Lassalle",
+   "Jérôme M. Colin",
+   "Olivier Hagolle"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-15",
+  "doi": "10.1016/j.rse.2026.115737",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115737",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Satellite",
+   "Earth observation satellite"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7221787463",
   "title": "RT-ProtoNet: radiative-transfer-guided few-shot prototype networks for cross-region bathymetry in optically clear reef environments",
   "authors": [
@@ -19,7 +81,7 @@
   "doi": "10.1016/j.isprsjprs.2026.10.012",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.012",
-  "abstract": null,
+  "abstract": "Satellite-derived bathymetry faces two coupled obstacles: labels are scarce, and models transfer poorly across regions. We propose RT-ProtoNet, a radiative-transfer-guided few-shot prototype network, which takes patches from three penetrating Sentinel-2 bands and treats ICESat-2 depths, aggregated to the 10 m grid, as sparse supervision; cross-region episodic meta-training then yields a transferable metric representation. Rather than embedding the radiative transfer relation as an analytic formula, we use it as a comparability criterion between support and query pixels, entering the attention as a learnable additive distance penalty. The prediction sums a convex combination over support depths and a base regression head trained on source domains only and frozen at deployment, so no target-domain parameters are estimated. We evaluate on five optically clear shallow reef regions by leave-one-region-out cross-validation against airborne laser bathymetry, against nine baselines, where K is the total number of support pixels (3, 5, 10, 20, 50). For K ≤ 20, RT-ProtoNet attains the lowest cross-region macro-mean RMSE (2.79–2.48 m), with a run-to-run standard deviation 0.67 times the runner-up’s; at K = 50, pre-training with head fine-tuning overtakes it. Ablation shows the residual head’s gain scales with support depth coverage (correlation 0.991) and that the two physical priors are largely substitutable; twelve perturbations to the attenuation input change RMSE by only 0.66%. The method suits depths of roughly 2–20 m and budgets of K ≤ 20, and does not extrapolate to turbid or optically complex waters. Independent evaluation at two external optical-domain sites, a moderately turbid embayment (Tampa Bay) and a clear-to-moderately-turbid transition site (Boquerón Bay), further delineates the method’s applicability across contrasting optical conditions, showing reliable transfer within the clear-water regime but substantial degradation under stronger optical attenuation.",
   "citation_count": 0,
   "concepts": [
    "Bathymetry",
@@ -29,6 +91,75 @@
   "source": "openalex",
   "topics": [
    "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7222056698",
+  "title": "UrbanQGS: Large-scale urban surface reconstruction via analytic curvature consistency in quadratic Gaussian splatting",
+  "authors": [
+   "Yuanhang Cheng",
+   "Zhe Yang",
+   "Juan Lei",
+   "Jisheng Chu",
+   "Weiwei Li",
+   "Zheng Xu",
+   "Zhuo Chen",
+   "Gang Chen"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-15",
+  "doi": "10.1016/j.isprsjprs.2026.09.044",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.044",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Quadratic equation",
+   "Mathematics",
+   "Surface (topology)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7222233880",
+  "title": "N-PCLN: A physics-informed deep learning framework for short-term chlorophyll-a prediction with sparse satellite observation",
+  "authors": [
+   "Haibo Long",
+   "卢建中",
+   "Shoujing Yin",
+   "Chang Huang",
+   "xiaoling Chen"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-15",
+  "doi": "10.1016/j.isprsjprs.2026.10.011",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.011",
+  "abstract": "Chlorophyll-a (Chla) is a key indicator of lake eutrophication. Its short-term prediction is essential for water quality monitoring and bloom early warning. However, traditional deep learning models often rely heavily on dense observations and provide limited process interpretability. To address these limitations, this study proposes a physics-informed deep learning framework, named N-PCLN, for short-term Chla prediction in Erhai Lake. The framework integrates Sentinel-3 OLCI imagery and meteorological datasets from 2016 to 2024. It uses Chla, land surface temperature, wind speed, and precipitation as inputs. Total phosphorus is incorporated through a nutrient–phytoplankton model to construct a physical loss. This design enables the model to jointly learn spatiotemporal patterns and nutrient–phytoplankton process constraints. The N-PCLN outperforms ConvLSTM, Transformer, MDN, CNN, and LSTM models, achieving an R 2 of 0.767, an MAE of 1.483 mg/m 3 , and an RMSE of 2.665 mg/m 3 . Sparse-data experiments show that N-PCLN maintains more stable performance than the selected baseline models under reduced data availability. The ablation experiments indicate that LST is the dominant meteorological factor driver of short-term Chla dynamics, while wind speed and precipitation mainly affect hydrodynamic redistribution and runoff-related nutrient transport. Physical-loss gradient analysis further reveals that the N-P constraint acts differently across seasons and Chla concentration. These results demonstrate that N-PCLN improves both prediction performance and process interpretability. It provides a useful framework for satellite-based lake water quality prediction.",
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Deep learning",
+   "Satellite"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
    "机器学习"
   ],
   "is_own": false
@@ -51,7 +182,7 @@
   "doi": "10.1016/j.jag.2026.105640",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.jag.2026.105640",
-  "abstract": null,
+  "abstract": "Droughts are long-lasting events that can drive persistent functional changes in ecosystems, particularly in drought-prone areas like Mediterranean forests. We integrated a phenology-based anomaly method, combining kernel density estimation (KDE) with cumulative sums (CUSUMs) to assess long-term drought impacts on two Mediterranean forest types in Central Chile. Using MODIS Enhanced Vegetation Index (EVI), the Moisture Stress Index (MSI), and Evapotranspiration (ET) from 2000 to 2024, we quantified cumulative deviations in canopy productivity, moisture conditions, and energy exchange. Our framework revealed persistent negative functional trajectories preceding the well-documented 2010–present megadrought. Spatially explicit metrics identified coherent degradation hotspots in northern sclerophyllous and southern deciduous forests, where canopy greenness, moisture, and evapotranspiration declined synchronously. Seasonal models indicated a post-2010 strengthening of soil–water controls over forest functioning, with soil moisture and water storage variables becoming influential predictors. The convergence of cumulative negative EVI, MSI, and ET signals highlights widespread and sustained functional weakening under prolonged drought conditions. Our results demonstrate that integrating KDE-derived anomalies with cumulative deviation tracking provides a sensitive and transferable framework to detect early and persistent vegetation stress in water-limited ecosystems.",
   "citation_count": 0,
   "concepts": [
    "Mediterranean climate",
@@ -59,219 +190,67 @@
    "Forestry"
   ],
   "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221774049",
-  "title": "Integrating Landsat and ECOSTRESS to explore the value of additional thermal infrared satellite observations for field-scale evapotranspiration mapping",
-  "authors": [
-   "Hui Liu",
-   "Yun Yang",
-   "Martha C. Anderson",
-   "Feng Gao",
-   "Christopher Hain",
-   "John Volk",
-   "Zoe Pierrat",
-   "Kerry A. Cawse-Nicholson",
-   "Forrest Melton",
-   "Christine Lee",
-   "A. J. Purdy",
-   "Weina Duan",
-   "Tian Li",
-   "Jiaxin Wang"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-14",
-  "doi": "10.1016/j.rse.2026.115738",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115738",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Thermal infrared",
-   "Satellite"
-  ],
-  "source": "openalex",
   "topics": [
-   "遥感"
+   "计算机视觉"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7221798674",
-  "title": "Twin-satellite constraints from GF-5B and DQ-1 enable hourly near-surface NO2 estimation across China",
+  "id": "openalex:W7138323110",
+  "title": "Deep learning detection of submesoscale eddies from MODIS SST in the South China Sea",
   "authors": [
-   "Chengxin Zhang",
-   "Zhipeng Ding",
-   "Cheng Liu"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-14",
-  "doi": "10.1016/j.rse.2026.115740",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115740",
-  "abstract": "Nitrogen dioxide (NO 2 ) is a major air pollutant with significant impacts on human health, yet satellite-based estimates of surface NO 2 with full diurnal coverage remain limited. Here, we develop a machine learning framework to estimate hourly near-surface NO 2 concentrations across China by integrating complementary observations from two Chinese polar-orbiting satellites, GF-5B (~10:30 local time) and DQ-1 (~13:30 local time). A Light Gradient Boosting Machine (LightGBM) model driven by twin-satellite NO 2 vertical column densities (VCDs) and meteorological reanalysis achieves strong predictive performance in 10-fold cross-validation, with a coefficient of determination (R 2 ) of 0.91 and root mean square error (RMSE) of 5.40 μg/m 3 across all hours (4.46 μg/m 3 during daytime; 6.32 μg/m 3 at night), and retains reasonable skill under stricter site-based, time-based, and independent cross-year validation. The reconstructed dataset captures the characteristic diurnal cycle of NO 2 , with morning and evening peaks associated with traffic emissions and a midday minimum driven by photochemical loss. Compared to the single-satellite TROPOMI product, the twin-satellite configuration substantially improves the representation of diurnal variability, increasing R 2 from 0.81 to 0.91 and reducing RMSE by 31.60%, and corrects a distorted urban-rural NO 2 exposure ratio (1.70 for TROPOMI versus a ground-based 1.19), narrowing it to 1.30. Feature-importance analysis further shows that meteorological variables dominate model predictions during both day and night, with satellite VCDs providing a complementary, though indirect, constraint on nighttime concentrations. The resulting hourly NO 2 dataset demonstrates the value of synergistic multi-satellite observations for air quality monitoring and provides a robust basis for refined pollution control and population exposure assessment.",
-  "citation_count": 0,
-  "concepts": [
-   "Diurnal cycle",
-   "Environmental science",
-   "Mean squared error"
-  ],
-  "source": "openalex",
-  "topics": [
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221820553",
-  "title": "Advanced characterization of the diurnal variations of aerosol optical and microphysical properties by SYREMIS/GRASP synergistic retrieval algorithm using observations from multiple spaceborne sensors",
-  "authors": [
-   "Siyao Zhai",
-   "Pavel Litvinov",
-   "Cheng Chen",
-   "Оleg Dubovik",
-   "Christian Matar",
-   "Goyo Cancio",
-   "Chong Li",
-   "Anton Lopatin",
-   "David Fuertes",
-   "Tatyana Lapyonok",
-   "Manuel Dornacher",
-   "Arthur Lehner",
-   "Alexandru Marius Dandocsi",
-   "Daniele Gasbarra",
-   "Elody Fluck",
-   "Christian Retscher"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-14",
-  "doi": "10.1016/j.rse.2026.115739",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115739",
-  "abstract": "Accurate characterization of the diurnal variation of aerosol optical and microphysical properties—including Aerosol Optical Depth (AOD), Angstrom Exponent (AE), and Single Scattering Albedo (SSA)—is fundamental for climate and air quality modeling. However, retrieving high-temporal-resolution, physically consistent aerosol products from multiple satellite instruments remains a challenge. Current multi-satellite approaches often rely on “post-retrieval” merging of independent Level-2 products, a process that frequently introduces physical inconsistencies and artificial temporal oscillations. To address this, building upon the recently established SYREMIS/GRASP synergetic retrieval framework (Litvinov et al., 2025), an inversion approach based on harmonized Level-1 satellite measurements, this study extensively evaluates its performance in capturing aerosol diurnal variability. We evaluate two configurations: (i) LEO + LEO synergy (Sentinel-3 A/B OLCI and Sentinel-5P TROPOMI) and (ii) LEO + GEO synergy (integrating Himawari-8 AHI). By enforcing multi-pixel smoothness constraints within the retrieval, SYREMIS maintains high physical consistency across instruments, effectively mitigating the structural discrepancies and “noise” inherent in standard merging techniques. Our validation against AERONET ground-based data and intercomparison with the XAERDT product suite confirm that SYREMIS provides high retrieval stability and accuracy. Without applying post-retrieval quality filtering, SYREMIS achieves an AOD GCOS fulfillment percentage of up to 70%, an AE RMSE below 0.3, and an SSA “Optimal” requirement fulfillment rate of up to 85% at representative sites. We demonstrate the framework's capability to resolve rapid aerosol dynamics through case studies of biomass-burning events over Thailand and Myanmar, as well as dust pollution over Qatar in 2019. As a three-month proof-of-concept assessment (March–May 2019) , these results highlight the practical capability of the established SYREMIS/GRASP approach to generate high-resolution, physically consistent, and stable aerosol data records from the measurements of multiple satellites.",
-  "citation_count": 0,
-  "concepts": [
-   "Aerosol",
-   "Remote sensing",
-   "Environmental science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221780949",
-  "title": "Constructive solid geometry for automatic topology-aware BIM reconstruction from point clouds",
-  "authors": [
-   "Muataz S. A. Albadri",
-   "Patricia González-Cabaleiro",
-   "Antonio Fernández",
-   "Lucía Díaz-Vilariño"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-14",
-  "doi": "10.1016/j.isprsjprs.2026.10.006",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.006",
-  "abstract": "The automatic reconstruction of Building Information Models (BIMs) remains challenging, especially when applied to multi-storey buildings and indoor environments with non-Manhattan layouts and curved structures. To address these challenges, this paper presents a novel method that places Constructive Solid Geometry (CSG) at the core of building reconstruction from point clouds. The methodology also integrates the Segment Anything Model (SAM) and knowledge-based rules to reconstruct as-built BIMs while preserving the geometry and topology of building elements. The proposed approach consists of two main stages: SAM-based segmentation and CSG-based modelling. First, SAM is used to segment rooms, as well as door and window openings. Solids are then generated for the indoor spaces and openings. Finally, a set of Boolean operations is applied to reconstruct building elements, including slabs, walls, indoor spaces, doors, and windows, while subtracting openings of doors, windows, and staircases. Finally, the reconstructed model is encoded with semantic information following the Industry Foundation Classes (IFC) schema. The method was evaluated on seven two-storey building point clouds and demonstrated strong performance, achieving a mean Intersection over Union (mIoU) greater than 90% for floor plan reconstruction, a precision above 87% for door and window detection, and mean geometric deviations below 8 cm for BIM reconstruction.",
-  "citation_count": 0,
-  "concepts": [
-   "Constructive solid geometry",
-   "Point cloud",
-   "Intersection (aeronautics)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221785528",
-  "title": "SkySplat++: Hierarchical 3D Gaussian Splatting for generalizable sparse-view reconstruction from multi-temporal satellite imagery",
-  "authors": [
-   "Xuejun Huang",
-   "Yi Wan",
-   "Lei Yu",
-   "Xinyi Liu",
-   "Zhi Zheng",
-   "Bin Zhang",
-   "Mingtao Xiong",
-   "Yingying Pei",
-   "Changjun Zhu",
-   "Y.Y. Liu",
-   "Hongwei Hu",
-   "Junjian Zhang",
-   "Yifei Wang",
-   "Yongjun Zhang"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-14",
-  "doi": "10.1016/j.isprsjprs.2026.09.043",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.043",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Artificial intelligence",
-   "Satellite imagery"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7163373643",
-  "title": "A GeoAI framework for remote-sensing-driven traffic activity and emission intensity in a data-scarce megacity",
-  "authors": [
-   "Benjamin M. Buhendwa",
-   "Chunsheng Victor Fang",
-   "Ju Wang"
+   "Xi Chen",
+   "Zihong Ou",
+   "Shaojie Sun",
+   "Xiaolong Yu",
+   "Jun Zhao"
   ],
   "venue": "GIScience & Remote Sensing",
   "venue_short": "GISci. Remote Sens.",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-14",
-  "doi": "10.1080/15481603.2026.2748792",
+  "date": "2026-10-15",
+  "doi": "10.1080/15481603.2026.2748224",
   "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2748792",
-  "abstract": "================================================================================FRAMEWORK PIPELINE LOGIC – GeoAI for Traffic Activity & Exposure Mapping================================================================================ This document explains how the six core scripts work together to reconstructtraffic emissions and exposure in Kinshasa, a data‑scarce megacity. The pipeline transforms three primary data sources: - Satellite imagery (Airbus 15 cm) → vehicle counts via YOLOv8 - GTFS transit schedules → bus trajectories, speeds, frequencies - OpenStreetMap + VIIRS night‑time lights → land‑use attraction weights ... into hourly, road‑segment‑level NOx and PM2.5 emission maps. ================================================================================OVERVIEW (STEP‑BY‑STEP)================================================================================ Step 0 – YOLOv8 Vehicle Detection (yolo_kinshasa_powerful.py)────────────────────────────────────────────────────────────────- Input: High‑resolution satellite images (train/val split) with YOLO labels (class: bus / priv).- Output: Trained YOLOv8x model + detection counts on validation images.- Purpose: Establish empirical baseline of vehicle counts and compute the bus‑to‑private vehicle ratio. This ratio later calibrates the gravity model. Step 1 – LLM Semantic Classification (llm_classify_landuse.py)────────────────────────────────────────────────────────────────- Input: Raw OSM land‑use polygons and points (chaotic metadata).- Output: Shapefiles with a standardised \"traffic_class\" attribute (Residential, Market_Trade, CBD_Admin, etc.).- Purpose: Assign diurnal activity weights to each land‑use category, enabling the gravity model to attract vehicles to different areas depending on time of day (morning, midday, evening, night). Step 2 – GTFS to Bus Traffic (gtfs_to_bus_traffic.py)────────────────────────────────────────────────────────────────- Input: Raw GTFS .txt files (trips, shapes, stop_times, frequencies).- Output: Four interval shapefiles (morn, midday, aftnoon, night) with 1 km segmented bus routes, each containing: - buses_per_hour (frequency) - avg_speed_ms (average speed) - traf_load (vehicle‑hours per hour)- Purpose: Create the deterministic layer of public transit activity. Step 3 – Hub‑and‑Spoke Gravity Model (gravity_model.py)────────────────────────────────────────────────────────────────- Inputs: - LLM‑classified land‑use polygons/points (Step 1) - Night‑time lights raster (economic proxy) - Road network shapefile (1 km segmented, snapped) - YOLO‑derived total private vehicle count (from Step 0 ratio)- Output: Roads_24h_Master.shp with hourly private vehicle volumes (V_00h … V_23h) and daily total (Veh_Day).- Purpose: Distribute the city‑wide private fleet across the road network using a potential‑field approach. Attraction weights vary by time block (Morning, Mid‑Day, Evening, Night) based on LLM categories. NTL radiance acts as a wealth/activity proxy. Step 4 – Speed Simulation (speed_simulation.py)────────────────────────────────────────────────────────────────- Inputs: - Roads_24h_Master.shp (private volumes) - GTFS bus shapefiles (road_traffic_h{hh}.shp, from Step 2)- Output: speed_analysis_h{hh}.shp for each hour, containing: - Est_Speed (estimated private vehicle speed, km/h) - Traf_Load (volume × travel time) - Uncert (combined uncertainty index)- Purpose: For hours 05–21, spatially join each private road segment to the nearest bus‑observed segment. If found, car speed = min(bus_speed × 1.64, speed_limit). If not found, apply city‑wide congestion index to the speed limit. For night hours (22–04), speed = 0.9 × speed limit. Step 5 – Emission Calculation (emission_calculation.py)────────────────────────────────────────────────────────────────- Inputs: - speed_analysis_h{hh}.shp (private speeds & volumes) - road_traffic_h{hh}.shp (bus volumes & speeds)- Output: emiss_priv_h{hh}.shp and emiss_bus_h{hh}.shp with: - EF_NOx, EF_PM25 (speed‑dependent COPERT Tier 3 factors) - E_NOx_g, E_PM25_g (mass emitted per segment, grams) - U_Emiss (propagated uncertainty)- Purpose: Convert traffic activity into chemical mass using: NOx_bus = 372.2/v + 12.8 NOx_priv = 1.54 * v^-0.45 PM2.5_bus = 18.5/v + 0.38 PM2.5_priv = 0.015 (constant, high‑sulfur gasoline) ================================================================================DATA FLOW SUMMARY (WHAT PRODUCES WHAT)================================================================================ Raw OSM → LLM script → LLM‑classified polygons (traffic_class)Raw GTFS → GTFS script → Bus route segments (buses_per_hour, speed)Satellite images → YOLO script → Vehicle counts + bus/priv ratioNTL raster + roads → (direct input to gravity model) LLM polygons + NTL + roads + total private count (from YOLO) → Gravity model → Roads_24h_Master.shp (private V_*h) Roads_24h_Master + bus GTFS shapefiles → Speed simulation → speed_analysis_h*.shp (Est_Speed) speed_analysis + bus GTFS shapefiles → Emission calculation → emiss_priv_h*.shp, emiss_bus_h*.shp ================================================================================KEY ASSUMPTIONS & LIMITATIONS (EMBEDDED IN CODE)================================================================================- Speed multiplier (bus→car): 1.64 (Tétreault & El‑Geneidy, 2010).- Night bus headway = afternoon headway × 0.85 (empirical).- Emission factors: Euro II/III for buses, Euro III/IV for private, with elevated PM2.5 constant for private (0.015 g/km) due to high‑sulfur fuel.- Uncertainty: propagated from YOLO (±15%), speed multiplier variation (±6%), gravity model entropy, and road class risk.- No secondary pollutant formation (ozone, secondary PM) – only primary exhaust. ================================================================================HOW TO VERIFY THE PIPELINE (TEST WITH ONE HOUR)================================================================================1. Run YOLO script → get bus/priv ratio.2. Run LLM script → classify land‑use.3. Run GTFS script → produce bus intervals.4. Run gravity model with total private count = (YOLO priv count) × scaling.5. Run speed simulation for e.g., hour 10.6. Run emission calculation for hour 10.7. Compare emiss_priv_h10 and emiss_bus_h10 outputs with manuscript results. All scripts are designed to run sequentially; each one’s output directoryis hard‑coded as input to the next. Adjust paths in each script to matchyour folder structure. ================================================================================CONTACT================================================================================For questions or to report issues: Ju Wang – wangju@jlu.edu.cn",
-  "citation_count": 0,
+  "url": "https://doi.org/10.1080/15481603.2026.2748224",
+  "abstract": "This dataset provides daily records of submesoscale eddies in the South China Sea from 2015 to 2024, identified from MODIS Aqua and Terra sea surface temperature (SST) imagery. Distributed as daily TXT files, each record includes eddy polarity, center coordinates (longitude and latitude), and eddy diameter.",
+  "citation_count": 1,
   "concepts": [
-   "Computer science",
-   "Raster graphics",
-   "Shapefile"
+   "Eddy",
+   "Sea surface temperature",
+   "Climatology"
   ],
   "source": "openalex",
   "topics": [
-   "计算机视觉"
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.22270v1",
+  "title": "Unsupervised Clustering of Public Transport Vehicles Using Deep Morphological Features and Color Histograms",
+  "authors": [
+   "Juan Irving Vasquez"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-15",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.22270v1",
+  "url": "https://arxiv.org/abs/2610.22270v1",
+  "abstract": "Surveillance cameras along urban roads produce large volumes of unlabeled video that could support the monitoring of public transport, but grouping the observed vehicles into meaningful categories without manual annotation remains challenging, since buses from different routes often share the same body structure and differ mainly in their color schemes. This study presents an unsupervised clustering methodology for public transport vehicles that combines morphological features extracted with a frozen DINOv2 Vision Transformer and handcrafted HSV color histograms through weighted early fusion, followed by UMAP projection and K-Means clustering. The method was evaluated on 7,972 bus images extracted from about 1,460 hours of video of an arterial road in Mexico City, with the goal of isolating the buses of the city's public bus network (RTP) without supervision. With a fusion of 65\\% morphological and 35\\% color features, the pipeline produced 14 clusters that separate distinct routes and vehicle types, and it increased the precision of the target cluster with respect to morphological features alone. These results show that color complements self-supervised features for route-level clustering, provided that it does not dominate the representation.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2610.22270v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
   ],
   "is_own": false
  }
