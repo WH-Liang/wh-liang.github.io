@@ -1,5 +1,40 @@
 [
  {
+  "id": "openalex:W7222588732",
+  "title": "Cross-view guided remote sensing super-resolution via constrained residual refinement",
+  "authors": [
+   "Ziqing Luo",
+   "Yumin Tan",
+   "Lingfeng He",
+   "Yang Li",
+   "Han Zhang",
+   "Xiaolu Wang",
+   "Zheng Jiang",
+   "Shuang Xiang"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-16",
+  "doi": "10.1016/j.isprsjprs.2026.09.038",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.038",
+  "abstract": "Existing RSISR reconstructs high-resolution imagery primarily from the degraded satellite observation, leaving missing fine-scale information underconstrained. We study whether geo-associated but geometrically misaligned ground imagery can provide useful auxiliary information for satellite super-resolution. We formulate Cross-View Guided Super-Resolution (CVG-SR) and propose Selective Residual Constrained Guidance (SRCG), which restricts ground-derived guidance to gated residual refinement around a satellite-conditioned reconstruction anchor. On VIGOR, matched ground guidance improves PSNR by 1.79 dB over the reconstruction anchor under realistic degradation and also outperforms fine-tuned satellite-only baselines. The advantage persists across higher magnification, different reconstruction anchors, and alternative guidance representations, while external-domain evaluations show that the effect remains observable under domain shift. The source code is available at https://github.com/zqluo-buaa/CVG-SR .",
+  "citation_count": 0,
+  "concepts": [
+   "Residual",
+   "Computer science",
+   "Satellite"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7222270449",
   "title": "Passive microwave sea ice concentration biases in the Southern Hemisphere revealed by ICESat-2 linear ice fraction",
   "authors": [
@@ -15,7 +50,7 @@
   "doi": "10.1016/j.rse.2026.115723",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.rse.2026.115723",
-  "abstract": null,
+  "abstract": "Gridded sea ice concentration (SIC) data are fundamental for understanding long-term polar climate. Since 1978, daily SIC data have been derived from passive microwave (PM) satellite observations. As SIC is not directly observed, it is obtained through an algorithmic inversion of PM brightness temperatures. Differences between PM-SIC algorithms lead to uncertainty in SIC data. Here we examine differences between several PM-SIC products and focus primarily on two: the National Snow and Ice Data Center (NSIDC) Climate Data Record (CDR), which over our study period is derived from Special Sensor Microwave Imager/Sounder (SSMIS) data, and over the Southern Ocean is largely based on the Bootstrap (BT) PM-SIC algorithm, and the Advanced Microwave Scanning Radiometer 2 (AMSR2)-based NASATeam2 (NT2) product. On individual days, changes in integrated Antarctic sea ice area (SIA) can reach as high as 1.6 million km 2 in summer with relative differences up to 37% at the annual sea ice minimum. Using more than 1.8 million coincident observations of the ICESat-2 Linear Ice Fraction (LIF) from 2018 to 2024, we find BT-based PM-SIC data underestimate Antarctic SIC by a median of 0.2 in areas classified as the marginal ice zone (MIZ), corresponding to a median relative difference in SIC of 31%. This offset is seasonally, spatially, and parametrically consistent and yields differences in apparent MIZ extent as high as 4.4 million km 2 . The offset exceeds reported CDR uncertainties that average 0.07 and cannot be explained as a consequence of sensor differences. The parametric simplicity of the observed bias means these offsets can be parameterized as a function of BT SIC alone, which could lead to an improved SIC dataset for Antarctic studies.",
   "citation_count": 0,
   "concepts": [
    "Sea ice",
@@ -24,7 +59,8 @@
   ],
   "source": "openalex",
   "topics": [
-   "遥感"
+   "遥感",
+   "计算机视觉"
   ],
   "is_own": false
  },
@@ -117,7 +153,7 @@
   "doi": "10.1016/j.isprsjprs.2026.09.044",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.044",
-  "abstract": null,
+  "abstract": "Large-scale 3D surface reconstruction at the city scale from UAV imagery is a core task for building digital-twin cities. Although 3D Gaussian Splatting (3DGS) and its variants have achieved remarkable progress in radiance-field reconstruction, existing methods still struggle with scale-varying structural complexity and diverse urban textures: geometry is often incomplete in low-frequency, weak-texture regions over large areas, while in high-frequency regions with intricate details, disordered primitive distributions tend to cause floating artifacts and outliers. To address these issues, we propose UrbanQGS, a large-scale urban reconstruction framework built on quadratic Gaussian splatting. We inherit quadratic surface Gaussians as scene primitives and use their analytic curvature as the central driving signal to perform a two-stage geometric refinement: (1) A self-supervised geometric constraint based on cross-view curvature consistency, which effectively fills geometric holes in weak-texture planar regions. (2) A curvature-aware adaptive representation allocation strategy that reweights, recalibrates, and ranks densification gradients, guiding split and clone operations toward geometrically complex regions while standard pruning removes redundant primitives. In addition, we integrate a monocular normal prior to correct global orientation drift during large-scale reconstruction. We further assess the compatibility of UrbanQGS with partitioned large-scene reconstruction using a visibility-aware block-wise protocol with hardware-constrained per-block budgets. The blocks are trained sequentially on a single GPU. Experiments on large-scale UAV datasets demonstrate that, compared with state-of-the-art 3DGS-based large-scale reconstruction methods, UrbanQGS maintains superior geometric quality while substantially reducing redundant Gaussians and mesh complexity, yielding finer and more complete geometric structures, while qualitative results on our custom-collected dataset indicate its compatibility with a partitioned large-scene reconstruction pipeline.",
   "citation_count": 0,
   "concepts": [
    "Quadratic equation",
@@ -127,6 +163,7 @@
   "source": "openalex",
   "topics": [
    "计算机视觉",
+   "机器学习",
    "三维与几何"
   ],
   "is_own": false
@@ -211,9 +248,9 @@
   "year": 2026,
   "date": "2026-10-15",
   "doi": "10.1080/15481603.2026.2748224",
-  "pdf": null,
+  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/15481603.2026.2748224?needAccess=true",
   "url": "https://doi.org/10.1080/15481603.2026.2748224",
-  "abstract": "This dataset provides daily records of submesoscale eddies in the South China Sea from 2015 to 2024, identified from MODIS Aqua and Terra sea surface temperature (SST) imagery. Distributed as daily TXT files, each record includes eddy polarity, center coordinates (longitude and latitude), and eddy diameter.",
+  "abstract": "Submesoscale eddies play crucial roles in oceanic energy cascades and material transport; however, their detection faces substantial challenges owing to inadequate spatial resolution in traditional satellite altimetric measurements. This research introduces Sub-Eddy-Net, an innovative deep learning approach utilizing an enhanced YOLOv8-SGAM architecture for identifying submesoscale eddy features within MODIS-derived sea surface temperature (SST) imagery across the South China Sea region. By exploiting SST data's advantageous temporal coverage and observational continuity relative to altimetric sensors, synthetic aperture radar, and ocean color products, the developed algorithm demonstrates detection precision of 0.968, successfully identifying 20,443 submesoscale eddies throughout 2015–2024. Results indicate cyclonic eddy prevalence exceeds anticyclonic occurrences, exhibiting average radii of 13.1 km and 13.7 km respectively. Eddy distributions primarily cluster within coastal waters and Luzon Strait vicinity, displaying pronounced seasonal patterns. Comparison with Surface Water and Ocean Topography (SWOT) observations shows 64.3% matched features, 27.1% positional offsets, and 8.6% detected only in SST. Within the same eddies, coherent chlorophyll-a (Chla) signatures were present in a smaller fraction, indicating that SST is the more robust tracer for systematic detection. This Sub-Eddy-Net methodology offers a scalable approach for examining submesoscale oceanic phenomena, providing a decadal inventory for further study of their roles in ocean circulation and vertical exchange.",
   "citation_count": 1,
   "concepts": [
    "Eddy",
@@ -222,6 +259,7 @@
   ],
   "source": "openalex",
   "topics": [
+   "遥感",
    "计算机视觉",
    "机器学习"
   ],
@@ -5390,7 +5428,7 @@
    "Hui Liu",
    "Yun Yang",
    "Martha C. Anderson",
-   "Feng Gao",
+   "Feng Gao A",
    "Christopher Hain",
    "John Volk",
    "Zoe Pierrat",
@@ -6253,7 +6291,7 @@
   "title": "Breaking modal barriers: Achieving modality-balanced semantic segmentation across optical and SAR images through optical image-supervised learning",
   "authors": [
    "Hao Cui",
-   "Guo Zhang",
+   "Guo Zhang A",
    "Xue Li",
    "Shasha Hou",
    "Yujia Chen",
@@ -6272,7 +6310,7 @@
   "doi": "10.1016/j.jag.2026.105621",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.jag.2026.105621",
-  "abstract": null,
+  "abstract": "As the two primary imaging modalities in remote sensing, optics and Synthetic Aperture Radar (SAR) have been widely applied in semantic segmentation tasks. However, the scarcity of annotated samples in SAR images limits the performance of related models. How to leverage the abundant annotated samples of optical images to achieve modality-balanced semantic segmentation capabilities across both optical and SAR modalities is of great significance for all-weather interpretation. Restricted by the complexity of modality perception, achieving balanced cross-modal segmentation still faces significant challenges. To address the above issues, we fully consider the modal balance and reliability of knowledge transfer in modal migration and propose a modality-balanced knowledge distillation (MBKD) transfer learning framework. By generating and learning virtual modalities and stitched modalities, a cross-modal migration task is transformed into two symmetric intra-modal migration subtasks, explicitly promoting balanced knowledge transfer between modalities. To demonstrate the effectiveness and practicality of the proposed framework, we conducted application experiments on the large-scale public dataset WHU-OPT-SAR, MULTISENGE-6, and in 6 provinces of China. The results show that our method significantly outperforms other approaches in terms of both performance and stability.",
   "citation_count": 0,
   "concepts": [
    "Segmentation",
@@ -6346,6 +6384,72 @@
   "topics": [
    "计算机视觉",
    "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7221689268",
+  "title": "3D HyFormer: A hybrid transformer with dense-sparse attention for point cloud semantic segmentation",
+  "authors": [
+   "焦志强 Jiao Zhiqiang",
+   "王康年 Wang Kangnian",
+   "Yanhan Zhang",
+   "Min Wang",
+   "Sibo Qiao",
+   "Zhanhua Huang"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-13",
+  "doi": "10.1016/j.patcog.2026.115126",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115126",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Point cloud",
+   "Discriminative model"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7221718714",
+  "title": "A3AD: Enhancing CLIP with Triple-Aware Learning for Zero-Shot Anomaly Detection",
+  "authors": [
+   "Aimin Feng",
+   "Junjie Zheng",
+   "Keyang Yu",
+   "Chuanxing Geng"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-13",
+  "doi": "10.1016/j.patcog.2026.115125",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115125",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Artificial intelligence",
+   "Anomaly detection",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "多模态"
   ],
   "is_own": false
  },
@@ -8911,7 +9015,7 @@
    "Clemens Mosig",
    "Teja Kattenborn",
    "Christian Ginzler",
-   "Verena C. Griess",
+   "Verena Christiane Griess",
    "Mirela Beloiu"
   ],
   "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
@@ -9248,6 +9352,38 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7221042953",
+  "title": "MoCoP: Modality-Collaborative Layer-Wise Pruning for Large Vision-Language Models",
+  "authors": [
+   "Chao Jiang",
+   "Jinzhi Liao",
+   "Hongbin Huang",
+   "Bin Ge",
+   "Xiang Zhao"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-08",
+  "doi": "10.1016/j.patcog.2026.115089",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115089",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Artificial intelligence",
+   "Computer science",
+   "Pruning"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7220838911",
   "title": "Effectiveness of multi-source merged soil moisture products using different triple collocation methods: A comprehensive assessment incorporating spatial similarity evaluation framework",
   "authors": [
@@ -9433,7 +9569,7 @@
    "Eija Honkavaara",
    "Langning Huo",
    "Md. Jamal Uddin",
-   "Verena C. Griess",
+   "Verena Christiane Griess",
    "Anton Kuzmin",
    "Yan Cheng",
    "Samuli Junttila"
@@ -9846,97 +9982,6 @@
   ],
   "source": "openalex",
   "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7220658479",
-  "title": "HFGF-DINOv3: High-Frequency Guided Fusion and phase-aware loss for camouflaged object detection",
-  "authors": [
-   "Jisang Lee",
-   "Hyoungwon Seo",
-   "Eunkyung Kim",
-   "Haneol Jang"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-06",
-  "doi": "10.1016/j.patcog.2026.115066",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115066",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer vision",
-   "Artificial intelligence",
-   "Object detection"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7220664877",
-  "title": "Targeted frequency modulation for robust neonatal respiratory distress classification",
-  "authors": [
-   "Yeon-Ju Kim",
-   "Sunkyoung You",
-   "Seoyeon Oh",
-   "Meayoung Chang Md",
-   "Mi Hyeon Gang",
-   "Haneol Jang"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-06",
-  "doi": "10.1016/j.patcog.2026.115008",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115008",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Outlier",
-   "Computer science",
-   "Receiver operating characteristic"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7220716868",
-  "title": "Prototype-Guided Dynamic Diffusion Network for few-shot radar HRRP target recognition",
-  "authors": [
-   "Zekun Guo",
-   "Zheng Liu",
-   "Rong Xie",
-   "Lei Ran"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-06",
-  "doi": "10.1016/j.patcog.2026.115054",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115054",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Artificial intelligence",
-   "Computer science",
-   "Computer vision"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
   "is_own": false
  },
  {
@@ -11069,7 +11114,7 @@
    "Zipeng Wang",
    "Pengteng Li",
    "Bin Yang",
-   "Hui Yun Xiong"
+   "Hui Xiong"
   ],
   "venue": "International Journal of Computer Vision",
   "venue_short": "IJCV",
@@ -11600,7 +11645,7 @@
    "Y Zhang",
    "Chen Liu",
    "Lincheng Li",
-   "Xin Feng Yu",
+   "Xin Yu",
    "Yanyan Liang"
   ],
   "venue": "International Journal of Computer Vision",
@@ -12282,7 +12327,7 @@
    "Yuhao Liu",
    "Zeyu Zhang",
    "Songbo Wu",
-   "Xiaoli Ding"
+   "Xiaoli L. Ding"
   ],
   "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
   "venue_short": "ISPRS JPRS",
@@ -13582,39 +13627,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7214057032",
-  "title": "Resampling-free jitter-aware bundle adjustment for HiRISE multi-CCD stereo mapping on Mars",
-  "authors": [
-   "Binliang Wang",
-   "Shuangming Zhao",
-   "Shiyan Wang",
-   "Xinyi Guo",
-   "Zhihao Zhan",
-   "Ke Wang"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-22",
-  "doi": "10.1016/j.isprsjprs.2026.09.020",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.020",
-  "abstract": "Accurate topographic reconstruction from High Resolution Imaging Science Experiment (HiRISE) stereo imagery is essential for Martian geomorphological analysis and landing-site assessment. However, high-frequency sensor jitter and geometric inconsistency among non-collinear charge-coupled devices (CCDs) can introduce seam-related artifacts, periodic residuals, and local digital elevation model (DEM) deformation. Conventional correction workflows often estimate jitter in image space or update attitude parameters before stereo measurement, and therefore do not fully exploit the internal overlap constraints of the HiRISE focal plane within bundle adjustment. This paper presents a resampling-free photogrammetric framework for HiRISE multi-CCD stereo mapping, in which harmonic jitter compensation is embedded directly into rigorous bundle adjustment. A time-continuous exterior orientation model combines low-order polynomial motion with Fourier-series-based jitter terms initialized from adjacent-CCD overlap disparities. Inter-orbit stereo tie points and inter-CCD overlap tie points are then jointly used to constrain stereo geometry, time-dependent pointing variation, and focal-plane consistency in a unified adjustment model. For original CCD-image matching, a constrained coarse-to-fine pipeline is developed. Pretrained XFeat with test-time descriptor adaptation is used mainly for prior-free coarse initialization at the lowest pyramid level, and the resulting geometric relation is propagated to guide efficient Harris + normalized cross-correlation (NCC) refinement and dense grid matching under local constraints. Experiments on four HiRISE stereo pairs covering the Spirit landing region, Mawrth Vallis, the Zhurong landing region, and a more topographically challenging inverted-channel area in Gale Crater are used to evaluate the proposed framework under different terrain-relief conditions. The results show that the proposed framework maintains sub-pixel mean check-point reprojection residuals in both image directions across all four stereo pairs, suppresses jitter-induced periodic residuals, improves consistency across CCD seams, and produces DEMs consistent with the Mars Orbiter Laser Altimeter (MOLA) and official HiRISE/Planetary Data System (PDS) references without image resampling. The implementation will be made publicly available at: https://github.com/wbl1997/mars_images_ba.git .",
-  "citation_count": 0,
-  "concepts": [
-   "Bundle adjustment",
-   "Geology",
-   "Mars Exploration Program"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
   "id": "openalex:W7134262133",
   "title": "Enhanced early warning of extreme river discharge events in the Yangtze River Basin using atmospheric circulation signals",
   "authors": [
@@ -14078,7 +14090,7 @@
   "title": "A source–medium–receiver framework for modeling wind-driven vegetation cooling in urban landscapes",
   "authors": [
    "Hassan Qasim",
-   "Xiaoli Ding",
+   "Xiaoli L. Ding",
    "Sawaid Abbas"
   ],
   "venue": "GIScience & Remote Sensing",
@@ -14347,6 +14359,35 @@
    "遥感",
    "计算机视觉",
    "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7213515099",
+  "title": "Point-Cloud-Native L-Band Augmentation of SWOT KaRIn: Recovering Canopy-Shadowed Dark Water with NISAR",
+  "authors": [
+   "Waleed Shoaib",
+   "Bakhtawar Ismail",
+   "Muhammad Salik"
+  ],
+  "venue": "IEEE Geoscience and Remote Sensing Letters",
+  "venue_short": "GRSL",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-09-17",
+  "doi": "10.5281/zenodo.22818803",
+  "pdf": null,
+  "url": "https://doi.org/10.5281/zenodo.22818803",
+  "abstract": "The SWOT mission's Ka-band Radar Interferometer (KaRIn) delivers surface-water observations at 15-25 m resolution but the operational Level-2 Pixel Cloud is known to miss pixels where dense canopy attenuates the specular return, flagging them as dark water. We show that co-registering NISAR L-band geocoded backscatter onto SWOT PIXC recovers dark-water pixels at matched precision. Over the Congo cuvette the augmentation lifts dark-water recall by 11.3 pp; over the Amazon varzea by 17.9 pp. Both gains clear a pre-registered 10 pp kill gate with disjoint 95% bootstrap confidence intervals versus baseline. A joint-shuffle falsifier confirms the gain is from real sensor information, not regularisation. To our knowledge this is the first combined use of NISAR and SWOT reported quantitatively.",
+  "citation_count": 0,
+  "concepts": [
+   "Geocoding",
+   "Remote sensing",
+   "Pixel"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
   ],
   "is_own": false
  },
@@ -17966,7 +18007,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tgrs.2026.3654629",
   "abstract": "With the advancement of remote sensing satellite technology and the rapid progress of deep learning, remote sensing change detection (RSCD) has become a key technique for regional monitoring. Traditional change detection (CD) methods and deep learning-based approaches have made significant contributions to change analysis and detection, however, many outstanding methods still face limitations in the exploration and application of multimodal data. To address this, we propose the multimodal graph-conditioned vision-language reconstruction network (MGCR-Net) to further explore the semantic interaction capabilities of multimodal data. Multimodal large language models (MLLM) have attracted widespread attention for their outstanding performance in computer vision, particularly due to their powerful visual-language understanding and dialogic interaction capabilities. Specifically, we design a MLLM-based optimization strategy to generate multimodal textual data from the original CD images, which serve as textual input to MGCR. Visual and textual features are extracted through a dual encoder framework. For the first time in the RSCD task, we introduce a multimodal graph-conditioned vision-language reconstruction mechanism, which is integrated with graph attention to construct a semantic graph-conditioned reconstruction module (SGCM), this module generates vision-language (VL) Tokens through graph-based conditions and enables cross-dimensional interaction between visual and textual features via multihead attention. The reconstructed VL features are then deeply fused using the language vision transformer (LViT), achieving fine-grained feature alignment and high-level semantic interaction. Experimental results on four public datasets demonstrate that MGCR achieves superior performance compared to mainstream CD methods. Our code is available on https://github.com/cn-xvkong/MGCR.",
-  "citation_count": 4,
+  "citation_count": 5,
   "concepts": [
    "Computer science",
    "Artificial intelligence",
@@ -19735,37 +19776,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7125596793",
-  "title": "Military Target Detection by Integrated Spectral Design and Radiative Transfer Modeling",
-  "authors": [
-   "Siddhant Dixit",
-   "Sudhanshu Shekhar Jha",
-   "Usha Rani Nelakuditi",
-   "‪Rama Rao Nidamanuri"
-  ],
-  "venue": "IEEE Geoscience and Remote Sensing Letters",
-  "venue_short": "GRSL",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-01-01",
-  "doi": "10.1109/lgrs.2026.3657664",
-  "pdf": null,
-  "url": "https://doi.org/10.1109/lgrs.2026.3657664",
-  "abstract": "A paradigm shift in modern-day warfare, spectral designing and signature management has gained prominence in the defence industry. From a target detection perspective, various national military establishments are making efforts to develop sensors, signature management, and survivability of their own military platforms. Most targets of strategic importance are found camouflaged in tactical environments. Hyperspectral imaging (HSI) is increasingly used in defence applications at various information levels. Acquisition of spectral signatures of adversaries and discriminating between actual and decoy targets is vital for deployment in meeting time-sensitive intelligence needs. We have developed a novel spectral target detection approach, integrating radiative transfer modelling (RTM), a non-linear spectral mixture model, and a reference spectral library database, to discriminate real and decoy targets of military interest. We acquired spectral signatures of various strategically important artificial as well as natural materials and developed a forward spectral mixture modelling based approach to engineer spectral signatures, which we name the primary decoy signature database (PDSD), conforming to real landscapes. The spatial variability and environmental interference of all the targets are modelled with respect to geometric and atmospheric conditions using RTM. The proposed approach is experimentally implemented for target detection in a HySIS hyperspectral satellite imagery acquired over defence terrain in the Indo-China Himalayan region, conforming to various scenarios of target-material optical perspective. The results suggest operational promise of spectral signature design and engineering for differentiating real and decoy targets using HSI.",
-  "citation_count": 1,
-  "concepts": [
-   "Hyperspectral imaging",
-   "Spectral signature",
-   "Computer science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
   "id": "openalex:W4377371562",
   "title": "LaCon: Late-Constraint Controllable Visual Generation",
   "authors": [
@@ -20776,7 +20786,7 @@
   "authors": [
    "Baber Jan",
    "Saeed Anwar",
-   "Aiman H. El‐Maleh",
+   "Aiman Helmi El-Maleh",
    "Abdul Jabbar Siddiqui",
    "Abdul Bais"
   ],
@@ -21007,7 +21017,7 @@
    "Deboch Eyob Abera",
    "Ranran Zhang",
    "Wanming Hu",
-   "Jing Yan Cai",
+   "Jing Cai",
    "Wenjian Qin"
   ],
   "venue": "IEEE Transactions on Image Processing",

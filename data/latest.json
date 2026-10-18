@@ -1,5 +1,40 @@
 [
  {
+  "id": "openalex:W7222588732",
+  "title": "Cross-view guided remote sensing super-resolution via constrained residual refinement",
+  "authors": [
+   "Ziqing Luo",
+   "Yumin Tan",
+   "Lingfeng He",
+   "Yang Li",
+   "Han Zhang",
+   "Xiaolu Wang",
+   "Zheng Jiang",
+   "Shuang Xiang"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-16",
+  "doi": "10.1016/j.isprsjprs.2026.09.038",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.038",
+  "abstract": "Existing RSISR reconstructs high-resolution imagery primarily from the degraded satellite observation, leaving missing fine-scale information underconstrained. We study whether geo-associated but geometrically misaligned ground imagery can provide useful auxiliary information for satellite super-resolution. We formulate Cross-View Guided Super-Resolution (CVG-SR) and propose Selective Residual Constrained Guidance (SRCG), which restricts ground-derived guidance to gated residual refinement around a satellite-conditioned reconstruction anchor. On VIGOR, matched ground guidance improves PSNR by 1.79 dB over the reconstruction anchor under realistic degradation and also outperforms fine-tuned satellite-only baselines. The advantage persists across higher magnification, different reconstruction anchors, and alternative guidance representations, while external-domain evaluations show that the effect remains observable under domain shift. The source code is available at https://github.com/zqluo-buaa/CVG-SR .",
+  "citation_count": 0,
+  "concepts": [
+   "Residual",
+   "Computer science",
+   "Satellite"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7222270449",
   "title": "Passive microwave sea ice concentration biases in the Southern Hemisphere revealed by ICESat-2 linear ice fraction",
   "authors": [
@@ -15,7 +50,7 @@
   "doi": "10.1016/j.rse.2026.115723",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.rse.2026.115723",
-  "abstract": null,
+  "abstract": "Gridded sea ice concentration (SIC) data are fundamental for understanding long-term polar climate. Since 1978, daily SIC data have been derived from passive microwave (PM) satellite observations. As SIC is not directly observed, it is obtained through an algorithmic inversion of PM brightness temperatures. Differences between PM-SIC algorithms lead to uncertainty in SIC data. Here we examine differences between several PM-SIC products and focus primarily on two: the National Snow and Ice Data Center (NSIDC) Climate Data Record (CDR), which over our study period is derived from Special Sensor Microwave Imager/Sounder (SSMIS) data, and over the Southern Ocean is largely based on the Bootstrap (BT) PM-SIC algorithm, and the Advanced Microwave Scanning Radiometer 2 (AMSR2)-based NASATeam2 (NT2) product. On individual days, changes in integrated Antarctic sea ice area (SIA) can reach as high as 1.6 million km 2 in summer with relative differences up to 37% at the annual sea ice minimum. Using more than 1.8 million coincident observations of the ICESat-2 Linear Ice Fraction (LIF) from 2018 to 2024, we find BT-based PM-SIC data underestimate Antarctic SIC by a median of 0.2 in areas classified as the marginal ice zone (MIZ), corresponding to a median relative difference in SIC of 31%. This offset is seasonally, spatially, and parametrically consistent and yields differences in apparent MIZ extent as high as 4.4 million km 2 . The offset exceeds reported CDR uncertainties that average 0.07 and cannot be explained as a consequence of sensor differences. The parametric simplicity of the observed bias means these offsets can be parameterized as a function of BT SIC alone, which could lead to an improved SIC dataset for Antarctic studies.",
   "citation_count": 0,
   "concepts": [
    "Sea ice",
@@ -24,7 +59,8 @@
   ],
   "source": "openalex",
   "topics": [
-   "遥感"
+   "遥感",
+   "计算机视觉"
   ],
   "is_own": false
  },
@@ -117,7 +153,7 @@
   "doi": "10.1016/j.isprsjprs.2026.09.044",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.044",
-  "abstract": null,
+  "abstract": "Large-scale 3D surface reconstruction at the city scale from UAV imagery is a core task for building digital-twin cities. Although 3D Gaussian Splatting (3DGS) and its variants have achieved remarkable progress in radiance-field reconstruction, existing methods still struggle with scale-varying structural complexity and diverse urban textures: geometry is often incomplete in low-frequency, weak-texture regions over large areas, while in high-frequency regions with intricate details, disordered primitive distributions tend to cause floating artifacts and outliers. To address these issues, we propose UrbanQGS, a large-scale urban reconstruction framework built on quadratic Gaussian splatting. We inherit quadratic surface Gaussians as scene primitives and use their analytic curvature as the central driving signal to perform a two-stage geometric refinement: (1) A self-supervised geometric constraint based on cross-view curvature consistency, which effectively fills geometric holes in weak-texture planar regions. (2) A curvature-aware adaptive representation allocation strategy that reweights, recalibrates, and ranks densification gradients, guiding split and clone operations toward geometrically complex regions while standard pruning removes redundant primitives. In addition, we integrate a monocular normal prior to correct global orientation drift during large-scale reconstruction. We further assess the compatibility of UrbanQGS with partitioned large-scene reconstruction using a visibility-aware block-wise protocol with hardware-constrained per-block budgets. The blocks are trained sequentially on a single GPU. Experiments on large-scale UAV datasets demonstrate that, compared with state-of-the-art 3DGS-based large-scale reconstruction methods, UrbanQGS maintains superior geometric quality while substantially reducing redundant Gaussians and mesh complexity, yielding finer and more complete geometric structures, while qualitative results on our custom-collected dataset indicate its compatibility with a partitioned large-scene reconstruction pipeline.",
   "citation_count": 0,
   "concepts": [
    "Quadratic equation",
@@ -127,6 +163,7 @@
   "source": "openalex",
   "topics": [
    "计算机视觉",
+   "机器学习",
    "三维与几何"
   ],
   "is_own": false
@@ -211,9 +248,9 @@
   "year": 2026,
   "date": "2026-10-15",
   "doi": "10.1080/15481603.2026.2748224",
-  "pdf": null,
+  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/15481603.2026.2748224?needAccess=true",
   "url": "https://doi.org/10.1080/15481603.2026.2748224",
-  "abstract": "This dataset provides daily records of submesoscale eddies in the South China Sea from 2015 to 2024, identified from MODIS Aqua and Terra sea surface temperature (SST) imagery. Distributed as daily TXT files, each record includes eddy polarity, center coordinates (longitude and latitude), and eddy diameter.",
+  "abstract": "Submesoscale eddies play crucial roles in oceanic energy cascades and material transport; however, their detection faces substantial challenges owing to inadequate spatial resolution in traditional satellite altimetric measurements. This research introduces Sub-Eddy-Net, an innovative deep learning approach utilizing an enhanced YOLOv8-SGAM architecture for identifying submesoscale eddy features within MODIS-derived sea surface temperature (SST) imagery across the South China Sea region. By exploiting SST data's advantageous temporal coverage and observational continuity relative to altimetric sensors, synthetic aperture radar, and ocean color products, the developed algorithm demonstrates detection precision of 0.968, successfully identifying 20,443 submesoscale eddies throughout 2015–2024. Results indicate cyclonic eddy prevalence exceeds anticyclonic occurrences, exhibiting average radii of 13.1 km and 13.7 km respectively. Eddy distributions primarily cluster within coastal waters and Luzon Strait vicinity, displaying pronounced seasonal patterns. Comparison with Surface Water and Ocean Topography (SWOT) observations shows 64.3% matched features, 27.1% positional offsets, and 8.6% detected only in SST. Within the same eddies, coherent chlorophyll-a (Chla) signatures were present in a smaller fraction, indicating that SST is the more robust tracer for systematic detection. This Sub-Eddy-Net methodology offers a scalable approach for examining submesoscale oceanic phenomena, providing a decadal inventory for further study of their roles in ocean circulation and vertical exchange.",
   "citation_count": 1,
   "concepts": [
    "Eddy",
@@ -222,33 +259,7 @@
   ],
   "source": "openalex",
   "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.22270v1",
-  "title": "Unsupervised Clustering of Public Transport Vehicles Using Deep Morphological Features and Color Histograms",
-  "authors": [
-   "Juan Irving Vasquez"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-15",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.22270v1",
-  "url": "https://arxiv.org/abs/2610.22270v1",
-  "abstract": "Surveillance cameras along urban roads produce large volumes of unlabeled video that could support the monitoring of public transport, but grouping the observed vehicles into meaningful categories without manual annotation remains challenging, since buses from different routes often share the same body structure and differ mainly in their color schemes. This study presents an unsupervised clustering methodology for public transport vehicles that combines morphological features extracted with a frozen DINOv2 Vision Transformer and handcrafted HSV color histograms through weighted early fusion, followed by UMAP projection and K-Means clustering. The method was evaluated on 7,972 bus images extracted from about 1,460 hours of video of an arterial road in Mexico City, with the goal of isolating the buses of the city's public bus network (RTP) without supervision. With a fusion of 65\\% morphological and 35\\% color features, the pipeline produced 14 clusters that separate distinct routes and vehicle types, and it increased the precision of the target cluster with respect to morphological features alone. These results show that color complements self-supervised features for route-level clustering, provided that it does not dominate the representation.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2610.22270v1",
-  "source": "arxiv",
-  "topics": [
+   "遥感",
    "计算机视觉",
    "机器学习"
   ],
