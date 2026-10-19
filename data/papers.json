@@ -1,5 +1,200 @@
 [
  {
+  "id": "openalex:W7222803739",
+  "title": "Diagnosing drought–flood vulnerability of rice systems across growth stages using Sentinel-1/2 and CHIRPS time series",
+  "authors": [
+   "Shanchuan Guo",
+   "Bo Yuan",
+   "Sung‐Ching Lee",
+   "Pengfei Tang",
+   "Hongjun Su",
+   "Peijun Du"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-17",
+  "doi": "10.1016/j.isprsjprs.2026.10.010",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.010",
+  "abstract": "Compound and rapidly alternating drought and flood events pose a major challenge to rice production because crop impacts depend strongly on when hydroclimatic stress occurs and how crop condition evolves afterwards. Here, rice vulnerability is characterized by stage-specific exposure, sensitivity, and recovery. We developed a Stage-resolved Drought–flood Rice Vulnerability (SDRV) framework to diagnose vulnerability formation in stable single-season rice across the middle and lower reaches of the Yangtze River (MLYR), China, during 2020–2025. SDRV integrates CHIRPS precipitation and Sentinel-1/2 time-series within four regionally harmonized growth-stage windows: establishment to early tillering (S1), tillering to jointing (S2), booting/heading to grain filling (S3), and grain filling to maturity (S4). Stage-specific percentile mapping places the underlying hydroclimatic and canopy observations in a common 0–1 diagnostic space, after which the three components are integrated into stage-wise and annual vulnerability. Results show that annual vulnerability ranked as 2022 > 2025 > 2023 > 2020 > 2021 > 2024. Within the study period, drought-dominant and drought-involved pathways were associated with greater annual vulnerability than the flood-dominant pathway represented by 2020. Vulnerability amplification was concentrated mainly in S2–S3. In 2022, persistent drought-dominant stress intensified vulnerability toward S3, producing the highest annual mean vulnerability (0.599) and the largest high-vulnerability fraction (50.4%). In 2025, alternating drought and flood conditions generated a different pathway, with vulnerability concentrated in S2 and partially reduced in S3. Spatially, high vulnerability repeatedly formed a northern and central MLYR corridor, especially across Anhui, Jiangsu and adjoining parts of the middle Yangtze region. Province-level comparison with a yield-loss proxy further showed a positive external-consistency relationship for annual vulnerability after accounting for year effects. These results demonstrate that rice vulnerability under drought–flood stress develops through stage-dependent interactions among hydroclimatic forcing, canopy response, and subsequent recovery. SDRV therefore provides a process-oriented approach for identifying when and where vulnerability intensifies within the growing season.",
+  "citation_count": 0,
+  "concepts": [
+   "Vulnerability (computing)",
+   "Flood myth",
+   "Vulnerability assessment"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7222792090",
+  "title": "Prior-Informed Spatially Adaptive Network (PISA-Net) for multi-parameter water quality retrieval in Poyang Lake using Sentinel-2 imagery",
+  "authors": [
+   "Lin Wu",
+   "Yihang Duan",
+   "Yu Zhang",
+   "Yabo Huang",
+   "Duojia Yang",
+   "Wenfu Wu",
+   "Ning Li"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-17",
+  "doi": "10.1016/j.jag.2026.105641",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105641",
+  "abstract": "Accurate retrieval of water-quality parameters from remote-sensing imagery is essential for monitoring large inland lakes, yet pronounced spatial heterogeneity and limited transferability across varying environmental conditions remain major challenges. This study proposes a Prior-Informed Spatially Adaptive Network (PISA-Net) for multi-parameter water-quality retrieval from Sentinel-2 imagery in Poyang Lake. PISA-Net integrates a CNN branch for nonlinear spectral–spatial feature learning with a knowledge-guided branch based on empirical optical descriptors and coordinate-derived geographic priors. A geographic soft-assignment mechanism constructs the spatial prior vector, which conditions CNN features through Feature-wise Linear Modulation (FiLM), while a stop gradient consistency loss (SG-CL) promotes agreement between the two prediction pathways with controlled gradient propagation. Chl-a, TP, and CODMn were modeled independently and evaluated using 5-fold spatial-block cross-validation against six representative empirical, statistical, machine-learning, and deep-learning baselines. PISA-Net achieved R 2 values of 0.6113, 0.5112, and 0.5054 for Chl-a, TP, and CODMn, respectively, consistently outperforming the strongest baseline, 2D-CNN, while reducing RMSE by approximately 29.6%, 21.4%, and 19.0%. An additional April 2018 cross-season experiment revealed substantial degradation under direct zero-shot transfer, whereas few-shot adaptation markedly reduced prediction errors, indicating useful cross-season adaptability after limited local calibration. Overall, PISA-Net provides a prior-informed spectral–spatial framework for water-quality retrieval under spatially heterogeneous conditions, while broader multi-season validation remains necessary to establish comprehensive seasonal generalizability.",
+  "citation_count": 0,
+  "concepts": [
+   "Adaptability",
+   "Consistency (knowledge bases)",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7222809819",
+  "title": "Developing broadband spectral index for estimating crop canopy water content",
+  "authors": [
+   "Xianda Huang",
+   "Yelu Zeng",
+   "Xuecao Li",
+   "Jianxi Huang",
+   "Wei Su"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-17",
+  "doi": "10.1016/j.jag.2026.105637",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105637",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Canopy",
+   "Index (typography)",
+   "Broadband"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7222828562",
+  "title": "Transforming Leaf-Off LiDAR to leaf-on canopy height models using deep learning",
+  "authors": [
+   "Yeonjae Kim",
+   "Hunsoo Song",
+   "Songlin Fei",
+   "Jinha Jung"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-17",
+  "doi": "10.1080/15481603.2026.2740327",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2740327",
+  "abstract": "Accurate tree canopy metrics are essential for a wide range of ecological, environmental, and climate studies. Recent advances in airborne LiDAR sensing have greatly expanded access to high-resolution three-dimensional observations of tree canopy structure. However, many widely available airborne LiDAR datasets are acquired under leaf-off conditions to support terrain mapping, and our analysis across ecologically diverse sites shows that canopy height models (CHMs) derived from these data exhibit substantial, recurring discrepancies in canopy height and extent, with an overall tendency to underrepresent canopy structure relative to leaf-on conditions. These discrepancies limit the direct use of leaf-off CHMs in applications requiring canopy information representative of leaf-on conditions. To address this limitation, we introduce a deep learning framework for reconstructing leaf-on CHMs from existing leaf-off LiDAR-derived CHMs. To our knowledge, this is the first study to formulate the direct reconstruction of leaf-on CHMs from existing leaf-off LiDAR-derived CHMs as a supervised image-to-image learning task. The framework provides two complementary models: a Pix2Pix model that uses the leaf-off CHM alone and a U-Net model that additionally incorporates multispectral imagery. Our proposed models achieve robust canopy-height accuracy across four spatially independent test sites (R²: 0.85–0.92; Mean Absolute Error: 1.3–1.6 metres), substantially reducing the discrepancies observed in the leaf-off source CHMs. They also provide sharper delineation of canopy details and higher accuracy than recent optical-imagery-based approaches. To facilitate broader use, we developed an open-access web application that deploys the pre-trained models and supports on-demand leaf-on CHM generation for user-selected areas across the U.S. where suitable leaf-off LiDAR inputs are available. Overall, the framework provides a practical means to bridge the seasonal data gap in LiDAR acquisition and improve access to reliable canopy metrics representative of leaf-on conditions.",
+  "citation_count": 0,
+  "concepts": [
+   "Lidar",
+   "Canopy",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7222807288",
+  "title": "Efficient Time-Fractional Diffusion Network for Under-Display ToF Imaging and Beyond",
+  "authors": [
+   "Xin Qiao",
+   "Xing Wei",
+   "Matteo Poggi",
+   "Da-Yan Liu",
+   "He Kong",
+   "Chenyang Ge",
+   "Stefano Mattoccia",
+   "Nanning Zheng"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-17",
+  "doi": "10.1007/s11263-026-03074-w",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03074-w",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Artificial intelligence",
+   "Pattern recognition (psychology)",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7222823761",
+  "title": "CorrCLIPv2: Harnessing Unlabeled Images for Open-Vocabulary Semantic Segmentation",
+  "authors": [
+   "D H Zhang",
+   "Fagui Liu",
+   "Quan Tang",
+   "C. L. Philip Chen"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-17",
+  "doi": "10.1007/s11263-026-03027-3",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03027-3",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Artificial intelligence",
+   "Computer science",
+   "Pattern recognition (psychology)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7222588732",
   "title": "Cross-view guided remote sensing super-resolution via constrained residual refinement",
   "authors": [
@@ -8686,6 +8881,37 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7221082374",
+  "title": "Reliability-aware dynamic dependency graph neural network for airborne network intrusion detection",
+  "authors": [
+   "Wenqi Liu",
+   "Maohui Zhou",
+   "Cong Gao",
+   "Hongjuan Ge"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-09",
+  "doi": "10.1016/j.patcog.2026.115103",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115103",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Artificial intelligence",
+   "Intrusion detection system"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7221108473",
   "title": "R3-Gen: Enhancing medical report generation with reasoning-reinforced fine-tuning",
   "authors": [
@@ -9852,39 +10078,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7220983576",
-  "title": "A semantic-aware dual-stream framework for spatiotemporal trajectory-user linking",
-  "authors": [
-   "Haolun Ding",
-   "Rong Zhang",
-   "Hang Zhang",
-   "Tuohang Li",
-   "Hongping Shu",
-   "Guisong Liu",
-   "Qiang Gao"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-07",
-  "doi": "10.1016/j.patcog.2026.115046",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115046",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Artificial intelligence",
-   "Computer vision"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
   "id": "openalex:W7220699079",
   "title": "PGD-Net: Prompt-Guided Hybrid Transformer Decoder for building extraction from remote sensing images",
   "authors": [
@@ -10678,7 +10871,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1080/15481603.2026.2741471",
   "abstract": "Flash drought poses a growing threat to agricultural production because its rapid onset limits timely monitoring and adaptive management. Using ERA5-Land root-zone soil moisture, this study identified flash drought events across China from 2004 to 2023, characterized their spatiotemporal patterns and hydroclimatic associations, assessed cross-product consistency of the identified onset signals, and examined their associations with rice-yield anomalies. GLEAM root-zone soil moisture was used for cross-product onset-consistency assessment, and a spatially validated Random Forest–GeoShapley framework was applied to examine the hydroclimatic associations of flash drought duration, severity, and intensity. Flash droughts occurred more frequently in southern and southwestern China, whereas longer and more severe events were concentrated in northern arid, plateau, and high-latitude regions. GLEAM showed consistent root-zone soil-moisture depletion around ERA5-Land-identified onset dates, supporting the timing and direction of the identified onset signals. GeoShapley analysis indicated that geographic background accounted for a substantial share of the total contribution. Precipitation deficit contributed most strongly to duration and severity, whereas intensity showed a more distributed contribution from precipitation deficit and atmospheric-demand variables. April–September drought exposure was generally associated with lower rice-yield anomalies, with flash drought showing more negative exposure–response estimates than slow drought, particularly in the Northeast China Plain. These findings clarify attribute-specific hydroclimatic associations of flash drought and support region-specific monitoring and rice-production risk assessment in China.",
-  "citation_count": 0,
+  "citation_count": 1,
   "concepts": [
    "China",
    "Environmental science",
@@ -13594,39 +13787,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7214025497",
-  "title": "SaKD: Lightweight infrared small target detection via Spatial-Aware Knowledge Distillation for edge deployment",
-  "authors": [
-   "Qianwen Ma",
-   "Shangwei Deng",
-   "Ruoqi Lian",
-   "Zhen Zhu",
-   "Haofeng Hu",
-   "Xiaobo Li"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-22",
-  "doi": "10.1016/j.isprsjprs.2026.09.018",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.018",
-  "abstract": "Accurate infrared small target detection (IRSTD) in remote sensing remains challenging because targets of interest typically occupy only a few pixels and provide limited spatial cues against complex backgrounds. Existing high-performance methods rely on complex networks to enhance weak target representations, limiting their use on resource-constrained edge devices. Lightweight models reduce computation but struggle to capture scarce spatial cues of small targets. To preserve these spatial cues in lightweight models for remote sensing applications, we propose SaKD, a Spatial-Aware Knowledge Distillation method for IRSTD. SaKD explicitly captures complementary spatial cues associated with target responses from teacher predictions, thereby providing richer spatial discriminative supervision for the student model. Without changing the student inference structure, SaKD introduces two training stage components. The Multi-Scale Self Guidance Mechanism first derives auxiliary supervision from the student’s own responses at multiple scales to strengthen target representation before teacher guidance is introduced. Spatial Prior Distillation then transfers the teacher’s spatial priors by enforcing region, position, and scale consistency, corresponding to target region coverage, center localization, and response scale control. Experiments on multiple IRSTD datasets containing real remote sensing imagery show that SaKD consistently improves the undistilled lightweight student and achieves competitive detection performance with low model complexity. The distilled student contains only 0.895M parameters and 1.999G FLOPs. Deployment verification on a Jetson platform further demonstrates its practical efficiency for edge deployable remote sensing applications, reaching 142.7 FPS for standalone TensorRT FP16 inference at an input resolution of 256 × 256. The code will be available at: https://github.com/Kingwin97/SaKD .",
-  "citation_count": 0,
-  "concepts": [
-   "Software deployment",
-   "Computer science",
-   "Enhanced Data Rates for GSM Evolution"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
   "id": "openalex:W7134262133",
   "title": "Enhanced early warning of extreme river discharge events in the Yangtze River Basin using atmospheric circulation signals",
   "authors": [
@@ -13894,74 +14054,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7213871523",
-  "title": "Kinematic pattern interpretation of railway-corridor deformation from InSAR time series with transfer learning-based TCN",
-  "authors": [
-   "Mengshi Yang",
-   "Kang Yin",
-   "Tianrui Zhao",
-   "Zhifang Zhao",
-   "Jisheng Xia",
-   "Ramon F. Hanssen"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-21",
-  "doi": "10.1016/j.jag.2026.105594",
-  "pdf": "https://www.sciencedirect.com/science/article/pii/S1569843226005108/pdf",
-  "url": "https://doi.org/10.1016/j.jag.2026.105594",
-  "abstract": "Railway-corridor deformation monitoring requires timely identification of localized displacement anomalies and characterization of their temporal evolution. Time-series Interferometric Synthetic Aperture Radar (InSAR) provides spatially dense and high-precision displacement observations from repeated SAR acquisitions, but InSAR-based railway studies have largely remained rate-centered, leaving the kinematic information embedded in displacement time series insufficiently exploited. This study develops a kinematic interpretation framework that integrates InSAR displacement time series, transfer learning-based Temporal Convolutional Network (TCN) classification, and multi-source environmental data to characterize railway-corridor deformation in terms of its occurrence, temporal evolution, and environmental context. Sentinel-1 images acquired from January 2022 to December 2024 were processed to retrieve LOS displacement rates and displacement time series along the Kunming–Yuxi section of the China–Laos Railway. To reduce dependence on labeled InSAR samples, a transfer learning strategy was adopted, in which the TCN was pre-trained using simulated displacement sequences and fine-tuned with labeled InSAR observations to classify six kinematic patterns: stable, linear, step, piecewise linear, power-law, and undefined. The corridor is generally stable, with a mean displacement rate of −0.26 mm/year and stable points accounting for 77.96% of observations. Linear and step patterns account for 12.66% and 7.87%, respectively. Strong subsidence zones, where the localized displacement rate reaches −28.43 mm/year, are dominated by linear deformation. Pattern-based interpretation further shows that non-stable deformation is associated with Quaternary unconsolidated sediments, paddy soils, fine-grained soil textures, and urban expansion areas. These results indicate that InSAR-derived kinematic patterns provide an effective interpretive layer for linking railway-corridor displacement, temporal evolution, and environmental context.",
-  "citation_count": 0,
-  "concepts": [
-   "Interferometric synthetic aperture radar",
-   "Series (stratigraphy)",
-   "Geology"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213903535",
-  "title": "Relaxing the clear-sky assumption: Cloud-tolerant spatiotemporal fusion via mask-guided feature modulation and temporal-memory collaboration",
-  "authors": [
-   "Sichen Lu",
-   "Juanjuan Jing",
-   "Junhua Yu",
-   "Lei Yang",
-   "Boyang Nie",
-   "Jinsong Zhou"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-21",
-  "doi": "10.1016/j.jag.2026.105571",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105571",
-  "abstract": "The precise characterization of dynamic Earth surface processes relies on time-series remote sensing imagery with both high spatial fidelity and frequent temporal coverage. While spatiotemporal fusion (STF) bridges this resolution trade-off by integrating complementary observations, its practical application remains constrained by the idealized ”clear-sky assumption”. This requirement often favors the selection of temporally distant cloud-free acquisitions over temporally closer but cloud-contaminated observations, potentially reducing the relevance of reference information. To address this limitation, we propose CloudSTF, a robust framework designed to achieve high-fidelity reconstruction by effectively exploiting partially occluded observations. Our approach employs a Mask-guided Multi-scale Swin Transformer (M 2 ST) encoder to capture cloud spatial patterns and suppress noise propagation during feature extraction. This is coupled with a Cross-temporal Memory-guided Fusion (CTMF) module that adaptively integrates temporal trends with textural details retrieved from a spatio-temporal memory bank. To validate this paradigm, we introduce the Global Cloud-shrouded Regions (GCR-STF) benchmark, a geographically distributed dataset comprising 24 representative agricultural and urban sites across six continents. Extensive experiments demonstrate that CloudSTF consistently outperforms state-of-the-art methods. Additional assessments across varying cloud densities and diverse landscapes further demonstrate the robustness and applicability of CloudSTF under realistic cloud-contaminated conditions. These results suggest that CloudSTF provides a reliable solution for continuous Earth monitoring in realistic, cloud-prone environments. Source code and the GCR-STF benchmark are available at https://github.com/Sichen-Lu/CloudSTF .",
-  "citation_count": 0,
-  "concepts": [
-   "Artificial intelligence",
-   "Fusion",
-   "Feature (linguistics)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
   "id": "openalex:W7213753521",
   "title": "De-biasing Skeleton-Based Action Recognition with Convex Hull Adaptive Shift",
   "authors": [
@@ -14211,69 +14303,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7213550561",
-  "title": "Spectral-Domain Anchor Learning for Scale-Robust Continuous Visual Fields",
-  "authors": [
-   "Xingran Guo",
-   "Tiaojie Xiao",
-   "Jie Liu",
-   "Keqin Li"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-18",
-  "doi": "10.1007/s11263-026-03038-0",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03038-0",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Gradient descent",
-   "Scalability"
-  ],
-  "source": "openalex",
-  "topics": [
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213557102",
-  "title": "NeuraLeaf: Disentangled Neural Parametric Modeling of Leaf Shape, Deformation, and Appearance",
-  "authors": [
-   "Yang Yang",
-   "Risa Shinoda",
-   "Hiroaki Santo",
-   "Yasuyuki Matsushita",
-   "Fumio Okura"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-18",
-  "doi": "10.1007/s11263-026-03024-6",
-  "pdf": "https://link.springer.com/content/pdf/10.1007/s11263-026-03024-6.pdf",
-  "url": "https://doi.org/10.1007/s11263-026-03024-6",
-  "abstract": "Abstract We develop a neural parametric model of 3D leaves for plant modeling and reconstruction that are essential for agriculture and computer graphics. While neural parametric models are actively studied for humans and animals, plant leaves present unique challenges due to their thin surface geometry and flexible deformation. To address this problem, we introduce a neural parametric model for leaves, NeuraLeaf. Capitalizing on the fact that flattened leaf shapes can be approximated as a 2D plane, NeuraLeaf disentangles the leaves’ geometry into their 2D base shapes (i.e., flattened leaves) and 3D deformations. This representation allows learning from rich sources of 2D leaf image datasets for the base shapes, and also has the advantage of simultaneously learning textures aligned with the geometry. To obtain a disentangled and controllable appearance space, NeuraLeaf also introduces a learnable appearance space with self-supervised objectives, enabling both appearance fitting to observations and appearance-conditioned texture generation. To model the 3D deformation, we propose a novel skeleton-free skinning model and create a newly captured 3D leaf dataset called DeformLeaf. We demonstrate that NeuraLeaf successfully generates a diverse range of leaf shapes with high-fidelity appearance and deformation, resulting in accurate model fitting to RGB-D observations. Our implementation is available at https://github.com/Yrainy0615/NeuraLeaf-APP .",
-  "citation_count": 0,
-  "concepts": [
-   "Parametric statistics",
-   "Artificial intelligence",
-   "Skinning"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
   "id": "openalex:W7213535816",
   "title": "Correction",
   "authors": [],
@@ -14359,35 +14388,6 @@
    "遥感",
    "计算机视觉",
    "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213515099",
-  "title": "Point-Cloud-Native L-Band Augmentation of SWOT KaRIn: Recovering Canopy-Shadowed Dark Water with NISAR",
-  "authors": [
-   "Waleed Shoaib",
-   "Bakhtawar Ismail",
-   "Muhammad Salik"
-  ],
-  "venue": "IEEE Geoscience and Remote Sensing Letters",
-  "venue_short": "GRSL",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-17",
-  "doi": "10.5281/zenodo.22818803",
-  "pdf": null,
-  "url": "https://doi.org/10.5281/zenodo.22818803",
-  "abstract": "The SWOT mission's Ka-band Radar Interferometer (KaRIn) delivers surface-water observations at 15-25 m resolution but the operational Level-2 Pixel Cloud is known to miss pixels where dense canopy attenuates the specular return, flagging them as dark water. We show that co-registering NISAR L-band geocoded backscatter onto SWOT PIXC recovers dark-water pixels at matched precision. Over the Congo cuvette the augmentation lifts dark-water recall by 11.3 pp; over the Amazon varzea by 17.9 pp. Both gains clear a pre-registered 10 pp kill gate with disjoint 95% bootstrap confidence intervals versus baseline. A joint-shuffle falsifier confirms the gain is from real sensor information, not regularisation. To our knowledge this is the first combined use of NISAR and SWOT reported quantitatively.",
-  "citation_count": 0,
-  "concepts": [
-   "Geocoding",
-   "Remote sensing",
-   "Pixel"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
   ],
   "is_own": false
  },
@@ -14733,42 +14733,6 @@
   "topics": [
    "计算机视觉",
    "机器学习",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7212027999",
-  "title": "A multi-scale voxel-based framework for robust multisource forest LiDAR registration",
-  "authors": [
-   "Wenrui Song",
-   "Xin Zong",
-   "Wenlong Song",
-   "Nianpeng He",
-   "Jianping Huang",
-   "Yanqiu Xing",
-   "Weigang Li",
-   "Marco Heurich"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-08",
-  "doi": "10.1080/15481603.2026.2724603",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2724603",
-  "abstract": "Aerial and ground-based laser scanning platforms provide complementary three-dimensional, high-precision data for characterizing forest structure, yet accurate registration of cross-platform point clouds remains challenging in complex forest environments. Existing methods rely either on object-level features (e.g. tree stems), which are often incomplete across platforms, or on local geometric descriptors that are unreliable given self-similarity, occlusion, and density asymmetry inherent in forest point clouds. To address these limitations, we introduce MultiVoxelReg, a multi-scale voxel-based framework for automatic cross-platform forest point cloud registration. Instead of depending on semantic objects or geometric keypoints, MultiVoxelReg leverages voxel-level statistical properties that are more robust to noise and partial data loss. Forest structure is represented using a 12-dimensional voxel descriptor encoding distributional, positional, and geometric characteristics of points within voxels. Multi-scale structural information is captured through hierarchical voxelization, enabling coarse-to-fine correspondence matching. This is further coupled with a dynamic-threshold Iterative Closest Point refinement stage and a global initial alignment module that accommodates large pose discrepancies. We evaluate the proposed method on 15 forest plots, including 10 UAV-terrestrial LiDAR plots from a public dataset and 5 UAV-backpack LiDAR plots collected in this study, spanning diverse forest structures, terrain conditions, and initial misalignments. The results demonstrate consistent robustness and accuracy, achieving mean translation and rotation errors of 5.23 cm and 0.13° for UAV-terrestrial data, and 17.00 cm and 0.29° for UAV-backpack data. These results highlight voxel-based statistical representation as an effective and generalizable approach for cross-platform point cloud registration in structurally complex environments.",
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Lidar",
-   "Geography"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
    "三维与几何"
   ],
   "is_own": false
@@ -18422,7 +18386,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tgrs.2025.3650077",
   "abstract": "Underwater images typically suffer from severe color distortion, low contrast, and poor visibility due to light absorption and scattering in aquatic environments. To address these challenges, we propose a novel Dual-Attention GAN (DA-GAN), specifically designed to enhance contrast and correct color distortions in underwater images. DA-GAN features three key innovations: a Hybrid CNN-Attention Bottleneck Layer (HCABL) for efficient enhancement of local and global features, a Transformer-based Channel Attention Module (TCAM) for color distortion removal, and a Multi-Color Space Loss function to improve contrast and visibility. HCABL employs parallel attention mechanisms and depth-wise separable convolutions to enhance both global context and local spatial details. TCAM enhances the model’s sensitivity to various color channels, enabling effective correction of complex color distortions. Furthermore, the Multi-Color Space Loss function, tailored for the HSV color space and the image’s bright and dark channels, further enhance contrast and visibility. Comprehensive ablation studies validate the effectiveness of each component, while extensive comparison experiments demonstrate that DA-GAN achieves state-of-the-art or comparable performance across six public underwater image datasets (SUIM, UIEB, EUVP, LSUI, UCCS and SQUID). The source code is publicly available at https: //github.com/littlebearRedgood/DAGAN.",
-  "citation_count": 1,
+  "citation_count": 2,
   "concepts": [
    "Computer science",
    "Color correction",
@@ -18484,7 +18448,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tgrs.2025.3650350",
   "abstract": "In hyperspectral image (HSI) classification, the high-dimensionality and the complex coupling of spatial-spectral features present severe challenges to existing deep learning methods in terms of accuracy, generalization, and computational efficiency. Researchers have recently explored CNN and Transformer-based methods to overcome these limitations, but CNN's limited receptive field prevents effective modeling of long-range dependencies, while Transformers suffer from high computational cost and inefficiency in high-dimensional data. Motivated by these limitations, the state-space model (SSM) Mamba shows great potential as an efficient alternative for sequence and dependency modeling. Building on this foundation, we propose HyPyraMamba, a novel architecture designed to effectively overcome the above challenges. It integrates the Pyramid Spectral Attention (PSA) module to capture multi-scale key spectral features, thereby reducing interference caused by spectral redundancy. We developed an Adaptive Expert Depthwise Convolution (AEDC) module that enhances the model's ability to express multi-scale spatial-spectral features, and a sequence modeling module, Mamba. In the Mamba module, we utilize the spatial Mamba and spectral Mamba branches to enhance spatial structure and spectral correlation modeling. Extensive experiments on four benchmark HSI datasets demonstrate that HyPyraMamba significantly outperforms several recent state-of-the-art methods and provides a favorable accuracy–efficiency trade-off. In particular, class-wise analyses on spectrally similar land-cover categories (e.g., different soybean and bareland types) show that HyPyraMamba markedly reduces mutual confusion compared with CNN-, Transformer-, and Mamba-based baselines. The code will be available at https://github.com/dekai-li/HyPyraMamba.",
-  "citation_count": 26,
+  "citation_count": 29,
   "concepts": [
    "Hyperspectral imaging",
    "Computer science",
@@ -19034,7 +18998,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/lgrs.2026.3652369",
   "abstract": "Hyperspectral image (HSI) classification, as a crucial research direction in remote sensing, aims to achieve pixel-wise land cover classification by leveraging the abundant spectral and spatial information of HSI. However, existing approaches direct their primary attention to spectral-spatial feature analysis while neglecting to explore latent properties in the frequency domain. To solve this issue, we put forward a spatial-frequency joint learning Mamba (SFMamba) framework for HSI classification. Its core component is the Wavelet Mamba Block (WMB), which adopts a dual-branch design with spatial and frequency branches. In the spatial branch, we utilize convolutional layers for spatial domain feature extraction. In the frequency branch, we use wavelet transform to decompose input features into a low-frequency component together with three high-frequency components. The low-frequency component is processed by a convolutional block, while the high-frequency components are modeled by a Mamba block, achieving effective learning of both local and global representations in the frequency domain. Experimental results on two public datasets show that SFMamba outperforms several existing classification methods, demonstrating its effectiveness. Specifically, SFMamba achieves overall accuracies of 98.92% on the ZY1-02D Huanghekou (ZYHHK) dataset and 99.03% on the WHU-Hi-LongKou (LongKou) dataset. Our code is available at: https://github.com/zhe-meng/SFMamba.",
-  "citation_count": 4,
+  "citation_count": 5,
   "concepts": [
    "Hyperspectral imaging",
    "Pattern recognition (psychology)",
@@ -19400,7 +19364,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/lgrs.2026.3653262",
   "abstract": "Automatic co-seismic landslide mapping plays a crucial role in rapidly assessing post-disaster impacts and supporting emergency response efforts. However, most remote sensing-based approaches depend on either classification or change detection alone, failing to fully exploit their complementary strengths and thus limiting mapping accuracy. To address this issue, this study proposes a novel co-seismic landslide mapping approach that integrates classification and change detection techniques. The proposed approach consists of two main stages: automatic landslide sample generation and classifier-based mapping, both integrating classification and change detection. Specifically, in the first stage, sample reliability is improved by combining coarse change detection using pre- and post-event images with coarse classification based on the post-event image. In the second stage, classification and change detection results are fused using a maximum class probability decision strategy to further enhance mapping accuracy. Experiments conducted on two datasets covering the Mainling area in China and the Hokkaido region in Japan demonstrate that the proposed method achieved superior performance compared with existing approaches.",
-  "citation_count": 3,
+  "citation_count": 4,
   "concepts": [
    "Change detection",
    "Landslide",
@@ -19771,6 +19735,37 @@
   ],
   "source": "openalex",
   "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7125596793",
+  "title": "Military Target Detection by Integrated Spectral Design and Radiative Transfer Modeling",
+  "authors": [
+   "Siddhant Dixit",
+   "Sudhanshu Shekhar Jha",
+   "Usha Rani Nelakuditi",
+   "‪Rama Rao Nidamanuri"
+  ],
+  "venue": "IEEE Geoscience and Remote Sensing Letters",
+  "venue_short": "GRSL",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-01-01",
+  "doi": "10.1109/lgrs.2026.3657664",
+  "pdf": null,
+  "url": "https://doi.org/10.1109/lgrs.2026.3657664",
+  "abstract": "A paradigm shift in modern-day warfare, spectral designing and signature management has gained prominence in the defence industry. From a target detection perspective, various national military establishments are making efforts to develop sensors, signature management, and survivability of their own military platforms. Most targets of strategic importance are found camouflaged in tactical environments. Hyperspectral imaging (HSI) is increasingly used in defence applications at various information levels. Acquisition of spectral signatures of adversaries and discriminating between actual and decoy targets is vital for deployment in meeting time-sensitive intelligence needs. We have developed a novel spectral target detection approach, integrating radiative transfer modelling (RTM), a non-linear spectral mixture model, and a reference spectral library database, to discriminate real and decoy targets of military interest. We acquired spectral signatures of various strategically important artificial as well as natural materials and developed a forward spectral mixture modelling based approach to engineer spectral signatures, which we name the primary decoy signature database (PDSD), conforming to real landscapes. The spatial variability and environmental interference of all the targets are modelled with respect to geometric and atmospheric conditions using RTM. The proposed approach is experimentally implemented for target detection in a HySIS hyperspectral satellite imagery acquired over defence terrain in the Indo-China Himalayan region, conforming to various scenarios of target-material optical perspective. The results suggest operational promise of spectral signature design and engineering for differentiating real and decoy targets using HSI.",
+  "citation_count": 1,
+  "concepts": [
+   "Hyperspectral imaging",
+   "Spectral signature",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
    "计算机视觉"
   ],
   "is_own": false

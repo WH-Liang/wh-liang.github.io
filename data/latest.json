@@ -1,5 +1,200 @@
 [
  {
+  "id": "openalex:W7222803739",
+  "title": "Diagnosing drought–flood vulnerability of rice systems across growth stages using Sentinel-1/2 and CHIRPS time series",
+  "authors": [
+   "Shanchuan Guo",
+   "Bo Yuan",
+   "Sung‐Ching Lee",
+   "Pengfei Tang",
+   "Hongjun Su",
+   "Peijun Du"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-17",
+  "doi": "10.1016/j.isprsjprs.2026.10.010",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.010",
+  "abstract": "Compound and rapidly alternating drought and flood events pose a major challenge to rice production because crop impacts depend strongly on when hydroclimatic stress occurs and how crop condition evolves afterwards. Here, rice vulnerability is characterized by stage-specific exposure, sensitivity, and recovery. We developed a Stage-resolved Drought–flood Rice Vulnerability (SDRV) framework to diagnose vulnerability formation in stable single-season rice across the middle and lower reaches of the Yangtze River (MLYR), China, during 2020–2025. SDRV integrates CHIRPS precipitation and Sentinel-1/2 time-series within four regionally harmonized growth-stage windows: establishment to early tillering (S1), tillering to jointing (S2), booting/heading to grain filling (S3), and grain filling to maturity (S4). Stage-specific percentile mapping places the underlying hydroclimatic and canopy observations in a common 0–1 diagnostic space, after which the three components are integrated into stage-wise and annual vulnerability. Results show that annual vulnerability ranked as 2022 > 2025 > 2023 > 2020 > 2021 > 2024. Within the study period, drought-dominant and drought-involved pathways were associated with greater annual vulnerability than the flood-dominant pathway represented by 2020. Vulnerability amplification was concentrated mainly in S2–S3. In 2022, persistent drought-dominant stress intensified vulnerability toward S3, producing the highest annual mean vulnerability (0.599) and the largest high-vulnerability fraction (50.4%). In 2025, alternating drought and flood conditions generated a different pathway, with vulnerability concentrated in S2 and partially reduced in S3. Spatially, high vulnerability repeatedly formed a northern and central MLYR corridor, especially across Anhui, Jiangsu and adjoining parts of the middle Yangtze region. Province-level comparison with a yield-loss proxy further showed a positive external-consistency relationship for annual vulnerability after accounting for year effects. These results demonstrate that rice vulnerability under drought–flood stress develops through stage-dependent interactions among hydroclimatic forcing, canopy response, and subsequent recovery. SDRV therefore provides a process-oriented approach for identifying when and where vulnerability intensifies within the growing season.",
+  "citation_count": 0,
+  "concepts": [
+   "Vulnerability (computing)",
+   "Flood myth",
+   "Vulnerability assessment"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7222792090",
+  "title": "Prior-Informed Spatially Adaptive Network (PISA-Net) for multi-parameter water quality retrieval in Poyang Lake using Sentinel-2 imagery",
+  "authors": [
+   "Lin Wu",
+   "Yihang Duan",
+   "Yu Zhang",
+   "Yabo Huang",
+   "Duojia Yang",
+   "Wenfu Wu",
+   "Ning Li"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-17",
+  "doi": "10.1016/j.jag.2026.105641",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105641",
+  "abstract": "Accurate retrieval of water-quality parameters from remote-sensing imagery is essential for monitoring large inland lakes, yet pronounced spatial heterogeneity and limited transferability across varying environmental conditions remain major challenges. This study proposes a Prior-Informed Spatially Adaptive Network (PISA-Net) for multi-parameter water-quality retrieval from Sentinel-2 imagery in Poyang Lake. PISA-Net integrates a CNN branch for nonlinear spectral–spatial feature learning with a knowledge-guided branch based on empirical optical descriptors and coordinate-derived geographic priors. A geographic soft-assignment mechanism constructs the spatial prior vector, which conditions CNN features through Feature-wise Linear Modulation (FiLM), while a stop gradient consistency loss (SG-CL) promotes agreement between the two prediction pathways with controlled gradient propagation. Chl-a, TP, and CODMn were modeled independently and evaluated using 5-fold spatial-block cross-validation against six representative empirical, statistical, machine-learning, and deep-learning baselines. PISA-Net achieved R 2 values of 0.6113, 0.5112, and 0.5054 for Chl-a, TP, and CODMn, respectively, consistently outperforming the strongest baseline, 2D-CNN, while reducing RMSE by approximately 29.6%, 21.4%, and 19.0%. An additional April 2018 cross-season experiment revealed substantial degradation under direct zero-shot transfer, whereas few-shot adaptation markedly reduced prediction errors, indicating useful cross-season adaptability after limited local calibration. Overall, PISA-Net provides a prior-informed spectral–spatial framework for water-quality retrieval under spatially heterogeneous conditions, while broader multi-season validation remains necessary to establish comprehensive seasonal generalizability.",
+  "citation_count": 0,
+  "concepts": [
+   "Adaptability",
+   "Consistency (knowledge bases)",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7222809819",
+  "title": "Developing broadband spectral index for estimating crop canopy water content",
+  "authors": [
+   "Xianda Huang",
+   "Yelu Zeng",
+   "Xuecao Li",
+   "Jianxi Huang",
+   "Wei Su"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-17",
+  "doi": "10.1016/j.jag.2026.105637",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105637",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Canopy",
+   "Index (typography)",
+   "Broadband"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7222828562",
+  "title": "Transforming Leaf-Off LiDAR to leaf-on canopy height models using deep learning",
+  "authors": [
+   "Yeonjae Kim",
+   "Hunsoo Song",
+   "Songlin Fei",
+   "Jinha Jung"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-17",
+  "doi": "10.1080/15481603.2026.2740327",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2740327",
+  "abstract": "Accurate tree canopy metrics are essential for a wide range of ecological, environmental, and climate studies. Recent advances in airborne LiDAR sensing have greatly expanded access to high-resolution three-dimensional observations of tree canopy structure. However, many widely available airborne LiDAR datasets are acquired under leaf-off conditions to support terrain mapping, and our analysis across ecologically diverse sites shows that canopy height models (CHMs) derived from these data exhibit substantial, recurring discrepancies in canopy height and extent, with an overall tendency to underrepresent canopy structure relative to leaf-on conditions. These discrepancies limit the direct use of leaf-off CHMs in applications requiring canopy information representative of leaf-on conditions. To address this limitation, we introduce a deep learning framework for reconstructing leaf-on CHMs from existing leaf-off LiDAR-derived CHMs. To our knowledge, this is the first study to formulate the direct reconstruction of leaf-on CHMs from existing leaf-off LiDAR-derived CHMs as a supervised image-to-image learning task. The framework provides two complementary models: a Pix2Pix model that uses the leaf-off CHM alone and a U-Net model that additionally incorporates multispectral imagery. Our proposed models achieve robust canopy-height accuracy across four spatially independent test sites (R²: 0.85–0.92; Mean Absolute Error: 1.3–1.6 metres), substantially reducing the discrepancies observed in the leaf-off source CHMs. They also provide sharper delineation of canopy details and higher accuracy than recent optical-imagery-based approaches. To facilitate broader use, we developed an open-access web application that deploys the pre-trained models and supports on-demand leaf-on CHM generation for user-selected areas across the U.S. where suitable leaf-off LiDAR inputs are available. Overall, the framework provides a practical means to bridge the seasonal data gap in LiDAR acquisition and improve access to reliable canopy metrics representative of leaf-on conditions.",
+  "citation_count": 0,
+  "concepts": [
+   "Lidar",
+   "Canopy",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7222807288",
+  "title": "Efficient Time-Fractional Diffusion Network for Under-Display ToF Imaging and Beyond",
+  "authors": [
+   "Xin Qiao",
+   "Xing Wei",
+   "Matteo Poggi",
+   "Da-Yan Liu",
+   "He Kong",
+   "Chenyang Ge",
+   "Stefano Mattoccia",
+   "Nanning Zheng"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-17",
+  "doi": "10.1007/s11263-026-03074-w",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03074-w",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Artificial intelligence",
+   "Pattern recognition (psychology)",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7222823761",
+  "title": "CorrCLIPv2: Harnessing Unlabeled Images for Open-Vocabulary Semantic Segmentation",
+  "authors": [
+   "D H Zhang",
+   "Fagui Liu",
+   "Quan Tang",
+   "C. L. Philip Chen"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-17",
+  "doi": "10.1007/s11263-026-03027-3",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03027-3",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Artificial intelligence",
+   "Computer science",
+   "Pattern recognition (psychology)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7222588732",
   "title": "Cross-view guided remote sensing super-resolution via constrained residual refinement",
   "authors": [
@@ -61,207 +256,6 @@
   "topics": [
    "遥感",
    "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7222275646",
-  "title": "A revised model for atmospheric adjacency effect correction in optical satellite earth observation images",
-  "authors": [
-   "Kevin Walcarius",
-   "Mustapha Moulana",
-   "Didier Ramon",
-   "Micaël Lassalle",
-   "Jérôme M. Colin",
-   "Olivier Hagolle"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-15",
-  "doi": "10.1016/j.rse.2026.115737",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115737",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Satellite",
-   "Earth observation satellite"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221787463",
-  "title": "RT-ProtoNet: radiative-transfer-guided few-shot prototype networks for cross-region bathymetry in optically clear reef environments",
-  "authors": [
-   "Ruiyao Kong",
-   "Shuai Xing",
-   "Li Chen",
-   "Guoping Zhang",
-   "Ming Gao",
-   "Naiquan Zheng",
-   "Dandi Wang"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-15",
-  "doi": "10.1016/j.isprsjprs.2026.10.012",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.012",
-  "abstract": "Satellite-derived bathymetry faces two coupled obstacles: labels are scarce, and models transfer poorly across regions. We propose RT-ProtoNet, a radiative-transfer-guided few-shot prototype network, which takes patches from three penetrating Sentinel-2 bands and treats ICESat-2 depths, aggregated to the 10 m grid, as sparse supervision; cross-region episodic meta-training then yields a transferable metric representation. Rather than embedding the radiative transfer relation as an analytic formula, we use it as a comparability criterion between support and query pixels, entering the attention as a learnable additive distance penalty. The prediction sums a convex combination over support depths and a base regression head trained on source domains only and frozen at deployment, so no target-domain parameters are estimated. We evaluate on five optically clear shallow reef regions by leave-one-region-out cross-validation against airborne laser bathymetry, against nine baselines, where K is the total number of support pixels (3, 5, 10, 20, 50). For K ≤ 20, RT-ProtoNet attains the lowest cross-region macro-mean RMSE (2.79–2.48 m), with a run-to-run standard deviation 0.67 times the runner-up’s; at K = 50, pre-training with head fine-tuning overtakes it. Ablation shows the residual head’s gain scales with support depth coverage (correlation 0.991) and that the two physical priors are largely substitutable; twelve perturbations to the attenuation input change RMSE by only 0.66%. The method suits depths of roughly 2–20 m and budgets of K ≤ 20, and does not extrapolate to turbid or optically complex waters. Independent evaluation at two external optical-domain sites, a moderately turbid embayment (Tampa Bay) and a clear-to-moderately-turbid transition site (Boquerón Bay), further delineates the method’s applicability across contrasting optical conditions, showing reliable transfer within the clear-water regime but substantial degradation under stronger optical attenuation.",
-  "citation_count": 0,
-  "concepts": [
-   "Bathymetry",
-   "Geology",
-   "Remote sensing"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7222056698",
-  "title": "UrbanQGS: Large-scale urban surface reconstruction via analytic curvature consistency in quadratic Gaussian splatting",
-  "authors": [
-   "Yuanhang Cheng",
-   "Zhe Yang",
-   "Juan Lei",
-   "Jisheng Chu",
-   "Weiwei Li",
-   "Zheng Xu",
-   "Zhuo Chen",
-   "Gang Chen"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-15",
-  "doi": "10.1016/j.isprsjprs.2026.09.044",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.044",
-  "abstract": "Large-scale 3D surface reconstruction at the city scale from UAV imagery is a core task for building digital-twin cities. Although 3D Gaussian Splatting (3DGS) and its variants have achieved remarkable progress in radiance-field reconstruction, existing methods still struggle with scale-varying structural complexity and diverse urban textures: geometry is often incomplete in low-frequency, weak-texture regions over large areas, while in high-frequency regions with intricate details, disordered primitive distributions tend to cause floating artifacts and outliers. To address these issues, we propose UrbanQGS, a large-scale urban reconstruction framework built on quadratic Gaussian splatting. We inherit quadratic surface Gaussians as scene primitives and use their analytic curvature as the central driving signal to perform a two-stage geometric refinement: (1) A self-supervised geometric constraint based on cross-view curvature consistency, which effectively fills geometric holes in weak-texture planar regions. (2) A curvature-aware adaptive representation allocation strategy that reweights, recalibrates, and ranks densification gradients, guiding split and clone operations toward geometrically complex regions while standard pruning removes redundant primitives. In addition, we integrate a monocular normal prior to correct global orientation drift during large-scale reconstruction. We further assess the compatibility of UrbanQGS with partitioned large-scene reconstruction using a visibility-aware block-wise protocol with hardware-constrained per-block budgets. The blocks are trained sequentially on a single GPU. Experiments on large-scale UAV datasets demonstrate that, compared with state-of-the-art 3DGS-based large-scale reconstruction methods, UrbanQGS maintains superior geometric quality while substantially reducing redundant Gaussians and mesh complexity, yielding finer and more complete geometric structures, while qualitative results on our custom-collected dataset indicate its compatibility with a partitioned large-scene reconstruction pipeline.",
-  "citation_count": 0,
-  "concepts": [
-   "Quadratic equation",
-   "Mathematics",
-   "Surface (topology)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7222233880",
-  "title": "N-PCLN: A physics-informed deep learning framework for short-term chlorophyll-a prediction with sparse satellite observation",
-  "authors": [
-   "Haibo Long",
-   "卢建中",
-   "Shoujing Yin",
-   "Chang Huang",
-   "xiaoling Chen"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-15",
-  "doi": "10.1016/j.isprsjprs.2026.10.011",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.011",
-  "abstract": "Chlorophyll-a (Chla) is a key indicator of lake eutrophication. Its short-term prediction is essential for water quality monitoring and bloom early warning. However, traditional deep learning models often rely heavily on dense observations and provide limited process interpretability. To address these limitations, this study proposes a physics-informed deep learning framework, named N-PCLN, for short-term Chla prediction in Erhai Lake. The framework integrates Sentinel-3 OLCI imagery and meteorological datasets from 2016 to 2024. It uses Chla, land surface temperature, wind speed, and precipitation as inputs. Total phosphorus is incorporated through a nutrient–phytoplankton model to construct a physical loss. This design enables the model to jointly learn spatiotemporal patterns and nutrient–phytoplankton process constraints. The N-PCLN outperforms ConvLSTM, Transformer, MDN, CNN, and LSTM models, achieving an R 2 of 0.767, an MAE of 1.483 mg/m 3 , and an RMSE of 2.665 mg/m 3 . Sparse-data experiments show that N-PCLN maintains more stable performance than the selected baseline models under reduced data availability. The ablation experiments indicate that LST is the dominant meteorological factor driver of short-term Chla dynamics, while wind speed and precipitation mainly affect hydrodynamic redistribution and runoff-related nutrient transport. Physical-loss gradient analysis further reveals that the N-P constraint acts differently across seasons and Chla concentration. These results demonstrate that N-PCLN improves both prediction performance and process interpretability. It provides a useful framework for satellite-based lake water quality prediction.",
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Deep learning",
-   "Satellite"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221806375",
-  "title": "Assessing the spatio-temporal cumulative drought effects on two Mediterranean forest types in Central Chile",
-  "authors": [
-   "José A. Lastra",
-   "Roberto O. Chávez",
-   "M. Decuyper",
-   "Alvaro Lau",
-   "K.M. de Beurs"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-15",
-  "doi": "10.1016/j.jag.2026.105640",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105640",
-  "abstract": "Droughts are long-lasting events that can drive persistent functional changes in ecosystems, particularly in drought-prone areas like Mediterranean forests. We integrated a phenology-based anomaly method, combining kernel density estimation (KDE) with cumulative sums (CUSUMs) to assess long-term drought impacts on two Mediterranean forest types in Central Chile. Using MODIS Enhanced Vegetation Index (EVI), the Moisture Stress Index (MSI), and Evapotranspiration (ET) from 2000 to 2024, we quantified cumulative deviations in canopy productivity, moisture conditions, and energy exchange. Our framework revealed persistent negative functional trajectories preceding the well-documented 2010–present megadrought. Spatially explicit metrics identified coherent degradation hotspots in northern sclerophyllous and southern deciduous forests, where canopy greenness, moisture, and evapotranspiration declined synchronously. Seasonal models indicated a post-2010 strengthening of soil–water controls over forest functioning, with soil moisture and water storage variables becoming influential predictors. The convergence of cumulative negative EVI, MSI, and ET signals highlights widespread and sustained functional weakening under prolonged drought conditions. Our results demonstrate that integrating KDE-derived anomalies with cumulative deviation tracking provides a sensitive and transferable framework to detect early and persistent vegetation stress in water-limited ecosystems.",
-  "citation_count": 0,
-  "concepts": [
-   "Mediterranean climate",
-   "Geography",
-   "Forestry"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7138323110",
-  "title": "Deep learning detection of submesoscale eddies from MODIS SST in the South China Sea",
-  "authors": [
-   "Xi Chen",
-   "Zihong Ou",
-   "Shaojie Sun",
-   "Xiaolong Yu",
-   "Jun Zhao"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-15",
-  "doi": "10.1080/15481603.2026.2748224",
-  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/15481603.2026.2748224?needAccess=true",
-  "url": "https://doi.org/10.1080/15481603.2026.2748224",
-  "abstract": "Submesoscale eddies play crucial roles in oceanic energy cascades and material transport; however, their detection faces substantial challenges owing to inadequate spatial resolution in traditional satellite altimetric measurements. This research introduces Sub-Eddy-Net, an innovative deep learning approach utilizing an enhanced YOLOv8-SGAM architecture for identifying submesoscale eddy features within MODIS-derived sea surface temperature (SST) imagery across the South China Sea region. By exploiting SST data's advantageous temporal coverage and observational continuity relative to altimetric sensors, synthetic aperture radar, and ocean color products, the developed algorithm demonstrates detection precision of 0.968, successfully identifying 20,443 submesoscale eddies throughout 2015–2024. Results indicate cyclonic eddy prevalence exceeds anticyclonic occurrences, exhibiting average radii of 13.1 km and 13.7 km respectively. Eddy distributions primarily cluster within coastal waters and Luzon Strait vicinity, displaying pronounced seasonal patterns. Comparison with Surface Water and Ocean Topography (SWOT) observations shows 64.3% matched features, 27.1% positional offsets, and 8.6% detected only in SST. Within the same eddies, coherent chlorophyll-a (Chla) signatures were present in a smaller fraction, indicating that SST is the more robust tracer for systematic detection. This Sub-Eddy-Net methodology offers a scalable approach for examining submesoscale oceanic phenomena, providing a decadal inventory for further study of their roles in ocean circulation and vertical exchange.",
-  "citation_count": 1,
-  "concepts": [
-   "Eddy",
-   "Sea surface temperature",
-   "Climatology"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
   ],
   "is_own": false
  }
