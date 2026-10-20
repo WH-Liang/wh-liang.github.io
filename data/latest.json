@@ -1,5 +1,90 @@
 [
  {
+  "id": "openalex:W4414856726",
+  "title": "LLM-Powered Query Expansion for Enhancing Boundary Prediction in Language-Driven Action Localization",
+  "authors": [
+   "Zirui Shang",
+   "Xinxiao Wu",
+   "Shuo Yang"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-18",
+  "doi": "10.1007/s11263-026-03083-9",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03083-9",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Boundary (topology)",
+   "Computer science",
+   "Action (physics)"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7157285616",
+  "title": "GoClick: Lightweight Element Grounding Model for Autonomous GUI Interaction",
+  "authors": [
+   "Hongxin Li",
+   "Yuntao Chen",
+   "Zhaoxiang Zhang"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-18",
+  "doi": "10.1007/s11263-026-03031-7",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03031-7",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Pipeline (software)",
+   "Task (project management)",
+   "Ground"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7222872640",
+  "title": "Benchmarking Large Language Models for Video Quality Assessment: Structured Perceptual Prompting and Refinement",
+  "authors": [
+   "Runze Hu",
+   "Mingxuan Li",
+   "Yutao Liu",
+   "Haoran Duan",
+   "Yan Zhang"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-18",
+  "doi": "10.1007/s11263-026-03068-8",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03068-8",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Benchmarking",
+   "Benchmark (surveying)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7222803739",
   "title": "Diagnosing drought–flood vulnerability of rice systems across growth stages using Sentinel-1/2 and CHIRPS time series",
   "authors": [
@@ -111,7 +196,7 @@
   "year": 2026,
   "date": "2026-10-17",
   "doi": "10.1080/15481603.2026.2740327",
-  "pdf": null,
+  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/15481603.2026.2740327?needAccess=true",
   "url": "https://doi.org/10.1080/15481603.2026.2740327",
   "abstract": "Accurate tree canopy metrics are essential for a wide range of ecological, environmental, and climate studies. Recent advances in airborne LiDAR sensing have greatly expanded access to high-resolution three-dimensional observations of tree canopy structure. However, many widely available airborne LiDAR datasets are acquired under leaf-off conditions to support terrain mapping, and our analysis across ecologically diverse sites shows that canopy height models (CHMs) derived from these data exhibit substantial, recurring discrepancies in canopy height and extent, with an overall tendency to underrepresent canopy structure relative to leaf-on conditions. These discrepancies limit the direct use of leaf-off CHMs in applications requiring canopy information representative of leaf-on conditions. To address this limitation, we introduce a deep learning framework for reconstructing leaf-on CHMs from existing leaf-off LiDAR-derived CHMs. To our knowledge, this is the first study to formulate the direct reconstruction of leaf-on CHMs from existing leaf-off LiDAR-derived CHMs as a supervised image-to-image learning task. The framework provides two complementary models: a Pix2Pix model that uses the leaf-off CHM alone and a U-Net model that additionally incorporates multispectral imagery. Our proposed models achieve robust canopy-height accuracy across four spatially independent test sites (R²: 0.85–0.92; Mean Absolute Error: 1.3–1.6 metres), substantially reducing the discrepancies observed in the leaf-off source CHMs. They also provide sharper delineation of canopy details and higher accuracy than recent optical-imagery-based approaches. To facilitate broader use, we developed an open-access web application that deploys the pre-trained models and supports on-demand leaf-on CHM generation for user-selected areas across the U.S. where suitable leaf-off LiDAR inputs are available. Overall, the framework provides a practical means to bridge the seasonal data gap in LiDAR acquisition and improve access to reliable canopy metrics representative of leaf-on conditions.",
   "citation_count": 0,
@@ -160,102 +245,6 @@
   "topics": [
    "计算机视觉",
    "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7222823761",
-  "title": "CorrCLIPv2: Harnessing Unlabeled Images for Open-Vocabulary Semantic Segmentation",
-  "authors": [
-   "D H Zhang",
-   "Fagui Liu",
-   "Quan Tang",
-   "C. L. Philip Chen"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-17",
-  "doi": "10.1007/s11263-026-03027-3",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03027-3",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Artificial intelligence",
-   "Computer science",
-   "Pattern recognition (psychology)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7222588732",
-  "title": "Cross-view guided remote sensing super-resolution via constrained residual refinement",
-  "authors": [
-   "Ziqing Luo",
-   "Yumin Tan",
-   "Lingfeng He",
-   "Yang Li",
-   "Han Zhang",
-   "Xiaolu Wang",
-   "Zheng Jiang",
-   "Shuang Xiang"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-16",
-  "doi": "10.1016/j.isprsjprs.2026.09.038",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.038",
-  "abstract": "Existing RSISR reconstructs high-resolution imagery primarily from the degraded satellite observation, leaving missing fine-scale information underconstrained. We study whether geo-associated but geometrically misaligned ground imagery can provide useful auxiliary information for satellite super-resolution. We formulate Cross-View Guided Super-Resolution (CVG-SR) and propose Selective Residual Constrained Guidance (SRCG), which restricts ground-derived guidance to gated residual refinement around a satellite-conditioned reconstruction anchor. On VIGOR, matched ground guidance improves PSNR by 1.79 dB over the reconstruction anchor under realistic degradation and also outperforms fine-tuned satellite-only baselines. The advantage persists across higher magnification, different reconstruction anchors, and alternative guidance representations, while external-domain evaluations show that the effect remains observable under domain shift. The source code is available at https://github.com/zqluo-buaa/CVG-SR .",
-  "citation_count": 0,
-  "concepts": [
-   "Residual",
-   "Computer science",
-   "Satellite"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7222270449",
-  "title": "Passive microwave sea ice concentration biases in the Southern Hemisphere revealed by ICESat-2 linear ice fraction",
-  "authors": [
-   "Christopher Horvat",
-   "Aikaterini Tavri",
-   "Kimia Mohammadnezhad"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-15",
-  "doi": "10.1016/j.rse.2026.115723",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115723",
-  "abstract": "Gridded sea ice concentration (SIC) data are fundamental for understanding long-term polar climate. Since 1978, daily SIC data have been derived from passive microwave (PM) satellite observations. As SIC is not directly observed, it is obtained through an algorithmic inversion of PM brightness temperatures. Differences between PM-SIC algorithms lead to uncertainty in SIC data. Here we examine differences between several PM-SIC products and focus primarily on two: the National Snow and Ice Data Center (NSIDC) Climate Data Record (CDR), which over our study period is derived from Special Sensor Microwave Imager/Sounder (SSMIS) data, and over the Southern Ocean is largely based on the Bootstrap (BT) PM-SIC algorithm, and the Advanced Microwave Scanning Radiometer 2 (AMSR2)-based NASATeam2 (NT2) product. On individual days, changes in integrated Antarctic sea ice area (SIA) can reach as high as 1.6 million km 2 in summer with relative differences up to 37% at the annual sea ice minimum. Using more than 1.8 million coincident observations of the ICESat-2 Linear Ice Fraction (LIF) from 2018 to 2024, we find BT-based PM-SIC data underestimate Antarctic SIC by a median of 0.2 in areas classified as the marginal ice zone (MIZ), corresponding to a median relative difference in SIC of 31%. This offset is seasonally, spatially, and parametrically consistent and yields differences in apparent MIZ extent as high as 4.4 million km 2 . The offset exceeds reported CDR uncertainties that average 0.07 and cannot be explained as a consequence of sensor differences. The parametric simplicity of the observed bias means these offsets can be parameterized as a function of BT SIC alone, which could lead to an improved SIC dataset for Antarctic studies.",
-  "citation_count": 0,
-  "concepts": [
-   "Sea ice",
-   "Southern Hemisphere",
-   "Remote sensing"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
   ],
   "is_own": false
  }
