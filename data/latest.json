@@ -1,114 +1,130 @@
 [
  {
-  "id": "openalex:W4414856726",
-  "title": "LLM-Powered Query Expansion for Enhancing Boundary Prediction in Language-Driven Action Localization",
+  "id": "openalex:W7222939766",
+  "title": "Development and validation of a red-edge-based index for improving satellite detection of algal blooms in inland waters",
   "authors": [
-   "Zirui Shang",
-   "Xinxiao Wu",
-   "Shuo Yang"
+   "Jianzhong Li",
+   "Yunmei Li",
+   "Yanhong Yu",
+   "Heng Lyu",
+   "Zhubin Zheng",
+   "Xiaolan Cai",
+   "Xianzhang Dong",
+   "Junda Li",
+   "Gaolun Wang",
+   "Xiaohan Wang",
+   "Chao Huang",
+   "Yiming Yang"
   ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-18",
-  "doi": "10.1007/s11263-026-03083-9",
+  "date": "2026-10-20",
+  "doi": "10.1016/j.jag.2026.105643",
   "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03083-9",
+  "url": "https://doi.org/10.1016/j.jag.2026.105643",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Boundary (topology)",
-   "Computer science",
-   "Action (physics)"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7157285616",
-  "title": "GoClick: Lightweight Element Grounding Model for Autonomous GUI Interaction",
-  "authors": [
-   "Hongxin Li",
-   "Yuntao Chen",
-   "Zhaoxiang Zhang"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-18",
-  "doi": "10.1007/s11263-026-03031-7",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03031-7",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Pipeline (software)",
-   "Task (project management)",
-   "Ground"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7222872640",
-  "title": "Benchmarking Large Language Models for Video Quality Assessment: Structured Perceptual Prompting and Refinement",
-  "authors": [
-   "Runze Hu",
-   "Mingxuan Li",
-   "Yutao Liu",
-   "Haoran Duan",
-   "Yan Zhang"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-18",
-  "doi": "10.1007/s11263-026-03068-8",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03068-8",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Benchmarking",
-   "Benchmark (surveying)"
+   "Environmental science",
+   "Algal bloom",
+   "Index (typography)"
   ],
   "source": "openalex",
   "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7222941146",
+  "title": "A CNN-based mapping approach for aeolian dunes in Arctic Sweden",
+  "authors": [
+   "Ting Liu",
+   "Melanie A. Stammler",
+   "Yangwei Jiang",
+   "Daniel D. Hölbling",
+   "Thomas Stevens",
+   "Linshu Hu"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-19",
+  "doi": "10.1016/j.rse.2026.115742",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115742",
+  "abstract": "Aeolian dunes provide valuable evidence of past wind regimes and environmental change but mapping them reliably over large areas remains challenging. Manual delineation of dune boundaries is time-consuming and difficult to apply consistently. Automated approaches also struggle where vegetation partly obscures dune morphology and where sand-rich fluvial surfaces, such as riverbanks and terraces, exhibit spectral responses similar to those of stabilized dunes. In this study, dune mapping is treated as a pixel-wise binary segmentation task that separates dune-covered areas, including adjoining or overlapping dunes, from the surrounding background. We present ArcticSandNet, a multimodal segmentation network based on the U-Net architecture. Optical imagery and terrain variables derived from a digital elevation model (DEM), including elevation, slope, and curvature, are processed by two separate encoders. Their features are combined at each encoder level through feature concatenation. In the decoder, an attention-based module fuses encoder skips features with upsampled decoder features, helping the network retain dune-related spatial information while suppressing responses from heterogeneous background surfaces. The model was trained and evaluated across 15 sites in northern Sweden using spatial five-fold cross-validation. A further site was excluded from all model training, validation, and selection procedures and retained solely for independent testing. In cross-validation, ArcticSandNet achieved a two-class mean intersection over union (mIoU) of 78.15% ± 5.34% and a two-class mean F1 score (mF1) of 85.97% ± 4.78%. For the dune class, it achieved an F1 score of 72.61% ± 8.46% and an IoU of 57.63% ± 9.59%, outperforming U-Net, SegNet, and Attention U-Net trained under the same settings. On the independent test site, ArcticSandNet achieved a dune-class recall of 60.52%, an F1 score of 67.16%, and an IoU of 50.55%, also outperforming the three benchmark networks in dune-class F1 and IoU. The resulting maps of dune-covered areas provide a consistent spatial basis for regional analyses of dune-field characteristics, morphology, and landscape stability.",
+  "citation_count": 0,
+  "concepts": [
+   "Digital elevation model",
+   "Remote sensing",
+   "Aeolian processes"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
    "多模态"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7222803739",
-  "title": "Diagnosing drought–flood vulnerability of rice systems across growth stages using Sentinel-1/2 and CHIRPS time series",
+  "id": "openalex:W7222965794",
+  "title": "Enhancing large-scale chlorophyll-a estimation across U.S. Lakes through spectral and spatio-temporal feature integration: a machine learning approach using AquaMatch",
   "authors": [
-   "Shanchuan Guo",
-   "Bo Yuan",
-   "Sung‐Ching Lee",
-   "Pengfei Tang",
-   "Hongjun Su",
-   "Peijun Du"
+   "Emmanuel Atuobi Agyekum",
+   "Lin Li"
   ],
   "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
   "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-17",
-  "doi": "10.1016/j.isprsjprs.2026.10.010",
+  "date": "2026-10-19",
+  "doi": "10.1016/j.isprsjprs.2026.10.013",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.010",
-  "abstract": "Compound and rapidly alternating drought and flood events pose a major challenge to rice production because crop impacts depend strongly on when hydroclimatic stress occurs and how crop condition evolves afterwards. Here, rice vulnerability is characterized by stage-specific exposure, sensitivity, and recovery. We developed a Stage-resolved Drought–flood Rice Vulnerability (SDRV) framework to diagnose vulnerability formation in stable single-season rice across the middle and lower reaches of the Yangtze River (MLYR), China, during 2020–2025. SDRV integrates CHIRPS precipitation and Sentinel-1/2 time-series within four regionally harmonized growth-stage windows: establishment to early tillering (S1), tillering to jointing (S2), booting/heading to grain filling (S3), and grain filling to maturity (S4). Stage-specific percentile mapping places the underlying hydroclimatic and canopy observations in a common 0–1 diagnostic space, after which the three components are integrated into stage-wise and annual vulnerability. Results show that annual vulnerability ranked as 2022 > 2025 > 2023 > 2020 > 2021 > 2024. Within the study period, drought-dominant and drought-involved pathways were associated with greater annual vulnerability than the flood-dominant pathway represented by 2020. Vulnerability amplification was concentrated mainly in S2–S3. In 2022, persistent drought-dominant stress intensified vulnerability toward S3, producing the highest annual mean vulnerability (0.599) and the largest high-vulnerability fraction (50.4%). In 2025, alternating drought and flood conditions generated a different pathway, with vulnerability concentrated in S2 and partially reduced in S3. Spatially, high vulnerability repeatedly formed a northern and central MLYR corridor, especially across Anhui, Jiangsu and adjoining parts of the middle Yangtze region. Province-level comparison with a yield-loss proxy further showed a positive external-consistency relationship for annual vulnerability after accounting for year effects. These results demonstrate that rice vulnerability under drought–flood stress develops through stage-dependent interactions among hydroclimatic forcing, canopy response, and subsequent recovery. SDRV therefore provides a process-oriented approach for identifying when and where vulnerability intensifies within the growing season.",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.013",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Vulnerability (computing)",
-   "Flood myth",
-   "Vulnerability assessment"
+   "Artificial intelligence",
+   "Feature (linguistics)",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7222972470",
+  "title": "A Metro-InSAR Risk Index for corridor-scale displacement risk diagnosis of urban rail infrastructure",
+  "authors": [
+   "Hao Wu",
+   "Mengshi Yang",
+   "Weibin Huang",
+   "Hang Yu",
+   "Zhifang Zhao",
+   "Jisheng Xia",
+   "Ramon F. Hanssen"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-19",
+  "doi": "10.1016/j.jag.2026.105639",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105639",
+  "abstract": "Time-series Interferometric Synthetic Aperture Radar (InSAR) provides dense displacement observations along urban rail corridors, yet converting point-based measurements into corridor-scale diagnostic information remains challenging. This study proposes the Metro-InSAR Risk Index (MIRI), a diagnostic index designed to convert multi-dimensional InSAR-derived displacement characteristics into displacement-related diagnostic levels for urban metro corridors. MIRI integrates displacement rate, cumulative displacement, local displacement heterogeneity, height-related variability, and temporal residual variability, thereby extending conventional velocity-based interpretation toward corridor-scale displacement-risk diagnosis. The framework was applied to the Kunming Metro Network using 198 descending Sentinel-1 images acquired from March 2018 to December 2024. The time-series InSAR results show that the network was generally stable, with line-of-sight (LOS) displacement rates mainly ranging from −6 to 3 mm/yr and 97.21% of coherent scatterers falling within the stable interval of −3 to 3 mm/yr. Localized displacement anomalies were mainly observed near line intersections, curved sections, construction-affected areas, and the Dianchi Lake shoreline. Based on MIRI, 78%, 17%, 4%, and 1% of valid points were classified as Levels D, C, B, and A, respectively, indicating a distribution dominated by lower diagnostic levels, with spatially confined Level-B and Level-A anomalies particularly along Lines 4 and 5 and in lakeside soft-ground areas. Multi-source contextual variables and XGBoost-SHAP analysis were further used to interpret the environmental, anthropogenic, operational, and displacement-gradient information associated with the MIRI-based diagnostic patterns. The results indicate that the spatial variation in MIRI is mainly associated with terrain-related conditions, corridor-scale displacement variation, metro operation, and urban development intensity. By deriving diagnostic levels directly from PSI-based displacement indicators, MIRI provides an InSAR-based screening tool for prioritizing displacement-related anomalies and supporting maintenance of urban rail transit systems.",
+  "citation_count": 0,
+  "concepts": [
+   "Displacement (psychology)",
+   "Interferometric synthetic aperture radar",
+   "Residual"
   ],
   "source": "openalex",
   "topics": [
@@ -118,133 +134,129 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7222792090",
-  "title": "Prior-Informed Spatially Adaptive Network (PISA-Net) for multi-parameter water quality retrieval in Poyang Lake using Sentinel-2 imagery",
+  "id": "openalex:W7222945370",
+  "title": "Removal notice to “Optimized gated spatiotemporal graph attention network based diagnosis of facial expression through video games” [Pattern Recognition 175 (2026) 112991]",
   "authors": [
-   "Lin Wu",
-   "Yihang Duan",
-   "Yu Zhang",
-   "Yabo Huang",
-   "Duojia Yang",
-   "Wenfu Wu",
-   "Ning Li"
+   "Dr. Purushottama Rao K",
+   "S Uma",
+   "Vijayaraj N",
+   "Jagannathan J",
+   "Sathya T",
+   "G. Tamilmani"
   ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-17",
-  "doi": "10.1016/j.jag.2026.105641",
+  "date": "2026-10-19",
+  "doi": "10.1016/j.patcog.2026.114903",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105641",
-  "abstract": "Accurate retrieval of water-quality parameters from remote-sensing imagery is essential for monitoring large inland lakes, yet pronounced spatial heterogeneity and limited transferability across varying environmental conditions remain major challenges. This study proposes a Prior-Informed Spatially Adaptive Network (PISA-Net) for multi-parameter water-quality retrieval from Sentinel-2 imagery in Poyang Lake. PISA-Net integrates a CNN branch for nonlinear spectral–spatial feature learning with a knowledge-guided branch based on empirical optical descriptors and coordinate-derived geographic priors. A geographic soft-assignment mechanism constructs the spatial prior vector, which conditions CNN features through Feature-wise Linear Modulation (FiLM), while a stop gradient consistency loss (SG-CL) promotes agreement between the two prediction pathways with controlled gradient propagation. Chl-a, TP, and CODMn were modeled independently and evaluated using 5-fold spatial-block cross-validation against six representative empirical, statistical, machine-learning, and deep-learning baselines. PISA-Net achieved R 2 values of 0.6113, 0.5112, and 0.5054 for Chl-a, TP, and CODMn, respectively, consistently outperforming the strongest baseline, 2D-CNN, while reducing RMSE by approximately 29.6%, 21.4%, and 19.0%. An additional April 2018 cross-season experiment revealed substantial degradation under direct zero-shot transfer, whereas few-shot adaptation markedly reduced prediction errors, indicating useful cross-season adaptability after limited local calibration. Overall, PISA-Net provides a prior-informed spectral–spatial framework for water-quality retrieval under spatially heterogeneous conditions, while broader multi-season validation remains necessary to establish comprehensive seasonal generalizability.",
-  "citation_count": 0,
-  "concepts": [
-   "Adaptability",
-   "Consistency (knowledge bases)",
-   "Remote sensing"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7222809819",
-  "title": "Developing broadband spectral index for estimating crop canopy water content",
-  "authors": [
-   "Xianda Huang",
-   "Yelu Zeng",
-   "Xuecao Li",
-   "Jianxi Huang",
-   "Wei Su"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-17",
-  "doi": "10.1016/j.jag.2026.105637",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105637",
+  "url": "https://doi.org/10.1016/j.patcog.2026.114903",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Canopy",
-   "Index (typography)",
-   "Broadband"
+   "Notice",
+   "Computer science",
+   "Artificial intelligence"
   ],
   "source": "openalex",
-  "topics": [],
+  "topics": [
+   "计算机视觉"
+  ],
   "is_own": false
  },
  {
-  "id": "openalex:W7222828562",
-  "title": "Transforming Leaf-Off LiDAR to leaf-on canopy height models using deep learning",
+  "id": "arxiv:2610.26431v1",
+  "title": "Long-form Video-to-Text Summarization using Recursive Language Models",
   "authors": [
-   "Yeonjae Kim",
-   "Hunsoo Song",
-   "Songlin Fei",
-   "Jinha Jung"
+   "Alessia Intini",
+   "Lorenzo Vaiani",
+   "Enrico Chen",
+   "Luca Cagliero"
   ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-17",
-  "doi": "10.1080/15481603.2026.2740327",
-  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/15481603.2026.2740327?needAccess=true",
-  "url": "https://doi.org/10.1080/15481603.2026.2740327",
-  "abstract": "Accurate tree canopy metrics are essential for a wide range of ecological, environmental, and climate studies. Recent advances in airborne LiDAR sensing have greatly expanded access to high-resolution three-dimensional observations of tree canopy structure. However, many widely available airborne LiDAR datasets are acquired under leaf-off conditions to support terrain mapping, and our analysis across ecologically diverse sites shows that canopy height models (CHMs) derived from these data exhibit substantial, recurring discrepancies in canopy height and extent, with an overall tendency to underrepresent canopy structure relative to leaf-on conditions. These discrepancies limit the direct use of leaf-off CHMs in applications requiring canopy information representative of leaf-on conditions. To address this limitation, we introduce a deep learning framework for reconstructing leaf-on CHMs from existing leaf-off LiDAR-derived CHMs. To our knowledge, this is the first study to formulate the direct reconstruction of leaf-on CHMs from existing leaf-off LiDAR-derived CHMs as a supervised image-to-image learning task. The framework provides two complementary models: a Pix2Pix model that uses the leaf-off CHM alone and a U-Net model that additionally incorporates multispectral imagery. Our proposed models achieve robust canopy-height accuracy across four spatially independent test sites (R²: 0.85–0.92; Mean Absolute Error: 1.3–1.6 metres), substantially reducing the discrepancies observed in the leaf-off source CHMs. They also provide sharper delineation of canopy details and higher accuracy than recent optical-imagery-based approaches. To facilitate broader use, we developed an open-access web application that deploys the pre-trained models and supports on-demand leaf-on CHM generation for user-selected areas across the U.S. where suitable leaf-off LiDAR inputs are available. Overall, the framework provides a practical means to bridge the seasonal data gap in LiDAR acquisition and improve access to reliable canopy metrics representative of leaf-on conditions.",
+  "date": "2026-10-19",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.26431v1",
+  "url": "https://arxiv.org/abs/2610.26431v1",
+  "abstract": "While VideoLLMs have made significant progress in understanding short video benchmarks, they often struggle to summarize long-form ones. This is mainly due to performance degradation caused by long-context prompts, the inherent difficulty of preserving temporal continuity and a lack of semantically rich concepts in event descriptions. To tackle these issues, this paper introduces the first recursive Video Language Summarization Model (RVLSM) designed for video processing and tailored to long-form video-to-text summarization. RVLSM recursively decomposes videos into semantically coherent segments and delegates chunk-level reasoning to VideoLLM sub-models and external tools. It employs (1) Semantic Temporal Decomposition (STD), which preserves temporal coherence and continuity through a scene-aware chunking strategy that dynamically partitions videos according to semantic boundaries, and (2) Adaptive Multimodal Tool Calling (AMTC), which ensures semantic richness of the summary via a routing mechanism that selectively invokes auxiliary modules such as action recognition, optical character recognition, automatic speech recognition, and object detection. Experiments on the VideoXum and MixTyVSum benchmarks show that RVLSM consistently improves over zero-shot VideoLLM baselines across multiple model settings and performance metrics, and is competitive with a state-of-the-art fine-tuned model for video-to-text summarization. Importantly, the named entities in the RVLSM's summaries align more closely with those detected in the ground-truth summaries than those detected by baseline and state-of-the-art methods, confirming the saliency of the event descriptions it generates.",
   "citation_count": 0,
   "concepts": [
-   "Lidar",
-   "Canopy",
-   "Remote sensing"
+   "cs.CV"
   ],
-  "source": "openalex",
+  "arxiv_id": "2610.26431v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.26352v1",
+  "title": "Quantifying Uncertainty Bounds in Spectral Shallow Water Bathymetry: The Profile Likelihood Framework for Semi-Analytical Models",
+  "authors": [
+   "Mohamed Ali Ghannami",
+   "Guillaume Sicot",
+   "Isabelle Quidu",
+   "Sylvie Daniel"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-19",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.26352v1",
+  "url": "https://arxiv.org/abs/2610.26352v1",
+  "abstract": "Accurate bathymetric mapping in shallow waters is critical for coastal monitoring, navigation safety, and environmental conservation. While semi-analytical (SA) models have proven effective for estimating water column depth (WCD) from optical remote sensing data, quantifying the associated uncertainties remains a significant challenge. This study introduces a unified framework based on profile likelihood to evaluate WCD uncertainties in Semi-Analytical (SA) models, bridging traditional variance-covariance methods with likelihood-based inference. Through controlled simulations, we systematically assess the performance of first-order statistical tests-likelihood ratio, Wald (observed and expected), and score tests-across varying environmental conditions and sensor configurations.<p>Our results demonstrate that the expected Fisher information Wald test, equivalent to classical variance-covariance propagation, provides reliable uncertainty bounds in hyperspectral settings with clear waters. However, its performance deteriorates in multispectral applications and complex water conditions, where likelihood ratio tests prove more robust. This divergence highlights fundamental limitations in the small-sample regime typical of per-pixel spectral bathymetry. Notably, even under idealized conditions with true parameter initialization, local optimization challenges in SA models can compromise both parameter estimation and uncertainty quantification, suggesting even greater challenges in practical applications with less favorable initialization. The findings underscore the importance of robust statistical inference in improving the reliability of bathymetric products for operational applications.</p>",
+  "citation_count": 0,
+  "concepts": [
+   "stat.AP"
+  ],
+  "arxiv_id": "2610.26352v1",
+  "source": "arxiv",
   "topics": [
    "遥感",
-   "计算机视觉",
-   "机器学习"
+   "机器学习",
+   "三维与几何"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7222807288",
-  "title": "Efficient Time-Fractional Diffusion Network for Under-Display ToF Imaging and Beyond",
+  "id": "arxiv:2610.26170v1",
+  "title": "Data-Efficient Learning from Demonstration for Humanoid Robots via Feature-Level Perception and Prompt-Based Object Detection",
   "authors": [
-   "Xin Qiao",
-   "Xing Wei",
-   "Matteo Poggi",
-   "Da-Yan Liu",
-   "He Kong",
-   "Chenyang Ge",
-   "Stefano Mattoccia",
-   "Nanning Zheng"
+   "Keyhan Rayati",
+   "AliReza Beigy",
+   "Anoosheh Saadati",
+   "Pourya Shahverdi",
+   "Mehdi Tale Masouleh",
+   "Ahmad Kalhor",
+   "Wing-Yue Geoffrey Louie"
   ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-17",
-  "doi": "10.1007/s11263-026-03074-w",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03074-w",
-  "abstract": null,
+  "date": "2026-10-19",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.26170v1",
+  "url": "https://arxiv.org/abs/2610.26170v1",
+  "abstract": "Learning from Demonstration (LfD) allows robots to learn new skills from human examples; however, many vision-based methods require large datasets and resource-intensive end-to-end training. This paper introduces a data-efficient LfD framework for humanoid robots that learns manipulation skills from compact, task-specific features instead of raw images. The proposed approach integrates layered visual preprocessing, Kinect-based human joint estimation, prompt-based object detection, and depth information to extract human motion features and three-dimensional object locations from demonstration videos. These features are used to train a temporal deep learning model that predicts robot joint-angle trajectories for execution. The framework is implemented on a NAO humanoid robot, evaluated quantitatively in simulation, and demonstrated on physical hardware. In simulation, the robot achieves a 78% success rate on a pick-and-place task using only 16 demonstrations, which increases to 86% when trained with 100 demonstrations. The framework also achieves a 71% success rate on a pushing task using eight demonstrations, highlighting its effectiveness for data-efficient humanoid skill acquisition.",
   "citation_count": 0,
   "concepts": [
-   "Artificial intelligence",
-   "Pattern recognition (psychology)",
-   "Computer science"
+   "cs.RO"
   ],
-  "source": "openalex",
+  "arxiv_id": "2610.26170v1",
+  "source": "arxiv",
   "topics": [
    "计算机视觉",
-   "机器学习"
+   "机器学习",
+   "三维与几何"
   ],
   "is_own": false
  }
