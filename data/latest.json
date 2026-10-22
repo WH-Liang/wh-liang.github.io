@@ -1,5 +1,35 @@
 [
  {
+  "id": "openalex:W7223016335",
+  "title": "Dust aerosol properties and radiative effects over the global oceans from synergistic spaceborne observations and modeling",
+  "authors": [
+   "Dongchen Li",
+   "Ping Yang",
+   "Yuan Wang",
+   "Sonia M. Kreidenweis"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-20",
+  "doi": "10.1016/j.rse.2026.115745",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115745",
+  "abstract": "The microphysical and radiative properties of mineral dust aerosols, a major species of atmospheric aerosols, are fundamental to quantifying broad dust aerosol impacts. At present, substantial uncertainties remain in estimating dust microphysical properties and radiative effects on a global scale, stemming from source-dependent mineralogical variability that leads to substantial varaiations in dust optical and microphysical properties, as well as inconsistencies in the physical assumptions adopted in spaceborne retrievals and radiative transfer simulations. This study develops a physically consistent approach for retrieving dust aerosol properties over the global oceans and to quantify the associated radiative effects through the synergistic use of collocated observations made by the Cloud-Aerosol Lidar with Orthogonal Polarization (CALIOP) and the Infrared Imaging Radiometer (IIR) aboard the Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observations (CALIPSO) platform. The new retrieval algorithm uses the TAMUdust2020 dust single-scattering property database, which represents dust in terms of an ensemble of randomly distorted hexahedral particles, and incorporates a region- and mineralogy-dependent refractive index dataset, and avoids an empirical lidar-ratio assumption. The retrieved dust properties are incorporated into a dust optical property parameterization for the Rapid Radiative Transfer Model for Global Climate Models (RRTMG), ensuring that a consistent representation of dust optical and microphysical properties is used for both the retrieval implementation and downstream radiative transfer calculations. To quantify the influence of regional mineralogical variability and longwave scattering on the simulated radiative effects, this study also presents the global and seasonal distributions of dust aerosol optical thickness, effective particle radius, vertical structure, and associated radiative effects over the global oceans. The present findings show that dust exerts shortwave (SW) cooling and longwave (LW) warming over the global oceans, with area-weighted annual mean SW/LW effects of −1.358/+0.329 W m −2 at the surface and − 0.796/+0.029 W m −2 at the top of the atmosphere, respectively.",
+  "citation_count": 0,
+  "concepts": [
+   "Radiative transfer",
+   "Environmental science",
+   "Aerosol"
+  ],
+  "source": "openalex",
+  "topics": [
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7222939766",
   "title": "Development and validation of a red-edge-based index for improving satellite detection of algal blooms in inland waters",
   "authors": [
@@ -24,7 +54,7 @@
   "doi": "10.1016/j.jag.2026.105643",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.jag.2026.105643",
-  "abstract": null,
+  "abstract": "The increasing frequency of freshwater algal blooms threatens aquatic ecosystems globally. While remote sensing algorithms are widely used for bloom detection, conventional methods frequently exhibit degraded performance under optically complex conditions (e.g., sunglint, thin clouds, and high turbidity) and lack sensitivity to sparse blooms. To address these limitations, this study introduces the Red-Edge Floating Algae Index (RFAI). Structured as a baseline-height model, the RFAI mathematically isolates the scattering-induced spectral curvature of algal blooms using three critical Sentinel-2 Multispectral Instrument (MSI) bands: the green reflectance peak (∼560 nm), the red absorption trough (∼665 nm), and the red-edge reflectance peak (∼704 nm). This formulation effectively decouples genuine target signals from confounding background noise. Comparative validation against 17 widely used indices across a diverse set of inland lakes demonstrated the statistically significant overall effectiveness of the RFAI ( p < 0.0001), yielding precision and F1-score improvements of up to 42.8 % and 26.6 %, respectively, under locally optimized parameterizations. Crucially, the RFAI demonstrates robust comprehensive stability across highly variable, optically challenging conditions, effectively mitigating the severe performance fluctuations often observed in individual conventional indices. Supported by a novel optical-type-stratified thresholding strategy, the RFAI establishes a scalable and versatile framework for operational bloom monitoring using compatible red-edge satellite systems, enabling the generation of reliable observational records essential for the sustainable management of aquatic ecosystems.",
   "citation_count": 0,
   "concepts": [
    "Environmental science",
@@ -33,230 +63,195 @@
   ],
   "source": "openalex",
   "topics": [
+   "遥感",
    "计算机视觉"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7222941146",
-  "title": "A CNN-based mapping approach for aeolian dunes in Arctic Sweden",
+  "id": "openalex:W7162667296",
+  "title": "Reconstructing multi-temporal Glacier area changes to improve mass balance estimates in the Southeastern Tibetan Plateau (2000–2025)",
   "authors": [
-   "Ting Liu",
-   "Melanie A. Stammler",
-   "Yangwei Jiang",
-   "Daniel D. Hölbling",
-   "Thomas Stevens",
-   "Linshu Hu"
+   "Zihao Li",
+   "Huan Xu",
+   "Wei Yang",
+   "Wenke Sun",
+   "Qiuyu Wang"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-19",
-  "doi": "10.1016/j.rse.2026.115742",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115742",
-  "abstract": "Aeolian dunes provide valuable evidence of past wind regimes and environmental change but mapping them reliably over large areas remains challenging. Manual delineation of dune boundaries is time-consuming and difficult to apply consistently. Automated approaches also struggle where vegetation partly obscures dune morphology and where sand-rich fluvial surfaces, such as riverbanks and terraces, exhibit spectral responses similar to those of stabilized dunes. In this study, dune mapping is treated as a pixel-wise binary segmentation task that separates dune-covered areas, including adjoining or overlapping dunes, from the surrounding background. We present ArcticSandNet, a multimodal segmentation network based on the U-Net architecture. Optical imagery and terrain variables derived from a digital elevation model (DEM), including elevation, slope, and curvature, are processed by two separate encoders. Their features are combined at each encoder level through feature concatenation. In the decoder, an attention-based module fuses encoder skips features with upsampled decoder features, helping the network retain dune-related spatial information while suppressing responses from heterogeneous background surfaces. The model was trained and evaluated across 15 sites in northern Sweden using spatial five-fold cross-validation. A further site was excluded from all model training, validation, and selection procedures and retained solely for independent testing. In cross-validation, ArcticSandNet achieved a two-class mean intersection over union (mIoU) of 78.15% ± 5.34% and a two-class mean F1 score (mF1) of 85.97% ± 4.78%. For the dune class, it achieved an F1 score of 72.61% ± 8.46% and an IoU of 57.63% ± 9.59%, outperforming U-Net, SegNet, and Attention U-Net trained under the same settings. On the independent test site, ArcticSandNet achieved a dune-class recall of 60.52%, an F1 score of 67.16%, and an IoU of 50.55%, also outperforming the three benchmark networks in dune-class F1 and IoU. The resulting maps of dune-covered areas provide a consistent spatial basis for regional analyses of dune-field characteristics, morphology, and landscape stability.",
+  "date": "2026-10-20",
+  "doi": "10.1080/15481603.2026.2747433",
+  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/15481603.2026.2747433?needAccess=true",
+  "url": "https://doi.org/10.1080/15481603.2026.2747433",
+  "abstract": "The southeastern Tibetan Plateau (SETP), a critical component of the “Asian Water Tower”, hosts a large concentration of maritime temperate glaciers that are highly sensitive to climate change. However, persistent cloud cover, seasonal snow, and supraglacial debris complicate consistent long-term glacier mapping, while the use of static glacier boundaries may introduce temporal mismatches in altimetry-based glacier mass-change estimates. In this study, we developed a multi-source data-fusion framework on Google Earth Engine (GEE) to reconstruct glacier-area changes in the SETP from 2000 to 2025 at five-year intervals and 30 m spatial resolution. Random Forest classifiers were used to integrate Landsat and Sentinel-2 optical imagery, Sentinel-1 synthetic-aperture-radar data, and NASADEM-derived topographic information, supporting glacier delineation under complex surface and atmospheric conditions. The reconstructed glacier area decreased from 8,083 ± 664 km2 in 2000 to 6,228 ± 572 km2 in 2025, corresponding to a cumulative loss of 22.9 ± 3.6% and a mean loss rate of 80.51 ± 10.51 km2 yr−1. The mean area-loss rates were 51.31 ± 6.51 km2 yr−1 during 2000–2010 and 92.99 ± 15.55 km2 yr−1 during 2010–2025, indicating a higher average loss rate in the later period. By combining satellite-altimetry-derived elevation changes from ICESat, CryoSat-2, and ICESat-2 with the reconstructed time-varying glacier areas, we estimated a mean glacier mass-change rate of −6.51 ± 1.22 Gt yr−1 during 2003–2022. Compared with using a fixed 2003 glacier area, the time-varying-area calculation reduced the estimated mass-loss magnitude by 0.63 Gt yr−1, equivalent to 8.8% of the fixed-area estimate. These results indicate that incorporating time-varying glacier areas can reduce temporal mismatch in altimetry-based mass-change estimation and improve the temporal consistency of regional glacier mass-change assessments.",
   "citation_count": 0,
   "concepts": [
-   "Digital elevation model",
-   "Remote sensing",
-   "Aeolian processes"
+   "Geology",
+   "Plateau (mathematics)",
+   "Glacier mass balance"
   ],
   "source": "openalex",
   "topics": [
    "遥感",
-   "计算机视觉",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7131431487",
+  "title": "Test-Time Computing for Referring Multimodal Large Language Models",
+  "authors": [
+   "Mingrui Wu",
+   "Hao Chen",
+   "Jiayi Ji",
+   "Xiaoshuai Sun",
+   "Zhiyuan Liu",
+   "Liujuan Cao",
+   "Ming-Ming Cheng",
+   "Rongrong Ji"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-20",
+  "doi": "10.1007/s11263-026-03100-x",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03100-x",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Artificial intelligence",
+   "Visual reasoning"
+  ],
+  "source": "openalex",
+  "topics": [
    "多模态"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7222965794",
-  "title": "Enhancing large-scale chlorophyll-a estimation across U.S. Lakes through spectral and spatio-temporal feature integration: a machine learning approach using AquaMatch",
+  "id": "openalex:W7223034958",
+  "title": "Event-Guided Decomposition from a Long-Exposure Nighttime Snapshot into Video Sequence",
   "authors": [
-   "Emmanuel Atuobi Agyekum",
-   "Lin Li"
+   "Jianbo Cao",
+   "Yuqi Han",
+   "Siming Zheng",
+   "徐桂林 Xu Guilin",
+   "Qiang Zhang",
+   "Jinli Suo"
   ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-19",
-  "doi": "10.1016/j.isprsjprs.2026.10.013",
+  "date": "2026-10-20",
+  "doi": "10.1007/s11263-026-03057-x",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.013",
+  "url": "https://doi.org/10.1007/s11263-026-03057-x",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
+   "Computer science",
    "Artificial intelligence",
-   "Feature (linguistics)",
+   "Snapshot (computer storage)"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7223058405",
+  "title": "Multi-View Optimal Transport for Multi-View Crowd Localization and Tracking",
+  "authors": [
+   "Kaiyi Zhang",
+   "Qi Zhang",
+   "Jixuan Chen",
+   "Antoni B. Chan",
+   "Hui Huang"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-20",
+  "doi": "10.1007/s11263-026-03093-7",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03093-7",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Mahalanobis distance",
+   "Artificial intelligence",
    "Computer science"
   ],
   "source": "openalex",
   "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.28490v1",
+  "title": "Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection",
+  "authors": [
+   "Changrui Zhu",
+   "Simon Julier"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-20",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.28490v1",
+  "url": "https://arxiv.org/abs/2610.28490v1",
+  "abstract": "Online scene change detection requires integrating incoming observations to determine which regions have changed relative to a reference scene. We update change beliefs as new images arrive using generalised Bayesian evidence fusion. However, the prior probability of change and evidence models are unknown beforehand, and numerical Bayesian inference can be costly. We address these challenges by learning offline from automatic edits to a reference 3D Gaussian Splatting (3DGS) model. These edits generate labelled training views without manual annotations. Together with unchanged reference observations, they provide supervision for learning scene-specific evidence models and estimating the effective pixel prior and response statistics. Online prediction combines current evidence with historical support, while closed-form local Bayes factors, parameterized by the learned response statistics, update an accumulated 3D Gaussian field. Object-guided refinement produces the final change masks. Our method achieves state-of-the-art accuracy on PASLCD and CCS3D, with $67.64\\%$ and $75.82\\%$ mIoU, respectively. On PASLCD, the complete pipeline runs at $17.2$\\,FPS over complete query sequences, the fastest among the evaluated online methods.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV",
+   "cs.GR"
+  ],
+  "arxiv_id": "2610.28490v1",
+  "source": "arxiv",
+  "topics": [
+   "遥感",
+   "计算机视觉",
    "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7222972470",
-  "title": "A Metro-InSAR Risk Index for corridor-scale displacement risk diagnosis of urban rail infrastructure",
+  "id": "arxiv:2610.27960v1",
+  "title": "Efficient SAM3 Adaptation for Multi-Class Semantic Segmentation via Dense Competitive Representations",
   "authors": [
-   "Hao Wu",
-   "Mengshi Yang",
-   "Weibin Huang",
-   "Hang Yu",
-   "Zhifang Zhao",
-   "Jisheng Xia",
-   "Ramon F. Hanssen"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-19",
-  "doi": "10.1016/j.jag.2026.105639",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105639",
-  "abstract": "Time-series Interferometric Synthetic Aperture Radar (InSAR) provides dense displacement observations along urban rail corridors, yet converting point-based measurements into corridor-scale diagnostic information remains challenging. This study proposes the Metro-InSAR Risk Index (MIRI), a diagnostic index designed to convert multi-dimensional InSAR-derived displacement characteristics into displacement-related diagnostic levels for urban metro corridors. MIRI integrates displacement rate, cumulative displacement, local displacement heterogeneity, height-related variability, and temporal residual variability, thereby extending conventional velocity-based interpretation toward corridor-scale displacement-risk diagnosis. The framework was applied to the Kunming Metro Network using 198 descending Sentinel-1 images acquired from March 2018 to December 2024. The time-series InSAR results show that the network was generally stable, with line-of-sight (LOS) displacement rates mainly ranging from −6 to 3 mm/yr and 97.21% of coherent scatterers falling within the stable interval of −3 to 3 mm/yr. Localized displacement anomalies were mainly observed near line intersections, curved sections, construction-affected areas, and the Dianchi Lake shoreline. Based on MIRI, 78%, 17%, 4%, and 1% of valid points were classified as Levels D, C, B, and A, respectively, indicating a distribution dominated by lower diagnostic levels, with spatially confined Level-B and Level-A anomalies particularly along Lines 4 and 5 and in lakeside soft-ground areas. Multi-source contextual variables and XGBoost-SHAP analysis were further used to interpret the environmental, anthropogenic, operational, and displacement-gradient information associated with the MIRI-based diagnostic patterns. The results indicate that the spatial variation in MIRI is mainly associated with terrain-related conditions, corridor-scale displacement variation, metro operation, and urban development intensity. By deriving diagnostic levels directly from PSI-based displacement indicators, MIRI provides an InSAR-based screening tool for prioritizing displacement-related anomalies and supporting maintenance of urban rail transit systems.",
-  "citation_count": 0,
-  "concepts": [
-   "Displacement (psychology)",
-   "Interferometric synthetic aperture radar",
-   "Residual"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7222945370",
-  "title": "Removal notice to “Optimized gated spatiotemporal graph attention network based diagnosis of facial expression through video games” [Pattern Recognition 175 (2026) 112991]",
-  "authors": [
-   "Dr. Purushottama Rao K",
-   "S Uma",
-   "Vijayaraj N",
-   "Jagannathan J",
-   "Sathya T",
-   "G. Tamilmani"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-19",
-  "doi": "10.1016/j.patcog.2026.114903",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.114903",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Notice",
-   "Computer science",
-   "Artificial intelligence"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.26431v1",
-  "title": "Long-form Video-to-Text Summarization using Recursive Language Models",
-  "authors": [
-   "Alessia Intini",
-   "Lorenzo Vaiani",
-   "Enrico Chen",
-   "Luca Cagliero"
+   "Wenbin Liao",
+   "Hao Zhu",
+   "Yike Ma",
+   "Hao Jiang",
+   "Feng Dai"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.26431v1",
-  "url": "https://arxiv.org/abs/2610.26431v1",
-  "abstract": "While VideoLLMs have made significant progress in understanding short video benchmarks, they often struggle to summarize long-form ones. This is mainly due to performance degradation caused by long-context prompts, the inherent difficulty of preserving temporal continuity and a lack of semantically rich concepts in event descriptions. To tackle these issues, this paper introduces the first recursive Video Language Summarization Model (RVLSM) designed for video processing and tailored to long-form video-to-text summarization. RVLSM recursively decomposes videos into semantically coherent segments and delegates chunk-level reasoning to VideoLLM sub-models and external tools. It employs (1) Semantic Temporal Decomposition (STD), which preserves temporal coherence and continuity through a scene-aware chunking strategy that dynamically partitions videos according to semantic boundaries, and (2) Adaptive Multimodal Tool Calling (AMTC), which ensures semantic richness of the summary via a routing mechanism that selectively invokes auxiliary modules such as action recognition, optical character recognition, automatic speech recognition, and object detection. Experiments on the VideoXum and MixTyVSum benchmarks show that RVLSM consistently improves over zero-shot VideoLLM baselines across multiple model settings and performance metrics, and is competitive with a state-of-the-art fine-tuned model for video-to-text summarization. Importantly, the named entities in the RVLSM's summaries align more closely with those detected in the ground-truth summaries than those detected by baseline and state-of-the-art methods, confirming the saliency of the event descriptions it generates.",
+  "pdf": "https://arxiv.org/pdf/2610.27960v1",
+  "url": "https://arxiv.org/abs/2610.27960v1",
+  "abstract": "The Segment Anything Model 3 (SAM3) has achieved significant progress in Promptable Concept Segmentation (PCS) by processing short noun phrases to generate segmentation masks with unique instance identifiers. While SAM3 excels at single-concept segmentation, it falls short in complex, real-world environments where multiple concepts must be segmented simultaneously. In particular, SAM3 typically fails to simultaneously process concepts with semantic overlap, leading to semantic misclassifications and redundant mask predictions. Moreover, as the number of concepts increases, the independent inference paradigm introduces prohibitive inference latency. To address these limitations, we propose the Dense Competitive Representations SAM (DCR-SAM) framework. By decoupling cross-modal interactions, the proposed method alleviates the inference latency. To resolve semantic misclassifications, DCR-SAM dynamically aligns textual concepts with visual representations and incorporates a dense competition head to enforce explicit inter-class competition. Furthermore, a learnable background token is applied to absorb non-target objects dynamically. These mechanisms effectively suppress overlapping predictions and generate high-fidelity masks. Extensive experimental evaluations across multiple benchmarks demonstrate that the proposed framework: (1) achieves a 2.3% $\\sim$ 10.7% performance improvement over state-of-the-art methods, (2) delivers a 33$\\times$ inference speedup compared to the native SAM3, and (3) exhibits strong robustness across diverse scenarios.",
   "citation_count": 0,
   "concepts": [
    "cs.CV"
   ],
-  "arxiv_id": "2610.26431v1",
+  "arxiv_id": "2610.27960v1",
   "source": "arxiv",
   "topics": [
-   "计算机视觉",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.26352v1",
-  "title": "Quantifying Uncertainty Bounds in Spectral Shallow Water Bathymetry: The Profile Likelihood Framework for Semi-Analytical Models",
-  "authors": [
-   "Mohamed Ali Ghannami",
-   "Guillaume Sicot",
-   "Isabelle Quidu",
-   "Sylvie Daniel"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-19",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.26352v1",
-  "url": "https://arxiv.org/abs/2610.26352v1",
-  "abstract": "Accurate bathymetric mapping in shallow waters is critical for coastal monitoring, navigation safety, and environmental conservation. While semi-analytical (SA) models have proven effective for estimating water column depth (WCD) from optical remote sensing data, quantifying the associated uncertainties remains a significant challenge. This study introduces a unified framework based on profile likelihood to evaluate WCD uncertainties in Semi-Analytical (SA) models, bridging traditional variance-covariance methods with likelihood-based inference. Through controlled simulations, we systematically assess the performance of first-order statistical tests-likelihood ratio, Wald (observed and expected), and score tests-across varying environmental conditions and sensor configurations.<p>Our results demonstrate that the expected Fisher information Wald test, equivalent to classical variance-covariance propagation, provides reliable uncertainty bounds in hyperspectral settings with clear waters. However, its performance deteriorates in multispectral applications and complex water conditions, where likelihood ratio tests prove more robust. This divergence highlights fundamental limitations in the small-sample regime typical of per-pixel spectral bathymetry. Notably, even under idealized conditions with true parameter initialization, local optimization challenges in SA models can compromise both parameter estimation and uncertainty quantification, suggesting even greater challenges in practical applications with less favorable initialization. The findings underscore the importance of robust statistical inference in improving the reliability of bathymetric products for operational applications.</p>",
-  "citation_count": 0,
-  "concepts": [
-   "stat.AP"
-  ],
-  "arxiv_id": "2610.26352v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
-   "机器学习",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.26170v1",
-  "title": "Data-Efficient Learning from Demonstration for Humanoid Robots via Feature-Level Perception and Prompt-Based Object Detection",
-  "authors": [
-   "Keyhan Rayati",
-   "AliReza Beigy",
-   "Anoosheh Saadati",
-   "Pourya Shahverdi",
-   "Mehdi Tale Masouleh",
-   "Ahmad Kalhor",
-   "Wing-Yue Geoffrey Louie"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-19",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.26170v1",
-  "url": "https://arxiv.org/abs/2610.26170v1",
-  "abstract": "Learning from Demonstration (LfD) allows robots to learn new skills from human examples; however, many vision-based methods require large datasets and resource-intensive end-to-end training. This paper introduces a data-efficient LfD framework for humanoid robots that learns manipulation skills from compact, task-specific features instead of raw images. The proposed approach integrates layered visual preprocessing, Kinect-based human joint estimation, prompt-based object detection, and depth information to extract human motion features and three-dimensional object locations from demonstration videos. These features are used to train a temporal deep learning model that predicts robot joint-angle trajectories for execution. The framework is implemented on a NAO humanoid robot, evaluated quantitatively in simulation, and demonstrated on physical hardware. In simulation, the robot achieves a 78% success rate on a pick-and-place task using only 16 demonstrations, which increases to 86% when trained with 100 demonstrations. The framework also achieves a 71% success rate on a pushing task using eight demonstrations, highlighting its effectiveness for data-efficient humanoid skill acquisition.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.RO"
-  ],
-  "arxiv_id": "2610.26170v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "三维与几何"
+   "计算机视觉"
   ],
   "is_own": false
  }
