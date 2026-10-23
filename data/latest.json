@@ -1,223 +1,59 @@
 [
  {
-  "id": "openalex:W7223016335",
-  "title": "Dust aerosol properties and radiative effects over the global oceans from synergistic spaceborne observations and modeling",
+  "id": "openalex:W7223185658",
+  "title": "Globe-CraterSAM: a training-free generalizable framework for mapping sub-kilometer martian craters",
   "authors": [
-   "Dongchen Li",
-   "Ping Yang",
-   "Yuan Wang",
-   "Sonia M. Kreidenweis"
+   "Yu-Shiang Lin",
+   "Xie Hu"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-20",
-  "doi": "10.1016/j.rse.2026.115745",
+  "date": "2026-10-22",
+  "doi": "10.1016/j.isprsjprs.2026.10.005",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115745",
-  "abstract": "The microphysical and radiative properties of mineral dust aerosols, a major species of atmospheric aerosols, are fundamental to quantifying broad dust aerosol impacts. At present, substantial uncertainties remain in estimating dust microphysical properties and radiative effects on a global scale, stemming from source-dependent mineralogical variability that leads to substantial varaiations in dust optical and microphysical properties, as well as inconsistencies in the physical assumptions adopted in spaceborne retrievals and radiative transfer simulations. This study develops a physically consistent approach for retrieving dust aerosol properties over the global oceans and to quantify the associated radiative effects through the synergistic use of collocated observations made by the Cloud-Aerosol Lidar with Orthogonal Polarization (CALIOP) and the Infrared Imaging Radiometer (IIR) aboard the Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observations (CALIPSO) platform. The new retrieval algorithm uses the TAMUdust2020 dust single-scattering property database, which represents dust in terms of an ensemble of randomly distorted hexahedral particles, and incorporates a region- and mineralogy-dependent refractive index dataset, and avoids an empirical lidar-ratio assumption. The retrieved dust properties are incorporated into a dust optical property parameterization for the Rapid Radiative Transfer Model for Global Climate Models (RRTMG), ensuring that a consistent representation of dust optical and microphysical properties is used for both the retrieval implementation and downstream radiative transfer calculations. To quantify the influence of regional mineralogical variability and longwave scattering on the simulated radiative effects, this study also presents the global and seasonal distributions of dust aerosol optical thickness, effective particle radius, vertical structure, and associated radiative effects over the global oceans. The present findings show that dust exerts shortwave (SW) cooling and longwave (LW) warming over the global oceans, with area-weighted annual mean SW/LW effects of −1.358/+0.329 W m −2 at the surface and − 0.796/+0.029 W m −2 at the top of the atmosphere, respectively.",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.005",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Radiative transfer",
-   "Environmental science",
-   "Aerosol"
-  ],
-  "source": "openalex",
-  "topics": [
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7222939766",
-  "title": "Development and validation of a red-edge-based index for improving satellite detection of algal blooms in inland waters",
-  "authors": [
-   "Jianzhong Li",
-   "Yunmei Li",
-   "Yanhong Yu",
-   "Heng Lyu",
-   "Zhubin Zheng",
-   "Xiaolan Cai",
-   "Xianzhang Dong",
-   "Junda Li",
-   "Gaolun Wang",
-   "Xiaohan Wang",
-   "Chao Huang",
-   "Yiming Yang"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-20",
-  "doi": "10.1016/j.jag.2026.105643",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105643",
-  "abstract": "The increasing frequency of freshwater algal blooms threatens aquatic ecosystems globally. While remote sensing algorithms are widely used for bloom detection, conventional methods frequently exhibit degraded performance under optically complex conditions (e.g., sunglint, thin clouds, and high turbidity) and lack sensitivity to sparse blooms. To address these limitations, this study introduces the Red-Edge Floating Algae Index (RFAI). Structured as a baseline-height model, the RFAI mathematically isolates the scattering-induced spectral curvature of algal blooms using three critical Sentinel-2 Multispectral Instrument (MSI) bands: the green reflectance peak (∼560 nm), the red absorption trough (∼665 nm), and the red-edge reflectance peak (∼704 nm). This formulation effectively decouples genuine target signals from confounding background noise. Comparative validation against 17 widely used indices across a diverse set of inland lakes demonstrated the statistically significant overall effectiveness of the RFAI ( p < 0.0001), yielding precision and F1-score improvements of up to 42.8 % and 26.6 %, respectively, under locally optimized parameterizations. Crucially, the RFAI demonstrates robust comprehensive stability across highly variable, optically challenging conditions, effectively mitigating the severe performance fluctuations often observed in individual conventional indices. Supported by a novel optical-type-stratified thresholding strategy, the RFAI establishes a scalable and versatile framework for operational bloom monitoring using compatible red-edge satellite systems, enabling the generation of reliable observational records essential for the sustainable management of aquatic ecosystems.",
-  "citation_count": 0,
-  "concepts": [
-   "Environmental science",
-   "Algal bloom",
-   "Index (typography)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7162667296",
-  "title": "Reconstructing multi-temporal Glacier area changes to improve mass balance estimates in the Southeastern Tibetan Plateau (2000–2025)",
-  "authors": [
-   "Zihao Li",
-   "Huan Xu",
-   "Wei Yang",
-   "Wenke Sun",
-   "Qiuyu Wang"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-20",
-  "doi": "10.1080/15481603.2026.2747433",
-  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/15481603.2026.2747433?needAccess=true",
-  "url": "https://doi.org/10.1080/15481603.2026.2747433",
-  "abstract": "The southeastern Tibetan Plateau (SETP), a critical component of the “Asian Water Tower”, hosts a large concentration of maritime temperate glaciers that are highly sensitive to climate change. However, persistent cloud cover, seasonal snow, and supraglacial debris complicate consistent long-term glacier mapping, while the use of static glacier boundaries may introduce temporal mismatches in altimetry-based glacier mass-change estimates. In this study, we developed a multi-source data-fusion framework on Google Earth Engine (GEE) to reconstruct glacier-area changes in the SETP from 2000 to 2025 at five-year intervals and 30 m spatial resolution. Random Forest classifiers were used to integrate Landsat and Sentinel-2 optical imagery, Sentinel-1 synthetic-aperture-radar data, and NASADEM-derived topographic information, supporting glacier delineation under complex surface and atmospheric conditions. The reconstructed glacier area decreased from 8,083 ± 664 km2 in 2000 to 6,228 ± 572 km2 in 2025, corresponding to a cumulative loss of 22.9 ± 3.6% and a mean loss rate of 80.51 ± 10.51 km2 yr−1. The mean area-loss rates were 51.31 ± 6.51 km2 yr−1 during 2000–2010 and 92.99 ± 15.55 km2 yr−1 during 2010–2025, indicating a higher average loss rate in the later period. By combining satellite-altimetry-derived elevation changes from ICESat, CryoSat-2, and ICESat-2 with the reconstructed time-varying glacier areas, we estimated a mean glacier mass-change rate of −6.51 ± 1.22 Gt yr−1 during 2003–2022. Compared with using a fixed 2003 glacier area, the time-varying-area calculation reduced the estimated mass-loss magnitude by 0.63 Gt yr−1, equivalent to 8.8% of the fixed-area estimate. These results indicate that incorporating time-varying glacier areas can reduce temporal mismatch in altimetry-based mass-change estimation and improve the temporal consistency of regional glacier mass-change assessments.",
-  "citation_count": 0,
-  "concepts": [
+   "Impact crater",
    "Geology",
-   "Plateau (mathematics)",
-   "Glacier mass balance"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7131431487",
-  "title": "Test-Time Computing for Referring Multimodal Large Language Models",
-  "authors": [
-   "Mingrui Wu",
-   "Hao Chen",
-   "Jiayi Ji",
-   "Xiaoshuai Sun",
-   "Zhiyuan Liu",
-   "Liujuan Cao",
-   "Ming-Ming Cheng",
-   "Rongrong Ji"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-20",
-  "doi": "10.1007/s11263-026-03100-x",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03100-x",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Artificial intelligence",
-   "Visual reasoning"
-  ],
-  "source": "openalex",
-  "topics": [
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7223034958",
-  "title": "Event-Guided Decomposition from a Long-Exposure Nighttime Snapshot into Video Sequence",
-  "authors": [
-   "Jianbo Cao",
-   "Yuqi Han",
-   "Siming Zheng",
-   "徐桂林 Xu Guilin",
-   "Qiang Zhang",
-   "Jinli Suo"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-20",
-  "doi": "10.1007/s11263-026-03057-x",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03057-x",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Artificial intelligence",
-   "Snapshot (computer storage)"
+   "Martian"
   ],
   "source": "openalex",
   "topics": [],
   "is_own": false
  },
  {
-  "id": "openalex:W7223058405",
-  "title": "Multi-View Optimal Transport for Multi-View Crowd Localization and Tracking",
+  "id": "openalex:W7223179298",
+  "title": "Robust reinforcement learning multi-baseline phase unwrapping algorithm with JPEG-LS",
   "authors": [
-   "Kaiyi Zhang",
-   "Qi Zhang",
-   "Jixuan Chen",
-   "Antoni B. Chan",
-   "Hui Huang"
+   "Shiji Yang",
+   "Wu Zhu",
+   "Hui Liu",
+   "Ruixuan Zhang",
+   "Haoran Gao",
+   "Lei Xu",
+   "Mengyuan Zhu",
+   "Tong Yang"
   ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-20",
-  "doi": "10.1007/s11263-026-03093-7",
+  "date": "2026-10-22",
+  "doi": "10.1016/j.jag.2026.105648",
   "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03093-7",
-  "abstract": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105648",
+  "abstract": "Multi-baseline (MB) phase unwrapping (PU) breaks through the limitations of the phase continuity assumption, but existing MBPU algorithms cannot adapt well to noisy environments. A robust reinforcement learning integer programming multi-baseline PU algorithm with JPEG-LS (RL-MBPU) is proposed. First, the cutting plane–pure integer programming cut-selection process is formulated as a sequential reinforcement-learning problem. An efficacy-guided imitation strategy is used to initialize an MBPU-structure-aware single-cut policy, which is further optimized by an actor–critic method using Cut-PAR2-based trajectory returns to reduce the root-node proof cost. Finally, the initial ambiguity number solution is corrected using dynamic median edge detector based on JPEG-LS, and the PU is completed by using the prediction of the left, top, and top-left neighbors of the current pixel and combining it with the local gradient threshold determination. In both simulation and real data experiments, the RL-MBPU algorithm demonstrated stable PU performance, including computational efficiency and noise robustness for interferograms of different sizes. Compared with the minimum-cost flow and cutting plane–pure integer programming algorithms, the RL-MBPU algorithm reduces the root mean square error by approximately 61.2% and 14.5%, respectively, while improving efficiency by approximately 54.1% and 42.4%, respectively. This can further support high-precision interferometric synthetic aperture radar applications.",
   "citation_count": 0,
   "concepts": [
-   "Mahalanobis distance",
-   "Artificial intelligence",
-   "Computer science"
+   "Algorithm",
+   "Robustness (evolution)",
+   "Synthetic aperture radar"
   ],
   "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.28490v1",
-  "title": "Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection",
-  "authors": [
-   "Changrui Zhu",
-   "Simon Julier"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-20",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.28490v1",
-  "url": "https://arxiv.org/abs/2610.28490v1",
-  "abstract": "Online scene change detection requires integrating incoming observations to determine which regions have changed relative to a reference scene. We update change beliefs as new images arrive using generalised Bayesian evidence fusion. However, the prior probability of change and evidence models are unknown beforehand, and numerical Bayesian inference can be costly. We address these challenges by learning offline from automatic edits to a reference 3D Gaussian Splatting (3DGS) model. These edits generate labelled training views without manual annotations. Together with unchanged reference observations, they provide supervision for learning scene-specific evidence models and estimating the effective pixel prior and response statistics. Online prediction combines current evidence with historical support, while closed-form local Bayes factors, parameterized by the learned response statistics, update an accumulated 3D Gaussian field. Object-guided refinement produces the final change masks. Our method achieves state-of-the-art accuracy on PASLCD and CCS3D, with $67.64\\%$ and $75.82\\%$ mIoU, respectively. On PASLCD, the complete pipeline runs at $17.2$\\,FPS over complete query sequences, the fastest among the evaluated online methods.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.GR"
-  ],
-  "arxiv_id": "2610.28490v1",
-  "source": "arxiv",
   "topics": [
    "遥感",
    "计算机视觉",
@@ -226,33 +62,196 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2610.27960v1",
-  "title": "Efficient SAM3 Adaptation for Multi-Class Semantic Segmentation via Dense Competitive Representations",
+  "id": "openalex:W7223186999",
+  "title": "Airborne observatory for high-resolution land surface temperature and spectral emissivity",
   "authors": [
-   "Wenbin Liao",
-   "Hao Zhu",
-   "Yike Ma",
-   "Hao Jiang",
-   "Feng Dai"
+   "Max Gerhards",
+   "T. Hu",
+   "F. Ronellenfitsch",
+   "P. Pinheiro",
+   "C. Corbari",
+   "D. Skokovic",
+   "J. Sobrino",
+   "M. Chamberland",
+   "T. Udelhoven",
+   "L. Hoffmann",
+   "Martin Schlerf"
   ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-20",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.27960v1",
-  "url": "https://arxiv.org/abs/2610.27960v1",
-  "abstract": "The Segment Anything Model 3 (SAM3) has achieved significant progress in Promptable Concept Segmentation (PCS) by processing short noun phrases to generate segmentation masks with unique instance identifiers. While SAM3 excels at single-concept segmentation, it falls short in complex, real-world environments where multiple concepts must be segmented simultaneously. In particular, SAM3 typically fails to simultaneously process concepts with semantic overlap, leading to semantic misclassifications and redundant mask predictions. Moreover, as the number of concepts increases, the independent inference paradigm introduces prohibitive inference latency. To address these limitations, we propose the Dense Competitive Representations SAM (DCR-SAM) framework. By decoupling cross-modal interactions, the proposed method alleviates the inference latency. To resolve semantic misclassifications, DCR-SAM dynamically aligns textual concepts with visual representations and incorporates a dense competition head to enforce explicit inter-class competition. Furthermore, a learnable background token is applied to absorb non-target objects dynamically. These mechanisms effectively suppress overlapping predictions and generate high-fidelity masks. Extensive experimental evaluations across multiple benchmarks demonstrate that the proposed framework: (1) achieves a 2.3% $\\sim$ 10.7% performance improvement over state-of-the-art methods, (2) delivers a 33$\\times$ inference speedup compared to the native SAM3, and (3) exhibits strong robustness across diverse scenarios.",
+  "date": "2026-10-22",
+  "doi": "10.1016/j.jag.2026.105636",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105636",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "cs.CV"
+   "Emissivity",
+   "Remote sensing",
+   "Observatory"
   ],
-  "arxiv_id": "2610.27960v1",
-  "source": "arxiv",
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7223177298",
+  "title": "LexSign: Learning Sign Language from Lexical Descriptions",
+  "authors": [
+   "Yuecong Min",
+   "Honggang Zou",
+   "Peiqi Jiao",
+   "Xilin Chen"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-22",
+  "doi": "10.1007/s11263-026-03075-9",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03075-9",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Natural language processing",
+   "Computer science",
+   "Artificial intelligence"
+  ],
+  "source": "openalex",
+  "topics": [
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7147625698",
+  "title": "30-meter land surface temperature from Landsat via progressive self-training downscaling",
+  "authors": [
+   "Huanfeng Shen",
+   "Chan Li",
+   "Menghui Jiang",
+   "Penghai Wu",
+   "Guanhao Zhang",
+   "Tian Xie"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-21",
+  "doi": "10.1016/j.rse.2026.115732",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115732",
+  "abstract": "Land surface temperature (LST) is a critical parameter for characterizing surface energy balance and hydrothermal processes. While Landsat has provided invaluable LST observations at medium spatial resolution for over 40 years, its native spatial resolution of thermal bands (e.g., 100 m) remains insufficient compared to its 30 m optical bands, failing to meet the demands of fine-scale studies. To address this issue, this study proposes a progressive self-training framework for downscaling Landsat LST to 30 m without relying on fine-scale ground truth, while requiring minimal external data dependence. The framework progressively optimizes a cross-modal fusion network to refine thermal details in a coarse-to-fine manner, characterized by one pre-training stage and two fine-tuning stages. This network leverages a cross-modal dictionary attention mechanism combined with a hybrid CNN-Transformer architecture to effectively extract complementary information between LST and auxiliary variables across multiple spatial resolutions. Quantitative ablation analyses demonstrate that the fusion design and auxiliary variable combination effectively reduce downscaling errors. In parallel, a frequency-domain guidance strategy, implemented at both the network structure and loss-function levels, is introduced to enhance structural fidelity and suppress artifact accumulation during progressive refinement. Ablation of the high-frequency structural loss further demonstrates its effectiveness in reconstructing crisp fine-scale thermal textures. Spatial validation against SDGSAT-1 30 m LST and temporal validation using in situ measurements confirm its reliability and accuracy, yielding a station-averaged RMSE of 3.465 K and an R 2 of 0.909, compared with 4.195 K and 0.861 for the official cubic interpolation product. Comparisons with existing methods further demonstrate that the proposed framework effectively reconstructs fine-scale thermal patterns while preserving spatial heterogeneity. Overall, the framework provides a stable pathway for enhancing the spatial resolution of Landsat LST, offering fine-resolution data support for fine-scale surface process studies and localized environmental monitoring.",
+  "citation_count": 0,
+  "concepts": [
+   "Downscaling",
+   "Remote sensing",
+   "Environmental science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7202195066",
+  "title": "AeroReformer2: Spoken-query referring segmentation for aerial images",
+  "authors": [
+   "Rui Li",
+   "Chenxi Duan",
+   "Haoyang Yang"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-21",
+  "doi": "10.1016/j.isprsjprs.2026.10.009",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.009",
+  "abstract": "Spoken queries provide a natural, hands-free way to identify targets in dense remote-sensing imagery. Existing referring segmentation benchmarks in this domain accept only written expressions. We introduce VoiceAeroRef, a spoken-query benchmark derived from RISBench. It adds synthetic speech with diverse accents and voices while preserving the source images, masks, and data splits. A hard test set combines rotor, wind, and mixed interference with three signal-to-noise levels. We also propose AeroReformer2, a bilateral network for efficient speech-conditioned segmentation. The network retains speech tokens and conditions visual features at two scales through kernel linear attention. This avoids constructing a dense speech–visual affinity matrix. A detail path and a high-resolution refinement head preserve object boundaries. On the clean test split, the Swin-Base version achieves a mean intersection over union (mIoU) of 62.09% and an overall intersection over union (oIoU) of 68.22%. These scores exceed those of the strongest audio-adapted remote-sensing baseline by 5.38 and 2.08 percentage points, respectively. The model also achieves the highest mIoU on the hard test set, at 54.09%. To the best of our knowledge, this is the first study to introduce a benchmark and model for full-sentence spoken-query referring segmentation in remote-sensing imagery. The project, along with code and dataset, is available at https://lironui.github.io/AeroReformer2/ .",
+  "citation_count": 0,
+  "concepts": [
+   "Intersection (aeronautics)",
+   "Computer science",
+   "Segmentation"
+  ],
+  "source": "openalex",
   "topics": [
    "计算机视觉"
   ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7223151509",
+  "title": "Remote reality capture for construction progress monitoring using Multi-Agent Robotic system for Inspection On-site (MARIO)",
+  "authors": [
+   "Adib S. Rezaei",
+   "Kereshmeh Afsari",
+   "Adam Lahouar",
+   "Aram Pirayesh",
+   "Ricardo Pastor",
+   "Stephen Devito",
+   "Vincent Testa"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-21",
+  "doi": "10.1016/j.isprsjprs.2026.10.004",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.004",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Virtual reality",
+   "Robot"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7223114533",
+  "title": "Quantifying anisotropic impacts of LCZ landscape patterns on NO2 variabilities in the Yangtze River Delta, China",
+  "authors": [
+   "Chongyang Li",
+   "Meiqin Che",
+   "Jieqiong Luo",
+   "Yueqian Cao",
+   "Zhenda Sun",
+   "Zhongfeng Pan",
+   "Youwen Sun",
+   "Cheng Liu"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-21",
+  "doi": "10.1016/j.jag.2026.105627",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105627",
+  "abstract": "Urban landscape patterns strongly affect air quality, yet existing studies often neglect anisotropic processes, rely on arbitrary fixed-radius buffers, and lack standardized classification frameworks. To overcome these limitations, we developed a novel analytical framework that integrates high-accuracy Local Climate Zone (LCZ) classification, multi-scale spatial modeling, and a shape-adaptive influence zone. Central to this framework is the Adaptive Directionally Weighted Sector Influence Zone (ADWSIZ), a new method that explicitly captures the directional heterogeneity of landscape effects on pollutants. Applied to station-based NO 2 measurements in the Yangtze River Delta (YRD) urban agglomeration, we used multi-scale Geographically Weighted Ridge Regression (GWRR) to identify a 4000 m circular buffer as the optimal modeling scale, revealing a clear decoupling from the intrinsic static LCZ pattern scale (approximately 1000 m). Building upon this optimal distance, the ADWSIZ model was developed to refine the influence zone’s shape. The application of ADWSIZ improved model performance (Adjusted R 2 : 0.464 → 0.506 ; RMSE: 2.950 → 2.834 µg/m 3 ) and reduced residual spatial autocorrelation. Our findings highlight that the anisotropic influence of features like industrial land and compact high-rise fabrics is a critical, previously underexplored factor in explaining NO 2 variation. This study establishes a replicable and transferable methodology that advances the conceptualization of influence zones from simple distance-based buffers to scale- and shape-adaptive forms, offering a robust tool for refining spatial coupling analyses between urban morphology and air pollutants.",
+  "citation_count": 0,
+  "concepts": [
+   "Yangtze river",
+   "China",
+   "Geography"
+  ],
+  "source": "openalex",
+  "topics": [],
   "is_own": false
  }
 ]
