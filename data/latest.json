@@ -1,5 +1,37 @@
 [
  {
+  "id": "openalex:W7165019756",
+  "title": "Heterogeneous SAR–optical fusion for near-real-time land use and land cover mapping under cloud contamination: A novel framework and global benchmark dataset",
+  "authors": [
+   "Jiangong Xu",
+   "Weibao Xue",
+   "Xiaoyu Yu",
+   "Jun Pan",
+   "Xinlian Lianga",
+   "Mi Wang"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-22",
+  "doi": "10.1016/j.isprsjprs.2026.10.025",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.025",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Cloud computing",
+   "Data mining"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7223185658",
   "title": "Globe-CraterSAM: a training-free generalizable framework for mapping sub-kilometer martian craters",
   "authors": [
@@ -14,7 +46,7 @@
   "doi": "10.1016/j.isprsjprs.2026.10.005",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.005",
-  "abstract": null,
+  "abstract": "Sub-kilometer craters are essential for resolving fine-scale Martian surface chronology, yet their global-scale mapping remains limited by the poor generalizability of existing methods and lack of systematic global-scale validation. Here, we propose Globe-CraterSAM, a training-free and generalized framework for sub-kilometer Martian crater mapping. Central to our framework is an adaptation strategy that identifies craters from Segment Anything Model (SAM)-segmented landform units by exploiting common circular depression characteristics of craters. Before crater identification, we introduce a Buffer-Split Loop Strategy (BSLS) to separate overlapping landform units, preventing adjacent landform units from distorting the circular-depression morphology of craters. A circularity index is then applied to exclude non-circular landform units. We further reconstruct 6-m-resolution quasi-3D terrain from monocular optical images using a Shape-from-Shading-based approach and apply Double-Gaussian Fitting to define quantitative criteria for crater-like depressions. This design enables topographic information to be incorporated into sub-kilometer crater mapping despite the limited resolution of existing global Digital Elevation Models (DEMs). To address the lack of systematic validation for sub-kilometer crater mapping, we construct the first globally comprehensive benchmark dataset, comprising more than 10,000 craters from 50 sub-areas spanning 26 distinct landform types across Mars. Validation results demonstrate the strong generalizability of Globe-CraterSAM, with an average F1 score of 90.09%, outperforming nine state-of-the-art (SOTA) models by 12.38–65.88 percentage points. The framework also demonstrates strong feasibility for large-extent applications, achieving an F1 score of 91.58% across 12 1° × 1° longitude-latitude tiles. Together, Globe-CraterSAM and the benchmark dataset provide a scalable foundation for sub-kilometer crater mapping and open new opportunities for high-resolution planetary investigation.",
   "citation_count": 0,
   "concepts": [
    "Impact crater",
@@ -22,7 +54,43 @@
    "Martian"
   ],
   "source": "openalex",
-  "topics": [],
+  "topics": [
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7223208482",
+  "title": "A novel multi-source fusion framework for daily multiband nighttime light data construction",
+  "authors": [
+   "Yue Tu",
+   "Congxiao Wang",
+   "Zuoqi Chen",
+   "Linxin Dong",
+   "Wei Xu",
+   "Yan Liu",
+   "Bailang Yu"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-22",
+  "doi": "10.1016/j.isprsjprs.2026.10.028",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.028",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Remote sensing",
+   "Sensor fusion"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
   "is_own": false
  },
  {
@@ -85,12 +153,68 @@
   "doi": "10.1016/j.jag.2026.105636",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.jag.2026.105636",
-  "abstract": null,
+  "abstract": "The Land surface temperature and emissivity Airborne Observatory System (LAOS) provides land surface temperature (LST) and spectral land surface emissivity (LSE) at very high spatial resolutions (0.5–4 m) and flexible (e.g., intraday) acquisition times. LAOS enables: (i) to map spectral variations in LSE—an inherent property of land surface materials—and (ii) to analyse spatial and temporal variations in LST in relation to land surface processes. Here, we present the scientific rationale for developing the system, the components of the hardware and the processing chain, and retrieval and validation results from an agricultural case study. The LAOS hardware consists of a HyperCam-LW (Telops Inc.), a Fourier transformed infrared spectrometer that operates in the long-wave infrared (7.7–11.5 µm) and an associated airborne platform. The processing chain includes radiometric calibration, generation of ortho -photo mosaics, noise removal, atmospheric correction (AC) and temperature and emissivity separation (TES). Key innovations with respect to previous airborne hyperspectral TIR studies are an improved noise filtering step and a recalibrated minimum emissivity—spectral contrast relationship derived from an extended set of ECOSTRESS spectral library spectra . For demonstrating LAOS’ capacities, an extensive survey campaign was conducted over the Burana Irrigation Consortium area near Modena, Italy, on 13–15 July 2022. Images were acquired at 1- and 4-meter resolution during three times of the day. Raw image tiles were processed to LST and LSE mosaics and compared with ground measurements. Validation was performed over agricultural surfaces – wheat stubble, melon, and water –providing a more surface-type-diverse assessment than previous more urban-focused studies. The LST mosaics show good agreement with the in-situ temperatures across all three surface types (within-class R 2 = 0.52–0.86, RMSE = 2.0–3.2 K, global R 2 = 0.96). LSE maps reveal crisp changes at field boundaries and appear relatively constant over time (i.e., both during a day and across multiple days). Airborne LSE spectra show mostly reasonable agreement with ground measurements and reproduce the overall spectral shape. Spectral emissivity remains largely stable both diurnally and across days (average variability ∼ 1.1 %), indicating consistent retrieval performance at field scale. The results demonstrate that LAOS produces LST and LSE maps with accuracies consistent with previous hyperspectral TIR studies, showcasing its potential to address pressing questions in various fields, including agriculture (e.g., irrigation), forestry (e.g., stress detection), defence (e.g., target detection), and urban studies (e.g., urban heat islands). As a high spatial resolution airborne TIR imager, LAOS can also serve as a demonstrator for upcoming satellite missions, such as LSTM (Land Surface Temperature Monitoring, ESA), TRISHNA (Thermal Infrared Satellite for High-Resolution Applications, CNES & ISRO), and Eagle-TIR (Explorer for Artemis Geology Lunar and Earth, NASA).",
   "citation_count": 0,
   "concepts": [
    "Emissivity",
    "Remote sensing",
    "Observatory"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7223196648",
+  "title": "Multi-evidence-based assessment and selection of nine reconstructed solar-induced fluorescence products over China",
+  "authors": [
+   "Fujin Xu",
+   "Changchun Xu"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-22",
+  "doi": "10.1016/j.jag.2026.105650",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105650",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Selection (genetic algorithm)",
+   "China",
+   "Geography"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7223203695",
+  "title": "Global offshore wind development (2015–2025): multiscale structural evolution based on object-level sar mapping",
+  "authors": [
+   "Enyan Zhu",
+   "Aohan Ye",
+   "Lisu Chen"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-22",
+  "doi": "10.1080/15481603.2026.2751913",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2751913",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Geology",
+   "Synthetic aperture radar"
   ],
   "source": "openalex",
   "topics": [
@@ -126,132 +250,6 @@
   "topics": [
    "机器学习"
   ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7147625698",
-  "title": "30-meter land surface temperature from Landsat via progressive self-training downscaling",
-  "authors": [
-   "Huanfeng Shen",
-   "Chan Li",
-   "Menghui Jiang",
-   "Penghai Wu",
-   "Guanhao Zhang",
-   "Tian Xie"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-21",
-  "doi": "10.1016/j.rse.2026.115732",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115732",
-  "abstract": "Land surface temperature (LST) is a critical parameter for characterizing surface energy balance and hydrothermal processes. While Landsat has provided invaluable LST observations at medium spatial resolution for over 40 years, its native spatial resolution of thermal bands (e.g., 100 m) remains insufficient compared to its 30 m optical bands, failing to meet the demands of fine-scale studies. To address this issue, this study proposes a progressive self-training framework for downscaling Landsat LST to 30 m without relying on fine-scale ground truth, while requiring minimal external data dependence. The framework progressively optimizes a cross-modal fusion network to refine thermal details in a coarse-to-fine manner, characterized by one pre-training stage and two fine-tuning stages. This network leverages a cross-modal dictionary attention mechanism combined with a hybrid CNN-Transformer architecture to effectively extract complementary information between LST and auxiliary variables across multiple spatial resolutions. Quantitative ablation analyses demonstrate that the fusion design and auxiliary variable combination effectively reduce downscaling errors. In parallel, a frequency-domain guidance strategy, implemented at both the network structure and loss-function levels, is introduced to enhance structural fidelity and suppress artifact accumulation during progressive refinement. Ablation of the high-frequency structural loss further demonstrates its effectiveness in reconstructing crisp fine-scale thermal textures. Spatial validation against SDGSAT-1 30 m LST and temporal validation using in situ measurements confirm its reliability and accuracy, yielding a station-averaged RMSE of 3.465 K and an R 2 of 0.909, compared with 4.195 K and 0.861 for the official cubic interpolation product. Comparisons with existing methods further demonstrate that the proposed framework effectively reconstructs fine-scale thermal patterns while preserving spatial heterogeneity. Overall, the framework provides a stable pathway for enhancing the spatial resolution of Landsat LST, offering fine-resolution data support for fine-scale surface process studies and localized environmental monitoring.",
-  "citation_count": 0,
-  "concepts": [
-   "Downscaling",
-   "Remote sensing",
-   "Environmental science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7202195066",
-  "title": "AeroReformer2: Spoken-query referring segmentation for aerial images",
-  "authors": [
-   "Rui Li",
-   "Chenxi Duan",
-   "Haoyang Yang"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-21",
-  "doi": "10.1016/j.isprsjprs.2026.10.009",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.009",
-  "abstract": "Spoken queries provide a natural, hands-free way to identify targets in dense remote-sensing imagery. Existing referring segmentation benchmarks in this domain accept only written expressions. We introduce VoiceAeroRef, a spoken-query benchmark derived from RISBench. It adds synthetic speech with diverse accents and voices while preserving the source images, masks, and data splits. A hard test set combines rotor, wind, and mixed interference with three signal-to-noise levels. We also propose AeroReformer2, a bilateral network for efficient speech-conditioned segmentation. The network retains speech tokens and conditions visual features at two scales through kernel linear attention. This avoids constructing a dense speech–visual affinity matrix. A detail path and a high-resolution refinement head preserve object boundaries. On the clean test split, the Swin-Base version achieves a mean intersection over union (mIoU) of 62.09% and an overall intersection over union (oIoU) of 68.22%. These scores exceed those of the strongest audio-adapted remote-sensing baseline by 5.38 and 2.08 percentage points, respectively. The model also achieves the highest mIoU on the hard test set, at 54.09%. To the best of our knowledge, this is the first study to introduce a benchmark and model for full-sentence spoken-query referring segmentation in remote-sensing imagery. The project, along with code and dataset, is available at https://lironui.github.io/AeroReformer2/ .",
-  "citation_count": 0,
-  "concepts": [
-   "Intersection (aeronautics)",
-   "Computer science",
-   "Segmentation"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7223151509",
-  "title": "Remote reality capture for construction progress monitoring using Multi-Agent Robotic system for Inspection On-site (MARIO)",
-  "authors": [
-   "Adib S. Rezaei",
-   "Kereshmeh Afsari",
-   "Adam Lahouar",
-   "Aram Pirayesh",
-   "Ricardo Pastor",
-   "Stephen Devito",
-   "Vincent Testa"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-21",
-  "doi": "10.1016/j.isprsjprs.2026.10.004",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.004",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Virtual reality",
-   "Robot"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7223114533",
-  "title": "Quantifying anisotropic impacts of LCZ landscape patterns on NO2 variabilities in the Yangtze River Delta, China",
-  "authors": [
-   "Chongyang Li",
-   "Meiqin Che",
-   "Jieqiong Luo",
-   "Yueqian Cao",
-   "Zhenda Sun",
-   "Zhongfeng Pan",
-   "Youwen Sun",
-   "Cheng Liu"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-21",
-  "doi": "10.1016/j.jag.2026.105627",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105627",
-  "abstract": "Urban landscape patterns strongly affect air quality, yet existing studies often neglect anisotropic processes, rely on arbitrary fixed-radius buffers, and lack standardized classification frameworks. To overcome these limitations, we developed a novel analytical framework that integrates high-accuracy Local Climate Zone (LCZ) classification, multi-scale spatial modeling, and a shape-adaptive influence zone. Central to this framework is the Adaptive Directionally Weighted Sector Influence Zone (ADWSIZ), a new method that explicitly captures the directional heterogeneity of landscape effects on pollutants. Applied to station-based NO 2 measurements in the Yangtze River Delta (YRD) urban agglomeration, we used multi-scale Geographically Weighted Ridge Regression (GWRR) to identify a 4000 m circular buffer as the optimal modeling scale, revealing a clear decoupling from the intrinsic static LCZ pattern scale (approximately 1000 m). Building upon this optimal distance, the ADWSIZ model was developed to refine the influence zone’s shape. The application of ADWSIZ improved model performance (Adjusted R 2 : 0.464 → 0.506 ; RMSE: 2.950 → 2.834 µg/m 3 ) and reduced residual spatial autocorrelation. Our findings highlight that the anisotropic influence of features like industrial land and compact high-rise fabrics is a critical, previously underexplored factor in explaining NO 2 variation. This study establishes a replicable and transferable methodology that advances the conceptualization of influence zones from simple distance-based buffers to scale- and shape-adaptive forms, offering a robust tool for refining spatial coupling analyses between urban morphology and air pollutants.",
-  "citation_count": 0,
-  "concepts": [
-   "Yangtze river",
-   "China",
-   "Geography"
-  ],
-  "source": "openalex",
-  "topics": [],
   "is_own": false
  }
 ]
