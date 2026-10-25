@@ -1,91 +1,58 @@
 [
  {
-  "id": "openalex:W7165019756",
-  "title": "Heterogeneous SAR–optical fusion for near-real-time land use and land cover mapping under cloud contamination: A novel framework and global benchmark dataset",
+  "id": "openalex:W7151008518",
+  "title": "Smart transfer: Leveraging vision foundation model for rapid building damage mapping with post-earthquake VHR imagery",
   "authors": [
-   "Jiangong Xu",
-   "Weibao Xue",
-   "Xiaoyu Yu",
-   "Jun Pan",
-   "Xinlian Lianga",
-   "Mi Wang"
+   "Hao Li",
+   "Liwei Zou",
+   "Wenping Yin",
+   "Gülşen Taşkın",
+   "Naoto Yokoya",
+   "Danfeng Hong",
+   "Wufan Zhao"
   ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-22",
-  "doi": "10.1016/j.isprsjprs.2026.10.025",
+  "date": "2026-10-23",
+  "doi": "10.1016/j.rse.2026.115744",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.025",
+  "url": "https://doi.org/10.1016/j.rse.2026.115744",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
+   "Geospatial analysis",
    "Computer science",
-   "Cloud computing",
-   "Data mining"
+   "Resilience (materials science)"
   ],
   "source": "openalex",
   "topics": [
-   "遥感"
+   "计算机视觉"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7223185658",
-  "title": "Globe-CraterSAM: a training-free generalizable framework for mapping sub-kilometer martian craters",
+  "id": "openalex:W7223318688",
+  "title": "Continental-scale Sentinel-1 InSAR deformation rate mosaics of central North America",
   "authors": [
-   "Yu-Shiang Lin",
-   "Xie Hu"
+   "Sergey Samsonov",
+   "Kristy French Tiampo"
   ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-22",
-  "doi": "10.1016/j.isprsjprs.2026.10.005",
+  "date": "2026-10-23",
+  "doi": "10.1016/j.rse.2026.115721",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.005",
-  "abstract": "Sub-kilometer craters are essential for resolving fine-scale Martian surface chronology, yet their global-scale mapping remains limited by the poor generalizability of existing methods and lack of systematic global-scale validation. Here, we propose Globe-CraterSAM, a training-free and generalized framework for sub-kilometer Martian crater mapping. Central to our framework is an adaptation strategy that identifies craters from Segment Anything Model (SAM)-segmented landform units by exploiting common circular depression characteristics of craters. Before crater identification, we introduce a Buffer-Split Loop Strategy (BSLS) to separate overlapping landform units, preventing adjacent landform units from distorting the circular-depression morphology of craters. A circularity index is then applied to exclude non-circular landform units. We further reconstruct 6-m-resolution quasi-3D terrain from monocular optical images using a Shape-from-Shading-based approach and apply Double-Gaussian Fitting to define quantitative criteria for crater-like depressions. This design enables topographic information to be incorporated into sub-kilometer crater mapping despite the limited resolution of existing global Digital Elevation Models (DEMs). To address the lack of systematic validation for sub-kilometer crater mapping, we construct the first globally comprehensive benchmark dataset, comprising more than 10,000 craters from 50 sub-areas spanning 26 distinct landform types across Mars. Validation results demonstrate the strong generalizability of Globe-CraterSAM, with an average F1 score of 90.09%, outperforming nine state-of-the-art (SOTA) models by 12.38–65.88 percentage points. The framework also demonstrates strong feasibility for large-extent applications, achieving an F1 score of 91.58% across 12 1° × 1° longitude-latitude tiles. Together, Globe-CraterSAM and the benchmark dataset provide a scalable foundation for sub-kilometer crater mapping and open new opportunities for high-resolution planetary investigation.",
+  "url": "https://doi.org/10.1016/j.rse.2026.115721",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Impact crater",
+   "Interferometric synthetic aperture radar",
    "Geology",
-   "Martian"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7223208482",
-  "title": "A novel multi-source fusion framework for daily multiband nighttime light data construction",
-  "authors": [
-   "Yue Tu",
-   "Congxiao Wang",
-   "Zuoqi Chen",
-   "Linxin Dong",
-   "Wei Xu",
-   "Yan Liu",
-   "Bailang Yu"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-22",
-  "doi": "10.1016/j.isprsjprs.2026.10.028",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.028",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Remote sensing",
-   "Sensor fusion"
+   "Remote sensing"
   ],
   "source": "openalex",
   "topics": [
@@ -94,32 +61,29 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7223179298",
-  "title": "Robust reinforcement learning multi-baseline phase unwrapping algorithm with JPEG-LS",
+  "id": "openalex:W7223327226",
+  "title": "A prototype-based metric-learning model for sea-ice type mapping from Sentinel-1 SAR and ancillary data",
   "authors": [
-   "Shiji Yang",
-   "Wu Zhu",
-   "Hui Liu",
-   "Ruixuan Zhang",
-   "Haoran Gao",
-   "Lei Xu",
-   "Mengyuan Zhu",
-   "Tong Yang"
+   "Yang Li",
+   "Chao Li",
+   "Chongtai PENG",
+   "Ce Hou",
+   "Petteri Juha Uotila"
   ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-22",
-  "doi": "10.1016/j.jag.2026.105648",
+  "date": "2026-10-23",
+  "doi": "10.1016/j.isprsjprs.2026.10.022",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105648",
-  "abstract": "Multi-baseline (MB) phase unwrapping (PU) breaks through the limitations of the phase continuity assumption, but existing MBPU algorithms cannot adapt well to noisy environments. A robust reinforcement learning integer programming multi-baseline PU algorithm with JPEG-LS (RL-MBPU) is proposed. First, the cutting plane–pure integer programming cut-selection process is formulated as a sequential reinforcement-learning problem. An efficacy-guided imitation strategy is used to initialize an MBPU-structure-aware single-cut policy, which is further optimized by an actor–critic method using Cut-PAR2-based trajectory returns to reduce the root-node proof cost. Finally, the initial ambiguity number solution is corrected using dynamic median edge detector based on JPEG-LS, and the PU is completed by using the prediction of the left, top, and top-left neighbors of the current pixel and combining it with the local gradient threshold determination. In both simulation and real data experiments, the RL-MBPU algorithm demonstrated stable PU performance, including computational efficiency and noise robustness for interferograms of different sizes. Compared with the minimum-cost flow and cutting plane–pure integer programming algorithms, the RL-MBPU algorithm reduces the root mean square error by approximately 61.2% and 14.5%, respectively, while improving efficiency by approximately 54.1% and 42.4%, respectively. This can further support high-precision interferometric synthetic aperture radar applications.",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.022",
+  "abstract": "Limited labeled data remains a central challenge for deep-learning-based sea-ice type mapping, while cross-channel relationships remain underexploited, and interaction mechanisms are lacking. This study proposes ESICM, combining Sentinel-1 SAR, AMSR2 brightness temperatures, and ERA5 environmental variables for pixel-level mapping of open water (OW), young ice (YI), first-year ice (FYI), and multi-year ice (MYI). ESICM adopts prototype-based metric learning to fully exploit labels, incorporates a channel multiplication-division module to enhance cross-channel interactions, and introduces two interaction functions, supports-input selection and user dense prompts, to improve classification in hard-to-classify scenes. On the AI4Arctic dataset, trained on 492 AI4Arctic scenes and tested on 20 scenes, ESICM achieved 93.34% overall accuracy, 93.08% F1 score (F1), 88.40% Kappa coefficient, and 77.29% mean intersection over union, exceeding the second-best results by 0.85%–1.55%. Under challenging melt-affected conditions, MYI F1 and intersection over union exceeded the second-best results by 3.13% and 3.93%. Across forward-temporal, cross-region, reduced-training-data, and cross-dataset experiments, ESICM ranked first for 14 and second for two of 16 metrics, indicating relatively strong generalization. In two hard-to-classify scenes, simulated user prompts covering 10% of valid pixels improved all four metrics by more than 4% and 20% over prompt-free inference, respectively, supporting the technical feasibility of interaction. SHAP attributions were broadly consistent with established sea-ice remote-sensing knowledge, enhancing the model’s post hoc interpretability. Overall, ESICM improved sea-ice mapping with limited labeled data and showed application potential under controlled distribution shifts and simulated interaction.",
   "citation_count": 0,
   "concepts": [
-   "Algorithm",
-   "Robustness (evolution)",
-   "Synthetic aperture radar"
+   "Intersection (aeronautics)",
+   "Computer science",
+   "Metric (unit)"
   ],
   "source": "openalex",
   "topics": [
@@ -130,35 +94,32 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7223186999",
-  "title": "Airborne observatory for high-resolution land surface temperature and spectral emissivity",
+  "id": "openalex:W7223336804",
+  "title": "UniPoly: A unified instance-level framework for polygon and polyline extraction from remote sensing images",
   "authors": [
-   "Max Gerhards",
-   "T. Hu",
-   "F. Ronellenfitsch",
-   "P. Pinheiro",
-   "C. Corbari",
-   "D. Skokovic",
-   "J. Sobrino",
-   "M. Chamberland",
-   "T. Udelhoven",
-   "L. Hoffmann",
-   "Martin Schlerf"
+   "L. Deng",
+   "Zhihao Xi",
+   "Jiansheng Chen",
+   "任玉环",
+   "Jingbo Chen",
+   "Anzhi Yue",
+   "Yupeng Deng",
+   "Yu Meng"
   ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-22",
-  "doi": "10.1016/j.jag.2026.105636",
+  "date": "2026-10-23",
+  "doi": "10.1016/j.isprsjprs.2026.10.017",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105636",
-  "abstract": "The Land surface temperature and emissivity Airborne Observatory System (LAOS) provides land surface temperature (LST) and spectral land surface emissivity (LSE) at very high spatial resolutions (0.5–4 m) and flexible (e.g., intraday) acquisition times. LAOS enables: (i) to map spectral variations in LSE—an inherent property of land surface materials—and (ii) to analyse spatial and temporal variations in LST in relation to land surface processes. Here, we present the scientific rationale for developing the system, the components of the hardware and the processing chain, and retrieval and validation results from an agricultural case study. The LAOS hardware consists of a HyperCam-LW (Telops Inc.), a Fourier transformed infrared spectrometer that operates in the long-wave infrared (7.7–11.5 µm) and an associated airborne platform. The processing chain includes radiometric calibration, generation of ortho -photo mosaics, noise removal, atmospheric correction (AC) and temperature and emissivity separation (TES). Key innovations with respect to previous airborne hyperspectral TIR studies are an improved noise filtering step and a recalibrated minimum emissivity—spectral contrast relationship derived from an extended set of ECOSTRESS spectral library spectra . For demonstrating LAOS’ capacities, an extensive survey campaign was conducted over the Burana Irrigation Consortium area near Modena, Italy, on 13–15 July 2022. Images were acquired at 1- and 4-meter resolution during three times of the day. Raw image tiles were processed to LST and LSE mosaics and compared with ground measurements. Validation was performed over agricultural surfaces – wheat stubble, melon, and water –providing a more surface-type-diverse assessment than previous more urban-focused studies. The LST mosaics show good agreement with the in-situ temperatures across all three surface types (within-class R 2 = 0.52–0.86, RMSE = 2.0–3.2 K, global R 2 = 0.96). LSE maps reveal crisp changes at field boundaries and appear relatively constant over time (i.e., both during a day and across multiple days). Airborne LSE spectra show mostly reasonable agreement with ground measurements and reproduce the overall spectral shape. Spectral emissivity remains largely stable both diurnally and across days (average variability ∼ 1.1 %), indicating consistent retrieval performance at field scale. The results demonstrate that LAOS produces LST and LSE maps with accuracies consistent with previous hyperspectral TIR studies, showcasing its potential to address pressing questions in various fields, including agriculture (e.g., irrigation), forestry (e.g., stress detection), defence (e.g., target detection), and urban studies (e.g., urban heat islands). As a high spatial resolution airborne TIR imager, LAOS can also serve as a demonstrator for upcoming satellite missions, such as LSTM (Land Surface Temperature Monitoring, ESA), TRISHNA (Thermal Infrared Satellite for High-Resolution Applications, CNES & ISRO), and Eagle-TIR (Explorer for Artemis Geology Lunar and Earth, NASA).",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.017",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Emissivity",
-   "Remote sensing",
-   "Observatory"
+   "Computer science",
+   "Polygon (computer graphics)",
+   "Encoding (memory)"
   ],
   "source": "openalex",
   "topics": [
@@ -168,53 +129,66 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7223196648",
-  "title": "Multi-evidence-based assessment and selection of nine reconstructed solar-induced fluorescence products over China",
+  "id": "openalex:W7223361289",
+  "title": "Enhancing soil property retrieval in an Ali-Perudic Argosols–dominated region through multi-angle hyperspectral feature integration",
   "authors": [
-   "Fujin Xu",
-   "Changchun Xu"
+   "Zhou YuFei",
+   "Lixia Ma",
+   "Xiaofei Wang",
+   "Lin Gao",
+   "Xianzhang Pan",
+   "Ziran Yuan",
+   "王昌昆",
+   "Dongsheng Yu"
   ],
   "venue": "International Journal of Applied Earth Observation and Geoinformation",
   "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-22",
-  "doi": "10.1016/j.jag.2026.105650",
+  "date": "2026-10-23",
+  "doi": "10.1016/j.jag.2026.105646",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105650",
-  "abstract": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105646",
+  "abstract": "Soil bidirectional reflectance distribution function (BRDF) is strongly influenced by soil physicochemical properties, yet most hyperspectral retrieval studies rely on single-view reflectance, leaving the value of multi-angle information insufficiently explored. In this study, bidirectional reflectance factors (BRFs) were measured at 48 viewing angles for 156 soil samples collected from a region dominated by Ali-Perudic Argosols. An optimal multi-angle retrieval framework was developed for different soil properties by systematically comparing spectral preprocessing methods, feature extraction, and modeling algorithms. The effects of viewing angle on retrieval accuracy and feature wavelength distribution were further analyzed, and the applicability of simulated multi-angle BRFs generated using SOILSPECT model was further assessed. Results show that the optimal framework for single-view reflectance combines Savitzky–Golay (SG) smoothing, a hybrid random frog–competitive adaptive reweighted sampling (RFROG–CARS) feature selection strategy, and nonlinear support vector machine (SVM) regression. Retrieval accuracy varied substantially with viewing geometry, and no universal optimal viewing angle was identified across soil properties. For multi-angle BRF data, a two-dimensional convolutional neural network (2D-CNN) feature extraction approach outperformed the RFROG–CARS wavelength selection method. Specifically, R 2 (RMSE) improved from 0.64 (8.8 g/kg) to 0.73 (7.7 g/kg) for SOM content, from 0.53 (6.9 %) to 0.61 (6.3 %) for sand content, and from 0.64 (4.7 %) to 0.69 (4.4 %) for silt content, while remaining comparable for cation exchange capacity (0.77/2.4 cmol/kg to 0.76/2.4 cmol/kg) and clay content (0.80/4.3 % to 0.79/4.3 %). Although the retrieval accuracy based on multi-angle BRFs remained slightly lower than that obtained from the optimal viewing geometry, it consistently outperformed most individual viewing angles. The selected multi-angle hyperspectral features were distributed across nearly all viewing angles, indicating complementary spectral–geometric information. Although retrieval accuracy based on simulated BRFs was lower than that based on measured BRFs, the results were broadly comparable. These findings support the use of multi-angle information in soil spectroscopy and remote sensing applications.",
   "citation_count": 0,
   "concepts": [
-   "Selection (genetic algorithm)",
-   "China",
-   "Geography"
+   "Hyperspectral imaging",
+   "Feature (linguistics)",
+   "Feature selection"
   ],
   "source": "openalex",
-  "topics": [],
+  "topics": [
+   "遥感",
+   "机器学习",
+   "三维与几何"
+  ],
   "is_own": false
  },
  {
-  "id": "openalex:W7223203695",
-  "title": "Global offshore wind development (2015–2025): multiscale structural evolution based on object-level sar mapping",
+  "id": "openalex:W7223397522",
+  "title": "A physics-constrained superpixel-based multi-source remote sensing spatiotemporal fusion network",
   "authors": [
-   "Enyan Zhu",
-   "Aohan Ye",
-   "Lisu Chen"
+   "Qinyu Zhao",
+   "Luyan Ji",
+   "Qingxue Wang",
+   "Yaoxin Zhang",
+   "Yonggang Ma",
+   "Liqiang Zhang"
   ],
   "venue": "GIScience & Remote Sensing",
   "venue_short": "GISci. Remote Sens.",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-22",
-  "doi": "10.1080/15481603.2026.2751913",
+  "date": "2026-10-23",
+  "doi": "10.1080/15481603.2026.2741478",
   "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2751913",
+  "url": "https://doi.org/10.1080/15481603.2026.2741478",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
-   "Geology",
-   "Synthetic aperture radar"
+   "Computer science",
+   "Geography"
   ],
   "source": "openalex",
   "topics": [
@@ -223,28 +197,66 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7223177298",
-  "title": "LexSign: Learning Sign Language from Lexical Descriptions",
+  "id": "openalex:W7223265039",
+  "title": "BCP3D: Robust 3D Object Tracking Using Brain-Inspired Complementary-Pathway for Challenging Scenarios",
   "authors": [
-   "Yuecong Min",
-   "Honggang Zou",
-   "Peiqi Jiao",
-   "Xilin Chen"
+   "Lijian Wang",
+   "Taoyi Wang",
+   "Xiangru Chen",
+   "Yuguo Chen",
+   "Yihan Lin",
+   "Yapeng Meng",
+   "Rong Zhao",
+   "Luping Shi"
   ],
   "venue": "International Journal of Computer Vision",
   "venue_short": "IJCV",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-22",
-  "doi": "10.1007/s11263-026-03075-9",
+  "date": "2026-10-23",
+  "doi": "10.1007/s11263-026-03089-3",
   "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03075-9",
+  "url": "https://doi.org/10.1007/s11263-026-03089-3",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Natural language processing",
    "Computer science",
-   "Artificial intelligence"
+   "Artificial intelligence",
+   "Computer vision"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7223286273",
+  "title": "Synergizing Disentangled Representation and Split Federated Learning to Break Centralized Bottlenecks in Gaze Estimation",
+  "authors": [
+   "Yunlong Wang",
+   "Zhengquan Luo",
+   "Kunbo Zhang",
+   "Zhenan Sun",
+   "Zhaofeng He",
+   "Dacheng Tao",
+   "Tieniu Tan"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-23",
+  "doi": "10.1007/s11263-026-03084-8",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03084-8",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Representation (politics)",
+   "Gaze"
   ],
   "source": "openalex",
   "topics": [
