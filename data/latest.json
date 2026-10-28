@@ -1,218 +1,68 @@
 [
  {
-  "id": "openalex:W7223551140",
-  "title": "PRINT: A semi-empirical canopy water removal approach for improving estimates of leaf nitrogen and grain protein contents in winter wheat",
+  "id": "openalex:W7223661197",
+  "title": "Remote sensing of lake surface water temperature reveals divergent hydroclimatic associations with lake ice phenology across China",
   "authors": [
-   "Peng Fang",
-   "Yan Yan",
-   "Dong Li",
-   "Yapeng Wu",
-   "Wei Feng",
-   "Caili Guo",
-   "Xia Yao",
-   "Yan Zhu",
-   "Weixing Cao",
-   "Tao Cheng"
+   "Qian Yang",
+   "Junyi Chang",
+   "Wendi Luo",
+   "Hongjun Su",
+   "Jintao Li",
+   "Nan Lin",
+   "刘焕军",
+   "Kaishan Song",
+   "Yingxin Shang",
+   "Xiaohua Hao",
+   "Hongxing Li",
+   "Chunxu Wang",
+   "Xiaoguang Shi"
   ],
   "venue": "International Journal of Applied Earth Observation and Geoinformation",
   "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-25",
-  "doi": "10.1016/j.jag.2026.105651",
+  "date": "2026-10-27",
+  "doi": "10.1016/j.jag.2026.105633",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105651",
-  "abstract": "Accurate estimation of leaf nitrogen content (LNC) and grain protein content (GPC) in winter wheat is crucial for making fertilization recommendations and assessing grain quality. Previous methods primarily relied on chlorophyll (Chl)-sensitive vegetation indices from the visible and near-infrared domain, while shortwave-infrared spectral features linked to dry matter and nitrogen remain underutilized due to strong leaf water masking. Although existing water removal methods can mitigate the absorption effects of leaf water, the reliability of the resulting simulated dry-canopy reflectance spectra (SDR) is limited by inaccurate leaf mass per area (LMA) retrieval. This study aimed to develop a semi-empirical water removal approach by integrating PRior knowledge and INitialization of leaf water conTent and LMA (PRINT) to simulate SDR, with the objective of improving the estimation performance of LNC and GPC. To achieve this goal, a Random Forest-based hybrid retrieval model was developed to increase LMA retrieval accuracy. Meanwhile, a visible and shortwave-based nitrogen index (VSNI) by combining the visible (proxy of Chl) and shortwave-infrared features was proposed for improving estimation performance of LNC and GPC. Moreover, experimental datasets covering multiple growth stages and geographic sites were collected to improve sample representativeness. These datasets were utilized to improve the retrieval of LMA and evaluate the performance of LNC and GPC estimations. The results demonstrated that the PRINT significantly improved the estimation accuracy of LMA over two standard physically-based inversion models (RMSE: 6.23 g/m 2 vs 8.25 g/m 2 and 45.73 g/m 2 ). Compared with existing VI-based models, the VSNI-based models yielded substantial improvements in LNC (R 2 : 0.62 ∼ 0.65, RMSE = 0.42 ∼ 0.54%) across sites, and enhanced GPC estimation accuracy up to R 2 = 0.66 (RMSE = 0.70%) at the peak filling stage across two years at one site. The proposed methodology advances the spectroscopic understanding of shortwave-infrared responses to nitrogen-related agronomic biochemicals, and holds significant potential for future applications in large-scale growth monitoring of wheat systems using satellite imagery.",
-  "citation_count": 0,
-  "concepts": [
-   "Leaf area index",
-   "Nitrogen",
-   "Canopy"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7223559750",
-  "title": "High-resolution mapping of urban wet-bulb temperature and its intra-urban variability: A London case study",
-  "authors": [
-   "Zitong Wen",
-   "Lu Zhuo",
-   "Jiao Wang",
-   "Zeyi Jiang",
-   "Jingxuan Zhu",
-   "Ming Feng Zhong",
-   "Dawei Han"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-25",
-  "doi": "10.1016/j.jag.2026.105649",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105649",
+  "url": "https://doi.org/10.1016/j.jag.2026.105633",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Geography",
-   "Urban heat island",
-   "Regional science"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7223571178",
-  "title": "Eyegent: Visual Attention Orchestration on Concepts",
-  "authors": [
-   "Alessandro D’Amelio",
-   "Sabrina Patania",
-   "Luca Annese",
-   "Giuseppe Boccignone"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-25",
-  "doi": "10.1007/s11263-026-03042-4",
-  "pdf": "https://link.springer.com/content/pdf/10.1007/s11263-026-03042-4.pdf",
-  "url": "https://doi.org/10.1007/s11263-026-03042-4",
-  "abstract": "Abstract Where a human looks is not random, nor is it merely a reflex to visual salience. It is a decision shaped by goals, constrained by language, and driven by the need to resolve uncertainty. We propose Eyegent , an active vision agent built on this premise: that visual search is best understood as sequential Bayesian inference over semantically grounded hypotheses, with fixations serving as epistemic actions. Given an image and a natural-language query, Eyegent constructs a discrete hypothesis space of candidate segmentation masks, maintains an explicit posterior belief distribution, and selects each fixation to maximise expected information gain—updating beliefs via vision–language model verification and terminating when uncertainty falls below a principled risk threshold. We formalise this process as Bayesian Active Semantic Grounding (BASG), a computational-level account that provides formal guarantees on belief concentration, entropy reduction, and bounded decision risk. The framework is neurobiologically grounded in the large-scale network organisation of the human brain, with the Salience Network identified as the dynamic orchestrator of semantic, inferential, and oculomotor processes. Critically, Eyegent requires no gaze supervision and no task-specific training: it is zero-shot, modular, and built entirely from off-the-shelf components. Evaluated on RefCOCO-Gaze and AiR-D, two benchmarks coupling language-driven visual tasks with human eye-tracking ground truth, Eyegent achieves competitive or state-of-the-art performance among zero-shot methods across semantic, spatial, and structural scanpath metrics, and approaches supervised baselines on several dimensions. The result is a system that does not merely predict where humans look, but generates scanpaths for the same reason humans generate them: to find out.",
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Artificial intelligence",
-   "Salience (neuroscience)"
+   "Phenology",
+   "Remote sensing",
+   "Environmental science"
   ],
   "source": "openalex",
   "topics": [
-   "计算机视觉",
-   "多模态"
+   "遥感"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7223572034",
-  "title": "$${\\text {VLScene}}^{++}$$: Enhancing 3D Semantic Scene Completion via VLM Discrepancy-Aware Semantic Distillation and Sparse–Dense Hybrid Awareness",
+  "id": "arxiv:2610.36844v1",
+  "title": "AxisQ: Depth-Adaptive Channel--Frequency Quantization for Camouflaged Object Detection",
   "authors": [
-   "Meng Wang",
-   "Yujie Xue",
-   "Jijiang Liu",
-   "Ruihui Li",
-   "Zhuo Tang",
-   "Kenli Li"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-25",
-  "doi": "10.1007/s11263-026-03050-4",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03050-4",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Semantic computing",
-   "Semantics (computer science)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.33965v1",
-  "title": "Accuracy Is Not Enough: An Efficiency- and Statistics-Aware Benchmark of ResNet50 and Vision Transformer for Explainable Multi-Class Gastrointestinal Diseases Classification",
-  "authors": [
-   "Akwasi Asare"
+   "Chi Ruan",
+   "Tianqi Li",
+   "Xin He",
+   "Xue Geng",
+   "Ming-Ming Cheng",
+   "Yun Liu"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-25",
+  "date": "2026-10-27",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.33965v1",
-  "url": "https://arxiv.org/abs/2610.33965v1",
-  "abstract": "Automated classification of gastrointestinal (GI) findings in endoscopic images could support early diagnosis, but architectures are often chosen on accuracy alone. We present a controlled, reproducible benchmark of ResNet50 and ViT-B/16 for eight-class GI classification on the public Kvasir dataset (4,000 images), using a stratified split (400 test images) and stratified group 5-fold cross-validation over all images. In cross-validation, ResNet50 and ViT-B/16 reached 92.12% and 91.70% accuracy, and a two one-sided tests (TOST) procedure showed equivalence within a +/-3 percentage-point margin (difference +0.43 points, 90% CI -0.33 to +1.18; p < 0.001). The architectures differed mainly in cost: ResNet50 had 3.6 times fewer parameters and 4.3 times fewer operations, 2.5-fold lower single-image CPU latency (69 vs. 177 ms) and 3.8-fold higher GPU throughput. Cross-validated calibration was similar (expected calibration error 0.021 vs. 0.023). An edge-oriented transformer, MobileViT-S, was most accurate on the test split (95.5%) but lost 9.4 points when an acquisition artefact present in some classes (the ScopeGuide inset) was occluded, whereas ResNet50 was not significantly affected. On 500 unseen polyp images with expert masks, both models' Grad-CAM maps focused on the lesion (3.6 times chance). On a de-duplicated external subset of GastroVision (1,998 images), accuracy fell to 78-80% for all three models and differences between them remained small. Accuracy differences between architectures were thus small relative to the effects of shortcut learning and domain shift, whereas efficiency differences were large. An efficient CNN is a defensible default for resource-constrained screening, but no model is deployment-ready without local validation.",
+  "pdf": "https://arxiv.org/pdf/2610.36844v1",
+  "url": "https://arxiv.org/abs/2610.36844v1",
+  "abstract": "Camouflaged object detection (COD) depends on weak texture and boundary cues that can be destroyed by aggressive post-training quantization (PTQ). Existing PTQ methods mainly optimize quantizers or reconstruct network blocks, while using a single precision-allocation domain throughout hierarchical backbones. Instead, we introduce AxisQ, a depth-adaptive bit-allocation framework motivated by the observation that the useful allocation axis changes with feature depth. Under a fixed per-layer average activation-bit budget, AxisQ allocates precision in the channel domain for shallow features and in the local-frequency domain for deep features, using COD-aware sensitivity to better preserve subtle foreground regions and ambiguous boundaries. We also formulate a boundary-aware Hessian approximation for reconstruction by incorporating boundary-weighted gradient and error statistics. Experiments across multiple COD models and diverse benchmarks demonstrate improved accuracy over the strongest baselines at low bit widths, with relative weighted F-measure gains of 12.7% for CFRN and 33.3% for CamoFormer-P on CAMO under W2A2 quantization. These results support adapting the allocation domain to feature depth as a transferable quantization strategy for hierarchical COD models.",
   "citation_count": 0,
   "concepts": [
    "cs.CV"
   ],
-  "arxiv_id": "2610.33965v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.34028v1",
-  "title": "Explaining Navigation Decisions: Stage-Aware Visual Attribution for Vision-Language Navigation",
-  "authors": [
-   "Yiyuan Yao",
-   "Xinpeng Ding",
-   "Minglei Chen",
-   "Fei Gao",
-   "Lihuo He",
-   "Jie Yuan",
-   "Aijun Li",
-   "Nannan Wang",
-   "Xinbo Gao"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-25",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.34028v1",
-  "url": "https://arxiv.org/abs/2610.34028v1",
-  "abstract": "As Vision-Language Models (VLMs) increasingly enable robots to follow language instructions, understanding their navigation decisions becomes important for reliable deployment. Existing explainability methods overlook a key challenge in Vision-Language Navigation (VLN): evidence for the current action may be distributed across historical and current observations and associated with different instruction stages. We identify instruction-stage insensitivity, where existing methods produce similar explanations despite changes across different navigation stages. To address this issue, we propose a stage-aware attribution framework for VLN. We first construct action-conditioned temporal instruction--visual attributions across observations. These attributions are projected into instruction space to estimate stage associations, which guide the aggregation of relevant historical evidence for refining the current explanation. An instruction-guided spatial filter further suppresses isolated responses while preserving compact, instruction-relevant regions. Experiments across multiple VLN policies and benchmarks show improved attribution quality over existing methods. We further demonstrate that our method acts as a diagnostic tool for analyzing failure cases, and validate its applicability to real-world navigation on a Unitree G1 robot.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2610.34028v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2610.33988v1",
-  "title": "Hybrid Mamba-Transformer Network for Single-Shot 3D Reconstruction from Fringe Patterns",
-  "authors": [
-   "Xinjie Zhou",
-   "XiaoLei Li"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-10-25",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.33988v1",
-  "url": "https://arxiv.org/abs/2610.33988v1",
-  "abstract": "Deep learning facilitates rapid single shot three dimensional (3D) reconstruction using fringe projection profilometry (FPP), but recovering accurate surface height from a single high frequency fringe image remains challenging because both long-range spatial consistency and fine geometric details must be preserved. Convolutional networks are limited in modeling long range dependencies, whereas window-based Transformers establish global interactions only progressively with increasing depth. To address these limitations, a hybrid Mamba Transformer network is proposed for fringe to height regression. The network adopts a Swin based U shaped architecture and introduces visual state space modeling at the intermediate resolution encoder stage. An axial and dilated vision state space (ADVSS) block is further developed to enhance prescan feature encoding through local, dilated, and axial depthwise convolutions while retaining four directional selective scanning. This design combines linear complexity long range modeling with direction aware preservation of local fringe structures. Experiments on a publicly available FPP dataset show that the proposed method outperforms hNet, SwinConvUNet, UHRNet, and HiDNet in mean absolute error(MAE), root mean square error (RMSE), absolute relative error, and structural similarity index measure (SSIM). Using only one deformed fringe image, the proposed method achieves an RMSE of 0.548 mm and an SSIM of 0.9985, reducing RMSE by 65.2% and 59.6% relative to UHRNet and HiDNet, respectively. These results demonstrate the effectiveness of combining selective state space modeling with hierarchical window based attention for accurate single-shot FPP reconstruction.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "physics.optics"
-  ],
-  "arxiv_id": "2610.33988v1",
+  "arxiv_id": "2610.36844v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
@@ -222,35 +72,192 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2610.33966v1",
-  "title": "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
+  "id": "arxiv:2610.36756v1",
+  "title": "Efficient Remote Sensing Image-Text Retrieval via Interaction-Free Recall and Text-Guided Reranking",
   "authors": [
-   "Qinsi Wang",
-   "Wei Wen",
-   "Chong Zhou",
-   "Saksham Suri",
-   "Zechun Liu",
-   "Lemeng Wu",
-   "Hai Helen Li",
-   "Yiran Chen",
-   "Raghuraman Krishnamoorthi",
-   "Qi Qian"
+   "Xi Chen",
+   "Xu Chen",
+   "Xiamgyang Jia",
+   "Wei Wang",
+   "Xu Zhang",
+   "Zhenyuan Shun"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-10-25",
+  "date": "2026-10-27",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2610.33966v1",
-  "url": "https://arxiv.org/abs/2610.33966v1",
-  "abstract": "People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishes to lost keys. Powered by multimodal large language models (MLLMs), egocentric AI assistants on wearable devices are bringing this dream within reach: they see what the user sees and give instructions for user's physical work when necessary. However, testing such assistance is challenging and usually requires real people. The expensive and rare real interaction data leaves a key question unanswered: Can today's MLLMs truly help people in physical world? To answer this question, we propose InteractiveWorld, the first verifiable environment for closed-loop interaction between human and AI assistant. Unlike existing robot-centric simulators, InteractiveWorld lets the assistant guide a human agent who observes the scene, understands instructions, and acts independently. It thus realistically simulates how AI assistant collaborates with human: the assistant instructs, the human acts, and the environment executes actions and updates what they see next. Building on it, we introduce InteractiveBench, the first dynamic benchmark for egocentric AI assistants, with 120 multi-turn tasks across six categories. In each task, the assistant guides the human in real time, and every instruction shapes the outcome, which is scored by verifiable, state-based rewards. Experiments with 12 frontier MLLMs show they are still far from reliable assistants. Even the strongest model, Claude Fable 5.1, achieves at most 20% and 25% on long-horizon Guidance and Planning tasks, respectively. Overall, our work offers a verifiable platform and a rigorous evaluation set, laying a solid foundation for research on interactive MLLM assistants that truly help people in the physical world.",
+  "pdf": "https://arxiv.org/pdf/2610.36756v1",
+  "url": "https://arxiv.org/abs/2610.36756v1",
+  "abstract": "Remote sensing (RS) image-text retrieval plays a critical role in understanding massive RS imagery. However, the dense multi-object distribution and complex backgrounds in RS imagery make it difficult to simultaneously achieve fine-grained cross-modal alignment and efficient retrieval. Existing methods either rely on complex cross-modal interactions that lead to low retrieval efficiency, or depend on large-scale vision-language adaptation, which requires massive data and computational resources. To address these issues, we develop a fast-then-fine (FTF) retrieval framework centered on interaction-free multi-granular recall and parameter-free text-guided cross-modal reranking with the Balanced Text-guided Interaction Block (BTIB). Specifically, interaction-free multi-granular recall pre-computes gallery embeddings and matches them with the corresponding query embedding without full-gallery token-level text-image interaction, while text-guided cross-modal reranking with BTIB refines local semantic correspondence within the top-K candidate set. Furthermore, an inter- and intra-modal loss is designed to jointly optimize cross-modal alignment across multi-granular representations. Extensive experiments on public benchmarks demonstrate that the FTF achieves competitive retrieval accuracy while significantly improving retrieval efficiency compared with existing methods.",
   "citation_count": 0,
   "concepts": [
-   "cs.HC",
    "cs.CV"
   ],
-  "arxiv_id": "2610.33966v1",
+  "arxiv_id": "2610.36756v1",
+  "source": "arxiv",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.36719v1",
+  "title": "SAGE: Saliency-Annealed Gated Encoder for Universal Vision Recognition",
+  "authors": [
+   "Le Yang",
+   "Yucheng Huang",
+   "Junyu Chen",
+   "Qi Dang",
+   "Xin Kong",
+   "Haifeng Huo",
+   "Qiang Zhao"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-27",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.36719v1",
+  "url": "https://arxiv.org/abs/2610.36719v1",
+  "abstract": "When adapting self-supervised Vision Transformers (ViTs) to dense prediction, existing methods often treat the ViT as a passive feature extractor and may underuse the rich priors encoded in its representations, including saliency, global context, and high-frequency details. We propose SAGE (Saliency-Annealed Gated Encoder), an enhanced ViT-Adapter backbone that explicitly exploits these priors through three complementary innovations: (1) a saliency-guided architecture that extracts DINO-style class-token (CLS) saliency to guide feature gating and high-frequency enhancement, together with dynamic multi-layer aggregation and a local-detail branch; (2) an annealing-based training paradigm designed to improve convergence and feature quality during early training while reducing feature drift later in training; and (3) a two-stage, quality-aware training mechanism that smoothly transitions from focal loss to Varifocal Loss (VFL) within a single training run. Across the evaluated tasks (Fig.~\\ref{fig:fig_com}), SAGE achieves state-of-the-art (SOTA) or competitive results on COCO (62.8 box AP and 55.3 mask AP), COCO keypoint estimation (78.5 AP), ADE20K (60.3 mIoU for semantic segmentation and 44.9 mask AP for instance segmentation), TinyImageNet classification (94.76\\% Top-1 accuracy), and DIOR-R oriented object detection (78.8 AP$_{50}$). The same backbone is used across tasks, with task-specific decoders. To the best of our knowledge, SAGE is the first framework to achieve multi-task state-of-the-art results on Huawei Ascend NPUs. Code and pretrained models will be released after internal review.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2610.36719v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.36718v1",
+  "title": "Nonlinear Direct Feedback Alignment for Scalable Backpropagation-Free Training",
+  "authors": [
+   "Wu Lin",
+   "Yan Fan",
+   "Chenxiang Ma",
+   "Yinglan Feng",
+   "Jia Wang",
+   "Ka-Chun Wong",
+   "Qiuzhen Lin"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-27",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.36718v1",
+  "url": "https://arxiv.org/abs/2610.36718v1",
+  "abstract": "Backpropagation (BP) remains the predominant algorithm for training deep neural networks, but it is biologically implausible and suffers from the backward locking problem, constraining parallelization across layers. Direct Feedback Alignment~(DFA), which propagates the global output error directly to each hidden layer via fixed feedback matrices, has emerged as a promising alternative for addressing these limitations. However, a significant performance gap persists between DFA and BP, which we attribute to the limited ability of fixed feedback matrices to capture the nonlinear transformation from hidden representations to the network output. To address this limitation, we propose Nonlinear Direct Feedback Alignment (NDFA), which constructs each hidden-layer feedback using a lightweight nonlinear surrogate subnetwork. To enhance the effectiveness of the feedback throughout training, we further propose a learning strategy to update the surrogate subnetwork, thereby better approximating the underlying nonlinear transformation. Extensive experiments across residual networks and vision transformers on CIFAR-10, CIFAR-100, SVHN, and ImageNet datasets demonstrate that NDFA consistently outperforms existing DFA-based methods and substantially narrows the performance gap to BP, while maintaining efficient parallel training. The code is available at https://github.com/YanFan321/NDFA.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.LG"
+  ],
+  "arxiv_id": "2610.36718v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.36951v1",
+  "title": "Dense Representation Learning and Differentiable Shape Modeling for Spine Landmark Detection",
+  "authors": [
+   "Augustin Daridon",
+   "Sofiane Sifaoui",
+   "Ayman Assi",
+   "Mohamad Karam",
+   "Wafa Skalli",
+   "Elsa Angelini",
+   "Loic Le Folgoc"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-27",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.36951v1",
+  "url": "https://arxiv.org/abs/2610.36951v1",
+  "abstract": "Spine landmark detection from spinal X-ray is a key step for estimating spine deformation severity, for building biomechanical models, and for pre-operative planning. We reframe anatomical landmark detection as a pixel-level contrastive representation learning problem, matching dense pixel embeddings with landmark prototypes. Surprisingly, even with a generic U-Net backbone, this formulation results in more discriminative heatmaps compared to the traditional heatmap regression paradigm, leading to improved discrimination between vertebral corners on distinct vertebra. Furthermore, we combine the resulting heatmaps with learnable shape priors over the global configuration of spinal landmarks to resolve ambiguities in landmark locations, yielding a simple and practical approach to spinal landmark detection. Our approach is competitive, in terms of landmark accuracy and clinical parameter estimation, with the state-of-the-art on the public AASCE dataset and on two private spinal X-ray datasets. Our code and pre-trained weights are available at https://github.com/BioMedTP/Pix2Point.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV",
+   "cs.AI"
+  ],
+  "arxiv_id": "2610.36951v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.36929v1",
+  "title": "DocXEval: A Systematic Evaluation of Explainability in Multimodal Document Understanding",
+  "authors": [
+   "Saifullah Saifullah",
+   "David Dembinsky",
+   "Stefan Agne",
+   "Andreas Dengel",
+   "Sheraz Ahmed"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-27",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.36929v1",
+  "url": "https://arxiv.org/abs/2610.36929v1",
+  "abstract": "Multimodal transformer models have driven unprecedented performance breakthroughs in modern document understanding. However, the inherent black-box nature of these models remains a major obstacle to their safe deployment in high-stakes sectors. Despite significant progress in explainability for vision and language tasks, explainable AI (XAI) research tailored to multimodal document understanding has received little attention. To address this gap, we present \\ourframework{}, the first comprehensive explainability framework that adapts existing XAI methods and evaluation metrics to the multimodal (text, layout, and image) document understanding context, while introducing efficient multi-target adaptations of both methods and metrics for domain-specific tasks such as semantic entity recognition. Using \\ourframework{}, we systematically evaluate 13 XAI methods across 3 document understanding tasks, 8 datasets, 4 models, and 17 evaluation metrics, and find that only a few methods perform consistently across all evaluation criteria, with Occlusion emerging as the most faithful and interpretable method overall. Through a dedicated meta-evaluation, we observe moderate to strong agreement among several faithfulness and complexity metrics while identifying certain ones that produce unreliable results. Finally, through multiple dataset-wide diagnostic analyses, we uncover key insights into model behavior, including the contribution of individual modalities across tasks and labels, spatial attribution patterns around target entities, and potential dataset biases. Overall, this work serves as both a benchmark and a practical guide for future XAI research in multimodal document understanding. To support reproducibility, we publicly release our code at https://github.com/saifullah3396/docxeval/.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CL",
+   "cs.CV"
+  ],
+  "arxiv_id": "2610.36929v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2610.36896v1",
+  "title": "PREEN: Exemplar-Based Color Style Transfer with Smartphone Editor Presets",
+  "authors": [
+   "Beomjin Ahn"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-10-27",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2610.36896v1",
+  "url": "https://arxiv.org/abs/2610.36896v1",
+  "abstract": "We present PREEN (Preset Regression via an Exemplar-based Editor Network), which casts color style transfer as regression onto the 29 parameters of a deterministic image editor. Given a content image and a style reference, PREEN predicts a preset, a vector of editor slider values that is interpretable and editor-consumable, not a raster image. The key obstacle is supervision, since an arbitrary real reference lacks a preset ground truth. We therefore supervise with a style-transfer teacher, whose target looks we invert into the editor's parameter space as pseudo-presets, then pretrain a CLIP-conditioned regressor and refine it with LoRA under an image-level CIELAB loss. On the human-curated PST50 benchmark, PREEN applies the reference's color while preserving structural fidelity, leading the baselines on pixel- and perceptual-fidelity metrics. The preset is compact and predicted at sub-second on-device latency. The low-dimensional subspace also exposes a single inference-time strength knob that traces a continuous default-to-vivid trajectory in one forward pass, with every intermediate state a valid editor preset. A two-axis human study shows that raters prefer the vivid end for matching the reference but the default as a standalone photo, a trade-off the knob spans without retraining.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV",
+   "cs.LG"
+  ],
+  "arxiv_id": "2610.36896v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
