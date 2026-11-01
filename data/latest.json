@@ -1,5 +1,58 @@
 [
  {
+  "id": "openalex:W7224751712",
+  "title": "Physics-constrained spatio-temporal generative adversarial learning for daily-scale sea ice thickness prediction",
+  "authors": [
+   "Jikun Liu",
+   "Guoping Zhang",
+   "Li Chen",
+   "Shuai Xing",
+   "Ming Gao",
+   "Pengcheng Li",
+   "Dandi Wang",
+   "Bo Zheng"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-30",
+  "doi": "10.1016/j.isprsjprs.2026.10.042",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.042",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Adversarial system",
+   "Artificial intelligence",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7224896816",
+  "title": "Editorial Board",
+  "authors": [],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-30",
+  "doi": "10.1016/s0924-2716(26)00544-7",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/s0924-2716(26)00544-7",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7224084191",
   "title": "Identifying spectral proxies for adsorbed heavy rare earth elements: From local effectiveness to cross-borehole wavelength shifts and exploration implications",
   "authors": [
@@ -185,7 +238,7 @@
   "year": 2026,
   "date": "2026-10-29",
   "doi": "10.1080/15481603.2026.2730890",
-  "pdf": null,
+  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/15481603.2026.2730890?needAccess=true",
   "url": "https://doi.org/10.1080/15481603.2026.2730890",
   "abstract": "The rapid expansion of Kappaphycus alvarezii cultivation in Indonesia poses significant sustainability challenges due to ad hoc site selection, which has contributed to disease outbreaks and exceeded ecological carrying capacities. This study employs ocean color remote sensing and Multi-Criteria Decision Analysis (MCDA) to develop a knowledge-driven geospatial model for identifying suitable habitat zones on Lombok Island. By integrating the Analytical Hierarchy Process (AHP) and Weighted Linear Combination (WLC), a biophysical hierarchy is established that prioritizes physiological survival over theoretical yield maximization. To enhance model robustness in the absence of independent yield data, a Map Removal Sensitivity Analysis (MRSA) was implemented to quantify the relative influence and spatial sensitivity of key environmental parameters. The results indicate sea surface temperature (21.46%) and salinity (15.33%) as the most influential variables, supporting a “survival-first” paradigm for mitigating ice-ice disease risks. The geospatial analysis reveals a spatial pattern of high suitability consistent with an “environmentally balanced” zone, characterized by depths of approximately 2–30 m and current velocities of 0.2–0.4 m/s. Sensitivity results further show that while SST exerts a dominant but spatially uniform control, salinity and dissolved oxygen drive localized variability, identifying regional-scale sensitivity gradients whose ecological interpretation is bounded by the resolution of the underlying data. Quantitative spatial validation against 275 georeferenced farm GPS locations shows that 96.7% of farms are concentrated in the southern high-suitability zone, against an area-based null expectation of 26.0% for that cluster (chi-square = 716.7, df = 2, p < 0.001). A per-suitability-class overlay further confirms that 98.9% of farms fall within High-suitability pixels and none within Low-suitability pixels against an area-based null of 66.9% (chi-square p < 0.001); Cohen’s κ against a random background is modest (0.08), reflecting the abundance of high-suitability habitat relative to the small number of realized farms. These findings provide a practical and transferable framework for supporting Allocated Zones for Aquaculture (AZAs) and identifying growing-season and risk-informed aquaculture sites in data-limited coastal regions. The resulting model constitutes a growing-season suitability index explicitly framed for the East Monsoon cultivation window (June–August), and provides a spatially explicit, satellite-informed decision-support tool for K. alvarezii site selection in Lombok Island waters.",
   "citation_count": 0,
@@ -200,68 +253,6 @@
    "计算机视觉",
    "三维与几何"
   ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7224451045",
-  "title": "First results of joint sea surface salinity, temperature, and wind speed retrieval from MICAP Simultaneous L/C/K-band active and passive observations",
-  "authors": [
-   "Wenyu WANG",
-   "Lanjie Zhang",
-   "Xiaolin Tong",
-   "Zhenzhan Wang",
-   "Wu Zhou",
-   "Hao Liu"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-29",
-  "doi": "10.1080/15481603.2026.2751876",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2751876",
-  "abstract": "The Microwave Imager Combined Active and Passive (MICAP) onboard the Chinese Ocean Salinity Satellite (HY-4A) is a novel spaceborne payload developed for the simultaneous retrieval of Sea Surface Salinity (SSS), Sea Surface Temperature (SST), and Sea Surface Wind Speed (WS). MICAP uniquely combines L-band (1.4 GHz), C-band (6.9 GHz), and K-band (18.7 GHz) one-dimensional (1-D) interferometric synthetic aperture radiometers with an L-band Digital Beam-Forming (DBF) scatterometer. This paper presents the Level-2 retrieval algorithms and preliminary validation results obtained during the early in-orbit verification phase of the MICAP ocean products. The retrieval framework adopts a two-step strategy, including an L-band only SSS retrieval scheme (Mode-1) and a combined multi-parameter retrieval scheme (Mode-2). In Mode-2, the simultaneous C/K-band measurements are first used to derive estimates of SST and WS. These auxiliary parameters are subsequently combined with the L-band radiometer and scatterometer measurements to perform the final SSS and WS retrieval. Preliminary validation against Argo observations shows an SSS RMSE of approximately 0.58 psu for the Mode-2 retrieval over the screened open ocean validation sample. The retrieved SST and WS products show RMSEs of 0.80 K and 1.17 m/s, respectively, when compared with iQuam and TAO buoy data. These results provide an initial in-orbit demonstration of simultaneous multi-parameter retrieval using the MICAP multi-frequency active and passive observations.",
-  "citation_count": 0,
-  "concepts": [
-   "Buoy",
-   "Remote sensing",
-   "Argo"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7224266045",
-  "title": "Performance Evaluation of Embedded AI Inference on Zynq Ultrascale+ and Versal SoCs for Onboard Space Applications",
-  "authors": [
-   "Arthur de Freitas Precht",
-   "Edoardo Caroselli",
-   "Bharadwaj Chintalapati",
-   "Riccardo Gallon",
-   "Filippo Ales"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-29",
-  "doi": "10.1007/s11263-026-03087-5",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03087-5",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Python (programming language)",
-   "Computer science",
-   "Embedded system"
-  ],
-  "source": "openalex",
-  "topics": [],
   "is_own": false
  }
 ]

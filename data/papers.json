@@ -1,5 +1,58 @@
 [
  {
+  "id": "openalex:W7224751712",
+  "title": "Physics-constrained spatio-temporal generative adversarial learning for daily-scale sea ice thickness prediction",
+  "authors": [
+   "Jikun Liu",
+   "Guoping Zhang",
+   "Li Chen",
+   "Shuai Xing",
+   "Ming Gao",
+   "Pengcheng Li",
+   "Dandi Wang",
+   "Bo Zheng"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-30",
+  "doi": "10.1016/j.isprsjprs.2026.10.042",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.042",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Adversarial system",
+   "Artificial intelligence",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7224896816",
+  "title": "Editorial Board",
+  "authors": [],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-30",
+  "doi": "10.1016/s0924-2716(26)00544-7",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/s0924-2716(26)00544-7",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7224084191",
   "title": "Identifying spectral proxies for adsorbed heavy rare earth elements: From local effectiveness to cross-borehole wavelength shifts and exploration implications",
   "authors": [
@@ -185,7 +238,7 @@
   "year": 2026,
   "date": "2026-10-29",
   "doi": "10.1080/15481603.2026.2730890",
-  "pdf": null,
+  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/15481603.2026.2730890?needAccess=true",
   "url": "https://doi.org/10.1080/15481603.2026.2730890",
   "abstract": "The rapid expansion of Kappaphycus alvarezii cultivation in Indonesia poses significant sustainability challenges due to ad hoc site selection, which has contributed to disease outbreaks and exceeded ecological carrying capacities. This study employs ocean color remote sensing and Multi-Criteria Decision Analysis (MCDA) to develop a knowledge-driven geospatial model for identifying suitable habitat zones on Lombok Island. By integrating the Analytical Hierarchy Process (AHP) and Weighted Linear Combination (WLC), a biophysical hierarchy is established that prioritizes physiological survival over theoretical yield maximization. To enhance model robustness in the absence of independent yield data, a Map Removal Sensitivity Analysis (MRSA) was implemented to quantify the relative influence and spatial sensitivity of key environmental parameters. The results indicate sea surface temperature (21.46%) and salinity (15.33%) as the most influential variables, supporting a “survival-first” paradigm for mitigating ice-ice disease risks. The geospatial analysis reveals a spatial pattern of high suitability consistent with an “environmentally balanced” zone, characterized by depths of approximately 2–30 m and current velocities of 0.2–0.4 m/s. Sensitivity results further show that while SST exerts a dominant but spatially uniform control, salinity and dissolved oxygen drive localized variability, identifying regional-scale sensitivity gradients whose ecological interpretation is bounded by the resolution of the underlying data. Quantitative spatial validation against 275 georeferenced farm GPS locations shows that 96.7% of farms are concentrated in the southern high-suitability zone, against an area-based null expectation of 26.0% for that cluster (chi-square = 716.7, df = 2, p < 0.001). A per-suitability-class overlay further confirms that 98.9% of farms fall within High-suitability pixels and none within Low-suitability pixels against an area-based null of 66.9% (chi-square p < 0.001); Cohen’s κ against a random background is modest (0.08), reflecting the abundance of high-suitability habitat relative to the small number of realized farms. These findings provide a practical and transferable framework for supporting Allocated Zones for Aquaculture (AZAs) and identifying growing-season and risk-informed aquaculture sites in data-limited coastal regions. The resulting model constitutes a growing-season suitability index explicitly framed for the East Monsoon cultivation window (June–August), and provides a spatially explicit, satellite-informed decision-support tool for K. alvarezii site selection in Lombok Island waters.",
   "citation_count": 0,
@@ -284,7 +337,11 @@
   "url": "https://doi.org/10.1007/s11263-026-03104-7",
   "abstract": null,
   "citation_count": 0,
-  "concepts": [],
+  "concepts": [
+   "Focus (optics)",
+   "Sampling (signal processing)",
+   "Computer science"
+  ],
   "source": "openalex",
   "topics": [
    "三维与几何"
@@ -5665,6 +5722,65 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7224077829",
+  "title": "Uncertainty-aware discriminant analysis for feature learning",
+  "authors": [
+   "Zhizheng Liang",
+   "Yue Li"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-28",
+  "doi": "10.1016/j.patcog.2026.115219",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115219",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Artificial intelligence",
+   "Pattern recognition (psychology)",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7224137614",
+  "title": "Spatial–frequency fusion via state space modeling for efficient image super-resolution",
+  "authors": [
+   "Hong Yang",
+   "Tingxin Li",
+   "Jintuo Wang",
+   "Xianqiang Yang"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-28",
+  "doi": "10.1016/j.patcog.2026.115206",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115206",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer vision",
+   "Artificial intelligence",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
   "id": "arxiv:2610.39029v1",
   "title": "MCCL: Training Pytorch models across a fleet of Macs at Skywalker Sound",
   "authors": [
@@ -8156,6 +8272,37 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7223566797",
+  "title": "A large scale maritime visual object tracking dataset and benchmark",
+  "authors": [
+   "Ahsan Baidar Bakht",
+   "Muhayy Ud Din",
+   "Sajid Javed",
+   "Irfan Hussain"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-25",
+  "doi": "10.1016/j.patcog.2026.115193",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115193",
+  "abstract": "Visual object tracking is a fundamental task with widespread applications in autonomous navigation, surveillance, and maritime robotics. Despite significant advances in generic object tracking, maritime environments continue to present unique challenges, including specular water reflections, low-contrast targets, dynamically changing backgrounds, and frequent occlusions. These complexities significantly degrade the performance of tracking algorithms trained on general-purpose datasets, highlighting the need for domain-specific evaluation and validation. To address this gap, we introduce a large-scale maritime visual tracking dataset comprising 182 high-resolution video sequences and approximately 150,000 manually annotated frames across four representative vessel categories: boat, ship, sailboat, and unmanned surface vehicle. The dataset captures a diverse range of operational conditions and maritime scenarios, reflecting the real-world complexities of marine environments. We evaluate fourteen recent tracking algorithms on the proposed benchmark and observe substantial performance degradation compared to their performance on general-purpose datasets. When fine-tuned on maritime data, these models demonstrate consistent performance improvements, underscoring the importance of domain adaptation for reliable deployment in specialized environments. By providing a structured and publicly available benchmarking framework, this work supports the development and evaluation of robust tracking systems for maritime automation and monitoring applications. The dataset and source code are publicly available at “ https://github.com/AhsanBaidar/MVTD ”.",
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Benchmarking",
+   "Benchmark (surveying)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7223572672",
   "title": "Progressive label refinement via heterogeneous decoders for annotation-free camouflaged object segmentation",
   "authors": [
@@ -8552,6 +8699,38 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7223441320",
+  "title": "DEA-HPE: Uncertainty-aware underwater pose estimation via disentangled dynamic adaptation",
+  "authors": [
+   "Zhi Li",
+   "Zijian Sun",
+   "Xin Ding",
+   "You Yang",
+   "Huixiong Leng",
+   "Qiong Liu"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-24",
+  "doi": "10.1016/j.patcog.2026.115168",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115168",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Artificial intelligence",
+   "Computer science",
+   "Computer vision"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7223450204",
   "title": "Enhancing monocular 3D semantic scene graph prediction via cross-modality knowledge distillation",
   "authors": [
@@ -8823,6 +9002,39 @@
    "Mathematics",
    "Autoencoder",
    "Applied mathematics"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7223477363",
+  "title": "MKDC-IGN: An interpretable graph network with multi-layer key directed connections for the diagnosis of depression",
+  "authors": [
+   "Na Chu",
+   "Nina Wang",
+   "Xuan Zhang",
+   "Rui Liu",
+   "Shuting Sun",
+   "Bin Hu",
+   "Gang Wang",
+   "Jingyu Liu",
+   "Qunxi Dong"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-24",
+  "doi": "10.1016/j.patcog.2026.115183",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115183",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Key (lock)",
+   "Computer science",
+   "Artificial intelligence"
   ],
   "source": "openalex",
   "topics": [],
@@ -9731,6 +9943,40 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7223327501",
+  "title": "Lead-aware ECG image representation for Attribute-Invariant cardiomyopathy classification",
+  "authors": [
+   "Bo Chen",
+   "Xiazhen Qin",
+   "Junjie Cai",
+   "Honglin Wang",
+   "Mingming Jiang",
+   "Xiao Li",
+   "Wei Dong",
+   "Kunlun He"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-23",
+  "doi": "10.1016/j.patcog.2026.115200",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115200",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Artificial intelligence",
+   "Pattern recognition (psychology)",
+   "Representation (politics)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7223331757",
   "title": "Multi-View Contrastive Graph Convolutional Networks with Adaptive Fusion for Semi-Supervised Classification",
   "authors": [
@@ -9819,133 +10065,6 @@
   "source": "openalex",
   "topics": [
    "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7223360592",
-  "title": "High-frequency depth distillation from foundation models for multi-view 3D object detection",
-  "authors": [
-   "Jingxin Wang",
-   "Shuang Li",
-   "Mingpi Tan",
-   "Yu Yuan",
-   "Jiaxu Leng",
-   "Xinbo Gao"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-23",
-  "doi": "10.1016/j.patcog.2026.115156",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115156",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Artificial intelligence",
-   "Computer science",
-   "Computer vision"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7223383806",
-  "title": "TDM3D: Text-Guided Depth-aware Monocular 3D visual grounding",
-  "authors": [
-   "Jingqi Qiao",
-   "Xinyi Liu",
-   "Shijie Sun",
-   "Wei Wang",
-   "Zhang Shu",
-   "Li Zhu"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-23",
-  "doi": "10.1016/j.patcog.2026.115220",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115220",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer vision",
-   "Artificial intelligence",
-   "Computer science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7223406021",
-  "title": "LLM-augmented temporal knowledge graph reasoning: A dual-view of semantics and structures",
-  "authors": [
-   "Jingyuan Yang",
-   "Luyi Bai",
-   "Jianze Lv",
-   "Jinping Jiang"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-23",
-  "doi": "10.1016/j.patcog.2026.115212",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115212",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Semantics (computer science)",
-   "Knowledge graph"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7223409798",
-  "title": "Unknown-aware graph consistent domain adaptation network for open-set node classification",
-  "authors": [
-   "Ruoxian Song",
-   "Wenju Yang",
-   "Guangqi Wen",
-   "Peng Cao",
-   "Weiping Li",
-   "Jinzhu Yang",
-   "Osmar R. Zai͏̈ane"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-23",
-  "doi": "10.1016/j.patcog.2026.115208",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115208",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Artificial intelligence",
-   "Graph"
-  ],
-  "source": "openalex",
-  "topics": [
    "机器学习"
   ],
   "is_own": false
@@ -10266,71 +10385,6 @@
   ],
   "source": "openalex",
   "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7223196472",
-  "title": "Spatial–spectral texture preserved hyper-Laplacian total variation for hyperspectral image denoising",
-  "authors": [
-   "Xin Li",
-   "Hongmei Chen",
-   "Chenglong Zhu",
-   "Tianrui Li"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-22",
-  "doi": "10.1016/j.patcog.2026.115197",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115197",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Hyperspectral imaging",
-   "Total variation denoising",
-   "Regularization (linguistics)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7223223384",
-  "title": "Enabling zero-shot fake news video detection with training-free self-optimization of LVLMs",
-  "authors": [
-   "Peng Li",
-   "Jiao Li",
-   "Yuhao Ma",
-   "Jin Wu",
-   "Yili Li",
-   "Ting Zhong",
-   "Fan Zhou"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-22",
-  "doi": "10.1016/j.patcog.2026.115116",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115116",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Computer vision",
-   "Artificial intelligence"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
   "is_own": false
  },
  {
@@ -12499,76 +12553,6 @@
   "source": "openalex",
   "topics": [
    "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221070541",
-  "title": "A Bayesian MCMC approach for snow density estimation from SMOS over the Northern Hemisphere",
-  "authors": [
-   "Xiaowen Gao",
-   "Jinmei Pan",
-   "Lingmei Jiang",
-   "Zhiqing Peng",
-   "Lu Hu",
-   "Jianwei Yang",
-   "Jiancheng Shi"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-09",
-  "doi": "10.1016/j.isprsjprs.2026.09.047",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.047",
-  "abstract": "Snow density is a key parameter for calculating snow water equivalent, snow albedo, snow emissivity, and snow mechanical properties. It is therefore essential in water resource management, snow-air energy exchange computation, cold regions engineering design, and avalanche prevention. In a warming climate, snow density is undergoing rapid changes, which pose challenges for static snow density evolution equations in predicting spatiotemporal variability. Therefore, in this paper, we developed a physically-based snow density retrieval algorithm in the Northern Hemisphere based on SMOS (Soil Moisture and Ocean Salinity) L-band multi-angle radiometer. We first mitigated signal contamination from water bodies through sub-pixel decomposition and explicitly accounted for forest canopy and soil contribution using a coupled forest-snow-soil radiative transfer model. A Bayesian framework incorporating priors from snow classification and ERA5-Land reanalysis was further introduced to improve retrieval stability. The algorithm was tested over the 2019–2020 snow season and evaluated against 1,460 in-situ sites from the SNOTEL, CanSWE, and SnMar observation networks across North America and Eurasia. Results show that our algorithm corrects the systematic underestimation of ERA5-Land snow density during early- and mid-snow seasons. During the stable snow cover period (January-March 2020), the retrieval achieves an RMSE of 42.6 kg/m 3 and a mean bias of −4.0 kg/m 3 , corresponding to reductions of approximately 25 % and 89 % compared to respective values of 56.7 kg/m 3 and −36.4 kg/m 3 for ERA5-Land. These results highlight the value of microwave remote sensing in providing independent information to improve the snow density estimation in land surface modeling.",
-  "citation_count": 0,
-  "concepts": [
-   "Markov chain Monte Carlo",
-   "Northern Hemisphere",
-   "Snow"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221080255",
-  "title": "From granularity to consensus: Mitigating sample defects for Remote Sensing Image–Text Retrieval",
-  "authors": [
-   "Shaofan Chen",
-   "卢天奎",
-   "Wentao Ma",
-   "Tongqing Zhou",
-   "Jin He",
-   "Mengyu Wang",
-   "Yuwei Wang",
-   "Lu Liu",
-   "Lichuan Gu"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-09",
-  "doi": "10.1016/j.isprsjprs.2026.09.040",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.09.040",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Granularity",
-   "Remote sensing"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
   ],
   "is_own": false
  },
@@ -16750,7 +16734,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tpami.2026.3721958",
   "abstract": "Image super-resolution (SR) is a critical technology for overcoming the inherent hardware limitations of sensors. However, existing approaches mainly focus on directly enhancing the final resolution, often neglecting effective control over error propagation and accumulation during intermediate stages. Recently, Mamba has emerged as a promising approach that can represent the entire reconstruction process as a state sequence with multiple nodes, allowing for intermediate intervention. Nonetheless, its fixed linear mapper is limited by a narrow receptive field and restricted flexibility, which hampers its effectiveness in fine-grained images. To address this, we created a nonlinear state predictive control model MambaX that maps consecutive spectral bands into a latent state space and generalizes the SR task by dynamically learning the nonlinear state parameters of control equations. Compared to existing sequence models, MambaX 1) employs dynamic state predictive control learning to approximate the nonlinear differential coefficients of state-space models; 2) introduces a novel state cross-control paradigm for multimodal SR fusion; and 3) utilizes progressive transitional learning to mitigate heterogeneity caused by domain and modality shifts. Our evaluation demonstrates the superior performance of the dynamic spectrum-state representation model in both single-image SR and multimodal fusion-based SR tasks, highlighting its substantial potential to advance spectrally generalized modeling across arbitrary dimensions and modalities.",
-  "citation_count": 5,
+  "citation_count": 6,
   "concepts": [
    "Artificial intelligence",
    "Computer vision",
@@ -18724,7 +18708,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tgrs.2025.3650360",
   "abstract": "Wet snow is an important component of the cryosphere. It appears darker in the visible as compared to the fresh dry snow. This indicates the increased levels of light absorption in snow, which leads to the acceleration of snowmelt further increased by the exposure of light absorbing impurities, in turn having important climatic effects. In this paper a simple analytical model for the wet snow spectral reflectance is introduced and applied to remote sensing of snow from ground and space. The accuracy of the model is studied using experimental measurements of the light reflectance from wet snow.",
-  "citation_count": 1,
+  "citation_count": 2,
   "concepts": [
    "Snow",
    "Snowmelt",
@@ -19434,7 +19418,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/lgrs.2026.3653619",
   "abstract": "Remote sensing image object detection is characterized by dim features of small objects and complex backgrounds. In most networks, simply enhancing small object features may disrupt global consistency and affect detection results. This paper designs a region-aware refinement module to locate the enhanced target semantic representation and suppress background noise interference, and a dual detection branch to fuse underlying details and shallow semantic features at the neck of the feature pyramid, enhancing the model’s ability to focus on very small targets. Experimental results show that the improved model achieves an mAP50% of 76.0% on the VEDAI dataset, which is 10.6% higher than the original YOLOv8s. The mAP50-95% is 46.5%, which is 7% higher. The precision and recall rates are improved by 7.5% and 12.2% respectively. The generalization performance was verified on VisDrone2019 and SODA-A remote sensing datasets, with mAP50% of 47.1% and 73.8% respectively, a model size of only 29.5MB, balancing lightweight and high detection performance. This method provides a technical approach involving the cooperative optimisation of multiple modules for target detection in complex remote sensing scenes, offering significant application value.",
-  "citation_count": 1,
+  "citation_count": 2,
   "concepts": [
    "Computer science",
    "Object detection",
@@ -19466,7 +19450,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/lgrs.2026.3652409",
   "abstract": "Fine-grained object detection in remote sensing images is challenged by high intra-class variation and low inter-class distinction, as well as optimization inconsistency between classification and localization tasks. To address these, we propose MCLNet, a Multi-Task Collaborative Learning Network. MCLNet is a dual-stream architecture that integrates fine-grained classification with coarse-grained detection to improve detection accuracy. To enhance oriented localization, we treat all fine-grained objects as coarse-grained ones during training, which expands the dataset and improves the accuracy of oriented localization in the coarse-grained detection stream. Besides, we introduce a Coarse-to-Fine Hierarchical Constraint Mechanism (CHCM) that uses coarse-grained predictions as priors to guide fine-grained learning, enhancing both intra-class and inter-class feature representations. Additionally, we employ a Progressive Multi-Task Optimization Strategy (PMOS) that gradually trains the model to balance classification and localization tasks, reducing task interference. Extensive experiments on widely used benchmark datasets validate that MCLNet outperforms current state-of-the-art methods in fine-grained object detection.",
-  "citation_count": 1,
+  "citation_count": 2,
   "concepts": [
    "Computer science",
    "Object detection",
@@ -19607,7 +19591,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/lgrs.2026.3652415",
   "abstract": "Polarimetric target decomposition is fundamental for interpreting scattering mechanisms in polarimetric synthetic aperture radar (PolSAR) imagery. However, existing model-based methods often overestimate volume scattering, exhibit coupling between surface and double-bounce components, and yield unstable results on high-resolution airborne data, particularly for man-made vehicle targets, hindering accurate characterization. This letter proposes a novel four-component decomposition method designed for high-resolution airborne PolSAR imagery. Building upon the classical modeling of volume and helix scattering, two physically extended components are incorporated: an extended surface scattering model and an extended double-bounce scattering model. The former employs a rotated dipole to describe surface polarization anisotropy beyond ideal single-bounce assumptions, while the latter incorporates a rotated quarter-wave mechanism to characterize amplitude–phase inconsistencies neglected in conventional dihedral models. Experiments on a high-resolution Ku-band vehicle dataset demonstrate that the proposed method effectively suppresses volume overestimation, alleviates surface–double-bounce coupling, and enhances component stability while preserving edge and structural fidelity. The model achieves improved adaptability to complex targets without increasing component dimensionality, while maintaining strong physical interpretability, offering a new pathway for refined vehicle scattering analysis in airborne PolSAR data.",
-  "citation_count": 1,
+  "citation_count": 2,
   "concepts": [
    "Scattering",
    "Polarimetry",
