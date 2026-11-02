@@ -1,31 +1,170 @@
 [
  {
-  "id": "openalex:W7224751712",
-  "title": "Physics-constrained spatio-temporal generative adversarial learning for daily-scale sea ice thickness prediction",
+  "id": "openalex:W7224995256",
+  "title": "LD-AtlasLoc: Long-distance monocular aerial image localization with geo-referenced sparse maps under GNSS-degraded and appearance-changing conditions",
   "authors": [
-   "Jikun Liu",
-   "Guoping Zhang",
-   "Li Chen",
-   "Shuai Xing",
-   "Ming Gao",
-   "Pengcheng Li",
-   "Dandi Wang",
-   "Bo Zheng"
+   "Dongdong Li",
+   "Tao Yang",
+   "Shuo Qin",
+   "Yisu Zhang",
+   "Jing Li"
   ],
   "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
   "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-30",
-  "doi": "10.1016/j.isprsjprs.2026.10.042",
+  "date": "2026-11-01",
+  "doi": "10.1016/j.isprsjprs.2026.10.040",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.042",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.040",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Adversarial system",
    "Artificial intelligence",
+   "Computer vision",
    "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225012837",
+  "title": "A multispectral reflectance field framework for radiometrically accurate three-dimensional point cloud generation of plants at close range",
+  "authors": [
+   "Leisen Fang",
+   "Pengyao Xie",
+   "Xin Yang",
+   "Haiyan Cen"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-01",
+  "doi": "10.1016/j.isprsjprs.2026.10.032",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.032",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Multispectral image",
+   "Reflectivity"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225002512",
+  "title": "Annual National Land Cover Database Collection 1.0: 39-year record of land cover and land cover change products across the conterminous U.S.",
+  "authors": [
+   "Suming Jin",
+   "Heather J. Tollerud",
+   "Jesslyn F. Brown",
+   "Jon A. Dewitz",
+   "Danika Wellington",
+   "Rylie Fleckenstein",
+   "Congcong Li",
+   "Kelcy L Smith",
+   "Stephen V. Stehman",
+   "Josephine A. Horton",
+   "Roger F. Auch",
+   "Patrick Danielson",
+   "Tonian R Robinson",
+   "Adam Case",
+   "Christopher Barber",
+   "Danny Howard",
+   "Kristi L. Sayler",
+   "Terry L. Sohl"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-31",
+  "doi": "10.1016/j.rse.2026.115753",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115753",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Land cover",
+   "Remote sensing",
+   "Cover (algebra)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225008248",
+  "title": "A novel 3D canopy competition index for understanding tree growth: Insights from aerial laser scanning",
+  "authors": [
+   "Xin Liu",
+   "Yuanshuo Hao",
+   "Xinyang Zou",
+   "Shoumin Cheng",
+   "Lihu Dong",
+   "FengRi LI"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-31",
+  "doi": "10.1016/j.rse.2026.115754",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115754",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Canopy",
+   "Remote sensing",
+   "Basal area"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7224992855",
+  "title": "A text-enhanced hierarchical multi-task learning method for ecosystem mapping over China",
+  "authors": [
+   "LI Xiyao",
+   "Xin Huang",
+   "Jun Li",
+   "Jie Yang",
+   "Shupeng Zhang",
+   "Haonan Xia",
+   "Peng Hou"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-31",
+  "doi": "10.1016/j.isprsjprs.2026.10.029",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.029",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "China",
+   "Artificial intelligence"
   ],
   "source": "openalex",
   "topics": [
@@ -34,187 +173,30 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7224896816",
-  "title": "Editorial Board",
-  "authors": [],
+  "id": "openalex:W7225009335",
+  "title": "MVS: A multi-category Vectorized Segmentation Model for remote sensing imagery",
+  "authors": [
+   "Wei Wu",
+   "Rui Liu",
+   "Zexiang Dong",
+   "Haiping Yang",
+   "Liao Yang",
+   "Zuohui Chen"
+  ],
   "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
   "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-30",
-  "doi": "10.1016/s0924-2716(26)00544-7",
+  "date": "2026-10-31",
+  "doi": "10.1016/j.isprsjprs.2026.10.035",
   "pdf": null,
-  "url": "https://doi.org/10.1016/s0924-2716(26)00544-7",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7224084191",
-  "title": "Identifying spectral proxies for adsorbed heavy rare earth elements: From local effectiveness to cross-borehole wavelength shifts and exploration implications",
-  "authors": [
-   "Hui Zhang",
-   "Mangen Li",
-   "Chuan He",
-   "Jun-Ting Qiu",
-   "雷恒聪",
-   "杨婉珍",
-   "Xianguang Wang"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-29",
-  "doi": "10.1016/j.rse.2026.115748",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115748",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.035",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
-   "Wavelength",
-   "Earth observation"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7224465652",
-  "title": "Global interannual patterns of urbanization-associated surface urban heat islands",
-  "authors": [
-   "Jiufeng Li",
-   "Wenfeng Zhan",
-   "Zihan Liu",
-   "Huilin Du",
-   "Yingying Ji",
-   "Shasha Wang",
-   "Xiang Li"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-29",
-  "doi": "10.1016/j.rse.2026.115751",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115751",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Urbanization",
-   "Environmental science",
-   "Climatology"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7224363301",
-  "title": "Road space as memory and inference: A unified geometry-centric framework for trajectory forecasting",
-  "authors": [
-   "Yiming Xu",
-   "Hao Cheng",
-   "Monika Sester"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-29",
-  "doi": "10.1016/j.isprsjprs.2026.10.023",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.023",
-  "abstract": "High-definition (HD) vector maps are essential to trajectory forecasting, yet existing methods often use them only as passive context and remain dependent on identity-consistent tracking histories. We propose a unified geometry-centric forecasting framework that treats road-space geometry as an active computational substrate for both future prediction and history recovery under tracking-available and no-tracking conditions. The framework uses a common road-space representation and topology-guided decoupled decoder architecture across both settings, while differing only in how motion history is constructed. With reliable tracking, agent history is incrementally aggregated across shifting local frames for efficient streaming inference. Without tracking, frame-wise detections are projected into lane-space occupancy memories, from which target-specific history is recovered through geometry-conditioned querying. The decoder then generates topology-consistent motion intents and realizes them as final trajectories using surrounding-agent interactions. Experiments on Argoverse 2 (AV2), Argoverse 1 (AV1), and the Waymo Open Motion Dataset (WOMD) show that the proposed framework achieves competitive performance under reliable tracking and supports low-latency streaming inference, reaching 44.32 ms per frame with pre-encoded maps. Under no-tracking conditions, the occupancy-based pathway preserves most of the tracking-available performance on the primary K = 6 metrics, with relative increases in minFDE 6 , minADE 6 , and MR 6 limited to 6%–8% on AV2 and below 3% on AV1 and WOMD. Additional validation on real sensor data with annotated detections and a tracking-by-detection association pipeline shows that the occupancy-based pathway remains robust to tracking identity errors, whereas identity-dependent methods degrade substantially. These results demonstrate that actively exploiting road-space geometry can substantially reduce trajectory forecasting’s reliance on upstream tracking.",
-  "citation_count": 0,
-  "concepts": [
-   "Trajectory",
-   "Computer science",
-   "Context (archaeology)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7224400704",
-  "title": "Under cloud and canopy: enhancing the dynamic surface water eXtent − harmonized landsat sentinel-2 (DSWx-HLS) flood maps with terrain-based flood propagation",
-  "authors": [
-   "Son Kim Do",
-   "Dinuke Munasinghe",
-   "Dan Tian",
-   "Sagy Cohen",
-   "John Eylander",
-   "Sydney Crisanti",
-   "Duc Tran",
-   "V. Lakshmi"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-29",
-  "doi": "10.1016/j.isprsjprs.2026.10.045",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.045",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Flood myth",
-   "Terrain",
-   "Environmental science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7224349064",
-  "title": "Mapping the spatial extent of agroforestry lands across Africa by characterizing tree spatial arrangements",
-  "authors": [
-   "Minxuan Sun",
-   "Martin Brandt",
-   "P. Ciais",
-   "David Makowski",
-   "Youngryel Ryu",
-   "Yidi Xu",
-   "Mengjie Han",
-   "Yi Leng",
-   "Zhixuan Guo",
-   "Xiaomeng Du",
-   "Xu Jianchu",
-   "Florian Reiner",
-   "Jingbo Chen",
-   "Jiaying He",
-   "Xin Jiao",
-   "Wei Li"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-29",
-  "doi": "10.1016/j.jag.2026.105644",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105644",
-  "abstract": "Agroforestry is a land-use practice that integrates trees into agricultural lands, supporting food security and rural livelihoods while delivering both climate adaptation and mitigation benefits. However, current large-scale assessments often approximate the spatial extent of agroforestry using coarse tree canopy cover or biomass products that cannot characterize tree spatial arrangements within croplands, potentially obscuring structurally distinct agroforestry systems. Here, we produced a 100 m resolution map of the spatial extent of agroforestry lands in Africa for 2019, using 10 m resolution tree canopy cover data derived from PlanetScope, together with Sentinel-2 imagery. This map explicitly delineates croplands where agroforestry systems are practised by distinguishing tree spatial patterns within croplands, focusing on irregularly scattered trees and trees aligned in rows. Scattered trees were identified using tree-pixel distance metrics, whereas trees planted in rows were detected using a U-Net model trained with ∼38,000 manually labelled tree-row features. The identified agroforestry lands with scattered trees and trees in rows on cropland were validated against ground-based sites collected from the literature and Google Earth imagery, yielding an overall accuracy of 77.2%. This agroforestry dataset with explicit spatial tree arrangements can serve as a baseline for assessing the environmental impacts and changes in crop yield associated with agroforestry ecosystems, as well as for supporting the development of process-based agroforestry models.",
-  "citation_count": 0,
-  "concepts": [
-   "Agroforestry",
-   "Geography",
-   "Tree (set theory)"
+   "Segmentation",
+   "Computer science"
   ],
   "source": "openalex",
   "topics": [
@@ -224,34 +206,70 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7224242625",
-  "title": "Geospatial assessment of seaweed cultivation suitability using ocean color data and multi-criteria decision analysis in the coastal waters of Lombok Island, Indonesia",
+  "id": "openalex:W7225018238",
+  "title": "Carbon–Transformer: Near–real–time monthly tracking of global anthropogenic CO2 emissions constrained by satellite NO2 observations",
   "authors": [
-   "MD Rakesur Rahman",
-   "Jong-Kuk Choi",
-   "Hansan Park",
-   "Deuk-Jae Hwang"
+   "Xiaoyu Chen",
+   "Liangyun Liu",
+   "Yucong Zhang",
+   "Shanshan Du",
+   "Liping Lei",
+   "Yanhong Wu",
+   "Yirong Wu"
   ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-29",
-  "doi": "10.1080/15481603.2026.2730890",
-  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/15481603.2026.2730890?needAccess=true",
-  "url": "https://doi.org/10.1080/15481603.2026.2730890",
-  "abstract": "The rapid expansion of Kappaphycus alvarezii cultivation in Indonesia poses significant sustainability challenges due to ad hoc site selection, which has contributed to disease outbreaks and exceeded ecological carrying capacities. This study employs ocean color remote sensing and Multi-Criteria Decision Analysis (MCDA) to develop a knowledge-driven geospatial model for identifying suitable habitat zones on Lombok Island. By integrating the Analytical Hierarchy Process (AHP) and Weighted Linear Combination (WLC), a biophysical hierarchy is established that prioritizes physiological survival over theoretical yield maximization. To enhance model robustness in the absence of independent yield data, a Map Removal Sensitivity Analysis (MRSA) was implemented to quantify the relative influence and spatial sensitivity of key environmental parameters. The results indicate sea surface temperature (21.46%) and salinity (15.33%) as the most influential variables, supporting a “survival-first” paradigm for mitigating ice-ice disease risks. The geospatial analysis reveals a spatial pattern of high suitability consistent with an “environmentally balanced” zone, characterized by depths of approximately 2–30 m and current velocities of 0.2–0.4 m/s. Sensitivity results further show that while SST exerts a dominant but spatially uniform control, salinity and dissolved oxygen drive localized variability, identifying regional-scale sensitivity gradients whose ecological interpretation is bounded by the resolution of the underlying data. Quantitative spatial validation against 275 georeferenced farm GPS locations shows that 96.7% of farms are concentrated in the southern high-suitability zone, against an area-based null expectation of 26.0% for that cluster (chi-square = 716.7, df = 2, p < 0.001). A per-suitability-class overlay further confirms that 98.9% of farms fall within High-suitability pixels and none within Low-suitability pixels against an area-based null of 66.9% (chi-square p < 0.001); Cohen’s κ against a random background is modest (0.08), reflecting the abundance of high-suitability habitat relative to the small number of realized farms. These findings provide a practical and transferable framework for supporting Allocated Zones for Aquaculture (AZAs) and identifying growing-season and risk-informed aquaculture sites in data-limited coastal regions. The resulting model constitutes a growing-season suitability index explicitly framed for the East Monsoon cultivation window (June–August), and provides a spatially explicit, satellite-informed decision-support tool for K. alvarezii site selection in Lombok Island waters.",
+  "date": "2026-10-31",
+  "doi": "10.1016/j.isprsjprs.2026.10.024",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.024",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Geospatial analysis",
    "Environmental science",
-   "Geographic information system"
+   "Satellite",
+   "Tracking (education)"
   ],
   "source": "openalex",
   "topics": [
-   "遥感",
    "计算机视觉",
-   "三维与几何"
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225014697",
+  "title": "Dem-assisted visual geolocation integrating ephemeris-based orientation correction with Multi-Scale skyline features",
+  "authors": [
+   "Yanyan Chen",
+   "Fang Ren",
+   "Pengfei Liu",
+   "Hongyuan Huo",
+   "Yi Lian",
+   "Xingwei Dang",
+   "Peng Guo",
+   "Qing Xu"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-10-31",
+  "doi": "10.1016/j.jag.2026.105660",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105660",
+  "abstract": "Accurate geolocation in GNSS-denied mountainous environments remains a significant challenge for navigation and field operations. While vision-based methods using terrain features like skylines offer a promising passive solution, their performance is often hindered by unknown camera orientation, low feature discriminability across vast areas, and severe degradation under nighttime conditions. To address these limitations, this paper presents a novel visual geolocation framework that synergistically couples ephemeris-based orientation correction with multi-scale skyline feature matching. First, an Edge-Enhanced SegFormer-B3 (EESFormer-B3) network is developed for robust skyline extraction from query images, where a lightweight Edge Gate mechanism is integrated to refine boundary precision, particularly under low-light scenarios. Second, we propose a camera heading estimation method utilizing solar and lunar ephemeris, eliminating reliance on external heading sensors and drastically reducing the matching search space. Third, for matching, a hierarchical composite feature is designed, encoding the skyline’s global shape trends, local directional variations, and dominant structural distributions to ensure robustness against repetitive terrain patterns. Extensive experiments were conducted in a complex 700 km 2 mountainous region. The results demonstrate that our method achieves a localization success rate of 82 % (daytime) and 76 % (nighttime) within a 250-meter error threshold. Compared with a full 360° circular shift search, the proposed ephemeris-based correction reduces the average matching time from approximately 60 s to 2 s, corresponding to a speedup of more than 30 times. This work provides a reliable, efficient, and illumination-invariant geolocation solution, with strong potential for applications in autonomous navigation, search and rescue, and other field missions in GNSS-denied natural environments.",
+  "citation_count": 0,
+  "concepts": [
+   "Skyline",
+   "Geolocation",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
   ],
   "is_own": false
  }
