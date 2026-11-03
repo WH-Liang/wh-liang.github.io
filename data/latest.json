@@ -1,5 +1,39 @@
 [
  {
+  "id": "openalex:W7225040480",
+  "title": "Advancing remote sensing of carbon fractions in coastal waters: retrieval algorithms and optical proxies for Sentinel-2 MSI and Sentinel-3 OLCI",
+  "authors": [
+   "Kaire Toming",
+   "Ele Vahtmäe",
+   "Martin Ligi",
+   "Tuuli Soomets",
+   "Laura Argus",
+   "Alo Laas",
+   "Tiit Kutser",
+   "Roberto Sabia"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-02",
+  "doi": "10.1016/j.rse.2026.115756",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115756",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Environmental science",
+   "Carbon fibers"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7224995256",
   "title": "LD-AtlasLoc: Long-distance monocular aerial image localization with geo-referenced sparse maps under GNSS-degraded and appearance-changing conditions",
   "authors": [
@@ -63,213 +97,168 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7225002512",
-  "title": "Annual National Land Cover Database Collection 1.0: 39-year record of land cover and land cover change products across the conterminous U.S.",
+  "id": "openalex:W7225037480",
+  "title": "High spatial resolution Greenland Ice Sheet mass change linked to Greenland Blocking and North Atlantic Oscillation",
   "authors": [
-   "Suming Jin",
-   "Heather J. Tollerud",
-   "Jesslyn F. Brown",
-   "Jon A. Dewitz",
-   "Danika Wellington",
-   "Rylie Fleckenstein",
-   "Congcong Li",
-   "Kelcy L Smith",
-   "Stephen V. Stehman",
-   "Josephine A. Horton",
-   "Roger F. Auch",
-   "Patrick Danielson",
-   "Tonian R Robinson",
-   "Adam Case",
-   "Christopher Barber",
-   "Danny Howard",
-   "Kristi L. Sayler",
-   "Terry L. Sohl"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-31",
-  "doi": "10.1016/j.rse.2026.115753",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115753",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Land cover",
-   "Remote sensing",
-   "Cover (algebra)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225008248",
-  "title": "A novel 3D canopy competition index for understanding tree growth: Insights from aerial laser scanning",
-  "authors": [
-   "Xin Liu",
-   "Yuanshuo Hao",
-   "Xinyang Zou",
-   "Shoumin Cheng",
-   "Lihu Dong",
-   "FengRi LI"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-31",
-  "doi": "10.1016/j.rse.2026.115754",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115754",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Canopy",
-   "Remote sensing",
-   "Basal area"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7224992855",
-  "title": "A text-enhanced hierarchical multi-task learning method for ecosystem mapping over China",
-  "authors": [
-   "LI Xiyao",
-   "Xin Huang",
-   "Jun Li",
-   "Jie Yang",
-   "Shupeng Zhang",
-   "Haonan Xia",
-   "Peng Hou"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-31",
-  "doi": "10.1016/j.isprsjprs.2026.10.029",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.029",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "China",
-   "Artificial intelligence"
-  ],
-  "source": "openalex",
-  "topics": [
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225009335",
-  "title": "MVS: A multi-category Vectorized Segmentation Model for remote sensing imagery",
-  "authors": [
-   "Wei Wu",
-   "Rui Liu",
-   "Zexiang Dong",
-   "Haiping Yang",
-   "Liao Yang",
-   "Zuohui Chen"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-31",
-  "doi": "10.1016/j.isprsjprs.2026.10.035",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.035",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Segmentation",
-   "Computer science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225018238",
-  "title": "Carbon–Transformer: Near–real–time monthly tracking of global anthropogenic CO2 emissions constrained by satellite NO2 observations",
-  "authors": [
-   "Xiaoyu Chen",
-   "Liangyun Liu",
-   "Yucong Zhang",
-   "Shanshan Du",
-   "Liping Lei",
-   "Yanhong Wu",
-   "Yirong Wu"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-31",
-  "doi": "10.1016/j.isprsjprs.2026.10.024",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.024",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Environmental science",
-   "Satellite",
-   "Tracking (education)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225014697",
-  "title": "Dem-assisted visual geolocation integrating ephemeris-based orientation correction with Multi-Scale skyline features",
-  "authors": [
-   "Yanyan Chen",
-   "Fang Ren",
-   "Pengfei Liu",
-   "Hongyuan Huo",
-   "Yi Lian",
-   "Xingwei Dang",
-   "Peng Guo",
-   "Qing Xu"
+   "Zhuoya Shi",
+   "Zemin Wang",
+   "Baojun Zhang",
+   "Shuang Wu",
+   "Nicholas E. Barrand",
+   "Yong Su",
+   "Hong Geng",
+   "Jiachun An",
+   "Qian Li"
   ],
   "venue": "International Journal of Applied Earth Observation and Geoinformation",
   "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-10-31",
-  "doi": "10.1016/j.jag.2026.105660",
+  "date": "2026-11-01",
+  "doi": "10.1016/j.jag.2026.105327",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105660",
-  "abstract": "Accurate geolocation in GNSS-denied mountainous environments remains a significant challenge for navigation and field operations. While vision-based methods using terrain features like skylines offer a promising passive solution, their performance is often hindered by unknown camera orientation, low feature discriminability across vast areas, and severe degradation under nighttime conditions. To address these limitations, this paper presents a novel visual geolocation framework that synergistically couples ephemeris-based orientation correction with multi-scale skyline feature matching. First, an Edge-Enhanced SegFormer-B3 (EESFormer-B3) network is developed for robust skyline extraction from query images, where a lightweight Edge Gate mechanism is integrated to refine boundary precision, particularly under low-light scenarios. Second, we propose a camera heading estimation method utilizing solar and lunar ephemeris, eliminating reliance on external heading sensors and drastically reducing the matching search space. Third, for matching, a hierarchical composite feature is designed, encoding the skyline’s global shape trends, local directional variations, and dominant structural distributions to ensure robustness against repetitive terrain patterns. Extensive experiments were conducted in a complex 700 km 2 mountainous region. The results demonstrate that our method achieves a localization success rate of 82 % (daytime) and 76 % (nighttime) within a 250-meter error threshold. Compared with a full 360° circular shift search, the proposed ephemeris-based correction reduces the average matching time from approximately 60 s to 2 s, corresponding to a speedup of more than 30 times. This work provides a reliable, efficient, and illumination-invariant geolocation solution, with strong potential for applications in autonomous navigation, search and rescue, and other field missions in GNSS-denied natural environments.",
+  "url": "https://doi.org/10.1016/j.jag.2026.105327",
+  "abstract": "The low spatial resolution (300–400 km) of Gravity Recovery and Climate Experience (GRACE) and the 11-month data gap between GRACE and GRACE Follow-On (GRACE-FO) complicate the evaluation of long-term ice mass loss at sub-region scale. Although several studies have downscaled GRACE data for water storage evaluation, efforts to downscale ice mass change are limited. Here, we utilized multiscale geographically-weighted regression (MGWR) to improve the spatial resolution of GRACE-derived ice mass change from 0.25° to 5 km in Greenland Ice Sheet (GrIS). The reconstructed results after downscaling demonstrate consistent temporal variation and reduced noise compared to other reconstruction methods for sub-regions and the entire GrIS. They can capture finer signals of ice mass change while maintaining original spatial characteristics. Validation against free air gravity anomalies changes also demonstrates the superior performance of the downscaled results over the reconstructed CSR Mascon data. For overlapping lines, the mean correlation coefficient (CC) increases from 0.13 to 0.32, with the mean root mean square error (RMSE) decreasing from 1.36 to 1.13. At the intersection points, the mean CC improves from 0.06 to 0.30, and the mean RMSE is reduced from 1.33 to 1.05. They are further used to detect the contributions of Greenland Blocking (GB) and North Atlantic Oscillation (NAO) to high-resolution ice mass change through precipitation and runoff in four sub-periods, during which the driving factors affecting ice mass change differ significantly. Additionally, NAO and GB can influence ice mass change through solid ice discharge by impacting surface temperature and sea-ice concentration.",
   "citation_count": 0,
   "concepts": [
-   "Skyline",
-   "Geolocation",
+   "Greenland ice sheet",
+   "Climatology",
+   "Ice sheet"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7125370837",
+  "title": "BBoxMaskPose v2: Expanding Mutual Conditioning to 3D",
+  "authors": [
+   "Miroslav Purkrábek",
+   "Constantin Kolomiiets",
+   "Jiří Matas"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-01",
+  "doi": "10.1007/s11263-026-03113-6",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03113-6",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Pose",
+   "Estimator",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225050435",
+  "title": "SFD-CAM: A spatial-frequency domain driven framework for multi-structure OCTA image segmentation",
+  "authors": [
+   "Junyang He",
+   "Xiaoheng Deng",
+   "Zhimin Liao",
+   "Pan Zhao",
+   "Xuanchu Duan",
+   "Xiangjian He"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-01",
+  "doi": "10.1016/j.patcog.2026.115243",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115243",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Artificial intelligence",
+   "Computer vision",
    "Computer science"
   ],
   "source": "openalex",
   "topics": [
    "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225050913",
+  "title": "BPCal: Boundary-aware Prototype Calibration for spatial domain identification in spatial transcriptomics",
+  "authors": [
+   "Siyuan Zhou",
+   "Wenzhe Liu",
+   "Xin Zhang",
+   "Jingjing Wang",
+   "Xi Yang",
+   "Xiaohuan Lu",
+   "Shi Pu",
+   "Chengyao Sun",
+   "Jie Wen"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-01",
+  "doi": "10.1016/j.patcog.2026.115174",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115174",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Pattern recognition (psychology)",
+   "Artificial intelligence"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225053052",
+  "title": "HFBFusion: Leveraged high-frequency and boundary guiding for multimodal image fusion",
+  "authors": [
+   "Shengke Wang",
+   "Kai Wu",
+   "Peng Qin",
+   "Wenxin Jiang",
+   "Guanhua Zhang",
+   "Guoqiang Zhong",
+   "Qing Cai"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-01",
+  "doi": "10.1016/j.patcog.2026.115248",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115248",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Artificial intelligence",
+   "Computer vision",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "多模态"
   ],
   "is_own": false
  }
