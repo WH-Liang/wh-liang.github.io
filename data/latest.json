@@ -1,92 +1,26 @@
 [
  {
-  "id": "openalex:W7225040480",
-  "title": "Advancing remote sensing of carbon fractions in coastal waters: retrieval algorithms and optical proxies for Sentinel-2 MSI and Sentinel-3 OLCI",
+  "id": "openalex:W7225121019",
+  "title": "OESTR: An orbit-encoding spatiotemporal reconstruction framework for joint daytime–nighttime FY-3D LST gap filling",
   "authors": [
-   "Kaire Toming",
-   "Ele Vahtmäe",
-   "Martin Ligi",
-   "Tuuli Soomets",
-   "Laura Argus",
-   "Alo Laas",
-   "Tiit Kutser",
-   "Roberto Sabia"
+   "Yanling You",
+   "Qunming Wang",
+   "Xiaohua Tong"
   ],
   "venue": "Remote Sensing of Environment",
   "venue_short": "RSE",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-02",
-  "doi": "10.1016/j.rse.2026.115756",
+  "date": "2026-11-03",
+  "doi": "10.1016/j.rse.2026.115749",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115756",
+  "url": "https://doi.org/10.1016/j.rse.2026.115749",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
-   "Environmental science",
-   "Carbon fibers"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7224995256",
-  "title": "LD-AtlasLoc: Long-distance monocular aerial image localization with geo-referenced sparse maps under GNSS-degraded and appearance-changing conditions",
-  "authors": [
-   "Dongdong Li",
-   "Tao Yang",
-   "Shuo Qin",
-   "Yisu Zhang",
-   "Jing Li"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-01",
-  "doi": "10.1016/j.isprsjprs.2026.10.040",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.040",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Artificial intelligence",
-   "Computer vision",
-   "Computer science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225012837",
-  "title": "A multispectral reflectance field framework for radiometrically accurate three-dimensional point cloud generation of plants at close range",
-  "authors": [
-   "Leisen Fang",
-   "Pengyao Xie",
-   "Xin Yang",
-   "Haiyan Cen"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-01",
-  "doi": "10.1016/j.isprsjprs.2026.10.032",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.032",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Multispectral image",
-   "Reflectivity"
+   "Joint (building)",
+   "Geology"
   ],
   "source": "openalex",
   "topics": [
@@ -97,64 +31,28 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7225037480",
-  "title": "High spatial resolution Greenland Ice Sheet mass change linked to Greenland Blocking and North Atlantic Oscillation",
+  "id": "arxiv:2611.04300v1",
+  "title": "CLOCs-R: Radar-Assisted Camera-LiDAR Fusion for Long-Range Object Detection",
   "authors": [
-   "Zhuoya Shi",
-   "Zemin Wang",
-   "Baojun Zhang",
-   "Shuang Wu",
-   "Nicholas E. Barrand",
-   "Yong Su",
-   "Hong Geng",
-   "Jiachun An",
-   "Qian Li"
+   "Richard Beuck",
+   "John Nguyen",
+   "Sudip Dhakal"
   ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-01",
-  "doi": "10.1016/j.jag.2026.105327",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105327",
-  "abstract": "The low spatial resolution (300–400 km) of Gravity Recovery and Climate Experience (GRACE) and the 11-month data gap between GRACE and GRACE Follow-On (GRACE-FO) complicate the evaluation of long-term ice mass loss at sub-region scale. Although several studies have downscaled GRACE data for water storage evaluation, efforts to downscale ice mass change are limited. Here, we utilized multiscale geographically-weighted regression (MGWR) to improve the spatial resolution of GRACE-derived ice mass change from 0.25° to 5 km in Greenland Ice Sheet (GrIS). The reconstructed results after downscaling demonstrate consistent temporal variation and reduced noise compared to other reconstruction methods for sub-regions and the entire GrIS. They can capture finer signals of ice mass change while maintaining original spatial characteristics. Validation against free air gravity anomalies changes also demonstrates the superior performance of the downscaled results over the reconstructed CSR Mascon data. For overlapping lines, the mean correlation coefficient (CC) increases from 0.13 to 0.32, with the mean root mean square error (RMSE) decreasing from 1.36 to 1.13. At the intersection points, the mean CC improves from 0.06 to 0.30, and the mean RMSE is reduced from 1.33 to 1.05. They are further used to detect the contributions of Greenland Blocking (GB) and North Atlantic Oscillation (NAO) to high-resolution ice mass change through precipitation and runoff in four sub-periods, during which the driving factors affecting ice mass change differ significantly. Additionally, NAO and GB can influence ice mass change through solid ice discharge by impacting surface temperature and sea-ice concentration.",
+  "date": "2026-11-03",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.04300v1",
+  "url": "https://arxiv.org/abs/2611.04300v1",
+  "abstract": "Long-range 3D object detection remains difficult for autonomous vehicles because LiDAR returns become sparse and camera evidence weakens with distance, while automotive radar keeps returning measurements far beyond both. We present CLOCs-R, an extension of the CLOCs candidate-level fusion framework that adds radar evidence to camera-LiDAR rescoring. Radar returns are accumulated over several sweeps, compensated for ego-motion, and associated with each pre-NMS 3D candidate through a range-dependent gate. Compact features summarizing support, Doppler speed and spread, range residual, and offset are then appended to every camera-LiDAR pair before a lightweight fusion network rescores the candidates. We first verify that our fusion implementation reproduces CLOCs on KITTI. We then evaluate on the daytime clear-weather subset of the aiMotive dataset, reporting distance-binned metrics out to 200 m with frozen SECOND and Cascade R-CNN detectors. Camera-LiDAR CLOCs improves on SECOND up to 50 m but degrades beyond it. A residual scoring variant, introduced post hoc, corrects SECOND's score instead of replacing it and recovers most of this loss. Radar consistently improves BEV AP at 30-50 m (0.857 to 0.870), but beyond 50 m its gain is small (+0.003 center-distance AP), within seed variation, and CLOCs-R with residual scoring is statistically tied with LiDAR-only SECOND. Our analysis attributes the limited long-range benefit to weak separation of true and false detections by radar features, scarce far-range training positives, poor camera evidence at distance, and missing LiDAR proposals that rescoring cannot recover. We report all as-designed and post hoc results side by side.",
   "citation_count": 0,
   "concepts": [
-   "Greenland ice sheet",
-   "Climatology",
-   "Ice sheet"
+   "cs.CV"
   ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7125370837",
-  "title": "BBoxMaskPose v2: Expanding Mutual Conditioning to 3D",
-  "authors": [
-   "Miroslav Purkrábek",
-   "Constantin Kolomiiets",
-   "Jiří Matas"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-01",
-  "doi": "10.1007/s11263-026-03113-6",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03113-6",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Pose",
-   "Estimator",
-   "Computer science"
-  ],
-  "source": "openalex",
+  "arxiv_id": "2611.04300v1",
+  "source": "arxiv",
   "topics": [
    "计算机视觉",
    "三维与几何"
@@ -162,103 +60,190 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7225050435",
-  "title": "SFD-CAM: A spatial-frequency domain driven framework for multi-structure OCTA image segmentation",
+  "id": "arxiv:2611.04216v1",
+  "title": "LiSA: Linear Stochastic Attention for Long-Range Visual Modeling",
   "authors": [
-   "Junyang He",
-   "Xiaoheng Deng",
-   "Zhimin Liao",
-   "Pan Zhao",
-   "Xuanchu Duan",
-   "Xiangjian He"
+   "Sahar Dastani",
+   "Fereshteh Shakeri",
+   "Samuel Barbeau",
+   "Kunal Mahatha",
+   "Ismail Ben Ayed",
+   "Herve Lombaert",
+   "Christian Desrosiers"
   ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-01",
-  "doi": "10.1016/j.patcog.2026.115243",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115243",
-  "abstract": null,
+  "date": "2026-11-03",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.04216v1",
+  "url": "https://arxiv.org/abs/2611.04216v1",
+  "abstract": "Self-attention has become the standard for modern sequence modeling, enabling Transformers to model long-range dependencies across a wide range of modalities. Despite these advances, its quadratic cost with respect to sequence length remains a significant computational bottleneck. Recent work addresses this limitation by introducing linear variants of self-attention, namely with kernel approximations of the softmax operator. However, their first-order aggregation restricts expressivity and struggles to capture higher-order structure. We propose Linear Stochastic Attention (LiSA), a linear attention plug-in module that enables higher-order token interactions via a stochastic diffusion process based on truncated random walks. LiSA incorporates adaptive locality, favoring semantically similar neighbors to preserve fine-grained structures, while maintaining stable and efficient training. We conduct extensive experiments on classification, semantic segmentation, and object detection tasks and show improved results over state-of-the-art methods.",
   "citation_count": 0,
   "concepts": [
-   "Artificial intelligence",
-   "Computer vision",
-   "Computer science"
+   "cs.CV"
   ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225050913",
-  "title": "BPCal: Boundary-aware Prototype Calibration for spatial domain identification in spatial transcriptomics",
-  "authors": [
-   "Siyuan Zhou",
-   "Wenzhe Liu",
-   "Xin Zhang",
-   "Jingjing Wang",
-   "Xi Yang",
-   "Xiaohuan Lu",
-   "Shi Pu",
-   "Chengyao Sun",
-   "Jie Wen"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-01",
-  "doi": "10.1016/j.patcog.2026.115174",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115174",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Pattern recognition (psychology)",
-   "Artificial intelligence"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225053052",
-  "title": "HFBFusion: Leveraged high-frequency and boundary guiding for multimodal image fusion",
-  "authors": [
-   "Shengke Wang",
-   "Kai Wu",
-   "Peng Qin",
-   "Wenxin Jiang",
-   "Guanhua Zhang",
-   "Guoqiang Zhong",
-   "Qing Cai"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-01",
-  "doi": "10.1016/j.patcog.2026.115248",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115248",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Artificial intelligence",
-   "Computer vision",
-   "Computer science"
-  ],
-  "source": "openalex",
+  "arxiv_id": "2611.04216v1",
+  "source": "arxiv",
   "topics": [
    "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.04305v1",
+  "title": "Weather Adaptive Autonomous Driving",
+  "authors": [
+   "Nicholas Taylor",
+   "Alexander Picon",
+   "Sudip Dhakal"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-03",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.04305v1",
+  "url": "https://arxiv.org/abs/2611.04305v1",
+  "abstract": "Camera object detectors lose recall in rain, fog, snow and sand, and the confidence threshold at which a detector is deployed decides how many objects it misses and how many false alarms it raises. We study how a frozen detector should make this decision in adverse weather. We first reproduce SeqCRC, a conformal object detector whose first step calibrates the confidence threshold by conformal risk control (CRC), and use that step, calibrated separately in each weather condition, as our baseline. With YOLOv8x it keeps the held-out miss fraction within a 20% budget in every DAWN weather bin, where a single global threshold fails in fog, but the false alarms it needs are an output rather than a choice: from 1.6 to 117 per image across DAWN and BDD100K conditions. We then propose a calibrated trade-off dial. One setting, $λ$, the number of false alarms accepted to avoid one missed object, selects the expected-cost-optimal decision rule: either one score threshold, or a per-detection rule that keeps a box when its calibrated probability of being a real object, estimated by gradient-boosted trees from the detector's own per-box outputs, is at least $1/(1+λ)$. F-score preferences map onto the same dial, and CRC applied to $λ$ itself is planned to restore a per-condition miss guarantee. The dial is fitted once on BDD100K train and graded only on BDD100K val and DAWN.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.04305v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.04303v1",
+  "title": "FlowTranslator: Training-Free In-Image Machine Translation with Flow-Based Editing",
+  "authors": [
+   "Zhixian Li",
+   "Xingsong Ye",
+   "Yongkun Du",
+   "Yunyan Xiao",
+   "Yanglin Huang",
+   "Pinxuan Chen",
+   "Jiyu Zhuang",
+   "Cong Xu",
+   "Zhineng Chen"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-03",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.04303v1",
+  "url": "https://arxiv.org/abs/2611.04303v1",
+  "abstract": "In-image machine translation (IIMT) replaces text in an image with its translation while preserving the surrounding visual context. Existing task-specific models achieve convincing performance but require massive paired training images before and after translation. As advanced text-to-image (T2I) models have reached a practically usable level of multilingual text generation, we argue that this capability can be transferred to IIMT and present FlowTranslator. It is a training-free IIMT framework that first employs an OCR model and an LLM to generate the translation prompt, which is injected into the T2I-based diffusion model. To optimize the accurate and natural generation of translated text, we introduce two trajectory controls: Region Coupling Release (RCR) partially decorrelates target-branch noise inside the text region early in the trajectory, while Coupling Expansion (CE) amplifies the emerging edit displacement mid-trajectory. Under the EasyOCR read-back protocol, FlowTranslator achieves average PRIM BLEU and COMET scores of 20.6 and 57.2, respectively, substantially outperforming the strong training-based baseline UniTranslator. On the more challenging and realistic whole-image ScenePair photographs translated into Chinese, it reaches 40.1\\% exact-match accuracy and surpasses existing editing systems, some of which only address the text-rendering stage rather than the complete IIMT task. These results establish flow-based editing as a strong, fully training-free baseline for IIMT.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV",
+   "cs.AI"
+  ],
+  "arxiv_id": "2611.04303v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
    "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.04286v1",
+  "title": "GroundSeek-CXR: Retrospective Evaluation-Guided Active Observation Framework for Multi-Label Chest Radiography Diagnosis",
+  "authors": [
+   "Yihang Fu",
+   "Xinyu Liu",
+   "Qing Xu",
+   "Xiaofeng Yang",
+   "Zhen Chen"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-03",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.04286v1",
+  "url": "https://arxiv.org/abs/2611.04286v1",
+  "abstract": "Chest radiography (CXR) diagnosis is critical for thoracic disease assessment, yet challenged by the need to identify subtle lesions and co-occurring abnormalities across regions. While recent vision-language models can actively observe local regions, existing preference-based methods supervise each observation by its immediate effect on the current diagnosis, failing to capture how each observation and stopping decision contributes to the final diagnosis. To address this issue, we propose GroundSeek-CXR, an active CXR diagnosis framework that learns observation and stopping decisions by retrospectively evaluating them with the final diagnosis. Specifically, we first devise a Retrospective Diagnostic Evaluation (RDE) that scores observation and stop candidates from offline Monte Carlo tree search through independent continuations. Moreover, we design a Retrospective Gap-weighted Preference Optimization (RGPO) that learns from retrospective-score preferences weighted by their score gaps, prioritizing actions that improve diagnostic accuracy. Extensive experiments demonstrate that our GroundSeek-CXR framework outperforms state-of-the-art methods, and improves abnormal-image sample-F1 by 4.48% over immediate-score preference learning.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.04286v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.04268v1",
+  "title": "Weight-Space Programming for Improving Image-Restoration Diffusion Models: Technical Conjectures and a Recursive Improvement Loop",
+  "authors": [
+   "Zhuoran Zheng",
+   " Doubao"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-03",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.04268v1",
+  "url": "https://arxiv.org/abs/2611.04268v1",
+  "abstract": "Can an LLM directly edit the weights of a diffusion-based image-restoration model to \\emph{improve} restoration quality---without gradients, paired data, or fine-tuning? Recent experiments show frontier LLMs can fix structural bugs by modifying as little as \\(0.016\\%\\) of parameters, but cannot instill new capabilities. We ask whether weight-space programming (WSP) can move from \\emph{debugging} to \\emph{improvement} in the precise-regression setting of image restoration (deblurring, super-resolution, denoising, inpainting). Restoration diffusion UNets present a middle ground: low-level signal-processing layers are concentrated enough for targeted weight-direction edits, while high-level semantic layers remain distributed and resistant to sparse modification. We propose three technical conjectures: (C1) an LLM can localize the layer behind a quality gap (over-smoothing, color shift, hallucinated texture) within a 200 forward-pass budget; (C2) editing a small set of identified weight directions (e.g., scaling high-frequency filter norms, correcting output-bias channels) can measurably improve PSNR and perceptual quality; (C3) a recursive loop---diagnose \\(\\rightarrow\\) edit \\(\\rightarrow\\) evaluate \\(\\rightarrow\\) re-diagnose---can compound gains across rounds, forming a minimal recursive self-improvement (RSI) loop for vision. We analyze the required AI capability (arguing targeted edits need not superintelligence, while general capability generation does) and detail the challenges of precise pixel-level regression. We provide a PyTorch-style deployment pipeline and outline a benchmark. This manuscript is conjectural, intended to open a new subtopic for image restoration.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.04268v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.04262v1",
+  "title": "Sketch-Omni: Instance-Level Sketch-Based Visual Prompting for Perception MLLMs",
+  "authors": [
+   "Dongyu Wang",
+   "Dar-Yen Chen",
+   "Zhiming Hong",
+   "Arkaprabha Basu",
+   "Yi-Zhe Song"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-03",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.04262v1",
+  "url": "https://arxiv.org/abs/2611.04262v1",
+  "abstract": "Promptable perception, from GroundingDINO to Rex-Omni, puts one model behind one prompt interface and returns coordinates for any localisation task. Every model in that line was built for photographs; none has been given a sketch. We present Sketch-Omni, to our knowledge the first perception MLLM built to work on sketches and from them. On a sketch, the sketch is the image, and text prompts detect, point, resolve object and spatial referring expressions, and ground affordances in it. From a sketch, the sketch is the prompt, and a drawing of one object localises that object in a photograph, even among several of the same category, a query that neither a category name nor a photo exemplar can pose. Two obstacles stand in the way. A photo-trained model's attention is tuned to colour and texture, which a sketch does not have, and no dataset pairs a drawing with the one instance it depicts among others of its kind. We build the training data instead of collecting it. An edge detector turns every labelled photograph into a sketch-like drawing that keeps the photograph's labels, and two constructions produce sketch-to-photo instance pairs from existing data. On top of this, photo-guided relation alignment passes each photograph and its edge sketch through the same model and trains the sketch pass to reproduce how the photograph pass relates phrases to patches and patches to each other. Not one training label is drawn by hand. Sketch-Omni reaches 91.4 F1 on sketch-prompted localisation against 81.8 for the strongest general-purpose MLLM, with a lead that doubles when the photograph holds several instances of the queried category, and it is best in 39 of 40 evaluation cells across six tasks. Code, model, and a hand-annotated benchmark of 2754 sketch-to-photo links will be released.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.04262v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉"
   ],
   "is_own": false
  }
