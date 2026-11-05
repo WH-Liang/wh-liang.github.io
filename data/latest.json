@@ -1,246 +1,259 @@
 [
  {
-  "id": "openalex:W7225121019",
-  "title": "OESTR: An orbit-encoding spatiotemporal reconstruction framework for joint daytime–nighttime FY-3D LST gap filling",
+  "id": "arxiv:2611.05874v1",
+  "title": "Feature Puzzles: Single-Image Supervision for Multi-View 3D-Aware Segmentation",
   "authors": [
-   "Yanling You",
-   "Qunming Wang",
-   "Xiaohua Tong"
+   "Jiahao Ma",
+   "Qiang Zhang",
+   "Miaomiao Liu",
+   "David Ahmedt-Aristizabal",
+   "Chuong Nguyen"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-03",
-  "doi": "10.1016/j.rse.2026.115749",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115749",
-  "abstract": null,
+  "date": "2026-11-04",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.05874v1",
+  "url": "https://arxiv.org/abs/2611.05874v1",
+  "abstract": "Humans can easily recognize the same objects across different viewpoints of a 3D scene, whereas teaching models such multi-view-consistent perception typically requires videos or calibrated multi-view captures, which are considerably more expensive and less diverse than large-scale monocular data.~In this paper, we introduce Feature Puzzles, a novel framework for learning multi-view-consistent segmentation using only single-image semantic segmentation supervision. Specifically, we propose a simple yet effective pipeline that constructs multi-view-consistent segmentation pseudo-labels through image cropping and geometric transformations. We further introduce a lightweight, plug-and-play network that leverages the multi-view-consistent image features learned by existing pretrained 3D foundation models and the generated pseudo-labels to perform multi-view-consistent segmentation. Importantly, our flexible framework supports various types of prompts provided from one or multiple views and can be readily extended to open-vocabulary 3D segmentation. Under this single-image supervision, our feed-forward model achieves the best mIoU on NVOS, remains competitive on SPIn-NeRF and ScanNet++ against baselines using per-scene optimization or in-domain multi-view training, and demonstrates zero-shot transfer to open-vocabulary 3D segmentation. Visual comparisons are available on our project page: https://featurepuzzles.github.io/",
   "citation_count": 0,
   "concepts": [
-   "Remote sensing",
-   "Joint (building)",
-   "Geology"
+   "cs.CV"
   ],
-  "source": "openalex",
+  "arxiv_id": "2611.05874v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.05818v1",
+  "title": "Navigational Safety of Marine Surface Vehicles in Restricted Visibility: From Intelligent Vision to Vision-Centered Multi-Sensor Fusion",
+  "authors": [
+   "Ryan Wen Liu",
+   "Fengchuan Song",
+   "Tianxiang Wang",
+   "Guobei Peng",
+   "Youngrong Kim",
+   "Xian Zhong",
+   "Hooi-Siang Kang",
+   "Maohan Liang",
+   "Junzhi Yu",
+   "Shanliang Yao"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-04",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.05818v1",
+  "url": "https://arxiv.org/abs/2611.05818v1",
+  "abstract": "Marine surface vehicles (MSVs) have attracted considerable attention for their commercial, scientific, and military applications. Owing to their favorable performance-to-cost ratio, shipboard cameras are widely used to detect and recognize potentially hazardous situations across diverse operational scenarios. However, visual perception is inevitably degraded by restricted conditions, including irregular motion of the imaging platform, adverse weather, and long imaging distances. To improve situational awareness and navigation capabilities, complementary sensors, such as the automatic identification system (AIS), radar, and light detection and ranging (LiDAR), etc., have become essential shipboard equipment. Multi-sensor fusion can provide richer perceptual information and help ensure navigational safety of MSVs in restricted visibility. This article reviews recent progress from intelligent vision to vision-centered multi-sensor fusion for newcomers and researchers in intelligent ship navigation and intelligent waterborne transportation system (IWTS). After introducing the generation of quality-degraded images in restricted visibility, we will review intelligent vision methods for four key issues, i.e., shipboard video stabilization, visual perception enhancement, object detection and tracking, and navigable area segmentation. We then examine vision-centered multi-sensor fusion methods, including infrared-visible image fusion, radar-vision fusion, LiDAR-vision fusion, AIS-vision fusion, and other multi-sensor fusion scenarios. Open-source datasets and safety-critical applications are also summarized and discussed. Finally, we highlight open challenges and future research directions. The collected maritime datasets are available at https://github.com/MAPGroup/Datasets and will be regularly updated.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.05818v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.05811v1",
+  "title": "ReTailor: A Residual Feature Tailoring Framework for Real-Time Cross-Sensor Pansharpening Adaptation",
+  "authors": [
+   "Jing-Ze Liang",
+   "Wei-Jie Xiao",
+   "Zi-Han Cao",
+   "Yang-Dong Li",
+   "Tian-Yi Hu",
+   "Liang-Jian Deng"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-04",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.05811v1",
+  "url": "https://arxiv.org/abs/2611.05811v1",
+  "abstract": "Recent pansharpening models achieve strong fusion performance on trained sensors, yet often generalize poorly to unseen sensors. Existing cross-sensor adaptation is limited by target-sensor retraining, which requires target-sensor training pairs and a dedicated training stage, and by per-image zero-shot adaptation, which is computationally expensive due to whole-network optimization for each test image. To address these problems, we propose ReTailor, a real-time sequential cross-sensor adaptation framework. Only a lightweight residual Feature Tailor is rapidly optimized under self-supervised, physics-aware constraints to correct cross-sensor shifts without modifying the well-learned fusion prior. For efficient and effective deployment, ReTailor combines content-aware patch selection, which identifies a few informative patches per image for optimization at negligible cost to improve both quality and efficiency, with rolling residual bootstrap, which inherits sensor-related knowledge across the image stream to further improve quality. Extensive experiments on cross-sensor adaptation settings show that ReTailor mitigates cross-sensor degradation both effectively and efficiently. Moreover, we compare ReTailor with Low-Rank Adaptation (LoRA), a widely used method for fine-tuning, to demonstrate the advantages of our approach. We further evaluate the core principle of ReTailor on two additional remote sensing tasks: super-resolution pansharpening and image segmentation, where it consistently improves performance. In general, ReTailor provides a highly effective and efficient strategy for deploying pansharpening models under real-world cross-sensor degradation, while also offering useful insights into managing cross-sensor degradation in other remote sensing tasks. Code will be released at https://github.com/JingZe-Liang/ReTailor .",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.05811v1",
+  "source": "arxiv",
   "topics": [
    "遥感",
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.04300v1",
-  "title": "CLOCs-R: Radar-Assisted Camera-LiDAR Fusion for Long-Range Object Detection",
-  "authors": [
-   "Richard Beuck",
-   "John Nguyen",
-   "Sudip Dhakal"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-03",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.04300v1",
-  "url": "https://arxiv.org/abs/2611.04300v1",
-  "abstract": "Long-range 3D object detection remains difficult for autonomous vehicles because LiDAR returns become sparse and camera evidence weakens with distance, while automotive radar keeps returning measurements far beyond both. We present CLOCs-R, an extension of the CLOCs candidate-level fusion framework that adds radar evidence to camera-LiDAR rescoring. Radar returns are accumulated over several sweeps, compensated for ego-motion, and associated with each pre-NMS 3D candidate through a range-dependent gate. Compact features summarizing support, Doppler speed and spread, range residual, and offset are then appended to every camera-LiDAR pair before a lightweight fusion network rescores the candidates. We first verify that our fusion implementation reproduces CLOCs on KITTI. We then evaluate on the daytime clear-weather subset of the aiMotive dataset, reporting distance-binned metrics out to 200 m with frozen SECOND and Cascade R-CNN detectors. Camera-LiDAR CLOCs improves on SECOND up to 50 m but degrades beyond it. A residual scoring variant, introduced post hoc, corrects SECOND's score instead of replacing it and recovers most of this loss. Radar consistently improves BEV AP at 30-50 m (0.857 to 0.870), but beyond 50 m its gain is small (+0.003 center-distance AP), within seed variation, and CLOCs-R with residual scoring is statistically tied with LiDAR-only SECOND. Our analysis attributes the limited long-range benefit to weak separation of true and false detections by radar features, scarce far-range training positives, poor camera evidence at distance, and missing LiDAR proposals that rescoring cannot recover. We report all as-designed and post hoc results side by side.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.04300v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.04216v1",
-  "title": "LiSA: Linear Stochastic Attention for Long-Range Visual Modeling",
-  "authors": [
-   "Sahar Dastani",
-   "Fereshteh Shakeri",
-   "Samuel Barbeau",
-   "Kunal Mahatha",
-   "Ismail Ben Ayed",
-   "Herve Lombaert",
-   "Christian Desrosiers"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-03",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.04216v1",
-  "url": "https://arxiv.org/abs/2611.04216v1",
-  "abstract": "Self-attention has become the standard for modern sequence modeling, enabling Transformers to model long-range dependencies across a wide range of modalities. Despite these advances, its quadratic cost with respect to sequence length remains a significant computational bottleneck. Recent work addresses this limitation by introducing linear variants of self-attention, namely with kernel approximations of the softmax operator. However, their first-order aggregation restricts expressivity and struggles to capture higher-order structure. We propose Linear Stochastic Attention (LiSA), a linear attention plug-in module that enables higher-order token interactions via a stochastic diffusion process based on truncated random walks. LiSA incorporates adaptive locality, favoring semantically similar neighbors to preserve fine-grained structures, while maintaining stable and efficient training. We conduct extensive experiments on classification, semantic segmentation, and object detection tasks and show improved results over state-of-the-art methods.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.04216v1",
-  "source": "arxiv",
-  "topics": [
    "计算机视觉",
    "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2611.04305v1",
-  "title": "Weather Adaptive Autonomous Driving",
+  "id": "arxiv:2611.05945v1",
+  "title": "FLINT: Coupling Proximal Initialization and Bounded Stochasticity for Flow-Matching Inverse Problems",
   "authors": [
-   "Nicholas Taylor",
-   "Alexander Picon",
-   "Sudip Dhakal"
+   "Junseo Bang",
+   "Daewon Choi",
+   "Dong Ju Mun",
+   "Se Young Chun"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.04305v1",
-  "url": "https://arxiv.org/abs/2611.04305v1",
-  "abstract": "Camera object detectors lose recall in rain, fog, snow and sand, and the confidence threshold at which a detector is deployed decides how many objects it misses and how many false alarms it raises. We study how a frozen detector should make this decision in adverse weather. We first reproduce SeqCRC, a conformal object detector whose first step calibrates the confidence threshold by conformal risk control (CRC), and use that step, calibrated separately in each weather condition, as our baseline. With YOLOv8x it keeps the held-out miss fraction within a 20% budget in every DAWN weather bin, where a single global threshold fails in fog, but the false alarms it needs are an output rather than a choice: from 1.6 to 117 per image across DAWN and BDD100K conditions. We then propose a calibrated trade-off dial. One setting, $λ$, the number of false alarms accepted to avoid one missed object, selects the expected-cost-optimal decision rule: either one score threshold, or a per-detection rule that keeps a box when its calibrated probability of being a real object, estimated by gradient-boosted trees from the detector's own per-box outputs, is at least $1/(1+λ)$. F-score preferences map onto the same dial, and CRC applied to $λ$ itself is planned to restore a per-condition miss guarantee. The dial is fitted once on BDD100K train and graded only on BDD100K val and DAWN.",
+  "pdf": "https://arxiv.org/pdf/2611.05945v1",
+  "url": "https://arxiv.org/abs/2611.05945v1",
+  "abstract": "Flow matching models have emerged as a dominant paradigm for generative posterior sampling in imaging inverse problems. Existing solvers follow two distinct lines of work: trajectory-space methods, which refine sampling dynamics from random initial noise, and source-space methods, which optimize the initial noise itself. While most prior work treats these as independent design choices, we show that they are inherently coupled. We derive a unified stability bound that links initialization proximity and cumulative sampling stochasticity through a multiplicative envelope, complemented by two empirical observations. First, we identify a sufficiency regime in which a moderately optimized proximal source initialization is enough to attain the performance plateau, rendering exhaustive source-space optimization unnecessary. Second, this initial advantage is fragile: it is eroded by excessive stochasticity accumulation during guided sampling, necessitating a mechanism that bounds the cumulative noise injection. These findings motivate FLINT, a two-stage framework that operationalizes this coupling. FLINT establishes a high-fidelity starting point via a manifold-constrained proximal objective in only a few iterations, then performs guided sampling under a bounded stochasticity schedule that helps prevent erasure of the initialization advantage. Across diverse inverse problems, FLINT delivers state of the art perceptual quality and competitive distortion metrics while maintaining superior computational efficiency.",
   "citation_count": 0,
   "concepts": [
    "cs.CV"
   ],
-  "arxiv_id": "2611.04305v1",
+  "arxiv_id": "2611.05945v1",
   "source": "arxiv",
   "topics": [
-   "计算机视觉"
+   "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2611.04303v1",
-  "title": "FlowTranslator: Training-Free In-Image Machine Translation with Flow-Based Editing",
+  "id": "arxiv:2611.05927v1",
+  "title": "Modality-Aware Expert Pruning for MoE-Based Multimodal Large Language Models",
   "authors": [
-   "Zhixian Li",
-   "Xingsong Ye",
-   "Yongkun Du",
-   "Yunyan Xiao",
-   "Yanglin Huang",
-   "Pinxuan Chen",
-   "Jiyu Zhuang",
-   "Cong Xu",
-   "Zhineng Chen"
+   "Donggeun Kim"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.04303v1",
-  "url": "https://arxiv.org/abs/2611.04303v1",
-  "abstract": "In-image machine translation (IIMT) replaces text in an image with its translation while preserving the surrounding visual context. Existing task-specific models achieve convincing performance but require massive paired training images before and after translation. As advanced text-to-image (T2I) models have reached a practically usable level of multilingual text generation, we argue that this capability can be transferred to IIMT and present FlowTranslator. It is a training-free IIMT framework that first employs an OCR model and an LLM to generate the translation prompt, which is injected into the T2I-based diffusion model. To optimize the accurate and natural generation of translated text, we introduce two trajectory controls: Region Coupling Release (RCR) partially decorrelates target-branch noise inside the text region early in the trajectory, while Coupling Expansion (CE) amplifies the emerging edit displacement mid-trajectory. Under the EasyOCR read-back protocol, FlowTranslator achieves average PRIM BLEU and COMET scores of 20.6 and 57.2, respectively, substantially outperforming the strong training-based baseline UniTranslator. On the more challenging and realistic whole-image ScenePair photographs translated into Chinese, it reaches 40.1\\% exact-match accuracy and surpasses existing editing systems, some of which only address the text-rendering stage rather than the complete IIMT task. These results establish flow-based editing as a strong, fully training-free baseline for IIMT.",
+  "pdf": "https://arxiv.org/pdf/2611.05927v1",
+  "url": "https://arxiv.org/abs/2611.05927v1",
+  "abstract": "Mixture-of-Experts (MoE) enables multimodal large language models (MLLMs) to scale capacity efficiently, but expert parameters dominate memory even though only a few experts are activated per token: they account for over 90% of model size in modern MoE-MLLMs (e.g., 54 GB out of about 58 GB in BF16 for InternVL3.5-30B-A3B and Qwen3-VL-30B-A3B). Expert pruning has emerged as an effective compression strategy, but existing methods aggregate importance uniformly across tokens, ignoring that the same expert may serve different roles for vision versus language processing. To address this, we propose MAEP (Modality-Aware Expert Pruning), a training-free framework that decomposes expert importance by modality in a single forward pass. MAEP introduces (1) Delta-H Output ($ΔH$), a redistribution-aware metric measuring the MoE output change when an expert is removed, and (2) low-attention vision tokens as a vision-side pruning signal that is dataset-stable: its expert-importance ranking remains stable across different datasets. Text-side importance serves as a preservation signal while vision-side importance serves as a pruning signal, and experts are ranked globally across layers. Experiments on three MoE-based MLLMs across multimodal and text benchmarks show that MAEP outperforms modality-agnostic baselines on the majority of multimodal benchmarks while remaining competitive on text-only tasks, reducing the BF16 expert weight footprint by about 27 GB (about 47% of total memory) so that the full weight footprint of an approximately 58 GB model fits within a single 40 GB GPU. Code is available at https://github.com/nota-github/MAEP.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV",
+   "cs.CL"
+  ],
+  "arxiv_id": "2611.05927v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.05925v1",
+  "title": "3D Banff Glomerulitis Scoring for Kidney Transplant Pathology: Feasibility Study for Volumetric Quantification",
+  "authors": [
+   "Yanfan Zhu",
+   "Junchao Zhu",
+   "Ruining Deng",
+   "Shilin Zhao",
+   "Yu Wang",
+   "Yaohong Wang",
+   "Yuechen Yang",
+   "Chongyu Qu",
+   "Zhengyi Lu",
+   "Juming Xiong",
+   "Mengmeng Yin",
+   "Yihan Wang",
+   "Andrew J. Rauch",
+   "Haichun Yang",
+   "Yuankai Huo"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-04",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.05925v1",
+  "url": "https://arxiv.org/abs/2611.05925v1",
+  "abstract": "Quantifying glomerular inflammation in kidney-transplant biopsies is traditionally performed on single whole-slide sections using the Banff \"most-severe section\" rule, despite the inherently three-dimensional nature of lesion distribution. This 2D based assessment might lead to instability when inflammation varies across slices. This paper reports a feasibility study examining the technical feasibility and clinical relevance of extending Banff scoring into three dimensions. To this end, we propose a 3D Banff lesion-scoring framework that aligns serial sections, reconstructs glomerular identities across depth, and integrates inflammatory-cell counts in 3D under three scoring strategies: Compatible, Volumetric, and Deduplicated Volumetric. In the experiments, glomerulitis (g-scores) was used as an example Banff metric and applied to multi-section renal allograft biopsies. Our findings indicate that 3D Banff g-scores are more consistent across sections and, under the semi-automatic setting, the Volumetric strategy correlates more strongly with clinical biomarkers than traditional 2D scores. These results show that 3D volumetric quantification offers promising added value, underscoring the potential benefit of 3D-aware Banff scoring for kidney transplant pathology.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.05925v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.05917v1",
+  "title": "DecoupAttn: Decoupled Sparse Attention for Training-Free Acceleration of Video Diffusion",
+  "authors": [
+   "Yanjin Li",
+   "Bingbing Qiu",
+   "Qiang Huang",
+   "Rui Qian",
+   "Yanfeng Li",
+   "Jian Wang",
+   "Xiaoying Tang",
+   "Mingda Zhang"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-04",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.05917v1",
+  "url": "https://arxiv.org/abs/2611.05917v1",
+  "abstract": "Sparse attention accelerates few-step video diffusion transformers by computing a few key blocks exactly and compensating for the rest. However, existing sparse attention still faces key challenges, including identification overhead from finding critical blocks at every denoising step, suboptimal budget allocation that sets sparsity budgets uniformly or by local metrics, and cross-step error accumulation as reused masks or clusters go stale. Observing that the errors left on skipped blocks cancel each other once every key is compensated, we propose DecoupAttn, a new paradigm of decoupled sparse attention: semantic clusters compensate every key, and exact attention corrects their error on a few blocks fixed once offline by position. To support this paradigm, we introduce Distortion Budget, a rate-distortion objective for budget allocation that places exact computation across timesteps, layers, and heads where it removes the most distortion that compensation leaves in the final latent. Built on this budget, we further propose Reassign Cache, in which each step reassigns the drifting keys to cached centroids and refreshes compensation while the budgeted blocks stay fixed. Moreover, DecoupAttn is training-free: a few calibration clips compile one plan offline, and inference runs standard block-sparse kernels with one fused compensation kernel. Our code will be released after submission.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.05917v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.05909v1",
+  "title": "Do Saliency Maps Fail Dense Breasts? A Chance-Normalized, Confounder-Aware Audit of Explanation Fairness in Mammography",
+  "authors": [
+   "Ahmed Jaheen"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-04",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.05909v1",
+  "url": "https://arxiv.org/abs/2611.05909v1",
+  "abstract": "Saliency maps, offered as evidence that mammography classifiers use the cancer, are untested in dense breasts, which can hide cancers. We tested whether they locate cancers worse there, and why. On 1,345 malignant CBIS-DDSM views, we scored three CNNs' Grad-CAM, Integrated Gradients and occlusion maps by whether their peak hits the lesion and a chance-normalized lesion-to-background saliency ratio (bits; +1 doubles it). Unadjusted gaps were large: Grad-CAM peaks hit 44% of dense vs. 58% of non-dense lesions. Case mix, chiefly more calcifications in dense breasts, explained about half or more of each gap. Occlusion kept a significant average of -0.56 bit gap. Controls also implicate the classifiers: unadjusted gaps exceeded an image-only conspicuity map's, and models relied less on dense-breast lesions. We recommend reporting density gaps before and after case-mix adjustment, per classifier, with conspicuity and lesion-reliance controls.",
   "citation_count": 0,
   "concepts": [
    "cs.CV",
    "cs.AI"
   ],
-  "arxiv_id": "2611.04303v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.04286v1",
-  "title": "GroundSeek-CXR: Retrospective Evaluation-Guided Active Observation Framework for Multi-Label Chest Radiography Diagnosis",
-  "authors": [
-   "Yihang Fu",
-   "Xinyu Liu",
-   "Qing Xu",
-   "Xiaofeng Yang",
-   "Zhen Chen"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-03",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.04286v1",
-  "url": "https://arxiv.org/abs/2611.04286v1",
-  "abstract": "Chest radiography (CXR) diagnosis is critical for thoracic disease assessment, yet challenged by the need to identify subtle lesions and co-occurring abnormalities across regions. While recent vision-language models can actively observe local regions, existing preference-based methods supervise each observation by its immediate effect on the current diagnosis, failing to capture how each observation and stopping decision contributes to the final diagnosis. To address this issue, we propose GroundSeek-CXR, an active CXR diagnosis framework that learns observation and stopping decisions by retrospectively evaluating them with the final diagnosis. Specifically, we first devise a Retrospective Diagnostic Evaluation (RDE) that scores observation and stop candidates from offline Monte Carlo tree search through independent continuations. Moreover, we design a Retrospective Gap-weighted Preference Optimization (RGPO) that learns from retrospective-score preferences weighted by their score gaps, prioritizing actions that improve diagnostic accuracy. Extensive experiments demonstrate that our GroundSeek-CXR framework outperforms state-of-the-art methods, and improves abnormal-image sample-F1 by 4.48% over immediate-score preference learning.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.04286v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.04268v1",
-  "title": "Weight-Space Programming for Improving Image-Restoration Diffusion Models: Technical Conjectures and a Recursive Improvement Loop",
-  "authors": [
-   "Zhuoran Zheng",
-   " Doubao"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-03",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.04268v1",
-  "url": "https://arxiv.org/abs/2611.04268v1",
-  "abstract": "Can an LLM directly edit the weights of a diffusion-based image-restoration model to \\emph{improve} restoration quality---without gradients, paired data, or fine-tuning? Recent experiments show frontier LLMs can fix structural bugs by modifying as little as \\(0.016\\%\\) of parameters, but cannot instill new capabilities. We ask whether weight-space programming (WSP) can move from \\emph{debugging} to \\emph{improvement} in the precise-regression setting of image restoration (deblurring, super-resolution, denoising, inpainting). Restoration diffusion UNets present a middle ground: low-level signal-processing layers are concentrated enough for targeted weight-direction edits, while high-level semantic layers remain distributed and resistant to sparse modification. We propose three technical conjectures: (C1) an LLM can localize the layer behind a quality gap (over-smoothing, color shift, hallucinated texture) within a 200 forward-pass budget; (C2) editing a small set of identified weight directions (e.g., scaling high-frequency filter norms, correcting output-bias channels) can measurably improve PSNR and perceptual quality; (C3) a recursive loop---diagnose \\(\\rightarrow\\) edit \\(\\rightarrow\\) evaluate \\(\\rightarrow\\) re-diagnose---can compound gains across rounds, forming a minimal recursive self-improvement (RSI) loop for vision. We analyze the required AI capability (arguing targeted edits need not superintelligence, while general capability generation does) and detail the challenges of precise pixel-level regression. We provide a PyTorch-style deployment pipeline and outline a benchmark. This manuscript is conjectural, intended to open a new subtopic for image restoration.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.04268v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.04262v1",
-  "title": "Sketch-Omni: Instance-Level Sketch-Based Visual Prompting for Perception MLLMs",
-  "authors": [
-   "Dongyu Wang",
-   "Dar-Yen Chen",
-   "Zhiming Hong",
-   "Arkaprabha Basu",
-   "Yi-Zhe Song"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-03",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.04262v1",
-  "url": "https://arxiv.org/abs/2611.04262v1",
-  "abstract": "Promptable perception, from GroundingDINO to Rex-Omni, puts one model behind one prompt interface and returns coordinates for any localisation task. Every model in that line was built for photographs; none has been given a sketch. We present Sketch-Omni, to our knowledge the first perception MLLM built to work on sketches and from them. On a sketch, the sketch is the image, and text prompts detect, point, resolve object and spatial referring expressions, and ground affordances in it. From a sketch, the sketch is the prompt, and a drawing of one object localises that object in a photograph, even among several of the same category, a query that neither a category name nor a photo exemplar can pose. Two obstacles stand in the way. A photo-trained model's attention is tuned to colour and texture, which a sketch does not have, and no dataset pairs a drawing with the one instance it depicts among others of its kind. We build the training data instead of collecting it. An edge detector turns every labelled photograph into a sketch-like drawing that keeps the photograph's labels, and two constructions produce sketch-to-photo instance pairs from existing data. On top of this, photo-guided relation alignment passes each photograph and its edge sketch through the same model and trains the sketch pass to reproduce how the photograph pass relates phrases to patches and patches to each other. Not one training label is drawn by hand. Sketch-Omni reaches 91.4 F1 on sketch-prompted localisation against 81.8 for the strongest general-purpose MLLM, with a lead that doubles when the photograph holds several instances of the queried category, and it is best in 39 of 40 evaluation cells across six tasks. Code, model, and a hand-annotated benchmark of 2754 sketch-to-photo links will be released.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.04262v1",
+  "arxiv_id": "2611.05909v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉"
