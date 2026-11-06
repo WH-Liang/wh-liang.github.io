@@ -1,97 +1,32 @@
 [
  {
-  "id": "arxiv:2611.05874v1",
-  "title": "Feature Puzzles: Single-Image Supervision for Multi-View 3D-Aware Segmentation",
+  "id": "arxiv:2611.07433v1",
+  "title": "MP-DualNet: A Dual-Branch Deep Learning Approach for Magnetopause Boundary Detection Using Simulated SXI Images",
   "authors": [
-   "Jiahao Ma",
-   "Qiang Zhang",
-   "Miaomiao Liu",
-   "David Ahmedt-Aristizabal",
-   "Chuong Nguyen"
+   "Cheng Zhong",
+   "Zhongwei Yang",
+   "Tianran Sun",
+   "Chengyan Huang",
+   "Jiajia Liu",
+   "Jingnan Guo",
+   "Yuming Wang",
+   "Chi Wang"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.05874v1",
-  "url": "https://arxiv.org/abs/2611.05874v1",
-  "abstract": "Humans can easily recognize the same objects across different viewpoints of a 3D scene, whereas teaching models such multi-view-consistent perception typically requires videos or calibrated multi-view captures, which are considerably more expensive and less diverse than large-scale monocular data.~In this paper, we introduce Feature Puzzles, a novel framework for learning multi-view-consistent segmentation using only single-image semantic segmentation supervision. Specifically, we propose a simple yet effective pipeline that constructs multi-view-consistent segmentation pseudo-labels through image cropping and geometric transformations. We further introduce a lightweight, plug-and-play network that leverages the multi-view-consistent image features learned by existing pretrained 3D foundation models and the generated pseudo-labels to perform multi-view-consistent segmentation. Importantly, our flexible framework supports various types of prompts provided from one or multiple views and can be readily extended to open-vocabulary 3D segmentation. Under this single-image supervision, our feed-forward model achieves the best mIoU on NVOS, remains competitive on SPIn-NeRF and ScanNet++ against baselines using per-scene optimization or in-domain multi-view training, and demonstrates zero-shot transfer to open-vocabulary 3D segmentation. Visual comparisons are available on our project page: https://featurepuzzles.github.io/",
+  "pdf": "https://arxiv.org/pdf/2611.07433v1",
+  "url": "https://arxiv.org/abs/2611.07433v1",
+  "abstract": "The Earth's magnetopause is a key boundary governing solar wind-magnetosphere coupling. The Solar wind Magnetosphere Ionosphere Link Explorer (SMILE) mission will provide global soft X-ray imaging of the magnetosphere through solar wind charge exchange (SWCX) emission, offering a new opportunity for remote sensing of magnetopause dynamics. However, the limited field of view (FOV) and variable observation geometry of the Soft X-ray Imager (SXI) pose challenges for reliable magnetopause detection. In this study, we develop MP-DualNet, an end-to-end dual-branch deep learning framework for automated magnetopause detection from simulated SXI observations. The framework jointly performs coarse localization to determine magnetopause visibility and relative position within the FOV, and fine-scale boundary localization through pixel-level segmentation. The model is trained and evaluated using line-of-sight magnetopause envelope maps derived from global hybrid simulations under different solar wind and interplanetary magnetic field conditions. The results demonstrate stable and consistent performance, with a classification accuracy exceeding 0.94 and a segmentation IoU above 0.97. For the test set, the mean absolute angular displacement from the reference boundary was 0.488 degrees. The model maintains robust performance across a wide range of noise levels and generalizes well, as demonstrated by its application to an independent storm event. These results indicate that MP-DualNet provides a reliable and generalizable approach for magnetopause detection in SXI observations, supporting future 3D reconstruction and space weather studies in the context of the SMILE mission.",
   "citation_count": 0,
   "concepts": [
-   "cs.CV"
+   "astro-ph.SR",
+   "astro-ph.IM"
   ],
-  "arxiv_id": "2611.05874v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.05818v1",
-  "title": "Navigational Safety of Marine Surface Vehicles in Restricted Visibility: From Intelligent Vision to Vision-Centered Multi-Sensor Fusion",
-  "authors": [
-   "Ryan Wen Liu",
-   "Fengchuan Song",
-   "Tianxiang Wang",
-   "Guobei Peng",
-   "Youngrong Kim",
-   "Xian Zhong",
-   "Hooi-Siang Kang",
-   "Maohan Liang",
-   "Junzhi Yu",
-   "Shanliang Yao"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-04",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.05818v1",
-  "url": "https://arxiv.org/abs/2611.05818v1",
-  "abstract": "Marine surface vehicles (MSVs) have attracted considerable attention for their commercial, scientific, and military applications. Owing to their favorable performance-to-cost ratio, shipboard cameras are widely used to detect and recognize potentially hazardous situations across diverse operational scenarios. However, visual perception is inevitably degraded by restricted conditions, including irregular motion of the imaging platform, adverse weather, and long imaging distances. To improve situational awareness and navigation capabilities, complementary sensors, such as the automatic identification system (AIS), radar, and light detection and ranging (LiDAR), etc., have become essential shipboard equipment. Multi-sensor fusion can provide richer perceptual information and help ensure navigational safety of MSVs in restricted visibility. This article reviews recent progress from intelligent vision to vision-centered multi-sensor fusion for newcomers and researchers in intelligent ship navigation and intelligent waterborne transportation system (IWTS). After introducing the generation of quality-degraded images in restricted visibility, we will review intelligent vision methods for four key issues, i.e., shipboard video stabilization, visual perception enhancement, object detection and tracking, and navigable area segmentation. We then examine vision-centered multi-sensor fusion methods, including infrared-visible image fusion, radar-vision fusion, LiDAR-vision fusion, AIS-vision fusion, and other multi-sensor fusion scenarios. Open-source datasets and safety-critical applications are also summarized and discussed. Finally, we highlight open challenges and future research directions. The collected maritime datasets are available at https://github.com/MAPGroup/Datasets and will be regularly updated.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.05818v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.05811v1",
-  "title": "ReTailor: A Residual Feature Tailoring Framework for Real-Time Cross-Sensor Pansharpening Adaptation",
-  "authors": [
-   "Jing-Ze Liang",
-   "Wei-Jie Xiao",
-   "Zi-Han Cao",
-   "Yang-Dong Li",
-   "Tian-Yi Hu",
-   "Liang-Jian Deng"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-04",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.05811v1",
-  "url": "https://arxiv.org/abs/2611.05811v1",
-  "abstract": "Recent pansharpening models achieve strong fusion performance on trained sensors, yet often generalize poorly to unseen sensors. Existing cross-sensor adaptation is limited by target-sensor retraining, which requires target-sensor training pairs and a dedicated training stage, and by per-image zero-shot adaptation, which is computationally expensive due to whole-network optimization for each test image. To address these problems, we propose ReTailor, a real-time sequential cross-sensor adaptation framework. Only a lightweight residual Feature Tailor is rapidly optimized under self-supervised, physics-aware constraints to correct cross-sensor shifts without modifying the well-learned fusion prior. For efficient and effective deployment, ReTailor combines content-aware patch selection, which identifies a few informative patches per image for optimization at negligible cost to improve both quality and efficiency, with rolling residual bootstrap, which inherits sensor-related knowledge across the image stream to further improve quality. Extensive experiments on cross-sensor adaptation settings show that ReTailor mitigates cross-sensor degradation both effectively and efficiently. Moreover, we compare ReTailor with Low-Rank Adaptation (LoRA), a widely used method for fine-tuning, to demonstrate the advantages of our approach. We further evaluate the core principle of ReTailor on two additional remote sensing tasks: super-resolution pansharpening and image segmentation, where it consistently improves performance. In general, ReTailor provides a highly effective and efficient strategy for deploying pansharpening models under real-world cross-sensor degradation, while also offering useful insights into managing cross-sensor degradation in other remote sensing tasks. Code will be released at https://github.com/JingZe-Liang/ReTailor .",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.05811v1",
+  "arxiv_id": "2611.07433v1",
   "source": "arxiv",
   "topics": [
    "遥感",
@@ -101,130 +36,164 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2611.05945v1",
-  "title": "FLINT: Coupling Proximal Initialization and Bounded Stochasticity for Flow-Matching Inverse Problems",
+  "id": "arxiv:2611.07431v1",
+  "title": "TRiST: Topology-Reinforced Swin Transformer for Medical Image Analysis",
   "authors": [
-   "Junseo Bang",
-   "Daewon Choi",
-   "Dong Ju Mun",
-   "Se Young Chun"
+   "Pengfei Gu",
+   "Huimin Li",
+   "Guangyu Meng",
+   "Hao Zheng",
+   "Haoteng Tang",
+   "Bin Fu",
+   "Danny Z. Chen"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.05945v1",
-  "url": "https://arxiv.org/abs/2611.05945v1",
-  "abstract": "Flow matching models have emerged as a dominant paradigm for generative posterior sampling in imaging inverse problems. Existing solvers follow two distinct lines of work: trajectory-space methods, which refine sampling dynamics from random initial noise, and source-space methods, which optimize the initial noise itself. While most prior work treats these as independent design choices, we show that they are inherently coupled. We derive a unified stability bound that links initialization proximity and cumulative sampling stochasticity through a multiplicative envelope, complemented by two empirical observations. First, we identify a sufficiency regime in which a moderately optimized proximal source initialization is enough to attain the performance plateau, rendering exhaustive source-space optimization unnecessary. Second, this initial advantage is fragile: it is eroded by excessive stochasticity accumulation during guided sampling, necessitating a mechanism that bounds the cumulative noise injection. These findings motivate FLINT, a two-stage framework that operationalizes this coupling. FLINT establishes a high-fidelity starting point via a manifold-constrained proximal objective in only a few iterations, then performs guided sampling under a bounded stochasticity schedule that helps prevent erasure of the initialization advantage. Across diverse inverse problems, FLINT delivers state of the art perceptual quality and competitive distortion metrics while maintaining superior computational efficiency.",
+  "pdf": "https://arxiv.org/pdf/2611.07431v1",
+  "url": "https://arxiv.org/abs/2611.07431v1",
+  "abstract": "Medical images contain topological patterns, such as connected components and loops, at scales ranging from small lesions to organ boundaries. Although hierarchical Vision Transformers have advanced medical image analysis, they do not explicitly incorporate topology throughout their multiscale representations. We propose Topology-Reinforced Swin Transformer (TRiST), a framework that integrates topological information into feature construction, refinement, and attention. First, a Hierarchical Multi-Scale Topology Representation algorithm computes 2D persistent homology (H0 and H1) independently at four native Swin stages, producing descriptors aligned with each stage's token grid rather than downsampling fine-scale topology. Second, a Band-Aware H0/H1 Residual Refinement module uses gated residual networks to process short-, medium-, and long-persistence information separately. Third, a Persistence-Band Progressive Attention Bias converts stage-specific descriptors into learned key-saliency scores that directly modify shifted-window attention logits. We instantiate TRiST as Topo-SwinV2-B for classification and Topo-Swin-UNet for segmentation, preserving the underlying Swin-based backbones. Experiments on five medical image datasets show consistent improvements over Swin-based baselines and competitive performance relative to existing topology-augmented methods.",
   "citation_count": 0,
   "concepts": [
    "cs.CV"
   ],
-  "arxiv_id": "2611.05945v1",
+  "arxiv_id": "2611.07431v1",
   "source": "arxiv",
   "topics": [
+   "计算机视觉",
    "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2611.05927v1",
-  "title": "Modality-Aware Expert Pruning for MoE-Based Multimodal Large Language Models",
+  "id": "arxiv:2611.07374v1",
+  "title": "Design of Multi-UAV Cooperative Deep Semantic Autoencoders for Communication Networks",
   "authors": [
-   "Donggeun Kim"
+   "Xiaoling Han",
+   "Bin Lin",
+   "Nan Wu",
+   "Tony Q. S. Quek"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.05927v1",
-  "url": "https://arxiv.org/abs/2611.05927v1",
-  "abstract": "Mixture-of-Experts (MoE) enables multimodal large language models (MLLMs) to scale capacity efficiently, but expert parameters dominate memory even though only a few experts are activated per token: they account for over 90% of model size in modern MoE-MLLMs (e.g., 54 GB out of about 58 GB in BF16 for InternVL3.5-30B-A3B and Qwen3-VL-30B-A3B). Expert pruning has emerged as an effective compression strategy, but existing methods aggregate importance uniformly across tokens, ignoring that the same expert may serve different roles for vision versus language processing. To address this, we propose MAEP (Modality-Aware Expert Pruning), a training-free framework that decomposes expert importance by modality in a single forward pass. MAEP introduces (1) Delta-H Output ($ΔH$), a redistribution-aware metric measuring the MoE output change when an expert is removed, and (2) low-attention vision tokens as a vision-side pruning signal that is dataset-stable: its expert-importance ranking remains stable across different datasets. Text-side importance serves as a preservation signal while vision-side importance serves as a pruning signal, and experts are ranked globally across layers. Experiments on three MoE-based MLLMs across multimodal and text benchmarks show that MAEP outperforms modality-agnostic baselines on the majority of multimodal benchmarks while remaining competitive on text-only tasks, reducing the BF16 expert weight footprint by about 27 GB (about 47% of total memory) so that the full weight footprint of an approximately 58 GB model fits within a single 40 GB GPU. Code is available at https://github.com/nota-github/MAEP.",
+  "pdf": "https://arxiv.org/pdf/2611.07374v1",
+  "url": "https://arxiv.org/abs/2611.07374v1",
+  "abstract": "Driven by the rapid development of the low-altitude economy, Uncrewed Aerial Vehicle (UAV) networks have become increasingly important for executing tasks such as search, rescue, and monitoring. However, under bandwidth-constrained scenarios, UAV networks still face significant challenges in task execution efficiency and intelligent processing capabilities. To address these issues, we propose Multi-UAV Cooperative Deep Semantic Autoencoders (MC-DSA) for communication networks. The architecture comprises one Task UAV (T-UAV) and multiple Support UAVs (S-UAVs), which jointly enhance communication efficiency and data-processing capability via semantic communication and cooperation. Specifically, we introduce a semantic matching and source selection mechanism, enabling the proposed MC-DSA to handle low-quality images while ensuring effective utilization of high-quality images. The T-UAV broadcasts a task query, and each S-UAV computes the semantic similarity between its local image and the query. Communication links are established only when the similarity exceeds a predefined threshold. The training algorithm optimizes network parameters through gradient descent, improving semantic feature extraction accuracy. The testing algorithm evaluates UAV collaboration efficiency and communication quality. Experimental results demonstrate that, compared with benchmarks, the proposed MC-DSA improves image semantic segmentation accuracy while maintaining task execution efficiency. As a result, it reduces redundant transmissions and offers an effective solution for multi-UAV communication networks.",
   "citation_count": 0,
   "concepts": [
-   "cs.CV",
-   "cs.CL"
+   "cs.MA"
   ],
-  "arxiv_id": "2611.05927v1",
+  "arxiv_id": "2611.07374v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
-   "多模态"
+   "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2611.05925v1",
-  "title": "3D Banff Glomerulitis Scoring for Kidney Transplant Pathology: Feasibility Study for Volumetric Quantification",
+  "id": "arxiv:2611.07443v1",
+  "title": "VIPA: View-Invariant Projector-Based Adversarial Attack",
   "authors": [
-   "Yanfan Zhu",
-   "Junchao Zhu",
-   "Ruining Deng",
-   "Shilin Zhao",
-   "Yu Wang",
-   "Yaohong Wang",
-   "Yuechen Yang",
-   "Chongyu Qu",
-   "Zhengyi Lu",
-   "Juming Xiong",
-   "Mengmeng Yin",
-   "Yihan Wang",
-   "Andrew J. Rauch",
-   "Haichun Yang",
-   "Yuankai Huo"
+   "Jiyu Han",
+   "Qingyue Deng",
+   "Bingyao Huang"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.05925v1",
-  "url": "https://arxiv.org/abs/2611.05925v1",
-  "abstract": "Quantifying glomerular inflammation in kidney-transplant biopsies is traditionally performed on single whole-slide sections using the Banff \"most-severe section\" rule, despite the inherently three-dimensional nature of lesion distribution. This 2D based assessment might lead to instability when inflammation varies across slices. This paper reports a feasibility study examining the technical feasibility and clinical relevance of extending Banff scoring into three dimensions. To this end, we propose a 3D Banff lesion-scoring framework that aligns serial sections, reconstructs glomerular identities across depth, and integrates inflammatory-cell counts in 3D under three scoring strategies: Compatible, Volumetric, and Deduplicated Volumetric. In the experiments, glomerulitis (g-scores) was used as an example Banff metric and applied to multi-section renal allograft biopsies. Our findings indicate that 3D Banff g-scores are more consistent across sections and, under the semi-automatic setting, the Volumetric strategy correlates more strongly with clinical biomarkers than traditional 2D scores. These results show that 3D volumetric quantification offers promising added value, underscoring the potential benefit of 3D-aware Banff scoring for kidney transplant pathology.",
+  "pdf": "https://arxiv.org/pdf/2611.07443v1",
+  "url": "https://arxiv.org/abs/2611.07443v1",
+  "abstract": "Projector-based adversarial attack aims to physically manipulate real-world scenes by projecting adversarial patterns, thereby causing deep image classifiers to produce incorrect predictions. However, existing stealthy projector-based adversarial attack methods model the project-and-capture process in a single and static view, limiting their view-invariant capability and practical applicability in dynamic environments. In this paper, we introduce View-Invariant Projector-Based Adversarial Attack (VIPA), a novel method designed to overcome these limitations by achieving both view-invariant and classifier-agnostic adversarial attacks in the physical world. We first leverage a view-invariant projector-camera system simulation method to model the physical interactions between projected patterns and real-world surfaces. To ensure robustness and stealthiness of the attack across different views, VIPA optimizes adversarial projections by aggregating simulated attack losses from multiple views. This joint optimization across diverse views helps maintain robustness regardless of the viewpoints. Finally, the optimized patterns are physically projected into real-world scenes, where they successfully fool various classifiers from different viewpoints, thereby enabling robust and practical view-invariant adversarial attacks. Our experiments in both targeted and untargeted attacks demonstrate that VIPA consistently achieves higher attack success rates than existing methods, while also enhancing stealthiness and ensuring minimal perceptual degradation across all tested views.",
   "citation_count": 0,
   "concepts": [
    "cs.CV"
   ],
-  "arxiv_id": "2611.05925v1",
+  "arxiv_id": "2611.07443v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
-   "三维与几何"
+   "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2611.05917v1",
-  "title": "DecoupAttn: Decoupled Sparse Attention for Training-Free Acceleration of Video Diffusion",
+  "id": "arxiv:2611.07437v1",
+  "title": "IMUDINO: Self-distilled Foundation Model for Inertial Sensing",
   "authors": [
-   "Yanjin Li",
-   "Bingbing Qiu",
-   "Qiang Huang",
-   "Rui Qian",
-   "Yanfeng Li",
-   "Jian Wang",
-   "Xiaoying Tang",
-   "Mingda Zhang"
+   "Zhoutong Ye",
+   "Chengwen Zhang",
+   "Zixuan Wang",
+   "Xufeng Jian",
+   "Zhe He",
+   "Qingyang Wan",
+   "Xutong Wang",
+   "Jiaqi Liu",
+   "Mingze Sun",
+   "Yu Mei",
+   "Chun Yu",
+   "Yuanchun Shi"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.05917v1",
-  "url": "https://arxiv.org/abs/2611.05917v1",
-  "abstract": "Sparse attention accelerates few-step video diffusion transformers by computing a few key blocks exactly and compensating for the rest. However, existing sparse attention still faces key challenges, including identification overhead from finding critical blocks at every denoising step, suboptimal budget allocation that sets sparsity budgets uniformly or by local metrics, and cross-step error accumulation as reused masks or clusters go stale. Observing that the errors left on skipped blocks cancel each other once every key is compensated, we propose DecoupAttn, a new paradigm of decoupled sparse attention: semantic clusters compensate every key, and exact attention corrects their error on a few blocks fixed once offline by position. To support this paradigm, we introduce Distortion Budget, a rate-distortion objective for budget allocation that places exact computation across timesteps, layers, and heads where it removes the most distortion that compensation leaves in the final latent. Built on this budget, we further propose Reassign Cache, in which each step reassigns the drifting keys to cached centroids and refreshes compensation while the budgeted blocks stay fixed. Moreover, DecoupAttn is training-free: a few calibration clips compile one plan offline, and inference runs standard block-sparse kernels with one fused compensation kernel. Our code will be released after submission.",
+  "pdf": "https://arxiv.org/pdf/2611.07437v1",
+  "url": "https://arxiv.org/abs/2611.07437v1",
+  "abstract": "We present IMUDINO, the first foundation model (FM) for inertial sensing to achieve competitive performance across diverse sensing tasks including human activity recognition (HAR), health, motion capture, and odometry. Prior inertial FMs often focus on one subfield of inertial sensing and sometimes underperform state-of-the-art supervised methods (e.g., in HAR), making their scope considerably narrower than FMs for vision and natural language. Moreover, they often require fixed input length and sampling rate, and generalize poorly to unseen sensor locations. To build a general-purpose foundation model for inertial sensing, we adapt the DINO self-supervised learning (SSL) paradigm to inertial data through a set of semantics-preserving motion transformations that simulate variations in motion pattern and sensor setup. For model architecture, we use a plain transformer encoder with frequency-aware positional encoding that natively supports varying input length and sampling rate. This simple setup proved remarkably effective for learning global and dense features generalizable across users, sensor setups, tasks, and, in the case of robot odometry, embodiments. We hope IMUDINO can serve as a backbone for inertial sensing and kickstart the development of general-purpose inertial FMs.",
   "citation_count": 0,
   "concepts": [
+   "cs.LG",
+   "cs.AI",
    "cs.CV"
   ],
-  "arxiv_id": "2611.05917v1",
+  "arxiv_id": "2611.07437v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.07417v1",
+  "title": "MessyNav: Zero-Shot Navigation via Manipulation in Messy Environments",
+  "authors": [
+   "Kenneth Llontop",
+   "Cherie Ho",
+   "Dylan Zhou",
+   "Anuva Banwasi",
+   "Priya Sundaresan",
+   "Carlota Parés-Morlans",
+   "Jeannette Bohg"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-05",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.07417v1",
+  "url": "https://arxiv.org/abs/2611.07417v1",
+  "abstract": "Real-world environments are messy, with paths often blocked by everyday objects like chairs and toys, requiring robots to perform interactive navigation by manipulating obstacles to clear a path. Existing methods rely on extensive simulation-based learning or per-scene instructions specifying which objects to avoid or manipulate. They struggle to generalize across novel objects, diverse environments, and varied contexts such as a cart of fragile glassware that should be avoided while an empty one can be pushed. We formalize this problem as open-world interactive navigation and present MessyNav, a zero-shot framework based on vision-language models (VLMs). At its core, MessyNav performs explicit VLM-based affordance reasoning before task planning to decide whether to swipe, pick up, or avoid an object and produce a high-level plan. Evaluated on a mobile manipulator across real-world indoor and outdoor environments, MessyNav improves success rate by 27 percentage points (pp) over the strongest baseline in real-robot trials and achieves statistically significant gains in a larger-scale offline evaluation, without task-specific training.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.RO",
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.07417v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
@@ -234,29 +203,67 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2611.05909v1",
-  "title": "Do Saliency Maps Fail Dense Breasts? A Chance-Normalized, Confounder-Aware Audit of Explanation Fairness in Mammography",
+  "id": "arxiv:2611.07411v1",
+  "title": "Kinematic Hypothesis Context: Embodiment-Conditioned Learned Video Coding for Bandwidth-Limited Robot Policy Uplinks",
   "authors": [
-   "Ahmed Jaheen"
+   "Yuze Lu"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.05909v1",
-  "url": "https://arxiv.org/abs/2611.05909v1",
-  "abstract": "Saliency maps, offered as evidence that mammography classifiers use the cancer, are untested in dense breasts, which can hide cancers. We tested whether they locate cancers worse there, and why. On 1,345 malignant CBIS-DDSM views, we scored three CNNs' Grad-CAM, Integrated Gradients and occlusion maps by whether their peak hits the lesion and a chance-normalized lesion-to-background saliency ratio (bits; +1 doubles it). Unadjusted gaps were large: Grad-CAM peaks hit 44% of dense vs. 58% of non-dense lesions. Case mix, chiefly more calcifications in dense breasts, explained about half or more of each gap. Occlusion kept a significant average of -0.56 bit gap. Controls also implicate the classifiers: unadjusted gaps exceeded an image-only conspicuity map's, and models relied less on dense-breast lesions. We recommend reporting density gaps before and after case-mix adjustment, per classifier, with conspicuity and lesion-reliance controls.",
+  "pdf": "https://arxiv.org/pdf/2611.07411v1",
+  "url": "https://arxiv.org/abs/2611.07411v1",
+  "abstract": "Robots increasingly run large vision-language-action policies on remote servers, making the camera uplink the bottleneck. Existing video codecs spend bits on content the receiver could predict: the robot's own motion. We introduce the kinematic hypothesis context, a zero-rate conditioning signal that both ends build from joint states, the robot model and the camera calibration. Ego-motion homographies, per-link robot reprojections, an end-effector plane and a background memory warp the previous reconstruction into hypotheses that condition a learned video codec. We prove that history-only and global-pose conditioning with a limited receptive field cannot access this information under large motion, and that coding gains become task gains at the policy's success cliff. On LIBERO, the context saves 23.9% bit rate over a capacity-matched history-conditioned codec and 40-56% over x264, x265 and SVT-AV1, and needs 23.2% fewer bits than DCVC-RT at equal policy action deviation; trained to lower rates, it matches DCVC-RT in PSNR. In closed loop at equal rate, OpenVLA-OFT success nearly doubles from 22.8% to 43.1% at 6 kbps (72.6% with lower-rate training, 23.6 points above DCVC-RT), pi_0.5 success rises from 55.5% to 77.4%, and the gain grows under packet loss. The context transfers across three codec hosts and to real robot data.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.RO",
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.07411v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.07408v1",
+  "title": "PSGAgent: Enhancing MLLMs' Dynamic Visual Perception for Panoptic Scene Graph Generation via Agentic Reasoning",
+  "authors": [
+   "Qingyun Liu",
+   "Yuankun Liu",
+   "Jiaye Feng",
+   "Jie Huang",
+   "Zonghong Dai",
+   "Haochen Li",
+   "Jingkun Wang",
+   "Weiping Li",
+   "Tong Mo"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-05",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.07408v1",
+  "url": "https://arxiv.org/abs/2611.07408v1",
+  "abstract": "Panoptic Scene Graph generation (PSG) requires holistic yet fine-grained reasoning over complex relations among objects. However, current Multimodal Large Language Models (MLLMs) applied to PSG suffer from a perception bottleneck: they function as static observers limited by fixed-resolution views. As a result, models often overlook critical relations involving small or peripheral objects and struggle to differentiate ambiguous predicates in complex scenes. To address these limitations, we propose PSGAgent, an agentic framework that enhances visual perception for PSG through a think-act-observe loop. PSGAgent allows MLLMs to dynamically refine their visual perception using two tools: a Region Zoom-In Tool for local exploration of small or boundary relations and a Visual Highlight Tool for relation-focused segmentation that filters out irrelevant contextual noise. To optimize decision-making, we construct a two-stage training pipeline. First, we create a high-quality, error-aware Multimodal Chain-of-Thought (M-CoT) dataset that provides robust supervision for cold-start learning. Then, we design a novel hierarchical reward mechanism integrated with Group Sequence Policy Optimization (GSPO) to enable strategic and adaptive tool usage. Extensive experiments on the PSG benchmark show that PSGAgent achieves SOTA performance, demonstrating strong capability in both holistic and fine-grained scene understanding.",
   "citation_count": 0,
   "concepts": [
    "cs.CV",
    "cs.AI"
   ],
-  "arxiv_id": "2611.05909v1",
+  "arxiv_id": "2611.07408v1",
   "source": "arxiv",
   "topics": [
-   "计算机视觉"
+   "计算机视觉",
+   "机器学习",
+   "多模态"
   ],
   "is_own": false
  }
