@@ -1,5 +1,215 @@
 [
  {
+  "id": "openalex:W7225384273",
+  "title": "Improved maize LAI estimation under field-scale heterogeneity: Integrating 3D radiative transfer simulation and deep learning approach",
+  "authors": [
+   "Jie Zhang",
+   "Yuanyuan Ma",
+   "Xiaoyu Song",
+   "Kaiqi Du",
+   "Tingting Zhao",
+   "Qiang Wu",
+   "Jin Chen",
+   "Jianbo Qi",
+   "Peng Yang",
+   "Chongya Jiang",
+   "Xia Yao",
+   "Hao Yang",
+   "Laigang Wang",
+   "Guijun Yang",
+   "Xia Jing",
+   "Chunjiang Zhao"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-06",
+  "doi": "10.1016/j.rse.2026.115765",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115765",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Leaf area index",
+   "Mean squared error",
+   "Atmospheric radiative transfer codes"
+  ],
+  "source": "openalex",
+  "topics": [
+   "机器学习",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225390224",
+  "title": "A unified framework for estimation of daily mean land surface temperature from multiple MODIS observation combinations using Bayesian-optimized XGBoost model",
+  "authors": [
+   "王开禹",
+   "Si‐Bo Duan",
+   "Xiaoxiao Min",
+   "Yongjuan Guan",
+   "Xiangyang Liu",
+   "Liang Sun",
+   "Xia Zhang",
+   "Zhao‐Liang Li"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-06",
+  "doi": "10.1016/j.rse.2026.115760",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115760",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Mean squared error",
+   "Remote sensing",
+   "Sampling (signal processing)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225419983",
+  "title": "Resolving the daytime NIRv rhythm of winter wheat under drought stress from Chinese geostationary FY-4A satellite observations",
+  "authors": [
+   "Ziqian Li",
+   "Wei Ci Su",
+   "Shuangxi Miao",
+   "Junming Liu",
+   "María Piles",
+   "Jinlong Fan",
+   "Ying Li",
+   "吴门新 WU Menxin",
+   "Yali Gong",
+   "Yelu Zeng",
+   "Jianxi Huang"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-06",
+  "doi": "10.1016/j.rse.2026.115761",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115761",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Daytime",
+   "Environmental science",
+   "Geostationary orbit"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225402124",
+  "title": "TS-PFDM: a temporally scaled probability-flow diffusion model for thick cloud removal in remote sensing images",
+  "authors": [
+   "Xianjun Gao",
+   "Xudong Xie",
+   "Yuanwei Yang",
+   "Nan Wang",
+   "Rujing Huang",
+   "Huan Li"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-06",
+  "doi": "10.1016/j.isprsjprs.2026.10.027",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.027",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Cloud computing",
+   "Diffusion"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225407183",
+  "title": "PHYIELD: Towards multi-scale maize yield estimation with limited ground reference data via integrated crop models and phenology-guided deep learning",
+  "authors": [
+   "Tianci Guo",
+   "Chunyuan Diao",
+   "Zijun Yang",
+   "Yin Liu",
+   "Chishan Zhang",
+   "Yanghui Kang",
+   "Zhengwei Yang"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-06",
+  "doi": "10.1016/j.isprsjprs.2026.10.049",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.049",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Crop",
+   "Deep learning",
+   "Reference data"
+  ],
+  "source": "openalex",
+  "topics": [
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225424913",
+  "title": "Bathymetric imaging of rivers subject to ice cover: The Lena case",
+  "authors": [
+   "Franck Garestier",
+   "Захарова Елена Анатольевна",
+   "Alexei V. Kouraev",
+   "Stéphane Guillaso",
+   "Samira Hosseini"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-06",
+  "doi": "10.1016/j.isprsjprs.2026.10.030",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.030",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Bathymetry",
+   "Geology",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7225323818",
   "title": "A spatiotemporal difference-enhancement network with semantic flow alignment for fine-grained cropland change detection",
   "authors": [
@@ -52,9 +262,9 @@
   "year": 2026,
   "date": "2026-11-05",
   "doi": "10.1080/15481603.2026.2753383",
-  "pdf": null,
+  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/15481603.2026.2753383?needAccess=true",
   "url": "https://doi.org/10.1080/15481603.2026.2753383",
-  "abstract": null,
+  "abstract": "Satellite-based wildfire spread studies differ in data organization and evaluation procedures, making model performance difficult to compare. We constructed an event-level benchmark to compare model performance and examine how the models used the available inputs. The benchmark covers California during 2012 to 2021 and combines VIIRS 375 m active-fire observations, MODIS NDVI-derived vegetation information, and ERA5-Land wind fields. Each wildfire event was represented on a fixed 100 × 100 grid. Each sequence sample used ten historical daily steps to predict the next-day satellite-observed fire-state mask. Six spatiotemporal models (CNN-LSTM, Vision Transformer, ConvLSTM, Pairwise-ConvLSTM, Patchwise-ConvLSTM, and ST-GNN) were evaluated using common input definitions, preprocessing procedures, prediction targets, and metrics. Integrated Gradients was applied after training to quantify attributions from the five raster input channels to the next-day model outputs. Pairwise-ConvLSTM achieved the lowest overall RMSE of 0.0495 on the cumulative wildfire dataset. Among the five evaluated Patchwise-ConvLSTM configurations, the 7 × 7 setting achieved the highest observed F1-score (0.955), with precision (0.962) and recall (0.949). On the newly burned-pixel subset, the same configuration achieved precision (0.916), recall (0.888), and F1-score (0.902). The attribution analysis showed larger mean absolute values for vegetation-constrained unburned states (7.23 × 10−5) and prior cumulative fire history (5.13 × 10−5) than for newly detected fire pixels (1.81 × 10−5), the eastward wind component (7.01 × 10−6), and the northward wind component (8.97 × 10−6). The benchmark provides a common framework for assessing predictive performance and model input use in next-day satellite-observed wildfire spread prediction.",
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
@@ -64,193 +274,8 @@
   "source": "openalex",
   "topics": [
    "遥感",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.08393v1",
-  "title": "Adaptive Low-Light Enhancement for Road Anomaly Detection: A Multi-Architecture Benchmark and Edge Deployment Study",
-  "authors": [
-   "Obed Honour Eje",
-   "Oluwatosin Kolade",
-   "Glory Bagai",
-   "Taliha Abiodun Folorunso"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-05",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.08393v1",
-  "url": "https://arxiv.org/abs/2611.08393v1",
-  "abstract": "Road anomaly detection systems on autonomous vehicles must function reliably under degraded visual conditions including darkness, rain, and Harmattan dust haze. This paper benchmarks four object detection architectures, YOLOv8n, YOLOv12n, RT-DETR, and Faster R-CNN, under physically grounded lighting and weather degradation, and shows that uniform application of the SCI low-light enhancement network is actively harmful at dusk-level lighting (-16.1% to -30.7% mAP@50). We propose a lightweight, training-free luminance-adaptive router that selects between no enhancement, moderate SCI, and denoising plus strong SCI based on per-frame Rec. 601 luminance, recovering most of the dusk penalty while preserving low-light gains, and we validate the full pipeline on NVIDIA Jetson Nano edge hardware.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.08393v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.08255v1",
-  "title": "Nowcasting of Tropical Cyclone Wind Fields and Intensity from Geostationary Imagery",
-  "authors": [
-   "Simon Donike",
-   "Pritthijit Nath",
-   "Cristina Radin",
-   "Arthur Avenas",
-   "Ruben Cartuyvels",
-   "Emiliano Diaz",
-   "William K. Jones",
-   "Anna Jungbluth"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-05",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.08255v1",
-  "url": "https://arxiv.org/abs/2611.08255v1",
-  "abstract": "High-resolution tropical cyclone surface wind speeds derived from synthetic aperture radar (SAR) observations can support storm structure and intensity modelling, but remain spatially and temporally sparse and unavailable near-real-time. Geostationary satellites capture cloud tops continuously in space and time, but do not directly resolve surface winds. Here, we present simple neural networks to predict 2D wind fields and storm-scale intensity metrics from geostationary imagery. Through a series of ablation studies, we find that joint prediction of 2D fields and scalar metrics from the model latent space improves the retrieval of the (radius of) maximum wind, especially for rapid intensification events.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.LG"
-  ],
-  "arxiv_id": "2611.08255v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
    "计算机视觉",
    "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.08236v1",
-  "title": "Beyond Quadratic Attention: Separable Gaussian Operators for ODE Vision Transformers",
-  "authors": [
-   "Carlos Boned Riera",
-   "David Romero Sanchez",
-   "Oriol Ramos Terrades"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-05",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.08236v1",
-  "url": "https://arxiv.org/abs/2611.08236v1",
-  "abstract": "Self-attention carries a quadratic cost in token count, which limits how far Vision Transformers can scale with input resolution. We introduce SSoG, a separable sum-of-Gaussians spatial operator that replaces dense self-attention with a learned mixture of axis-factorized Gaussian kernels, reducing the per-layer cost from $\\mathcal{O}(N^2)$ to subquadratic in $N$. Unlike dot-product self-attention, whose Lipschitz constant is unbounded outside a compact input domain, SSoG with fixed kernels is globally Lipschitz continuous, which, via the Picard--Lindelöf theorem, guarantees that the continuous-depth variant has a unique solution on the whole integration interval, a global guarantee that dense-attention counterparts lack in general. On CIFAR-100 at $224\\times224$, in a matched discrete-Transformer setting and in the continuous setting, SSoG improves Top-1 accuracy by 2.2--4.1 points across three model widths while using 8.8--16.6\\% fewer parameters, with depth and training recipe held fixed. In a looped-Transformer setting, SSoG improves Top-1 accuracy by 5.4--8.1 points. We further probe inference-time scaling by evaluating on inputs up to $1024\\times1024$ at matched batch size: in the continuous-depth (Neural ODE) architecture, SSoG reaches up to 154\\% higher throughput and over 60\\% lower peak memory than dense attention, with the gap widening as resolution grows, consistent with the difference in asymptotic cost. In the discrete and looped settings, SSoG also achieves over 30\\% higher throughput than dense attention at this resolution. Together, these results establish SSoG as a practical, parameter-efficient, and theoretically grounded alternative to dense attention across discrete, weight-shared, and continuous-depth Transformer variants.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.LG",
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.08236v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.08147v1",
-  "title": "MCUFlowNet: Hardware-Aware Neural Architecture Search for Optical Flow on Microcontrollers",
-  "authors": [
-   "Enmin Lin",
-   "Jona Beysens"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-05",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.08147v1",
-  "url": "https://arxiv.org/abs/2611.08147v1",
-  "abstract": "Dense optical flow allows small drones to avoid obstacles. However, few dense optical flow networks are designed for microcontrollers (MCUs) with neural accelerators, whose on-chip SRAM limits the input resolution. We present PACE-NAS, a macro-to-micro neural architecture search framework that decouples memory from latency: a macro design fixes the backbone and its peak SRAM, and a micro design searches operators and depths to trade accuracy against compiler-estimated latency. We apply it to EdgeFlowNet on a Grove Vision AI V2 board (Ethos-U55), where profiling locates the peak SRAM at the full-resolution output head. Replacing transposed convolutions with bilinear upsampling and convolutions lowers the peak SRAM by 18%, and two lightweight context modules lower the endpoint error (EPE) without raising the peak. All searched subnets share this peak, so the search needs no memory constraint. We name the Pareto-optimal models MCUFlowNet; the fastest variant, MCUFlowNet-S, runs 1.76x faster than a retrained EdgeFlowNet at a 1.6% higher EPE and, in simulated forest flights at 2 m/s, reaches the goal without collision in 51.5% of trials, against 41.8%. PACE-NAS also applies to semantic segmentation, where a searched PIDNet-S variant runs 1.17x faster at similar accuracy. Code is available at https://gitlab.kuleuven.be/emedia-research-lab/esat-stadius/mcuflownet/mcuflownet.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.AR"
-  ],
-  "arxiv_id": "2611.08147v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.08140v1",
-  "title": "Fault-Guided Cross-Layer Prediction for Unsupervised Anomaly Detection",
-  "authors": [
-   "Tao Wang"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-05",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.08140v1",
-  "url": "https://arxiv.org/abs/2611.08140v1",
-  "abstract": "Feature reconstruction is widely used for unsupervised industrial anomaly detection in the single-class setting, where only normal images from one product category are available for training. We propose a single-class detector that asks what information one block can pass to another. We treat the depth of a frozen vision transformer as a sequence of discrete transitions. A directed predictor learns a block-to-block hidden-state transition pointwise over tokens. Adjacent-layer cosine similarity exposes four sharp fault lines in DINOv2 ViT-L, separating stable depth segments. The deepest blocks retain semantic context but lose local detail; a prediction from deep or shallow sources to sensitive targets therefore exposes the information that cannot be transported. The fault structure fixes the source and target roles, and the same rule transfers to ViT-B and RADIO-B. We use a bounded foreground prior calibrated solely on training images: it attenuates background evidence without also erasing defects outside the estimated foreground. Using one predictor architecture and a common training-only calibration protocol, image AUROC is 99.75 on MVTec-AD, 99.42 on VisA and 94.27 on Real-IAD. On Real-IAD the object-level AUROC is 96.26. At 256x256 pixel resolution, P-AUROC/P-AUPRO are 98.46/95.97 on MVTec-AD, 99.21/96.12 on VisA and 99.26/96.59 on Real-IAD.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.08140v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.08095v1",
-  "title": "National-scale mapping of tree species composition in Switzerland from high-resolution aerial imagery and multimodal data",
-  "authors": [
-   "Yixin Zhou",
-   "Luca Ferrari",
-   "Verena C. Griess",
-   "Nataliia Rehush",
-   "Konrad Schindler",
-   "Mirela Beloiu"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-05",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.08095v1",
-  "url": "https://arxiv.org/abs/2611.08095v1",
-  "abstract": "Tree-species composition shapes forest productivity and how forests respond to climate disturbances such as drought, windthrow and insect outbreaks. Yet most national forest maps assign each pixel a single dominant species and cannot show the share of accompanying species. We mapped the basal-area shares of ten main tree species and a residual Other class across Switzerland at 30 m resolution. A deep-learning model combining 0.1 m aerial RGB imagery, airborne laser scanning (ALS), annual AlphaEarth satellite embeddings, and climate variables was trained on basal-area observations from 3,992 Swiss National Forest Inventory (NFI) sites. In spatial cross-validation, the model reached a macro-$R^2$ of 0.485 across the 11 classes. On an independent forest-reserve dataset, the map reached a macro-$R^2$ of 0.552 for individual 30 m pixels and 0.733 for plots, and identified the dominant class in 73.2% of pixels and 81.1% of plots. The map shows maple and ash as widespread minor components that dominant-class maps omit. It also reproduces the elevational sequence from broadleaved lowland stands through spruce to larch and Arolla pine near the treeline. By resolving the species mixture within each 30 m pixel, the map complements field inventory statistics with spatially continuous information that can support forest monitoring, the management of mixed stands, and climate-adaptation planning across Switzerland.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.08095v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "多模态"
   ],
   "is_own": false
  }
