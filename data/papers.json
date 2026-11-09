@@ -1,5 +1,107 @@
 [
  {
+  "id": "openalex:W7166668838",
+  "title": "High-resolution forest height mapping across boreal and temperate forest sites using Hongtu-1 multistatic X-band TomoSAR",
+  "authors": [
+   "Guobing Zeng",
+   "Huaping Xu",
+   "Le Zhang",
+   "Lei Zhao",
+   "Dinh Ho Tong Minh",
+   "Laurent Ferro-Famil",
+   "Ye Yu",
+   "Yang Lei",
+   "Simon Tong Sing Hee",
+   "Sang‐Ho Yun"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-07",
+  "doi": "10.1016/j.rse.2026.115757",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115757",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Lidar",
+   "Taiga",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225465665",
+  "title": "The hidden dimension: Resolving the vertical gradients of solar-induced chlorophyll fluorescence emissions and gross primary production in modern maize canopy",
+  "authors": [
+   "Seungjoon Lee",
+   "Luke M. Gregory",
+   "Lianhong Gu",
+   "Christine Yao-Yun Chang",
+   "Michael A. Gore",
+   "Ying Sun"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-07",
+  "doi": "10.1016/j.rse.2026.115763",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115763",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Canopy",
+   "Environmental science",
+   "Chlorophyll fluorescence"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225467227",
+  "title": "Fusing a foundation model with spatiotemporal correction for automated long-term tracking of rift propagation from satellite imagery: a case study of the amery ice shelf",
+  "authors": [
+   "Zixiao Guo",
+   "Ronggang Huang",
+   "Yunfei Zhang",
+   "Yikai Zhu",
+   "Ruijie Chang",
+   "Qiang Shen",
+   "Hansheng Wang",
+   "Liming Jiang"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-07",
+  "doi": "10.1080/15481603.2026.2754655",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2754655",
+  "abstract": "Long-term satellite monitoring of rift propagation is essential for assessing Antarctic ice shelf stability and projecting sea-level rise. Currently, long-term tracking of rifts still relies on time-consuming manual interpretation, significantly affecting its feasibility for large-scale rift monitoring. Here, we present a novel framework for automatically tracking rift propagation, which fuses the fine-tuned visual foundation model (Segment Anything Model, SAM) and spatiotemporal correction. The SAM enables automated rift extraction using only a few samples without any manual prompts, while the spatiotemporal correction improves the precision of rift mapping for geometric measurements. We applied this framework to automatically monitor key rifts on the Amery Ice Shelf using 768 Landsat 8/9 and Sentinel-2 images from 2015 to 2025, achieving an F1 score of 98.6% across 11 independent scenes. Rift length and width measurements were in agreement with manual interpretation, with R2 values of 0.979 and 0.999, respectively. Furthermore, our extended monitoring revealed recent structural changes within the rift system on the Amery Ice Shelf. This study offers a new way for automated rift tracking with the foundation model for the first time, having significant potential for long-term monitoring of pan-Antarctic rifts.",
+  "citation_count": 0,
+  "concepts": [
+   "Rift",
+   "Geology",
+   "Tracking (education)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7225384273",
   "title": "Improved maize LAI estimation under field-scale heterogeneity: Integrating 3D radiative transfer simulation and deep learning approach",
   "authors": [
@@ -165,7 +267,7 @@
   "doi": "10.1016/j.isprsjprs.2026.10.049",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.049",
-  "abstract": null,
+  "abstract": "Accurately estimating crop yields across scales (e.g., regional administrative and field scales) is critical for global food security, given mounting challenges agriculture faces from climate change, population growth, soil degradation, and water scarcity. Remote sensing has been widely used for crop yield estimation with its spatially extensive coverage and temporally continuous observations of crop conditions. However, robust yield estimation across scales remains challenging, particularly under conditions of limited availability of crop yield and crop management data. While process-based crop models can capture complex interactions of plant-soil-atmosphere continuum, their large-scale application is limited by computational cost, parameterization difficulty, and model input (e.g., management) constraints. Empirical data-driven models are more flexible and computationally efficient, but they heavily depend on ground-measured yield labels that are often scarce over space and time. To address these challenges, we propose PHYIELD, a novel hybrid yield estimation framework that integrates systematically calibrated process-based crop modeling and phenology-guided deep learning for maize yield estimation at both county and field scales under yield data constraint conditions. PHYIELD mainly comprises three components: systematic crop model calibration, diversified crop model simulation, and phenology-guided deep learning. Given the challenges and prevalence of sparse yield observations in practice, PHYIELD is uniquely devised with limited ground yield records for model building. Its model performance is systematically evaluated for temporal, spatial, and scale transfers, upon comparison with standalone crop model and deep learning counterpart benchmarks. Results showed that the systematic crop model calibration of PHYIELD, particularly via the calibration for Leaf Area Index (LAI), followed by yield (biomass multiplied by Harvest Index [HI]), is essential for region-varying parameterizations of the crop model before coupling with deep learning. With diversified simulations from calibrated crop model and phenology-guided deep learning, PHYIELD achieved correlation (R) of 0.53–0.73, bias of −1.47–0.96 t ha⁻ 1 , and root mean square error (RMSE) of 1.07–1.68 t ha⁻ 1 in the study region, outperforming both crop model and deep learning benchmarks. Under significant yield data constraint condition (e.g., only 2023 county-level yield data of Illinois available), PHYIELD demonstrated superior temporal transferability over the preceding 20 year period (2003–2022) (R = 0.70, RMSE = 1.76 t ha⁻ 1 ), spatial transfer to surrounding states (R = 0.85, RMSE = 1.06 t ha⁻ 1 ), and scale transfer from county to field levels (R = 0.53–0.76, RMSE = 1.55–1.58 t ha⁻ 1 ). By leveraging the complementary strengths of process-based and data-driven modeling approaches, coupled with systematic parameterization of crop model and incorporation of phenology knowledge, PHYIELD provides a more robust and generalizable solution for multi-scale maize yield estimation, particularly under limited data conditions. It can largely support yield-oriented decision-making in agricultural management, policy development, and food security planning.",
   "citation_count": 0,
   "concepts": [
    "Crop",
@@ -174,6 +276,8 @@
   ],
   "source": "openalex",
   "topics": [
+   "遥感",
+   "计算机视觉",
    "机器学习"
   ],
   "is_own": false
@@ -7609,7 +7713,7 @@
   "year": 2026,
   "date": "2026-11-01",
   "doi": "10.1016/j.jag.2026.105663",
-  "pdf": null,
+  "pdf": "https://www.sciencedirect.com/science/article/pii/S1569843226005790/pdf",
   "url": "https://doi.org/10.1016/j.jag.2026.105663",
   "abstract": "Dothistroma needle blight (DNB) is a major foliar disease of Pinus radiata , an important plantation species in several Southern Hemisphere countries. DNB management and resistance breeding depend on subjective, labour-intensive visual severity scoring that is difficult to scale. Prior UAV studies have used broad severity categories and crown-mean reflectance, discarding both the ordinal structure of the field grade and the within-crown spatial pattern of infection. This study evaluated whether UAV multispectral imagery can quantify tree-scale DNB severity while preserving the ordinal 5 % field grading, treating adjacent-class errors as less severe than distant ones. From imagery of two trials in the North Island, New Zealand, 8,136 manually delineated crowns were characterised by 552 candidate features (82 vegetation indices and 10 raw bands, each summarised by six within-crown distributional statistics). After collinearity filtering, 40 features were used to fit Ordinal Forest (OF) and Frequency-Adjusted Borders Ordinal Forest (fabOF) models at three granularities (5, 10, and 19 severity classes). At 19-class resolution, predictions fell within ± 10 points of the true severity for approximately 80 % of crowns. Quadratic weighted kappa rose with granularity, consistent with finer models erring predominantly by small, adjacent-class amounts. fabOF improved ordinal ranking, with markedly less underestimation between 50 and 70 % severity, whereas OF was sharper in the well-sampled moderate range, a calibration-balance trade-off across applications. Within-crown variability and tail-percentile statistics, not crown-mean reflectance, carried the strongest signal (SHAP analysis), consistent with DNB’s patchy progression. UAV multispectral imagery can therefore support fine-grained DNB severity assessment, an automated complement to visual scoring for management and resistance phenotyping, demonstrated here across two juvenile trials.",
   "citation_count": 0,
@@ -7814,6 +7918,33 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7225466555",
+  "title": "E$$^2$$MA-VFI: Enhancing Video Frame Interpolation with Inter-Frame Attention",
+  "authors": [
+   "Guozhen Zhang",
+   "Chunxu Liu",
+   "Limin Wang"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-01",
+  "doi": "10.1007/s11263-026-03101-w",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03101-w",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Pipeline (software)",
+   "Artificial intelligence"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
   "id": "openalex:W4415334706",
   "title": "Visual CoT makes VLMs smarter but more fragile",
   "authors": [
@@ -7840,6 +7971,37 @@
   ],
   "source": "openalex",
   "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7134194126",
+  "title": "Semantic-E2VID: A semantic-enriched paradigm for event-to-video reconstruction",
+  "authors": [
+   "Jingqian Wu",
+   "Yunbo Jia",
+   "Shengpeng Xu",
+   "Boxin Shi",
+   "Edmund Y. M. Lam"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-01",
+  "doi": "10.1016/j.patcog.2026.115291",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115291",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Semantics (computer science)",
+   "Event (particle physics)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
   "is_own": false
  },
  {
@@ -7898,6 +8060,35 @@
   "topics": [
    "计算机视觉",
    "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7167228403",
+  "title": "Hidden-Shot: Towards one-shot task generalization for low-level vision generalist models",
+  "authors": [
+   "Shaojun Xia",
+   "Xianzheng Ma",
+   "Zichong Meng"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-01",
+  "doi": "10.1016/j.patcog.2026.115299",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115299",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Generalist and specialist species",
+   "Generalization",
+   "Retraining"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
   ],
   "is_own": false
  },
@@ -8590,6 +8781,257 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7225451680",
+  "title": "S2U-Surv: From seen to unseen sample-specific generation for incomplete multimodal survival prediction",
+  "authors": [
+   "Shuilian Yao",
+   "Qi Jia",
+   "Qing Liu",
+   "Yu Liu",
+   "Xin Fan"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-01",
+  "doi": "10.1016/j.patcog.2026.115268",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115268",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Artificial intelligence",
+   "Computer science",
+   "Pattern recognition (psychology)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225455509",
+  "title": "RegionFormer: A model for irregular region-level features extraction and region transformer-based Alzheimer’s Disease diagnosis",
+  "authors": [
+   "Liang Sun",
+   "Yanling Fu",
+   "Junyong Zhao",
+   "Daoqiang Zhang"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-01",
+  "doi": "10.1016/j.patcog.2026.115237",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115237",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Artificial intelligence",
+   "Pattern recognition (psychology)",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225460496",
+  "title": "VETO: Occurrence-controlled phase-path verification for time-series classification",
+  "authors": [
+   "Jianing Xu",
+   "Yi Ren",
+   "Fangjun Luan",
+   "Shuai Yuan"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-01",
+  "doi": "10.1016/j.patcog.2026.115279",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115279",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Artificial intelligence",
+   "Pattern recognition (psychology)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225462510",
+  "title": "Spatiotemporal EEG dynamics of major depressive disorder: A region-conditioned interpretable modeling approach",
+  "authors": [
+   "Zonghai Huang",
+   "Mengqi Niu",
+   "Lianchi Zhang",
+   "Zhuo Fang",
+   "Michael Maes",
+   "Hong Cheng",
+   "Jingting Zhang"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-01",
+  "doi": "10.1016/j.patcog.2026.115269",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115269",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Electroencephalography",
+   "Artificial intelligence",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225463458",
+  "title": "Inverse dynamics-aware offline actor-critic for cross-domain reinforcement learning",
+  "authors": [
+   "Zhe Zhang",
+   "Yongle Zhou",
+   "Yao Li",
+   "Yuyang Long",
+   "Yaozhong Gan",
+   "Xiaoyang Tan"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-01",
+  "doi": "10.1016/j.patcog.2026.115280",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115280",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Artificial intelligence",
+   "Reinforcement learning"
+  ],
+  "source": "openalex",
+  "topics": [
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225464048",
+  "title": "Adaptive balanced clustering via rotated low-rank approximation of anchor graph",
+  "authors": [
+   "Hui Yang",
+   "Yingjie Cai",
+   "Jianyong Zhu",
+   "Feiping Nie"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-01",
+  "doi": "10.1016/j.patcog.2026.115294",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115294",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Cluster analysis",
+   "Computer science",
+   "Graph"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225467452",
+  "title": "Frequency-aware dynamic feature selection and self-guided semantic modulation for image forgery detection",
+  "authors": [
+   "Yifan Hou",
+   "Zhuang Miao",
+   "Jiaxing Hou",
+   "Wei Bai",
+   "JiaBao Wang",
+   "Yang Li"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-01",
+  "doi": "10.1016/j.patcog.2026.115295",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115295",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Artificial intelligence",
+   "Computer vision"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225468584",
+  "title": "Local structure-aware and diffusion-guided fuzzy rough sets for feature selection",
+  "authors": [
+   "An Wu",
+   "Lei Yang",
+   "Binbin Sang",
+   "Weihua Xu",
+   "Shaoguo Cui",
+   "Tiangang Zhou",
+   "Hongzhi Kuai",
+   "Tianrui Li"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-01",
+  "doi": "10.1016/j.patcog.2026.115278",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115278",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Rough set",
+   "Artificial intelligence",
+   "Pattern recognition (psychology)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7225002512",
   "title": "Annual National Land Cover Database Collection 1.0: 39-year record of land cover and land cover change products across the conterminous U.S.",
   "authors": [
@@ -8954,106 +9396,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7225003557",
-  "title": "AGPO: Anchor-guided progressive optimization for enhancing 3D Gaussian representations",
-  "authors": [
-   "Jiaheng Xu",
-   "Rui Zhang",
-   "Xuran Zhao",
-   "Tao Yang",
-   "Yunuo Zou",
-   "Yan Tao Tian",
-   "Xun Wang"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-31",
-  "doi": "10.1016/j.patcog.2026.115230",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115230",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Reprojection error",
-   "Initialization",
-   "Epipolar geometry"
-  ],
-  "source": "openalex",
-  "topics": [
-   "机器学习",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225015776",
-  "title": "TI-CLIP: Learning customized classname for zero-shot anomaly detection",
-  "authors": [
-   "Yansheng Fu",
-   "Hang Yao",
-   "Ming Liu",
-   "Yanli Ji",
-   "Wangmeng Zuo"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-31",
-  "doi": "10.1016/j.patcog.2026.115229",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115229",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Anomaly detection",
-   "Computer science",
-   "Artificial intelligence"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225016586",
-  "title": "FGSSNet: Frequency-guided state space network for medical image segmentation",
-  "authors": [
-   "Ziwei Wang",
-   "Jinyu Luo",
-   "Yuxuan Zou",
-   "Di Gai",
-   "Xianhao Zhong",
-   "Dengyun Xu",
-   "Pengxiang Su"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-31",
-  "doi": "10.1016/j.patcog.2026.115233",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115233",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Artificial intelligence",
-   "Computer science",
-   "Encoder"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
   "id": "openalex:W7224751712",
   "title": "Physics-constrained spatio-temporal generative adversarial learning for daily-scale sea ice thickness prediction",
   "authors": [
@@ -9105,227 +9447,6 @@
   "concepts": [],
   "source": "openalex",
   "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W4416280647",
-  "title": "Multiresolution local smoothness detection in non-uniformly sampled multivariate signals",
-  "authors": [
-   "Sara Avesani",
-   "Gianluca Giacchi",
-   "Michael Multerer"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-30",
-  "doi": "10.1016/j.patcog.2026.115187",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115187",
-  "abstract": "Inspired by edge detection based on the decay behavior of wavelet coefficients, we introduce a linear-time algorithm for detecting the local regularity in non-uniformly sampled multivariate signals. Our approach quantifies regularity within the framework of microlocal spaces introduced by Jaffard. The central tool in our analysis is the fast samplet transform, a distributional wavelet transform tailored to scattered data. We establish a connection between the decay of samplet coefficients and the pointwise regularity of multivariate signals. As byproduct, we derive decay estimates for functions belonging to classical Hölder spaces and Sobolev-Slobodeckij spaces. While traditional wavelets are effective for regularity detection in structured and usually low dimensional data, they are not suited to process irregularly sampled or scattered data. Differently, samplets demonstrate robust performance for scattered and even higher dimensional data. To illustrate our theoretical findings, we present extensive numerical studies detecting local regularity of one-, two- and three-dimensional signals, ranging from non-uniformly sampled time series over image segmentation to edge detection in point clouds.",
-  "citation_count": 6,
-  "concepts": [
-   "Pointwise",
-   "Wavelet",
-   "Mathematics"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7224572202",
-  "title": "From incomplete labels to complete control: Self-supervised mask consistency learning for fundus image generation",
-  "authors": [
-   "Yuxin Lin",
-   "Yongting Hu",
-   "Qihao Xu",
-   "Xiaoling Luo",
-   "Zhihao Wu",
-   "Wei Wang",
-   "Bingo Wing‐Kuen Ling",
-   "Jie Wen",
-   "Yong Xu"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-30",
-  "doi": "10.1016/j.patcog.2026.115244",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115244",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Artificial intelligence",
-   "Computer science",
-   "Computer vision"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7224651697",
-  "title": "Disentangling spatio-temporal topological representations for cross-device EEG emotion recognition",
-  "authors": [
-   "Kun Wang",
-   "Qi Zhu",
-   "Junyong Zhao",
-   "Chuhang Zheng",
-   "Daoqiang Zhang"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-30",
-  "doi": "10.1016/j.patcog.2026.115179",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115179",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Emotion recognition",
-   "Computer science",
-   "Electroencephalography"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7224677426",
-  "title": "Fast low rank tensor completion approach with nonconvex bilinear representation",
-  "authors": [
-   "Yiyuan Cheng",
-   "Xingxing Zha",
-   "Xiaohu Luo",
-   "Fengjun Li",
-   "Jianjun Wang"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-30",
-  "doi": "10.1016/j.patcog.2026.115222",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115222",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Bilinear interpolation",
-   "Mathematics",
-   "Representation (politics)"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7224880691",
-  "title": "Learning to prompt with semantic priors and memory retrieval for semi-supervised facial expression recognition",
-  "authors": [
-   "Bicao Li",
-   "Xiaoting Li",
-   "Bei Wang",
-   "Min Huang",
-   "Zhuhong Shao",
-   "Ke Wang",
-   "Huazhong Shu"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-30",
-  "doi": "10.1016/j.patcog.2026.115239",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115239",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Prior probability",
-   "Artificial intelligence"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7224920023",
-  "title": "FDRFusion: Frequency-domain registration-guided fusion for unregistered multimodal images",
-  "authors": [
-   "Yubo Fu",
-   "Xia Ye",
-   "Kai Lv",
-   "Yixin Wang"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-30",
-  "doi": "10.1016/j.patcog.2026.115171",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115171",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Artificial intelligence",
-   "Image fusion"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7224921428",
-  "title": "SAM3-CD: Parameter-efficient adaptation of SAM 3 for remote sensing change detection",
-  "authors": [
-   "Wenhao Zhan",
-   "Wenzhe Zhao",
-   "Shiyuan Li"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-30",
-  "doi": "10.1016/j.patcog.2026.115242",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115242",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Change detection",
-   "Computer science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
   "is_own": false
  },
  {
@@ -13289,69 +13410,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7220838911",
-  "title": "Effectiveness of multi-source merged soil moisture products using different triple collocation methods: A comprehensive assessment incorporating spatial similarity evaluation framework",
-  "authors": [
-   "CAO Meng",
-   "Min Chen",
-   "Jeffrey P. Walker"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-07",
-  "doi": "10.1016/j.rse.2026.115715",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115715",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Environmental science",
-   "Water content",
-   "Remote sensing"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7220839538",
-  "title": "Integrated retrieval of ocean surface wind and current fields from single-geometry SAR observations through a physically constrained Bayesian framework",
-  "authors": [
-   "Yuting Zhu",
-   "Marcos Portabella",
-   "Shengren Fan",
-   "Giuseppe Grieco",
-   "Xiaoqing Wang",
-   "Xiaofeng Li",
-   "Haohuan Fu"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-07",
-  "doi": "10.1016/j.rse.2026.115686",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115686",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Synthetic aperture radar",
-   "Geology"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
   "id": "openalex:W7220684545",
   "title": "VLM-Mapper: Multimodal vision-language models for prior guided lane-level HD map construction",
   "authors": [
@@ -14177,36 +14235,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7169601186",
-  "title": "Blurring Modal Boundaries: A Unified Survey from Single- to Multi-modal Person Re-ldentification",
-  "authors": [
-   "Xiao Wang",
-   "Bing Wang",
-   "B Yang",
-   "Cuiqun Chen",
-   "X X Xu",
-   "Mang Ye"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-01",
-  "doi": "10.1007/s11263-026-03069-7",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03069-7",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Key (lock)",
-   "Field (mathematics)"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
   "id": "openalex:W7214898194",
   "title": "A method for identifying urban flood inundation based on single-temporal remote sensing imagery",
   "authors": [
@@ -14299,40 +14327,6 @@
   "source": "openalex",
   "topics": [
    "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7214232015",
-  "title": "Improving automatic glacier mapping accuracy, robustness, and reliability across the Third Pole Region",
-  "authors": [
-   "Wei Jia",
-   "Ninglian Wang",
-   "Chenlie Shi",
-   "Yuwei Wu",
-   "An’an Chen",
-   "Gexia Qin",
-   "Bo Jiang"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-09-24",
-  "doi": "10.1080/15481603.2026.2737501",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2737501",
-  "abstract": "Most automatic glacier mapping methods applied in the Third Pole Region (TPR), exhibit suboptimal accuracy for debris-covered glaciers, high sensitivity to interferences, and large uncertainty in model outputs, thereby limiting their operational utility. These challenges can be mitigated by deploying advanced deep learning models and enhancing dataset representativeness across complex imaging conditions. Accordingly, we compiled three large-scale datasets used for model development, glacier-level mapping evaluation, and cross-sensor generalisation assessment, respectively. We then evaluated several state-of-the-art deep learning networks and found that the adapted TransUNet performed best. On the test dataset, the model achieves a glacier Intersection over Union (IoU) of 90% and 83% in patches featuring debris-free and debris-covered glaciers, respectively, while maintaining robust under challenging conditions. Glacier-level validation further confirms the effective detection of glacier counts and precise outlines, with both metrics improving with glacier area and the global IoUTPR > 80%. Uncertainty quantification shows high output reliability, with expected calibration errors of 0.029 and 0.009 for the test and glacier-level test datasets, respectively. Our fully automated 2024–2025 Karakoram glacier inventory, comprising 12,981 glaciers covering a total area of ~19,484 km2, exhibits high agreement with earlier inventories and reflects current glacier state. The primary contribution of this study is the development of a scalable framework that, by optimising dataset representativeness and algorithmic architectures, significantly elevates the accuracy, robustness, reliability and operational value of glacier mapping across the TPR.",
-  "citation_count": 0,
-  "concepts": [
-   "Reliability (semiconductor)",
-   "Glacier",
-   "Geology"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
   ],
   "is_own": false
  },
@@ -16857,7 +16851,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tgrs.2026.3701819",
   "abstract": "Object detection from aerial platforms under adverse atmospheric conditions, particularly haze, is paramount to robust drone autonomy. Yet, this domain remains largely underexplored, primarily hindered by the absence of specialized benchmarks. To bridge this gap, we presentHazyDet, the first, large-scale benchmark specifically designed for drone-view object detection in hazy conditions. Comprising 383,000 real-world instances derived from both naturally hazy captures and synthetically hazed scenes augmented from clear images, HazyDet provides a challenging and realistic testbed for advancing detection algorithms. To address the severe visual degradation induced by haze, we propose the Depth-Conditioned Detector (DeCoDet), a novel architecture that integrates a Depth-Conditioned Kernel to dynamically modulate feature representations based on depth cues. The practical efficacy and robustness of DeCoDet are further enhanced by its training with a Progressive Domain Fine-Tuning (PDFT) strategy to mitigate synthetic-to-real domain shifts, and a Scale-Invariant Refurbishment Loss (SIRLoss) to ensure resilient learning from potentially noisy depth annotations. Comprehensive empirical validation on HazyDet substantiates the superiority of our unified DeCoDet framework, which achieves state-of-the-art performance, surpassing the closest competitor by a notable +1.0% mAP on challenging real-world hazy test scenarios. Our dataset and toolkit are available at https://github.com/GrokCV/HazyDet.",
-  "citation_count": 61,
+  "citation_count": 62,
   "concepts": [
    "Drone",
    "Benchmark (surveying)",

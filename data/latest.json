@@ -1,5 +1,107 @@
 [
  {
+  "id": "openalex:W7166668838",
+  "title": "High-resolution forest height mapping across boreal and temperate forest sites using Hongtu-1 multistatic X-band TomoSAR",
+  "authors": [
+   "Guobing Zeng",
+   "Huaping Xu",
+   "Le Zhang",
+   "Lei Zhao",
+   "Dinh Ho Tong Minh",
+   "Laurent Ferro-Famil",
+   "Ye Yu",
+   "Yang Lei",
+   "Simon Tong Sing Hee",
+   "Sang‐Ho Yun"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-07",
+  "doi": "10.1016/j.rse.2026.115757",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115757",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Lidar",
+   "Taiga",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225465665",
+  "title": "The hidden dimension: Resolving the vertical gradients of solar-induced chlorophyll fluorescence emissions and gross primary production in modern maize canopy",
+  "authors": [
+   "Seungjoon Lee",
+   "Luke M. Gregory",
+   "Lianhong Gu",
+   "Christine Yao-Yun Chang",
+   "Michael A. Gore",
+   "Ying Sun"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-07",
+  "doi": "10.1016/j.rse.2026.115763",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115763",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Canopy",
+   "Environmental science",
+   "Chlorophyll fluorescence"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225467227",
+  "title": "Fusing a foundation model with spatiotemporal correction for automated long-term tracking of rift propagation from satellite imagery: a case study of the amery ice shelf",
+  "authors": [
+   "Zixiao Guo",
+   "Ronggang Huang",
+   "Yunfei Zhang",
+   "Yikai Zhu",
+   "Ruijie Chang",
+   "Qiang Shen",
+   "Hansheng Wang",
+   "Liming Jiang"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-07",
+  "doi": "10.1080/15481603.2026.2754655",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2754655",
+  "abstract": "Long-term satellite monitoring of rift propagation is essential for assessing Antarctic ice shelf stability and projecting sea-level rise. Currently, long-term tracking of rifts still relies on time-consuming manual interpretation, significantly affecting its feasibility for large-scale rift monitoring. Here, we present a novel framework for automatically tracking rift propagation, which fuses the fine-tuned visual foundation model (Segment Anything Model, SAM) and spatiotemporal correction. The SAM enables automated rift extraction using only a few samples without any manual prompts, while the spatiotemporal correction improves the precision of rift mapping for geometric measurements. We applied this framework to automatically monitor key rifts on the Amery Ice Shelf using 768 Landsat 8/9 and Sentinel-2 images from 2015 to 2025, achieving an F1 score of 98.6% across 11 independent scenes. Rift length and width measurements were in agreement with manual interpretation, with R2 values of 0.979 and 0.999, respectively. Furthermore, our extended monitoring revealed recent structural changes within the rift system on the Amery Ice Shelf. This study offers a new way for automated rift tracking with the foundation model for the first time, having significant potential for long-term monitoring of pan-Antarctic rifts.",
+  "citation_count": 0,
+  "concepts": [
+   "Rift",
+   "Geology",
+   "Tracking (education)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7225384273",
   "title": "Improved maize LAI estimation under field-scale heterogeneity: Integrating 3D radiative transfer simulation and deep learning approach",
   "authors": [
@@ -165,111 +267,12 @@
   "doi": "10.1016/j.isprsjprs.2026.10.049",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.049",
-  "abstract": null,
+  "abstract": "Accurately estimating crop yields across scales (e.g., regional administrative and field scales) is critical for global food security, given mounting challenges agriculture faces from climate change, population growth, soil degradation, and water scarcity. Remote sensing has been widely used for crop yield estimation with its spatially extensive coverage and temporally continuous observations of crop conditions. However, robust yield estimation across scales remains challenging, particularly under conditions of limited availability of crop yield and crop management data. While process-based crop models can capture complex interactions of plant-soil-atmosphere continuum, their large-scale application is limited by computational cost, parameterization difficulty, and model input (e.g., management) constraints. Empirical data-driven models are more flexible and computationally efficient, but they heavily depend on ground-measured yield labels that are often scarce over space and time. To address these challenges, we propose PHYIELD, a novel hybrid yield estimation framework that integrates systematically calibrated process-based crop modeling and phenology-guided deep learning for maize yield estimation at both county and field scales under yield data constraint conditions. PHYIELD mainly comprises three components: systematic crop model calibration, diversified crop model simulation, and phenology-guided deep learning. Given the challenges and prevalence of sparse yield observations in practice, PHYIELD is uniquely devised with limited ground yield records for model building. Its model performance is systematically evaluated for temporal, spatial, and scale transfers, upon comparison with standalone crop model and deep learning counterpart benchmarks. Results showed that the systematic crop model calibration of PHYIELD, particularly via the calibration for Leaf Area Index (LAI), followed by yield (biomass multiplied by Harvest Index [HI]), is essential for region-varying parameterizations of the crop model before coupling with deep learning. With diversified simulations from calibrated crop model and phenology-guided deep learning, PHYIELD achieved correlation (R) of 0.53–0.73, bias of −1.47–0.96 t ha⁻ 1 , and root mean square error (RMSE) of 1.07–1.68 t ha⁻ 1 in the study region, outperforming both crop model and deep learning benchmarks. Under significant yield data constraint condition (e.g., only 2023 county-level yield data of Illinois available), PHYIELD demonstrated superior temporal transferability over the preceding 20 year period (2003–2022) (R = 0.70, RMSE = 1.76 t ha⁻ 1 ), spatial transfer to surrounding states (R = 0.85, RMSE = 1.06 t ha⁻ 1 ), and scale transfer from county to field levels (R = 0.53–0.76, RMSE = 1.55–1.58 t ha⁻ 1 ). By leveraging the complementary strengths of process-based and data-driven modeling approaches, coupled with systematic parameterization of crop model and incorporation of phenology knowledge, PHYIELD provides a more robust and generalizable solution for multi-scale maize yield estimation, particularly under limited data conditions. It can largely support yield-oriented decision-making in agricultural management, policy development, and food security planning.",
   "citation_count": 0,
   "concepts": [
    "Crop",
    "Deep learning",
    "Reference data"
-  ],
-  "source": "openalex",
-  "topics": [
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225424913",
-  "title": "Bathymetric imaging of rivers subject to ice cover: The Lena case",
-  "authors": [
-   "Franck Garestier",
-   "Захарова Елена Анатольевна",
-   "Alexei V. Kouraev",
-   "Stéphane Guillaso",
-   "Samira Hosseini"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-06",
-  "doi": "10.1016/j.isprsjprs.2026.10.030",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.030",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Bathymetry",
-   "Geology",
-   "Remote sensing"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225323818",
-  "title": "A spatiotemporal difference-enhancement network with semantic flow alignment for fine-grained cropland change detection",
-  "authors": [
-   "Ruina Zhao",
-   "Wanxing Zhang",
-   "Junyang Xie",
-   "Fanghua Hao",
-   "Anqi Lin",
-   "Carlos M. Di Bella",
-   "Thomas Blaschke",
-   "Hao Wu"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-05",
-  "doi": "10.1016/j.isprsjprs.2026.10.037",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.037",
-  "abstract": "Accurate cropland change detection from high-resolution remote sensing images is essential for agricultural resource monitoring, land management, and food security. Existing methods struggle with two primary challenges: (1) severe pseudo-change noise and false alarms, caused by sole reliance on simple spatial or temporal difference enhancement, and (2) inadequate fine-grained cropland change detection, resulting from boundary detail degradation during fixed interpolation decoding. To address these issues, we propose a S patio T emporal D ifference- E nhancement N etwork (STDENet) with semantic flow alignment for effective cropland change detection from high-resolution remote sensing images. Built on a pyramid vision transformer V2 (PVT-V2) encoder, STDENet integrates three key innovations: a spatiotemporal dual-branch difference enhancement (STDDE) module that jointly captures temporal variations and spatial discrepancies to suppress irrelevant responses from unchanged or spectrally similar regions; an adaptive boundary-aware (ABA) module that dynamically extracts four-directional texture cues to enhance boundary representations; and a semantic flow-aligned decoding (SFAD) module that predicts semantic flow fields to warp high-level difference features and align them with low-level spatial details for fine-grained structure recovery. We evaluate the STDENet on one self-constructed dataset, DYCD, and two public benchmark datasets, CLCD and Hi-CNA. Comparative experiments confirm that STDENet consistently outperforms existing state-of-the-art methods on all three datasets, improving IoU by 3.41 %, 4.90 %, and 1.98 % over the second-best methods on DYCD, CLCD, and Hi-CNA, respectively. By enhancing global structural information through the spatial branch and local change responses through the temporal branch, the spatiotemporal interaction design improves the feature separability of cropland changes. Semantic flow alignment helps restore fine-grained details by producing a more stable decoding process for local contours in cropland change patches. STDENet also demonstrates stronger resistance to interference and better adaptability to phenological variations among crop growth, pre-sowing, and post-harvest periods. Large-scale applications further indicate its generalization ability across heterogeneous cropland structures.",
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Change detection",
-   "Pyramid (geometry)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225293614",
-  "title": "A multi-source remote sensing benchmark for event-level wildfire spread prediction in California using spatiotemporal deep learning",
-  "authors": [
-   "Guanqi Wang",
-   "Li Zheng",
-   "Lizhi Zhang",
-   "Tao Ke",
-   "Jie Li",
-   "Qiangqiang Yuan"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-05",
-  "doi": "10.1080/15481603.2026.2753383",
-  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/15481603.2026.2753383?needAccess=true",
-  "url": "https://doi.org/10.1080/15481603.2026.2753383",
-  "abstract": "Satellite-based wildfire spread studies differ in data organization and evaluation procedures, making model performance difficult to compare. We constructed an event-level benchmark to compare model performance and examine how the models used the available inputs. The benchmark covers California during 2012 to 2021 and combines VIIRS 375 m active-fire observations, MODIS NDVI-derived vegetation information, and ERA5-Land wind fields. Each wildfire event was represented on a fixed 100 × 100 grid. Each sequence sample used ten historical daily steps to predict the next-day satellite-observed fire-state mask. Six spatiotemporal models (CNN-LSTM, Vision Transformer, ConvLSTM, Pairwise-ConvLSTM, Patchwise-ConvLSTM, and ST-GNN) were evaluated using common input definitions, preprocessing procedures, prediction targets, and metrics. Integrated Gradients was applied after training to quantify attributions from the five raster input channels to the next-day model outputs. Pairwise-ConvLSTM achieved the lowest overall RMSE of 0.0495 on the cumulative wildfire dataset. Among the five evaluated Patchwise-ConvLSTM configurations, the 7 × 7 setting achieved the highest observed F1-score (0.955), with precision (0.962) and recall (0.949). On the newly burned-pixel subset, the same configuration achieved precision (0.916), recall (0.888), and F1-score (0.902). The attribution analysis showed larger mean absolute values for vegetation-constrained unburned states (7.23 × 10−5) and prior cumulative fire history (5.13 × 10−5) than for newly detected fire pixels (1.81 × 10−5), the eastward wind component (7.01 × 10−6), and the northward wind component (8.97 × 10−6). The benchmark provides a common framework for assessing predictive performance and model input use in next-day satellite-observed wildfire spread prediction.",
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Deep learning",
-   "Benchmark (surveying)"
   ],
   "source": "openalex",
   "topics": [
