@@ -1,285 +1,254 @@
 [
  {
-  "id": "openalex:W7166668838",
-  "title": "High-resolution forest height mapping across boreal and temperate forest sites using Hongtu-1 multistatic X-band TomoSAR",
+  "id": "openalex:W7225580986",
+  "title": "An ensemble approach driven by spatial interaction for modelling urban epidemic dynamics",
   "authors": [
-   "Guobing Zeng",
-   "Huaping Xu",
-   "Le Zhang",
-   "Lei Zhao",
-   "Dinh Ho Tong Minh",
-   "Laurent Ferro-Famil",
-   "Ye Yu",
-   "Yang Lei",
-   "Simon Tong Sing Hee",
-   "Sang‐Ho Yun"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-07",
-  "doi": "10.1016/j.rse.2026.115757",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115757",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Lidar",
-   "Taiga",
-   "Remote sensing"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225465665",
-  "title": "The hidden dimension: Resolving the vertical gradients of solar-induced chlorophyll fluorescence emissions and gross primary production in modern maize canopy",
-  "authors": [
-   "Seungjoon Lee",
-   "Luke M. Gregory",
-   "Lianhong Gu",
-   "Christine Yao-Yun Chang",
-   "Michael A. Gore",
-   "Ying Sun"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-07",
-  "doi": "10.1016/j.rse.2026.115763",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115763",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Canopy",
-   "Environmental science",
-   "Chlorophyll fluorescence"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225467227",
-  "title": "Fusing a foundation model with spatiotemporal correction for automated long-term tracking of rift propagation from satellite imagery: a case study of the amery ice shelf",
-  "authors": [
-   "Zixiao Guo",
-   "Ronggang Huang",
-   "Yunfei Zhang",
-   "Yikai Zhu",
-   "Ruijie Chang",
-   "Qiang Shen",
-   "Hansheng Wang",
-   "Liming Jiang"
+   "Nuozhou Shen",
+   "Hong Zhang",
+   "Li Dehao",
+   "Haiping Zhang",
+   "Liyang Xiong",
+   "Guoan Tang"
   ],
   "venue": "GIScience & Remote Sensing",
   "venue_short": "GISci. Remote Sens.",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-07",
-  "doi": "10.1080/15481603.2026.2754655",
+  "date": "2026-11-08",
+  "doi": "10.1080/15481603.2026.2758460",
   "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2754655",
-  "abstract": "Long-term satellite monitoring of rift propagation is essential for assessing Antarctic ice shelf stability and projecting sea-level rise. Currently, long-term tracking of rifts still relies on time-consuming manual interpretation, significantly affecting its feasibility for large-scale rift monitoring. Here, we present a novel framework for automatically tracking rift propagation, which fuses the fine-tuned visual foundation model (Segment Anything Model, SAM) and spatiotemporal correction. The SAM enables automated rift extraction using only a few samples without any manual prompts, while the spatiotemporal correction improves the precision of rift mapping for geometric measurements. We applied this framework to automatically monitor key rifts on the Amery Ice Shelf using 768 Landsat 8/9 and Sentinel-2 images from 2015 to 2025, achieving an F1 score of 98.6% across 11 independent scenes. Rift length and width measurements were in agreement with manual interpretation, with R2 values of 0.979 and 0.999, respectively. Furthermore, our extended monitoring revealed recent structural changes within the rift system on the Amery Ice Shelf. This study offers a new way for automated rift tracking with the foundation model for the first time, having significant potential for long-term monitoring of pan-Antarctic rifts.",
+  "url": "https://doi.org/10.1080/15481603.2026.2758460",
+  "abstract": "Modelling spatial interactions remains a core issue in geographic information science. Faced with the emerging, non-stationary spread of epidemics, the effects and uncertainties of spatial interactions are amplified. Limited by reliance on a single spatial interaction prior, existing models perform well in specific scenarios but suffer from prediction drift across multi-phase epidemics, thereby hindering real-time and dynamic policy adjustments. To address this limitation, we propose an ensemble approach driven by spatial interaction, built upon a foundational metapopulation model. Using the 2022 Shanghai Omicron outbreak as a case study, we evaluated the proposed ensemble model against 14 mechanistic and machine learning baselines. In multi-phase prediction tasks, the proposed ensemble model achieves the best overall performance with mean ranks of 3.25 for RMSE and 4.00 for R2, surpassing all baselines with mean ranks ranging from 5 to 15. Furthermore, it improves mean predictive accuracy by 29% to 72% compared with the non-ensemble models, while reducing the prediction error interval by 10% to 84%. Finally, we generated model-based projections across multiple counterfactual scenarios to explore responses to changes in intervention timing and intensity.",
   "citation_count": 0,
   "concepts": [
-   "Rift",
-   "Geology",
-   "Tracking (education)"
+   "Computer science",
+   "Ensemble forecasting",
+   "Ensemble learning"
   ],
   "source": "openalex",
   "topics": [
-   "遥感",
-   "计算机视觉"
+   "计算机视觉",
+   "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7225384273",
-  "title": "Improved maize LAI estimation under field-scale heterogeneity: Integrating 3D radiative transfer simulation and deep learning approach",
+  "id": "openalex:W7225588079",
+  "title": "A novel satellite embedding-driven SWOT framework for river discharge estimation: a case study of the Yangtze river",
   "authors": [
-   "Jie Zhang",
-   "Yuanyuan Ma",
-   "Xiaoyu Song",
-   "Kaiqi Du",
-   "Tingting Zhao",
-   "Qiang Wu",
-   "Jin Chen",
-   "Jianbo Qi",
-   "Peng Yang",
-   "Chongya Jiang",
-   "Xia Yao",
-   "Hao Yang",
-   "Laigang Wang",
-   "Guijun Yang",
-   "Xia Jing",
-   "Chunjiang Zhao"
+   "Feng Gan",
+   "Kebing Chen",
+   "Yuan Yang",
+   "Guoping Zhang",
+   "Zhuoming Dong",
+   "Jiayi Zhang",
+   "Jianjun Wu",
+   "Ang Yue",
+   "Hui Lu",
+   "Jiaqi Yao"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-06",
-  "doi": "10.1016/j.rse.2026.115765",
+  "date": "2026-11-08",
+  "doi": "10.1080/15481603.2026.2759390",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115765",
-  "abstract": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2759390",
+  "abstract": "Accurate river discharge estimation is essential for water cycle modeling, water hazards prevention, water ecosystem protection and water resource management. However, conventional ground-based gauging networks are often sparsely distributed and insufficient to capture the complex hydrodynamic characteristics within large and heterogeneous river basins. With the rapid advancement of remote sensing technologies, particularly the launch of the Surface Water and Ocean Topography (SWOT) mission, new opportunities have emerged for large-scale and continuous river discharge estimation. In this study, we develop and evaluate a SWOT-based river discharge estimation framework for the Yangtze River by integrating SWOT RiverSP hydraulic observations organized on the SWORD river network with Satellite Embedding V1 data in a random forest model to capture both hydrodynamic and geomorphological characteristics. The framework is evaluated using temporally separated training and testing observations from nine gauging stations along the Yangtze River mainstream, with station-specific nonlinear empirical models used for comparison. The main conclusions are as follows: 1) The random forest model substantially improves discharge estimation relative to the empirical formulation, with a maximum NSE gain of 0.4372 and an NRMSE reduction of up to 0.1175; 2) The model demonstrates reliable performance across the nine gauging stations, with all stations achieving NSE ≥ 0.72 and the overall performance reaching NSE = 0.8910 and NRMSE = 0.0664; 3) The spatially explicit discharge estimates show strong agreement with reach-scale results (correlation ≈ 0.9), indicating that water level exerts primary control on discharge, while channel width and geometry significantly modulate discharge responses in morphologically complex reaches. These results demonstrate the potential of combining SWOT hydraulics with satellite foundation embeddings to improve discharge estimation.",
   "citation_count": 0,
   "concepts": [
-   "Leaf area index",
-   "Mean squared error",
-   "Atmospheric radiative transfer codes"
+   "Discharge",
+   "Environmental science",
+   "Hydrology (agriculture)"
   ],
   "source": "openalex",
   "topics": [
-   "机器学习",
+   "遥感",
    "三维与几何"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7225390224",
-  "title": "A unified framework for estimation of daily mean land surface temperature from multiple MODIS observation combinations using Bayesian-optimized XGBoost model",
+  "id": "arxiv:2611.11378v1",
+  "title": "SegDis: Foreground Segmentation Followed by Type Discrimination for Salient and Camouflaged Object Detection",
   "authors": [
-   "王开禹",
-   "Si‐Bo Duan",
-   "Xiaoxiao Min",
-   "Yongjuan Guan",
-   "Xiangyang Liu",
-   "Liang Sun",
-   "Xia Zhang",
-   "Zhao‐Liang Li"
+   "Dingning Luo",
+   "Shuo Dou",
+   "Tong Jiang",
+   "Xianfeng Li"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-06",
-  "doi": "10.1016/j.rse.2026.115760",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115760",
-  "abstract": null,
+  "date": "2026-11-08",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.11378v1",
+  "url": "https://arxiv.org/abs/2611.11378v1",
+  "abstract": "Salient and camouflaged object detection (SOD and COD) both recover foreground support, yet most joint methods output only a binary mask and therefore cannot distinguish the type. USC12K distinguishes the two types, but its baseline USCNet still binds foreground existence to the type within a single normalization, so the failure source cannot be attributed. Our cross-task study shows that foreground localization transfers between SOD and COD, whereas type discrimination does not: a COD-only model recovers foreground on SOD images but its type judgement follows the training distribution rather than the foreground-background relation, so the two decisions require separate mechanisms. SegDis factorizes the output into an explicit foreground probability and a conditional type probability given foreground: FLR provides high-quality task-agnostic support, and RTA refines the SOD/COD assignment from the foreground-background relation without a task identifier. Because support is explicit, each ground-truth foreground pixel is classified as correct-type, type-swapped, or missed, so foreground-recovery and type-assignment errors are diagnosed separately. With PVT-v2-B2, SegDis attains 68.98% FG-mIoU and 78.35% mIoU on USC12K at about one-eighth of USCNet's parameters; CSCS is 5.75.",
   "citation_count": 0,
   "concepts": [
-   "Mean squared error",
-   "Remote sensing",
-   "Sampling (signal processing)"
+   "cs.CV"
   ],
-  "source": "openalex",
+  "arxiv_id": "2611.11378v1",
+  "source": "arxiv",
   "topics": [
-   "遥感"
+   "计算机视觉"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7225419983",
-  "title": "Resolving the daytime NIRv rhythm of winter wheat under drought stress from Chinese geostationary FY-4A satellite observations",
+  "id": "arxiv:2611.11320v1",
+  "title": "Beyond Similarity Entropy: A Rank-Guided Data-Free Quantization Framework for Vision Transformers",
   "authors": [
-   "Ziqian Li",
-   "Wei Ci Su",
-   "Shuangxi Miao",
-   "Junming Liu",
-   "María Piles",
-   "Jinlong Fan",
-   "Ying Li",
-   "吴门新 WU Menxin",
-   "Yali Gong",
-   "Yelu Zeng",
-   "Jianxi Huang"
+   "Runqing Jiang",
+   "Ye Zhang",
+   "Pengpeng Yu",
+   "Zhuo Song",
+   "Changjun Li",
+   "Longguang Wang",
+   "Yulan Guo"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-06",
-  "doi": "10.1016/j.rse.2026.115761",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115761",
-  "abstract": null,
+  "date": "2026-11-08",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.11320v1",
+  "url": "https://arxiv.org/abs/2611.11320v1",
+  "abstract": "Vision Transformers (ViTs) have demonstrated remarkable performance, yet their computational and memory demands pose significant challenges for deployment on mobile devices. Data-free quantization (DFQ) enables the compression of ViTs without access to their original training data. Existing DFQ methods often synthesize calibration samples by maximizing the entropy of patch similarity. However, similarity entropy describes the dispersion of similarity values without ensuring that the generated samples cover diverse feature directions, potentially limiting their effectiveness for quantization calibration. To address this limitation, we propose RankQ-ViT, a rank-guided DFQ framework for ViTs. We first observe that patch similarity matrices derived from Gaussian noise tend to have lower ranks than those derived from real images. Motivated by this observation, we introduce a block-aware self-contrastive objective that promotes feature diversity during synthetic data generation without explicitly computing matrix rank at each optimization step. We then select calibration samples based on their rank and semantic consistency and use them for block-wise reconstruction of the quantized model. Experiments on ImageNet, COCO, ModelNet40, and ShapeNet demonstrate the effectiveness of RankQ-ViT across multiple architectures and tasks, particularly under low-bit quantization. The code is available at https://github.com/Runqing-forMost/rankq-vit.git",
   "citation_count": 0,
   "concepts": [
-   "Daytime",
-   "Environmental science",
-   "Geostationary orbit"
+   "cs.CV"
   ],
-  "source": "openalex",
+  "arxiv_id": "2611.11320v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.11291v1",
+  "title": "Multi-Node Transformers for Object Detection and Captioning Across Distributed Edge Networks",
+  "authors": [
+   "Saurabh Kumar",
+   "Dewant Katare",
+   "Prakriti Jain"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-08",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.11291v1",
+  "url": "https://arxiv.org/abs/2611.11291v1",
+  "abstract": "This paper presents a unified transformer-based framework for object detection and dense region captioning across distributed edge networks. The architecture uses a shared visual encoder followed by detection, region extraction, and autoregressive language-decoding stages, allowing localization and region description to reuse the same image features. This design removes the second image-encoding path required by decoupled detection and captioning pipelines. To support execution on resource-limited devices, a workload-allocation formulation assigns model stages and input streams across connected edge nodes while accounting for execution time, memory capacity, processor utilization, power limits, and intermediate tensor transfer cost. The framework is evaluated on a six-device edge testbed comprising four NVIDIA Jetson Orin Nano and Orin NX inference nodes and two Raspberry Pi 5 auxiliary CPU nodes, with TensorRT FP16 and INT8 execution on the NVIDIA devices. On a Jetson Orin Nano, the unified INT8 model achieves 38.1 FPS with 3.5 GB peak memory use and 11.8 W measured power. Under four concurrent streams, the proposed allocation achieves 35.2 FPS and 28.4 ms mean end-to-end latency with an internode transfer rate of 6.8 MB/s.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.DC",
+   "cs.CV",
+   "cs.LG"
+  ],
+  "arxiv_id": "2611.11291v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.11272v1",
+  "title": "BiRefNet-V2: Rethinking Bilateral Reference for High-Resolution Dichotomous Image Segmentation",
+  "authors": [
+   "Peng Zheng",
+   "Deng-Ping Fan",
+   "Binglu Wang",
+   "Nicu Sebe"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-08",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.11272v1",
+  "url": "https://arxiv.org/abs/2611.11272v1",
+  "abstract": "Dichotomous image segmentation requires pixel-accurate foreground-background separation while preserving fine structures such as thin filaments, sharp edges, and intricate textures. BiRefNet addressed this challenge through bilateral references, combining image patches and gradient information, but its inward reference loses local spatial structure and lacks semantic guidance, while its outward reference relies on single-channel gradient attention. We recast this paradigm as controlled information recovery - locality determines what spatial information survives, semantic selectivity what information enters, and focused boundary supervision where refinement occurs - and propose BiRefNet-V2 to implement it: (1) locality-preserving and semantically guided detail injection through space-to-depth transformation, overlapping patches, and a Semantically Guided Gate; (2) a learned boundary stream with focused supervision that generates full-channel residual attention without requiring boundary annotations; and (3) a dual-branch decoder integrating depth-wise boundary convolutions with large-kernel attention. A modernized framework - LayerNorm, GELU, the Lion optimizer, and a DINOv3 backbone - cuts training from 600 to 50 epochs. Extensive experiments demonstrate state-of-the-art performance on DIS5K, camouflaged object detection, and high-resolution salient object detection across all 13 evaluation sets. Code is available at https://github.com/ZhengPeng7/BiRefNet-V2.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.11272v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.11058v1",
+  "title": "Differentiable Virtual-Slot Partitioning for Adaptive Tokenization in Vision Transformers",
+  "authors": [
+   "Gaoxiang He",
+   "Bin Zhu",
+   "Bo Xie",
+   "Xiaotong Yu",
+   "Yi Chen",
+   "Hongfei Yan"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-08",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.11058v1",
+  "url": "https://arxiv.org/abs/2611.11058v1",
+  "abstract": "Adaptive tokenization aims to reduce the compute spent on uninformative image regions while preserving accuracy. Existing work relies on (i) fixed or frozen scoring rules, which cannot be trained toward the task loss, or (ii) discrete masks trained with straight-through estimators, which yield noisy gradients, while fully differentiable alternatives instead leave the pre-trained regular grid. We revisit adaptive tokenization from a regular-grid perspective and ask: can a two-scale quadtree be learned end-to-end without deleting a single token during training? We show that one coarse token and its four fine children can be made the two endpoints of a single continuous interpolation. We introduce Differentiable Virtual-Slot Partitioning (\\dvsp{}), which keeps four \\emph{virtual slots} per $2{\\times}2$ region and blends their token features and attention mass with a single weight $α$, exactly reproducing the discrete grid at $α\\in \\{0,1\\}$. On COCO detection with EVA-02-B, \\dvsp{} retains $97.9\\%$ of dense Box AP while removing $64.2\\%$ of visual tokens, giving a $1.61\\times$ end-to-end speedup, and it outperforms entropy-based APT, DART, and uniform lower-resolution dense adaptation at matched budgets; these gains depend on the conserved attention mass, whose removal costs $1.59$ Box AP. On a frozen Segmenter it also improves Cityscapes mIoU, and on frozen DeiT backbones it exceeds entropy selection at identical per-image token counts.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.11058v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.11464v1",
+  "title": "Off-Policy RL with Online Inference Tuning: My Solution to the CoRL 2026 RoboEval Challenge",
+  "authors": [
+   "Ilia Larchenko"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-08",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.11464v1",
+  "url": "https://arxiv.org/abs/2611.11464v1",
+  "abstract": "The CoRL 2026 RoboEval challenge has eight bimanual tasks, and it ranks a policy not only on whether it succeeds but on how: every stage of the task, done safely, efficiently and with both arms in coordination, scored against human demonstrations. My solution has two parts. The generic part, carried over from my LeHome challenge solution, is off-policy RL on a $π_{0.5}$-based policy that is also its own value function. It is trained with AWR and RECAP on advantages of the exact official score, in a loop where every rollout is at the same time a Thompson-sampling trial of about 20 inference parameters. Out of the box, it took the policy to 0.85 RDS on held-out seeds in two days (and it was still very far from convergence). The competition-specific part adds data that local exploration cannot find: generated demonstrations that reach the full reward, and recovery episodes that start from the policy's own failures. The submitted policy reaches 0.990 RDS on held-out seeds and 0.987 on the official seeds.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.RO",
+   "cs.CV",
+   "cs.LG"
+  ],
+  "arxiv_id": "2611.11464v1",
+  "source": "arxiv",
   "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225402124",
-  "title": "TS-PFDM: a temporally scaled probability-flow diffusion model for thick cloud removal in remote sensing images",
-  "authors": [
-   "Xianjun Gao",
-   "Xudong Xie",
-   "Yuanwei Yang",
-   "Nan Wang",
-   "Rujing Huang",
-   "Huan Li"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-06",
-  "doi": "10.1016/j.isprsjprs.2026.10.027",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.027",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Cloud computing",
-   "Diffusion"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225407183",
-  "title": "PHYIELD: Towards multi-scale maize yield estimation with limited ground reference data via integrated crop models and phenology-guided deep learning",
-  "authors": [
-   "Tianci Guo",
-   "Chunyuan Diao",
-   "Zijun Yang",
-   "Yin Liu",
-   "Chishan Zhang",
-   "Yanghui Kang",
-   "Zhengwei Yang"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-06",
-  "doi": "10.1016/j.isprsjprs.2026.10.049",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.049",
-  "abstract": "Accurately estimating crop yields across scales (e.g., regional administrative and field scales) is critical for global food security, given mounting challenges agriculture faces from climate change, population growth, soil degradation, and water scarcity. Remote sensing has been widely used for crop yield estimation with its spatially extensive coverage and temporally continuous observations of crop conditions. However, robust yield estimation across scales remains challenging, particularly under conditions of limited availability of crop yield and crop management data. While process-based crop models can capture complex interactions of plant-soil-atmosphere continuum, their large-scale application is limited by computational cost, parameterization difficulty, and model input (e.g., management) constraints. Empirical data-driven models are more flexible and computationally efficient, but they heavily depend on ground-measured yield labels that are often scarce over space and time. To address these challenges, we propose PHYIELD, a novel hybrid yield estimation framework that integrates systematically calibrated process-based crop modeling and phenology-guided deep learning for maize yield estimation at both county and field scales under yield data constraint conditions. PHYIELD mainly comprises three components: systematic crop model calibration, diversified crop model simulation, and phenology-guided deep learning. Given the challenges and prevalence of sparse yield observations in practice, PHYIELD is uniquely devised with limited ground yield records for model building. Its model performance is systematically evaluated for temporal, spatial, and scale transfers, upon comparison with standalone crop model and deep learning counterpart benchmarks. Results showed that the systematic crop model calibration of PHYIELD, particularly via the calibration for Leaf Area Index (LAI), followed by yield (biomass multiplied by Harvest Index [HI]), is essential for region-varying parameterizations of the crop model before coupling with deep learning. With diversified simulations from calibrated crop model and phenology-guided deep learning, PHYIELD achieved correlation (R) of 0.53–0.73, bias of −1.47–0.96 t ha⁻ 1 , and root mean square error (RMSE) of 1.07–1.68 t ha⁻ 1 in the study region, outperforming both crop model and deep learning benchmarks. Under significant yield data constraint condition (e.g., only 2023 county-level yield data of Illinois available), PHYIELD demonstrated superior temporal transferability over the preceding 20 year period (2003–2022) (R = 0.70, RMSE = 1.76 t ha⁻ 1 ), spatial transfer to surrounding states (R = 0.85, RMSE = 1.06 t ha⁻ 1 ), and scale transfer from county to field levels (R = 0.53–0.76, RMSE = 1.55–1.58 t ha⁻ 1 ). By leveraging the complementary strengths of process-based and data-driven modeling approaches, coupled with systematic parameterization of crop model and incorporation of phenology knowledge, PHYIELD provides a more robust and generalizable solution for multi-scale maize yield estimation, particularly under limited data conditions. It can largely support yield-oriented decision-making in agricultural management, policy development, and food security planning.",
-  "citation_count": 0,
-  "concepts": [
-   "Crop",
-   "Deep learning",
-   "Reference data"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
   "is_own": false
  }
 ]
