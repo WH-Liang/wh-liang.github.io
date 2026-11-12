@@ -1,59 +1,30 @@
 [
  {
-  "id": "arxiv:2611.13514v1",
-  "title": "Seeing the Small: Deformable Duality Mamba for Retinal Lesion Segmentation",
+  "id": "openalex:W7225726022",
+  "title": "A lightweight few-shot object detection framework using synthetic data augmentation for orchard obstacle recognition",
   "authors": [
-   "Chang Yu",
-   "Siqing Li",
-   "Yuanchen Liu",
-   "Zhenyu Bu",
-   "Luming Yang",
-   "Alper Yilmaz"
+   "Yali Li",
+   "Xianfei Wang",
+   "Zeyi Li",
+   "Jingbin Li",
+   "Zhiyuan Zhang"
   ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-10",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.13514v1",
-  "url": "https://arxiv.org/abs/2611.13514v1",
-  "abstract": "Diabetic retinopathy (DR) lesions vary widely in shape, and microaneurysms (MAs) span only a few pixels. We hypothesize that modeling the spatial organization of lesion regions, with global context and shape-adaptive scanning, improves the segmentation of such small and irregular lesions. To test this, we propose D$^2$Mamba, which couples non-causal state space duality with deformable Mamba scanning. We evaluate it with five-fold cross-validation on the DDR dataset, comparing against representative segmentation baselines under an identical training protocol, and conduct ablations on each component. D$^2$Mamba achieved the best overall performance, with 33.87% mIoU, 2.99 percentage points above the strongest baseline. The largest gain appeared on MAs, the smallest and most easily missed lesions, where Dice improved by 10.06 percentage points. These results confirm our hypothesis that spatially adaptive state space modeling benefits tiny-lesion segmentation. Code and pretrained weights are available at https://github.com/PUREPANEL1/D2Mamba.",
+  "date": "2026-11-11",
+  "doi": "10.1016/j.isprsjprs.2026.11.008",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.008",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "cs.CV",
-   "cs.LG"
+   "Artificial intelligence",
+   "Obstacle",
+   "Computer vision"
   ],
-  "arxiv_id": "2611.13514v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.13513v1",
-  "title": "Evidential Deep Learning with conditional entropy for glaucoma detection",
-  "authors": [
-   "Hai Siong Tan",
-   "Kuancheng Wang"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-10",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.13513v1",
-  "url": "https://arxiv.org/abs/2611.13513v1",
-  "abstract": "We propose a novel conditional entropy function as a basis for quantifying predictive uncertainty in Evidential Deep Learning (EDL) for glaucoma detection from retinal fundus images. Using the EyePACS-AIROGS-light-V2 and RIM-ONE-DL datasets for validation, we found that our proposed EDL model regularized by conditional entropy function produced uncertainty estimates with substantially lower calibration errors than Deep Ensembles, MC Dropout, post-hoc calibration and the conventional EDL framework based on Dempster uncertainty. To further probe our models' interpretability, we analyzed Grad-CAM heatmaps using a focus index representing spatial concentration. Compared with the other uncertainty quantification methods, EDL models exhibited greater separation between the index distributions of correctly and incorrectly classified fundus images. In particular, false negatives were associated with localized Grad-CAM activations that were displaced from the optic disc, consistent with its established clinical importance in glaucoma assessment. Overall, our findings suggest that our proposed EDL framework for glaucoma detection provides not only enhanced uncertainty calibration but also admits a more physiologically consistent interpretability.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.LG"
-  ],
-  "arxiv_id": "2611.13513v1",
-  "source": "arxiv",
+  "source": "openalex",
   "topics": [
    "计算机视觉",
    "机器学习"
@@ -61,29 +32,194 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2611.13510v1",
-  "title": "Distribution Shift Detection in Remote Sensing Imagery using Machine Learning Models",
+  "id": "openalex:W7225731133",
+  "title": "Reliable deformation estimation of levee systems in low-coherence floodplain environments using a structure-constrained arc network (SCAN) for MT-InSAR",
   "authors": [
-   "Abdullah Almansour",
-   "Ozan K. Tonguz"
+   "Lei Xie",
+   "Wei Cheng",
+   "Feiyang Luo",
+   "Chu Jiang",
+   "Hua Gao",
+   "Wenbin Xu"
   ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
   "year": 2026,
   "date": "2026-11-10",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.13510v1",
-  "url": "https://arxiv.org/abs/2611.13510v1",
-  "abstract": "Remote sensing imagery acquired by Unmanned Aerial Vehicles (UAVs) supports wide range of applications; however, deploying machine learning (ML) models on resource-constrained aerial platforms introduces challenges beyond predictive accuracy, particularly when deployment data differ from the distributions observed during training. Such shifts are common in remote sensing due to geographic, sensor, seasonal, and other visual variations. A practical solution is to equip deployed models with mechanisms that detect emerging distribution shifts and support subsequent responsive actions. This paper presents an empirical case study of three open-source detection tools: (i) Alibi-Detect; (ii) NannyML; and (iii) PyTorch-OOD. Using cross-dataset remote-sensing shifts, we evaluate both detection effectiveness and computational latency of these tools. Our results reveal differences in detection behavior and processing cost across methods and implementations, highlighting trade-offs between detection capability and response-time. These findings motivate further work toward lightweight, and latency-aware monitoring mechanisms for resource-constrained systems.",
+  "doi": "10.1016/j.rse.2026.115764",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115764",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "cs.CV",
-   "cs.LG",
-   "eess.IV"
+   "Levee",
+   "Geology",
+   "Floodplain"
   ],
-  "arxiv_id": "2611.13510v1",
-  "source": "arxiv",
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225698164",
+  "title": "Monitoring peatland dynamics in the Baltic region using EGMS products",
+  "authors": [
+   "Gabriele Fibbi",
+   "Francesco Poggi",
+   "Matteo Del Soldato"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-10",
+  "doi": "10.1016/j.isprsjprs.2026.10.051",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.051",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Peat",
+   "Environmental science",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225724752",
+  "title": "Neighborhood-aware retrieval of a spatial floe fragmentation index for Arctic sea ice using Sentinel-1 SAR and AMSR2",
+  "authors": [
+   "Bo Li",
+   "Xi Zhao",
+   "Yu Jiang",
+   "Yifan Wu",
+   "Jiaxing Gong",
+   "Yi Zhang",
+   "Huizhou Zhou",
+   "Xiao Yan Cheng"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-10",
+  "doi": "10.1080/15481603.2026.2756031",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2756031",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Sea ice",
+   "Remote sensing",
+   "Arctic"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225736780",
+  "title": "Multi-temporal analysis of reflectance and vegetation index consistency between Sentinel-2 and UAS imagery over a managed broadleaved forest: implications for monitoring",
+  "authors": [
+   "Antonio José Castañeda-Gómez",
+   "Jakob Schwalb‐Willmann",
+   "Tobias Ullmann",
+   "Martin Wegmann",
+   "Jannis Midasch",
+   "Seitz Ronja Annika",
+   "Sunniva McKeever",
+   "Jörg C. Müller",
+   "Doris Klein",
+   "Stefan W. Dech",
+   "Mirjana Bevanda"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-10",
+  "doi": "10.1080/15481603.2026.2751249",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2751249",
+  "abstract": "The comparability between satellite-based and uncrewed aerial system (UAS) imagery is critical for multiscale forest monitoring. It enables the integration of fine-resolution observations into a broader satellite-derived spatial and temporal context. Understanding this comparability supports the strategic use of centimeter-resolution UAS data to address fine-scale ecological questions, to serve as gap-filling observations within satellite-based time series during periods of absent data retrievals, and to link fine-scale canopy structural variation to landscape-level vegetation dynamics observed from space. This study investigated the spectral and vegetation index level consistency between Sentinel-2 and UAS multispectral measurements acquired over a 300 ha managed broadleaved forest in Central Europe. UAS data were collected using a fixed-wing platform equipped with a MicaSense Altum multispectral sensor and temporally matched to Sentinel-2 overpasses over a 6-month period at approximately two-week intervals. Cross-platform agreement was quantified using distribution-based similarity metrics, spatial aggregation of UAS data to Sentinel-2 spatial resolution, intrinsic correlation analysis, and single-date regression modeling. At their native spatial resolutions, UAS observations exhibited systematically higher radiometric variability and stronger distributional asymmetry than Sentinel-2 data, particularly in the red-edge band, consistent with increased sensitivity to fine-scale illumination differences and canopy structural heterogeneity, and partly reflecting radiometric differences between individual UAS flights. Spatial aggregation of UAS data reduced this variability but did not fully remove wavelength-dependent discrepancies, with the highest levels of agreement consistently observed in the green, red, and near-infrared bands. Among the vegetation indices, normalized difference metrics, particularly the Normalized Difference Vegetation Index (NDVI) and the Green Normalized Difference Vegetation Index (GNDVI), showed the strongest and most temporally stable cross-platform consistency across both multitemporal distributions and individual acquisition dates. In contrast, simple ratio-based indices and indices incorporating red-edge wavelengths exhibited systematic distributional shifts and reduced temporal robustness. These distributional shifts are consistent with persistent sensor-level spectral response differences rather than index-specific artifacts. Collectively, these findings indicate that normalized difference indices built from spectrally well-matched bands, which largely remove radiometric differences between UAS flights, provide a robust basis for the joint exploitation of UAS and Sentinel-2 observations, enabling consistent multiscale monitoring of broadleaved forests while retaining the complementary advantages of each observational platform.",
+  "citation_count": 0,
+  "concepts": [
+   "Multispectral image",
+   "Remote sensing",
+   "Comparability"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225756397",
+  "title": "AHI LAI: a seamless 500 m, 4-day leaf area index dataset of the Asia-Pacific region (2015–2025) generated from geostationary Himawari-8/9 observations",
+  "authors": [
+   "Jiakai You",
+   "Yinghui Zhang",
+   "Zhongwen Hu",
+   "Jingzhe Wang",
+   "Guofeng Wu"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-10",
+  "doi": "10.1080/15481603.2026.2756798",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2756798",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Geostationary orbit",
+   "Environmental science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225762020",
+  "title": "Retrieval of vegetation leaf equivalent water thickness from GF-5 hyperspectral imagery via physics-guided transfer learning",
+  "authors": [
+   "Mingjie Li",
+   "Wenli Huang",
+   "Tianjie Zhao",
+   "Xijun Wang"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-10",
+  "doi": "10.1080/15481603.2026.2756037",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2756037",
+  "abstract": "Vegetation leaf equivalent water thickness (EWT) is an important indicator of plant water status and is relevant to ecological monitoring and vegetation stress assessment. However, hyperspectral retrieval of leaf EWT remains challenging because canopy structural effects and discrepancies between simulated and measured observations can limit model transferability. To address this issue, we developed a physics-guided transfer-learning framework for EWT retrieval using Gaofen-5 Advanced Hyperspectral Imager (GF-5 AHSI) data. A diverse simulation domain was constructed by coupling PROSPECT-D with the 4SAIL and 4-Scale canopy models to represent both relatively homogeneous and structurally complex vegetation. Complementary PCA-derived and physically interpretable spectral features were selected, and four base learners were integrated using out-of-fold stacking. Models were first pretrained on simulated data and subsequently fine-tuned using in-situ observations. Simulation-only pretraining achieved RMSEs of 0.083 kg/m2 on the held-out measured test set and 0.091 kg/m2 on the independent external test set. After fine-tuning, the corresponding RMSEs decreased to 0.056 and 0.071 kg/m2, respectively. Moreover, on the independent external test set, the fine-tuned ensemble reduced RMSE from 0.101 to 0.071 kg/m2 relative to measured-only modeling, further supporting improved transferability. Regional applications over Saihanba and an area within and adjacent to the Northeast China Tiger and Leopard National Park produced spatially coherent EWT patterns, while ensemble model disagreement varied among regions and vegetation types. These results demonstrate that physics-guided simulation pretraining combined with measured-data fine-tuning provides a practical approach for improving the transferability of hyperspectral leaf-EWT retrieval under heterogeneous vegetation conditions.",
+  "citation_count": 0,
+  "concepts": [
+   "Hyperspectral imaging",
+   "Remote sensing",
+   "Vegetation (pathology)"
+  ],
+  "source": "openalex",
   "topics": [
    "遥感",
    "计算机视觉",
@@ -92,154 +228,30 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2611.13498v1",
-  "title": "Evaluating Compositional Generalization in Transformers: The Role of Composition Equivalence and Module Coverage",
+  "id": "openalex:W7225761035",
+  "title": "Robust Reasoning Segmentation for Open-World MLLMs without Catastrophic Forgetting",
   "authors": [
-   "Purva Pruthi",
-   "Andrew Yuan",
-   "Alexander D'Amour",
-   "David Jensen"
+   "Jiazhen Liu",
+   "Long Chen"
   ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
   "year": 2026,
   "date": "2026-11-10",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.13498v1",
-  "url": "https://arxiv.org/abs/2611.13498v1",
-  "abstract": "Compositional generalization is an important form of out-of-distribution generalization, defined as the ability to train on some combinations of modules (e.g., functions such as sort, filter) and then generalize to unseen combinations. Despite substantial empirical work evaluating compositional generalization in transformers, findings have been inconsistent because evaluations were often conducted on a limited set of train-test splits, defined in an ad hoc manner. Through a systematic evaluation, we identify two key aspects of the train-test distribution that strongly affect performance: composition equivalence and module coverage. We show that the apparent performance of direct models (trained only on final outputs) results primarily from exploiting composition equivalences, meaning different sequences of modules that reduce to identical end-to-end functions. When benchmarks eliminate these equivalences, performance drops significantly, showing their inability to generalize to compositions of known modules that produce novel end-to-end functions. We further demonstrate that performance degrades monotonically as module coverage shifts increase (when modules appear in different contexts between train and test), affecting both direct and step-by-step models (trained on intermediate and final outputs). These findings have concrete implications for benchmark design: benchmarks that include compositional equivalences can lead to significant overestimation of the generalization abilities of direct models, and benchmarks that include both module coverage violations and compositional equivalences can exacerbate shortcut learning. As a case study, we demonstrate the role of compositional equivalence on the generalization performance of the pre-trained model Llama3-8B on the code-output prediction task in the coding benchmark LiveCodeBench.",
+  "doi": "10.1007/s11263-026-03118-1",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03118-1",
+  "abstract": "Abstract Ensuring trustworthiness and versatility in Open-World Visual Recognition is a core goal of Multimodal Large Language Models (MLLMs). While integrating segmentation is desirable, prevailing methods require invasive fine-tuning, which often leads to catastrophic forgetting of the model’s general-purpose capabilities. This trade-off between task-specific performance and general reliability fundamentally undermines the goal of building unified, trustworthy systems. We introduce LENS ( L everaging k E ypoi N ts for MLLMs’ S egmentation), a novel plug-and-play paradigm designed to equip MLLMs with pixel-level ability without compromising their foundational integrity. LENS attaches a lightweight head to a completely frozen MLLM, interpreting the intrinsic spatial cues embedded in attention maps. It extracts keypoints and translates them into prompt-compatible features for a mask decoder. Extensive experiments validate that LENS achieves segmentation performance competitive with retraining-based methods. Crucially, it largely preserves the MLLM’s open-world generalization, avoiding the degradation observed in fine-tuned counterparts. By decoupling segmentation from generation, LENS offers a robust and efficient path toward truly multi-talented and reliable vision models.",
   "citation_count": 0,
   "concepts": [
-   "cs.LG",
-   "cs.CL"
+   "Forgetting",
+   "Segmentation",
+   "Computer science"
   ],
-  "arxiv_id": "2611.13498v1",
-  "source": "arxiv",
-  "topics": [
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.13489v1",
-  "title": "Simultaneous Near-Optimal Region Identification in Continuous Simulation Optimization: Minimax Complexity and Adaptive Sampling",
-  "authors": [
-   "Yilin Zheng",
-   "Haowei Wang",
-   "Wenjia Wang",
-   "Szu Hui Ng"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-10",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.13489v1",
-  "url": "https://arxiv.org/abs/2611.13489v1",
-  "abstract": "Simulation optimization typically returns a single estimated optimal point. When decisions also depend on criteria evaluated independently of simulation, such as resource cost, the decision maker instead needs the set of designs whose expected performance lies within a tolerance of the optimum, often choosing the tolerance only after seeing the tradeoffs. We study how to identify these near-optimal regions on a continuous design space, simultaneously for all tolerances up to a prescribed maximum $T$, with region estimation error at most $η$. We show that region identification is not a by-product of optimization. Specifically, when $α>ν$, any procedure, even one given the optimal design in advance, needs at least $Ω\\bigl(η^{-(2+d/ν)}\\min\\{1,KT^{d/α}\\}\\bigr)$ simulation evaluations, where $d$ is the dimension, $ν$ the smoothness, and $(K,α)$ the covering parameters that describe the geometry of the near-optimal designs. We propose SASORI, which returns an estimated optimal point and the regions for all tolerances from the same evaluations, matching this lower bound up to logarithmic factors. SASORI also achieves the optimal tradeoff between region estimation error and cumulative regret, and reduces to a minimax-optimal simulation optimization procedure at zero tolerance. Numerical experiments illustrate the effectiveness of our proposed method.",
-  "citation_count": 0,
-  "concepts": [
-   "stat.ML",
-   "cs.LG"
-  ],
-  "arxiv_id": "2611.13489v1",
-  "source": "arxiv",
+  "source": "openalex",
   "topics": [
    "计算机视觉",
-   "机器学习",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.13485v1",
-  "title": "Differentially Private Statistical Inference for Rankings from Pairwise Comparisons",
-  "authors": [
-   "Xintao Xia",
-   "Jia Gu"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-10",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.13485v1",
-  "url": "https://arxiv.org/abs/2611.13485v1",
-  "abstract": "Reliable inference for rankings of large language models based on human pairwise comparisons must preserve the privacy of individual preference records. To meet this need, we develop methods for score and rank inference under the Bradley-Terry model with edge differential privacy. For an objective-perturbed estimator, a new leave-one-out analysis establishes finite-sample bounds on Euclidean and entrywise estimation errors. For sufficiently dense comparison graphs, the error bounds extend to smaller privacy budgets, including regimes in which its privacy term dominates its statistical term. A uniform asymptotic expansion yields asymptotically valid confidence intervals for individual scores and pairwise score differences. To improve finite-sample performance, we account for both regularization bias and privacy-induced randomness by combining a plug-in ridge-bias correction with Gaussian-Laplace calibration. We further establish a bootstrap procedure for simultaneous rank inference, providing asymptotically valid confidence sets for individual ranks and tests of top-$K$ membership. When the comparison probability is public and known, all proposed inferential procedures require no additional privacy budget. We evaluate finite-sample performance through simulations and apply the proposed methods to rank large language models for creative writing.",
-  "citation_count": 0,
-  "concepts": [
-   "stat.ML",
-   "cs.LG",
-   "stat.ME"
-  ],
-  "arxiv_id": "2611.13485v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.13480v1",
-  "title": "Sharp Sample Complexity of KL-Regularized Reinforcement Learning",
-  "authors": [
-   "Andrew Liu"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-10",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.13480v1",
-  "url": "https://arxiv.org/abs/2611.13480v1",
-  "abstract": "KL-regularized reinforcement learning, the objective behind maximum-entropy RL and RL from human feedback, is variational inference in the graphical model of \"control as inference\": the regularized optimal policy is a posterior over trajectories, and the suboptimality of a policy is $β$ times a KL divergence between path measures. However, it is not known how many samples it takes to learn this posterior, even with a generative model. Earlier $1/ε$ guarantees scale with $H^5$ in the effective horizon $H$, and no lower bound for MDPs depends on the temperature $β$. In this work, we show that for a discounted MDP with $K$ state-action pairs, the plug-in estimator finds a policy that is $ε$-optimal from every initial state with $\\widetilde{O}(KH^3/(ε\\max\\{ε,β\\}) + KH)$ samples, and that no algorithm, even one that chooses where to sample, can do with fewer when $ε\\lesssim \\min\\{H, H^2/β\\}$. For $ε< β$ this is a $1/ε$ rate with the same horizon dependence as unregularized RL. We also find the exact asymptotic constant of the plug-in estimator, a Fisher-weighted variance of the estimated soft Q-function. The estimator is locally asymptotically minimax among methods that sample every pair equally often, and we give the allocation of samples that is optimal among adaptive designs. Simulations on small MDPs match the rates and the constants.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.LG",
-   "cs.AI"
-  ],
-  "arxiv_id": "2611.13480v1",
-  "source": "arxiv",
-  "topics": [
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.13477v1",
-  "title": "Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling",
-  "authors": [
-   "Chaeho Lee",
-   "Junyup Kim",
-   "Wansoo Kim",
-   "Young Min Jung",
-   "Sang Ho Lee"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-10",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.13477v1",
-  "url": "https://arxiv.org/abs/2611.13477v1",
-  "abstract": "Integrating human feedback into language models has gained increasing attention as a means to align model outputs with human preferences, with Reinforcement Learning from Human Feedback (RLHF) serving as a prominent framework for preference-based alignment. Recent studies have incorporated eye-tracking (ET) data as an additional supervisory signal for reward model training, grounding reward learning in human reading behavior. Building on this approach, we extend prior fixation-centric models by leveraging established findings from cognitive psychology on human letter recognition. Specifically, we model visual attention as a spatially graded distribution centered on the current gaze location and incorporate this representation into reward model training. Our results show that the reward model trained with the proposed gaze distribution achieves higher preference prediction accuracy than a baseline model. Moreover, some results from our experiments are qualitatively consistent with established findings on human attention during reading, suggesting that they potentially capture cognitively meaningful aspects of human attention allocation.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.LG",
-   "cs.AI",
-   "cs.CL"
-  ],
-  "arxiv_id": "2611.13477v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
    "多模态"
   ],
   "is_own": false
