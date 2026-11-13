@@ -1,5 +1,82 @@
 [
  {
+  "id": "openalex:W7165023046",
+  "title": "Characterization of Antarctic iceberg distributions using ICESat-2",
+  "authors": [
+   "Younghyun Koo",
+   "Hongjie Xie",
+   "Walter N. Meier",
+   "Nathan Kurtz"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-11",
+  "doi": "10.1016/j.rse.2026.115767",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115767",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Iceberg",
+   "Geology",
+   "Oceanography"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225790177",
+  "title": "Editorial Board",
+  "authors": [],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-11",
+  "doi": "10.1016/s0034-4257(26)00542-0",
+  "pdf": "https://www.sciencedirect.com/science/article/pii/S0034425726005420/pdf",
+  "url": "https://doi.org/10.1016/s0034-4257(26)00542-0",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225833317",
+  "title": "Cross-correlogram skewness index: A shape index for estimating leaf chlorophyll content from leaf to canopy scale using hyperspectral data",
+  "authors": [
+   "Xiao Li",
+   "Zhongqiu Sun",
+   "Shan Lu",
+   "Kenji Omasa"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-11",
+  "doi": "10.1016/j.rse.2026.115776",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115776",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Skewness",
+   "Hyperspectral imaging",
+   "Canopy"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7225726022",
   "title": "A lightweight few-shot object detection framework using synthetic data augmentation for orchard obstacle recognition",
   "authors": [
@@ -32,130 +109,32 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7225731133",
-  "title": "Reliable deformation estimation of levee systems in low-coherence floodplain environments using a structure-constrained arc network (SCAN) for MT-InSAR",
+  "id": "openalex:W7165730296",
+  "title": "A multi-sensor framework for comparing and integrating optical, C-band and L-band SAR inundation products in tropical floodplain of Australia",
   "authors": [
-   "Lei Xie",
-   "Wei Cheng",
-   "Feiyang Luo",
-   "Chu Jiang",
-   "Hua Gao",
-   "Wenbin Xu"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-10",
-  "doi": "10.1016/j.rse.2026.115764",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115764",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Levee",
-   "Geology",
-   "Floodplain"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225698164",
-  "title": "Monitoring peatland dynamics in the Baltic region using EGMS products",
-  "authors": [
-   "Gabriele Fibbi",
-   "Francesco Poggi",
-   "Matteo Del Soldato"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-10",
-  "doi": "10.1016/j.isprsjprs.2026.10.051",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.051",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Peat",
-   "Environmental science",
-   "Remote sensing"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225724752",
-  "title": "Neighborhood-aware retrieval of a spatial floe fragmentation index for Arctic sea ice using Sentinel-1 SAR and AMSR2",
-  "authors": [
-   "Bo Li",
-   "Xi Zhao",
-   "Yu Jiang",
-   "Yifan Wu",
-   "Jiaxing Gong",
-   "Yi Zhang",
-   "Huizhou Zhou",
-   "Xiao Yan Cheng"
+   "Porni Mollick",
+   "Thibault Catry",
+   "Renaud Hostache",
+   "Kaline de Mello",
+   "Dylan J. Irvine",
+   "Erica A. García",
+   "Malak Malak Rangers",
+   "Richard A. Crabbe"
   ],
   "venue": "GIScience & Remote Sensing",
   "venue_short": "GISci. Remote Sens.",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-10",
-  "doi": "10.1080/15481603.2026.2756031",
+  "date": "2026-11-11",
+  "doi": "10.1080/15481603.2026.2756795",
   "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2756031",
-  "abstract": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2756795",
+  "abstract": "Accurate inundated landscape mapping is essential for understanding hydrological connectivity, wetland dynamics and floodplain processes in tropical environments. However, optical and Synthetic Aperture Radar (SAR) sensors often produce inconsistent inundation estimates due to differences in sensor physics, wavelength sensitivity, vegetation and cloud penetration, and analytical methods. These challenges are amplified in wet–dry tropical systems, where cloud cover, heterogeneous vegetation and seasonal flooding complicate water detection. This study presents a unified, data-driven framework for comparing inundation products derived from Sentinel-2 optical imagery, Sentinel-1 C-band and PALSAR-2 L-band SAR in a tropical floodplain system in northern Australia. Inundated landscape maps were generated using supervised Random Forest classification and unsupervised multi-Otsu thresholding, followed by multi-sensor fusion analysis. Products were validated using wet- and dry-season field observations. Results showed strong seasonal and sensor-specific differences. Sentinel-2 provided the most balanced representation of dry-season floodplain vegetation and inundation, while Sentinel-1 achieved high wet-season accuracy (>0.95) under cloud-affected conditions. PALSAR-2 improved the detection of inundated vegetation and structurally complex environments, reaching an overall accuracy of 0.97. Multi-sensor fusion generally improved spatial coherence and class delineation, but performance varied across sensor combinations. These findings show that optical, C-band SAR and L-band SAR inundation products are not directly interchangeable in tropical wetlands. The proposed framework supports more robust interpretation, comparison and integration of multi-sensor inundation products for wetland monitoring, hydrological assessment and environmental management in data-limited tropical regions.",
   "citation_count": 0,
   "concepts": [
-   "Sea ice",
+   "Floodplain",
    "Remote sensing",
-   "Arctic"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225736780",
-  "title": "Multi-temporal analysis of reflectance and vegetation index consistency between Sentinel-2 and UAS imagery over a managed broadleaved forest: implications for monitoring",
-  "authors": [
-   "Antonio José Castañeda-Gómez",
-   "Jakob Schwalb‐Willmann",
-   "Tobias Ullmann",
-   "Martin Wegmann",
-   "Jannis Midasch",
-   "Seitz Ronja Annika",
-   "Sunniva McKeever",
-   "Jörg C. Müller",
-   "Doris Klein",
-   "Stefan W. Dech",
-   "Mirjana Bevanda"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-10",
-  "doi": "10.1080/15481603.2026.2751249",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2751249",
-  "abstract": "The comparability between satellite-based and uncrewed aerial system (UAS) imagery is critical for multiscale forest monitoring. It enables the integration of fine-resolution observations into a broader satellite-derived spatial and temporal context. Understanding this comparability supports the strategic use of centimeter-resolution UAS data to address fine-scale ecological questions, to serve as gap-filling observations within satellite-based time series during periods of absent data retrievals, and to link fine-scale canopy structural variation to landscape-level vegetation dynamics observed from space. This study investigated the spectral and vegetation index level consistency between Sentinel-2 and UAS multispectral measurements acquired over a 300 ha managed broadleaved forest in Central Europe. UAS data were collected using a fixed-wing platform equipped with a MicaSense Altum multispectral sensor and temporally matched to Sentinel-2 overpasses over a 6-month period at approximately two-week intervals. Cross-platform agreement was quantified using distribution-based similarity metrics, spatial aggregation of UAS data to Sentinel-2 spatial resolution, intrinsic correlation analysis, and single-date regression modeling. At their native spatial resolutions, UAS observations exhibited systematically higher radiometric variability and stronger distributional asymmetry than Sentinel-2 data, particularly in the red-edge band, consistent with increased sensitivity to fine-scale illumination differences and canopy structural heterogeneity, and partly reflecting radiometric differences between individual UAS flights. Spatial aggregation of UAS data reduced this variability but did not fully remove wavelength-dependent discrepancies, with the highest levels of agreement consistently observed in the green, red, and near-infrared bands. Among the vegetation indices, normalized difference metrics, particularly the Normalized Difference Vegetation Index (NDVI) and the Green Normalized Difference Vegetation Index (GNDVI), showed the strongest and most temporally stable cross-platform consistency across both multitemporal distributions and individual acquisition dates. In contrast, simple ratio-based indices and indices incorporating red-edge wavelengths exhibited systematic distributional shifts and reduced temporal robustness. These distributional shifts are consistent with persistent sensor-level spectral response differences rather than index-specific artifacts. Collectively, these findings indicate that normalized difference indices built from spectrally well-matched bands, which largely remove radiometric differences between UAS flights, provide a robust basis for the joint exploitation of UAS and Sentinel-2 observations, enabling consistent multiscale monitoring of broadleaved forests while retaining the complementary advantages of each observational platform.",
-  "citation_count": 0,
-  "concepts": [
-   "Multispectral image",
-   "Remote sensing",
-   "Comparability"
+   "Environmental science"
   ],
   "source": "openalex",
   "topics": [
@@ -165,89 +144,99 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7225756397",
-  "title": "AHI LAI: a seamless 500 m, 4-day leaf area index dataset of the Asia-Pacific region (2015–2025) generated from geostationary Himawari-8/9 observations",
+  "id": "openalex:W7225798811",
+  "title": "BathyUNet++ : a bathymetry retrieval framework for high-resolution low-SNR SuperDove imagery",
   "authors": [
-   "Jiakai You",
-   "Yinghui Zhang",
-   "Zhongwen Hu",
-   "Jingzhe Wang",
-   "Guofeng Wu"
+   "Wendian Lai",
+   "Qi Zhao",
+   "Zhaotong Zhu",
+   "Anders Jensen Knudby",
+   "Lakmal Deshapriya Nawarathnage",
+   "Zhongping Lee",
+   "Shaoling Shang",
+   "Jingyu Zhang",
+   "Xiaolong Yu"
   ],
   "venue": "GIScience & Remote Sensing",
   "venue_short": "GISci. Remote Sens.",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-10",
-  "doi": "10.1080/15481603.2026.2756798",
+  "date": "2026-11-11",
+  "doi": "10.1080/15481603.2026.2756796",
   "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2756798",
+  "url": "https://doi.org/10.1080/15481603.2026.2756796",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
+   "Bathymetry",
    "Remote sensing",
-   "Geostationary orbit",
-   "Environmental science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225762020",
-  "title": "Retrieval of vegetation leaf equivalent water thickness from GF-5 hyperspectral imagery via physics-guided transfer learning",
-  "authors": [
-   "Mingjie Li",
-   "Wenli Huang",
-   "Tianjie Zhao",
-   "Xijun Wang"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-10",
-  "doi": "10.1080/15481603.2026.2756037",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2756037",
-  "abstract": "Vegetation leaf equivalent water thickness (EWT) is an important indicator of plant water status and is relevant to ecological monitoring and vegetation stress assessment. However, hyperspectral retrieval of leaf EWT remains challenging because canopy structural effects and discrepancies between simulated and measured observations can limit model transferability. To address this issue, we developed a physics-guided transfer-learning framework for EWT retrieval using Gaofen-5 Advanced Hyperspectral Imager (GF-5 AHSI) data. A diverse simulation domain was constructed by coupling PROSPECT-D with the 4SAIL and 4-Scale canopy models to represent both relatively homogeneous and structurally complex vegetation. Complementary PCA-derived and physically interpretable spectral features were selected, and four base learners were integrated using out-of-fold stacking. Models were first pretrained on simulated data and subsequently fine-tuned using in-situ observations. Simulation-only pretraining achieved RMSEs of 0.083 kg/m2 on the held-out measured test set and 0.091 kg/m2 on the independent external test set. After fine-tuning, the corresponding RMSEs decreased to 0.056 and 0.071 kg/m2, respectively. Moreover, on the independent external test set, the fine-tuned ensemble reduced RMSE from 0.101 to 0.071 kg/m2 relative to measured-only modeling, further supporting improved transferability. Regional applications over Saihanba and an area within and adjacent to the Northeast China Tiger and Leopard National Park produced spatially coherent EWT patterns, while ensemble model disagreement varied among regions and vegetation types. These results demonstrate that physics-guided simulation pretraining combined with measured-data fine-tuning provides a practical approach for improving the transferability of hyperspectral leaf-EWT retrieval under heterogeneous vegetation conditions.",
-  "citation_count": 0,
-  "concepts": [
-   "Hyperspectral imaging",
-   "Remote sensing",
-   "Vegetation (pathology)"
+   "Geology"
   ],
   "source": "openalex",
   "topics": [
    "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225772706",
+  "title": "Expediting Pre-training for Vision Transformers Through Hierarchical Data Sparsity Optimization",
+  "authors": [
+   "Zhenglun Kong",
+   "Changdi Yang",
+   "Xuan Shen",
+   "Hao Tang",
+   "Geng Yuan",
+   "Ming-Ming Cheng",
+   "Yanzhi Wang"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-11",
+  "doi": "10.1007/s11263-026-03124-3",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03124-3",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Expediting",
+   "Computer science",
+   "Artificial intelligence"
+  ],
+  "source": "openalex",
+  "topics": [
    "计算机视觉",
    "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7225761035",
-  "title": "Robust Reasoning Segmentation for Open-World MLLMs without Catastrophic Forgetting",
+  "id": "openalex:W7225807459",
+  "title": "Frequency-Decoupled Multimodal Fusion with scale-aware interaction for visible–infrared object detection",
   "authors": [
-   "Jiazhen Liu",
-   "Long Chen"
+   "Hongyu Sun",
+   "Mingxing Jia",
+   "Yilong Dou",
+   "Jiaxu Zhao",
+   "Dapeng Niu"
   ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-10",
-  "doi": "10.1007/s11263-026-03118-1",
+  "date": "2026-11-11",
+  "doi": "10.1016/j.patcog.2026.115273",
   "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03118-1",
-  "abstract": "Abstract Ensuring trustworthiness and versatility in Open-World Visual Recognition is a core goal of Multimodal Large Language Models (MLLMs). While integrating segmentation is desirable, prevailing methods require invasive fine-tuning, which often leads to catastrophic forgetting of the model’s general-purpose capabilities. This trade-off between task-specific performance and general reliability fundamentally undermines the goal of building unified, trustworthy systems. We introduce LENS ( L everaging k E ypoi N ts for MLLMs’ S egmentation), a novel plug-and-play paradigm designed to equip MLLMs with pixel-level ability without compromising their foundational integrity. LENS attaches a lightweight head to a completely frozen MLLM, interpreting the intrinsic spatial cues embedded in attention maps. It extracts keypoints and translates them into prompt-compatible features for a mask decoder. Extensive experiments validate that LENS achieves segmentation performance competitive with retraining-based methods. Crucially, it largely preserves the MLLM’s open-world generalization, avoiding the degradation observed in fine-tuned counterparts. By decoupling segmentation from generation, LENS offers a robust and efficient path toward truly multi-talented and reliable vision models.",
+  "url": "https://doi.org/10.1016/j.patcog.2026.115273",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Forgetting",
-   "Segmentation",
-   "Computer science"
+   "Computer science",
+   "Robustness (evolution)",
+   "Artificial intelligence"
   ],
   "source": "openalex",
   "topics": [
