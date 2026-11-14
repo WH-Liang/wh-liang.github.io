@@ -1,74 +1,102 @@
 [
  {
-  "id": "openalex:W7165023046",
-  "title": "Characterization of Antarctic iceberg distributions using ICESat-2",
+  "id": "openalex:W7162325879",
+  "title": "A novel approach for soil moisture retrieval via fusing multi-spaceborne GNSS-R observations in entire Tibetan Plateau",
   "authors": [
-   "Younghyun Koo",
-   "Hongjie Xie",
-   "Walter N. Meier",
-   "Nathan Kurtz"
+   "Wenzhou Xu",
+   "Haohan Wei",
+   "Shuanggen Jin",
+   "Dong Chen",
+   "Hongtao shi",
+   "Tianjie Zhao",
+   "Zhehui Shen",
+   "Cong Yin",
+   "Rongrong Li",
+   "Wentao Dai",
+   "Songbo Qu",
+   "Mengfei Liu",
+   "Jingyao Zheng"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-11",
-  "doi": "10.1016/j.rse.2026.115767",
+  "date": "2026-11-12",
+  "doi": "10.1016/j.jag.2026.105667",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115767",
-  "abstract": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105667",
+  "abstract": "Spaceborne GNSS-Reflectometry (GNSS-R) is a powerful technology for soil moisture (SM) retrieval. However, complex topography and steep slopes over the Tibetan Plateau lead to significant signal loss and sampling sparsity. This study proposes a novel Dirichlet-prior-guided Vision Transformer (DG-ViT) framework to fuse multi-source observations from CYGNSS, Tianmu-1, and the FY-3E/F/G constellation. The novel DG-ViT framework incorporates land cover informed prior guidance into multi-spaceborne surface reflectivity (SR) fusion, and its performance is evaluated against single-source retrievals and traditional machine learning algorithms. To assess generalization, the fused SR was coupled with six mainstream machine learning algorithms (RF, XGBoost, ANN, BP, SVM, and GBDT) for 9 km daily SM retrieval, with multi-scale validation conducted against ERA5 SM and nine in-situ stations. Results demonstrate that the DG-ViT framework achieves a daily SR coverage of 89.49 %, representing an improvement of 20.13 % and 14.32 % over standalone CYGNSS and Tianmu-1 data, respectively. In addition, this fusion strategy overcomes the coverage gap of CYGNSS north of 38°N and compensates for the inability of individual FY-3 missions to support daily SM retrieval. In comparative assessments, the DG-ViT combined with RF yields superior performance (R = 0.955, RMSE = 0.039 cm 3 /cm 3 , bias = 0.000 cm 3 /cm 3 ), markedly enhancing retrieval accuracy relative to results derived from single-source CYGNSS or Tianmu-1 SR. In-situ validation shows ubRMSE values between 0.0232 and 0.0619 cm 3 /cm 3 , a 15.1 % precision gain over ERA5 SM. The proposed DG-ViT combined with RF approach effectively exploits the complementarity among multi-spaceborne GNSS-R observations over the entire Tibetan Plateau, thereby compensating for the signal deficiencies of individual missions. This fusion approach provides a novel perspective for SM retrieval in high-altitude areas, specifically improving daily SR coverage and SM retrieval accuracy through fusion of multi-spaceborne GNSS-R observations with land cover informed prior guidance.",
   "citation_count": 0,
   "concepts": [
-   "Iceberg",
-   "Geology",
-   "Oceanography"
+   "Water content",
+   "Fusion",
+   "Artificial intelligence"
   ],
   "source": "openalex",
-  "topics": [],
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
   "is_own": false
  },
  {
-  "id": "openalex:W7225790177",
-  "title": "Editorial Board",
-  "authors": [],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-11",
-  "doi": "10.1016/s0034-4257(26)00542-0",
-  "pdf": "https://www.sciencedirect.com/science/article/pii/S0034425726005420/pdf",
-  "url": "https://doi.org/10.1016/s0034-4257(26)00542-0",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225833317",
-  "title": "Cross-correlogram skewness index: A shape index for estimating leaf chlorophyll content from leaf to canopy scale using hyperspectral data",
+  "id": "openalex:W7225870053",
+  "title": "ObsGate-SST: observation-gated background–detail learning for global daily sea surface temperature reconstruction",
   "authors": [
-   "Xiao Li",
-   "Zhongqiu Sun",
-   "Shan Lu",
-   "Kenji Omasa"
+   "Wei Chen",
+   "Xiaoping Cheng",
+   "Jianfang Fei",
+   "Xiaogang Huang"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-11",
-  "doi": "10.1016/j.rse.2026.115776",
+  "date": "2026-11-12",
+  "doi": "10.1016/j.jag.2026.105676",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115776",
+  "url": "https://doi.org/10.1016/j.jag.2026.105676",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Skewness",
-   "Hyperspectral imaging",
-   "Canopy"
+   "Sea surface temperature",
+   "Climatology",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225893436",
+  "title": "Sentinel-1 and Sentinel-2 responses to Hansen-reported forest loss in the Peruvian Amazon: Timing and spatial sensitivity",
+  "authors": [
+   "Bojana Petrović",
+   "Jan Banout",
+   "Aleš Kučera",
+   "Adam Hruška",
+   "Tomáš Goga",
+   "Hynek Roubík"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-12",
+  "doi": "10.1016/j.jag.2026.105677",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105677",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Sensitivity (control systems)",
+   "Geography",
+   "Environmental science"
   ],
   "source": "openalex",
   "topics": [
@@ -77,134 +105,88 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7225726022",
-  "title": "A lightweight few-shot object detection framework using synthetic data augmentation for orchard obstacle recognition",
+  "id": "openalex:W4415333862",
+  "title": "GenHOI: Generalizing Text-driven 4D Human-Object Interaction Synthesis for Unseen Objects",
   "authors": [
-   "Yali Li",
-   "Xianfei Wang",
-   "Zeyi Li",
-   "Jingbin Li",
-   "Zhiyuan Zhang"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-11",
-  "doi": "10.1016/j.isprsjprs.2026.11.008",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.008",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Artificial intelligence",
-   "Obstacle",
-   "Computer vision"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7165730296",
-  "title": "A multi-sensor framework for comparing and integrating optical, C-band and L-band SAR inundation products in tropical floodplain of Australia",
-  "authors": [
-   "Porni Mollick",
-   "Thibault Catry",
-   "Renaud Hostache",
-   "Kaline de Mello",
-   "Dylan J. Irvine",
-   "Erica A. García",
-   "Malak Malak Rangers",
-   "Richard A. Crabbe"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-11",
-  "doi": "10.1080/15481603.2026.2756795",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2756795",
-  "abstract": "Accurate inundated landscape mapping is essential for understanding hydrological connectivity, wetland dynamics and floodplain processes in tropical environments. However, optical and Synthetic Aperture Radar (SAR) sensors often produce inconsistent inundation estimates due to differences in sensor physics, wavelength sensitivity, vegetation and cloud penetration, and analytical methods. These challenges are amplified in wet–dry tropical systems, where cloud cover, heterogeneous vegetation and seasonal flooding complicate water detection. This study presents a unified, data-driven framework for comparing inundation products derived from Sentinel-2 optical imagery, Sentinel-1 C-band and PALSAR-2 L-band SAR in a tropical floodplain system in northern Australia. Inundated landscape maps were generated using supervised Random Forest classification and unsupervised multi-Otsu thresholding, followed by multi-sensor fusion analysis. Products were validated using wet- and dry-season field observations. Results showed strong seasonal and sensor-specific differences. Sentinel-2 provided the most balanced representation of dry-season floodplain vegetation and inundation, while Sentinel-1 achieved high wet-season accuracy (>0.95) under cloud-affected conditions. PALSAR-2 improved the detection of inundated vegetation and structurally complex environments, reaching an overall accuracy of 0.97. Multi-sensor fusion generally improved spatial coherence and class delineation, but performance varied across sensor combinations. These findings show that optical, C-band SAR and L-band SAR inundation products are not directly interchangeable in tropical wetlands. The proposed framework supports more robust interpretation, comparison and integration of multi-sensor inundation products for wetland monitoring, hydrological assessment and environmental management in data-limited tropical regions.",
-  "citation_count": 0,
-  "concepts": [
-   "Floodplain",
-   "Remote sensing",
-   "Environmental science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225798811",
-  "title": "BathyUNet++ : a bathymetry retrieval framework for high-resolution low-SNR SuperDove imagery",
-  "authors": [
-   "Wendian Lai",
-   "Qi Zhao",
-   "Zhaotong Zhu",
-   "Anders Jensen Knudby",
-   "Lakmal Deshapriya Nawarathnage",
-   "Zhongping Lee",
-   "Shaoling Shang",
-   "Jingyu Zhang",
-   "Xiaolong Yu"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-11",
-  "doi": "10.1080/15481603.2026.2756796",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2756796",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Bathymetry",
-   "Remote sensing",
-   "Geology"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225772706",
-  "title": "Expediting Pre-training for Vision Transformers Through Hierarchical Data Sparsity Optimization",
-  "authors": [
-   "Zhenglun Kong",
-   "Changdi Yang",
-   "Xuan Shen",
-   "Hao Tang",
-   "Geng Yuan",
-   "Ming-Ming Cheng",
-   "Yanzhi Wang"
+   "Shujia Li",
+   "Haiyu Zhang",
+   "Xinyuan Chen",
+   "Yaohui Wang",
+   "Yutong Ban"
   ],
   "venue": "International Journal of Computer Vision",
   "venue_short": "IJCV",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-11",
-  "doi": "10.1007/s11263-026-03124-3",
+  "date": "2026-11-12",
+  "doi": "10.1007/s11263-026-03082-w",
   "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03124-3",
+  "url": "https://doi.org/10.1007/s11263-026-03082-w",
   "abstract": null,
-  "citation_count": 0,
+  "citation_count": 7,
   "concepts": [
-   "Expediting",
+   "Generalization",
    "Computer science",
    "Artificial intelligence"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W4416158811",
+  "title": "HENet++: Hybrid Encoding and Multi-task Learning for 3D Perception and Planning in Autonomous Driving",
+  "authors": [
+   "Zhongyu Xia",
+   "Zhiwei Lin",
+   "Yongtao Wang",
+   "Ming–Hsuan Yang"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-12",
+  "doi": "10.1007/s11263-026-03078-6",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03078-6",
+  "abstract": null,
+  "citation_count": 7,
+  "concepts": [
+   "Computer science",
+   "Artificial intelligence",
+   "Inference"
+  ],
+  "source": "openalex",
+  "topics": [
+   "机器学习",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225919690",
+  "title": "STRIDE: Continual Learning using Skill Transfer and Reuse with Incremental Discrete Encoding",
+  "authors": [
+   "Pranav Agarwal",
+   "Michele Rocca",
+   "Victor Brian Zordan",
+   "Sheldon Andrews"
+  ],
+  "venue": "ACM Transactions on Graphics",
+  "venue_short": "TOG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-12",
+  "doi": "10.1145/3861007",
+  "pdf": null,
+  "url": "https://doi.org/10.1145/3861007",
+  "abstract": "Developing general-purpose physics-based character controllers via reinforcement learning is fundamentally hindered by policy interference in continuous spaces. While training isolated controllers avoids interference, it incurs significant training overhead and yields disjointed behavioral transitions. To address these challenges, we present STRIDE (Skill Transfer and Reuse with Incremental Discrete Encoding), a framework for the continual learning and composition of diverse character behaviors. Instead of training independent models, STRIDE leverages policy quantization via a Vector Quantized Variational Autoencoder (VQ-VAE) to dynamically discover and encode reusable behavioral primitives within a discrete latent space. New behaviors and tasks are learned by combining existing codewords, providing a stable motion prior that structurally eliminates catastrophic forgetting. Evaluated across diverse locomotion styles, agile maneuvers like kicking, and composite tasks like target-aiming, STRIDE accelerates downstream learning by × 1.3 to × 2.0 compared to baseline learning frameworks. Furthermore, the discrete representations inherently improve policy interpretability, allowing direct tracking of skill activations and behavioral decisions during task execution. STRIDE offers a scalable, transparent solution for continual character control without compromising motion quality.",
+  "citation_count": 0,
+  "concepts": [
+   "STRIDE",
+   "Computer science",
+   "Reuse"
   ],
   "source": "openalex",
   "topics": [
@@ -214,34 +196,64 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7225807459",
-  "title": "Frequency-Decoupled Multimodal Fusion with scale-aware interaction for visible–infrared object detection",
+  "id": "arxiv:2611.17240v1",
+  "title": "Objects as Addresses: Instance Binding in Vision Transformer Attention",
   "authors": [
-   "Hongyu Sun",
-   "Mingxing Jia",
-   "Yilong Dou",
-   "Jiaxu Zhao",
-   "Dapeng Niu"
+   "Khalil Sabri",
+   "Guillaume-Alexandre Bilodeau",
+   "Nicolas Saunier",
+   "Wassim Bouachir"
   ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-11",
-  "doi": "10.1016/j.patcog.2026.115273",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115273",
-  "abstract": null,
+  "date": "2026-11-12",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.17240v1",
+  "url": "https://arxiv.org/abs/2611.17240v1",
+  "abstract": "Humans naturally parse visual scenes into coherent individual objects rather than scattered features, a capability cognitive science calls object binding. While recent work shows that pretrained Vision Transformers (ViTs) intrinsically acquire this ability, how native self-attention computations mechanistically keep object instances separate remains unresolved. By studying this across eight pretrained ViTs, we found that instance separation is expressed more strongly in attention routing than in token content: selected query-key relations distinguish individual objects more reliably than value similarity or residual representations. Inside heads, patches belonging to one individual tend to read from a common image region, which we term their attention address. Visually distinct parts of one person share an address, whereas identical duplicated instances receive separate, movable addresses. These shared destinations arise in part because query interactions with the spatial structure of keys direct attention toward consistent regions for one object and elsewhere for another. In DINOv2 and most other backbones we tested, editing this query component at the selected head redirects its attention address toward another individual. Grouping patches by this query component separates same-category instances, reaching .615 FG-ARI versus .289 for the same clustering of final-layer features, which tend to merge them.",
   "citation_count": 0,
   "concepts": [
-   "Computer science",
-   "Robustness (evolution)",
-   "Artificial intelligence"
+   "cs.CV"
   ],
-  "source": "openalex",
+  "arxiv_id": "2611.17240v1",
+  "source": "arxiv",
   "topics": [
    "计算机视觉",
-   "多模态"
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.17199v1",
+  "title": "MALNISI-Infused Graph Construction and Weighted Contrastive Loss based GAT for Unsupervised Representation Learning in HSI",
+  "authors": [
+   "Soumi Sarkar",
+   "Subhadip Boral",
+   "Sarbani Palit",
+   "Ashish Ghosh"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-12",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.17199v1",
+  "url": "https://arxiv.org/abs/2611.17199v1",
+  "abstract": "Hyperspectral images (HSI) possess discriminating spectral characteristics with respect to land utilization due to high-dimensional information. Recently, unsupervised representation learning using graph neural networks has unveiled these utilization-specific complex spectral relations. This article has three main contributions. First, it proposes an index, the Mean Absolute Local Neighborhood Inverse Spectral Index (MALNISI), which measures the similarity between two pixels based on their neighborhood information. The index is used to construct a weighted adjacency matrix, giving the HSI a graph structure. Second, it proposes an upgraded Graph Attention Network that learns compact latent representations of hyperspectral data from the constructed graph. In this network, an enhanced multi-head attention mechanism incorporates the MALNISI weights as an auxiliary feature to emphasize learned attention between neighboring pixels. To alleviate over-smoothing and preserve fine-grained spectral details, the architecture integrates residual connections, skip projections, and feature normalization, which together enhance representation capability, stabilize learning, and accelerate convergence. Third, it proposes a weighted contrastive loss function that incorporates neighborhood-aware MALNISI between connected pixels, encouraging strongly connected pixels in the high-dimensional space to remain close in the latent space, and weakly connected pixels to stay apart. The resulting discriminative low-dimensional embeddings are then clustered using spectral clustering. Experimental analysis on six benchmark HSI datasets demonstrates the efficiency and necessity of the three aforementioned contributions, and the comparative study highlights superior performance over fourteen state-of-the-art approaches.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV",
+   "cs.AI"
+  ],
+  "arxiv_id": "2611.17199v1",
+  "source": "arxiv",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
   ],
   "is_own": false
  }
