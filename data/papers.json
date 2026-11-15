@@ -1,5 +1,388 @@
 [
  {
+  "id": "openalex:W7226024716",
+  "title": "Hyperspectral remote sensing of cover crop traits for decision support in precision nitrogen management",
+  "authors": [
+   "Jyoti S. Jennewein",
+   "Wells Dean Hively",
+   "Brian T. Lamb",
+   "S. Chris Reberg-Horton",
+   "Steven Brian Mirsky"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-13",
+  "doi": "10.1016/j.rse.2026.115759",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115759",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Hyperspectral imaging",
+   "Environmental science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7226026469",
+  "title": "Spatiotemporal variability in seasonal and interannual InSAR-derived excess ground ice content retrievals using Sentinel-1",
+  "authors": [
+   "Alexander L. Nguyen",
+   "Tyler M. Meng",
+   "Roger Michaelides"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-13",
+  "doi": "10.1016/j.rse.2026.115788",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115788",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Environmental science",
+   "Remote sensing",
+   "Atmospheric sciences"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7226033160",
+  "title": "Estimating the red-to-far-red chlorophyll fluorescence ratio with RGB imagery",
+  "authors": [
+   "Chris H. Lee",
+   "Jonathan F. Dooley",
+   "Julia K. Marrs",
+   "David W. Allen",
+   "Taylor Jones",
+   "Hristiana Stoynova",
+   "Barry A. Logan",
+   "Lucy R. Hutyra"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-13",
+  "doi": "10.1016/j.rse.2026.115789",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115789",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Chlorophyll fluorescence",
+   "Canopy"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7226014456",
+  "title": "MoDA: Unlocking frozen vision foundation models for multimodal fusion object detection in remote sensing",
+  "authors": [
+   "Chao Wang",
+   "Yanguang Sun",
+   "Zhenbo Yu",
+   "Jian Yang",
+   "Lei Luo"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-13",
+  "doi": "10.1016/j.isprsjprs.2026.11.006",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.006",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Foundation (evidence)",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7226038755",
+  "title": "CASGM: Co-visible area guided optical–SAR matching with significant geometric differences",
+  "authors": [
+   "Yuchi Pu",
+   "Xin Xin",
+   "Yutong Hu",
+   "Pengcheng Shi",
+   "Jiayuan Li"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-13",
+  "doi": "10.1016/j.isprsjprs.2026.11.007",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.007",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Synthetic aperture radar",
+   "Artificial intelligence"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7165789827",
+  "title": "High resolution sediment-specific surface soil moisture retrieval using Sentinel-1 time series and auxiliary data",
+  "authors": [
+   "Alireza Hamedianfar",
+   "Oleg Antropov",
+   "Matthieu Molinier",
+   "Ulla Salmela",
+   "Hanna Kukkula",
+   "Lauri Seitsonen",
+   "Pauliina Liwata-Kenttälä",
+   "Maarit Middleton"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-13",
+  "doi": "10.1016/j.jag.2026.105665",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105665",
+  "abstract": "In this study, we examine the potential of continuous ground moisture monitoring over a mining site using a combination of in-situ soil moisture sensors and multi-sensor SAR images. We focus on assessing and improving methodologies for retrieval of surface soil moisture, i.e. ground moisture, from SAR measurements focusing on detailed in situ reference observations for several key geomaterials, i.e. sediments, typical in the study site. The mining site represents a limestone quarry locate in the southeastern Finland. Our hypothesis is that sediment-specific well-calibrated models can be instrumental in improving soil moisture retrieval under different weather conditions to produce spatially explicit soil moisture estimates at high resolution compared to baseline approaches. Studied SAR data are represented by Copernicus Sentinel-1 C-band images, while auxiliary datasets include optical Sentinel-2 data. Reference data were collected using IoT enabled capacitance sensors. The examined machine learning methods include Xgboost, LightGBM, RFs, linear regression and k-nearest neighbors regression. The best performance was achieved with the most comprehensive feature set which combines Sentinel-1 backscatter, time-series based soil moisture indices, Sentinel-2 optical, topographic, and temperature predictors. In the best sediment-area-level configurations, RMSE decreased to 0.037-0.050 m^3 m^(-3) (3.7-5.0 volumetric % points), with R^2 values reaching 0.90. Tree-based ensemble methods, especially LightGBM, RF, and XGBoost, provided the most accurate and stable predictions. Accuracy varied by sediment texture, with the lowest errors for clay and organic soil and higher errors for flotation sand and gravel. Adding sediment information improved Sentinel-1-only retrievals by more than 2 vol-%, but provided little additional benefit when richer multi-source feature sets were used.",
+  "citation_count": 1,
+  "concepts": [
+   "Water content",
+   "Environmental science",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7170057338",
+  "title": "Process-informed deep learning for interpretable forested wetland mapping under dense canopy",
+  "authors": [
+   "Jing LV",
+   "Hengxing Xiang",
+   "Yanbiao Xi",
+   "Xianglong Xing",
+   "Weihong Zhu",
+   "Dehua Mao",
+   "Kaidong Feng"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-13",
+  "doi": "10.1016/j.jag.2026.105672",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105672",
+  "abstract": "Canopy-obscured hydrologic signals and gradual wetland–upland transitions hinder the delineation of forested wetlands, particularly when heterogeneous Earth-observation evidence is fused as an unstructured feature stack. We developed a process-informed multi-stream convolutional neural network (CNN) for mapping forested wetlands on a 10-m modelling grid in the Changbai Mountains, China. The model used 85 covariates derived from Sentinel-1, Sentinel-2, ALOS-2 PALSAR-2, and Copernicus DEM GLO-30. These covariates were assigned a priori to five predictor streams and processed by separate CNN branches before fusion. Relative to a capacity-matched single-stream baseline, the grouped architecture increased forested-wetland F1 by 3.42 percentage points across five validation folds, whereas the gain on the fixed held-out test set was smaller (+1.03 percentage points). For map production, the probability-averaged five-fold ensemble achieved an overall accuracy of 0.873, a macro-F1 of 0.882, and a forested-wetland F1 of 0.836 on the fixed held-out test set. To interpret correlated predictors, group-aggregated SHapley Additive exPlanations (SHAP) and k-nearest-neighbor conditional replacement were used to characterize global and conditional model reliance. Among correctly classified forested-wetland samples, global reliance was greatest for temporal features and phenology, whereas conditional replacement indicated the greatest residual model reliance for hydrology, followed by topography. Direct pixel counting yielded a map-derived forested-wetland area of 686.6 km 2 , concentrated mainly in peripheral plains and hills. This framework combines process-informed feature organization with dependence-aware interpretation to support interpretable regional mapping of canopy-obscured forested wetlands.",
+  "citation_count": 0,
+  "concepts": [
+   "Wetland",
+   "Margin (machine learning)",
+   "Context (archaeology)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7125265472",
+  "title": "SpaRRTa: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models",
+  "authors": [
+   "Turhan Can Kargin",
+   "Wojciech Jasiński",
+   "Adam Pardyl",
+   "Bartosz Zieliński",
+   "Marcin Przewięźlikowski"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-13",
+  "doi": "10.1007/s11263-026-03112-7",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03112-7",
+  "abstract": "Abstract Visual Foundation Models (VFMs), such as DINO and CLIP, excel in semantic understanding of images but exhibit limited spatial reasoning capabilities, which limits their applicability to embodied systems. As a result, recent work has incorporated some 3D tasks (such as depth estimation) into VFM training. However, VFM performance remains inconsistent across other spatial tasks, raising the question of whether these models truly possess spatial awareness or overfit to specific 3D objectives. To address this question, we introduce the Spatial Relation Recognition Task (SpaRRTa) benchmark, which evaluates the ability of VFMs to identify static directional relations between visible objects. Unlike traditional 3D objectives that focus on precise metric prediction (e.g., surface normal estimation), SpaRRTa probes a fundamental capability underpinning more advanced forms of human-like spatial understanding. SpaRRTa generates an arbitrary number of photorealistic images with diverse scenes and fully controllable object arrangements, along with freely accessible spatial annotations. Evaluating a range of state-of-the-art VFMs, we reveal significant disparities in their ability to encode directional spatial relations. Through our analysis, we provide insights into the mechanisms that support or hinder this form of spatial awareness in modern VFMs. We hope that SpaRRTa will serve as a useful tool for guiding the development of future spatially aware visual models. Our project page can be found at https://sparrta.gmum.net/ .",
+  "citation_count": 2,
+  "concepts": [
+   "Spatial intelligence",
+   "Computer science",
+   "Underpinning"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "三维与几何",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225984457",
+  "title": "LEAD++: Unsupervised Fine-Grained Visual Representation Learning with Multi-context Enhanced Entropy-Based Adaptive Distillation",
+  "authors": [
+   "Jianfeng Dong",
+   "Zihao Zhang",
+   "Daizong Liu",
+   "Shujie Chen",
+   "Jie Sun",
+   "Cuizhu Bao",
+   "Xun Yang",
+   "Meng Wang"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-13",
+  "doi": "10.1007/s11263-026-03123-4",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03123-4",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Discriminative model",
+   "Artificial intelligence"
+  ],
+  "source": "openalex",
+  "topics": [
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7226023050",
+  "title": "Block-Wise Variable Conditional Diffusion for High-Fidelity Text-to-4D Generation",
+  "authors": [
+   "Zhichao Zhang",
+   "Hui Chen",
+   "Jinsheng Deng",
+   "Ming Xu"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-13",
+  "doi": "10.1007/s11263-026-03119-0",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03119-0",
+  "abstract": "Abstract Text-to-4D scene generation is currently impeded by three primary challenges: the prohibitive memory cost of training high-dimensional diffusion models, the semantic misalignment arising from the failure to disentangle static object identity from dynamic motion in text conditioning, and the scarcity of high-quality datasets that accurately correlate subjects, motions, and environments. To surmount these challenges, we present Swin4D , an end-to-end framework for efficient and high-fidelity text-to-4D synthesis. First, we introduce a Block-wise Variable Conditional Diffusion strategy, which mitigates memory constraints and prevents overfitting by dynamically reconfiguring spatial dependencies during training. Second, we propose Global–Local Alignment , a hierarchical guidance mechanism that explicitly disentangles global scene context from local subject-action semantics via separate T5 and CLIP encoders, ensuring spatiotemporal consistency and fine-grained semantic fidelity regardless of prompt length. Finally, we address data limitations by curating RealSynth4D , a large-scale hybrid dataset combining 108k real-world captures with 72k AI-synthesised scenes, establishing robust correlations between subjects, actions, and complex backgrounds to significantly enhance model generalisation.",
+  "citation_count": 0,
+  "concepts": [
+   "Overfitting",
+   "Computer science",
+   "Consistency (knowledge bases)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7226023602",
+  "title": "Incremental Learning of Vision-Language Models via Task Subspace Projection and Dynamic LoRA",
+  "authors": [
+   "Hao Fu",
+   "Qian Feng",
+   "Hanbin Zhao",
+   "Jiahua Dong",
+   "Xu Tan",
+   "Lina Wei",
+   "Chao Zhang",
+   "Hui Qian"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-13",
+  "doi": "10.1007/s11263-026-03079-5",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03079-5",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Subspace topology",
+   "Incremental learning",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7226009222",
+  "title": "Editorial Board",
+  "authors": [],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-13",
+  "doi": "10.1016/s0031-3203(26)02334-4",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/s0031-3203(26)02334-4",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7162325879",
   "title": "A novel approach for soil moisture retrieval via fusing multi-spaceborne GNSS-R observations in entire Tibetan Plateau",
   "authors": [
@@ -57,7 +440,7 @@
   "doi": "10.1016/j.jag.2026.105676",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.jag.2026.105676",
-  "abstract": null,
+  "abstract": "Infrared cloud screening and incomplete sampling limit the process-scale use of daily satellite sea surface temperature (SST), whereas many gap-filled Level-4 analyses attenuate narrow fronts, tropical-cyclone cold wakes and short-lived warm extremes. This study presents ObsGate-SST, an observation-gated background–detail learning framework for global daily SST reconstruction. The model ingests cloud-contaminated ODYSSEA L3S SST, a valid-pixel mask and an OISST v2.1 prior. A low-frequency branch estimates the basin-scale thermal background, a high-frequency branch reconstructs gradient and texture residuals from observed pixels, and a deterministic observation gate copies all valid satellite observations exactly so that inference is restricted to missing open-ocean pixels. Training used 2000–2020 daily fields, validation used 2021–2022 and independent testing used 2023–2025. Against 2023 quality-level-5 iQuam matchups, monthly bias ranged from 0.193 to 0.291 °C, RMSE from 0.637 to 0.849 °C and correlation from 0.993 to 0.996 across 902,665 collocations. A cloud-gap-shaped withheld-observed-pixel audit isolated inferred-pixel skill: ObsGate-SST achieved the lowest pooled RMSE (0.4802 °C), while removing the low-frequency branch, high-frequency branch, gradient/detail loss and physical/prior regularization increased RMSE by 17.0 %, 9.9 %, 3.9 % and 2.0 %, respectively. Relative to DINEOF, U-Net, Swin-Unet and SegNet under common masks, ObsGate-SST better retained spectral energy, frontal continuity, marine-heatwave structure, typhoon cold wakes and equatorial Pacific gradients. These results support observation-gated multiscale learning as a physically interpretable strategy for reconstructing incomplete satellite SST without sacrificing observed-pixel fidelity.",
   "citation_count": 0,
   "concepts": [
    "Sea surface temperature",
@@ -91,7 +474,7 @@
   "doi": "10.1016/j.jag.2026.105677",
   "pdf": null,
   "url": "https://doi.org/10.1016/j.jag.2026.105677",
-  "abstract": null,
+  "abstract": "Satellite signals preceding recorded tropical forest loss are rarely tested against locations without loss. We compared the timing of Sentinel-1 co-polarised (VV) and cross-polarised (VH) backscatter and three Sentinel-2 indices (Normalized Burn Ratio, NBR; Normalized Difference Moisture Index, NDMI; Normalized Difference Red Edge index, NDRE) with Hansen Global Forest Change loss years in the Ucayali Region of the Peruvian Amazon (2019–2025). Hansen loss years served as an annual, satellite-derived reference rather than independent ground truth. Monthly time series at 819 locations with Hansen loss in 2021–2024 at the central 30 m pixel were compared with 2,588 non-loss locations using before-after analysis, superposed epoch analysis and single-change-point breakpoint detection with a pseudo-year null model. Sensitivity to spatial matching was tested with 50–250 m buffers, and canopy height from the Global Ecosystem Dynamics Investigation was examined exploratorily. All variables declined around the Hansen loss year relative to non-loss locations, most strongly for Sentinel-2 (Cliff’s δ = − 0.66 to − 0.76; Sentinel-1: −0.27 to − 0.30). Negative breakpoints occurred at 74–82% of loss locations for the Sentinel-2 indices, mostly in the loss year. Breakpoints preceding the loss year occurred at 9.5–19.0% of loss locations, exceeding the non-loss comparison only for NBR (+4.9 percentage points) and NDRE (+3.8) at the primary penalty. Apparent pre-loss rates increased with buffer size and depended on breakpoint selection, and exploratory GEDI analysis found no detectable association between canopy height and breakpoint timing. Pre-loss satellite signals should be tested against non-loss baselines before being interpreted as early warning.",
   "citation_count": 0,
   "concepts": [
    "Sensitivity (control systems)",
@@ -100,8 +483,38 @@
   ],
   "source": "openalex",
   "topics": [
-   "遥感"
+   "遥感",
+   "计算机视觉"
   ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7226038430",
+  "title": "Integrating vegetation phenology and SWOT-derived surface water dynamics for improved county-scale winter wheat yield prediction",
+  "authors": [
+   "Tao Liu",
+   "Su Zhang",
+   "Huan Zhang",
+   "Hui Lu",
+   "Nan Xu"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-12",
+  "doi": "10.1080/15481603.2026.2761213",
+  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/15481603.2026.2761213?needAccess=true",
+  "url": "https://doi.org/10.1080/15481603.2026.2761213",
+  "abstract": "Winter wheat yield is shaped by crop growth status and surface hydrological conditions. However, remote-sensing approaches based primarily on vegetation index (VI) time series may not fully represent the surrounding surface-water environment in county-scale yield prediction. We integrated growth-stage VI features with surface-water dynamics derived from the Surface Water and Ocean Topography (SWOT) mission to predict county-level winter wheat yield in Henan Province, China. We evaluated direct feature fusion, same-year residual correction, and target-year residual correction following cross-year VI extrapolation using outer ten-fold cross-validation. Inner five-fold cross-fitting generated same-year VI residual targets exclusively within each outer training set. The VI-only model achieved R2 = 0.772, RMSE = 0.688 t ha−1, and MAE = 0.510 t ha−1. Direct incorporation of SWOT features reduced predictive accuracy, with R2 = 0.749, RMSE = 0.721 t ha−1, and MAE = 0.547 t ha−1. By contrast, SWOT-based residual correction yielded a clearer improvement in same-year prediction, increasing R2 to 0.795 and reducing RMSE to 0.652 t ha−1. The historical VI model was trained on 2010–2021, independently tested on 2022–2023, and extrapolated to 2024, where it achieved R2 = 0.676, RMSE = 0.819 t ha−1, and MAE = 0.611 t ha−1. Calibrated using observed 2024 yields from training counties and evaluated on held-out 2024 counties, subsequent target-year residual correction with concurrent SWOT features increased R2 to 0.749 and reduced RMSE and MAE to 0.722 and 0.524 t ha−1, respectively. SHAP analysis showed that SWOT contributions were concentrated during seeding, emergence, overwintering, green, heading–flowering, and filling and varied by spatial scale and prediction scenario. Overall, SWOT-derived surface-water observations provided complementary predictive information relative to the evaluated VI baselines, particularly for target-year spatial calibration. Their broader applicability across regions, crops, and years remains to be established through independent validation.",
+  "citation_count": 0,
+  "concepts": [
+   "Residual",
+   "Mean squared error",
+   "Extrapolation"
+  ],
+  "source": "openalex",
+  "topics": [],
   "is_own": false
  },
  {
@@ -123,7 +536,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1007/s11263-026-03082-w",
   "abstract": null,
-  "citation_count": 7,
+  "citation_count": 8,
   "concepts": [
    "Generalization",
    "Computer science",
@@ -179,7 +592,7 @@
   "year": 2026,
   "date": "2026-11-12",
   "doi": "10.1145/3861007",
-  "pdf": null,
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3861007?download=true",
   "url": "https://doi.org/10.1145/3861007",
   "abstract": "Developing general-purpose physics-based character controllers via reinforcement learning is fundamentally hindered by policy interference in continuous spaces. While training isolated controllers avoids interference, it incurs significant training overhead and yields disjointed behavioral transitions. To address these challenges, we present STRIDE (Skill Transfer and Reuse with Incremental Discrete Encoding), a framework for the continual learning and composition of diverse character behaviors. Instead of training independent models, STRIDE leverages policy quantization via a Vector Quantized Variational Autoencoder (VQ-VAE) to dynamically discover and encode reusable behavioral primitives within a discrete latent space. New behaviors and tasks are learned by combining existing codewords, providing a stable motion prior that structurally eliminates catastrophic forgetting. Evaluated across diverse locomotion styles, agile maneuvers like kicking, and composite tasks like target-aiming, STRIDE accelerates downstream learning by × 1.3 to × 2.0 compared to baseline learning frameworks. Furthermore, the discrete representations inherently improve policy interpretability, allowing direct tracking of skill activations and behavioral decisions during task execution. STRIDE offers a scalable, transparent solution for continual character control without compromising motion quality.",
   "citation_count": 0,
@@ -7007,7 +7420,7 @@
   "pdf": "https://dl.acm.org/doi/pdf/10.1145/3842576?download=true",
   "url": "https://doi.org/10.1145/3842576",
   "abstract": "Real-time embodied social interaction places two equally demanding requirements on an agent: continuously generating fluent multimodal interaction behavior, and proactively reasoning over accumulated dialogue and visual context to decide when to take initiative. These requirements must both be satisfied under a strict latency budget, making them difficult to meet simultaneously. We present ProAct , a dual-system framework that manages these time-critical requirements by integrating a low-latency Behavioral System for streaming multimodal interaction with a slower Cognitive System that performs long-horizon social reasoning and produces high-level proactive intentions. The Cognitive System incorporates an efficient memory mechanism and a user-motivation prediction module to reason over accumulated dialogue and visual context and determine when proactive intervention is appropriate. The Behavioral System further includes an intention-conditioned streaming flow-matching motion generator with a disentangled Control-Net branch, which translates deliberative intentions into continuous nonverbal behavior without disrupting interaction fluency. We deploy ProAct on a physical humanoid robot and validate the framework through comprehensive experiments, including real-world user studies, motion-generation benchmarks, and evaluation on ProActBench , a new, targeted benchmark for evaluating proactive trigger detection and restraint in embodied interaction. Code and ProActBench will be released at https://proactrobot.github.io/.",
-  "citation_count": 8,
+  "citation_count": 9,
   "concepts": [
    "Embodied cognition",
    "Computer science",
@@ -7912,7 +8325,7 @@
   "year": 2026,
   "date": "2026-11-09",
   "doi": "10.1145/3842552",
-  "pdf": null,
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3842552?download=true",
   "url": "https://doi.org/10.1145/3842552",
   "abstract": "Motion retargeting aims to transfer a source motion to target characters with different skeletal structures, proportions, and body shapes. Although recent neural retargeting methods have improved flexibility across diverse skeletons, target-side geometric artifacts such as self-penetration remain difficult to resolve. Specifically, existing geometry-aware approaches often rely on fixed skeleton templates or implicit geometry-conditioned prediction, requiring a single network to account for target geometry deformation, detect target-side artifacts, and predict the corresponding correction from target geometry alone, which limits their ability to generalize across diverse skeleton structures and body shapes. In this paper, we present a geometry-aware motion retargeting framework that explicitly connects artifacts observed in the posed character geometry to motion refinement while preserving the flexibility of skeleton-agnostic neural retargeting. Our method first learns a motion embedding shared across different skeletons using a transformer-based retargeting autoencoder that transfers motion across arbitrary source-target skeleton pairs. Building on this kinematic motion prior, we introduce an artifact-driven refinement module that observes self-penetration on the posed target mesh and converts it into a corrective cue through a motion-to-vertex Jacobian. We further condition motion decoding on target geometry using skinning weight-based joint-aligned geometry features derived from the rest pose mesh. This design combines explicit target-side artifact reasoning with flexible geometry-aware decoding in a unified framework. Experiments on both fixed and arbitrary skeleton structure settings show that our method improves kinematic retargeting accuracy and reduces geometric artifacts, producing plausible motions across seen and unseen target characters. Code is available at https://seokhyeonhong.github.io/projects/kinematic-refinement/.",
   "citation_count": 1,
@@ -11789,36 +12202,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7225460496",
-  "title": "VETO: Occurrence-controlled phase-path verification for time-series classification",
-  "authors": [
-   "Jianing Xu",
-   "Yi Ren",
-   "Fangjun Luan",
-   "Shuai Yuan"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-01",
-  "doi": "10.1016/j.patcog.2026.115279",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115279",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Artificial intelligence",
-   "Pattern recognition (psychology)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
   "id": "openalex:W7225002512",
   "title": "Annual National Land Cover Database Collection 1.0: 39-year record of land cover and land cover change products across the conterminous U.S.",
   "authors": [
@@ -13964,64 +14347,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7165019756",
-  "title": "Heterogeneous SAR–optical fusion for near-real-time land use and land cover mapping under cloud contamination: A novel framework and global benchmark dataset",
-  "authors": [
-   "Jiangong Xu",
-   "Weibao Xue",
-   "Xiaoyu Yu",
-   "Jun Pan",
-   "Xinlian Lianga",
-   "Mi Wang"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-22",
-  "doi": "10.1016/j.isprsjprs.2026.10.025",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.025",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Cloud computing",
-   "Data mining"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7223185658",
-  "title": "Globe-CraterSAM: a training-free generalizable framework for mapping sub-kilometer martian craters",
-  "authors": [
-   "Yu-Shiang Lin",
-   "Xie Hu"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-22",
-  "doi": "10.1016/j.isprsjprs.2026.10.005",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.005",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Impact crater",
-   "Geology",
-   "Martian"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
   "id": "openalex:W7223179298",
   "title": "Robust reinforcement learning multi-baseline phase unwrapping algorithm with JPEG-LS",
   "authors": [
@@ -14923,72 +15248,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7222807288",
-  "title": "Efficient Time-Fractional Diffusion Network for Under-Display ToF Imaging and Beyond",
-  "authors": [
-   "Xin Qiao",
-   "Xing Wei",
-   "Matteo Poggi",
-   "Da-Yan Liu",
-   "He Kong",
-   "Chenyang Ge",
-   "Stefano Mattoccia",
-   "Nanning Zheng"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-17",
-  "doi": "10.1007/s11263-026-03074-w",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03074-w",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Artificial intelligence",
-   "Pattern recognition (psychology)",
-   "Computer science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7222823761",
-  "title": "CorrCLIPv2: Harnessing Unlabeled Images for Open-Vocabulary Semantic Segmentation",
-  "authors": [
-   "D H Zhang",
-   "Fagui Liu",
-   "Quan Tang",
-   "C. L. Philip Chen"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-17",
-  "doi": "10.1007/s11263-026-03027-3",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03027-3",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Artificial intelligence",
-   "Computer science",
-   "Pattern recognition (psychology)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
   "id": "openalex:W7222270449",
   "title": "Passive microwave sea ice concentration biases in the Southern Hemisphere revealed by ICESat-2 linear ice fraction",
   "authors": [
@@ -15048,37 +15307,6 @@
    "遥感",
    "计算机视觉",
    "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221806375",
-  "title": "Assessing the spatio-temporal cumulative drought effects on two Mediterranean forest types in Central Chile",
-  "authors": [
-   "José A. Lastra",
-   "Roberto O. Chávez",
-   "M. Decuyper",
-   "Alvaro Lau",
-   "K.M. de Beurs"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-15",
-  "doi": "10.1016/j.jag.2026.105640",
-  "pdf": "https://www.sciencedirect.com/science/article/pii/S156984322600556X/pdf",
-  "url": "https://doi.org/10.1016/j.jag.2026.105640",
-  "abstract": "Droughts are long-lasting events that can drive persistent functional changes in ecosystems, particularly in drought-prone areas like Mediterranean forests. We integrated a phenology-based anomaly method, combining kernel density estimation (KDE) with cumulative sums (CUSUMs) to assess long-term drought impacts on two Mediterranean forest types in Central Chile. Using MODIS Enhanced Vegetation Index (EVI), the Moisture Stress Index (MSI), and Evapotranspiration (ET) from 2000 to 2024, we quantified cumulative deviations in canopy productivity, moisture conditions, and energy exchange. Our framework revealed persistent negative functional trajectories preceding the well-documented 2010–present megadrought. Spatially explicit metrics identified coherent degradation hotspots in northern sclerophyllous and southern deciduous forests, where canopy greenness, moisture, and evapotranspiration declined synchronously. Seasonal models indicated a post-2010 strengthening of soil–water controls over forest functioning, with soil moisture and water storage variables becoming influential predictors. The convergence of cumulative negative EVI, MSI, and ET signals highlights widespread and sustained functional weakening under prolonged drought conditions. Our results demonstrate that integrating KDE-derived anomalies with cumulative deviation tracking provides a sensitive and transferable framework to detect early and persistent vegetation stress in water-limited ecosystems.",
-  "citation_count": 0,
-  "concepts": [
-   "Mediterranean climate",
-   "Geography",
-   "Forestry"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
   ],
   "is_own": false
  },
@@ -15359,105 +15587,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7221596536",
-  "title": "Breaking modal barriers: Achieving modality-balanced semantic segmentation across optical and SAR images through optical image-supervised learning",
-  "authors": [
-   "Hao Cui",
-   "Guo Zhang A",
-   "Xue Li",
-   "Shasha Hou",
-   "Yujia Chen",
-   "Jing Cui",
-   "ZEREN ZHIMA",
-   "Wenliang Jiang",
-   "Jiaqi Yao",
-   "Wenxuan Liu",
-   "Deren Li"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-13",
-  "doi": "10.1016/j.jag.2026.105621",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105621",
-  "abstract": "As the two primary imaging modalities in remote sensing, optics and Synthetic Aperture Radar (SAR) have been widely applied in semantic segmentation tasks. However, the scarcity of annotated samples in SAR images limits the performance of related models. How to leverage the abundant annotated samples of optical images to achieve modality-balanced semantic segmentation capabilities across both optical and SAR modalities is of great significance for all-weather interpretation. Restricted by the complexity of modality perception, achieving balanced cross-modal segmentation still faces significant challenges. To address the above issues, we fully consider the modal balance and reliability of knowledge transfer in modal migration and propose a modality-balanced knowledge distillation (MBKD) transfer learning framework. By generating and learning virtual modalities and stitched modalities, a cross-modal migration task is transformed into two symmetric intra-modal migration subtasks, explicitly promoting balanced knowledge transfer between modalities. To demonstrate the effectiveness and practicality of the proposed framework, we conducted application experiments on the large-scale public dataset WHU-OPT-SAR, MULTISENGE-6, and in 6 provinces of China. The results show that our method significantly outperforms other approaches in terms of both performance and stability.",
-  "citation_count": 0,
-  "concepts": [
-   "Segmentation",
-   "Artificial intelligence",
-   "Modal"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221513887",
-  "title": "A decade of summer glacier fronts and calved glacier ice distribution in Kongs- and Krossfjorden, Svalbard, observed by Sentinel-1 extra wide swath",
-  "authors": [
-   "Jörg Haarpaintner",
-   "Geir Moholdt",
-   "Manon Besset",
-   "Valentin Pillet"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-12",
-  "doi": "10.1016/j.rse.2026.115693",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115693",
-  "abstract": "A statistical method to map atmospheric exposure is applied on the whole decade (2015–2024) of Sentinel-1 summer acquisitions in Extra Wide Swath mode over Kongs- and Krossfjorden on Svalbard. The consistent daily observations not only allow to statistically define a summer glacier front extent of marine-terminating glaciers but also reveal a new application, which is to detect the summer distribution of calved glacier ice, i.e. icebergs, bergy bits and growlers (IBG). These originate from glacier calving during the sea-ice free period. Summer glacier extent that we define statistically as the area where the glacier prevails more than 95% during summer co-locate well with independent glacier fronts digitized from Sentinel-2 optical imagery. Annual summer IBG distributions are classified into percentage ranges of temporal occurrence, representing the proportion of time IBG are detected in the corresponding pixel location. The ten-year record of mean annual summer IBG-occupied areas is compared to separate estimates of summer glacier frontal ablation for the two glaciers Lillehöökbreen and Kronebreen. The comparison indicates a clear link between mean summer calved ice distribution area and the glaciers' frontal ablation with correlation coefficients (r) of 0.67 and 0.85 for Lillehöökbreen and Kronebreen, respectively. Frontal ablation includes both calving and submarine/subaerial melting at the glacier front and combining this with IBG occurrence estimates may provide new insights into the mass loss ratio between calving and melting. However, the relationship between IBG occurrence distribution and frontal ablation appears to be glacier specific. As this study represents a first attempt to map IBG occurrence distribution and mean IBG occupied area and link that to glacier frontal ablation, further studies and application on other glaciers and fjord systems are required to fully assess the potential and limitations of mapping such IBG distribution as a proxy for glacier calving intensities.",
-  "citation_count": 0,
-  "concepts": [
-   "Geology",
-   "Glacier",
-   "Remote sensing"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221556497",
-  "title": "From national to global: Mapping global center-pivot irrigated cropland with knowledge-guided data augmentation",
-  "authors": [
-   "Xiangyu Liu",
-   "Wei He",
-   "Yu Xia",
-   "Jie Wang",
-   "Hongyan Zhang"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-12",
-  "doi": "10.1016/j.rse.2026.115736",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115736",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Environmental science",
-   "Sampling (signal processing)"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
   "id": "openalex:W7221516449",
   "title": "Integrating multi-source physical knowledge into deep learning for satellite soil moisture downscaling",
   "authors": [
@@ -15596,36 +15725,6 @@
    "遥感",
    "计算机视觉",
    "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7221318713",
-  "title": "A semi-empirical BPDF model for improving characterization of polarimetric reflection of land surfaces: Validation using laboratory and POLDER polarization data",
-  "authors": [
-   "Cong Liu",
-   "Zhongqiu Sun",
-   "Shan Lu",
-   "Kenji Omasa"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-10",
-  "doi": "10.1016/j.rse.2026.115722",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115722",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Polarimetry",
-   "Polarization (electrochemistry)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
   ],
   "is_own": false
  },
@@ -15998,106 +16097,6 @@
   "topics": [
    "遥感",
    "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7219762973",
-  "title": "Spatiotemporal characteristics of vegetation responses to compound drought and heatwave events in Central Asia",
-  "authors": [
-   "Manfeng Ding",
-   "Renping Zhang",
-   "Jing Guo",
-   "Li Li",
-   "Feifei Niu",
-   "Yansong Li",
-   "Jinlong Gao"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-04",
-  "doi": "10.1080/15481603.2026.2741443",
-  "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/15481603.2026.2741443?needAccess=true",
-  "url": "https://doi.org/10.1080/15481603.2026.2741443",
-  "abstract": "With climate warming intensifying, compound drought and heatwave (CDHW) events have become more frequent and intense in arid Central Asia, severely affecting vegetation growth. However, systematic quantitative assessments of vegetation responses and their drivers under such compound extremes remain limited. Using meteorological and remote sensing data, we identified growing-season CDHW events across Central Asia from 1982 to 2023. Integrating the Kernel normalized difference vegetation index (KNDVI) and the long-term continuous SIF-informed photosynthesis proxy (LCSPP), we established a vegetation response indicator system including total loss (LOSStot), maximum decline (DECmax), and time to decline (TIMEdec) to characterize vegetation damage. We further applied the XGBoost model and SHAP analysis to quantify the environmental driving effects and interactions. The results indicate that CDHW events increased significantly during 1982–2023, with heatwave frequency rising at 0.38 days yr−1 and an abrupt shift around 1996. High-frequency CDHW events were primarily concentrated in north-central Kazakhstan and northern Xinjiang, China, while their frequency and duration generally increased with latitude, indicating a pronounced northward enhancement pattern. CDHW caused larger vegetation losses than individual drought or heatwave events. Event duration was the most important environmental variable of LOSStot, with the highest mean SHAP value (0.140), while precipitation anomalies during events showed a strong association with rapid vegetation decline, with a direct path coefficient of 0.333 for DECmax. This study clarifies vegetation loss characteristics and key contributing factors under compound extremes in Central Asia, providing a scientific basis for ecological risk assessment and climate adaptation in arid regions.",
-  "citation_count": 0,
-  "concepts": [
-   "Vegetation (pathology)",
-   "Arid",
-   "Environmental science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W4391631964",
-  "title": "Privacy Leakage on DNNs: A Survey of Model Inversion Attacks and Defenses",
-  "authors": [
-   "Hao Fang",
-   "Yixiang Qiu",
-   "Hongyao Yu",
-   "Wenbo Yu",
-   "Jiawei Kong",
-   "Baoli Chong",
-   "Bin Chen",
-   "Xuan Wang",
-   "Shu‐Tao Xia",
-   "Ke Xu"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-01",
-  "doi": "10.1007/s11263-026-03049-x",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03049-x",
-  "abstract": null,
-  "citation_count": 75,
-  "concepts": [
-   "Leakage (economics)",
-   "Inversion (geology)",
-   "Computer security"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W4398795277",
-  "title": "HR-INR: Continuous Space-Time Video Super-Resolution via Event Camera",
-  "authors": [
-   "Yunfan Lu",
-   "Yusheng Wang",
-   "Zipeng Wang",
-   "Pengteng Li",
-   "Bin Yang",
-   "Hui Xiong"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-01",
-  "doi": "10.1007/s11263-026-03034-4",
-  "pdf": "https://link.springer.com/content/pdf/10.1007/s11263-026-03034-4.pdf",
-  "url": "https://doi.org/10.1007/s11263-026-03034-4",
-  "abstract": "Abstract Continuous space-time video super-resolution (C-STVSR) aims to simultaneously enhance video resolution and frame rate at an arbitrary scale. Recently, implicit neural representation (INR) has been applied to video restoration, representing videos as implicit fields that can be decoded at an arbitrary scale. However, existing INR-based C-STVSR methods typically rely on only two frames as input, leading to insufficient inter-frame motion information. Consequently, they struggle to capture fast, complex motion and long-term dependencies (spanning more than three frames), hindering their performance in dynamic scenes. In this paper, we propose a novel C-STVSR framework, named HR-INR, which captures both h olistic dependencies and r egional motions based on INR. It is assisted by an event camera – a novel sensor renowned for its high temporal resolution and low latency. To fully utilize the rich temporal information from events, we design a feature extraction consisting of (1) a regional event feature extractor – taking events as inputs via the proposed event temporal pyramid representation to capture the regional nonlinear motion and (2) a holistic event-frame feature extractor for long-term dependence and continuity motion. We then propose a novel INR-based decoder with spatiotemporal embeddings to capture long-term dependencies with a larger temporal perception field. We validate the effectiveness and generalization of our method on four datasets (both simulated and real data), showing the superiority of our method. The project page is available at https://github.com/yunfanLu/HR-INR .",
-  "citation_count": 11,
-  "concepts": [
-   "Event (particle physics)",
-   "Computer science",
-   "Resolution (logic)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
   ],
   "is_own": false
  },
@@ -17864,7 +17863,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tgrs.2026.3683449",
   "abstract": "The widespread deployment of Infrared Small-Target Detection (IRSTD) algorithms on edge devices necessitates the exploration of model compression techniques. Binarized neural networks (BNNs) are distinguished by their exceptional efficiency in model compression. However, the small size of infrared targets introduces stringent precision requirements for the IRSTD task, while the inherent precision loss during binarization presents a significant challenge. To address this, we propose a Binarized Infrared Small-Target Detection Network (BiisNet), which preserves the core operations of binarized convolutions while integrating full-precision features into the network’s information flow. Specifically, we propose a Dot Binary Convolution to retain fine-grained semantic information in feature maps while still leveraging the binarized convolution operations. In addition, we introduce a smooth and adaptive Dynamic Softsign function, which provides more comprehensive and progressively finer gradient during backpropagation, enhancing model stability and promoting an optimal weight distribution. Experimental results demonstrate that BiisNet achieves anmIoUof 68.23% with only 10k parameters, delivering an 11.56% improvement over the previous best binary neural network while remaining competitive with state-of-the-art full-precision models. The implementation code is available at https://github.com/joeyxin-del/BiisNet.",
-  "citation_count": 4,
+  "citation_count": 5,
   "concepts": [
    "Computer science",
    "Convolution (computer science)",
@@ -18555,7 +18554,7 @@
   "doi": "10.1109/tgrs.2026.3752913",
   "pdf": null,
   "url": "https://doi.org/10.1109/tgrs.2026.3752913",
-  "abstract": "Infrared small target detection remains challenging due to limited feature representation and severe background interference, resulting in sub-optimal performance. While recent CLIP-inspired methods attempt to leverage textual guidance for detection, they are hindered by inaccurate text descriptions and reliance on manual annotations. To overcome these limitations, we propose DGSPNet, an end-to-end language prompt-driven framework. Our approach integrates dual-granularity semantic prompts: coarse-grained textual priors (e.g., 'infrared image', 'small target') and fine-grained personalized semantic descriptions derived through visual-to-textual mapping within the image space. This design not only facilitates learning fine-grained semantic information but also can inherently leverage language prompts during inference without relying on any annotation requirements. By fully leveraging the precision and conciseness of text descriptions, we further introduce a text-guide channel attention (TGCA) mechanism and text-guide spatial attention (TGSA) mechanism that enhances the model's sensitivity to potential targets across both low- and high-level feature spaces. Extensive experiments demonstrate that our method significantly improves detection accuracy and achieves state-of-the-art performance on three benchmark datasets.",
+  "abstract": "Infrared small target detection remains challenging due to limited feature representation and severe background interference, resulting in sub-optimal performance. While recent CLIP-inspired methods attempt to leverage textual guidance for detection, they are hindered by inaccurate text descriptions and reliance on manual annotations. To overcome these limitations, we propose DGSPNet, an end-to-end language promptdriven framework. Our approach integrates dual-granularity semantic prompts: coarse-grained textual priors (e.g., “infrared image”, “small target”) and fine-grained personalized semantic descriptions derived through visual-to-textual mapping within the image space. This design not only facilitates learning fine-grained semantic information but also can inherently leverage language prompts during inference without relying on any annotation requirements. By fully leveraging the precision and conciseness of text descriptions, we further introduce a text-guided channel attention (TGCA) mechanism and text-guided spatial attention (TGSA) mechanism that enhance the model’s sensitivity to potential targets across both low- and high-level feature spaces. Extensive experiments on IRSTD-1K, NUDTSIRST, and NUAA-SIRST datasets demonstrate that our method significantly improves detection accuracy and achieves state-of-the-art performance on these benchmarks.",
   "citation_count": 1,
   "concepts": [
    "Computer science",
@@ -18722,7 +18721,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tgrs.2025.3645320",
   "abstract": "Building extraction from remote sensing images is a challenging task due to the complex structure variations of the buildings. Existing methods employ convolutional or self-attention blocks to capture the multi-scale features in the segmentation models, while the inherent gap of the feature pyramids and insufficient global-local feature integration leads to inaccurate, ambiguous extraction results. To address this issue, in this paper, we present an Uncertainty-Aggregated Global-Local Fusion Network (UAGLNet), which is capable to exploit high-quality global-local visual semantics under the guidance of uncertainty modeling. Specifically, we propose a novel cooperative encoder, which adopts hybrid CNN and transformer layers at different stages to capture the local and global visual semantics, respectively. An intermediate cooperative interaction block (CIB) is designed to narrow the gap between the local and global features when the network becomes deeper. Afterwards, we propose a Global-Local Fusion (GLF) module to complementarily fuse the global and local representations. Moreover, to mitigate the segmentation ambiguity in uncertain regions, we propose an Uncertainty-Aggregated Decoder (UAD) to explicitly estimate the pixel-wise uncertainty to enhance the segmentation accuracy. Extensive experiments demonstrate that our method achieves superior performance to other state-of-the-art methods. Our code is available at https://github.com/Dstate/UAGLNet.",
-  "citation_count": 9,
+  "citation_count": 10,
   "concepts": [
    "Computer science",
    "Fuse (electrical)",
@@ -20330,7 +20329,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tip.2026.3735628",
   "abstract": "Multimodal Large Language Models (MLLMs), such as GPT4o, have demonstrated strong capabilities in visual reasoning and explanation generation. However, despite these advantages, they face notable challenges in the critical task of Image Forgery Detection and Localization (IFDL), where subtle manipulation traces are often overlooked. Existing IFDL approaches are mostly confined to learning low-level, semantic-agnostic clues, neglecting high-level forensic semantics within forged content, and produce only a single judgment without any reasoning. To address these limitations, we propose ForgeryGPT, a novel framework that advances the IFDL task by capturing high-order forensics knowledge correlations from forged images across diverse linguistic feature spaces, while supporting explainable reasoning and interactive dialogue through a customized Large Language Model (LLM). Specifically, ForgeryGPT enhances traditional LLMs with a Mask-Aware Forgery Extractor, enabling precise excavation of forgery mask information and pixel-level understanding of tampering artifacts. This extractor comprises a Forgery Localization Expert (FL-Expert) and a Mask Encoder. The FL-Expert incorporates an Object-agnostic Forgery Prompt and a Vocabulary-enhanced Vision Encoder to capture multi-scale fine-grained forgery details via cross-modal reasoning, thereby improving tampering localization at the knowledge level. For comprehensive training, beyond standard image-text feature alignment, we construct a Mask-Text Alignment Pre-Training dataset using the generated multi-granularity forged images, enabling accurate alignment of forgery masks in the LLM feature space. Subsequently, a Task-Specific Instruction Tuning dataset is employed to refine detection, localization, and dialogue capabilities, yielding robust performance and interpretable inference in forgery-specific scenarios. Extensive experiments demonstrate that ForgeryGPT substantially outperforms state-of-the-art methods, representing one of the early efforts to integrate the IFDL task with explainable, multi-turn dialogue capabilities, while achieving strong generalization across diverse datasets.",
-  "citation_count": 64,
+  "citation_count": 66,
   "concepts": [
    "Computer science",
    "Image (mathematics)",
@@ -20566,7 +20565,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tip.2025.3648141",
   "abstract": "Point clouds have gained prominence across numerous applications due to their ability to accurately represent 3D objects and scenes. However, efficiently compressing unstructured, high-precision point cloud data remains a significant challenge. In this paper, we propose NeRC ${}^{\\textbf {3}}$ , a novel point cloud compression framework that leverages implicit neural representations (INRs) to encode both geometry and attributes of dense point clouds. Our approach employs two coordinate-based neural networks: one maps spatial coordinates to voxel occupancy, while the other maps occupied voxels to their attributes, thereby implicitly representing the geometry and attributes of a voxelized point cloud. The encoder quantizes and compresses network parameters alongside auxiliary information required for reconstruction, while the decoder reconstructs the original point cloud by inputting voxel coordinates into the neural networks. Furthermore, we extend our method to dynamic point cloud compression through techniques that reduce temporal redundancy, including a 4D spatio-temporal representation termed 4D-NeRC ${}^{\\textbf {3}}$ . Experimental results validate the effectiveness of our approach: For static point clouds, NeRC ${}^{\\textbf {3}}$ outperforms octree-based G-PCC standard and existing INR-based methods. For dynamic point clouds, 4D-NeRC ${}^{\\textbf {3}}$ achieves superior geometry compression performance compared to the latest G-PCC and V-PCC standards, while matching state-of-the-art learning-based methods. It also demonstrates competitive performance in joint geometry and attribute compression.",
-  "citation_count": 5,
+  "citation_count": 6,
   "concepts": [
    "Compression (physics)",
    "Point (geometry)",
