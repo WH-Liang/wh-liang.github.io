@@ -1,91 +1,30 @@
 [
  {
-  "id": "openalex:W7226024716",
-  "title": "Hyperspectral remote sensing of cover crop traits for decision support in precision nitrogen management",
+  "id": "openalex:W7231282503",
+  "title": "Tracking US tidal marsh extent and change with dense Landsat time series and comparisons with existing products",
   "authors": [
-   "Jyoti S. Jennewein",
-   "Wells Dean Hively",
-   "Brian T. Lamb",
-   "S. Chris Reberg-Horton",
-   "Steven Brian Mirsky"
+   "Xiucheng Yang",
+   "Sara Knox",
+   "Shi Qiu",
+   "Kevin D. Kroeger",
+   "Zhiliang Zhu",
+   "Scott Covington",
+   "Zhe Zhu"
   ],
   "venue": "Remote Sensing of Environment",
   "venue_short": "RSE",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-13",
-  "doi": "10.1016/j.rse.2026.115759",
+  "date": "2026-11-14",
+  "doi": "10.1016/j.rse.2026.115779",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115759",
+  "url": "https://doi.org/10.1016/j.rse.2026.115779",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
    "Remote sensing",
-   "Hyperspectral imaging",
-   "Environmental science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7226026469",
-  "title": "Spatiotemporal variability in seasonal and interannual InSAR-derived excess ground ice content retrievals using Sentinel-1",
-  "authors": [
-   "Alexander L. Nguyen",
-   "Tyler M. Meng",
-   "Roger Michaelides"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-13",
-  "doi": "10.1016/j.rse.2026.115788",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115788",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Environmental science",
-   "Remote sensing",
-   "Atmospheric sciences"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7226033160",
-  "title": "Estimating the red-to-far-red chlorophyll fluorescence ratio with RGB imagery",
-  "authors": [
-   "Chris H. Lee",
-   "Jonathan F. Dooley",
-   "Julia K. Marrs",
-   "David W. Allen",
-   "Taylor Jones",
-   "Hristiana Stoynova",
-   "Barry A. Logan",
-   "Lucy R. Hutyra"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-13",
-  "doi": "10.1016/j.rse.2026.115789",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115789",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Chlorophyll fluorescence",
-   "Canopy"
+   "Series (stratigraphy)",
+   "Tracking (education)"
   ],
   "source": "openalex",
   "topics": [
@@ -95,62 +34,123 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7226014456",
-  "title": "MoDA: Unlocking frozen vision foundation models for multimodal fusion object detection in remote sensing",
+  "id": "openalex:W7226255740",
+  "title": "G-TEAM: general trajectory enhancement and mapping across diverse LiDAR platforms and environments",
   "authors": [
-   "Chao Wang",
-   "Yanguang Sun",
-   "Zhenbo Yu",
-   "Jian Yang",
-   "Lei Luo"
+   "Chunxi Zhao",
+   "Sangyoon Park",
+   "费颂林",
+   "Ayman Habib"
   ],
   "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
   "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-13",
-  "doi": "10.1016/j.isprsjprs.2026.11.006",
+  "date": "2026-11-14",
+  "doi": "10.1016/j.isprsjprs.2026.11.009",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.006",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.009",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Remote sensing",
-   "Foundation (evidence)",
-   "Computer science"
+   "Lidar",
+   "GNSS applications",
+   "Point cloud"
   ],
   "source": "openalex",
   "topics": [
-   "遥感",
-   "计算机视觉",
-   "多模态"
+   "三维与几何"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7226038755",
-  "title": "CASGM: Co-visible area guided optical–SAR matching with significant geometric differences",
+  "id": "openalex:W7232690218",
+  "title": "Image‑based 3D digital reconstruction of tower structures and dynamic visualization",
   "authors": [
-   "Yuchi Pu",
-   "Xin Xin",
-   "Yutong Hu",
-   "Pengcheng Shi",
-   "Jiayuan Li"
+   "Xing Fu",
+   "De-Sheng Zhao",
+   "Gang Li"
   ],
   "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
   "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-13",
-  "doi": "10.1016/j.isprsjprs.2026.11.007",
+  "date": "2026-11-14",
+  "doi": "10.1016/j.isprsjprs.2026.10.043",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.007",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.043",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
    "Computer science",
-   "Synthetic aperture radar",
-   "Artificial intelligence"
+   "Visualization",
+   "Interpolation (computer graphics)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7228437880",
+  "title": "DBEFNet: a dual-branch fusion network integrating remote sensing imagery and building morphology for urban village segmentation",
+  "authors": [
+   "Zhonglin Yang",
+   "Yimin Chen",
+   "Haifeng Li",
+   "Wufan Zhao",
+   "Ying Sun",
+   "Mengwei Liu"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-14",
+  "doi": "10.1016/j.jag.2026.105682",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105682",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Remote sensing",
+   "Segmentation",
+   "Geography"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7226498008",
+  "title": "Application of Mobile-DOAS observations for analyzing sub-pixel variability and comparing TROPOMI-derived NO x emissions over the Yeosu-Gwangyang industrial complex",
+  "authors": [
+   "Kangho Bae",
+   "Kezia Lange",
+   "Hyeon-Kook Kim",
+   "Andreas Richter",
+   "Jaeho Choi",
+   "Chang‐Keun Song"
+  ],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-14",
+  "doi": "10.1080/15481603.2026.2762579",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2762579",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Environmental science",
+   "Remote sensing",
+   "Meteorology"
   ],
   "source": "openalex",
   "topics": [
@@ -159,106 +159,91 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7165789827",
-  "title": "High resolution sediment-specific surface soil moisture retrieval using Sentinel-1 time series and auxiliary data",
+  "id": "openalex:W7229846154",
+  "title": "Coarse-to-fine physics-guided reconstruction of gridded sea level anomalies from HY-2B/C/D altimetry",
   "authors": [
-   "Alireza Hamedianfar",
-   "Oleg Antropov",
-   "Matthieu Molinier",
-   "Ulla Salmela",
-   "Hanna Kukkula",
-   "Lauri Seitsonen",
-   "Pauliina Liwata-Kenttälä",
-   "Maarit Middleton"
+   "Wenkai Li",
+   "Yongjun Jia",
+   "Zongtao Han",
+   "Wenwen He",
+   "Yichu Xu",
+   "Shilin Tang"
   ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-13",
-  "doi": "10.1016/j.jag.2026.105665",
+  "date": "2026-11-14",
+  "doi": "10.1080/15481603.2026.2758561",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105665",
-  "abstract": "In this study, we examine the potential of continuous ground moisture monitoring over a mining site using a combination of in-situ soil moisture sensors and multi-sensor SAR images. We focus on assessing and improving methodologies for retrieval of surface soil moisture, i.e. ground moisture, from SAR measurements focusing on detailed in situ reference observations for several key geomaterials, i.e. sediments, typical in the study site. The mining site represents a limestone quarry locate in the southeastern Finland. Our hypothesis is that sediment-specific well-calibrated models can be instrumental in improving soil moisture retrieval under different weather conditions to produce spatially explicit soil moisture estimates at high resolution compared to baseline approaches. Studied SAR data are represented by Copernicus Sentinel-1 C-band images, while auxiliary datasets include optical Sentinel-2 data. Reference data were collected using IoT enabled capacitance sensors. The examined machine learning methods include Xgboost, LightGBM, RFs, linear regression and k-nearest neighbors regression. The best performance was achieved with the most comprehensive feature set which combines Sentinel-1 backscatter, time-series based soil moisture indices, Sentinel-2 optical, topographic, and temperature predictors. In the best sediment-area-level configurations, RMSE decreased to 0.037-0.050 m^3 m^(-3) (3.7-5.0 volumetric % points), with R^2 values reaching 0.90. Tree-based ensemble methods, especially LightGBM, RF, and XGBoost, provided the most accurate and stable predictions. Accuracy varied by sediment texture, with the lowest errors for clay and organic soil and higher errors for flotation sand and gravel. Adding sediment information improved Sentinel-1-only retrievals by more than 2 vol-%, but provided little additional benefit when richer multi-source feature sets were used.",
-  "citation_count": 1,
-  "concepts": [
-   "Water content",
-   "Environmental science",
-   "Remote sensing"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7170057338",
-  "title": "Process-informed deep learning for interpretable forested wetland mapping under dense canopy",
-  "authors": [
-   "Jing LV",
-   "Hengxing Xiang",
-   "Yanbiao Xi",
-   "Xianglong Xing",
-   "Weihong Zhu",
-   "Dehua Mao",
-   "Kaidong Feng"
-  ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-13",
-  "doi": "10.1016/j.jag.2026.105672",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105672",
-  "abstract": "Canopy-obscured hydrologic signals and gradual wetland–upland transitions hinder the delineation of forested wetlands, particularly when heterogeneous Earth-observation evidence is fused as an unstructured feature stack. We developed a process-informed multi-stream convolutional neural network (CNN) for mapping forested wetlands on a 10-m modelling grid in the Changbai Mountains, China. The model used 85 covariates derived from Sentinel-1, Sentinel-2, ALOS-2 PALSAR-2, and Copernicus DEM GLO-30. These covariates were assigned a priori to five predictor streams and processed by separate CNN branches before fusion. Relative to a capacity-matched single-stream baseline, the grouped architecture increased forested-wetland F1 by 3.42 percentage points across five validation folds, whereas the gain on the fixed held-out test set was smaller (+1.03 percentage points). For map production, the probability-averaged five-fold ensemble achieved an overall accuracy of 0.873, a macro-F1 of 0.882, and a forested-wetland F1 of 0.836 on the fixed held-out test set. To interpret correlated predictors, group-aggregated SHapley Additive exPlanations (SHAP) and k-nearest-neighbor conditional replacement were used to characterize global and conditional model reliance. Among correctly classified forested-wetland samples, global reliance was greatest for temporal features and phenology, whereas conditional replacement indicated the greatest residual model reliance for hydrology, followed by topography. Direct pixel counting yielded a map-derived forested-wetland area of 686.6 km 2 , concentrated mainly in peripheral plains and hills. This framework combines process-informed feature organization with dependence-aware interpretation to support interpretable regional mapping of canopy-obscured forested wetlands.",
+  "url": "https://doi.org/10.1080/15481603.2026.2758561",
+  "abstract": "The capability of the Chinese HY-2B/C/D altimeter constellation for gridded sea level anomaly (SLA) reconstruction using only HY-2 observations remains insufficiently evaluated. This study presents a physics-guided framework designed for near-real-time (NRT) SLA reconstruction in the Northwest Pacific and retrospectively evaluates it using 2022−2025 HY-2B/C/D observations. The framework combines an OI-derived coarse background with deep-learning refinement, with target-period reconstruction driven solely by HY-2B/C/D along-track data. Validation against an identical set of 1255 independent tide-gauge observations yields mean RMSE of 0.051 m and a mean correlation coefficient (r) of 0.83 over 12 tide-gauge stations. Inter-product comparisons during 2022−2025 show closer agreement with the DUACS DT and NRT products than with NSOAS, although differences in SLA reference conventions and geophysical correction standards among the products should be considered when interpreting regional discrepancies. Scale-dependent evaluation using SARAL/AltiKa along-track observations indicates a mean effective spatial resolution of approximately 300 km. Dynamical consistency is further assessed against surface-drifter observations using geostrophic velocity anomaly magnitude, yielding mean RMSE of 0.181 m s−1 and r of 0.54. These results demonstrate that spatially coherent and dynamically plausible daily SLA fields can be reconstructed with HY-2B/C/D as the sole altimetric observations during the target period, supporting the potential of the proposed framework for NRT SLA reconstruction under sparse observational constraints.",
   "citation_count": 0,
   "concepts": [
-   "Wetland",
-   "Margin (machine learning)",
-   "Context (archaeology)"
+   "Altimeter",
+   "Anomaly (physics)",
+   "Sea level"
   ],
   "source": "openalex",
   "topics": [
-   "遥感",
+   "计算机视觉",
    "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7125265472",
-  "title": "SpaRRTa: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models",
+  "id": "openalex:W7232495946",
+  "title": "Gravity-conditioned diffusion for seafloor bathymetric resolution enhancement",
   "authors": [
-   "Turhan Can Kargin",
-   "Wojciech Jasiński",
-   "Adam Pardyl",
-   "Bartosz Zieliński",
-   "Marcin Przewięźlikowski"
+   "Zeyuan Zhang",
+   "Wei Feng",
+   "Dechao An",
+   "Mingzhi Sun",
+   "Meng Yang",
+   "Zhongshan Jiang",
+   "Xingyuan Yan",
+   "Min Zhong"
   ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-13",
-  "doi": "10.1007/s11263-026-03112-7",
+  "date": "2026-11-14",
+  "doi": "10.1080/15481603.2026.2757465",
   "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03112-7",
-  "abstract": "Abstract Visual Foundation Models (VFMs), such as DINO and CLIP, excel in semantic understanding of images but exhibit limited spatial reasoning capabilities, which limits their applicability to embodied systems. As a result, recent work has incorporated some 3D tasks (such as depth estimation) into VFM training. However, VFM performance remains inconsistent across other spatial tasks, raising the question of whether these models truly possess spatial awareness or overfit to specific 3D objectives. To address this question, we introduce the Spatial Relation Recognition Task (SpaRRTa) benchmark, which evaluates the ability of VFMs to identify static directional relations between visible objects. Unlike traditional 3D objectives that focus on precise metric prediction (e.g., surface normal estimation), SpaRRTa probes a fundamental capability underpinning more advanced forms of human-like spatial understanding. SpaRRTa generates an arbitrary number of photorealistic images with diverse scenes and fully controllable object arrangements, along with freely accessible spatial annotations. Evaluating a range of state-of-the-art VFMs, we reveal significant disparities in their ability to encode directional spatial relations. Through our analysis, we provide insights into the mechanisms that support or hinder this form of spatial awareness in modern VFMs. We hope that SpaRRTa will serve as a useful tool for guiding the development of future spatially aware visual models. Our project page can be found at https://sparrta.gmum.net/ .",
-  "citation_count": 2,
+  "url": "https://doi.org/10.1080/15481603.2026.2757465",
+  "abstract": "Global bathymetric products such as SRTM15+ provide extensive ocean coverage but cannot resolve many fine-scale seafloor features captured by shipborne multibeam surveys. Generative reconstruction methods can reconstruct more detailed terrain, but they may also introduce plausible-looking structures that are not supported by observations. We propose GravBathy-Diff, a conditional diffusion framework that uses observed low-resolution bathymetry as its primary input and incorporates satellite-altimetry-derived marine gravity as an auxiliary physical constraint. The gravity-differential enhancement module jointly encodes bathymetry, terrain derivatives, and the co-registered gravity field at the input stage. Gravity-conditioned time–frequency modulation regulates the contribution of gravity across diffusion stages and feature bands, while gravity-guided attention focuses this information on the spatial locations and feature channels where it is most useful. Deflections of the vertical, gravity anomalies, and vertical gravity gradients derived from Surface Water and Ocean Topography (SWOT) wide-swath altimetry are compared as alternative conditioning fields. Experiments are conducted on real SRTM15+ –multibeam bathymetry pairs from four ocean regions and assessed using depth error, perceptual similarity, terrain derivatives, and spectral fidelity. GravBathy-Diff achieves the strongest overall performance among the evaluated regression, adversarial, and diffusion methods, with the exception of one regional gradient-RMSE result. It ranks first on all six metrics averaged over four additional ocean areas and remains effective on an independent public digital elevation model (DEM) benchmark at 4×. Among the three gravity representations, the vertical gravity gradient provides the most effective guidance for reconstructing local relief. These results show that marine gravity can support the recovery of fine-scale seafloor structure while reducing high-frequency artifacts that are inconsistent with the available observations.",
+  "citation_count": 0,
   "concepts": [
-   "Spatial intelligence",
-   "Computer science",
-   "Underpinning"
+   "Bathymetry",
+   "Geology",
+   "Terrain"
   ],
   "source": "openalex",
   "topics": [
    "计算机视觉",
-   "三维与几何",
-   "多模态"
+   "机器学习",
+   "三维与几何"
   ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7232641579",
+  "title": "Correction",
+  "authors": [],
+  "venue": "GIScience & Remote Sensing",
+  "venue_short": "GISci. Remote Sens.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-14",
+  "doi": "10.1080/15481603.2026.2764528",
+  "pdf": null,
+  "url": "https://doi.org/10.1080/15481603.2026.2764528",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [],
+  "source": "openalex",
+  "topics": [],
   "is_own": false
  }
 ]
