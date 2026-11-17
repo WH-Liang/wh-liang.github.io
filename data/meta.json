@@ -1,30 +1,30 @@
 {
- "last_updated": "2026-11-16 02:21:25",
+ "last_updated": "2026-11-17 04:42:37",
  "dblp_blocked": true,
  "counts": {
-  "total_papers": 666,
+  "total_papers": 643,
   "publications": 0,
   "journals": 440,
   "conferences": 0,
-  "preprints": 226,
-  "total_citations": 1039
+  "preprints": 203,
+  "total_citations": 1219
  },
  "venues": {
+  "IJCV": 40,
+  "arXiv": 203,
   "RSE": 40,
   "ISPRS JPRS": 40,
   "JAG": 40,
   "GISci. Remote Sens.": 40,
-  "IJCV": 40,
   "TOG": 40,
-  "Pattern Recogn.": 40,
-  "arXiv": 226,
   "TPAMI": 40,
+  "Pattern Recogn.": 40,
+  "TIP": 40,
   "GRSL": 40,
-  "TGRS": 40,
-  "TIP": 40
+  "TGRS": 40
  },
  "years": {
-  "2026": 666
+  "2026": 643
  },
  "profile": {
   "name_zh": "梁文贺",

@@ -1,225 +1,221 @@
 [
  {
-  "id": "openalex:W7231282503",
-  "title": "Tracking US tidal marsh extent and change with dense Landsat time series and comparisons with existing products",
+  "id": "openalex:W7233561383",
+  "title": "CoFi-M$$^{2}$$AR: A Coarse-to-Fine Multimodal Framework for Micro-Action Recognition",
   "authors": [
-   "Xiucheng Yang",
-   "Sara Knox",
-   "Shi Qiu",
-   "Kevin D. Kroeger",
-   "Zhiliang Zhu",
-   "Scott Covington",
-   "Zhe Zhu"
+   "Qiankun Li",
+   "Qiupu Chen",
+   "Jie Zhang",
+   "Huabao Chen",
+   "Xiaolong Huang",
+   "He Feng",
+   "Jian Cun Zhao",
+   "Xin Ning",
+   "Zhigang Zeng",
+   "Ran He"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-14",
-  "doi": "10.1016/j.rse.2026.115779",
+  "date": "2026-11-15",
+  "doi": "10.1007/s11263-026-03090-w",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115779",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Series (stratigraphy)",
-   "Tracking (education)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7226255740",
-  "title": "G-TEAM: general trajectory enhancement and mapping across diverse LiDAR platforms and environments",
-  "authors": [
-   "Chunxi Zhao",
-   "Sangyoon Park",
-   "费颂林",
-   "Ayman Habib"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-14",
-  "doi": "10.1016/j.isprsjprs.2026.11.009",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.009",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Lidar",
-   "GNSS applications",
-   "Point cloud"
-  ],
-  "source": "openalex",
-  "topics": [
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7232690218",
-  "title": "Image‑based 3D digital reconstruction of tower structures and dynamic visualization",
-  "authors": [
-   "Xing Fu",
-   "De-Sheng Zhao",
-   "Gang Li"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-14",
-  "doi": "10.1016/j.isprsjprs.2026.10.043",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.043",
+  "url": "https://doi.org/10.1007/s11263-026-03090-w",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
    "Computer science",
-   "Visualization",
-   "Interpolation (computer graphics)"
+   "Discriminative model",
+   "Modular design"
   ],
   "source": "openalex",
   "topics": [
    "计算机视觉",
-   "三维与几何"
+   "多模态"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7228437880",
-  "title": "DBEFNet: a dual-branch fusion network integrating remote sensing imagery and building morphology for urban village segmentation",
+  "id": "arxiv:2611.20196v1",
+  "title": "DoF-Query Transformer for Adaptive Fusion of Egocentric Vision and Forearm HD-sEMG in Continuous Hand Kinematics",
   "authors": [
-   "Zhonglin Yang",
-   "Yimin Chen",
-   "Haifeng Li",
-   "Wufan Zhao",
-   "Ying Sun",
-   "Mengwei Liu"
+   "Jiahang Liu",
+   "Wenbo Zhang",
+   "Junsong Wang",
+   "Zhenzhi Ying",
+   "Siqi Hou",
+   "Naohiko Sugita",
+   "Liming Shu"
   ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-14",
-  "doi": "10.1016/j.jag.2026.105682",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105682",
-  "abstract": null,
+  "date": "2026-11-15",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.20196v1",
+  "url": "https://arxiv.org/abs/2611.20196v1",
+  "abstract": "Continuous and accurate estimation of human hand kinematics is important not only for intuitive human-machine interaction, but also for capturing fine-grained human manipulation demonstrations that can provide action supervision for embodied-intelligence datasets and dexterous robot learning. However, individual sensing modalities may be insufficient for reliable estimation under varying operating conditions. We present a finger-unencumbered multimodal framework for continuous regression of 20 hand joint angles from egocentric RGB images and 128-channel forearm high-density surface electromyography (HD-sEMG). The framework combines a Vision Transformer-based visual encoder, a Transformer-based EMG encoder, and a degree of freedom (DoF) query Transformer fusion decoder. To account for the varying informativeness of visual and EMG cues across joint DoFs and input conditions, the decoder assigns a separate learnable query to each DoF, enabling DoF-specific and context-adaptive fusion of the two modalities. The framework was evaluated on synchronized multimodal data from 10 participants. Averaged across participants, the proposed fusion model achieved a mean coefficient of determination ($R^2$) of $0.88$ and a mean absolute error (MAE) of $2.80^\\circ$, compared with $0.82$ and $3.21^\\circ$ for the vision-only model and $0.68$ and $5.13^\\circ$ for the EMG-only model. It also outperformed the evaluated representative unimodal baselines and alternative fusion designs. DoF-wise analyses showed larger fusion gains for visually ambiguous joints and viewing conditions, while synthetic visual occlusion demonstrated greater robustness than vision-only estimation. These results highlight the complementary value of egocentric vision and forearm HD-sEMG for capturing fine-grained human hand kinematics, with potential applications in human demonstration acquisition and dexterous robot learning.",
   "citation_count": 0,
   "concepts": [
-   "Remote sensing",
-   "Segmentation",
-   "Geography"
+   "cs.CV",
+   "cs.HC",
+   "cs.LG"
   ],
-  "source": "openalex",
+  "arxiv_id": "2611.20196v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.20183v1",
+  "title": "GeoReVis: Learning Selective Revision and Evidence Consolidation for Remote Sensing Segmentation",
+  "authors": [
+   "Ke An",
+   "Liang Chen",
+   "Yupei Wang"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-15",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.20183v1",
+  "url": "https://arxiv.org/abs/2611.20183v1",
+  "abstract": "Recent methods try to inspect and revise masks to mitigate referential ambiguity and localization errors caused by complex spatial relations in language-guided remote sensing segmentation. However, these solutions often lead to Revision Degradation: revising missing regions may introduce errors into previously correct ones. Even a globally better mask can omit correct regions found in inferior masks. We term this Evidence Fragmentation: correct target evidence is scattered across imperfect masks. All masks generated by the model at this time are suboptimal. We propose GeoReVis, which unifies revision guided by execution feedback, Candidate Selection, and Cross-Mask Evidence Consolidation. It learns fine-grained revision from real actions that improve segmentation when executed and learns to select a better mask through quality comparisons between actual candidates, reducing the risk of degradation during revision. The selected whole mask can still discard useful regions. GeoReVis therefore retains all candidates across rounds, partitions their spatial disagreements into composable regions, and jointly reconstructs regions conditioned on the full instruction and context. This makes complementary and fragmentary evidence reusable regardless of its source candidate's overall quality, yielding improved segmentation. We further build a data pipeline to generate fine-grained multi-round segmentation trajectories and derive supervision for revision actions, candidate selection, and region composition from the model's own outputs, extending training beyond whole-mask IoU supervision. We also propose ReVis-Eval, a benchmark protocol evaluating multi-round revision and cross-round evidence consolidation accuracy. Experiments on ReVis-Eval and 5 benchmarks for remote sensing reasoning and referring segmentation demonstrate the effectiveness of GeoReVis.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.20183v1",
+  "source": "arxiv",
   "topics": [
    "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7226498008",
-  "title": "Application of Mobile-DOAS observations for analyzing sub-pixel variability and comparing TROPOMI-derived NO x emissions over the Yeosu-Gwangyang industrial complex",
-  "authors": [
-   "Kangho Bae",
-   "Kezia Lange",
-   "Hyeon-Kook Kim",
-   "Andreas Richter",
-   "Jaeho Choi",
-   "Chang‐Keun Song"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-14",
-  "doi": "10.1080/15481603.2026.2762579",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2762579",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Environmental science",
-   "Remote sensing",
-   "Meteorology"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7229846154",
-  "title": "Coarse-to-fine physics-guided reconstruction of gridded sea level anomalies from HY-2B/C/D altimetry",
-  "authors": [
-   "Wenkai Li",
-   "Yongjun Jia",
-   "Zongtao Han",
-   "Wenwen He",
-   "Yichu Xu",
-   "Shilin Tang"
-  ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-14",
-  "doi": "10.1080/15481603.2026.2758561",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2758561",
-  "abstract": "The capability of the Chinese HY-2B/C/D altimeter constellation for gridded sea level anomaly (SLA) reconstruction using only HY-2 observations remains insufficiently evaluated. This study presents a physics-guided framework designed for near-real-time (NRT) SLA reconstruction in the Northwest Pacific and retrospectively evaluates it using 2022−2025 HY-2B/C/D observations. The framework combines an OI-derived coarse background with deep-learning refinement, with target-period reconstruction driven solely by HY-2B/C/D along-track data. Validation against an identical set of 1255 independent tide-gauge observations yields mean RMSE of 0.051 m and a mean correlation coefficient (r) of 0.83 over 12 tide-gauge stations. Inter-product comparisons during 2022−2025 show closer agreement with the DUACS DT and NRT products than with NSOAS, although differences in SLA reference conventions and geophysical correction standards among the products should be considered when interpreting regional discrepancies. Scale-dependent evaluation using SARAL/AltiKa along-track observations indicates a mean effective spatial resolution of approximately 300 km. Dynamical consistency is further assessed against surface-drifter observations using geostrophic velocity anomaly magnitude, yielding mean RMSE of 0.181 m s−1 and r of 0.54. These results demonstrate that spatially coherent and dynamically plausible daily SLA fields can be reconstructed with HY-2B/C/D as the sole altimetric observations during the target period, supporting the potential of the proposed framework for NRT SLA reconstruction under sparse observational constraints.",
-  "citation_count": 0,
-  "concepts": [
-   "Altimeter",
-   "Anomaly (physics)",
-   "Sea level"
-  ],
-  "source": "openalex",
-  "topics": [
    "计算机视觉",
    "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7232495946",
-  "title": "Gravity-conditioned diffusion for seafloor bathymetric resolution enhancement",
+  "id": "arxiv:2611.20125v1",
+  "title": "Spatial phase coherence and its applications to masking and adaptive neighborhood sizing in multitemporal InSAR",
   "authors": [
-   "Zeyuan Zhang",
-   "Wei Feng",
-   "Dechao An",
-   "Mingzhi Sun",
-   "Meng Yang",
-   "Zhongshan Jiang",
-   "Xingyuan Yan",
-   "Min Zhong"
+   "Magnus Heimpel",
+   "Irena Hajnsek",
+   "Othmar Frey"
   ],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-14",
-  "doi": "10.1080/15481603.2026.2757465",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2757465",
-  "abstract": "Global bathymetric products such as SRTM15+ provide extensive ocean coverage but cannot resolve many fine-scale seafloor features captured by shipborne multibeam surveys. Generative reconstruction methods can reconstruct more detailed terrain, but they may also introduce plausible-looking structures that are not supported by observations. We propose GravBathy-Diff, a conditional diffusion framework that uses observed low-resolution bathymetry as its primary input and incorporates satellite-altimetry-derived marine gravity as an auxiliary physical constraint. The gravity-differential enhancement module jointly encodes bathymetry, terrain derivatives, and the co-registered gravity field at the input stage. Gravity-conditioned time–frequency modulation regulates the contribution of gravity across diffusion stages and feature bands, while gravity-guided attention focuses this information on the spatial locations and feature channels where it is most useful. Deflections of the vertical, gravity anomalies, and vertical gravity gradients derived from Surface Water and Ocean Topography (SWOT) wide-swath altimetry are compared as alternative conditioning fields. Experiments are conducted on real SRTM15+ –multibeam bathymetry pairs from four ocean regions and assessed using depth error, perceptual similarity, terrain derivatives, and spectral fidelity. GravBathy-Diff achieves the strongest overall performance among the evaluated regression, adversarial, and diffusion methods, with the exception of one regional gradient-RMSE result. It ranks first on all six metrics averaged over four additional ocean areas and remains effective on an independent public digital elevation model (DEM) benchmark at 4×. Among the three gravity representations, the vertical gravity gradient provides the most effective guidance for reconstructing local relief. These results show that marine gravity can support the recovery of fine-scale seafloor structure while reducing high-frequency artifacts that are inconsistent with the available observations.",
+  "date": "2026-11-15",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.20125v1",
+  "url": "https://arxiv.org/abs/2611.20125v1",
+  "abstract": "We examine spatial phase coherence (SPC), a measure of the correlation between the wrapped phase time series of two pixels in a stack of single-look synthetic aperture radar acquisitions. A pixel and its adjacent neighbors share speckle through the point spread function, so that decorrelation alone does not lower their SPC below a floor. We find that masking pixels whose mean SPC to their eight neighbors is well below that floor, as in parts of layover and shadow areas, is an inexpensive complement to geometry-derived layover and shadow masks. For distributed scatterer pixels, averaging SPC over a fixed set of neighbors that share no speckle yields a proxy for the local coherence, the phase coherence indicator (PCI), that is available before the selection of statistically homogeneous pixels (SHPs). In phase estimation, averaging more pixels reduces noise but may also increase the bias in heterogeneous areas. To relax this trade-off, we propose to enhance SHP selection algorithms by scaling the search window size according to the PCI and truncating the set of selected pixels where a smaller nested set agrees clearly better with the phases at the center. In simulations of a TerraSAR-X and a Sentinel-1 stack with 44 and 79 acquisitions, we apply this adaptive neighborhood sizing (ANS) to established amplitude- and covariance-based SHP selection algorithms with thresholds that adapt to the PCI. Without ANS, the largest tested search window size has 13 to 29 % more phase linking error than the best of the tested sizes. With ANS, the largest window has the lowest error of the tested sizes, 11 % lower than that of the same selection at its best tested size without ANS. On a real TerraSAR-X stack, the mask based on SPC flags pixels in building shadows that a terrain model misses. On real Sentinel-1 stacks, ANS preserves dense fringes on a slowly deforming slope and in part on a fast landslide.",
   "citation_count": 0,
   "concepts": [
-   "Bathymetry",
-   "Geology",
-   "Terrain"
+   "eess.SP"
   ],
-  "source": "openalex",
+  "arxiv_id": "2611.20125v1",
+  "source": "arxiv",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.19889v1",
+  "title": "Illusion of Explainability: A Sanity Check for Spectral Band Attribution in Satellite Time-Series Crop Classification",
+  "authors": [
+   "Sumit Tahiliani",
+   "Avi Mathur",
+   "Sandarbh Agarwal",
+   "Rakshith Sathish",
+   "Ashwathi Nambiar"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-15",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.19889v1",
+  "url": "https://arxiv.org/abs/2611.19889v1",
+  "abstract": "Attribution methods are commonly validated through convergence across methods and consistency with domain knowledge, yet neither criterion establishes whether identified features are necessary for a task. This limitation is particularly relevant in multispectral remote sensing, where overlapping spectral information makes individual bands potentially substitutable. We investigate this gap in crop-type classification using GradientSHAP, Shapley sampling, and Occlusion on a U-TAE segmentation model trained on Sentinel-2 time series from the PASTIS benchmark. All three methods identify vegetation-sensitive spectral regions consistent with domain knowledge, while Shapley and Occlusion exhibit strong ordering sensitivity in deletion and insertion tests. However, these properties do not reliably predict retraining performance. Aggregate attribution consensus masks substantial per-class disagreement, with pairwise mean Spearman correlations ranging from 0.09 to 0.79. Models retrained from scratch using the five lowest-ranked bands perform comparably to or better than those using the five highest-ranked bands. Furthermore, attribution rankings from an independently trained model with identical configuration and seed identify a different top-five subset that yields better retraining performance. Analysis of all 252 five-band subsets reveals consistently low effective dimensionality (1.35 to 2.62), suggesting substantial spectral redundancy. These findings demonstrate that plausible and apparently faithful attribution rankings do not necessarily identify task-relevant bands for improved retrained performance, highlighting the limitations of band-level feature attribution in spectrally redundant input spaces.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV",
+   "cs.LG"
+  ],
+  "arxiv_id": "2611.19889v1",
+  "source": "arxiv",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.19836v1",
+  "title": "AGPF: Dynamic Source Selection for Feature Pyramid Fusion",
+  "authors": [
+   "Xu Yang",
+   "Gady Agam"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-15",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.19836v1",
+  "url": "https://arxiv.org/abs/2611.19836v1",
+  "abstract": "Feature pyramids provide dense predictors with features at several spatial resolutions. However, it remains largely unexplored which pyramid levels each output location should aggregate information from. We investigate this question by allowing each output location to attend to features from every pyramid level and measuring how attention is distributed across scales. Surprisingly, locations on the finest output grid allocate approximately 75\\% of their attention to features two levels coarser, rather than to the current or adjacent levels. Even on the same output grid, the balance shifts toward coarser features as object size increases. These observations motivate Asymmetric Global Pyramid Fusion (AGPF), a neck that preserves the original output grids while allowing each location to dynamically select its contextual sources across scales. Each location interacts with a multiscale memory whose features are aligned in image coordinates, enabling flexible cross-scale aggregation without altering prediction resolutions. Compared with FPN, AGPF improves all 19 object detection and all seven instance segmentation configurations evaluated on COCO. A single fusion block improves Cascade Mask R-CNN by 1.7 box AP and 2.3 mask AP, and the gains consistently transfer to semantic and panoptic segmentation.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.19836v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.19820v1",
+  "title": "Hermitian Positive Definite Neural Networks for Matrix-CFAR Geometric Signal Detection in Nonhomogeneous Clutter",
+  "authors": [
+   "Xiyao Chen",
+   "Takumi Sato",
+   "Linyu Peng"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-15",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.19820v1",
+  "url": "https://arxiv.org/abs/2611.19820v1",
+  "abstract": "Matrix information geometry (MIG) detectors exploit the Riemannian geometry of Hermitian positive definite (HPD) matrices to achieve robust object detection in nonhomogeneous clutter. The matrix constant false alarm rate (matrix-CFAR) method is a representative MIG detector that relies on the geometric structures with respect to specific metrics. In most cases, computing representative HPD covariance matrices requires numerical methods, typically involving computationally intensive iterative optimization algorithms. Although explicit formulas are available for certain cases, such as the log-Euclidean (LE) mean, they are generally unavailable for many other matrix means and medians. To address this challenge, we propose integrating the Hermitian positive definite neural network (HPDNet) into the matrix-CFAR framework, replacing conventional numerical optimization procedures with a learned, geometry-preserving mapping that directly estimates representative HPD covariance matrices from data. In the simulations, the framework is evaluated for MIG detectors using both means and medians associated with the affine-invariant Riemannian metric, the LE metric, and the Bures--Wasserstein metric, on both simulated compound-Gaussian clutter and real IPIX sea clutter. In both cases, the HPDNet is trained solely on simulated data to assess its applicability to the study of real data. The results show a significant reduction of computational cost in testing, while maintaining detection performance and robustness.",
+  "citation_count": 0,
+  "concepts": [
+   "eess.SP",
+   "cs.LG",
+   "stat.AP"
+  ],
+  "arxiv_id": "2611.19820v1",
+  "source": "arxiv",
   "topics": [
    "计算机视觉",
    "机器学习",
@@ -228,22 +224,34 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7232641579",
-  "title": "Correction",
-  "authors": [],
-  "venue": "GIScience & Remote Sensing",
-  "venue_short": "GISci. Remote Sens.",
-  "venue_type": "journal",
+  "id": "arxiv:2611.19747v1",
+  "title": "How Far Is Too Far? Object Recognition Declines Monotonically with Semantic Distance",
+  "authors": [
+   "Domenic Bersch",
+   "Hai Van Tran",
+   "Gemma Roig"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-14",
-  "doi": "10.1080/15481603.2026.2764528",
-  "pdf": null,
-  "url": "https://doi.org/10.1080/15481603.2026.2764528",
-  "abstract": null,
+  "date": "2026-11-15",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.19747v1",
+  "url": "https://arxiv.org/abs/2611.19747v1",
+  "abstract": "Vision models are sensitive to object-background context, yet it remains unclear how recognition changes as the semantic distance between objects and backgrounds increases. We introduce ImageNet-OOC1k, a benchmark enabling graded control of object-background relationships along a continuous consensus visual-semantic dissimilarity axis. This formulation reveals a highly consistent monotonic decline in recognition accuracy across 35 models spanning convolutional neural networks, Vision Transformers, and vision-language models. Internal analyses of Vision Transformers reveal patterns consistent with aggregation failure, where object evidence is present at the patch level but not consolidated into the final prediction. Using this characterization as a diagnostic probe, a simple spatial re-ranking strategy recovers a subset of these errors and improves in-sample accuracy by up to 5.7 percentage points. These results establish context sensitivity as a continuous and predictable property of modern vision systems, with Vision Transformer analyses suggesting that aggregation limitations may contribute to some failure types even when object evidence remains available.",
   "citation_count": 0,
-  "concepts": [],
-  "source": "openalex",
-  "topics": [],
+  "concepts": [
+   "cs.CV",
+   "cs.AI"
+  ],
+  "arxiv_id": "2611.19747v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "多模态"
+  ],
   "is_own": false
  }
 ]
