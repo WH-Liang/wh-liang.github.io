@@ -1,69 +1,124 @@
 [
  {
-  "id": "openalex:W7233561383",
-  "title": "CoFi-M$$^{2}$$AR: A Coarse-to-Fine Multimodal Framework for Micro-Action Recognition",
+  "id": "arxiv:2611.22699v1",
+  "title": "TANGO: Real-World Unregistered RGB-Guided Hyperspectral Super-Resolution with Two-Camera Acquisitions",
   "authors": [
-   "Qiankun Li",
-   "Qiupu Chen",
-   "Jie Zhang",
-   "Huabao Chen",
-   "Xiaolong Huang",
-   "He Feng",
-   "Jian Cun Zhao",
-   "Xin Ning",
-   "Zhigang Zeng",
-   "Ran He"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-15",
-  "doi": "10.1007/s11263-026-03090-w",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03090-w",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Discriminative model",
-   "Modular design"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.20196v1",
-  "title": "DoF-Query Transformer for Adaptive Fusion of Egocentric Vision and Forearm HD-sEMG in Continuous Hand Kinematics",
-  "authors": [
-   "Jiahang Liu",
-   "Wenbo Zhang",
-   "Junsong Wang",
-   "Zhenzhi Ying",
-   "Siqi Hou",
-   "Naohiko Sugita",
-   "Liming Shu"
+   "Matteo Kolyszko",
+   "Marco Buzzelli",
+   "Simone Bianco",
+   "Raimondo Schettini"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-15",
+  "date": "2026-11-17",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.20196v1",
-  "url": "https://arxiv.org/abs/2611.20196v1",
-  "abstract": "Continuous and accurate estimation of human hand kinematics is important not only for intuitive human-machine interaction, but also for capturing fine-grained human manipulation demonstrations that can provide action supervision for embodied-intelligence datasets and dexterous robot learning. However, individual sensing modalities may be insufficient for reliable estimation under varying operating conditions. We present a finger-unencumbered multimodal framework for continuous regression of 20 hand joint angles from egocentric RGB images and 128-channel forearm high-density surface electromyography (HD-sEMG). The framework combines a Vision Transformer-based visual encoder, a Transformer-based EMG encoder, and a degree of freedom (DoF) query Transformer fusion decoder. To account for the varying informativeness of visual and EMG cues across joint DoFs and input conditions, the decoder assigns a separate learnable query to each DoF, enabling DoF-specific and context-adaptive fusion of the two modalities. The framework was evaluated on synchronized multimodal data from 10 participants. Averaged across participants, the proposed fusion model achieved a mean coefficient of determination ($R^2$) of $0.88$ and a mean absolute error (MAE) of $2.80^\\circ$, compared with $0.82$ and $3.21^\\circ$ for the vision-only model and $0.68$ and $5.13^\\circ$ for the EMG-only model. It also outperformed the evaluated representative unimodal baselines and alternative fusion designs. DoF-wise analyses showed larger fusion gains for visually ambiguous joints and viewing conditions, while synthetic visual occlusion demonstrated greater robustness than vision-only estimation. These results highlight the complementary value of egocentric vision and forearm HD-sEMG for capturing fine-grained human hand kinematics, with potential applications in human demonstration acquisition and dexterous robot learning.",
+  "pdf": "https://arxiv.org/pdf/2611.22699v1",
+  "url": "https://arxiv.org/abs/2611.22699v1",
+  "abstract": "Unregistered hyperspectral image super-resolution aims to recover a high-resolution HSI from a low-resolution hyperspectral observation and an unregistered high-resolution RGB reference. Although recent methods have begun to address the geometric misalignment between the two modalities, their evaluation is still constrained by the lack of a large-scale public benchmark based on real two-camera RGB--HSI acquisitions with a high-resolution HSI reference. To address this gap, we introduce DUET, the first large-scale public dataset for unregistered RGB-guided hyperspectral super-resolution, comprising 403 indoor and outdoor scenes captured with two separate RGB and hyperspectral cameras. We further propose TANGO (Two-camera AligNment with Gated Occlusions), which first compensates for the dominant cross-camera displacement through end-to-end global alignment and then refines the remaining inconsistencies with a coarse-to-fine local feature alignment. A learned gating mechanism further attenuates the RGB guidance where the two views cannot be consistently matched. Experimental results show that TANGO achieves state-of-the-art performance on both DUET and REAL across all evaluated scale factors, outperforming the strongest competitor on DUET by up to 2.29 dB in PSNR while requiring 2.5$\\times$ fewer FLOPs. The code and dataset will be available at https://github.com/FagiolottoConSombrero/TANGO-DUET",
   "citation_count": 0,
   "concepts": [
-   "cs.CV",
-   "cs.HC",
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.22699v1",
+  "source": "arxiv",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.22611v1",
+  "title": "DAQ: Decision-Aligned Post-Training Quantization for Spiking Transformers",
+  "authors": [
+   "Jialin Chen",
+   "Xiaochen Zhao",
+   "Aili Wang"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-17",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.22611v1",
+  "url": "https://arxiv.org/abs/2611.22611v1",
+  "abstract": "Spiking transformers combine attention-based representation learning with sparse spike communication, yet their weights and membrane variables still incur substantial storage and computation overhead. Post-training quantization (PTQ) offers a practical way to reduce these overheads, but preserving neuronal firing under weight and membrane quantization remains challenging. In this paper, we propose Decision-Aligned Post-Training Quantization (DAQ), a method that calibrates the quantizers to align neuronal firing decisions with those of a floating-point reference. We analyze how errors from these quantizers affect firing at decision boundaries and how they propagate over time steps in recurrent neurons. Based on this analysis, we formulate an objective that encourages quantized membrane variables to remain within the reference firing regions along the quantized model's own state trajectory. Experiments across multiple spiking transformer architectures on image classification, semantic segmentation, and event-based tracking demonstrate the effectiveness of DAQ with 4-bit weights and membrane variables. On FE108, DAQ achieves 58.8\\% AUC and 90.9\\% PR with SDTrack, while reducing energy by 66.2\\%.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.AI",
    "cs.LG"
   ],
-  "arxiv_id": "2611.20196v1",
+  "arxiv_id": "2611.22611v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.22581v1",
+  "title": "FAST: Functional Adaptive Sensing and Testing for Quickest Change Detection",
+  "authors": [
+   "Peiyao Liu",
+   "Jie Guo",
+   "Zhijun Wang",
+   "Xueru Zhang",
+   "Nan Chen"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-17",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.22581v1",
+  "url": "https://arxiv.org/abs/2611.22581v1",
+  "abstract": "Quickest change detection (QCD) is studied for partially observed functional data streams. At each sampling epoch, a function is realized over a continuous domain, but its values can be observed at only a fixed number of locations. At an unknown change point, the functional mean undergoes a shift that is assumed to admit a sparse representation in a localized basis. We propose Functional Adaptive Sensing and Testing (FAST), which jointly estimates the unknown post-change parameter, selects sensing locations, and performs sequential detection. A minimax lower bound on the worst-case detection delay is derived under an average-run-length constraint. A non-asymptotic estimation-error bound is established for the policy-dependent observations induced by adaptive sensing. Under the stated regularity conditions, FAST is first-order asymptotically optimal when sensing subsets are optimized exactly. Simulations and a wildfire case study demonstrate the performance of the proposed procedure.",
+  "citation_count": 0,
+  "concepts": [
+   "stat.ME",
+   "cs.IT"
+  ],
+  "arxiv_id": "2611.22581v1",
+  "source": "arxiv",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.22577v1",
+  "title": "Semantic-Guided Geometric Decoding for Token-Efficient Visual Grounding",
+  "authors": [
+   "Zhaojie Chen",
+   "Junyan Yang",
+   "Le Yang",
+   "Qi Dang",
+   "Yucheng Huang",
+   "Qianyi Che",
+   "Zhaoqiang Chen",
+   "Xinqi Zhu",
+   "Qiang Zhao"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-17",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.22577v1",
+  "url": "https://arxiv.org/abs/2611.22577v1",
+  "abstract": "Multimodal large language models (MLLMs) provide a unified interface for language-conditioned visual perception. In pixel-to-sequence grounding, autoregressive coordinate generation requires multiple sequential decoding steps per box, increasing inference cost with the number of instances. Pixel-to-embedding methods reduce this overhead but lack explicit spatial encoding when using a shared special token. We introduce SemGeo, a token-efficient visual grounding framework that represents each instance with a single grid token for coarse localization. A geometric decoder reuses visual features and hidden states to recover precise discrete box coordinates in parallel. To train proposal generation and box localization together, we introduce Gaussian soft labels that encode coordinate distances during supervised fine-tuning (SFT). Reinforcement post-training further combines box-set rewards with coordinate supervision on model-generated proposals. This stage trains the language model and geometric decoder on their own predictions to mitigate the mismatch between teacher-forced training and inference. Across eight benchmarks spanning object detection, referring object detection, and document layout grounding, SemGeo achieves the highest F1@mIou among compared MLLMs on six benchmarks. It also delivers $2.07\\times$ and $1.25\\times$ the mean box-generation throughput of representative grounding baselines under vLLM and Transformers, respectively, while achieving higher accuracy in both comparisons.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.22577v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
@@ -73,27 +128,91 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2611.20183v1",
-  "title": "GeoReVis: Learning Selective Revision and Evidence Consolidation for Remote Sensing Segmentation",
+  "id": "arxiv:2611.22508v1",
+  "title": "Reliability-Driven Feature Correction for Hyperspectral and LiDAR Classification",
   "authors": [
-   "Ke An",
-   "Liang Chen",
-   "Yupei Wang"
+   "Lianming Zhang",
+   "Xiaolu Wang",
+   "Qiya Song",
+   "Jinyang Liu",
+   "Renwei Dian",
+   "Xudong Kang"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-15",
+  "date": "2026-11-17",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.20183v1",
-  "url": "https://arxiv.org/abs/2611.20183v1",
-  "abstract": "Recent methods try to inspect and revise masks to mitigate referential ambiguity and localization errors caused by complex spatial relations in language-guided remote sensing segmentation. However, these solutions often lead to Revision Degradation: revising missing regions may introduce errors into previously correct ones. Even a globally better mask can omit correct regions found in inferior masks. We term this Evidence Fragmentation: correct target evidence is scattered across imperfect masks. All masks generated by the model at this time are suboptimal. We propose GeoReVis, which unifies revision guided by execution feedback, Candidate Selection, and Cross-Mask Evidence Consolidation. It learns fine-grained revision from real actions that improve segmentation when executed and learns to select a better mask through quality comparisons between actual candidates, reducing the risk of degradation during revision. The selected whole mask can still discard useful regions. GeoReVis therefore retains all candidates across rounds, partitions their spatial disagreements into composable regions, and jointly reconstructs regions conditioned on the full instruction and context. This makes complementary and fragmentary evidence reusable regardless of its source candidate's overall quality, yielding improved segmentation. We further build a data pipeline to generate fine-grained multi-round segmentation trajectories and derive supervision for revision actions, candidate selection, and region composition from the model's own outputs, extending training beyond whole-mask IoU supervision. We also propose ReVis-Eval, a benchmark protocol evaluating multi-round revision and cross-round evidence consolidation accuracy. Experiments on ReVis-Eval and 5 benchmarks for remote sensing reasoning and referring segmentation demonstrate the effectiveness of GeoReVis.",
+  "pdf": "https://arxiv.org/pdf/2611.22508v1",
+  "url": "https://arxiv.org/abs/2611.22508v1",
+  "abstract": "Hyperspectral image (HSI) and LiDAR data provide complementary spectral and elevation information for land-cover classification. However, the spatially varying class-discriminative reliability of modality features is rarely modeled explicitly, allowing weak or ambiguous features to adversely affect cross-modal interaction and fusion. To address this issue, we propose ReDF, a reliability-driven framework that quantifies the reliability of each modality's features at each spatial location through the strength of class-related evidence they provide, and uses it to guide feature correction and fusion. Specifically, a Reliability-Guided Feature Correction module introduces a class prototype bank for each modality and converts feature-prototype similarities into class evidence for reliability estimation. The estimated reliabilities are used to construct a reliability-weighted shared representation and to guide bidirectional cross-modal feature correction based on neighborhood agreement, refining modality features with weak class evidence through information from the other modality. Building on these outputs, a Reliability-Guided Feature Reweighting module conditions a low-rank modulation on the estimated reliabilities and the cross-modal disagreement, and applies it to the corrected modality-specific descriptors to adaptively rescale each modality's contribution to the fused representation used for final classification. Experiments on three public HSI-LiDAR datasets show higher mean overall accuracy and Kappa than the compared methods.",
   "citation_count": 0,
   "concepts": [
    "cs.CV"
   ],
-  "arxiv_id": "2611.20183v1",
+  "arxiv_id": "2611.22508v1",
+  "source": "arxiv",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.22450v1",
+  "title": "MedImgAnnotator: batch wise medical image annotation and preprocessing tool",
+  "authors": [
+   "Ewunate Assaye Kassaw",
+   "Amit Mehndiratta",
+   "Peush Sahni",
+   "Anup Singh"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-17",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.22450v1",
+  "url": "https://arxiv.org/abs/2611.22450v1",
+  "abstract": "The curation of large cohort datasets for developing deep learning models demands annotating or editing over the AI-predicted labels. However, openly available annotation tools are time-consuming, as they involve complex navigational steps and do not support batch processing. This study aimed to develop a simple, fast, semiautomated batch-annotation tool named MedImgAnnotator. The tool was created by integrating editing tools, image mask pair matching logic, preprocessing functions, object detection tool, and a plugin management system. Its performance was evaluated in terms of active annotation time and ease of use by the developer and 12 users using open-source MR and CT scans. Additionally, the tool had been used by the MICCAI 2026 CARE Challenge liver segmentation best performance winner to annotate liver masks from 6412 MRI volumes. The evaluation results showed that MedImgAnnotator reduced active annotation time from 206.5+/-32.87 (average active annotation time of openly available tools) seconds to 59 seconds. The Wilcoxon signed-rank test of 12 users evaluation results recorded P values of 0.032 and 0.008 for the active annotation time and higher ease of use rating metrics, respectively, indicating that the current tool significantly reduces annotation time and enhances ease of use. Moreover, the tool utilization for annotating different regions of interest from different modality scans and body regions shows its usability across modalities and areas of interest. MedImgAnnotator, which significantly reduces active annotation time for large imaging cohorts, is available as an executable file and as a Python script. Access link: https://ewunateassaye.github.io/developed-tools/medimgannotator.html",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV",
+   "eess.IV"
+  ],
+  "arxiv_id": "2611.22450v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.22273v1",
+  "title": "SARVIA: Fast-Adapting the Strong SAR Foundation Models That Are Already in Your MLLMs",
+  "authors": [
+   "Yuxuan Li",
+   "Zichen Tian",
+   "Qianru Sun"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-17",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.22273v1",
+  "url": "https://arxiv.org/abs/2611.22273v1",
+  "abstract": "Synthetic aperture radar (SAR) foundation models provide transferable representations for diverse perception tasks in all-weather Earth observation. However, their development often relies on costly large-scale SAR pretraining, raising the question of whether such extensive domain-specific pretraining is necessary. We find that modern multimodal large language models (MLLMs) already provide visual encoders that can outperform dedicated SAR foundation models as downstream initializations. This motivates a new paradigm: reuse general visual capabilities and devote domain training to brief specialization. We therefore introduce SARVIA, an adaptive post-pretraining method that specializes modern MLLMs using self-supervised visual questions with computable answers. These questions are constructed from unlabeled observations through general image tasks that capture spatial relations and SAR-specific tasks that exploit native measurements and SAR--optical correspondence. A shared answer-prediction objective jointly trains low-rank adapters across visual and language components, with loss-driven task sampling. We then export the adapted visual encoder as a standalone backbone. With 600 adaptation steps and 2 GPU-hours, SARVIA outperforms the compared foundation models on all six SAR detection and segmentation benchmarks. Compared with dedicated SAR pretraining, SARVIA reduces domain-training costs by orders of magnitude while improving visual transfer across architectures and scales. This new paradigm shifts the emphasis from repeated, costly pretraining to a reusable specialization process that can benefit from advances in open MLLMs. Dataset and code: https://github.com/zcablii/SARVIA.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.22273v1",
   "source": "arxiv",
   "topics": [
    "遥感",
@@ -103,149 +222,29 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2611.20125v1",
-  "title": "Spatial phase coherence and its applications to masking and adaptive neighborhood sizing in multitemporal InSAR",
+  "id": "arxiv:2611.22126v1",
+  "title": "Text-Guided Modality Correction for Open-Vocabulary Object Detection",
   "authors": [
-   "Magnus Heimpel",
-   "Irena Hajnsek",
-   "Othmar Frey"
+   "Yu Quan",
+   "Dong Zhang",
+   "Ping Gong",
+   "Peng Huang",
+   "JinHui Tang"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-15",
+  "date": "2026-11-17",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.20125v1",
-  "url": "https://arxiv.org/abs/2611.20125v1",
-  "abstract": "We examine spatial phase coherence (SPC), a measure of the correlation between the wrapped phase time series of two pixels in a stack of single-look synthetic aperture radar acquisitions. A pixel and its adjacent neighbors share speckle through the point spread function, so that decorrelation alone does not lower their SPC below a floor. We find that masking pixels whose mean SPC to their eight neighbors is well below that floor, as in parts of layover and shadow areas, is an inexpensive complement to geometry-derived layover and shadow masks. For distributed scatterer pixels, averaging SPC over a fixed set of neighbors that share no speckle yields a proxy for the local coherence, the phase coherence indicator (PCI), that is available before the selection of statistically homogeneous pixels (SHPs). In phase estimation, averaging more pixels reduces noise but may also increase the bias in heterogeneous areas. To relax this trade-off, we propose to enhance SHP selection algorithms by scaling the search window size according to the PCI and truncating the set of selected pixels where a smaller nested set agrees clearly better with the phases at the center. In simulations of a TerraSAR-X and a Sentinel-1 stack with 44 and 79 acquisitions, we apply this adaptive neighborhood sizing (ANS) to established amplitude- and covariance-based SHP selection algorithms with thresholds that adapt to the PCI. Without ANS, the largest tested search window size has 13 to 29 % more phase linking error than the best of the tested sizes. With ANS, the largest window has the lowest error of the tested sizes, 11 % lower than that of the same selection at its best tested size without ANS. On a real TerraSAR-X stack, the mask based on SPC flags pixels in building shadows that a terrain model misses. On real Sentinel-1 stacks, ANS preserves dense fringes on a slowly deforming slope and in part on a fast landslide.",
-  "citation_count": 0,
-  "concepts": [
-   "eess.SP"
-  ],
-  "arxiv_id": "2611.20125v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.19889v1",
-  "title": "Illusion of Explainability: A Sanity Check for Spectral Band Attribution in Satellite Time-Series Crop Classification",
-  "authors": [
-   "Sumit Tahiliani",
-   "Avi Mathur",
-   "Sandarbh Agarwal",
-   "Rakshith Sathish",
-   "Ashwathi Nambiar"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-15",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.19889v1",
-  "url": "https://arxiv.org/abs/2611.19889v1",
-  "abstract": "Attribution methods are commonly validated through convergence across methods and consistency with domain knowledge, yet neither criterion establishes whether identified features are necessary for a task. This limitation is particularly relevant in multispectral remote sensing, where overlapping spectral information makes individual bands potentially substitutable. We investigate this gap in crop-type classification using GradientSHAP, Shapley sampling, and Occlusion on a U-TAE segmentation model trained on Sentinel-2 time series from the PASTIS benchmark. All three methods identify vegetation-sensitive spectral regions consistent with domain knowledge, while Shapley and Occlusion exhibit strong ordering sensitivity in deletion and insertion tests. However, these properties do not reliably predict retraining performance. Aggregate attribution consensus masks substantial per-class disagreement, with pairwise mean Spearman correlations ranging from 0.09 to 0.79. Models retrained from scratch using the five lowest-ranked bands perform comparably to or better than those using the five highest-ranked bands. Furthermore, attribution rankings from an independently trained model with identical configuration and seed identify a different top-five subset that yields better retraining performance. Analysis of all 252 five-band subsets reveals consistently low effective dimensionality (1.35 to 2.62), suggesting substantial spectral redundancy. These findings demonstrate that plausible and apparently faithful attribution rankings do not necessarily identify task-relevant bands for improved retrained performance, highlighting the limitations of band-level feature attribution in spectrally redundant input spaces.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.LG"
-  ],
-  "arxiv_id": "2611.19889v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.19836v1",
-  "title": "AGPF: Dynamic Source Selection for Feature Pyramid Fusion",
-  "authors": [
-   "Xu Yang",
-   "Gady Agam"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-15",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.19836v1",
-  "url": "https://arxiv.org/abs/2611.19836v1",
-  "abstract": "Feature pyramids provide dense predictors with features at several spatial resolutions. However, it remains largely unexplored which pyramid levels each output location should aggregate information from. We investigate this question by allowing each output location to attend to features from every pyramid level and measuring how attention is distributed across scales. Surprisingly, locations on the finest output grid allocate approximately 75\\% of their attention to features two levels coarser, rather than to the current or adjacent levels. Even on the same output grid, the balance shifts toward coarser features as object size increases. These observations motivate Asymmetric Global Pyramid Fusion (AGPF), a neck that preserves the original output grids while allowing each location to dynamically select its contextual sources across scales. Each location interacts with a multiscale memory whose features are aligned in image coordinates, enabling flexible cross-scale aggregation without altering prediction resolutions. Compared with FPN, AGPF improves all 19 object detection and all seven instance segmentation configurations evaluated on COCO. A single fusion block improves Cascade Mask R-CNN by 1.7 box AP and 2.3 mask AP, and the gains consistently transfer to semantic and panoptic segmentation.",
+  "pdf": "https://arxiv.org/pdf/2611.22126v1",
+  "url": "https://arxiv.org/abs/2611.22126v1",
+  "abstract": "Open-vocabulary object detection (OVD) is essential for detecting objects beyond the categories seen during training. Establishing vision-language associations is crucial for recognizing unseen categories, while integrating complementary visual features across levels supports detection at different scales. However, existing methods often provide insufficient textual guidance for object regions, rely on limited cross-modal alignment strategies, and underuse complementary features across levels, limiting their ability to detect unseen categories and objects of varying scales. To address these limitations, we propose a Text-Guided Modality Correction Network (TMCNet) that incorporates textual guidance into region feature extraction, cross-modal alignment, and multi-scale decoding to strengthen region-category semantic correspondence and promote complementary feature fusion across levels. First, a text-guided modality encoder incorporates textual semantics into queries to guide regional feature aggregation, reducing semantic ambiguity in object representations. Second, a cross-modal alignment module strengthens the correspondence between region representations and category semantics through interactions between visual and textual features. Finally, a progressive text correction decoder combines a top-down pathway with lateral connections to progressively fuse text-guided deep semantic features with shallow visual features at the corresponding scales, preserving both semantic information and spatial detail for objects of different sizes. Experiments on two public datasets, COCO-OVD and LVIS-OVD, demonstrate that TMCNet achieves strong performance in open-vocabulary object detection using simple text queries as guidance. Extending TMCNet to open-vocabulary segmentation also yields performance gains, demonstrating its cross-task applicability and extensibility.",
   "citation_count": 0,
   "concepts": [
    "cs.CV"
   ],
-  "arxiv_id": "2611.19836v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.19820v1",
-  "title": "Hermitian Positive Definite Neural Networks for Matrix-CFAR Geometric Signal Detection in Nonhomogeneous Clutter",
-  "authors": [
-   "Xiyao Chen",
-   "Takumi Sato",
-   "Linyu Peng"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-15",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.19820v1",
-  "url": "https://arxiv.org/abs/2611.19820v1",
-  "abstract": "Matrix information geometry (MIG) detectors exploit the Riemannian geometry of Hermitian positive definite (HPD) matrices to achieve robust object detection in nonhomogeneous clutter. The matrix constant false alarm rate (matrix-CFAR) method is a representative MIG detector that relies on the geometric structures with respect to specific metrics. In most cases, computing representative HPD covariance matrices requires numerical methods, typically involving computationally intensive iterative optimization algorithms. Although explicit formulas are available for certain cases, such as the log-Euclidean (LE) mean, they are generally unavailable for many other matrix means and medians. To address this challenge, we propose integrating the Hermitian positive definite neural network (HPDNet) into the matrix-CFAR framework, replacing conventional numerical optimization procedures with a learned, geometry-preserving mapping that directly estimates representative HPD covariance matrices from data. In the simulations, the framework is evaluated for MIG detectors using both means and medians associated with the affine-invariant Riemannian metric, the LE metric, and the Bures--Wasserstein metric, on both simulated compound-Gaussian clutter and real IPIX sea clutter. In both cases, the HPDNet is trained solely on simulated data to assess its applicability to the study of real data. The results show a significant reduction of computational cost in testing, while maintaining detection performance and robustness.",
-  "citation_count": 0,
-  "concepts": [
-   "eess.SP",
-   "cs.LG",
-   "stat.AP"
-  ],
-  "arxiv_id": "2611.19820v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.19747v1",
-  "title": "How Far Is Too Far? Object Recognition Declines Monotonically with Semantic Distance",
-  "authors": [
-   "Domenic Bersch",
-   "Hai Van Tran",
-   "Gemma Roig"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-15",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.19747v1",
-  "url": "https://arxiv.org/abs/2611.19747v1",
-  "abstract": "Vision models are sensitive to object-background context, yet it remains unclear how recognition changes as the semantic distance between objects and backgrounds increases. We introduce ImageNet-OOC1k, a benchmark enabling graded control of object-background relationships along a continuous consensus visual-semantic dissimilarity axis. This formulation reveals a highly consistent monotonic decline in recognition accuracy across 35 models spanning convolutional neural networks, Vision Transformers, and vision-language models. Internal analyses of Vision Transformers reveal patterns consistent with aggregation failure, where object evidence is present at the patch level but not consolidated into the final prediction. Using this characterization as a diagnostic probe, a simple spatial re-ranking strategy recovers a subset of these errors and improves in-sample accuracy by up to 5.7 percentage points. These results establish context sensitivity as a continuous and predictable property of modern vision systems, with Vision Transformer analyses suggesting that aggregation limitations may contribute to some failure types even when object evidence remains available.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.AI"
-  ],
-  "arxiv_id": "2611.19747v1",
+  "arxiv_id": "2611.22126v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
