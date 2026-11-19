@@ -1,57 +1,41 @@
 [
  {
-  "id": "arxiv:2611.22699v1",
-  "title": "TANGO: Real-World Unregistered RGB-Guided Hyperspectral Super-Resolution with Two-Camera Acquisitions",
+  "id": "arxiv:2611.24401v1",
+  "title": "Reliable Tree Recruitment from Scarce Annotations for Forest Inventory Expansion",
   "authors": [
-   "Matteo Kolyszko",
-   "Marco Buzzelli",
-   "Simone Bianco",
-   "Raimondo Schettini"
+   "Luiz Fernando Souza Luz",
+   "Pedro J. Soto Vega",
+   "Matheus Pinheiro Ferreira",
+   "Laura Elena Cué la Rosa",
+   "Hudson Franklin Pessoa Veras",
+   "Ernandes Macedo da Cunha Neto",
+   "Evandro Orfanó Figueiredo",
+   "Ana Paula Dalla Corte",
+   "Carlos Roberto Sanquetta",
+   "José Matheus Segre Moneva Viveiros",
+   "Matheus Santos Fuza",
+   "Heitor Eduardo Ferreira Campos Morato Filpi",
+   "Cristiano Vinícius Vidal",
+   "Vinícius Moura Costa",
+   "Débora Nascimento Rosário",
+   "Danilo Roberti Alves de Almeida",
+   "Paulo Guilherme Molin",
+   "Dário Augusto Borges Oliveira"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.22699v1",
-  "url": "https://arxiv.org/abs/2611.22699v1",
-  "abstract": "Unregistered hyperspectral image super-resolution aims to recover a high-resolution HSI from a low-resolution hyperspectral observation and an unregistered high-resolution RGB reference. Although recent methods have begun to address the geometric misalignment between the two modalities, their evaluation is still constrained by the lack of a large-scale public benchmark based on real two-camera RGB--HSI acquisitions with a high-resolution HSI reference. To address this gap, we introduce DUET, the first large-scale public dataset for unregistered RGB-guided hyperspectral super-resolution, comprising 403 indoor and outdoor scenes captured with two separate RGB and hyperspectral cameras. We further propose TANGO (Two-camera AligNment with Gated Occlusions), which first compensates for the dominant cross-camera displacement through end-to-end global alignment and then refines the remaining inconsistencies with a coarse-to-fine local feature alignment. A learned gating mechanism further attenuates the RGB guidance where the two views cannot be consistently matched. Experimental results show that TANGO achieves state-of-the-art performance on both DUET and REAL across all evaluated scale factors, outperforming the strongest competitor on DUET by up to 2.29 dB in PSNR while requiring 2.5$\\times$ fewer FLOPs. The code and dataset will be available at https://github.com/FagiolottoConSombrero/TANGO-DUET",
+  "pdf": "https://arxiv.org/pdf/2611.24401v1",
+  "url": "https://arxiv.org/abs/2611.24401v1",
+  "abstract": "Species-level inventories of individual tree crowns (ITCs) from UAV imagery are limited by annotation cost: in tropical forests, many species are represented by only a handful of field-validated crowns. We propose a reliable tree recruitment framework that expands a small annotated inventory by iteratively self-training a multi-task DeepLabV3 network, combining semantic segmentation with a crown-distance regression head, on RGB UAV orthomosaics. At each iteration, candidate crowns enter the training inventory only if they pass a confidence filter on class probability and distance map and a morphology filter on crown area and solidity, with at most five new crowns per species, keeping recruited samples consistent with the reference inventory. We evaluate the framework at two Brazilian sites: an Amazonian rainforest in Acre (17 species, 355 annotated crowns, 4 cm GSD) and a forest site in the Cerrado of Maranhão (4 species, 51 annotated crowns, 1.8 cm GSD). Over 20 iterations, the number of retained crowns grew from about 500 to 960 in Acre and from about 700 to over 3100 in Maranhão, while crown-level F1 exceeded single- and multi-task DeepLabV3 baselines (53.5% vs. 50.0% and 45.2%; 92.2% vs. 79.7% and 83.6%). The framework offers a low-cost route to expanding species inventories with consumer-grade UAVs and limited fieldwork.",
   "citation_count": 0,
   "concepts": [
    "cs.CV"
   ],
-  "arxiv_id": "2611.22699v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.22611v1",
-  "title": "DAQ: Decision-Aligned Post-Training Quantization for Spiking Transformers",
-  "authors": [
-   "Jialin Chen",
-   "Xiaochen Zhao",
-   "Aili Wang"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-17",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.22611v1",
-  "url": "https://arxiv.org/abs/2611.22611v1",
-  "abstract": "Spiking transformers combine attention-based representation learning with sparse spike communication, yet their weights and membrane variables still incur substantial storage and computation overhead. Post-training quantization (PTQ) offers a practical way to reduce these overheads, but preserving neuronal firing under weight and membrane quantization remains challenging. In this paper, we propose Decision-Aligned Post-Training Quantization (DAQ), a method that calibrates the quantizers to align neuronal firing decisions with those of a floating-point reference. We analyze how errors from these quantizers affect firing at decision boundaries and how they propagate over time steps in recurrent neurons. Based on this analysis, we formulate an objective that encourages quantized membrane variables to remain within the reference firing regions along the quantized model's own state trajectory. Experiments across multiple spiking transformer architectures on image classification, semantic segmentation, and event-based tracking demonstrate the effectiveness of DAQ with 4-bit weights and membrane variables. On FE108, DAQ achieves 58.8\\% AUC and 90.9\\% PR with SDTrack, while reducing energy by 66.2\\%.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.AI",
-   "cs.LG"
-  ],
-  "arxiv_id": "2611.22611v1",
+  "arxiv_id": "2611.24401v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
@@ -60,130 +44,28 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2611.22581v1",
-  "title": "FAST: Functional Adaptive Sensing and Testing for Quickest Change Detection",
+  "id": "arxiv:2611.24384v1",
+  "title": "Enhancing Active Learning Performance with Initial Data Selection Based on Foundation Models",
   "authors": [
-   "Peiyao Liu",
-   "Jie Guo",
-   "Zhijun Wang",
-   "Xueru Zhang",
-   "Nan Chen"
+   "Mohammad Mirzaee",
+   "Mehrshad Fallah Estalkhzir",
+   "Mohammad Reza Mohammadi"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.22581v1",
-  "url": "https://arxiv.org/abs/2611.22581v1",
-  "abstract": "Quickest change detection (QCD) is studied for partially observed functional data streams. At each sampling epoch, a function is realized over a continuous domain, but its values can be observed at only a fixed number of locations. At an unknown change point, the functional mean undergoes a shift that is assumed to admit a sparse representation in a localized basis. We propose Functional Adaptive Sensing and Testing (FAST), which jointly estimates the unknown post-change parameter, selects sensing locations, and performs sequential detection. A minimax lower bound on the worst-case detection delay is derived under an average-run-length constraint. A non-asymptotic estimation-error bound is established for the policy-dependent observations induced by adaptive sensing. Under the stated regularity conditions, FAST is first-order asymptotically optimal when sensing subsets are optimized exactly. Simulations and a wildfire case study demonstrate the performance of the proposed procedure.",
-  "citation_count": 0,
-  "concepts": [
-   "stat.ME",
-   "cs.IT"
-  ],
-  "arxiv_id": "2611.22581v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.22577v1",
-  "title": "Semantic-Guided Geometric Decoding for Token-Efficient Visual Grounding",
-  "authors": [
-   "Zhaojie Chen",
-   "Junyan Yang",
-   "Le Yang",
-   "Qi Dang",
-   "Yucheng Huang",
-   "Qianyi Che",
-   "Zhaoqiang Chen",
-   "Xinqi Zhu",
-   "Qiang Zhao"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-17",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.22577v1",
-  "url": "https://arxiv.org/abs/2611.22577v1",
-  "abstract": "Multimodal large language models (MLLMs) provide a unified interface for language-conditioned visual perception. In pixel-to-sequence grounding, autoregressive coordinate generation requires multiple sequential decoding steps per box, increasing inference cost with the number of instances. Pixel-to-embedding methods reduce this overhead but lack explicit spatial encoding when using a shared special token. We introduce SemGeo, a token-efficient visual grounding framework that represents each instance with a single grid token for coarse localization. A geometric decoder reuses visual features and hidden states to recover precise discrete box coordinates in parallel. To train proposal generation and box localization together, we introduce Gaussian soft labels that encode coordinate distances during supervised fine-tuning (SFT). Reinforcement post-training further combines box-set rewards with coordinate supervision on model-generated proposals. This stage trains the language model and geometric decoder on their own predictions to mitigate the mismatch between teacher-forced training and inference. Across eight benchmarks spanning object detection, referring object detection, and document layout grounding, SemGeo achieves the highest F1@mIou among compared MLLMs on six benchmarks. It also delivers $2.07\\times$ and $1.25\\times$ the mean box-generation throughput of representative grounding baselines under vLLM and Transformers, respectively, while achieving higher accuracy in both comparisons.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.22577v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.22508v1",
-  "title": "Reliability-Driven Feature Correction for Hyperspectral and LiDAR Classification",
-  "authors": [
-   "Lianming Zhang",
-   "Xiaolu Wang",
-   "Qiya Song",
-   "Jinyang Liu",
-   "Renwei Dian",
-   "Xudong Kang"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-17",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.22508v1",
-  "url": "https://arxiv.org/abs/2611.22508v1",
-  "abstract": "Hyperspectral image (HSI) and LiDAR data provide complementary spectral and elevation information for land-cover classification. However, the spatially varying class-discriminative reliability of modality features is rarely modeled explicitly, allowing weak or ambiguous features to adversely affect cross-modal interaction and fusion. To address this issue, we propose ReDF, a reliability-driven framework that quantifies the reliability of each modality's features at each spatial location through the strength of class-related evidence they provide, and uses it to guide feature correction and fusion. Specifically, a Reliability-Guided Feature Correction module introduces a class prototype bank for each modality and converts feature-prototype similarities into class evidence for reliability estimation. The estimated reliabilities are used to construct a reliability-weighted shared representation and to guide bidirectional cross-modal feature correction based on neighborhood agreement, refining modality features with weak class evidence through information from the other modality. Building on these outputs, a Reliability-Guided Feature Reweighting module conditions a low-rank modulation on the estimated reliabilities and the cross-modal disagreement, and applies it to the corrected modality-specific descriptors to adaptively rescale each modality's contribution to the fused representation used for final classification. Experiments on three public HSI-LiDAR datasets show higher mean overall accuracy and Kappa than the compared methods.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.22508v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.22450v1",
-  "title": "MedImgAnnotator: batch wise medical image annotation and preprocessing tool",
-  "authors": [
-   "Ewunate Assaye Kassaw",
-   "Amit Mehndiratta",
-   "Peush Sahni",
-   "Anup Singh"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-17",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.22450v1",
-  "url": "https://arxiv.org/abs/2611.22450v1",
-  "abstract": "The curation of large cohort datasets for developing deep learning models demands annotating or editing over the AI-predicted labels. However, openly available annotation tools are time-consuming, as they involve complex navigational steps and do not support batch processing. This study aimed to develop a simple, fast, semiautomated batch-annotation tool named MedImgAnnotator. The tool was created by integrating editing tools, image mask pair matching logic, preprocessing functions, object detection tool, and a plugin management system. Its performance was evaluated in terms of active annotation time and ease of use by the developer and 12 users using open-source MR and CT scans. Additionally, the tool had been used by the MICCAI 2026 CARE Challenge liver segmentation best performance winner to annotate liver masks from 6412 MRI volumes. The evaluation results showed that MedImgAnnotator reduced active annotation time from 206.5+/-32.87 (average active annotation time of openly available tools) seconds to 59 seconds. The Wilcoxon signed-rank test of 12 users evaluation results recorded P values of 0.032 and 0.008 for the active annotation time and higher ease of use rating metrics, respectively, indicating that the current tool significantly reduces annotation time and enhances ease of use. Moreover, the tool utilization for annotating different regions of interest from different modality scans and body regions shows its usability across modalities and areas of interest. MedImgAnnotator, which significantly reduces active annotation time for large imaging cohorts, is available as an executable file and as a Python script. Access link: https://ewunateassaye.github.io/developed-tools/medimgannotator.html",
+  "pdf": "https://arxiv.org/pdf/2611.24384v1",
+  "url": "https://arxiv.org/abs/2611.24384v1",
+  "abstract": "In active object detection, selecting the initial labeled pool is essential, especially in complex datasets with expensive labeling and low resource budget. This study presents an active learning framework designed to optimize the initial training cycle of active learning for the object detection task. Our approach diverges from traditional methods by utilizing feature-based clustering from the YOLO-World model and refining images based on objectness scores rather than relying on uncertainty sampling in the initial cycle. This approach focuses on finding samples with various features and emphasizes training in areas where the foundation model is most confident. Doing so helps the model better understand different types of objects. For subsequent cycles, we employ a consistency-based sampling technique to maintain the robustness of the training process. To evaluate our method, we use two complex datasets called Aquarium and NWPU VHR-10, which are well known for their diverse object sizes and challenging conditions. In the NWPU dataset, our method increases mAP50 by an average of 6.6% in image-based evaluation. Moreover, the image refinement method shows an improvement of approximately 11% in object-based evaluation. The results show improvements in model performance and labeling time, demonstrating the advantages of using foundation models in early cycles of active learning. An implementation of the algorithm is available at https://github.com/Mhrshd-fllh/ALBoost-FM",
   "citation_count": 0,
   "concepts": [
    "cs.CV",
-   "eess.IV"
+   "cs.AI"
   ],
-  "arxiv_id": "2611.22450v1",
+  "arxiv_id": "2611.24384v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
@@ -192,27 +74,120 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2611.22273v1",
-  "title": "SARVIA: Fast-Adapting the Strong SAR Foundation Models That Are Already in Your MLLMs",
+  "id": "arxiv:2611.24327v1",
+  "title": "Pixel2Perspective: A Benchmark for Multi-Modal and Multi-View Generalization in Vision-Language Models",
   "authors": [
-   "Yuxuan Li",
-   "Zichen Tian",
-   "Qianru Sun"
+   "Aditya Gandhamal",
+   "Aniruddh Sikdar",
+   "Arya Kishor",
+   "Suresh Sundaram"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.22273v1",
-  "url": "https://arxiv.org/abs/2611.22273v1",
-  "abstract": "Synthetic aperture radar (SAR) foundation models provide transferable representations for diverse perception tasks in all-weather Earth observation. However, their development often relies on costly large-scale SAR pretraining, raising the question of whether such extensive domain-specific pretraining is necessary. We find that modern multimodal large language models (MLLMs) already provide visual encoders that can outperform dedicated SAR foundation models as downstream initializations. This motivates a new paradigm: reuse general visual capabilities and devote domain training to brief specialization. We therefore introduce SARVIA, an adaptive post-pretraining method that specializes modern MLLMs using self-supervised visual questions with computable answers. These questions are constructed from unlabeled observations through general image tasks that capture spatial relations and SAR-specific tasks that exploit native measurements and SAR--optical correspondence. A shared answer-prediction objective jointly trains low-rank adapters across visual and language components, with loss-driven task sampling. We then export the adapted visual encoder as a standalone backbone. With 600 adaptation steps and 2 GPU-hours, SARVIA outperforms the compared foundation models on all six SAR detection and segmentation benchmarks. Compared with dedicated SAR pretraining, SARVIA reduces domain-training costs by orders of magnitude while improving visual transfer across architectures and scales. This new paradigm shifts the emphasis from repeated, costly pretraining to a reusable specialization process that can benefit from advances in open MLLMs. Dataset and code: https://github.com/zcablii/SARVIA.",
+  "pdf": "https://arxiv.org/pdf/2611.24327v1",
+  "url": "https://arxiv.org/abs/2611.24327v1",
+  "abstract": "Embodied AI systems, such as drones and autonomous vehicles, improve navigation by enhancing perception in environments containing unseen objects. While Visual Language Models (VLMs) offer strong image understanding, their real-world application is underexplored. For effective deployment, open-vocabulary semantic segmentation (OVSS) models, leveraging models like CLIP to assign pixel-level labels from text, must be robust to outdoor conditions, adverse weather, and varying viewpoints. Despite their potential, these models encounter significant challenges in cross-domain generalization, hindering their practical use in embodied AI applications. In this work, we present Pixel2Perspective, a benchmark for multi-angle object localization and open-vocabulary segmentation across both aerial and ground perspectives. This benchmark supports thorough evaluation across different viewpoints and sensor modalities. We assess foundational models like CLIP and advanced OVSS models using a curated dataset that spans varied outdoor conditions, sim-to-real scenarios, and multiple sensors, including infrared, to support the development of robust and generalizable perception systems. We also present a novel framework, Multi-Source RGB-IR Uncertainty Quantification (MSRIQ), which jointly models aleatoric and epistemic uncertainties across RGB and infrared imagery. This approach supports robust evaluation of open-vocabulary segmentation models across diverse environmental conditions. Our work sets a robustness-driven benchmark, providing key insights and laying the foundation for future research in open-world embodied AI perception. The benchmark and project page are available at https://aniruddhsikdar1.github.io/publications/pixel2perspective/",
   "citation_count": 0,
   "concepts": [
    "cs.CV"
   ],
-  "arxiv_id": "2611.22273v1",
+  "arxiv_id": "2611.24327v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.24316v1",
+  "title": "Fuse to Recognize the Unseen: Class-Relative Infrared-Visible Fusion for Open-Vocabulary Semantic Segmentation",
+  "authors": [
+   "Zehao Gao",
+   "Jie Feng",
+   "Wenda Zhao",
+   "Junpeng Zhang",
+   "Ronghua Shang",
+   "Weisheng Dong"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-18",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.24316v1",
+  "url": "https://arxiv.org/abs/2611.24316v1",
+  "abstract": "Visible-infrared image fusion leverages complementary thermal cues to enhance visual perception, particularly under challenging illumination. However, such perceptual complementarity does not readily translate into semantic gains in open-vocabulary semantic segmentation (OVSS), where CLIP-based models are predominantly pretrained on RGB imagery. Directly introducing IR information may instead disrupt RGB-language alignment, turning promising thermal cues into semantic interference that undermines unseen-class recognition. Our pixel-level RGB-IR semantic analysis reveals that class-relevant thermal cues can correct certain RGB misclassifications while preserving reliable RGB predictions, motivating RGB-anchored, class-relative thermal cue selection. Based on this insight, we propose EmergeFuse, an infrared-visible fusion framework for OVSS that selectively converts complementary thermal evidence into unseen-class semantic corrections. Specifically, class-relative cue selection evaluates RGB-IR semantic responses and calibrated thermal evidence relative to RGB predictions, generating class-relative correction requests through competitive selection. Text-contrast image rectification then translates these selected requests into semantic rectification directions through text contrasts, guiding evidence-gated feature updates to realize complementary thermal evidence for unseen-class recognition. Experiments on three benchmarks demonstrate gains of up to 4.755% in unseen-class mIoU and 15.730% in strict complementary conversion rate over existing fusion methods, while maintaining competitive fusion quality.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV",
+   "cs.AI"
+  ],
+  "arxiv_id": "2611.24316v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.24284v1",
+  "title": "CROMPT: Adapting CLIP via Cross-Modal Prompting for Robust Zero-Shot Generalization under Adverse Weather",
+  "authors": [
+   "Aniruddh Sikdar",
+   "Arya Kishor",
+   "Snehashis Dhibar",
+   "Suresh Sundaram"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-18",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.24284v1",
+  "url": "https://arxiv.org/abs/2611.24284v1",
+  "abstract": "Domain adaptation for semantic segmentation is challenging when target-domain images are unavailable during training. Zero-shot domain adaptation addresses this by adapting models using only textual descriptions of the target domain. However, existing prompt-learning methods are not well suited for ResNet-based CLIP vision backbones or pixel-level cross-modal feature alignment. We propose CROMPT, a prompt-learning framework for zero-shot domain adaptation in semantic segmentation. CROMPT introduces Cross-Modal Feature Augmentation (CROMA), combining Random Visual Prompting with Hybrid Textual Prompting (HTP) to jointly adapt visual and textual representations. We further propose CROMA-VL, which leverages vision-language models to generate domain-conditioned prompts, and a progressive easy-to-hard adaptation strategy for improved domain invariance. Experiments on two benchmark datasets demonstrate consistent improvements over strong baselines and state-of-the-art methods, achieving 1.63-2.63% mIoU gains while maintaining inference-time complexity. These results establish CROMPT as an effective and efficient framework for zero-shot multi-domain semantic segmentation. OpenReview: https://openreview.net/forum?id=FxqFsIL685",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.24284v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.24190v1",
+  "title": "Monitoring Unplanned Construction Using Satellite Change Detection",
+  "authors": [
+   "Harsh Kashyap",
+   "Taranum Wasu"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-18",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.24190v1",
+  "url": "https://arxiv.org/abs/2611.24190v1",
+  "abstract": "Cities need land for homes, shops, roads, and public services. New construction changes that land. It can harm natural areas and water bodies, add to waste, and strain public services. NITI Aayog's 2021 report stated that 65% of 7,933 urban settlements in India had no master plan. That number tells us about planning coverage at the time. It does not tell us whether any single building was authorised. Artificial intelligence, which lets computers learn patterns from data, can help find physical changes by comparing satellite images taken on different dates. We test simple methods on two public datasets from outside India. First, we turn each image into a set of numbers using a pretrained neural network, a model already trained to recognise patterns in images. We feed those numbers to standard machine-learning classifiers that predict land categories and physical changes. The methods reach about 95 percent accuracy at spotting built-up land and about 83 percent accuracy at saying whether a small pair of images shows change, where each pair gets one label. We also train a small neural network on a standard change-detection benchmark. Separately, we run a preliminary descriptive check on an Agra sample of 48 patches, 7 of them positive. The results show that satellite images carry information about physical change. They do not show whether construction was planned or permitted.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.24190v1",
   "source": "arxiv",
   "topics": [
    "遥感",
@@ -222,34 +197,64 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2611.22126v1",
-  "title": "Text-Guided Modality Correction for Open-Vocabulary Object Detection",
+  "id": "arxiv:2611.24152v1",
+  "title": "SEER: Semantic Evidence for Executable Region Propagation in Open-Vocabulary Semantic Segmentation",
   "authors": [
-   "Yu Quan",
-   "Dong Zhang",
-   "Ping Gong",
-   "Peng Huang",
-   "JinHui Tang"
+   "Junyang Chen",
+   "Xiao Li",
+   "Yiguo Qiao",
+   "Wenbin Li"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.22126v1",
-  "url": "https://arxiv.org/abs/2611.22126v1",
-  "abstract": "Open-vocabulary object detection (OVD) is essential for detecting objects beyond the categories seen during training. Establishing vision-language associations is crucial for recognizing unseen categories, while integrating complementary visual features across levels supports detection at different scales. However, existing methods often provide insufficient textual guidance for object regions, rely on limited cross-modal alignment strategies, and underuse complementary features across levels, limiting their ability to detect unseen categories and objects of varying scales. To address these limitations, we propose a Text-Guided Modality Correction Network (TMCNet) that incorporates textual guidance into region feature extraction, cross-modal alignment, and multi-scale decoding to strengthen region-category semantic correspondence and promote complementary feature fusion across levels. First, a text-guided modality encoder incorporates textual semantics into queries to guide regional feature aggregation, reducing semantic ambiguity in object representations. Second, a cross-modal alignment module strengthens the correspondence between region representations and category semantics through interactions between visual and textual features. Finally, a progressive text correction decoder combines a top-down pathway with lateral connections to progressively fuse text-guided deep semantic features with shallow visual features at the corresponding scales, preserving both semantic information and spatial detail for objects of different sizes. Experiments on two public datasets, COCO-OVD and LVIS-OVD, demonstrate that TMCNet achieves strong performance in open-vocabulary object detection using simple text queries as guidance. Extending TMCNet to open-vocabulary segmentation also yields performance gains, demonstrating its cross-task applicability and extensibility.",
+  "pdf": "https://arxiv.org/pdf/2611.24152v1",
+  "url": "https://arxiv.org/abs/2611.24152v1",
+  "abstract": "Training-free open-vocabulary semantic segmentation (OVSS) has made strong progress by adapting CLIP-like representations to dense prediction, but its remaining errors are often local, structured, and tied to the active label space. A successful correction must be visually plausible, legal under the target vocabulary, and executable in the segmentation score field. We propose SEER, a training-free test-time repair layer for Semantic Evidence and Executable Region propagation. SEER casts post-prediction OVSS repair as evidence-conditioned label propagation. The OVSS score space proposes compact candidate labels, a frozen VLM verifies closed-set regional evidence, and an execution gate certifies whether the evidence is legally and semantically actionable. The accepted label is then propagated by an OVSS-side policy: coherent high-confidence regions allow broad propagation, while object- or boundary-risk cases use conservative score-grounded propagation. Across eight standard OVSS benchmarks, SEER reaches 58.0 average mIoU without updating OVSS weights. Matched-input controls isolate the repair mechanism, while resource measurements report the cost of the complete frozen system.",
   "citation_count": 0,
   "concepts": [
    "cs.CV"
   ],
-  "arxiv_id": "2611.22126v1",
+  "arxiv_id": "2611.24152v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
-   "机器学习",
    "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.24137v1",
+  "title": "PatchAdaNet: Unsupervised class incremental learning using local patches and global adapters",
+  "authors": [
+   "Kamel Aouaidjia",
+   "Yanchao Duan",
+   "Zihui Zhen",
+   "Xin Li",
+   "Yongfei Lv",
+   "Chongsheng Zhang"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-18",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.24137v1",
+  "url": "https://arxiv.org/abs/2611.24137v1",
+  "abstract": "Biological learning systems acquire knowledge incrementally through broad, reusable representations established early and kept largely stable, while integrating new experience with minimal interference with previously learned knowledge. Replay-based methods approximate this by storing samples or features from previous tasks and mixing them into the current task. However, memory buffers grow with the number of tasks and may retain task-specific noise that reduces generalization. To address these limitations, we propose PatchAdaNet (Patch Adapter Network), an unsupervised class-incremental learning method for image classification that continually updates feature representations using autoencoders. Since images share structural features such as edges, corners, and shapes, we first divide each image into patches and train independent autoencoders on external data to reconstruct each patch. The layers of all patch encoders are aggregated into global frozen layers that generalize across tasks and remain fixed throughout learning. Learnable adapters then build global image representations from these features to reconstruct the entire image. To prevent feature drift without storing data, we introduce the Global Feature Centroid (GFC), a fixed-size running average of adapter outputs updated after each task to penalizes representation drift. Elastic Weight Consolidation (EWC) is applied to the learnable layers to preserve previously learned features by constraining important weights. Finally, a linear classifier is trained on the frozen latent representation and GFC for class-incremental evaluation. We evaluate PatchAdaNet in both CNN and Vision Transformer settings on CIFAR-10, CIFAR-100, miniImageNet and 5-Datasets, providing a comparative study of the two architectures under identical class-incremental settings. Code is available.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.24137v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
   ],
   "is_own": false
  }
