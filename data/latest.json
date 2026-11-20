@@ -1,193 +1,118 @@
 [
  {
-  "id": "arxiv:2611.24401v1",
-  "title": "Reliable Tree Recruitment from Scarce Annotations for Forest Inventory Expansion",
+  "id": "openalex:W7134818291",
+  "title": "Human–AI Divergence in Ego-Centric Action Recognition Under Spatial and Spatiotemporal Manipulations",
   "authors": [
-   "Luiz Fernando Souza Luz",
-   "Pedro J. Soto Vega",
-   "Matheus Pinheiro Ferreira",
-   "Laura Elena Cué la Rosa",
-   "Hudson Franklin Pessoa Veras",
-   "Ernandes Macedo da Cunha Neto",
-   "Evandro Orfanó Figueiredo",
-   "Ana Paula Dalla Corte",
-   "Carlos Roberto Sanquetta",
-   "José Matheus Segre Moneva Viveiros",
-   "Matheus Santos Fuza",
-   "Heitor Eduardo Ferreira Campos Morato Filpi",
-   "Cristiano Vinícius Vidal",
-   "Vinícius Moura Costa",
-   "Débora Nascimento Rosário",
-   "Danilo Roberti Alves de Almeida",
-   "Paulo Guilherme Molin",
-   "Dário Augusto Borges Oliveira"
+   "Sadegh Rahmaniboldaji",
+   "Filip Rybansky",
+   "Quoc C. Vuong",
+   "Anya C. Hurlbert",
+   "Frank Guérin",
+   "Andrew Gilbert"
   ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-18",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.24401v1",
-  "url": "https://arxiv.org/abs/2611.24401v1",
-  "abstract": "Species-level inventories of individual tree crowns (ITCs) from UAV imagery are limited by annotation cost: in tropical forests, many species are represented by only a handful of field-validated crowns. We propose a reliable tree recruitment framework that expands a small annotated inventory by iteratively self-training a multi-task DeepLabV3 network, combining semantic segmentation with a crown-distance regression head, on RGB UAV orthomosaics. At each iteration, candidate crowns enter the training inventory only if they pass a confidence filter on class probability and distance map and a morphology filter on crown area and solidity, with at most five new crowns per species, keeping recruited samples consistent with the reference inventory. We evaluate the framework at two Brazilian sites: an Amazonian rainforest in Acre (17 species, 355 annotated crowns, 4 cm GSD) and a forest site in the Cerrado of Maranhão (4 species, 51 annotated crowns, 1.8 cm GSD). Over 20 iterations, the number of retained crowns grew from about 500 to 960 in Acre and from about 700 to over 3100 in Maranhão, while crown-level F1 exceeded single- and multi-task DeepLabV3 baselines (53.5% vs. 50.0% and 45.2%; 92.2% vs. 79.7% and 83.6%). The framework offers a low-cost route to expanding species inventories with consumer-grade UAVs and limited fieldwork.",
+  "date": "2026-11-19",
+  "doi": "10.1007/s11263-026-03077-7",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03077-7",
+  "abstract": "Abstract Humans consistently outperform state-of-the-art AI models in action recognition, particularly in challenging real-world conditions involving low resolution, occlusion, and visual clutter.e those utilised by humans Understanding the sources of this performance gap is essential for developing more robust and human-aligned models. In this paper, we present a large-scale human AI comparative study of egocentric action recognition using human-defined Minimal Identifiable Recognition Crops (MIRCs), defined as the smallest spatial or spatiotemporal regions sufficient for reliable human recognition. We used our previously introduced, Epic-ReduAct, a systematically spatially reduced and temporally scrambled dataset derived from 36 EPIC-KITCHENS videos, spanning multiple spatial reduction levels and temporal conditions. Recognition performance is evaluated using over 3,000 human participants, Side4Video, and Qwen 3.5 9B models. Our analysis combines quantitative metrics, Average Reduction Rate and Recognition Gap, with qualitative analyses of spatial (high-, mid-, and low-level visual features) and spatiotemporal factors, including a categorisation of actions into Low Temporal Actions (LTA) and High Temporal Actions (HTA). Results show that human performance exhibits sharp declines when transitioning from MIRCs to sub-MIRCs, reflecting a strong reliance on sparse, semantically critical cues such as hand object interactions. In contrast, the model degrades more gradually and often relies on contextual and mid- to low-level features, sometimes even exhibiting increased confidence under spatial reduction. Temporally, humans remain robust to scrambling when key spatial cues are preserved, whereas the model often shows insensitivity to temporal disruption, revealing class-dependent temporal sensitivities. Overall, our findings demonstrate that strong benchmark performance can obscure fundamental human AI misalignment and highlight limitations in current spatial and spatiotemporal representations, suggesting concrete directions for more efficient and human-aligned action recognition systems.",
   "citation_count": 0,
   "concepts": [
-   "cs.CV"
+   "Artificial intelligence",
+   "Computer science",
+   "Action recognition"
   ],
-  "arxiv_id": "2611.24401v1",
-  "source": "arxiv",
+  "source": "openalex",
   "topics": [
-   "计算机视觉",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7236073877",
+  "title": "GRAIL: Granularity Adaptive Representation for Class-Incremental Learning with Granular-Ball",
+  "authors": [
+   "Fankang Xu",
+   "Lu Jin",
+   "Wenbin Qian",
+   "Yanpeng Sun",
+   "Zechao Li"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-19",
+  "doi": "10.1007/s11263-026-03091-9",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03091-9",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Granularity",
+   "Artificial intelligence",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [
    "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2611.24384v1",
-  "title": "Enhancing Active Learning Performance with Initial Data Selection Based on Foundation Models",
+  "id": "arxiv:2611.25862v1",
+  "title": "HALTT: A HAte Lexicon Through Time",
   "authors": [
-   "Mohammad Mirzaee",
-   "Mehrshad Fallah Estalkhzir",
-   "Mohammad Reza Mohammadi"
+   "Dario Franzese",
+   "Farah Benamara",
+   "Véronique Moriceau",
+   "Viviana Patti"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.24384v1",
-  "url": "https://arxiv.org/abs/2611.24384v1",
-  "abstract": "In active object detection, selecting the initial labeled pool is essential, especially in complex datasets with expensive labeling and low resource budget. This study presents an active learning framework designed to optimize the initial training cycle of active learning for the object detection task. Our approach diverges from traditional methods by utilizing feature-based clustering from the YOLO-World model and refining images based on objectness scores rather than relying on uncertainty sampling in the initial cycle. This approach focuses on finding samples with various features and emphasizes training in areas where the foundation model is most confident. Doing so helps the model better understand different types of objects. For subsequent cycles, we employ a consistency-based sampling technique to maintain the robustness of the training process. To evaluate our method, we use two complex datasets called Aquarium and NWPU VHR-10, which are well known for their diverse object sizes and challenging conditions. In the NWPU dataset, our method increases mAP50 by an average of 6.6% in image-based evaluation. Moreover, the image refinement method shows an improvement of approximately 11% in object-based evaluation. The results show improvements in model performance and labeling time, demonstrating the advantages of using foundation models in early cycles of active learning. An implementation of the algorithm is available at https://github.com/Mhrshd-fllh/ALBoost-FM",
+  "pdf": "https://arxiv.org/pdf/2611.25862v1",
+  "url": "https://arxiv.org/abs/2611.25862v1",
+  "abstract": "Automated hate speech detection degrades over time as everyday vocabulary is weaponized into covert slurs while retaining original benign meanings (polysemy retention). Existing lexical semantic change detection (LSCD) frameworks struggle with this phenomenon due to a lack of standardized, sense-delineated diachronic resources. We propose a multi-stage framework to construct and validate a diachronic lexicon of semantically shifted hate speech terms. Filtering > 20,000 candidates, our pipeline combines historical (1770-1964) and modern (2001-2024) corpus frequency grounding, masked definition-level scoring to mitigate LLM temporal bias, and a dual-persona reasoning prompt paradigm. We release HALTT, a grounded lexicon of 19 polysemous terms with literal and derogatory senses, analyze shift typologies, and establish evaluation protocols for downstream diachronic benchmarking.",
   "citation_count": 0,
   "concepts": [
-   "cs.CV",
-   "cs.AI"
+   "cs.CL"
   ],
-  "arxiv_id": "2611.24384v1",
+  "arxiv_id": "2611.25862v1",
   "source": "arxiv",
   "topics": [
-   "计算机视觉",
-   "机器学习"
+   "遥感",
+   "计算机视觉"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2611.24327v1",
-  "title": "Pixel2Perspective: A Benchmark for Multi-Modal and Multi-View Generalization in Vision-Language Models",
+  "id": "arxiv:2611.25824v1",
+  "title": "Fusing Multimodal CNN Features with Structurally-Masked Transformers for Hierarchical Sub-Pixel Tree Species Mapping",
   "authors": [
-   "Aditya Gandhamal",
-   "Aniruddh Sikdar",
-   "Arya Kishor",
-   "Suresh Sundaram"
+   "Mattia Ferrari",
+   "Lorenzo Bruzzone"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.24327v1",
-  "url": "https://arxiv.org/abs/2611.24327v1",
-  "abstract": "Embodied AI systems, such as drones and autonomous vehicles, improve navigation by enhancing perception in environments containing unseen objects. While Visual Language Models (VLMs) offer strong image understanding, their real-world application is underexplored. For effective deployment, open-vocabulary semantic segmentation (OVSS) models, leveraging models like CLIP to assign pixel-level labels from text, must be robust to outdoor conditions, adverse weather, and varying viewpoints. Despite their potential, these models encounter significant challenges in cross-domain generalization, hindering their practical use in embodied AI applications. In this work, we present Pixel2Perspective, a benchmark for multi-angle object localization and open-vocabulary segmentation across both aerial and ground perspectives. This benchmark supports thorough evaluation across different viewpoints and sensor modalities. We assess foundational models like CLIP and advanced OVSS models using a curated dataset that spans varied outdoor conditions, sim-to-real scenarios, and multiple sensors, including infrared, to support the development of robust and generalizable perception systems. We also present a novel framework, Multi-Source RGB-IR Uncertainty Quantification (MSRIQ), which jointly models aleatoric and epistemic uncertainties across RGB and infrared imagery. This approach supports robust evaluation of open-vocabulary segmentation models across diverse environmental conditions. Our work sets a robustness-driven benchmark, providing key insights and laying the foundation for future research in open-world embodied AI perception. The benchmark and project page are available at https://aniruddhsikdar1.github.io/publications/pixel2perspective/",
+  "pdf": "https://arxiv.org/pdf/2611.25824v1",
+  "url": "https://arxiv.org/abs/2611.25824v1",
+  "abstract": "Precise forest species mapping using spaceborne hyperspectral data is challenging due to high spectral similarity and the inherent sub-pixel heterogeneity of natural forest stands. While traditional deep learning models exploit spatial context through convolutional architectures, these approaches can introduce noise in fragmented or mixed-species forests. In this paper, we propose a hierarchy-aware, multimodal deep learning framework to resolve sub-pixel forest composition by integrating PRISMA (PRecursore IperSpettrale della Missione Applicativa) hyperspectral imagery, high-resolution panchromatic data, and digital elevation models. The architecture features a multi-branch encoder combining an EfficientNetV2-based one-dimensional convolutional neural network (CNN) for spectral signatures and twin two-dimensional CNNs for spatial and topographic features, coupled with a novel structurally-masked Transformer. By using a binary transition tensor to condition the Transformer slot embeddings and constrain inference, the model enforces taxonomic consistency between broad forest categories and fine-grained species distributions. The framework is validated across three diverse Italian biogeographical regions (the Alps and the Central and Southern Apennines) using field-surveyed plots. The proposed method consistently outperforms state-of-the-art multi-label and ranking-based paradigms, particularly in identifying subordinate species and their relative dominance. The bidirectional learning mechanism allows sub-pixel compositional features to refine macroscopic forest type predictions, while the integration of topographic priors effectively resolves spectral ambiguities in complex terrains. This knowledge-driven method supports regional-scale biodiversity monitoring and forest characterization within the evaluated PRISMA scenarios.",
   "citation_count": 0,
   "concepts": [
    "cs.CV"
   ],
-  "arxiv_id": "2611.24327v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.24316v1",
-  "title": "Fuse to Recognize the Unseen: Class-Relative Infrared-Visible Fusion for Open-Vocabulary Semantic Segmentation",
-  "authors": [
-   "Zehao Gao",
-   "Jie Feng",
-   "Wenda Zhao",
-   "Junpeng Zhang",
-   "Ronghua Shang",
-   "Weisheng Dong"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-18",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.24316v1",
-  "url": "https://arxiv.org/abs/2611.24316v1",
-  "abstract": "Visible-infrared image fusion leverages complementary thermal cues to enhance visual perception, particularly under challenging illumination. However, such perceptual complementarity does not readily translate into semantic gains in open-vocabulary semantic segmentation (OVSS), where CLIP-based models are predominantly pretrained on RGB imagery. Directly introducing IR information may instead disrupt RGB-language alignment, turning promising thermal cues into semantic interference that undermines unseen-class recognition. Our pixel-level RGB-IR semantic analysis reveals that class-relevant thermal cues can correct certain RGB misclassifications while preserving reliable RGB predictions, motivating RGB-anchored, class-relative thermal cue selection. Based on this insight, we propose EmergeFuse, an infrared-visible fusion framework for OVSS that selectively converts complementary thermal evidence into unseen-class semantic corrections. Specifically, class-relative cue selection evaluates RGB-IR semantic responses and calibrated thermal evidence relative to RGB predictions, generating class-relative correction requests through competitive selection. Text-contrast image rectification then translates these selected requests into semantic rectification directions through text contrasts, guiding evidence-gated feature updates to realize complementary thermal evidence for unseen-class recognition. Experiments on three benchmarks demonstrate gains of up to 4.755% in unseen-class mIoU and 15.730% in strict complementary conversion rate over existing fusion methods, while maintaining competitive fusion quality.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.AI"
-  ],
-  "arxiv_id": "2611.24316v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.24284v1",
-  "title": "CROMPT: Adapting CLIP via Cross-Modal Prompting for Robust Zero-Shot Generalization under Adverse Weather",
-  "authors": [
-   "Aniruddh Sikdar",
-   "Arya Kishor",
-   "Snehashis Dhibar",
-   "Suresh Sundaram"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-18",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.24284v1",
-  "url": "https://arxiv.org/abs/2611.24284v1",
-  "abstract": "Domain adaptation for semantic segmentation is challenging when target-domain images are unavailable during training. Zero-shot domain adaptation addresses this by adapting models using only textual descriptions of the target domain. However, existing prompt-learning methods are not well suited for ResNet-based CLIP vision backbones or pixel-level cross-modal feature alignment. We propose CROMPT, a prompt-learning framework for zero-shot domain adaptation in semantic segmentation. CROMPT introduces Cross-Modal Feature Augmentation (CROMA), combining Random Visual Prompting with Hybrid Textual Prompting (HTP) to jointly adapt visual and textual representations. We further propose CROMA-VL, which leverages vision-language models to generate domain-conditioned prompts, and a progressive easy-to-hard adaptation strategy for improved domain invariance. Experiments on two benchmark datasets demonstrate consistent improvements over strong baselines and state-of-the-art methods, achieving 1.63-2.63% mIoU gains while maintaining inference-time complexity. These results establish CROMPT as an effective and efficient framework for zero-shot multi-domain semantic segmentation. OpenReview: https://openreview.net/forum?id=FxqFsIL685",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.24284v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.24190v1",
-  "title": "Monitoring Unplanned Construction Using Satellite Change Detection",
-  "authors": [
-   "Harsh Kashyap",
-   "Taranum Wasu"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-18",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.24190v1",
-  "url": "https://arxiv.org/abs/2611.24190v1",
-  "abstract": "Cities need land for homes, shops, roads, and public services. New construction changes that land. It can harm natural areas and water bodies, add to waste, and strain public services. NITI Aayog's 2021 report stated that 65% of 7,933 urban settlements in India had no master plan. That number tells us about planning coverage at the time. It does not tell us whether any single building was authorised. Artificial intelligence, which lets computers learn patterns from data, can help find physical changes by comparing satellite images taken on different dates. We test simple methods on two public datasets from outside India. First, we turn each image into a set of numbers using a pretrained neural network, a model already trained to recognise patterns in images. We feed those numbers to standard machine-learning classifiers that predict land categories and physical changes. The methods reach about 95 percent accuracy at spotting built-up land and about 83 percent accuracy at saying whether a small pair of images shows change, where each pair gets one label. We also train a small neural network on a standard change-detection benchmark. Separately, we run a preliminary descriptive check on an Agra sample of 48 patches, 7 of them positive. The results show that satellite images carry information about physical change. They do not show whether construction was planned or permitted.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.24190v1",
+  "arxiv_id": "2611.25824v1",
   "source": "arxiv",
   "topics": [
    "遥感",
@@ -197,60 +122,122 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2611.24152v1",
-  "title": "SEER: Semantic Evidence for Executable Region Propagation in Open-Vocabulary Semantic Segmentation",
+  "id": "arxiv:2611.25822v1",
+  "title": "Limits of local curvature for constructing search subspaces in segmentation models",
   "authors": [
-   "Junyang Chen",
-   "Xiao Li",
-   "Yiguo Qiao",
-   "Wenbin Li"
+   "Maxim Bolshim",
+   "Alexander Kugaevskikh"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.24152v1",
-  "url": "https://arxiv.org/abs/2611.24152v1",
-  "abstract": "Training-free open-vocabulary semantic segmentation (OVSS) has made strong progress by adapting CLIP-like representations to dense prediction, but its remaining errors are often local, structured, and tied to the active label space. A successful correction must be visually plausible, legal under the target vocabulary, and executable in the segmentation score field. We propose SEER, a training-free test-time repair layer for Semantic Evidence and Executable Region propagation. SEER casts post-prediction OVSS repair as evidence-conditioned label propagation. The OVSS score space proposes compact candidate labels, a frozen VLM verifies closed-set regional evidence, and an execution gate certifies whether the evidence is legally and semantically actionable. The accepted label is then propagated by an OVSS-side policy: coherent high-confidence regions allow broad propagation, while object- or boundary-risk cases use conservative score-grounded propagation. Across eight standard OVSS benchmarks, SEER reaches 58.0 average mIoU without updating OVSS weights. Matched-input controls isolate the repair mechanism, while resource measurements report the cost of the complete frozen system.",
+  "pdf": "https://arxiv.org/pdf/2611.25822v1",
+  "url": "https://arxiv.org/abs/2611.25822v1",
+  "abstract": "We examine how well subspaces constructed from local curvature represent the change in the gradient update field after a finite step in semantic segmentation models. The local response is the action of the curvature operator on the actual input displacement. In a study of 50 images and two models, we measure the ratio of the loss increase attained in a fixed subspace to that attained in the full space. This ratio decreases as the search radius increases. On ten images from the same sample, we compare the one-dimensional subspace spanned by the initial gradient with two rank-16 subspaces for both models. The two equal-rank subspaces are assessed at the same initial states, using the same actual steps and measured vectors. Adding generalised Gauss-Newton directions to the initial gradient reduces the mean relative error in representing the field change from 0.922 to 0.874 for the first model and from 0.819 to 0.763 for the second. At the same rank, including the response direction for the initial gradient nearly eliminates the error in representing the local response. The mean error in representing the field change does not decrease. A decomposition with fixed pixel weights shows that the finite-step remainder is comparable in norm to the field change and makes the largest diagonal contribution to the squared projection error of the field after the step. Evaluation of a search subspace should measure how accurately it represents the field change and the local response.",
   "citation_count": 0,
   "concepts": [
-   "cs.CV"
+   "cs.CV",
+   "cs.LG"
   ],
-  "arxiv_id": "2611.24152v1",
+  "arxiv_id": "2611.25822v1",
   "source": "arxiv",
   "topics": [
-   "计算机视觉",
-   "多模态"
+   "计算机视觉"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2611.24137v1",
-  "title": "PatchAdaNet: Unsupervised class incremental learning using local patches and global adapters",
+  "id": "arxiv:2611.25771v1",
+  "title": "Driver Gaze Target Identification via Gaze Estimation and Structured Driving Scene Understanding",
   "authors": [
-   "Kamel Aouaidjia",
-   "Yanchao Duan",
-   "Zihui Zhen",
-   "Xin Li",
-   "Yongfei Lv",
-   "Chongsheng Zhang"
+   "Xinze Cao",
+   "Ke Wang",
+   "Deyong Guan",
+   "Yuanquan Li",
+   "Ke Zhang"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.24137v1",
-  "url": "https://arxiv.org/abs/2611.24137v1",
-  "abstract": "Biological learning systems acquire knowledge incrementally through broad, reusable representations established early and kept largely stable, while integrating new experience with minimal interference with previously learned knowledge. Replay-based methods approximate this by storing samples or features from previous tasks and mixing them into the current task. However, memory buffers grow with the number of tasks and may retain task-specific noise that reduces generalization. To address these limitations, we propose PatchAdaNet (Patch Adapter Network), an unsupervised class-incremental learning method for image classification that continually updates feature representations using autoencoders. Since images share structural features such as edges, corners, and shapes, we first divide each image into patches and train independent autoencoders on external data to reconstruct each patch. The layers of all patch encoders are aggregated into global frozen layers that generalize across tasks and remain fixed throughout learning. Learnable adapters then build global image representations from these features to reconstruct the entire image. To prevent feature drift without storing data, we introduce the Global Feature Centroid (GFC), a fixed-size running average of adapter outputs updated after each task to penalizes representation drift. Elastic Weight Consolidation (EWC) is applied to the learnable layers to preserve previously learned features by constraining important weights. Finally, a linear classifier is trained on the frozen latent representation and GFC for class-incremental evaluation. We evaluate PatchAdaNet in both CNN and Vision Transformer settings on CIFAR-10, CIFAR-100, miniImageNet and 5-Datasets, providing a comparative study of the two architectures under identical class-incremental settings. Code is available.",
+  "pdf": "https://arxiv.org/pdf/2611.25771v1",
+  "url": "https://arxiv.org/abs/2611.25771v1",
+  "abstract": "Identifying a driver's gaze target provides object-level information for visual attention monitoring in intelligent vehicles. Gaze-zone classification and continuous attention localization provide limited information about the identity of the attended scene target. This paper proposes a modular framework that identifies object- or region-level gaze targets from synchronized in-cabin driver images and forward-view road images. The framework comprises four components: MFGaze, which combines a Vision Transformer pretrained with a masked autoencoder (MAE) and head-pose conditioning through feature-wise linear modulation (FiLM); panoptic scene understanding, which constructs a structured candidate set; polynomial ridge regression, which maps gaze features to 2D scene-image coordinates through individualized calibration; and entropy-driven target inference, which adaptively fuses boundary-distance geometry with class-level semantic priors. Experiments evaluate the framework using three public gaze datasets, a laboratory test using Cityscapes road scenes and self-collected gaze data, and the Look Both Ways (LBW) dataset. The complete framework achieves an overall Top-1 gaze target identification accuracy of 96.27% in the laboratory experiment. After sequence-specific calibration, it achieves Top-1 accuracies of 79.92% for task-relevant objects and 85.58% for the road class on LBW. MFGaze achieves the lowest mean angular errors among the compared methods, with 4.06$^\\circ$, 4.23$^\\circ$, and 10.52$^\\circ$ on MPIIFaceGaze, ETH-XGaze, and Gaze360, respectively, and demonstrates strong cross-dataset generalization. Sensitivity analyses show stable performance under hyperparameter perturbations. These results support the framework as a source of object-level gaze information for driver monitoring.",
   "citation_count": 0,
   "concepts": [
-   "cs.CV"
+   "cs.CV",
+   "cs.LG"
   ],
-  "arxiv_id": "2611.24137v1",
+  "arxiv_id": "2611.25771v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.25724v1",
+  "title": "Verifying Before Enhancing: Target Evidence Chain Verification for Infrared Small Target Detection",
+  "authors": [
+   "Jiayi Zuo",
+   "Songwei Pei",
+   "Shuhuai Wang",
+   "Yifei Wu",
+   "Shangguang Wang"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-19",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.25724v1",
+  "url": "https://arxiv.org/abs/2611.25724v1",
+  "abstract": "Infrared small target detection is essential for early warning, surveillance, remote sensing, and space-based target perception. However, infrared small targets are typically tiny, weakly textured, and boundary-blurred, making them difficult to distinguish from complex backgrounds. Moreover, target-like background structures can produce salient responses across multiple scales, making response strength alone insufficient for reliable target discrimination. To address this challenge, we propose VBE-UNet, a Target Evidence Chain Verification Network that assesses candidate reliability beyond response magnitude through complementary evidence cues. Specifically, counterfactual background explanation models local target evidence, while joint evidence verification integrates cross-scale support and perturbation-based contribution verification to guide feature recomposition. The resulting reliability estimates guide selective feature refinement, promoting target-relevant responses while reducing unsupported background activations. Extensive experiments on IRSTD-1K, NUDT-SIRST, and NUAA-SIRST demonstrate that VBE-UNet achieves superior detection accuracy and lower false-alarm rates compared with state-of-the-art methods. Ablation studies and evidence reliability analysis further validate the effectiveness of the proposed verification framework.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV",
+   "cs.AI"
+  ],
+  "arxiv_id": "2611.25724v1",
+  "source": "arxiv",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.25584v1",
+  "title": "An Explainable and Scalable Hierarchical Tensor Framework for Integrating Multi-Omics and Digital Pathomics",
+  "authors": [
+   "Ahmad Hussein",
+   "Ali Anaissi",
+   "Mukesh Prasad",
+   "Ali Braytee"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-19",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.25584v1",
+  "url": "https://arxiv.org/abs/2611.25584v1",
+  "abstract": "Background: Precision oncology requires integration of heterogeneous molecular and pathology data, yet many fusion models offer limited biologically grounded interpretability and struggle with missing modalities. Methods: We present Hierarchical Interpretable Tensor Fusion (HIT-Fuse), integrating six modalities: somatic copy number variation, DNA methylation, RNA sequencing, microRNA expression, RPPA protein abundance, and vision transformer-derived pathomics across four TCGA cohorts (glioma, lung adenocarcinoma, breast, and kidney cancer). Modality-specific autoencoders compress high-dimensional inputs, followed by two-stage CP tensor decomposition. Missing latent modalities are reconstructed using clinical covariates and observed omics to expand cohorts and retrain downstream models. A mathematical traceback mechanism enables global and local xAI attributions. Results: HIT-Fuse identifies distinct latent subgroups with significant survival stratification in glioma, breast, and kidney cohorts, both with complete and reconstructed modalities. Cohort expansion yields cohort-specific gains, including a 56.4% relative increase in weighted F1 for glioma. Biological validation against DepMap CRISPR screens, miRTarBase and RPPA annotations supports decoded drivers across all four cohorts. Essential gene rates range from 6.2% in glioma to 7.6% in lung cancer; example drivers include ANAPC11, SNRPD1, PLK1 and RPL14. Of decoded miRNAs, 71-92% have miRTarBase regulatory support, while 77-84% of selected genes are covered in DepMap. Conclusions: HIT-Fuse combines hierarchical tensor fusion, missing-modality reconstruction and traceable attributions to support interpretable multi-omics and digital pathology-based cancer prognosis across heterogeneous cohorts.",
+  "citation_count": 0,
+  "concepts": [
+   "q-bio.GN",
+   "cs.AI"
+  ],
+  "arxiv_id": "2611.25584v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
