@@ -1,5 +1,107 @@
 [
  {
+  "id": "openalex:W7155161502",
+  "title": "Forest structure types in the southern Amazon Basin are influenced by anthropogenic edges and physiography",
+  "authors": [
+   "Matteo Redana",
+   "Mario R. Moura",
+   "Bela  Hale Starinchak",
+   "Maurício Humberto Vancine",
+   "Paulo Monteiro Brando",
+   "S. J. Goetz",
+   "Patrick A. Jantz"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-20",
+  "doi": "10.1016/j.rse.2026.115794",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115794",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Forest structure",
+   "Biomass (ecology)",
+   "Land cover"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W4404767245",
+  "title": "Regional-scale field-level estimation and mapping of tillage practices in areas with crop diversity",
+  "authors": [
+   "Amin Norouzi Kandelati",
+   "Amanda T. Stahl",
+   "Yan Yan",
+   "Siddharth Chaudhary",
+   "Steve Van Vleet",
+   "Mohammed Amine Gharsallaoui",
+   "Janardhan Rao Doppa",
+   "David I. Gustafson",
+   "Hans Kok",
+   "Kirti Rajagopalan"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-19",
+  "doi": "10.1016/j.rse.2026.115781",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115781",
+  "abstract": "The imperative for sustainable agriculture has led to the promotion of conservation tillage practices, which are critical for maintaining soil health and reducing negative environmental impacts. However, the ability to verify the adoption of these practices at a regional scale and with minimal costs remains a challenge, particularly in regions with diverse crop systems. This study presents a satellite-imagery-based random forest classifier that integrates crop class information and a customized importance weighting technique for field-level, regional-scale mapping of tillage practices in crop-diverse regions. We use eastern Washington State, U.S., with multiple grains, legumes, and canola as a case study. Using 577 field-level ground-truth data points across two counties, the tillage classifier achieved a median overall accuracy of 84%, representing a 15-percentage-point improvement over the baseline median overall accuracy of 69%, driven by the inclusion of crop class and the application of importance weighting. Specific crop classes, including grains, legumes, and canola, showed accuracy improvements of 6, 42, and 13 percentage points, respectively. While the model showed promising results, limitations such as overprediction of no-tillage in non-grain crop classes were identified, pointing to the need for further refinement with additional data. The model was applied to map tillage practices across dryland fields in eastern Washington State for the years 2012, 2017, and 2022, and the predictions were generally congruent with the USDA Census of Agriculture county-level statistics. This research offers a scalable tool for the verification of conservation tillage practice adoption, supporting both regional and global monitoring efforts for sustainable agricultural practices.",
+  "citation_count": 0,
+  "concepts": [
+   "Tillage",
+   "Scale (ratio)",
+   "Estimation"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7236592003",
+  "title": "Unsupervised unified thin cloud removal via physics-based decoupling and infrared-assisted adversarial learning",
+  "authors": [
+   "Hang Fu",
+   "Baojie Shao",
+   "Genyun Sun",
+   "Aizhu Zhang",
+   "Wenjuan Zhang",
+   "Mingming Jia",
+   "Haiyong Zheng"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-19",
+  "doi": "10.1016/j.isprsjprs.2026.10.026",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.026",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Cloud computing",
+   "Computer science",
+   "Thin client"
+  ],
+  "source": "openalex",
+  "topics": [
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7134818291",
   "title": "Human–AI Divergence in Ego-Centric Action Recognition Under Spatial and Spatiotemporal Manipulations",
   "authors": [
@@ -16,9 +118,9 @@
   "year": 2026,
   "date": "2026-11-19",
   "doi": "10.1007/s11263-026-03077-7",
-  "pdf": null,
+  "pdf": "https://link.springer.com/content/pdf/10.1007/s11263-026-03077-7.pdf",
   "url": "https://doi.org/10.1007/s11263-026-03077-7",
-  "abstract": "Abstract Humans consistently outperform state-of-the-art AI models in action recognition, particularly in challenging real-world conditions involving low resolution, occlusion, and visual clutter.e those utilised by humans Understanding the sources of this performance gap is essential for developing more robust and human-aligned models. In this paper, we present a large-scale human AI comparative study of egocentric action recognition using human-defined Minimal Identifiable Recognition Crops (MIRCs), defined as the smallest spatial or spatiotemporal regions sufficient for reliable human recognition. We used our previously introduced, Epic-ReduAct, a systematically spatially reduced and temporally scrambled dataset derived from 36 EPIC-KITCHENS videos, spanning multiple spatial reduction levels and temporal conditions. Recognition performance is evaluated using over 3,000 human participants, Side4Video, and Qwen 3.5 9B models. Our analysis combines quantitative metrics, Average Reduction Rate and Recognition Gap, with qualitative analyses of spatial (high-, mid-, and low-level visual features) and spatiotemporal factors, including a categorisation of actions into Low Temporal Actions (LTA) and High Temporal Actions (HTA). Results show that human performance exhibits sharp declines when transitioning from MIRCs to sub-MIRCs, reflecting a strong reliance on sparse, semantically critical cues such as hand object interactions. In contrast, the model degrades more gradually and often relies on contextual and mid- to low-level features, sometimes even exhibiting increased confidence under spatial reduction. Temporally, humans remain robust to scrambling when key spatial cues are preserved, whereas the model often shows insensitivity to temporal disruption, revealing class-dependent temporal sensitivities. Overall, our findings demonstrate that strong benchmark performance can obscure fundamental human AI misalignment and highlight limitations in current spatial and spatiotemporal representations, suggesting concrete directions for more efficient and human-aligned action recognition systems.",
+  "abstract": "Humans consistently outperform state-of-the-art AI models in action recognition, particularly in challenging real-world conditions involving low resolution, occlusion, and visual clutter.e those utilised by humans Understanding the sources of this performance gap is essential for developing more robust and human-aligned models. In this paper, we present a large-scale human AI comparative study of egocentric action recognition using human-defined Minimal Identifiable Recognition Crops (MIRCs), defined as the smallest spatial or spatiotemporal regions sufficient for reliable human recognition. We used our previously introduced, Epic-ReduAct, a systematically spatially reduced and temporally scrambled dataset derived from 36 EPIC-KITCHENS videos, spanning multiple spatial reduction levels and temporal conditions. Recognition performance is evaluated using over 3,000 human participants, Side4Video, and Qwen 3.5 9B models. Our analysis combines quantitative metrics, Average Reduction Rate and Recognition Gap, with qualitative analyses of spatial (high-, mid-, and low-level visual features) and spatiotemporal factors, including a categorisation of actions into Low Temporal Actions (LTA) and High Temporal Actions (HTA). Results show that human performance exhibits sharp declines when transitioning from MIRCs to sub-MIRCs, reflecting a strong reliance on sparse, semantically critical cues such as hand object interactions. In contrast, the model degrades more gradually and often relies on contextual and mid- to low-level features, sometimes even exhibiting increased confidence under spatial reduction. Temporally, humans remain robust to scrambling when key spatial cues are preserved, whereas the model often shows insensitivity to temporal disruption, revealing class-dependent temporal sensitivities. Overall, our findings demonstrate that strong benchmark performance can obscure fundamental human AI misalignment and highlight limitations in current spatial and spatiotemporal representations, suggesting concrete directions for more efficient and human-aligned action recognition systems.",
   "citation_count": 0,
   "concepts": [
    "Artificial intelligence",
@@ -63,70 +165,84 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2611.25862v1",
-  "title": "HALTT: A HAte Lexicon Through Time",
+  "id": "openalex:W7236725455",
+  "title": "APEX: Exploiting Anatomical and Pathological Insights for Context-Aware Gaze Estimation",
   "authors": [
-   "Dario Franzese",
-   "Farah Benamara",
-   "Véronique Moriceau",
-   "Viviana Patti"
+   "Shaonan Liu",
+   "Jie Liu",
+   "Jia Long",
+   "Zhuoru Wu",
+   "Leilei Zeng",
+   "Xiaoling Luo",
+   "Wenting Chen",
+   "Linlin Shen"
   ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
   "year": 2026,
   "date": "2026-11-19",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.25862v1",
-  "url": "https://arxiv.org/abs/2611.25862v1",
-  "abstract": "Automated hate speech detection degrades over time as everyday vocabulary is weaponized into covert slurs while retaining original benign meanings (polysemy retention). Existing lexical semantic change detection (LSCD) frameworks struggle with this phenomenon due to a lack of standardized, sense-delineated diachronic resources. We propose a multi-stage framework to construct and validate a diachronic lexicon of semantically shifted hate speech terms. Filtering > 20,000 candidates, our pipeline combines historical (1770-1964) and modern (2001-2024) corpus frequency grounding, masked definition-level scoring to mitigate LLM temporal bias, and a dual-persona reasoning prompt paradigm. We release HALTT, a grounded lexicon of 19 polysemous terms with literal and derogatory senses, analyze shift typologies, and establish evaluation protocols for downstream diachronic benchmarking.",
+  "doi": "10.1007/s11263-026-03127-0",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03127-0",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "cs.CL"
+   "Gaze",
+   "Artificial intelligence",
+   "Computer science"
   ],
-  "arxiv_id": "2611.25862v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
+  "source": "openalex",
+  "topics": [],
   "is_own": false
  },
  {
-  "id": "arxiv:2611.25824v1",
-  "title": "Fusing Multimodal CNN Features with Structurally-Masked Transformers for Hierarchical Sub-Pixel Tree Species Mapping",
+  "id": "openalex:W7236852030",
+  "title": "FuseSR+: Spatial-Temporal Fusion for High-Scale Super-Resolution",
   "authors": [
-   "Mattia Ferrari",
-   "Lorenzo Bruzzone"
+   "Yuchi Huo",
+   "Suiliang Mai",
+   "Chuankun Zheng",
+   "Tian Xie",
+   "Weijia Xue",
+   "Jingsen Zhu",
+   "Shi Li",
+   "Rui Wang"
   ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
+  "venue": "ACM Transactions on Graphics",
+  "venue_short": "TOG",
+  "venue_type": "journal",
   "year": 2026,
   "date": "2026-11-19",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.25824v1",
-  "url": "https://arxiv.org/abs/2611.25824v1",
-  "abstract": "Precise forest species mapping using spaceborne hyperspectral data is challenging due to high spectral similarity and the inherent sub-pixel heterogeneity of natural forest stands. While traditional deep learning models exploit spatial context through convolutional architectures, these approaches can introduce noise in fragmented or mixed-species forests. In this paper, we propose a hierarchy-aware, multimodal deep learning framework to resolve sub-pixel forest composition by integrating PRISMA (PRecursore IperSpettrale della Missione Applicativa) hyperspectral imagery, high-resolution panchromatic data, and digital elevation models. The architecture features a multi-branch encoder combining an EfficientNetV2-based one-dimensional convolutional neural network (CNN) for spectral signatures and twin two-dimensional CNNs for spatial and topographic features, coupled with a novel structurally-masked Transformer. By using a binary transition tensor to condition the Transformer slot embeddings and constrain inference, the model enforces taxonomic consistency between broad forest categories and fine-grained species distributions. The framework is validated across three diverse Italian biogeographical regions (the Alps and the Central and Southern Apennines) using field-surveyed plots. The proposed method consistently outperforms state-of-the-art multi-label and ranking-based paradigms, particularly in identifying subordinate species and their relative dominance. The bidirectional learning mechanism allows sub-pixel compositional features to refine macroscopic forest type predictions, while the integration of topographic priors effectively resolves spectral ambiguities in complex terrains. This knowledge-driven method supports regional-scale biodiversity monitoring and forest characterization within the evaluated PRISMA scenarios.",
+  "doi": "10.1145/3859872",
+  "pdf": null,
+  "url": "https://doi.org/10.1145/3859872",
+  "abstract": "The workload of real-time rendering is steeply increasing as the demand for high resolution, high refresh rates, and high realism rises, overwhelming most graphics cards. To mitigate this problem, one of the most popular solutions is to render images at a lower resolution to reduce rendering overhead and then manage to accurately upsample the low-resolution (LR) rendered image to the high-resolution (HR) results, a.k.a. super-resolution techniques. Theoretically, reconstructing a higher-resolution image requires integrating additional information beyond the rendered low-resolution image. Most existing methods predominantly rely on temporal information from low-resolution sources, such as historical frames. However, the temporal information accumulated frame-by-frame is generally too sparse to recover the fine details for high-scale super-resolution. To break the limit, this paper proposes an efficient and effective neural super-resolution method that utilizes non-aligned spatial and temporal information to achieve stable large-scale super-resolution. We introduce low-cost historical and current high-resolution auxiliary G-buffers as additional cues to enhance high-frequency detail reconstruction, spatial coherence, and temporal stability. To efficiently align and fuse various features — including spatial and temporal, low- and high-resolution features — under runtime constraints, we propose several novel technical modules, specifically, an H-Net architecture, a corresponding pixel shuffling and unshuffling layers for aligning low- and high-resolution features in a compact network, and a lightweight temporal feature recurrent module for aggregating HR temporal features. These techniques significantly reduce rendering overhead without noticeable quality deterioration. Experiments demonstrate that our method is able to produce temporally consistent reconstructions in both 4 × 4 and the more challenging 8 × 8 large-scale upsampling tasks at 4K resolution with real-time performance, while delivering substantially improved visual quality, significant performance gains, and remarkable temporal stability compared to existing methods.",
   "citation_count": 0,
   "concepts": [
-   "cs.CV"
+   "Computer science",
+   "Rendering (computer graphics)",
+   "Upsampling"
   ],
-  "arxiv_id": "2611.25824v1",
-  "source": "arxiv",
+  "source": "openalex",
   "topics": [
-   "遥感",
    "计算机视觉",
    "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2611.25822v1",
-  "title": "Limits of local curvature for constructing search subspaces in segmentation models",
+  "id": "arxiv:2611.26455v1",
+  "title": "Tracing Magnetic Helicity in Interplanetary Space. A Multi-Spacecraft Analysis of the 2024 March 23 ICME",
   "authors": [
-   "Maxim Bolshim",
-   "Alexander Kugaevskikh"
+   "Anthony Moulin",
+   "Julia K. Thalmann",
+   "Astrid M. Veronig",
+   "Mateja Dumbović",
+   "Hannah T. Rüdisser",
+   "Emma E. Davies",
+   "Christian Möstl",
+   "Ute V. Amerstorfer"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
@@ -134,114 +250,19 @@
   "year": 2026,
   "date": "2026-11-19",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.25822v1",
-  "url": "https://arxiv.org/abs/2611.25822v1",
-  "abstract": "We examine how well subspaces constructed from local curvature represent the change in the gradient update field after a finite step in semantic segmentation models. The local response is the action of the curvature operator on the actual input displacement. In a study of 50 images and two models, we measure the ratio of the loss increase attained in a fixed subspace to that attained in the full space. This ratio decreases as the search radius increases. On ten images from the same sample, we compare the one-dimensional subspace spanned by the initial gradient with two rank-16 subspaces for both models. The two equal-rank subspaces are assessed at the same initial states, using the same actual steps and measured vectors. Adding generalised Gauss-Newton directions to the initial gradient reduces the mean relative error in representing the field change from 0.922 to 0.874 for the first model and from 0.819 to 0.763 for the second. At the same rank, including the response direction for the initial gradient nearly eliminates the error in representing the local response. The mean error in representing the field change does not decrease. A decomposition with fixed pixel weights shows that the finite-step remainder is comparable in norm to the field change and makes the largest diagonal contribution to the squared projection error of the field after the step. Evaluation of a search subspace should measure how accurately it represents the field change and the local response.",
+  "pdf": "https://arxiv.org/pdf/2611.26455v1",
+  "url": "https://arxiv.org/abs/2611.26455v1",
+  "abstract": "We study the evolution of the magnetic helicity content of an ICME event by inferring its magnetic-field-related quantities at different stages between the Sun and Earth using remote sensing and in-situ observations. We study an eruptive X1.1 flare/CME event and its associated ICME originating from NOAA active region (AR) 13614 on 2024 March 23 00:58 UT. Using magnetogram data of the AR during the flaring event, along with non-linear force-free (NLFF) magnetic field modeling, we reconstruct the magnetic field in the solar corona and analyze its magnetic helicity budget. The helicity is also tracked in-situ in the heliosphere using four well radially-aligned spacecraft (Solar Orbiter at 0.39 AU, BepiColombo at 0.58 AU, STEREO-A at 0.96 AU and Wind at 0.99 AU) measuring the ICME magnetic field signature. We use different force-free magnetic field models (Lundquist, Gold-Hoyle) to evaluate the helicity values at each spacecraft. With the Gold-Hoyle-based model (expansion-modified force-free model, 3DCORE), we also reconstruct the ICME and its propagation in the heliosphere. We ultimately compare the results obtained for each model and spacecraft to the values computed in the corona to give a general understanding of how the event's magnetic field evolved. The NLFF modeling of the AR indicates a left-handed (negative helicity) flux rope (FR) positioned along a slightly northeast-southwest axis, in agreement with chromospheric and coronal observations (H-alpha, SDO/AIA), and yields a helicity budget computed of $-2.16\\pm1.32\\times10^{41}~\\text{Mx}^2$. The helicity inferred from in-situ modeling methods reveals values in a similar range ($-2.0\\pm1.0\\times10^{41}~\\text{Mx}^2$), but is highly sensitive to the spacecraft crossing position through the ICME. It appears that the results given by 3DCORE are more consistent between all spacecraft, as well as with the values inferred at the AR.",
   "citation_count": 0,
   "concepts": [
-   "cs.CV",
-   "cs.LG"
+   "astro-ph.SR"
   ],
-  "arxiv_id": "2611.25822v1",
+  "arxiv_id": "2611.26455v1",
   "source": "arxiv",
   "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.25771v1",
-  "title": "Driver Gaze Target Identification via Gaze Estimation and Structured Driving Scene Understanding",
-  "authors": [
-   "Xinze Cao",
-   "Ke Wang",
-   "Deyong Guan",
-   "Yuanquan Li",
-   "Ke Zhang"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-19",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.25771v1",
-  "url": "https://arxiv.org/abs/2611.25771v1",
-  "abstract": "Identifying a driver's gaze target provides object-level information for visual attention monitoring in intelligent vehicles. Gaze-zone classification and continuous attention localization provide limited information about the identity of the attended scene target. This paper proposes a modular framework that identifies object- or region-level gaze targets from synchronized in-cabin driver images and forward-view road images. The framework comprises four components: MFGaze, which combines a Vision Transformer pretrained with a masked autoencoder (MAE) and head-pose conditioning through feature-wise linear modulation (FiLM); panoptic scene understanding, which constructs a structured candidate set; polynomial ridge regression, which maps gaze features to 2D scene-image coordinates through individualized calibration; and entropy-driven target inference, which adaptively fuses boundary-distance geometry with class-level semantic priors. Experiments evaluate the framework using three public gaze datasets, a laboratory test using Cityscapes road scenes and self-collected gaze data, and the Look Both Ways (LBW) dataset. The complete framework achieves an overall Top-1 gaze target identification accuracy of 96.27% in the laboratory experiment. After sequence-specific calibration, it achieves Top-1 accuracies of 79.92% for task-relevant objects and 85.58% for the road class on LBW. MFGaze achieves the lowest mean angular errors among the compared methods, with 4.06$^\\circ$, 4.23$^\\circ$, and 10.52$^\\circ$ on MPIIFaceGaze, ETH-XGaze, and Gaze360, respectively, and demonstrates strong cross-dataset generalization. Sensitivity analyses show stable performance under hyperparameter perturbations. These results support the framework as a source of object-level gaze information for driver monitoring.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.LG"
-  ],
-  "arxiv_id": "2611.25771v1",
-  "source": "arxiv",
-  "topics": [
+   "遥感",
    "计算机视觉",
-   "机器学习",
    "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.25724v1",
-  "title": "Verifying Before Enhancing: Target Evidence Chain Verification for Infrared Small Target Detection",
-  "authors": [
-   "Jiayi Zuo",
-   "Songwei Pei",
-   "Shuhuai Wang",
-   "Yifei Wu",
-   "Shangguang Wang"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-19",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.25724v1",
-  "url": "https://arxiv.org/abs/2611.25724v1",
-  "abstract": "Infrared small target detection is essential for early warning, surveillance, remote sensing, and space-based target perception. However, infrared small targets are typically tiny, weakly textured, and boundary-blurred, making them difficult to distinguish from complex backgrounds. Moreover, target-like background structures can produce salient responses across multiple scales, making response strength alone insufficient for reliable target discrimination. To address this challenge, we propose VBE-UNet, a Target Evidence Chain Verification Network that assesses candidate reliability beyond response magnitude through complementary evidence cues. Specifically, counterfactual background explanation models local target evidence, while joint evidence verification integrates cross-scale support and perturbation-based contribution verification to guide feature recomposition. The resulting reliability estimates guide selective feature refinement, promoting target-relevant responses while reducing unsupported background activations. Extensive experiments on IRSTD-1K, NUDT-SIRST, and NUAA-SIRST demonstrate that VBE-UNet achieves superior detection accuracy and lower false-alarm rates compared with state-of-the-art methods. Ablation studies and evidence reliability analysis further validate the effectiveness of the proposed verification framework.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.AI"
-  ],
-  "arxiv_id": "2611.25724v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.25584v1",
-  "title": "An Explainable and Scalable Hierarchical Tensor Framework for Integrating Multi-Omics and Digital Pathomics",
-  "authors": [
-   "Ahmad Hussein",
-   "Ali Anaissi",
-   "Mukesh Prasad",
-   "Ali Braytee"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-19",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.25584v1",
-  "url": "https://arxiv.org/abs/2611.25584v1",
-  "abstract": "Background: Precision oncology requires integration of heterogeneous molecular and pathology data, yet many fusion models offer limited biologically grounded interpretability and struggle with missing modalities. Methods: We present Hierarchical Interpretable Tensor Fusion (HIT-Fuse), integrating six modalities: somatic copy number variation, DNA methylation, RNA sequencing, microRNA expression, RPPA protein abundance, and vision transformer-derived pathomics across four TCGA cohorts (glioma, lung adenocarcinoma, breast, and kidney cancer). Modality-specific autoencoders compress high-dimensional inputs, followed by two-stage CP tensor decomposition. Missing latent modalities are reconstructed using clinical covariates and observed omics to expand cohorts and retrain downstream models. A mathematical traceback mechanism enables global and local xAI attributions. Results: HIT-Fuse identifies distinct latent subgroups with significant survival stratification in glioma, breast, and kidney cohorts, both with complete and reconstructed modalities. Cohort expansion yields cohort-specific gains, including a 56.4% relative increase in weighted F1 for glioma. Biological validation against DepMap CRISPR screens, miRTarBase and RPPA annotations supports decoded drivers across all four cohorts. Essential gene rates range from 6.2% in glioma to 7.6% in lung cancer; example drivers include ANAPC11, SNRPD1, PLK1 and RPL14. Of decoded miRNAs, 71-92% have miRTarBase regulatory support, while 77-84% of selected genes are covered in DepMap. Conclusions: HIT-Fuse combines hierarchical tensor fusion, missing-modality reconstruction and traceable attributions to support interpretable multi-omics and digital pathology-based cancer prognosis across heterogeneous cohorts.",
-  "citation_count": 0,
-  "concepts": [
-   "q-bio.GN",
-   "cs.AI"
-  ],
-  "arxiv_id": "2611.25584v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
   ],
   "is_own": false
  }
