@@ -1,5 +1,40 @@
 [
  {
+  "id": "openalex:W7134939887",
+  "title": "Temperature and emissivity retrieval from airborne hyperspectral thermal infrared imagery using adaptive continuous piecewise linear modeling with water vapor scaling",
+  "authors": [
+   "Jiani He",
+   "chunlai Li",
+   "Chengyu Liu",
+   "Chengyang Ma",
+   "Menglin Si",
+   "Caixia GAO",
+   "Françoise Nerry",
+   "Zhao-Liang Li"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-20",
+  "doi": "10.1016/j.rse.2026.115795",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115795",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Emissivity",
+   "Hyperspectral imaging",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7155161502",
   "title": "Forest structure types in the southern Amazon Basin are influenced by anthropogenic edges and physiography",
   "authors": [
@@ -33,6 +68,171 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7237070493",
+  "title": "Towards root-zone soil moisture and soil moisture profile measurement from space: A review of P-band radiometry, synthetic aperture radar, and signals-of-opportunity reflectometry",
+  "authors": [
+   "Shen Xiaoji",
+   "Liujun Zhu",
+   "Nan Ye",
+   "Hongtao Shi",
+   "Tengteng Zuo",
+   "Tianyu Cui",
+   "Qiaozhu Ji",
+   "Giovanni Macelloni",
+   "Foad Brakhasi",
+   "Xiaoling Wu",
+   "Di Zhu",
+   "Xiaolong Dong",
+   "Xin Li",
+   "Jeffrey P. Walker"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-20",
+  "doi": "10.1016/j.rse.2026.115755",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115755",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Reflectometry",
+   "Remote sensing",
+   "Moisture"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7237166490",
+  "title": "Bridging multi-source satellite land surface temperature and WRF-simulated diurnal dynamics for reconstructing 1-km hourly near-surface air temperature in complex mountain regions",
+  "authors": [
+   "Xinyao Xie",
+   "Yong Wang",
+   "Wei Zhao",
+   "Gaofei Yin",
+   "Junli Zhao",
+   "Bing Cheng",
+   "Tao Yang",
+   "Jiujiang Wu"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-20",
+  "doi": "10.1016/j.rse.2026.115798",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115798",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Weather Research and Forecasting Model",
+   "Environmental science",
+   "Satellite"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7237188276",
+  "title": "High-resolution benthic composition mapping of Hawaiian coral reefs using imaging spectroscopy",
+  "authors": [
+   "Dominica E. Harrison",
+   "Roberta E. Martin",
+   "Nicholas R. Vaughn",
+   "Gregory P. Asner"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-20",
+  "doi": "10.1016/j.isprsjprs.2026.10.036",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.036",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Benthic zone",
+   "Reef",
+   "Coral reef"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7237264409",
+  "title": "DySegISW: A temporal deep learning framework for the dynamic segmentation of internal solitary waves from geostationary satellite imagery",
+  "authors": [
+   "Longyu Huang",
+   "Han Han",
+   "Jingsong Yang",
+   "Yu Chai"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-20",
+  "doi": "10.1016/j.isprsjprs.2026.11.014",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.014",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Geostationary orbit",
+   "Artificial intelligence"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225416023",
+  "title": "DC-SQEM: Medial Mesh Extraction by Dual Contouring with Spherical Quadric Error Metric",
+  "authors": [
+   "Bingchuan Li",
+   "Ruilong Liu",
+   "Tianhao Hu",
+   "Congyi Zhang",
+   "Ningna Wang",
+   "Junfeng Yao",
+   "Xiaohu Guo"
+  ],
+  "venue": "ACM Transactions on Graphics",
+  "venue_short": "TOG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-20",
+  "doi": "10.1145/3864025",
+  "pdf": null,
+  "url": "https://doi.org/10.1145/3864025",
+  "abstract": "The medial axis , as a compact representation, describes not only the boundary but also the interior of the shape, and has been widely used in analyzing and simplifying shapes. However, approximating feature-preserving medial axis from unstructured data, such as oriented point clouds, remains challenging due to the lack of explicit connectivity and the presence of noise in the source. We propose DC-SQEM, a dual-contouring-based framework that computes medial meshes (an explicit representation of the medial axis) directly from oriented point clouds without relying on watertight manifold surfaces or volumetric structures. With the help of an adaptive octree, our method fits local medial spheres for each cell based on the Spherical Quadric Error Metric (SQEM). We address several long-standing robustness issues in dual-contouring and mesh extraction, including out-of-cell solutions, unstable feature classification, and redundant topological connections. To this end, we introduce virtual nodes, a feature-downgrading strategy, and a geometry-driven topology-aware cleanup procedure, enabling robust SQEM-based medial dual contouring with clean mesh outputs. Unlike prior point-cloud-based methods that produce either only 1D skeletal structures or incomplete medial features, our method preserves sharp geometric features from the input and reconstructs a complete medial structure, including sheets, curves, seams, and junctions. Compared to restricted-power-diagram-based approaches, our algorithm can handle point clouds as input, without having a strong requirement on water-tightness or manifoldness.",
+  "citation_count": 0,
+  "concepts": [
+   "Medial axis",
+   "Robustness (evolution)",
+   "Contouring"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W4404767245",
   "title": "Regional-scale field-level estimation and mapping of tillage practices in areas with crop diversity",
   "authors": [
@@ -53,9 +253,9 @@
   "year": 2026,
   "date": "2026-11-19",
   "doi": "10.1016/j.rse.2026.115781",
-  "pdf": null,
+  "pdf": "https://www.sciencedirect.com/science/article/pii/S0034425726005511/pdf",
   "url": "https://doi.org/10.1016/j.rse.2026.115781",
-  "abstract": "The imperative for sustainable agriculture has led to the promotion of conservation tillage practices, which are critical for maintaining soil health and reducing negative environmental impacts. However, the ability to verify the adoption of these practices at a regional scale and with minimal costs remains a challenge, particularly in regions with diverse crop systems. This study presents a satellite-imagery-based random forest classifier that integrates crop class information and a customized importance weighting technique for field-level, regional-scale mapping of tillage practices in crop-diverse regions. We use eastern Washington State, U.S., with multiple grains, legumes, and canola as a case study. Using 577 field-level ground-truth data points across two counties, the tillage classifier achieved a median overall accuracy of 84%, representing a 15-percentage-point improvement over the baseline median overall accuracy of 69%, driven by the inclusion of crop class and the application of importance weighting. Specific crop classes, including grains, legumes, and canola, showed accuracy improvements of 6, 42, and 13 percentage points, respectively. While the model showed promising results, limitations such as overprediction of no-tillage in non-grain crop classes were identified, pointing to the need for further refinement with additional data. The model was applied to map tillage practices across dryland fields in eastern Washington State for the years 2012, 2017, and 2022, and the predictions were generally congruent with the USDA Census of Agriculture county-level statistics. This research offers a scalable tool for the verification of conservation tillage practice adoption, supporting both regional and global monitoring efforts for sustainable agricultural practices.",
+  "abstract": "The imperative for sustainable agriculture has led to the promotion of conservation tillage practices, which are critical for maintaining soil health and reducing negative environmental impacts. However, the ability to verify the adoption of these practices at a regional scale and with minimal costs remains a challenge, particularly in regions with diverse crop systems. This study presents a satellite-imagery-based random forest classifier that integrates crop class information and a customized importance weighting technique for field-level, regional-scale mapping of tillage practices in crop-diverse regions. We use eastern Washington State, U.S., with multiple grains, legumes, and canola as a case study. Using 577 field-level ground-truth data points across two counties, the tillage classifier achieved a median overall accuracy of 84%, representing a 15 percentage point improvement over the baseline median overall accuracy of 69%, driven by the inclusion of crop class and the application of importance weighting. Specific crop classes, including grains, legumes, and canola, showed accuracy improvements of 6, 42, and 13 percentage points, respectively. While the model showed promising results, limitations such as overprediction of no-tillage in non-grain crop classes were identified, pointing to the need for further refinement with additional data. The model was applied to map tillage practices across dryland fields in eastern Washington State for the years 2012, 2017, and 2022, and the predictions were generally congruent with the USDA Census of Agriculture county-level statistics. This research offers a scalable tool for the verification of conservation tillage practice adoption, supporting both regional and global monitoring efforts for sustainable agricultural practices.",
   "citation_count": 0,
   "concepts": [
    "Tillage",
@@ -65,204 +265,6 @@
   "source": "openalex",
   "topics": [
    "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7236592003",
-  "title": "Unsupervised unified thin cloud removal via physics-based decoupling and infrared-assisted adversarial learning",
-  "authors": [
-   "Hang Fu",
-   "Baojie Shao",
-   "Genyun Sun",
-   "Aizhu Zhang",
-   "Wenjuan Zhang",
-   "Mingming Jia",
-   "Haiyong Zheng"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-19",
-  "doi": "10.1016/j.isprsjprs.2026.10.026",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.026",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Cloud computing",
-   "Computer science",
-   "Thin client"
-  ],
-  "source": "openalex",
-  "topics": [
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7134818291",
-  "title": "Human–AI Divergence in Ego-Centric Action Recognition Under Spatial and Spatiotemporal Manipulations",
-  "authors": [
-   "Sadegh Rahmaniboldaji",
-   "Filip Rybansky",
-   "Quoc C. Vuong",
-   "Anya C. Hurlbert",
-   "Frank Guérin",
-   "Andrew Gilbert"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-19",
-  "doi": "10.1007/s11263-026-03077-7",
-  "pdf": "https://link.springer.com/content/pdf/10.1007/s11263-026-03077-7.pdf",
-  "url": "https://doi.org/10.1007/s11263-026-03077-7",
-  "abstract": "Humans consistently outperform state-of-the-art AI models in action recognition, particularly in challenging real-world conditions involving low resolution, occlusion, and visual clutter.e those utilised by humans Understanding the sources of this performance gap is essential for developing more robust and human-aligned models. In this paper, we present a large-scale human AI comparative study of egocentric action recognition using human-defined Minimal Identifiable Recognition Crops (MIRCs), defined as the smallest spatial or spatiotemporal regions sufficient for reliable human recognition. We used our previously introduced, Epic-ReduAct, a systematically spatially reduced and temporally scrambled dataset derived from 36 EPIC-KITCHENS videos, spanning multiple spatial reduction levels and temporal conditions. Recognition performance is evaluated using over 3,000 human participants, Side4Video, and Qwen 3.5 9B models. Our analysis combines quantitative metrics, Average Reduction Rate and Recognition Gap, with qualitative analyses of spatial (high-, mid-, and low-level visual features) and spatiotemporal factors, including a categorisation of actions into Low Temporal Actions (LTA) and High Temporal Actions (HTA). Results show that human performance exhibits sharp declines when transitioning from MIRCs to sub-MIRCs, reflecting a strong reliance on sparse, semantically critical cues such as hand object interactions. In contrast, the model degrades more gradually and often relies on contextual and mid- to low-level features, sometimes even exhibiting increased confidence under spatial reduction. Temporally, humans remain robust to scrambling when key spatial cues are preserved, whereas the model often shows insensitivity to temporal disruption, revealing class-dependent temporal sensitivities. Overall, our findings demonstrate that strong benchmark performance can obscure fundamental human AI misalignment and highlight limitations in current spatial and spatiotemporal representations, suggesting concrete directions for more efficient and human-aligned action recognition systems.",
-  "citation_count": 0,
-  "concepts": [
-   "Artificial intelligence",
-   "Computer science",
-   "Action recognition"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7236073877",
-  "title": "GRAIL: Granularity Adaptive Representation for Class-Incremental Learning with Granular-Ball",
-  "authors": [
-   "Fankang Xu",
-   "Lu Jin",
-   "Wenbin Qian",
-   "Yanpeng Sun",
-   "Zechao Li"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-19",
-  "doi": "10.1007/s11263-026-03091-9",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03091-9",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Granularity",
-   "Artificial intelligence",
-   "Computer science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7236725455",
-  "title": "APEX: Exploiting Anatomical and Pathological Insights for Context-Aware Gaze Estimation",
-  "authors": [
-   "Shaonan Liu",
-   "Jie Liu",
-   "Jia Long",
-   "Zhuoru Wu",
-   "Leilei Zeng",
-   "Xiaoling Luo",
-   "Wenting Chen",
-   "Linlin Shen"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-19",
-  "doi": "10.1007/s11263-026-03127-0",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03127-0",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Gaze",
-   "Artificial intelligence",
-   "Computer science"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7236852030",
-  "title": "FuseSR+: Spatial-Temporal Fusion for High-Scale Super-Resolution",
-  "authors": [
-   "Yuchi Huo",
-   "Suiliang Mai",
-   "Chuankun Zheng",
-   "Tian Xie",
-   "Weijia Xue",
-   "Jingsen Zhu",
-   "Shi Li",
-   "Rui Wang"
-  ],
-  "venue": "ACM Transactions on Graphics",
-  "venue_short": "TOG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-19",
-  "doi": "10.1145/3859872",
-  "pdf": null,
-  "url": "https://doi.org/10.1145/3859872",
-  "abstract": "The workload of real-time rendering is steeply increasing as the demand for high resolution, high refresh rates, and high realism rises, overwhelming most graphics cards. To mitigate this problem, one of the most popular solutions is to render images at a lower resolution to reduce rendering overhead and then manage to accurately upsample the low-resolution (LR) rendered image to the high-resolution (HR) results, a.k.a. super-resolution techniques. Theoretically, reconstructing a higher-resolution image requires integrating additional information beyond the rendered low-resolution image. Most existing methods predominantly rely on temporal information from low-resolution sources, such as historical frames. However, the temporal information accumulated frame-by-frame is generally too sparse to recover the fine details for high-scale super-resolution. To break the limit, this paper proposes an efficient and effective neural super-resolution method that utilizes non-aligned spatial and temporal information to achieve stable large-scale super-resolution. We introduce low-cost historical and current high-resolution auxiliary G-buffers as additional cues to enhance high-frequency detail reconstruction, spatial coherence, and temporal stability. To efficiently align and fuse various features — including spatial and temporal, low- and high-resolution features — under runtime constraints, we propose several novel technical modules, specifically, an H-Net architecture, a corresponding pixel shuffling and unshuffling layers for aligning low- and high-resolution features in a compact network, and a lightweight temporal feature recurrent module for aggregating HR temporal features. These techniques significantly reduce rendering overhead without noticeable quality deterioration. Experiments demonstrate that our method is able to produce temporally consistent reconstructions in both 4 × 4 and the more challenging 8 × 8 large-scale upsampling tasks at 4K resolution with real-time performance, while delivering substantially improved visual quality, significant performance gains, and remarkable temporal stability compared to existing methods.",
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Rendering (computer graphics)",
-   "Upsampling"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.26455v1",
-  "title": "Tracing Magnetic Helicity in Interplanetary Space. A Multi-Spacecraft Analysis of the 2024 March 23 ICME",
-  "authors": [
-   "Anthony Moulin",
-   "Julia K. Thalmann",
-   "Astrid M. Veronig",
-   "Mateja Dumbović",
-   "Hannah T. Rüdisser",
-   "Emma E. Davies",
-   "Christian Möstl",
-   "Ute V. Amerstorfer"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-19",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.26455v1",
-  "url": "https://arxiv.org/abs/2611.26455v1",
-  "abstract": "We study the evolution of the magnetic helicity content of an ICME event by inferring its magnetic-field-related quantities at different stages between the Sun and Earth using remote sensing and in-situ observations. We study an eruptive X1.1 flare/CME event and its associated ICME originating from NOAA active region (AR) 13614 on 2024 March 23 00:58 UT. Using magnetogram data of the AR during the flaring event, along with non-linear force-free (NLFF) magnetic field modeling, we reconstruct the magnetic field in the solar corona and analyze its magnetic helicity budget. The helicity is also tracked in-situ in the heliosphere using four well radially-aligned spacecraft (Solar Orbiter at 0.39 AU, BepiColombo at 0.58 AU, STEREO-A at 0.96 AU and Wind at 0.99 AU) measuring the ICME magnetic field signature. We use different force-free magnetic field models (Lundquist, Gold-Hoyle) to evaluate the helicity values at each spacecraft. With the Gold-Hoyle-based model (expansion-modified force-free model, 3DCORE), we also reconstruct the ICME and its propagation in the heliosphere. We ultimately compare the results obtained for each model and spacecraft to the values computed in the corona to give a general understanding of how the event's magnetic field evolved. The NLFF modeling of the AR indicates a left-handed (negative helicity) flux rope (FR) positioned along a slightly northeast-southwest axis, in agreement with chromospheric and coronal observations (H-alpha, SDO/AIA), and yields a helicity budget computed of $-2.16\\pm1.32\\times10^{41}~\\text{Mx}^2$. The helicity inferred from in-situ modeling methods reveals values in a similar range ($-2.0\\pm1.0\\times10^{41}~\\text{Mx}^2$), but is highly sensitive to the spacecraft crossing position through the ICME. It appears that the results given by 3DCORE are more consistent between all spacecraft, as well as with the values inferred at the AR.",
-  "citation_count": 0,
-  "concepts": [
-   "astro-ph.SR"
-  ],
-  "arxiv_id": "2611.26455v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "三维与几何"
   ],
   "is_own": false
  }

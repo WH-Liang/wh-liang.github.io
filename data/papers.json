@@ -1,5 +1,40 @@
 [
  {
+  "id": "openalex:W7134939887",
+  "title": "Temperature and emissivity retrieval from airborne hyperspectral thermal infrared imagery using adaptive continuous piecewise linear modeling with water vapor scaling",
+  "authors": [
+   "Jiani He",
+   "chunlai Li",
+   "Chengyu Liu",
+   "Chengyang Ma",
+   "Menglin Si",
+   "Caixia GAO",
+   "Françoise Nerry",
+   "Zhao-Liang Li"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-20",
+  "doi": "10.1016/j.rse.2026.115795",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115795",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Emissivity",
+   "Hyperspectral imaging",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7155161502",
   "title": "Forest structure types in the southern Amazon Basin are influenced by anthropogenic edges and physiography",
   "authors": [
@@ -33,6 +68,171 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7237070493",
+  "title": "Towards root-zone soil moisture and soil moisture profile measurement from space: A review of P-band radiometry, synthetic aperture radar, and signals-of-opportunity reflectometry",
+  "authors": [
+   "Shen Xiaoji",
+   "Liujun Zhu",
+   "Nan Ye",
+   "Hongtao Shi",
+   "Tengteng Zuo",
+   "Tianyu Cui",
+   "Qiaozhu Ji",
+   "Giovanni Macelloni",
+   "Foad Brakhasi",
+   "Xiaoling Wu",
+   "Di Zhu",
+   "Xiaolong Dong",
+   "Xin Li",
+   "Jeffrey P. Walker"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-20",
+  "doi": "10.1016/j.rse.2026.115755",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115755",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Reflectometry",
+   "Remote sensing",
+   "Moisture"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7237166490",
+  "title": "Bridging multi-source satellite land surface temperature and WRF-simulated diurnal dynamics for reconstructing 1-km hourly near-surface air temperature in complex mountain regions",
+  "authors": [
+   "Xinyao Xie",
+   "Yong Wang",
+   "Wei Zhao",
+   "Gaofei Yin",
+   "Junli Zhao",
+   "Bing Cheng",
+   "Tao Yang",
+   "Jiujiang Wu"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-20",
+  "doi": "10.1016/j.rse.2026.115798",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115798",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Weather Research and Forecasting Model",
+   "Environmental science",
+   "Satellite"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7237188276",
+  "title": "High-resolution benthic composition mapping of Hawaiian coral reefs using imaging spectroscopy",
+  "authors": [
+   "Dominica E. Harrison",
+   "Roberta E. Martin",
+   "Nicholas R. Vaughn",
+   "Gregory P. Asner"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-20",
+  "doi": "10.1016/j.isprsjprs.2026.10.036",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.036",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Benthic zone",
+   "Reef",
+   "Coral reef"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7237264409",
+  "title": "DySegISW: A temporal deep learning framework for the dynamic segmentation of internal solitary waves from geostationary satellite imagery",
+  "authors": [
+   "Longyu Huang",
+   "Han Han",
+   "Jingsong Yang",
+   "Yu Chai"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-20",
+  "doi": "10.1016/j.isprsjprs.2026.11.014",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.014",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Geostationary orbit",
+   "Artificial intelligence"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7225416023",
+  "title": "DC-SQEM: Medial Mesh Extraction by Dual Contouring with Spherical Quadric Error Metric",
+  "authors": [
+   "Bingchuan Li",
+   "Ruilong Liu",
+   "Tianhao Hu",
+   "Congyi Zhang",
+   "Ningna Wang",
+   "Junfeng Yao",
+   "Xiaohu Guo"
+  ],
+  "venue": "ACM Transactions on Graphics",
+  "venue_short": "TOG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-20",
+  "doi": "10.1145/3864025",
+  "pdf": null,
+  "url": "https://doi.org/10.1145/3864025",
+  "abstract": "The medial axis , as a compact representation, describes not only the boundary but also the interior of the shape, and has been widely used in analyzing and simplifying shapes. However, approximating feature-preserving medial axis from unstructured data, such as oriented point clouds, remains challenging due to the lack of explicit connectivity and the presence of noise in the source. We propose DC-SQEM, a dual-contouring-based framework that computes medial meshes (an explicit representation of the medial axis) directly from oriented point clouds without relying on watertight manifold surfaces or volumetric structures. With the help of an adaptive octree, our method fits local medial spheres for each cell based on the Spherical Quadric Error Metric (SQEM). We address several long-standing robustness issues in dual-contouring and mesh extraction, including out-of-cell solutions, unstable feature classification, and redundant topological connections. To this end, we introduce virtual nodes, a feature-downgrading strategy, and a geometry-driven topology-aware cleanup procedure, enabling robust SQEM-based medial dual contouring with clean mesh outputs. Unlike prior point-cloud-based methods that produce either only 1D skeletal structures or incomplete medial features, our method preserves sharp geometric features from the input and reconstructs a complete medial structure, including sheets, curves, seams, and junctions. Compared to restricted-power-diagram-based approaches, our algorithm can handle point clouds as input, without having a strong requirement on water-tightness or manifoldness.",
+  "citation_count": 0,
+  "concepts": [
+   "Medial axis",
+   "Robustness (evolution)",
+   "Contouring"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W4404767245",
   "title": "Regional-scale field-level estimation and mapping of tillage practices in areas with crop diversity",
   "authors": [
@@ -53,9 +253,9 @@
   "year": 2026,
   "date": "2026-11-19",
   "doi": "10.1016/j.rse.2026.115781",
-  "pdf": null,
+  "pdf": "https://www.sciencedirect.com/science/article/pii/S0034425726005511/pdf",
   "url": "https://doi.org/10.1016/j.rse.2026.115781",
-  "abstract": "The imperative for sustainable agriculture has led to the promotion of conservation tillage practices, which are critical for maintaining soil health and reducing negative environmental impacts. However, the ability to verify the adoption of these practices at a regional scale and with minimal costs remains a challenge, particularly in regions with diverse crop systems. This study presents a satellite-imagery-based random forest classifier that integrates crop class information and a customized importance weighting technique for field-level, regional-scale mapping of tillage practices in crop-diverse regions. We use eastern Washington State, U.S., with multiple grains, legumes, and canola as a case study. Using 577 field-level ground-truth data points across two counties, the tillage classifier achieved a median overall accuracy of 84%, representing a 15-percentage-point improvement over the baseline median overall accuracy of 69%, driven by the inclusion of crop class and the application of importance weighting. Specific crop classes, including grains, legumes, and canola, showed accuracy improvements of 6, 42, and 13 percentage points, respectively. While the model showed promising results, limitations such as overprediction of no-tillage in non-grain crop classes were identified, pointing to the need for further refinement with additional data. The model was applied to map tillage practices across dryland fields in eastern Washington State for the years 2012, 2017, and 2022, and the predictions were generally congruent with the USDA Census of Agriculture county-level statistics. This research offers a scalable tool for the verification of conservation tillage practice adoption, supporting both regional and global monitoring efforts for sustainable agricultural practices.",
+  "abstract": "The imperative for sustainable agriculture has led to the promotion of conservation tillage practices, which are critical for maintaining soil health and reducing negative environmental impacts. However, the ability to verify the adoption of these practices at a regional scale and with minimal costs remains a challenge, particularly in regions with diverse crop systems. This study presents a satellite-imagery-based random forest classifier that integrates crop class information and a customized importance weighting technique for field-level, regional-scale mapping of tillage practices in crop-diverse regions. We use eastern Washington State, U.S., with multiple grains, legumes, and canola as a case study. Using 577 field-level ground-truth data points across two counties, the tillage classifier achieved a median overall accuracy of 84%, representing a 15 percentage point improvement over the baseline median overall accuracy of 69%, driven by the inclusion of crop class and the application of importance weighting. Specific crop classes, including grains, legumes, and canola, showed accuracy improvements of 6, 42, and 13 percentage points, respectively. While the model showed promising results, limitations such as overprediction of no-tillage in non-grain crop classes were identified, pointing to the need for further refinement with additional data. The model was applied to map tillage practices across dryland fields in eastern Washington State for the years 2012, 2017, and 2022, and the predictions were generally congruent with the USDA Census of Agriculture county-level statistics. This research offers a scalable tool for the verification of conservation tillage practice adoption, supporting both regional and global monitoring efforts for sustainable agricultural practices.",
   "citation_count": 0,
   "concepts": [
    "Tillage",
@@ -197,6 +397,39 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7236607173",
+  "title": "Disentanglement-Guided Multi-Teacher Relational Distillation for Federated Class-Incremental Facial Expression Recognition",
+  "authors": [
+   "Leying Jiang",
+   "Hu Ding",
+   "Chuhang Ke",
+   "Yan Yan",
+   "Rui Zhu",
+   "Hanzi Wang"
+  ],
+  "venue": "IEEE Transactions on Image Processing",
+  "venue_short": "TIP",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-19",
+  "doi": "10.1109/tip.2026.3753090",
+  "pdf": null,
+  "url": "https://doi.org/10.1109/tip.2026.3753090",
+  "abstract": "Conventional facial expression recognition (FER) methods often train the model on large-scale centralized expression data. However, expression data are often distributed across heterogeneous devices and incrementally collected in practice. In this paper, we study a little-studied yet important task named federated class-incremental FER (FCI-FER), which aims to incrementally identify unseen compound expressions with the model initially trained on easily accessible basic expressions under the federated learning settings. To address the unique problems of catastrophic forgetting and heterogeneous disturbances across clients in FCI-FER, we propose a disentanglement-guided multi-teacher relational distillation (DMT-RD) method which follows a novel \"distillation and disentanglement\" paradigm. For local training, we design a multi-teacher hypergraph relational distillation (MTD) module to capture semantic relations between expressions and learn expression features. Meanwhile, we develop a disturbance encoding (DE) module to learn client-specific disturbance information. By minimizing the mutual information (MI) loss between the outputs of the MTD and DE modules, we can achieve feature disentanglement and reduce the negative influence of specific disturbances on local training. For global training, we introduce a multi-teacher learning strategy by clustering historical clients to comprehensively capture client diversity across communication rounds. Our method can effectively preserve old knowledge while learning new compound expressions under federated settings. Extensive experiments demonstrate the effectiveness of our method against several state-of-the-art federated class-incremental learning methods on benchmark datasets.",
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Artificial intelligence",
+   "Pattern recognition (psychology)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7236852030",
   "title": "FuseSR+: Spatial-Temporal Fusion for High-Scale Super-Resolution",
   "authors": [
@@ -215,7 +448,7 @@
   "year": 2026,
   "date": "2026-11-19",
   "doi": "10.1145/3859872",
-  "pdf": null,
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3859872?download=true",
   "url": "https://doi.org/10.1145/3859872",
   "abstract": "The workload of real-time rendering is steeply increasing as the demand for high resolution, high refresh rates, and high realism rises, overwhelming most graphics cards. To mitigate this problem, one of the most popular solutions is to render images at a lower resolution to reduce rendering overhead and then manage to accurately upsample the low-resolution (LR) rendered image to the high-resolution (HR) results, a.k.a. super-resolution techniques. Theoretically, reconstructing a higher-resolution image requires integrating additional information beyond the rendered low-resolution image. Most existing methods predominantly rely on temporal information from low-resolution sources, such as historical frames. However, the temporal information accumulated frame-by-frame is generally too sparse to recover the fine details for high-scale super-resolution. To break the limit, this paper proposes an efficient and effective neural super-resolution method that utilizes non-aligned spatial and temporal information to achieve stable large-scale super-resolution. We introduce low-cost historical and current high-resolution auxiliary G-buffers as additional cues to enhance high-frequency detail reconstruction, spatial coherence, and temporal stability. To efficiently align and fuse various features — including spatial and temporal, low- and high-resolution features — under runtime constraints, we propose several novel technical modules, specifically, an H-Net architecture, a corresponding pixel shuffling and unshuffling layers for aligning low- and high-resolution features in a compact network, and a lightweight temporal feature recurrent module for aggregating HR temporal features. These techniques significantly reduce rendering overhead without noticeable quality deterioration. Experiments demonstrate that our method is able to produce temporally consistent reconstructions in both 4 × 4 and the more challenging 8 × 8 large-scale upsampling tasks at 4K resolution with real-time performance, while delivering substantially improved visual quality, significant performance gains, and remarkable temporal stability compared to existing methods.",
   "citation_count": 0,
@@ -6044,6 +6277,36 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7235952372",
+  "title": "CMvC-Net: A momentum-accelerated deep unfolding network for commonality-complementarity separated multi-view clustering",
+  "authors": [
+   "Renjie Lin",
+   "Shide Du",
+   "Hongzhi He",
+   "Le Zhang"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-18",
+  "doi": "10.1016/j.patcog.2026.115359",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115359",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Cluster analysis",
+   "Computer science",
+   "Entropy (arrow of time)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7236322441",
   "title": "Improved multi-scale dispersion entropy based on weighted natural visibility graph for fault diagnosis",
   "authors": [
@@ -7676,6 +7939,38 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7235788489",
+  "title": "Embedding implicit surfaces into Gaussian splatting for consistent indoor scene reconstruction",
+  "authors": [
+   "Yi Guo",
+   "Zhidan Liu",
+   "Che Sun",
+   "Yuwei Wu",
+   "Yunde Jia"
+  ],
+  "venue": "Pattern Recognition",
+  "venue_short": "Pattern Recogn.",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-17",
+  "doi": "10.1016/j.patcog.2026.115357",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.patcog.2026.115357",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Embedding",
+   "Computer science",
+   "Computer vision"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
   "id": "arxiv:2611.23088v1",
   "title": "Event-Based Person Detection for Maritime UAV Search",
   "authors": [
@@ -8985,7 +9280,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1007/s11263-026-03065-x",
   "abstract": null,
-  "citation_count": 5,
+  "citation_count": 6,
   "concepts": [
    "Computer science",
    "Artificial intelligence",
@@ -10994,69 +11289,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7225824350",
-  "title": "COCO: Conflict-aware Gradient Consistency Learning for cross-modal retrieval with noisy labels",
-  "authors": [
-   "Xin Dai",
-   "Jianhong Huang",
-   "Kaiyan Liao",
-   "Ruitao Pu"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-11",
-  "doi": "10.1016/j.patcog.2026.115323",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115323",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Artificial intelligence",
-   "Computer science",
-   "Pattern recognition (psychology)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225829110",
-  "title": "Hyperbolically guided parameter decoupling diffusion model for all-day adverse weather image restoration",
-  "authors": [
-   "Chen Yang",
-   "Qinxu Gao",
-   "Xinran Wang",
-   "Xiao Chen",
-   "Huiying Li"
-  ],
-  "venue": "Pattern Recognition",
-  "venue_short": "Pattern Recogn.",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-11",
-  "doi": "10.1016/j.patcog.2026.115275",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.patcog.2026.115275",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Decoupling (probability)",
-   "Image restoration",
-   "Computer science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
   "id": "openalex:W7225731133",
   "title": "Reliable deformation estimation of levee systems in low-coherence floodplain environments using a structure-constrained arc network (SCAN) for MT-InSAR",
   "authors": [
@@ -11892,7 +12124,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1145/3842509",
   "abstract": "We ask whether everyday open-world monocular videos can be turned into reusable 4D interaction primitives: articulated hand motion, object shape with 6D pose over time, and the when/where of contact. Such a capability would enable scalable mining of real interactions and, beyond reconstruction, support scene-aware synthesis and planning. However, reconstructing hand-object interaction (HOI) from challenging monocular videos remains difficult: methods often assume known objects or curated scenes, and separately estimated hands and objects easily become misaligned under clutter, occlusion, and unseen object geometries. Targeting this setting, we present Open-CHOIR, an Open-world Contact-aware HOI Reconstruction framework for a monocular camera, using contact as an explicit coupling signal between hands and objects. Open-CHOIR first initializes a coarse, contact-agnostic 4D HOI sequence from open-world visual priors. It then introduces a generative HOI spatial rectification module to predict ray-depth corrections and rectify hand-object relative placement, then derive initial per-frame contact correspondences on the rectified geometry. Last, a contact-aware joint optimization with dynamically updated contact constraints enforces geometric, temporal, and contact consistency. Experiments on controlled and challenging videos show that Open-CHOIR improves object reconstruction, physical plausibility, and temporal consistency over state-of-the-art methods. Code, data, and pretrained weights are available at https://github.com/hxwork/CHOIR.",
-  "citation_count": 6,
+  "citation_count": 7,
   "concepts": [
    "Computer vision",
    "Monocular",
@@ -12308,7 +12540,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1145/3842527",
   "abstract": "Faithfully capturing diverse real-world objects with fuzzy, anisotropic structures—such as hair, fur, fibers, and textiles—for efficient real-time visualization remains challenging. Recent radiance field reconstruction methods capture these structures from multi-view images using translucent volumetric primitives such as 3D Gaussians rather than opaque low-dimensional primitives (e.g., triangles, line segments, and polylines), thereby limiting compatibility with standard depth-tested rasterization, reflection modeling, and physical simulation. We present an inverse rendering method for reconstructing fuzzy geometry using explicit line segments, which are rasterized on a subpixel grid for anti-aliasing to reproduce a semi-transparent appearance. While straightforward to render, optimizing numerous line primitives to match target images poses a significant challenge. We address this by introducing a stochastic differentiable rasterizer for line segments that produces informative gradients with respect to vertex positions, attributes, and discrete connectivity. Experiments on synthetic and real-world datasets show that our method outperforms surface-based approaches in capturing fuzzy boundaries and achieves quality comparable to volumetric representations while relying entirely on explicit geometry. The resulting representation integrates seamlessly with standard graphics pipelines, enabling cross-platform rendering, various shading models, and physical simulation.",
-  "citation_count": 0,
+  "citation_count": 1,
   "concepts": [
    "Computer science",
    "Rendering (computer graphics)",
@@ -12380,7 +12612,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1145/3842528",
   "abstract": "Monocular depth estimation is a ubiquitous yet highly ill-posed computer vision task, with downstream applications in scene reconstruction, computational photography, and robotics, among others. Despite the field's maturity, recent models still struggle to generalize to out-of-distribution inputs and to produce sharp and detailed depth maps. In this paper, we revisit Marigold, a set of techniques for repurposing modern image generation and editing models, powered by the diffusion transformer (DiT) architecture, into state-of-the-art monocular depth estimators. Our recipes target single-step inference from pretrained multi-step flow-matching models, with quantization where needed, preserving model capacity while remaining cheap to run. We analyze the artifacts of naïve training and identify two effective remedies: aligning the model's internal representations with semantic features extracted from ground-truth, and adopting a 2-stage fine-tuning protocol built around a novel Sinkhorn-based loss. The results are crisper, cleaner depth maps that generalize well out-of-distribution, with 16–26% improvement in AbsRel over the previous best on KITTI and ETH3D. Qualitatively, our model resolves fur, foliage, and hair-thin edges that have eluded prior models. Furthermore, Marigold V2 achieves state-of-the-art results when applied to other dense regression tasks, such as surface normals estimation and intrinsic image decomposition. Project website: https://hf.co/spaces/huawei-bayerlab/marigold-v2-web.",
-  "citation_count": 5,
+  "citation_count": 7,
   "concepts": [
    "Monocular",
    "Artificial intelligence",
@@ -12619,44 +12851,6 @@
   "source": "openalex",
   "topics": [
    "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7213613271",
-  "title": "S4R: Scaling for Rigid-Body Interpenetration Resolution",
-  "authors": [
-   "Zhiyang Dou",
-   "Ang Zhao",
-   "Chen Peng",
-   "Minghao Guo",
-   "Haixu Wu",
-   "Cheng Lin",
-   "Yuan Liu",
-   "Junfeng Yao",
-   "Xiaohu Guo",
-   "Wenping Wang",
-   "Wojciech Matusik"
-  ],
-  "venue": "ACM Transactions on Graphics",
-  "venue_short": "TOG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-09",
-  "doi": "10.1145/3842510",
-  "pdf": null,
-  "url": "https://doi.org/10.1145/3842510",
-  "abstract": "Rigid-body interpenetration frequently occurs in procedurally assembled and generated scenes and must be removed before downstream applications such as physical simulation. We present S4R ( S caling for Rigid-Body Interpenetration R esolution), a scale-continuation method for static interpenetration repair. S4R first uniformly shrinks each body about a fixed reference center to a small initial scale, at which the layout is penetration-free, and then restores full scale through a sequence of minimum-norm convex contact quadratic programs (QPs) that target the linearized separation margin during continuation. Resolution thereby replaces one deep correction with a sequence of shallow-contact subproblems. A conservative scale-event bound and frozen-witness gap predictions cut the number of exact mesh queries; the continuation then ends with a full-scale evaluator check and bounded tail refinement. We evaluate S4R on Kubric [Greff et al. 2022], HY3D-Bench [Team Hunyuan3D et al. 2026], and Thingi10K [Zhou and Jacobson 2016] using a shared mesh-level evaluator and a unified per-scene timing protocol. In the main comparisons on all three benchmarks, up to N =5000 bodies, S4R reaches zero reported penetration with displacement that stays small and nearly independent of scene size, and at the lowest wall time within each hardware tier among the compared methods. A GPU implementation extends these results to large-scale scenes. Our code and data can be found on our project page: https://frank-zy-dou.github.io/projects/S4R/index.html.",
-  "citation_count": 0,
-  "concepts": [
-   "Scaling",
-   "Bounded function",
-   "Algorithm"
-  ],
-  "source": "openalex",
-  "topics": [
-   "机器学习",
-   "三维与几何"
   ],
   "is_own": false
  },
@@ -14087,7 +14281,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tpami.2026.3750238",
   "abstract": "We introduce Helios, the first 14B video generation model that runs at 19.5 FPS on a single NVIDIA H100 GPU and supports minute-scale generation while matching the quality of a strong baseline. We make breakthroughs along three key dimensions: (1) robustness to long-video drifting without commonly used anti-drifting heuristics such as self-forcing, errorbanks, or keyframe sampling; (2) real-time generation without standard acceleration techniques such as KV-cache, sparse/linear attention, or quantization; and (3) training without parallelism or sharding frameworks, enabling image-diffusion-scale batch sizes while fitting up to four 14B models within 80 GB of GPU memory. Specifically, Helios is a 14B autoregressive diffusion model with a unified input representation that natively supports T2V, I2V, and V2V tasks. To mitigate drifting in long-video generation, we characterize typical failure modes and propose simple yet effective training strategies that explicitly simulate drifting during training, while eliminating repetitive motion at its source. For efficiency, we heavily compress the historical and noisy context and reduce the number of sampling steps, yielding computational costs comparable to or even lower than those of 1.3B video generative models. Moreover, we introduce infrastructure-level optimizations that accelerate both inference and training while reducing memory consumption. Extensive experiments demonstrate that Helios consistently outperforms prior methods on both short- and long-video generation. We release the training and inference code and model checkpoints to support further development by the community.",
-  "citation_count": 80,
+  "citation_count": 81,
   "concepts": [
    "Computer science",
    "Robustness (evolution)",
@@ -14270,6 +14464,39 @@
   "is_own": false
  },
  {
+  "id": "openalex:W7237052262",
+  "title": "Corrigendum to ‘Arctic ice-wedge landscape mapping by CNN using a fusion of Radarsat constellation Mission and ArcticDEM’ [Remote Sens. Environ. 304 (2024) 114052]",
+  "authors": [
+   "Michael Merchant",
+   "Laura Bourgeau-Chavez",
+   "Masoud Mahdianpari",
+   "Brian Brisco",
+   "Mayah Obadia",
+   "Ben DeVries",
+   "Aaron Berg"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-01",
+  "doi": "10.1016/j.rse.2026.115780",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115780",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Constellation",
+   "Remote sensing",
+   "Fusion"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7224995256",
   "title": "LD-AtlasLoc: Long-distance monocular aerial image localization with geo-referenced sparse maps under GNSS-degraded and appearance-changing conditions",
   "authors": [
@@ -14358,7 +14585,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1016/j.jag.2026.105657",
   "abstract": "Forest health is increasingly threatened by global warming and recurrent droughts. However, limited long-term data on tree health and mortality restricts our ability to detect trends and predict forest responses to climate stressors. Traditional methods for assessing tree defoliation are accurate but costly and labor-intensive, highlighting the need for scalable alternatives. This study aims to develop a more automated approach for monitoring tree defoliation and mortality in Germany and Switzerland using deep learning applied to freely available aerial imagery. We assessed crown vitality using three and four defoliation classes derived from field surveys. A Convolutional Neural Network (CNN) was trained on 48,388 annotated tree crowns from aerial imagery, labeled with forest type and defoliation status. RGB and NDVI-GB inputs were tested using five-fold and spatial-block cross-validation to ensure robustness. The three-class model outperformed the four-class CNN object detection version. RGB and NDVI-GB bands produced similar results in the three-class setup, with F1-scores of 0.74 and 0.73, respectively. Defoliated trees were more challenging to detect (F1-conifer: 0.61, F1-broadleaf: 0.54). Dead trees were detected with high accuracy (F1-score: 0.97), while healthy trees also showed good performance (F1-conifer: 0.78, F1-broadleaf: 0.73). Repeated aerial imagery revealed a 17-fold increase in standing dead trees across a 977-ha protected forest between 2014 (1,062 trees) and 2022 (17,897 trees), with 90 % of the increase after 2018. This study demonstrates that RGB imagery alone is sufficient for operational, tree-level monitoring of both defoliation and mortality over time. As more countries acquire repeated aerial imagery, this study offers broad applicability and supports forest inventories and resilient management strategies.",
-  "citation_count": 3,
+  "citation_count": 4,
   "concepts": [
    "Aerial imagery",
    "Temperate rainforest",
@@ -15915,74 +16142,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7223817276",
-  "title": "GeoSAM: Geometry-guided semantic alignment and saliency-aware state space model for generalizable cross-modal image matching",
-  "authors": [
-   "Zhizheng Zhang",
-   "Ruixuan Jiang",
-   "Pengcheng Wei",
-   "Zijuan Li",
-   "Jindou Zhang",
-   "Rui Cao",
-   "Meng Yang",
-   "Zhenfeng Shao",
-   "Jiayi Ma",
-   "Deren Li"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-27",
-  "doi": "10.1016/j.isprsjprs.2026.10.034",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.034",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Artificial intelligence",
-   "Computer science",
-   "Discriminative model"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7223832540",
-  "title": "A hierarchical geometric calibration framework with radial velocity constraints for high-altitude UAV-borne SAR",
-  "authors": [
-   "Yaobing Xiang",
-   "Yuli Sun",
-   "Lin Lei",
-   "Kefeng Ji",
-   "Gangyao Kuang"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-27",
-  "doi": "10.1016/j.isprsjprs.2026.10.016",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.016",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Geolocation",
-   "Azimuth",
-   "Computer science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
   "id": "openalex:W7223661197",
   "title": "Remote sensing of lake surface water temperature reveals divergent hydroclimatic associations with lake ice phenology across China",
   "authors": [
@@ -16633,35 +16792,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7223318688",
-  "title": "Continental-scale Sentinel-1 InSAR deformation rate mosaics of central North America",
-  "authors": [
-   "Sergey Samsonov",
-   "Kristy French Tiampo"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-23",
-  "doi": "10.1016/j.rse.2026.115721",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115721",
-  "abstract": "Ground deformation driven by natural and anthropogenic processes poses significant risks to infrastructure and public safety. Although many regions have been studied, large areas remain poorly characterized because they are remote, sparsely populated, or not expected to experience deformation. Nevertheless, unrecognized natural and anthropogenic processes can produce substantial ground deformation. Interferometric Synthetic Aperture Radar (InSAR) provides high-resolution, high-precision measurements and enables systematic, cost-effective monitoring over large areas. Here, we present continental-scale ground deformation rate mosaics over central North America, covering the contiguous United States together with adjacent parts of southern Canada and northern Mexico, derived from over 77,000 Sentinel-1 SAR images acquired between 2014 and 2026. The dataset includes both ascending and descending acquisitions, organized into 522 frames and processed using a fully automated workflow and the Multidimensional Small Baseline Subset (MSBAS) software for time-series analysis. Atmospheric phase delays were corrected using a power-law model that also removed long-wavelength signals ( > 20 km), which improved the precision of the remaining short-wavelength signals and placed the resulting rates in a distributed local reference frame. Four mosaics were generated: ascending and descending line-of-sight, and horizontal east-west and vertical deformation components, with corresponding standard error estimates. The high-pass-filtered mosaics, produced at 40 m spatial resolution, reveal spatially coherent deformation patterns, with mean standard errors between 8.9 and 12.6 mm/yr. Temporal coverage is spatially nonuniform, and some signals may reflect processes other than ground deformation. Nonetheless, these products are valuable for identifying new areas of potential concern and guiding site-specific investigations. Several illustrative examples are provided to demonstrate the broad range of detected signals. All datasets are publicly available on Mendeley Data and are expected to support scientific research and regulatory applications.",
-  "citation_count": 0,
-  "concepts": [
-   "Interferometric synthetic aperture radar",
-   "Geology",
-   "Remote sensing"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感",
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
   "id": "openalex:W7223361289",
   "title": "Enhancing soil property retrieval in an Ali-Perudic Argosols–dominated region through multi-angle hyperspectral feature integration",
   "authors": [
@@ -17062,38 +17192,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7147625698",
-  "title": "30-meter land surface temperature from Landsat via progressive self-training downscaling",
-  "authors": [
-   "Huanfeng Shen",
-   "Chan Li",
-   "Menghui Jiang",
-   "Penghai Wu",
-   "Guanhao Zhang",
-   "Tian Xie"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-21",
-  "doi": "10.1016/j.rse.2026.115732",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115732",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Downscaling",
-   "Remote sensing",
-   "Environmental science"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
   "id": "openalex:W7223102960",
   "title": "An interpretable DM-PINN for retrieving mangrove canopy carbon, nitrogen, and potassium contents using Sentinel-2 and SDGSAT-1 observations along China's southeastern coast",
   "authors": [
@@ -17164,34 +17262,6 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7223016335",
-  "title": "Dust aerosol properties and radiative effects over the global oceans from synergistic spaceborne observations and modeling",
-  "authors": [
-   "Dongchen Li",
-   "Ping Yang",
-   "Yuan Wang",
-   "Sonia M. Kreidenweis"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-20",
-  "doi": "10.1016/j.rse.2026.115745",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115745",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Radiative transfer",
-   "Environmental science",
-   "Aerosol"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
   "id": "openalex:W7162667296",
   "title": "Reconstructing multi-temporal Glacier area changes to improve mass balance estimates in the Southeastern Tibetan Plateau (2000–2025)",
   "authors": [
@@ -17220,38 +17290,6 @@
   "topics": [
    "遥感",
    "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7222941146",
-  "title": "A CNN-based mapping approach for aeolian dunes in Arctic Sweden",
-  "authors": [
-   "Ting Liu",
-   "Melanie A. Stammler",
-   "Yangwei Jiang",
-   "Daniel D. Hölbling",
-   "Thomas Stevens",
-   "Linshu Hu"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-10-19",
-  "doi": "10.1016/j.rse.2026.115742",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115742",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Digital elevation model",
-   "Remote sensing",
-   "Aeolian processes"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
   ],
   "is_own": false
  },
@@ -17782,7 +17820,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tgrs.2026.3737690",
   "abstract": "Driven by practical demands in land resource monitoring and national defense security, this paper introduces the Remote Sensing Copy-Move Question Answering (RSCMQA) task. Unlike traditional Remote Sensing Visual Question Answering (RSVQA), RSCMQA focuses on interpreting complex tampering scenarios and inferring relationships between objects. We present a suite of global RSCMQA datasets, comprising images from 29 different regions across 14 countries. Specifically, we propose five distinct datasets, including the basic dataset RS-CMQA, the category-balanced dataset RS-CMQA-B, the high-authenticity dataset Real-RSCM, the extended dataset RS-TQA, and the extended category-balanced dataset RS-TQA-B. These datasets fill a critical gap in the field while ensuring comprehensiveness, balance, and challenging scenarios. Furthermore, we introduce a region-discrimination-guided multimodal copy-move forgery perception framework (CMFPF), which enhances the accuracy of answering questions about tampered images by leveraging prompts about the differences and connections between the source and tampered regions. Extensive experiments demonstrate that our method establishes a stronger benchmark for RSCMQA compared to general VQA and RSVQA models. Our datasets and code are publicly available at https://github.com/shenyedepisa/RSCMQA.",
-  "citation_count": 4,
+  "citation_count": 5,
   "concepts": [
    "Question answering",
    "Computer science",
@@ -17801,7 +17839,7 @@
   "title": "Hardware-in-the-Loop Simulation Testbed for Geomagnetic Navigation",
   "authors": [
    "Songnan Yang",
-   "Shiliang Zhang",
+   "Xiaohui Zhang",
    "Shiliang Zhang",
    "Qianyun Zhang",
    "Xuehui Ma",
@@ -18240,7 +18278,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tgrs.2026.3688410",
   "abstract": "Early analysis of BIOMASS interferometric data acquired during the commissioning phase at Boreal and Antarctic latitudes revealed the presence of strong ionospheric disturbances that cause severe coherence losses. This phenomenon was investigated by studying the variation of the interferometric phase with respect to the squint angle. Results are consistent with the assumption of a complex vertical structure of the ionospheric phase, characterized by fast azimuth variations occurring at Km or sub-Km scale at multiple layers between the ground and the satellite orbit. To the best of our knowledge this phenomenon has never been considered in Synthetic Aperture Radar literature. This paper is therefore intended to present and discuss the results of our investigation on suitable correction methods needed to guarantee the generation of accurate geophysical products from BIOMASS interferometric data. The starting point of our analysis is a multi-layered model of the ionospheric phase as observed by varying the Radar Line of Sight (LoS) across different squint angles. The model is analyzed from a theoretical perspective to discuss the sensitivity of BIOMASS to ionospheric layering. Next, an inversion procedure is presented to estimate the ionospheric phase at an arbitrary number of layers directly from the complex coherence. The third element of our research consists in the formulation of correction methods to restore data quality given the estimated single-or multi-layer ionospheric phase. All aspects of the research are consistently supported by analysis of BIOMASS interferometric data acquired at different latitudes and affected by mild to very strong ionospheric disturbances. Results demonstrate that the methodologies presented in this paper are capable of compensating for the observed ionospheric effects in all cases analyzed so far.",
-  "citation_count": 2,
+  "citation_count": 3,
   "concepts": [
    "Ionosphere",
    "Environmental science",
@@ -18674,7 +18712,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tgrs.2026.3663235",
   "abstract": "The extensive application of unmanned aerial vehicles (UAVs) in military reconnaissance, environmental monitoring, and related domains has created an urgent need for accurate and efficient multi-object tracking (MOT) technologies, which are also essential for UAV situational awareness. However, complex backgrounds, small-scale targets, and frequent occlusions and interactions continue to challenge existing methods in terms of detection accuracy and trajectory continuity. To address these issues, this paper proposes the Global-Local Detection and Tracking (GL-DT) framework. It employs a Spatio-Temporal Feature Fusion (STFF) module to jointly model motion and appearance features, combined with a global-local collaborative detection strategy, effectively enhancing small-target detection. Building upon this, the JPTrack tracking algorithm is introduced to mitigate common issues such as ID switches and trajectory fragmentation. Experimental results demonstrate that the proposed approach significantly improves the continuity and stability of MOT while maintaining real-time performance, providing strong support for the advancement of UAV detection and tracking technologies.",
-  "citation_count": 8,
+  "citation_count": 9,
   "concepts": [
    "Computer science",
    "Trajectory",
@@ -18867,7 +18905,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tgrs.2026.3752913",
   "abstract": "Infrared small target detection remains challenging due to limited feature representation and severe background interference, resulting in sub-optimal performance. While recent CLIP-inspired methods attempt to leverage textual guidance for detection, they are hindered by inaccurate text descriptions and reliance on manual annotations. To overcome these limitations, we propose DGSPNet, an end-to-end language promptdriven framework. Our approach integrates dual-granularity semantic prompts: coarse-grained textual priors (e.g., “infrared image”, “small target”) and fine-grained personalized semantic descriptions derived through visual-to-textual mapping within the image space. This design not only facilitates learning fine-grained semantic information but also can inherently leverage language prompts during inference without relying on any annotation requirements. By fully leveraging the precision and conciseness of text descriptions, we further introduce a text-guided channel attention (TGCA) mechanism and text-guided spatial attention (TGSA) mechanism that enhance the model’s sensitivity to potential targets across both low- and high-level feature spaces. Extensive experiments on IRSTD-1K, NUDTSIRST, and NUAA-SIRST datasets demonstrate that our method significantly improves detection accuracy and achieves state-of-the-art performance on these benchmarks.",
-  "citation_count": 2,
+  "citation_count": 3,
   "concepts": [
    "Computer science",
    "Leverage (statistics)",
@@ -19918,7 +19956,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/lgrs.2026.3652415",
   "abstract": "Polarimetric target decomposition is fundamental for interpreting scattering mechanisms in polarimetric synthetic aperture radar (PolSAR) imagery. However, existing model-based methods often overestimate volume scattering, exhibit coupling between surface and double-bounce components, and yield unstable results on high-resolution airborne data, particularly for man-made vehicle targets, hindering accurate characterization. This letter proposes a novel four-component decomposition method designed for high-resolution airborne PolSAR imagery. Building upon the classical modeling of volume and helix scattering, two physically extended components are incorporated: an extended surface scattering model and an extended double-bounce scattering model. The former employs a rotated dipole to describe surface polarization anisotropy beyond ideal single-bounce assumptions, while the latter incorporates a rotated quarter-wave mechanism to characterize amplitude–phase inconsistencies neglected in conventional dihedral models. Experiments on a high-resolution Ku-band vehicle dataset demonstrate that the proposed method effectively suppresses volume overestimation, alleviates surface–double-bounce coupling, and enhances component stability while preserving edge and structural fidelity. The model achieves improved adaptability to complex targets without increasing component dimensionality, while maintaining strong physical interpretability, offering a new pathway for refined vehicle scattering analysis in airborne PolSAR data.",
-  "citation_count": 3,
+  "citation_count": 4,
   "concepts": [
    "Scattering",
    "Polarimetry",
@@ -20113,7 +20151,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/lgrs.2026.3654439",
   "abstract": "Synthetic aperture radar (SAR)–based ship detection has become an indispensable technique for applications in maritime surveillance, oceanic defense systems, and marine resource assessment. However, factors such as speckle noise, sea clutter, and the diversity of ship scales severely restrict the robustness and accuracy of detection. To address these challenges, this paper proposes a one-stage detection network, termed DCTNet, which integrates a Deformable Convolution-based Multi-scale Fusion (DCMF) module and a Transformer-enhanced Feature Pyramid Aggregation Network (TFPAN). The DCMF module employs deformable convolution and channel partitioning to adaptively capture multi-scale features, thereby enhancing the representation of small-scale or low-contrast ships while effectively suppressing background interference. The TFPAN module incorporates Transformer attention mechanisms with progressive feature aggregation to strengthen multi-scale feature interaction and semantic consistency. In addition, a Triple Feature Fusion (TFF) strategy is designed to preserve local details and ensure global context transmission, effectively mitigating the loss of small target features during the fusion process. Experimental results on the SAR-Ship-Dataset and HRSID demonstrate that the proposed DCTNet achieves excellent performance and exhibits strong generalization ability.",
-  "citation_count": 3,
+  "citation_count": 4,
   "concepts": [
    "Computer science",
    "Robustness (evolution)",
@@ -20329,7 +20367,7 @@
   "title": "LaCon: Late-Constraint Controllable Visual Generation",
   "authors": [
    "Chang Liu",
-   "Dong Liu",
+   "Rui Li",
    "Kaidong Zhang",
    "Yunwei Lan",
    "Xin Luo",
@@ -20380,7 +20418,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tip.2026.3678087",
   "abstract": "Instruction tuning of Large Vision-language Models (LVLMs) has revolutionized the development of versatile models with zero-shot generalization across a wide range of downstream vision-language tasks. However, the diversity of different training tasks from various sources and formats would lead to inevitable task conflicts, where different tasks conflict for the same set of model parameters, resulting in sub-optimal instruction-following abilities. To address that, we propose the Mixture of Cluster-conditional LoRA Experts (MoCLE), a novel Mixture of Experts (MoE) architecture designed to activate task-customized model parameters based on instruction clusters. A separate universal expert is further incorporated to improve generalization abilities of MoCLE for novel instructions. Extensive experiments on InstructBLIP and LLaVA demonstrate the effectiveness of MoCLE.",
-  "citation_count": 142,
+  "citation_count": 143,
   "concepts": [
    "Cluster (spacecraft)",
    "Computer science",
@@ -20510,7 +20548,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tip.2026.3687468",
   "abstract": "Understanding the evolution of 3D scenes is crucial for autonomous driving. While conventional methods describe scene development through individual instance motions, world models provide a generative framework for modeling overall scene dynamics. However, most existing approaches rely on autoregressive next-token prediction, which suffers from error accumulation and limited global spatiotemporal reasoning, leading to degraded long-term consistency. To address these issues, we propose a diffusion-based 4D occupancy generation model, OccSora, to simulate 3D world evolution for autonomous driving. A 4D scene tokenizer is introduced to obtain compact spatiotemporal representations and enable high-quality reconstruction of long occupancy sequences. We then train a diffusion transformer on these representations to generate 4D occupancy conditioned on trajectory prompts. Experiments on the nuScenes dataset with Occ3D annotations show that OccSora can generate 16s videos with authentic 3D layout and strong temporal consistency. With trajectory-aware 4D generation, OccSora has the potential to serve as a world simulator for autonomous driving decision-making. Project page: https://wzzheng.net/OccSora.",
-  "citation_count": 99,
+  "citation_count": 101,
   "concepts": [
    "Occupancy",
    "Computer science",
@@ -21180,7 +21218,7 @@
   "pdf": null,
   "url": "https://doi.org/10.1109/tip.2026.3714856",
   "abstract": "In recent years, LiDAR point clouds have been widely used in many applications. Since the data volume of LiDAR point clouds is very huge, efficient compression is necessary to reduce their storage and transmission costs. However, existing learning-based compression methods do not exploit the inherent angular resolution of LiDAR and ignore the significant differences in the correlation of geometry information at different bitrates. The predictive geometry coding method in the geometry-based point cloud compression (G-PCC) standard uses the inherent angular resolution to predict the azimuth angles. However, it only models a simple linear relationship between the azimuth angles of neighboring points. Moreover, it does not optimize the quantization parameters for residuals on each coordinate axis in the spherical coordinate system. To address these issues, we propose a learning-based predictive coding method (LPCM) with both high-bitrate and low-bitrate coding modes. LPCM converts point clouds into predictive trees using the spherical coordinate system. In high-bitrate coding mode, we use a lightweight Long-Short-Term Memory-based predictive (LSTM-P) module that captures long-term geometry correlations between different coordinates to efficiently predict and compress the elevation angles. In low-bitrate coding mode, where geometry correlation degrades, we introduce a variational radius compression (VRC) module to directly compress the point radii. Then, we analyze why the quantization of spherical coordinates differs from that of Cartesian coordinates and propose a differential evolution (DE)-based quantization parameter selection method, which improves rate-distortion performance without increasing coding time. Experimental results show that LPCM achieved a D1-PSNR BD-rate reduction of 21.2% compared with the G-PCC lossless octree-based coding mode on SemanticKITTI, and 5.6% compared with the PredGeom on Ford, using the latest G-PCC test model TMC13 v31.0.",
-  "citation_count": 6,
+  "citation_count": 7,
   "concepts": [
    "Point cloud",
    "Azimuth",
@@ -21258,40 +21296,6 @@
   "source": "openalex",
   "topics": [
    "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W4414695042",
-  "title": "CKAA: Cross-Subspace Knowledge Alignment and Aggregation for Robust Continual Learning",
-  "authors": [
-   "Lingfeng He",
-   "De Cheng",
-   "Zhiheng Ma",
-   "Huaijie Wang",
-   "Dingwen Zhang",
-   "Nannan Wang",
-   "Xinbo Gao"
-  ],
-  "venue": "IEEE Transactions on Image Processing",
-  "venue_short": "TIP",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-01-01",
-  "doi": "10.1109/tip.2026.3726359",
-  "pdf": null,
-  "url": "https://doi.org/10.1109/tip.2026.3726359",
-  "abstract": "Continual Learning (CL) empowers AI models to continuously learn from sequential task streams. Recently, parameter-efficient fine-tuning (PEFT)-based CL methods have garnered increasing attention due to their superior performance. They typically allocate a unique sub-module for learning each task, with a task recognizer to select the appropriate sub-modules for testing images. However, due to the feature subspace misalignment from independently trained sub-modules, these methods tend to produce ambiguous decisions under misleading task-ids. To address this, we propose Cross-subspace Knowledge Alignment and Aggregation (CKAA), a novel framework that enhances model robustness against misleading task-ids through two key innovations: 1) Dual-level Knowledge Alignment (DKA): By aligning intra-class feature distributions across different subspaces and learning a robust global classifier through a feature simulation process, DKA enables the model to distinguish features from both correct and incorrect subspaces during training. 2) Task-Confidence-guided Mixture of Adapters (TC-MoA): A robust inference scheme that adaptively aggregates task-specific knowledge from relevant sub-modules based on task-confidence scores, avoiding overconfidence in misleading task-id predictions. Extensive experiments demonstrate that CKAA outperforms existing PEFT-based CL methods. Code is available at https://github.com/HHHLF/CKAA_for_CIL.",
-  "citation_count": 10,
-  "concepts": [
-   "Computer science",
-   "Artificial intelligence",
-   "Robustness (evolution)"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
   ],
   "is_own": false
  }
