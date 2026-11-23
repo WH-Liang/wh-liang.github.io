@@ -1,5 +1,102 @@
 [
  {
+  "id": "openalex:W7142622950",
+  "title": "Monte Carlo biphasic estimation of fire properties (McBEF): Part I, algorithm formulation",
+  "authors": [
+   "Meng Zhou",
+   "Arlindo da Silva",
+   "Jun Wang",
+   "David A. Peterson"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-21",
+  "doi": "10.1016/j.rse.2026.115777",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115777",
+  "abstract": "Sub-pixel fire characterization is essential for quantifying wildfire energetics, combustion phase dynamics, and their atmospheric impacts from satellite observations. This study presents a series of Observing System Simulation Experiments (OSSEs) to systematically evaluate the influence of temperature phase complexity, channel selection, and intra-phase temperature heterogeneity on the performance of a Bayesian retrieval framework. Using synthetic observations derived from a multi-phase radiance model, we assess retrieval skill across key fire properties—including Fire Radiative Power (FRP), visible energy fraction (VEF), and flaming heat flux—under realistic sensor constraints. Results show that a bi-phasic fire model provides a strong balance between accuracy and observational feasibility, outperforming conventional approaches such as Wooster’s FRP regression, particularly in low-intensity fire scenarios. FRP is the retrieved quantity most resilient to model and observational uncertainties, while VEF and heat flux estimates are more sensitive to both fire phase partitioning and spectral coverage. Shortwave and mid-infrared bands, especially the day–night band (DNB) and 2.25 μ m channels, are shown to offer the greatest constraint on retrieval accuracy. We further analyze the impact of intra-phase temperature variability and propose practical filtering strategies for identifying low-confidence cases, such as smoldering-dominated fires. The theoretical framework is applicable to multi-channel fire observations more generally, while its companion Part II implementation focuses specifically on nighttime VIIRS observations.",
+  "citation_count": 0,
+  "concepts": [
+   "Radiance",
+   "Algorithm",
+   "Remote sensing"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7237335327",
+  "title": "Multi-angular remote sensing-derived directional fractional vegetation cover for improved C-factor estimation in RUSLE modeling",
+  "authors": [
+   "Rui Tan",
+   "Geng Guo",
+   "Yu Tao",
+   "Ying Pan",
+   "Zicheng Liu",
+   "Lin Chen",
+   "Xin Liu",
+   "Jie Lin"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-21",
+  "doi": "10.1016/j.jag.2026.105689",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105689",
+  "abstract": "The cover and management factor ( C -factor) is a crucial parameter influencing the accuracy of soil erosion model estimates. However, conventional approaches often overlook the influence of vegetation vertical structure, particularly understory vegetation, which may lead to biased estimation of erosion severity. To address this issue, a synergistic C -factor estimation framework was developed that integrates multi-angular remote sensing (RS) observations and directional fractional vegetation cover ( DFVC ) to enhance the characterization of vegetation structure and improve C -factor estimation accuracy. The PROSAIL model was used to simulate canopy reflectance under different viewing angles, from which a dataset of multi-angular vegetation indices (VIs) was constructed. Among these VIs, the index most strongly correlated with leaf area index ( LAI ) was selected to develop a progressive “VIs– LAI – DFVC – C -factor” estimation model. The applicability of the method was further evaluated using field measurements collected across different vegetation types and structural conditions. The perpendicular vegetation index ( PVI ) was found to be significantly correlated with LAI and was identified as the optimal feature for LAI retrieval. Among the multi-angular combinations, the three-angle combination of 0°, 36°, and 55° was retained for LAI retrieval and achieved an RMSE of 0.233 and a MAPE of 0.059. Based on the overall evaluation, the 0° + 36° configuration was adopted for final DFVC -based C -factor mapping. The proposed estimation framework demonstrated high reliability ( R 2 = 0.754), with a mean C -factor estimate value of 0.019 in the study area. This study highlights the importance of incorporating vegetation vertical structure information in C -factor estimation and demonstrates that multi-angular RS can offer effective complementary information for characterizing structural features such as canopy gaps and directional occlusion. The proposed framework presents a new approach for quantitative soil erosion monitoring and environmental management.",
+  "citation_count": 0,
+  "concepts": [
+   "Leaf area index",
+   "Vegetation (pathology)",
+   "Enhanced vegetation index"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W4405917855",
+  "title": "Sound2Vision: Generating Diverse Visuals from Audio through Cross-Modal Latent Alignment",
+  "authors": [
+   "Sung-Bin Kim",
+   "Arda Senocak",
+   "Hyunwoo Ha",
+   "Tae-Hyun Oh"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-21",
+  "doi": "10.1007/s11263-026-03106-5",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03106-5",
+  "abstract": "How does audio describe the world around us? In this work, we propose a method for generating images of visual scenes from diverse in-the-wild sounds. This cross-modal generation task is challenging due to the significant information gap between auditory and visual signals. We address this challenge by designing a model that aligns audio-visual modalities by enriching audio features with visual information and translating them into the visual latent space. These features are then fed into the pre-trained image generator to produce images. To enhance image quality, we use sound source localization to select audio-visual pairs with strong cross-modal correlations. Our method achieves substantially better results on the VEGAS and VGGSound datasets compared to previous work and demonstrates control over the generation process through simple manipulations to the input waveform or latent space. Furthermore, we analyze the geometric properties of the learned embedding space and demonstrate that our learning approach effectively aligns audio-visual signals for cross-modal generation. Based on this analysis, we show that our method is agnostic to specific design choices, showing its generalizability by integrating various model architectures and different types of audio-visual data.",
+  "citation_count": 7,
+  "concepts": [
+   "Modal",
+   "Computer science",
+   "Speech recognition"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
   "id": "openalex:W7134939887",
   "title": "Temperature and emissivity retrieval from airborne hyperspectral thermal infrared imagery using adaptive continuous piecewise linear modeling with water vapor scaling",
   "authors": [
@@ -165,107 +262,6 @@
   ],
   "source": "openalex",
   "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7237264409",
-  "title": "DySegISW: A temporal deep learning framework for the dynamic segmentation of internal solitary waves from geostationary satellite imagery",
-  "authors": [
-   "Longyu Huang",
-   "Han Han",
-   "Jingsong Yang",
-   "Yu Chai"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-20",
-  "doi": "10.1016/j.isprsjprs.2026.11.014",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.014",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Computer science",
-   "Geostationary orbit",
-   "Artificial intelligence"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7225416023",
-  "title": "DC-SQEM: Medial Mesh Extraction by Dual Contouring with Spherical Quadric Error Metric",
-  "authors": [
-   "Bingchuan Li",
-   "Ruilong Liu",
-   "Tianhao Hu",
-   "Congyi Zhang",
-   "Ningna Wang",
-   "Junfeng Yao",
-   "Xiaohu Guo"
-  ],
-  "venue": "ACM Transactions on Graphics",
-  "venue_short": "TOG",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-20",
-  "doi": "10.1145/3864025",
-  "pdf": null,
-  "url": "https://doi.org/10.1145/3864025",
-  "abstract": "The medial axis , as a compact representation, describes not only the boundary but also the interior of the shape, and has been widely used in analyzing and simplifying shapes. However, approximating feature-preserving medial axis from unstructured data, such as oriented point clouds, remains challenging due to the lack of explicit connectivity and the presence of noise in the source. We propose DC-SQEM, a dual-contouring-based framework that computes medial meshes (an explicit representation of the medial axis) directly from oriented point clouds without relying on watertight manifold surfaces or volumetric structures. With the help of an adaptive octree, our method fits local medial spheres for each cell based on the Spherical Quadric Error Metric (SQEM). We address several long-standing robustness issues in dual-contouring and mesh extraction, including out-of-cell solutions, unstable feature classification, and redundant topological connections. To this end, we introduce virtual nodes, a feature-downgrading strategy, and a geometry-driven topology-aware cleanup procedure, enabling robust SQEM-based medial dual contouring with clean mesh outputs. Unlike prior point-cloud-based methods that produce either only 1D skeletal structures or incomplete medial features, our method preserves sharp geometric features from the input and reconstructs a complete medial structure, including sheets, curves, seams, and junctions. Compared to restricted-power-diagram-based approaches, our algorithm can handle point clouds as input, without having a strong requirement on water-tightness or manifoldness.",
-  "citation_count": 0,
-  "concepts": [
-   "Medial axis",
-   "Robustness (evolution)",
-   "Contouring"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W4404767245",
-  "title": "Regional-scale field-level estimation and mapping of tillage practices in areas with crop diversity",
-  "authors": [
-   "Amin Norouzi Kandelati",
-   "Amanda T. Stahl",
-   "Yan Yan",
-   "Siddharth Chaudhary",
-   "Steve Van Vleet",
-   "Mohammed Amine Gharsallaoui",
-   "Janardhan Rao Doppa",
-   "David I. Gustafson",
-   "Hans Kok",
-   "Kirti Rajagopalan"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-19",
-  "doi": "10.1016/j.rse.2026.115781",
-  "pdf": "https://www.sciencedirect.com/science/article/pii/S0034425726005511/pdf",
-  "url": "https://doi.org/10.1016/j.rse.2026.115781",
-  "abstract": "The imperative for sustainable agriculture has led to the promotion of conservation tillage practices, which are critical for maintaining soil health and reducing negative environmental impacts. However, the ability to verify the adoption of these practices at a regional scale and with minimal costs remains a challenge, particularly in regions with diverse crop systems. This study presents a satellite-imagery-based random forest classifier that integrates crop class information and a customized importance weighting technique for field-level, regional-scale mapping of tillage practices in crop-diverse regions. We use eastern Washington State, U.S., with multiple grains, legumes, and canola as a case study. Using 577 field-level ground-truth data points across two counties, the tillage classifier achieved a median overall accuracy of 84%, representing a 15 percentage point improvement over the baseline median overall accuracy of 69%, driven by the inclusion of crop class and the application of importance weighting. Specific crop classes, including grains, legumes, and canola, showed accuracy improvements of 6, 42, and 13 percentage points, respectively. While the model showed promising results, limitations such as overprediction of no-tillage in non-grain crop classes were identified, pointing to the need for further refinement with additional data. The model was applied to map tillage practices across dryland fields in eastern Washington State for the years 2012, 2017, and 2022, and the predictions were generally congruent with the USDA Census of Agriculture county-level statistics. This research offers a scalable tool for the verification of conservation tillage practice adoption, supporting both regional and global monitoring efforts for sustainable agricultural practices.",
-  "citation_count": 0,
-  "concepts": [
-   "Tillage",
-   "Scale (ratio)",
-   "Estimation"
-  ],
-  "source": "openalex",
-  "topics": [
-   "计算机视觉"
-  ],
   "is_own": false
  }
 ]
