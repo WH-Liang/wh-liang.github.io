@@ -1,95 +1,154 @@
 [
  {
-  "id": "openalex:W7142622950",
-  "title": "Monte Carlo biphasic estimation of fire properties (McBEF): Part I, algorithm formulation",
+  "id": "arxiv:2611.30854v1",
+  "title": "How Do Deep Networks Encode and Selectively Use Information? Shared Encoding and Conditional Signed Readout in Vision and Language Models",
   "authors": [
-   "Meng Zhou",
-   "Arlindo da Silva",
-   "Jun Wang",
-   "David A. Peterson"
+   "Kaixiang Shu"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-21",
-  "doi": "10.1016/j.rse.2026.115777",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115777",
-  "abstract": "Sub-pixel fire characterization is essential for quantifying wildfire energetics, combustion phase dynamics, and their atmospheric impacts from satellite observations. This study presents a series of Observing System Simulation Experiments (OSSEs) to systematically evaluate the influence of temperature phase complexity, channel selection, and intra-phase temperature heterogeneity on the performance of a Bayesian retrieval framework. Using synthetic observations derived from a multi-phase radiance model, we assess retrieval skill across key fire properties—including Fire Radiative Power (FRP), visible energy fraction (VEF), and flaming heat flux—under realistic sensor constraints. Results show that a bi-phasic fire model provides a strong balance between accuracy and observational feasibility, outperforming conventional approaches such as Wooster’s FRP regression, particularly in low-intensity fire scenarios. FRP is the retrieved quantity most resilient to model and observational uncertainties, while VEF and heat flux estimates are more sensitive to both fire phase partitioning and spectral coverage. Shortwave and mid-infrared bands, especially the day–night band (DNB) and 2.25 μ m channels, are shown to offer the greatest constraint on retrieval accuracy. We further analyze the impact of intra-phase temperature variability and propose practical filtering strategies for identifying low-confidence cases, such as smoldering-dominated fires. The theoretical framework is applicable to multi-channel fire observations more generally, while its companion Part II implementation focuses specifically on nighttime VIIRS observations.",
+  "date": "2026-11-23",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.30854v1",
+  "url": "https://arxiv.org/abs/2611.30854v1",
+  "abstract": "How can trained deep networks retain contextual information across internal representations while using it selectively in a decision? We study this question through controlled background-texture edits in vision classifiers and entity-binding edits in frozen language models. Across both modalities, factor perturbations preserve recognizable structure across pre-fixed, mutually disjoint blocks of hidden units: visual channel blocks match their complements more closely for the same image than for other images under the same texture edit, while language blocks transfer a relational direction fitted under one query role to rank relational states within held-out name pairs under the other role. We then decompose the local output change into signed channel and pathway contributions. In a convolutional classifier, net channel-level reinforcement ($R^{(512)}>1$) coexists on individual images with cancellation between positive- and negative-weight groups ($R^{(2)}<1$). Holding weights, the paired relation edit, and red/blue answer words fixed, switching prompt presentation reverses the mean finite selection effect in Qwen2.5. Two held-out tests validate this mechanism. Attenuating development-selected antagonistic units amplifies edit effects on unseen inputs; in a vision transformer, attenuating the same frozen units in one forward pass increases the mean magnitude of the background-edit effect on one class margin and reduces it on another, with the opposite pattern for a second group (four-cell paired interaction $+78.30\\times 10^{-5}$ logit). Finally, combining conditional channel variance with fixed downstream readout weights predicts single-channel pruning recovery across ten cuts. These results show how shared encoding and conditional signed readout can coexist in vision and language models.",
   "citation_count": 0,
   "concepts": [
-   "Radiance",
-   "Algorithm",
-   "Remote sensing"
+   "cs.LG",
+   "cs.CC"
   ],
-  "source": "openalex",
+  "arxiv_id": "2611.30854v1",
+  "source": "arxiv",
   "topics": [
-   "遥感",
+   "计算机视觉",
+   "机器学习",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.30770v1",
+  "title": "GRAIN: Shared-Budget Complementary Re-observation for Object Detection",
+  "authors": [
+   "Chengxuan Zhou",
+   "Shaoyang Zhang",
+   "Rui Qian",
+   "Juntao Cheng",
+   "Feng Liu",
+   "Wanru Song"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-23",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.30770v1",
+  "url": "https://arxiv.org/abs/2611.30770v1",
+  "abstract": "Re-running a frozen detector on enlarged image crops recovers small and crowded objects without retraining, yet every crop costs an extra detector call. Existing slicing and adaptive-cropping pipelines plan crops per image in isolation, even though inspection demand varies widely across an image collection. We present GRAIN, which unifies cross-image call allocation and bounded-output admission around cross-image comparable resolution-closure gains over boundary-safe crop interiors. Coarse hypotheses carry resolution deficits, crops close a geometric share of those deficits for hypotheses enclosed in their interior positive region, and multiplicative residuals discount covered evidence within a monotone submodular surrogate. Prefix sums and a global max-heap execute this collection-wide plan on CPU before crop inference, and Positive-Region Fusion aligns post-inference spatial admission with the planned interior support before class-balanced top- selection. Across 17 frozen detectors from five families on COCO, CrowdHuman, and VisDrone-DET, GRAIN beats call-matched tiling in 100 of 102 AP@100 settings and transfers to AI-TOD-v2. With RF-DETR-S on CrowdHuman, it nearly matches two-crop tiling using one eighth of the crop calls. At fixed budgets, the surrogate orders candidate plans with Spearman correlations of 0.95 to 0.99 while the sweep attains at least 98% of the exact surrogate optimum. Code will be publicly released.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.30770v1",
+  "source": "arxiv",
+  "topics": [
    "计算机视觉"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7237335327",
-  "title": "Multi-angular remote sensing-derived directional fractional vegetation cover for improved C-factor estimation in RUSLE modeling",
+  "id": "arxiv:2611.30700v1",
+  "title": "Sequential Monitoring of Image Streams Using Energy Statistics",
   "authors": [
-   "Rui Tan",
-   "Geng Guo",
-   "Yu Tao",
-   "Ying Pan",
-   "Zicheng Liu",
-   "Lin Chen",
-   "Xin Liu",
-   "Jie Lin"
+   "Shreetama Bhuniya",
+   "Sourav De",
+   "Anik Roy",
+   "Partha Sarathi Mukherjee"
   ],
-  "venue": "International Journal of Applied Earth Observation and Geoinformation",
-  "venue_short": "JAG",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-21",
-  "doi": "10.1016/j.jag.2026.105689",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105689",
-  "abstract": "The cover and management factor ( C -factor) is a crucial parameter influencing the accuracy of soil erosion model estimates. However, conventional approaches often overlook the influence of vegetation vertical structure, particularly understory vegetation, which may lead to biased estimation of erosion severity. To address this issue, a synergistic C -factor estimation framework was developed that integrates multi-angular remote sensing (RS) observations and directional fractional vegetation cover ( DFVC ) to enhance the characterization of vegetation structure and improve C -factor estimation accuracy. The PROSAIL model was used to simulate canopy reflectance under different viewing angles, from which a dataset of multi-angular vegetation indices (VIs) was constructed. Among these VIs, the index most strongly correlated with leaf area index ( LAI ) was selected to develop a progressive “VIs– LAI – DFVC – C -factor” estimation model. The applicability of the method was further evaluated using field measurements collected across different vegetation types and structural conditions. The perpendicular vegetation index ( PVI ) was found to be significantly correlated with LAI and was identified as the optimal feature for LAI retrieval. Among the multi-angular combinations, the three-angle combination of 0°, 36°, and 55° was retained for LAI retrieval and achieved an RMSE of 0.233 and a MAPE of 0.059. Based on the overall evaluation, the 0° + 36° configuration was adopted for final DFVC -based C -factor mapping. The proposed estimation framework demonstrated high reliability ( R 2 = 0.754), with a mean C -factor estimate value of 0.019 in the study area. This study highlights the importance of incorporating vegetation vertical structure information in C -factor estimation and demonstrates that multi-angular RS can offer effective complementary information for characterizing structural features such as canopy gaps and directional occlusion. The proposed framework presents a new approach for quantitative soil erosion monitoring and environmental management.",
+  "date": "2026-11-23",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.30700v1",
+  "url": "https://arxiv.org/abs/2611.30700v1",
+  "abstract": "Sequential monitoring of image data is a high-velocity, high-dimensional big data problem in statistics and machine learning, with wide applications in manufacturing industries, satellite imaging, medical diagnostics, and remote sensing. This is a challenging task because image intensity functions are often contaminated by noise and contain discontinuities and other complicated spatial structures. In the literature, a vast majority of image-monitoring methods rely on changes in image intensity values to detect out-of-control images. However, such approaches are often unreasonable in applications where insignificant changes in image contrast or background intensity should not indicate an out-of-control image as long as the boundaries of the image objects remain unchanged. In this article, we propose a nonparametric Phase II image-monitoring procedure based on energy distance that directly monitors changes in the distribution of image boundaries. The proposed method constructs a moving-window energy-distance-based control statistic by comparing the distribution of recently observed image boundaries with that of a fixed in-control reference sample. The central idea behind the proposed boundary-based approach is twofold: first, to reduce the dimensionality of high-resolution images by retaining relevant edge information, and second, to provide a robust monitoring procedure that is less sensitive to insignificant smooth changes in image intensity. The proposed construction offers a computationally efficient distributional approach to image monitoring without requiring a parametric model for out-of-control images. Theoretical justifications and superior performance in numerical comparisons ensure that the proposed control chart can be useful to many researchers and practitioners.",
   "citation_count": 0,
   "concepts": [
-   "Leaf area index",
-   "Vegetation (pathology)",
-   "Enhanced vegetation index"
+   "stat.AP"
   ],
-  "source": "openalex",
+  "arxiv_id": "2611.30700v1",
+  "source": "arxiv",
   "topics": [
    "遥感",
-   "计算机视觉"
+   "计算机视觉",
+   "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W4405917855",
-  "title": "Sound2Vision: Generating Diverse Visuals from Audio through Cross-Modal Latent Alignment",
+  "id": "arxiv:2611.30602v1",
+  "title": "GSDet: Gaussian Splatting for Oriented Object Detection",
   "authors": [
-   "Sung-Bin Kim",
-   "Arda Senocak",
-   "Hyunwoo Ha",
-   "Tae-Hyun Oh"
+   "Zeyu Ding",
+   "Jiaqi Zhao",
+   "Yong Zhou",
+   "Wen-liang Du",
+   "Hancheng Zhu",
+   "Rui Yao"
   ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-21",
-  "doi": "10.1007/s11263-026-03106-5",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03106-5",
-  "abstract": "How does audio describe the world around us? In this work, we propose a method for generating images of visual scenes from diverse in-the-wild sounds. This cross-modal generation task is challenging due to the significant information gap between auditory and visual signals. We address this challenge by designing a model that aligns audio-visual modalities by enriching audio features with visual information and translating them into the visual latent space. These features are then fed into the pre-trained image generator to produce images. To enhance image quality, we use sound source localization to select audio-visual pairs with strong cross-modal correlations. Our method achieves substantially better results on the VEGAS and VGGSound datasets compared to previous work and demonstrates control over the generation process through simple manipulations to the input waveform or latent space. Furthermore, we analyze the geometric properties of the learned embedding space and demonstrate that our learning approach effectively aligns audio-visual signals for cross-modal generation. Based on this analysis, we show that our method is agnostic to specific design choices, showing its generalizability by integrating various model architectures and different types of audio-visual data.",
-  "citation_count": 7,
+  "date": "2026-11-23",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.30602v1",
+  "url": "https://arxiv.org/abs/2611.30602v1",
+  "abstract": "Oriented object detection has advanced with the development of convolutional neural networks (CNNs) and transformers. However, modern detectors still rely on predefined object candidates, such as anchors in CNN-based methods or queries in transformer-based methods, which struggle to capture spatial information effectively. To address the limitations, we propose GSDet, a novel framework that formulates oriented object detection as Gaussian splatting. Specifically, our approach performs detection within a 3D feature space constructed from image features, where 3D Gaussians are employed to represent oriented objects. These 3D Gaussians are projected onto the image plane to form 2D Gaussians, which are then transformed into oriented boxes. Furthermore, we optimize the mean, anisotropic covariance, and confidence scores of these randomly initialized 3D Gaussians, using a decoder that incorporates 3D Gaussian sampling. Moreover, our method exhibits flexibility, enabling adaptive control and a dynamic number of Gaussians during inference. Experiments on 3 datasets indicate that GSDet achieves AP$_{50}$ gains of 0.7\\% on DIOR-R, 0.3\\% on DOTA-v1.0, and 0.55\\% on DOTA-v1.5 when evaluated with adaptive control and outperforms mainstream detectors.",
+  "citation_count": 0,
   "concepts": [
-   "Modal",
-   "Computer science",
-   "Speech recognition"
+   "cs.CV"
   ],
-  "source": "openalex",
+  "arxiv_id": "2611.30602v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.30531v1",
+  "title": "ReDiffDet: Rotation-equivariant Diffusion Model for Oriented Object Detection",
+  "authors": [
+   "Zeyu Ding",
+   "Yong Zhou",
+   "Jiaqi Zhao",
+   "Hancheng Zhu",
+   "Wen-Liang Du",
+   "Rui Yao"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-23",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.30531v1",
+  "url": "https://arxiv.org/abs/2611.30531v1",
+  "abstract": "The diffusion model has been successfully applied to various detection tasks. However, it still faces several challenges when used for oriented object detection: objects that are arbitrarily rotated require the diffusion model to encode their orientation information; uncontrollable random boxes inaccurately locate objects with dense arrangements and extreme aspect ratios; oriented boxes result in the misalignment between them and image features. To overcome these limitations, we propose ReDiffDet, a framework that formulates oriented object detection as a rotation-equivariant denoising diffusion process. First, we represent an oriented box as a 2D Gaussian distribution, forming the basis of the denoising paradigm. The reverse process can be proven to be rotation-equivariant within this representation and model framework. Second, we design a conditional encoder with conditional boxes to prevent boxes from being randomly placed across the entire image. Third, we propose an aligned decoder for alignment between oriented boxes and image features. The extensive experiments demonstrate ReDiffDet achieves promising performance and significantly outperforms the diffusion model baseline.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.30531v1",
+  "source": "arxiv",
   "topics": [
    "计算机视觉",
    "机器学习"
@@ -97,34 +156,57 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7134939887",
-  "title": "Temperature and emissivity retrieval from airborne hyperspectral thermal infrared imagery using adaptive continuous piecewise linear modeling with water vapor scaling",
+  "id": "arxiv:2611.30530v1",
+  "title": "Assembly-JEPA: Using World Models for Fine-Grained Industrial Image Verification",
   "authors": [
-   "Jiani He",
-   "chunlai Li",
-   "Chengyu Liu",
-   "Chengyang Ma",
-   "Menglin Si",
-   "Caixia GAO",
-   "Françoise Nerry",
-   "Zhao-Liang Li"
+   "Michael Hollmer",
+   "Andreas Fischer"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-20",
-  "doi": "10.1016/j.rse.2026.115795",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115795",
-  "abstract": null,
+  "date": "2026-11-23",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.30530v1",
+  "url": "https://arxiv.org/abs/2611.30530v1",
+  "abstract": "Automated verification of industrial assembly processes remains a challenging problem due to substantial visual variability, limited availability of labeled defect data, and the fine-grained nature of many assembly errors. Existing approaches often rely on object detection, CAD models, or supervised classification pipelines, which can struggle to generalize across changing products and assembly configurations. In this work, we propose a novel self-supervised assembly verification framework based on Joint Embedding Predictive Architectures (JEPAs). Starting from the JEPA-based world model LeWorldModel, we investigate how the architecture must be adapted to verify the correctness of fine-grained assembly operations. To this end, we formulate assembly verification as a predictive world modeling task operating on before-and-after observations of assembly processes. Experimental results on industrial assembly tasks demonstrate that the proposed approach reliably detects both fine-grained incorrect assembly states and action-state mismatches, achieving an AUROC of 86.9% on a newly introduced assembly verification dataset. These results indicate that JEPA-based predictive representations constitute a promising foundation for robust and data-efficient industrial assembly verification.",
   "citation_count": 0,
   "concepts": [
-   "Emissivity",
-   "Hyperspectral imaging",
-   "Remote sensing"
+   "cs.CV",
+   "cs.LG"
   ],
-  "source": "openalex",
+  "arxiv_id": "2611.30530v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.30515v1",
+  "title": "Field-Level Crop Classification via Similarity-Induced Supervision from Imperfect Labels",
+  "authors": [
+   "Raul Lomonte Figueiredo",
+   "João Rebouças Dorea",
+   "Dário Augusto Borges Oliveira"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-23",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.30515v1",
+  "url": "https://arxiv.org/abs/2611.30515v1",
+  "abstract": "Regional-scale crop mapping is critical for food production monitoring, yet remains challenging in tropical regions, where persistent cloud cover limits optical imagery. Synthetic aperture radar (SAR) enables continuous observation throughout the agricultural cycle, but a second obstacle is label quality: national-scale land cover products exhibit systematic biases that underestimate less prevalent crops, and training directly on them inherits and amplifies their errors. This work proposes a methodology to build large-scale crop classification models from imperfect public land cover products, requiring no new field campaign, ground survey, or manual label correction. The approach combines two mechanisms. The first reduces the semantic inconsistency of the labels by shifting supervision from the sample level to the group level: a similarity-based clustering model organizes SAR time series into coherent groups, and noisy labels are used only to assign each group its most representative class. The resulting clusters are highly pure with respect to the reference classes (89.0% and 91.2% in the two study regions). The second reduces the spatial inconsistency of the predictions: a segmentation model delineates crop field boundaries from optical imagery, and patch-level predictions are consolidated by majority voting within each field, yielding spatially coherent maps. Evaluated in two Brazilian municipalities, Campo Verde (Mato Grosso) and Luís Eduardo Magalhães (Bahia), the approach consistently outperforms the noisy baseline in mean class accuracy, with gains of up to 10.14 percentage points, especially for minority crops. A state-scale analysis across Mato Grosso and Bahia shows stable behavior without further model adjustment, and the derived municipal crop areas are consistent with official IBGE/PAM statistics, an independent estimate the model never observes.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.30515v1",
+  "source": "arxiv",
   "topics": [
    "遥感",
    "计算机视觉"
@@ -132,136 +214,53 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7155161502",
-  "title": "Forest structure types in the southern Amazon Basin are influenced by anthropogenic edges and physiography",
+  "id": "arxiv:2611.30511v1",
+  "title": "AXE: AlpaSim E2E Closed Loop Challenge Technical Report",
   "authors": [
-   "Matteo Redana",
-   "Mario R. Moura",
-   "Bela  Hale Starinchak",
-   "Maurício Humberto Vancine",
-   "Paulo Monteiro Brando",
-   "S. J. Goetz",
-   "Patrick A. Jantz"
+   "Joonhee Lim",
+   "Seonmyeong Lee",
+   "Sihwan Hwang",
+   "Hanbin Jang",
+   "Hiwon Shin",
+   "Dogun Kim",
+   "Hyelin Jo",
+   "Hyeonjun Jeong",
+   "Yongjae Lee",
+   "Junseong Kwak",
+   "Junhyeok Park",
+   "Satyam Mishra",
+   "Juyeb Shin",
+   "Uisung Kim",
+   "Hyeonseo Kim",
+   "Saparkhan Kassymbekov",
+   "Hailemichael Molla Gashaw",
+   "Abi Rahman Syamil",
+   "Mingyu Kim",
+   "Hyeongjun Kim",
+   "Yeina Lee",
+   "Moogeun Park",
+   "Dongsuk Kum"
   ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-20",
-  "doi": "10.1016/j.rse.2026.115794",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115794",
-  "abstract": null,
+  "date": "2026-11-23",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.30511v1",
+  "url": "https://arxiv.org/abs/2611.30511v1",
+  "abstract": "This report presents a comprehensive pipeline for developing an end-to-end (E2E) autonomous driving model for the Physical AI AV Track. The framework consists of data curation, HD map auto-labelling, data-driven imitation learning, and simulator-based reinforcement learning. To ensure safety in the closed-loop setting, we introduce a selection-based E2E planning approach that leverages object detection and BEV segmentation to filter out trajectory candidates likely to cause collisions or off-road driving. Trained on NVIDIA NuRec and the NVIDIA PAI-AV dataset, our method scores a fixed vocabulary of trajectory candidates for collision, drivable-area compliance, and progress learned from simulated rollouts, and selects the best candidate that passes the filter. This design highlights the effectiveness of combining E2E planning with perception-based trajectory filtering for safe and reliable closed-loop autonomous driving.",
   "citation_count": 0,
   "concepts": [
-   "Forest structure",
-   "Biomass (ecology)",
-   "Land cover"
+   "cs.RO",
+   "cs.AI"
   ],
-  "source": "openalex",
+  "arxiv_id": "2611.30511v1",
+  "source": "arxiv",
   "topics": [
-   "遥感"
+   "计算机视觉",
+   "机器学习"
   ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7237070493",
-  "title": "Towards root-zone soil moisture and soil moisture profile measurement from space: A review of P-band radiometry, synthetic aperture radar, and signals-of-opportunity reflectometry",
-  "authors": [
-   "Shen Xiaoji",
-   "Liujun Zhu",
-   "Nan Ye",
-   "Hongtao Shi",
-   "Tengteng Zuo",
-   "Tianyu Cui",
-   "Qiaozhu Ji",
-   "Giovanni Macelloni",
-   "Foad Brakhasi",
-   "Xiaoling Wu",
-   "Di Zhu",
-   "Xiaolong Dong",
-   "Xin Li",
-   "Jeffrey P. Walker"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-20",
-  "doi": "10.1016/j.rse.2026.115755",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115755",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Reflectometry",
-   "Remote sensing",
-   "Moisture"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7237166490",
-  "title": "Bridging multi-source satellite land surface temperature and WRF-simulated diurnal dynamics for reconstructing 1-km hourly near-surface air temperature in complex mountain regions",
-  "authors": [
-   "Xinyao Xie",
-   "Yong Wang",
-   "Wei Zhao",
-   "Gaofei Yin",
-   "Junli Zhao",
-   "Bing Cheng",
-   "Tao Yang",
-   "Jiujiang Wu"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-20",
-  "doi": "10.1016/j.rse.2026.115798",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115798",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Weather Research and Forecasting Model",
-   "Environmental science",
-   "Satellite"
-  ],
-  "source": "openalex",
-  "topics": [],
-  "is_own": false
- },
- {
-  "id": "openalex:W7237188276",
-  "title": "High-resolution benthic composition mapping of Hawaiian coral reefs using imaging spectroscopy",
-  "authors": [
-   "Dominica E. Harrison",
-   "Roberta E. Martin",
-   "Nicholas R. Vaughn",
-   "Gregory P. Asner"
-  ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-20",
-  "doi": "10.1016/j.isprsjprs.2026.10.036",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.10.036",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Benthic zone",
-   "Reef",
-   "Coral reef"
-  ],
-  "source": "openalex",
-  "topics": [],
   "is_own": false
  }
 ]
