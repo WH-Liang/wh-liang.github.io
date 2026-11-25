@@ -1,120 +1,59 @@
 [
  {
-  "id": "arxiv:2611.30854v1",
-  "title": "How Do Deep Networks Encode and Selectively Use Information? Shared Encoding and Conditional Signed Readout in Vision and Language Models",
+  "id": "arxiv:2611.32877v1",
+  "title": "Simultaneously Boosting Efficiency and Capability for Linear Attention via Adaptive Channel Compression and Activation Purification",
   "authors": [
-   "Kaixiang Shu"
+   "Senqi Guan",
+   "Xianchao Zhang",
+   "Moyan Tian",
+   "Linlin Zong",
+   "Wenxin Liang",
+   "Xinyue Liu"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.30854v1",
-  "url": "https://arxiv.org/abs/2611.30854v1",
-  "abstract": "How can trained deep networks retain contextual information across internal representations while using it selectively in a decision? We study this question through controlled background-texture edits in vision classifiers and entity-binding edits in frozen language models. Across both modalities, factor perturbations preserve recognizable structure across pre-fixed, mutually disjoint blocks of hidden units: visual channel blocks match their complements more closely for the same image than for other images under the same texture edit, while language blocks transfer a relational direction fitted under one query role to rank relational states within held-out name pairs under the other role. We then decompose the local output change into signed channel and pathway contributions. In a convolutional classifier, net channel-level reinforcement ($R^{(512)}>1$) coexists on individual images with cancellation between positive- and negative-weight groups ($R^{(2)}<1$). Holding weights, the paired relation edit, and red/blue answer words fixed, switching prompt presentation reverses the mean finite selection effect in Qwen2.5. Two held-out tests validate this mechanism. Attenuating development-selected antagonistic units amplifies edit effects on unseen inputs; in a vision transformer, attenuating the same frozen units in one forward pass increases the mean magnitude of the background-edit effect on one class margin and reduces it on another, with the opposite pattern for a second group (four-cell paired interaction $+78.30\\times 10^{-5}$ logit). Finally, combining conditional channel variance with fixed downstream readout weights predicts single-channel pruning recovery across ten cuts. These results show how shared encoding and conditional signed readout can coexist in vision and language models.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.LG",
-   "cs.CC"
-  ],
-  "arxiv_id": "2611.30854v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.30770v1",
-  "title": "GRAIN: Shared-Budget Complementary Re-observation for Object Detection",
-  "authors": [
-   "Chengxuan Zhou",
-   "Shaoyang Zhang",
-   "Rui Qian",
-   "Juntao Cheng",
-   "Feng Liu",
-   "Wanru Song"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-23",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.30770v1",
-  "url": "https://arxiv.org/abs/2611.30770v1",
-  "abstract": "Re-running a frozen detector on enlarged image crops recovers small and crowded objects without retraining, yet every crop costs an extra detector call. Existing slicing and adaptive-cropping pipelines plan crops per image in isolation, even though inspection demand varies widely across an image collection. We present GRAIN, which unifies cross-image call allocation and bounded-output admission around cross-image comparable resolution-closure gains over boundary-safe crop interiors. Coarse hypotheses carry resolution deficits, crops close a geometric share of those deficits for hypotheses enclosed in their interior positive region, and multiplicative residuals discount covered evidence within a monotone submodular surrogate. Prefix sums and a global max-heap execute this collection-wide plan on CPU before crop inference, and Positive-Region Fusion aligns post-inference spatial admission with the planned interior support before class-balanced top- selection. Across 17 frozen detectors from five families on COCO, CrowdHuman, and VisDrone-DET, GRAIN beats call-matched tiling in 100 of 102 AP@100 settings and transfers to AI-TOD-v2. With RF-DETR-S on CrowdHuman, it nearly matches two-crop tiling using one eighth of the crop calls. At fixed budgets, the surrogate orders candidate plans with Spearman correlations of 0.95 to 0.99 while the sweep attains at least 98% of the exact surrogate optimum. Code will be publicly released.",
+  "pdf": "https://arxiv.org/pdf/2611.32877v1",
+  "url": "https://arxiv.org/abs/2611.32877v1",
+  "abstract": "Self-attention's quadratic complexity constitutes a core bottleneck for Vision Transformers (ViTs). Existing efficiency-oriented optimizations, including softmax-based and linear attention (LA) variants, generally compromise model representational capacity, leading to inevitable performance degradation. We propose a novel linear attention which alleviates this efficiency-capability dilemma. For the first time, we embed an Adaptive Channel Compression and Activation Purification (ACCAP) mechanism into the QKV projection of linear attention, which enables the model to retain high-dimensional feature information while performing computations with reduced channels. We further fuse a focused kernel function and a self-gating module into ACCAP to construct a lightweight linear attention module (ACCAP-LA). Our theoretical analysis shows that, compared to standard linear attention, ACCAP-LA reduces the attention module's parameter count by 79.17% and FLOPs by 77.5%. Extensive experiments demonstrate ACCAP-LA's effectiveness: when applied to ViT, it achieves 79.4% Top-1 accuracy on ImageNet-1K with only 5.8M parameters, and more notably, it boasts strong cross-architecture compatibility, boosting EfficientViT-b1 and PVT-T by 3.3% and 3.4% respectively.",
   "citation_count": 0,
   "concepts": [
    "cs.CV"
   ],
-  "arxiv_id": "2611.30770v1",
+  "arxiv_id": "2611.32877v1",
   "source": "arxiv",
   "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.30700v1",
-  "title": "Sequential Monitoring of Image Streams Using Energy Statistics",
-  "authors": [
-   "Shreetama Bhuniya",
-   "Sourav De",
-   "Anik Roy",
-   "Partha Sarathi Mukherjee"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-23",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.30700v1",
-  "url": "https://arxiv.org/abs/2611.30700v1",
-  "abstract": "Sequential monitoring of image data is a high-velocity, high-dimensional big data problem in statistics and machine learning, with wide applications in manufacturing industries, satellite imaging, medical diagnostics, and remote sensing. This is a challenging task because image intensity functions are often contaminated by noise and contain discontinuities and other complicated spatial structures. In the literature, a vast majority of image-monitoring methods rely on changes in image intensity values to detect out-of-control images. However, such approaches are often unreasonable in applications where insignificant changes in image contrast or background intensity should not indicate an out-of-control image as long as the boundaries of the image objects remain unchanged. In this article, we propose a nonparametric Phase II image-monitoring procedure based on energy distance that directly monitors changes in the distribution of image boundaries. The proposed method constructs a moving-window energy-distance-based control statistic by comparing the distribution of recently observed image boundaries with that of a fixed in-control reference sample. The central idea behind the proposed boundary-based approach is twofold: first, to reduce the dimensionality of high-resolution images by retaining relevant edge information, and second, to provide a robust monitoring procedure that is less sensitive to insignificant smooth changes in image intensity. The proposed construction offers a computationally efficient distributional approach to image monitoring without requiring a parametric model for out-of-control images. Theoretical justifications and superior performance in numerical comparisons ensure that the proposed control chart can be useful to many researchers and practitioners.",
-  "citation_count": 0,
-  "concepts": [
-   "stat.AP"
-  ],
-  "arxiv_id": "2611.30700v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
    "计算机视觉",
    "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2611.30602v1",
-  "title": "GSDet: Gaussian Splatting for Oriented Object Detection",
+  "id": "arxiv:2611.32846v1",
+  "title": "DOPER: Deep Object Pose Estimation Revisited",
   "authors": [
-   "Zeyu Ding",
-   "Jiaqi Zhao",
-   "Yong Zhou",
-   "Wen-liang Du",
-   "Hancheng Zhu",
-   "Rui Yao"
+   "Hugo Hadfield",
+   "Alperen Degirmenci",
+   "Jonathan Tremblay"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.30602v1",
-  "url": "https://arxiv.org/abs/2611.30602v1",
-  "abstract": "Oriented object detection has advanced with the development of convolutional neural networks (CNNs) and transformers. However, modern detectors still rely on predefined object candidates, such as anchors in CNN-based methods or queries in transformer-based methods, which struggle to capture spatial information effectively. To address the limitations, we propose GSDet, a novel framework that formulates oriented object detection as Gaussian splatting. Specifically, our approach performs detection within a 3D feature space constructed from image features, where 3D Gaussians are employed to represent oriented objects. These 3D Gaussians are projected onto the image plane to form 2D Gaussians, which are then transformed into oriented boxes. Furthermore, we optimize the mean, anisotropic covariance, and confidence scores of these randomly initialized 3D Gaussians, using a decoder that incorporates 3D Gaussian sampling. Moreover, our method exhibits flexibility, enabling adaptive control and a dynamic number of Gaussians during inference. Experiments on 3 datasets indicate that GSDet achieves AP$_{50}$ gains of 0.7\\% on DIOR-R, 0.3\\% on DOTA-v1.0, and 0.55\\% on DOTA-v1.5 when evaluated with adaptive control and outperforms mainstream detectors.",
+  "pdf": "https://arxiv.org/pdf/2611.32846v1",
+  "url": "https://arxiv.org/abs/2611.32846v1",
+  "abstract": "We present DOPER, an RGB pose estimation framework that shares a visual backbone across object detection, segmentation, and keypoint prediction to recover the 6D pose of known objects through Perspective-n-Point. Starting from synthetic training, DOPER adapts to real observations using partial supervision while retaining synthetic keypoint labels. Calibrated multi-view observations provide geometric constraints for keypoint supervision. During inference, optional heatmap refinement fits a rigid pose directly to the predicted keypoint distributions, resolving ambiguous correspondences without depth input or a learned pose refiner. Starting from underspecified CAD models, DOPER progressively refines the object representation and pose estimator. Results on SPEED+ and SHIRT further demonstrate effective adaptation to illumination changes and accurate temporal pose estimation. Across the evaluated single-view and multi-view configurations, DOPER achieves state-of-the-art detection AP results on HANDAL, HOPEv2, HOT3D, and T-LESS while using only RGB and running in real time (35 Hz per object model on one GB300). These results demonstrate the effectiveness of jointly learning detection and pose keypoints, with real observations and geometric constraints.",
   "citation_count": 0,
   "concepts": [
-   "cs.CV"
+   "cs.CV",
+   "cs.RO"
   ],
-  "arxiv_id": "2611.30602v1",
+  "arxiv_id": "2611.32846v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
@@ -124,138 +63,187 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2611.30531v1",
-  "title": "ReDiffDet: Rotation-equivariant Diffusion Model for Oriented Object Detection",
+  "id": "arxiv:2611.32777v1",
+  "title": "Beyond Static Semantics: Instance-Adaptive Vision-Language Alignment for Building Damage Assessment",
   "authors": [
-   "Zeyu Ding",
-   "Yong Zhou",
-   "Jiaqi Zhao",
-   "Hancheng Zhu",
-   "Wen-Liang Du",
-   "Rui Yao"
+   "Hang Yin",
+   "Jiepan Li",
+   "Hongruixuan Chen",
+   "Guangyi Yang",
+   "Wei He"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.30531v1",
-  "url": "https://arxiv.org/abs/2611.30531v1",
-  "abstract": "The diffusion model has been successfully applied to various detection tasks. However, it still faces several challenges when used for oriented object detection: objects that are arbitrarily rotated require the diffusion model to encode their orientation information; uncontrollable random boxes inaccurately locate objects with dense arrangements and extreme aspect ratios; oriented boxes result in the misalignment between them and image features. To overcome these limitations, we propose ReDiffDet, a framework that formulates oriented object detection as a rotation-equivariant denoising diffusion process. First, we represent an oriented box as a 2D Gaussian distribution, forming the basis of the denoising paradigm. The reverse process can be proven to be rotation-equivariant within this representation and model framework. Second, we design a conditional encoder with conditional boxes to prevent boxes from being randomly placed across the entire image. Third, we propose an aligned decoder for alignment between oriented boxes and image features. The extensive experiments demonstrate ReDiffDet achieves promising performance and significantly outperforms the diffusion model baseline.",
+  "pdf": "https://arxiv.org/pdf/2611.32777v1",
+  "url": "https://arxiv.org/abs/2611.32777v1",
+  "abstract": "Instance-level building damage assessment (IBDA) from bi-temporal remote sensing imagery remains challenging, as the same damage grade may exhibit diverse visual manifestations across individual buildings. Natural language offers explicit descriptions of physical damage, providing complementary semantic cues beyond discrete category labels. However, existing vision--language approaches have not fully addressed how damage semantics should adapt to local bi-temporal evidence and subsequently serve as instance-specific references for severity discrimination. To bridge this gap, we propose LAMIA-IBDA, a unified vision--language framework that progressively grounds shared damage semantics in local observations and individual buildings. Specifically, Adaptive Text-Visual Alignment (ATVA) enables evidence-adaptive semantic interaction by jointly contextualizing multiple damage descriptions and bi-temporal visual features under reliability-aware attention supervision. Dynamic Instance-Prototype Grounding (DIPG) further associates these contextualized semantics with individual building regions to construct instance-adaptive prototypes for fine-grained damage classification. Instance-level description preferences additionally supervise fusion-stage attention, linking semantic adaptation with instance discrimination. Extensive experiments on xBD and BRIGHT demonstrate state-of-the-art performance across optical--optical and optical--SAR settings. The source code is publicly available https://github.com/Cutensil/LAMIA-IBDA.",
   "citation_count": 0,
   "concepts": [
    "cs.CV"
   ],
-  "arxiv_id": "2611.30531v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.30530v1",
-  "title": "Assembly-JEPA: Using World Models for Fine-Grained Industrial Image Verification",
-  "authors": [
-   "Michael Hollmer",
-   "Andreas Fischer"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-23",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.30530v1",
-  "url": "https://arxiv.org/abs/2611.30530v1",
-  "abstract": "Automated verification of industrial assembly processes remains a challenging problem due to substantial visual variability, limited availability of labeled defect data, and the fine-grained nature of many assembly errors. Existing approaches often rely on object detection, CAD models, or supervised classification pipelines, which can struggle to generalize across changing products and assembly configurations. In this work, we propose a novel self-supervised assembly verification framework based on Joint Embedding Predictive Architectures (JEPAs). Starting from the JEPA-based world model LeWorldModel, we investigate how the architecture must be adapted to verify the correctness of fine-grained assembly operations. To this end, we formulate assembly verification as a predictive world modeling task operating on before-and-after observations of assembly processes. Experimental results on industrial assembly tasks demonstrate that the proposed approach reliably detects both fine-grained incorrect assembly states and action-state mismatches, achieving an AUROC of 86.9% on a newly introduced assembly verification dataset. These results indicate that JEPA-based predictive representations constitute a promising foundation for robust and data-efficient industrial assembly verification.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.LG"
-  ],
-  "arxiv_id": "2611.30530v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.30515v1",
-  "title": "Field-Level Crop Classification via Similarity-Induced Supervision from Imperfect Labels",
-  "authors": [
-   "Raul Lomonte Figueiredo",
-   "João Rebouças Dorea",
-   "Dário Augusto Borges Oliveira"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-23",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.30515v1",
-  "url": "https://arxiv.org/abs/2611.30515v1",
-  "abstract": "Regional-scale crop mapping is critical for food production monitoring, yet remains challenging in tropical regions, where persistent cloud cover limits optical imagery. Synthetic aperture radar (SAR) enables continuous observation throughout the agricultural cycle, but a second obstacle is label quality: national-scale land cover products exhibit systematic biases that underestimate less prevalent crops, and training directly on them inherits and amplifies their errors. This work proposes a methodology to build large-scale crop classification models from imperfect public land cover products, requiring no new field campaign, ground survey, or manual label correction. The approach combines two mechanisms. The first reduces the semantic inconsistency of the labels by shifting supervision from the sample level to the group level: a similarity-based clustering model organizes SAR time series into coherent groups, and noisy labels are used only to assign each group its most representative class. The resulting clusters are highly pure with respect to the reference classes (89.0% and 91.2% in the two study regions). The second reduces the spatial inconsistency of the predictions: a segmentation model delineates crop field boundaries from optical imagery, and patch-level predictions are consolidated by majority voting within each field, yielding spatially coherent maps. Evaluated in two Brazilian municipalities, Campo Verde (Mato Grosso) and Luís Eduardo Magalhães (Bahia), the approach consistently outperforms the noisy baseline in mean class accuracy, with gains of up to 10.14 percentage points, especially for minority crops. A state-scale analysis across Mato Grosso and Bahia shows stable behavior without further model adjustment, and the derived municipal crop areas are consistent with official IBGE/PAM statistics, an independent estimate the model never observes.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.30515v1",
+  "arxiv_id": "2611.32777v1",
   "source": "arxiv",
   "topics": [
    "遥感",
-   "计算机视觉"
+   "计算机视觉",
+   "多模态"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2611.30511v1",
-  "title": "AXE: AlpaSim E2E Closed Loop Challenge Technical Report",
+  "id": "arxiv:2611.32718v1",
+  "title": "Seeing to Drive on a Single Board: Attention-Free Depth for Onboard Robot Navigation",
   "authors": [
-   "Joonhee Lim",
-   "Seonmyeong Lee",
-   "Sihwan Hwang",
-   "Hanbin Jang",
-   "Hiwon Shin",
-   "Dogun Kim",
-   "Hyelin Jo",
-   "Hyeonjun Jeong",
-   "Yongjae Lee",
-   "Junseong Kwak",
-   "Junhyeok Park",
-   "Satyam Mishra",
-   "Juyeb Shin",
-   "Uisung Kim",
-   "Hyeonseo Kim",
-   "Saparkhan Kassymbekov",
-   "Hailemichael Molla Gashaw",
-   "Abi Rahman Syamil",
-   "Mingyu Kim",
-   "Hyeongjun Kim",
-   "Yeina Lee",
-   "Moogeun Park",
-   "Dongsuk Kum"
+   "Itai Mizlish",
+   "Boaz Ben-Moshe"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.30511v1",
-  "url": "https://arxiv.org/abs/2611.30511v1",
-  "abstract": "This report presents a comprehensive pipeline for developing an end-to-end (E2E) autonomous driving model for the Physical AI AV Track. The framework consists of data curation, HD map auto-labelling, data-driven imitation learning, and simulator-based reinforcement learning. To ensure safety in the closed-loop setting, we introduce a selection-based E2E planning approach that leverages object detection and BEV segmentation to filter out trajectory candidates likely to cause collisions or off-road driving. Trained on NVIDIA NuRec and the NVIDIA PAI-AV dataset, our method scores a fixed vocabulary of trajectory candidates for collision, drivable-area compliance, and progress learned from simulated rollouts, and selects the best candidate that passes the filter. This design highlights the effectiveness of combining E2E planning with perception-based trajectory filtering for safe and reliable closed-loop autonomous driving.",
+  "pdf": "https://arxiv.org/pdf/2611.32718v1",
+  "url": "https://arxiv.org/abs/2611.32718v1",
+  "abstract": "A small ground robot can carry one camera and a few watts of compute, but the depth foundation models that could turn that camera into a range sensor are vision transformers sized for GPUs. We bring one to a Raspberry Pi 5 with the Hailo-8L, an accelerator that runs every layer in integer arithmetic, attention included. Quantised for it, Depth Anything V2 loses large parts of the scene, and we measure why: at 449 tokens, 91% of softmax weights fall below one int8 step while carrying 17-33% of the attention mass. Our answer is to distil, not quantise. An attention-free ResNet-34 U-Net student of Depth Anything V2-Large (24.5M parameters) runs at 27.1 FPS on the chip, its int8 output matches its float twin (Pearson 0.99993), and on held-out scenes of its simulated yard it is the most accurate depth network on the chip (AbsRel 0.269 against 0.354-0.530). On 1,000 stereo-verified points of a real outdoor drive it is not resolvably different from the vendor's Depth Anything V2-Small build, while running faster (27.1 vs 21.6 FPS). Ranging obstacles by where they meet the floor needs only the camera height, so mapping, hybrid-A* planning and SLAM run on the Pi's own CPU. In real-time hardware-in-the-loop tests in a Gaussian-splat reconstruction of a real yard, the stack reaches the goal without contact in 7.9$\\pm$1.1 of 10 scenes, against 9.2$\\pm$0.4 with exact obstacles, and in 7.7$\\pm$0.7 on its own pose with simulated wheel odometry (ten seeds each; 8.2$\\pm$0.4 with the real Pi and Hailo-8L in the loop, five seeds). The source code, pre-trained models and data are available at https://github.com/itaim18/DANIEL.",
   "citation_count": 0,
   "concepts": [
    "cs.RO",
-   "cs.AI"
+   "cs.CV",
+   "cs.LG"
   ],
-  "arxiv_id": "2611.30511v1",
+  "arxiv_id": "2611.32718v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.32716v1",
+  "title": "SplatSeg3D: Efficient Zero-Shot 3D Segmentation via Point Cloud Surfelization and Splatting",
+  "authors": [
+   "Sandeep Inuganti",
+   "Mahdi Chamseddine",
+   "Marcel Rogge",
+   "Martin R. Oswald",
+   "Didier Stricker",
+   "Jason Rambach"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-24",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.32716v1",
+  "url": "https://arxiv.org/abs/2611.32716v1",
+  "abstract": "Open-vocabulary 3D segmentation methods rely on 2D foundation models applied to registered images captured alongside the 3D point clouds. However, such images may not be available in many cases, while direct 3D point cloud segmentation methods require semantic class supervision and are challenging to deploy in a zero-shot manner. To address these issues, we present SplatSeg3D, which segments a bare colored point cloud in an open-vocabulary manner without requiring the accompanying images, camera poses, class supervision, or instance mask proposals. To achieve this, we first surfelize the input point cloud and obtain oriented 2D Gaussians. We then render views of the scene by splatting, with a view selection strategy that maximizes scene coverage with as few views as possible. Next, we apply text-prompted segmentation on the rendered views, giving each 3D point a set of multi-view semantic cues, fused to produce a 3D segmentation of the scene. We evaluate SplatSeg3D on semantic segmentation and novel-class instance segmentation on 4 standard benchmarks: Scannet, Scannet++, Replica, and S3DIS. Our pipeline not only performs better or on-par with the state-of-the-art, but we also achieve these results efficiently across runtime and compute requirements. Code will be published.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.32716v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.32625v1",
+  "title": "On the Capabilities and Limitations of Zero-Shot Open-Vocabulary Cloud Segmentation",
+  "authors": [
+   "Jose Sosa",
+   "Thomas Gillet",
+   "Rim Sleimi",
+   "Albert Abello"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-24",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.32625v1",
+  "url": "https://arxiv.org/abs/2611.32625v1",
+  "abstract": "Recent advances in vision-language foundation models have enabled open-vocabulary semantic segmentation (OVSS) without task-specific training, offering new opportunities for Earth Observation (EO) applications. However, their capabilities for cloud detection remain insufficiently explored. In this work, we evaluate twelve OVSS approaches across six publicly available EO datasets in a zero-shot setting, i.e., without fine-tuning or adaptation to the target data. We investigate both binary cloud detection and multiclass segmentation, distinguishing between thick clouds, thin clouds, cloud shadows, and background. Our results show differences in performance across models and datasets, with SegEarth-OV3 achieving the highest binary cloud detection performance on four of the six datasets. While several approaches demonstrate promising performance in binary cloud detection, multiclass segmentation remains more challenging, particularly when distinguishing between fine-grained cloud categories. Furthermore, our controlled prompt sensitivity analysis reveals model-dependent responses to alternative textual descriptions, with appearance-oriented prompts benefiting certain approaches while degrading the performance of others. Overall, our findings demonstrate both the potential and current limitations of zero-shot OVSS for cloud detection, establishing a comparative benchmark for future research on generalisable cloud segmentation. Code will be available at: https://github.com/josesosajs/zero-shot-cloudovss.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.32625v1",
+  "source": "arxiv",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.32585v1",
+  "title": "Understanding the Importance of Massive Activations through Adversarial Robustness",
+  "authors": [
+   "Tigran Fahradyan",
+   "Riccardo Ali",
+   "Sergio Calvo-Ordoñez",
+   "José Miguel Hernández-Lobato",
+   "Pietro Liò",
+   "Álvaro Arroyo"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-24",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.32585v1",
+  "url": "https://arxiv.org/abs/2611.32585v1",
+  "abstract": "A common occurrence in Large Language Models (LLMs) is the emergence of so-called massive activations. This phenomenon is well known in the literature and has been connected to attention sinks, representational compression, as well as signal propagation. However, the reasons and consequences for their appearance are not yet well understood. In this paper, we explain the role of massive activations in deep learning by showing that they are connected to the region migration phenomenon in delayed robustness. Under the spline theoretic interpretation of deep networks, we show that massive activations push the representations away from the nonlinearity boundaries of the network, decreasing the complexity of its input-output map around data points. Furthermore, we uncover for the first time that this phenomenon is not unique to transformers and actually appears in a number of common architectures performing simple supervised learning tasks. We validate this connection through extensive experiments on a diverse set of architectures including residual MLP, ResNet18, Vision Transformers and GPT and datasets including MNIST, CIFAR10, Imagenette and Shakespeare Text. We consistently observe that massive activations and region migration co-occur with adversarial robustness. Furthermore, we illustrate that this connection holds in the large-scale pretraining of LLMs by showing that the rise of massive activations in LLMs closely tracks the adversarial accuracy of the model under perturbations of the token embeddings.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.LG"
+  ],
+  "arxiv_id": "2611.32585v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.32532v1",
+  "title": "Rescuing Discarded Boundary Samples in Semi-Supervised Learning",
+  "authors": [
+   "Yuzhao Jiang",
+   "Meng Zhang",
+   "Jie Ma",
+   "Xiaohong Guan"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-24",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.32532v1",
+  "url": "https://arxiv.org/abs/2611.32532v1",
+  "abstract": "The field of semi-supervised learning (SSL) has seen substantial progress, driven by ongoing refinements within the pseudo-label SSL paradigm. The main difficulty lies in reducing the adverse impact of confirmation bias. The predominant approach is to apply a confidence threshold during training to discard low-confidence samples. Nevertheless, while this mitigates the bias, the discarded samples are mostly situated near class boundaries, and consequently, this strategy also loses valuable boundary information. To address this problem, we propose Boundary Refinement and Correction (BRC), an add-on for confidence-thresholded SSL that rescues useful discarded samples without changing how the base SSL method selects pseudo-labels. BRC keeps the original confidence-based selection rule and operates only on the rejected set. It first identifies discarded samples that may still be useful for training, then replaces their original pseudo-labels with corrected soft pseudo-labels and returns them to the unsupervised loss. Extensive experiments on CIFAR-100, STL-10, and TissueMNIST demonstrate the flexibility and broad applicability of BRC across diverse datasets and base SSL methods, reducing error rates by up to 4.97 percentage points. On boundary-near samples, BRC further improves Top-1 accuracy by 12.80 percentage points, directly supporting its ability to refine the model's decision boundary. An exploratory extension to semantic segmentation also yields consistent gains of 1.03-2.39 mIoU, indicating that BRC generalizes beyond image classification.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.32532v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
