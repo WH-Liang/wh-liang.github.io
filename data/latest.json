@@ -1,29 +1,134 @@
 [
  {
-  "id": "arxiv:2611.32877v1",
-  "title": "Simultaneously Boosting Efficiency and Capability for Linear Attention via Adaptive Channel Compression and Activation Purification",
+  "id": "arxiv:2611.34943v1",
+  "title": "Tracking Any Point with Agentic Visual Reasoning",
   "authors": [
-   "Senqi Guan",
-   "Xianchao Zhang",
-   "Moyan Tian",
-   "Linlin Zong",
-   "Wenxin Liang",
-   "Xinyue Liu"
+   "Xuweiyi Chen",
+   "Jin Yao",
+   "Linzhan Mou",
+   "Lei Gong",
+   "Di Liu",
+   "Cheng Zhang",
+   "Ziqiao Ma",
+   "Sihan Xu",
+   "Adam W. Harley",
+   "Shengyi Qian",
+   "Zezhou Cheng"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.32877v1",
-  "url": "https://arxiv.org/abs/2611.32877v1",
-  "abstract": "Self-attention's quadratic complexity constitutes a core bottleneck for Vision Transformers (ViTs). Existing efficiency-oriented optimizations, including softmax-based and linear attention (LA) variants, generally compromise model representational capacity, leading to inevitable performance degradation. We propose a novel linear attention which alleviates this efficiency-capability dilemma. For the first time, we embed an Adaptive Channel Compression and Activation Purification (ACCAP) mechanism into the QKV projection of linear attention, which enables the model to retain high-dimensional feature information while performing computations with reduced channels. We further fuse a focused kernel function and a self-gating module into ACCAP to construct a lightweight linear attention module (ACCAP-LA). Our theoretical analysis shows that, compared to standard linear attention, ACCAP-LA reduces the attention module's parameter count by 79.17% and FLOPs by 77.5%. Extensive experiments demonstrate ACCAP-LA's effectiveness: when applied to ViT, it achieves 79.4% Top-1 accuracy on ImageNet-1K with only 5.8M parameters, and more notably, it boasts strong cross-architecture compatibility, boosting EfficientViT-b1 and PVT-T by 3.3% and 3.4% respectively.",
+  "pdf": "https://arxiv.org/pdf/2611.34943v1",
+  "url": "https://arxiv.org/abs/2611.34943v1",
+  "abstract": "A general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition. However, point correspondence is known to be challenging for VLMs since it goes beyond object-level recognition: it requires pixel-level localization of the same physical surface point across observations, even when appearance changes or the point disappears and later reappears. In this paper, we introduce AgenTAP, a VLM-based agent that directly predicts point coordinates and visibility and actively reasons over videos. Starting from its own estimate, the agent autonomously chooses what to inspect and uses the resulting evidence to verify point identity and refine its predictions. With GPT-6 Astra, it surpasses expert vision models in both point localization and visibility prediction, without correspondence-specific fine-tuning. We further use AgenTAP to re-identify physical points after disappearance and reconnect fragmented tracks, constructing EgoTAP-4D, a dataset of 3D point trajectories in long real-world egocentric videos. On sampled reappearing points, its predictions approach human agreement, and adding EgoTAP-4D to D4RT training improves average 3D tracking performance.",
   "citation_count": 0,
   "concepts": [
    "cs.CV"
   ],
-  "arxiv_id": "2611.32877v1",
+  "arxiv_id": "2611.34943v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "三维与几何",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.34899v1",
+  "title": "Enhancing Maritime Domain Awareness using Latent Space Representations",
+  "authors": [
+   "Rikard Vinge",
+   "Miguel A. Belenguer-Plomer",
+   "Isabelle Wittmann",
+   "Octavian Dumitru",
+   "Michele Lazzarini",
+   "Sergio Albani",
+   "Conrad M Albrecht"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-25",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.34899v1",
+  "url": "https://arxiv.org/abs/2611.34899v1",
+  "abstract": "This work presents a novel application of Earth Observation (EO) embeddings for Maritime Domain Awareness (MDA) from the perspective of the geospatial foundation model TerraMind. By operating directly on compressed latent-space representations rather than on the original Sentinel-1 imagery, this approach directly addresses the data gravity bottleneck that increasingly constrains operational EO processing, in line with the objectives of the Embed2Scale project. In particular, linear and non-linear probing of compressed embeddings, latent space representations of synthetic aperture radar (SAR) imagery, is used to detect, localise, and characterise vessels from Sentinel-1 GRD images. Vessel detection achieves a ROC-AUC of 0.95, while vessel localisation has a median error of around 300 m for vessels longer than 100 m, and vessel AIS type-code classification achieves 62% accuracy for the majority classes. The latter, however, is highly correlated with vessel length. These results reveal both the potential and current limitations of Geospatial Foundation Models (GeoFMs) when applied to fine-grained MDA understanding in real-world scenarios. Additionally, a new maritime remote sensing dataset is released, pairing about 2,000 Sentinel-1 images with temporally aligned AIS signals from commercial vessels. Through manual inspection, each candidate sample was verified for bounding-box quality and for consistency between the AIS-reported vessel length and the observed vessel extent, cross-checking vessel identity and location against publicly available vessel records and, where available, photographs. The dataset was made ready for use with the NeuCo-Bench neural compression benchmark framework, publicly available on HuggingFace through https://huggingface.co/datasets/embed2scale/S1-single-ship-downstream .",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV",
+   "cs.AI",
+   "cs.LG"
+  ],
+  "arxiv_id": "2611.34899v1",
+  "source": "arxiv",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.34863v1",
+  "title": "Focus Only on What's Important: Training-Free Focus Maps for Frozen Vision Transformers in Long-Video Object Segmentation",
+  "authors": [
+   "Harsha Karipineni",
+   "Rajesh Reddy Chintha"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-25",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.34863v1",
+  "url": "https://arxiv.org/abs/2611.34863v1",
+  "abstract": "Vision transformers are strong but costly image encoders for video object segmentation. Training-free token merging cuts compute uniformly across the frame, including on tracked objects. We give a frozen DINOv3 ViT inside a trained Cutie head a training-free focus map: full resolution where the segmenter expects its objects and coarser merging elsewhere. Protecting only the previous frame's mask works on short clips but fails on long videos, where fast motion pushes targets outside the margin and into background merging, locking in loss. Our policy instead takes the union of velocity-shifted and block-matched masks, runs a camera-compensated surprise check, delegates uncertain regions to the compared merger, and falls back to it when all objects are lost. On long videos (LVOS V2 valid, pre-specified protocol, three ViT-S seeds), it beats ALGM 0.98 by +2.76 J&F (95% object CI [+1.22,+4.44]; video-cluster [+0.99,+4.52]) at 16% fewer counted encoder FLOPs (0.385 vs. 0.459), sitting 1.0 J&F point below the dense-encoder baseline; at ViT-B the gain over ALGM 0.95 is +3.89 [+2.03,+5.87]. On DAVIS 2017 val it stays within -0.19 J&F of the dense encoder at ViT-S (-0.12 at ViT-B). Controls qualify the result: protecting only the previous mask under ALGM matches or exceeds accuracy at higher FLOPs (0.486), so expectation and surprise mainly reduce counted encoder compute. Practically, lower counted encoder compute did not reduce startup-inclusive mean Cutie step time on a 12-video LVOS sample (3%-8% lower in steady state; an equally engineered ALGM is faster at ViT-S and ViT-B). Section 5.2 separately examines a Cutie permanent-memory schedule and its latency and memory trade-offs. Code: https://github.com/boletoms/focused-cv",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV",
+   "cs.LG"
+  ],
+  "arxiv_id": "2611.34863v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉",
+   "机器学习",
+   "多模态"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.34828v1",
+  "title": "Beyond Feature Fusion: Sensor-Grounded Semantic-Spiking Learning for Robust Object Detection",
+  "authors": [
+   "Hanwen Liang",
+   "Wenxuan Liu",
+   "Wenxin Huang",
+   "Jingling Yuan",
+   "Zhaofei Yu",
+   "Xian Zhong",
+   "Tiejun Huang"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-25",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.34828v1",
+  "url": "https://arxiv.org/abs/2611.34828v1",
+  "abstract": "Underexposure weakens object details, and overexposure obscures boundaries. Spike cameras encode light into high-frequency binary streams. Long-window spike counts give stable appearance cues, while short observations reveal changes in firing rates from sparse measurements. We propose SPIRE, a sensor-grounded semantic-spiking framework for illumination-robust object detection from a single spike stream. SPIRE builds an appearance view from the full packet through detection-oriented illumination adaptation and constructs a sequence of cumulative views from progressively longer prefixes. Each prefix supplies a rate map, an edge map, and a rate difference that tracks changes as spikes accumulate. At selected scales, ANN features and spike-derived initialization jointly set the initial membrane potentials and firing thresholds, allowing semantic cues to shape the responses during temporal encoding. Local spike-count contrasts supervise both branches during training. The residual between measured and ANN-predicted contrasts combines with the spiking features to produce a bounded correction to the fused feature pyramid. On simulated VOC and COCO, SPIRE-D outperforms the strongest baseline by 4.00-5.50 AP50 points across the four under- and overexposure settings. On real PKU-Vidar-DVS recordings, it achieves 67.07 AP50 and 40.10 AP75. SPIRE-D also uses 50.4% fewer MACs than SPFD.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.34828v1",
   "source": "arxiv",
   "topics": [
    "计算机视觉",
@@ -32,60 +137,71 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2611.32846v1",
-  "title": "DOPER: Deep Object Pose Estimation Revisited",
+  "id": "arxiv:2611.34795v1",
+  "title": "CIRKDV2: Cross-Image Relational Knowledge Distillation with Contextual Modeling for Efficient Semantic Segmentation",
   "authors": [
-   "Hugo Hadfield",
-   "Alperen Degirmenci",
-   "Jonathan Tremblay"
+   "Chuanguang Yang",
+   "Yu Wang",
+   "Chengqing Yu",
+   "Xinqiang Yu",
+   "Weilun Feng",
+   "Yuqi Li",
+   "Zhulin An",
+   "Libo Huang",
+   "Boyu Diao",
+   "Fei Wang",
+   "Fuzhen Zhuang",
+   "Yongjun Xu",
+   "Yingli Tian",
+   "Tingwen Huang",
+   "Yongduan Song"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.32846v1",
-  "url": "https://arxiv.org/abs/2611.32846v1",
-  "abstract": "We present DOPER, an RGB pose estimation framework that shares a visual backbone across object detection, segmentation, and keypoint prediction to recover the 6D pose of known objects through Perspective-n-Point. Starting from synthetic training, DOPER adapts to real observations using partial supervision while retaining synthetic keypoint labels. Calibrated multi-view observations provide geometric constraints for keypoint supervision. During inference, optional heatmap refinement fits a rigid pose directly to the predicted keypoint distributions, resolving ambiguous correspondences without depth input or a learned pose refiner. Starting from underspecified CAD models, DOPER progressively refines the object representation and pose estimator. Results on SPEED+ and SHIRT further demonstrate effective adaptation to illumination changes and accurate temporal pose estimation. Across the evaluated single-view and multi-view configurations, DOPER achieves state-of-the-art detection AP results on HANDAL, HOPEv2, HOT3D, and T-LESS while using only RGB and running in real time (35 Hz per object model on one GB300). These results demonstrate the effectiveness of jointly learning detection and pose keypoints, with real observations and geometric constraints.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.RO"
-  ],
-  "arxiv_id": "2611.32846v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.32777v1",
-  "title": "Beyond Static Semantics: Instance-Adaptive Vision-Language Alignment for Building Damage Assessment",
-  "authors": [
-   "Hang Yin",
-   "Jiepan Li",
-   "Hongruixuan Chen",
-   "Guangyi Yang",
-   "Wei He"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-24",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.32777v1",
-  "url": "https://arxiv.org/abs/2611.32777v1",
-  "abstract": "Instance-level building damage assessment (IBDA) from bi-temporal remote sensing imagery remains challenging, as the same damage grade may exhibit diverse visual manifestations across individual buildings. Natural language offers explicit descriptions of physical damage, providing complementary semantic cues beyond discrete category labels. However, existing vision--language approaches have not fully addressed how damage semantics should adapt to local bi-temporal evidence and subsequently serve as instance-specific references for severity discrimination. To bridge this gap, we propose LAMIA-IBDA, a unified vision--language framework that progressively grounds shared damage semantics in local observations and individual buildings. Specifically, Adaptive Text-Visual Alignment (ATVA) enables evidence-adaptive semantic interaction by jointly contextualizing multiple damage descriptions and bi-temporal visual features under reliability-aware attention supervision. Dynamic Instance-Prototype Grounding (DIPG) further associates these contextualized semantics with individual building regions to construct instance-adaptive prototypes for fine-grained damage classification. Instance-level description preferences additionally supervise fusion-stage attention, linking semantic adaptation with instance discrimination. Extensive experiments on xBD and BRIGHT demonstrate state-of-the-art performance across optical--optical and optical--SAR settings. The source code is publicly available https://github.com/Cutensil/LAMIA-IBDA.",
+  "pdf": "https://arxiv.org/pdf/2611.34795v1",
+  "url": "https://arxiv.org/abs/2611.34795v1",
+  "abstract": "Existing Knowledge Distillation (KD) methods for semantic segmentation often guide the student to mimic the teacher's structured information generated from an individual image. However, they ignore the global semantic relations across various images that are valuable for KD. This paper proposes Cross-Image Relational KD V2 (CIRKDV2), which focuses on transferring structured pixel-to-pixel, pixel-to-region, and channel-to-channel relations modeled from global images in the dataset. A large teacher network often constructs a well-structured feature space in terms of global contextual dependencies. CIRKDV2 makes the student mimic the better structured semantic relations of the teacher, thus improving the feature representational capability. Beyond relational distillation, we further propose contextual feature distillation by using context aggregation to augment student pixel embeddings to match the semantic level with the teacher. This avoids the semantic gap problem between the teacher and student occurred in traditional feature distillation studies. Experimental results on Cityscapes, ADE20K, Pascal VOC, and COCO-Stuff-164K demonstrate that CIRKDV2 outperforms the state-of-the-art semantic segmentation distillation methods by large margins across various network architectures. Our code and pre-trained models are publicly available at https://github.com/winycg/CIRKD.",
   "citation_count": 0,
   "concepts": [
    "cs.CV"
   ],
-  "arxiv_id": "2611.32777v1",
+  "arxiv_id": "2611.34795v1",
+  "source": "arxiv",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "arxiv:2611.34700v1",
+  "title": "Seeing the Right Context: Grounded On-Policy Distillation for Remote Sensing",
+  "authors": [
+   "Yichang Luo",
+   "Hourun Zhu",
+   "Shixiong Liu",
+   "Kan Wei",
+   "Shi Liang",
+   "Yidan Zhang",
+   "Lei Wang"
+  ],
+  "venue": "arXiv",
+  "venue_short": "arXiv",
+  "venue_type": "preprint",
+  "year": 2026,
+  "date": "2026-11-25",
+  "doi": null,
+  "pdf": "https://arxiv.org/pdf/2611.34700v1",
+  "url": "https://arxiv.org/abs/2611.34700v1",
+  "abstract": "Remote sensing scene understanding requires multimodal large language models (MLLMs) to interpret queried targets in relation to nearby objects and surrounding structures, which serve as spatial references or define the scope of an answer. However, standard answers and bounding boxes often leave these contextual relationships implicit. Thus, we construct GeoContext-5K to make them explicit in 5,394 training pairs for visual question answering (VQA), with spatial cues, visual facts, and supporting regions. GeOPD uses these annotations for on-policy distillation, guiding a frozen teacher with region marks on the full image and a visual fact while preserving surrounding spatial references. It prioritizes teacher corrections that agree with the shift in the student's next token distribution when evidence is restored. A complementary objective weights the contrast between the student's scores on the two views by how much masking lowers the teacher's log probability for the same sampled token. Experiments on five remote sensing VQA benchmarks show that GeOPD outperforms the evaluated open-source MLLMs and matched post-training baselines, improving over the 4B and 9B base models by 5.81 and 2.97 percentage points on average. The dataset and code will be publicly released at https://github.com/YeeCharm/GeOPD.",
+  "citation_count": 0,
+  "concepts": [
+   "cs.CV"
+  ],
+  "arxiv_id": "2611.34700v1",
   "source": "arxiv",
   "topics": [
    "遥感",
@@ -95,159 +211,64 @@
   "is_own": false
  },
  {
-  "id": "arxiv:2611.32718v1",
-  "title": "Seeing to Drive on a Single Board: Attention-Free Depth for Onboard Robot Navigation",
+  "id": "arxiv:2611.34581v1",
+  "title": "ChemoMAE: Self-Supervised Spectral Representation Learning Reveals Chemical Heterogeneity in Historical Wood",
   "authors": [
-   "Itai Mizlish",
-   "Boaz Ben-Moshe"
+   "Ryuji Yamaguchi",
+   "Miyuki Matsuo"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.32718v1",
-  "url": "https://arxiv.org/abs/2611.32718v1",
-  "abstract": "A small ground robot can carry one camera and a few watts of compute, but the depth foundation models that could turn that camera into a range sensor are vision transformers sized for GPUs. We bring one to a Raspberry Pi 5 with the Hailo-8L, an accelerator that runs every layer in integer arithmetic, attention included. Quantised for it, Depth Anything V2 loses large parts of the scene, and we measure why: at 449 tokens, 91% of softmax weights fall below one int8 step while carrying 17-33% of the attention mass. Our answer is to distil, not quantise. An attention-free ResNet-34 U-Net student of Depth Anything V2-Large (24.5M parameters) runs at 27.1 FPS on the chip, its int8 output matches its float twin (Pearson 0.99993), and on held-out scenes of its simulated yard it is the most accurate depth network on the chip (AbsRel 0.269 against 0.354-0.530). On 1,000 stereo-verified points of a real outdoor drive it is not resolvably different from the vendor's Depth Anything V2-Small build, while running faster (27.1 vs 21.6 FPS). Ranging obstacles by where they meet the floor needs only the camera height, so mapping, hybrid-A* planning and SLAM run on the Pi's own CPU. In real-time hardware-in-the-loop tests in a Gaussian-splat reconstruction of a real yard, the stack reaches the goal without contact in 7.9$\\pm$1.1 of 10 scenes, against 9.2$\\pm$0.4 with exact obstacles, and in 7.7$\\pm$0.7 on its own pose with simulated wheel odometry (ten seeds each; 8.2$\\pm$0.4 with the real Pi and Hailo-8L in the loop, five seeds). The source code, pre-trained models and data are available at https://github.com/itaim18/DANIEL.",
+  "pdf": "https://arxiv.org/pdf/2611.34581v1",
+  "url": "https://arxiv.org/abs/2611.34581v1",
+  "abstract": "In historical timber buildings, multiple environmental factors act over centuries on wood whose chemical composition varies across anatomical regions, producing complex patterns of degradation. Understanding how timber members degrade is important for the effective conservation and restoration of historical buildings, yet the mechanisms underlying these patterns remain unclear. To investigate these mechanisms, we used self-supervised learning to establish a common basis for comparing specimens from timber members that differ in wood species and service history. We examined transverse sections of 49 wood specimens from several historical buildings in Japan using near-infrared hyperspectral imaging. ChemoMAE, a self-supervised Transformer, learns pixelwise spectral representations through masked denoising that exploits multicollinearity among spectral variables. Clustering these representations yields spatial maps without predefined chemical-state categories. Because anatomy and degradation can produce spatially continuous regions, we formulated Local Label Agreement (LLA) to quantify agreement among labels assigned to neighboring pixels. Using spectra alone, ChemoMAE yielded higher mean LLA than baseline methods on validation specimens. We then trained ChemoMAE anew and fitted cluster centers across all specimens. Spatial structures consistent with wood anatomy and the expected effects of surface exposure emerged in the resulting maps. By cross-referencing regional spectra and spatial distributions across specimens in light of wood anatomy, service histories, and prior studies, we proposed models of internal and surface degradation as mechanistic hypotheses. This exploratory AI for Science framework gives researchers a basis for linking latent patterns learned through self-supervision with domain knowledge when investigating how material states form.",
   "citation_count": 0,
   "concepts": [
-   "cs.RO",
-   "cs.CV",
-   "cs.LG"
-  ],
-  "arxiv_id": "2611.32718v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.32716v1",
-  "title": "SplatSeg3D: Efficient Zero-Shot 3D Segmentation via Point Cloud Surfelization and Splatting",
-  "authors": [
-   "Sandeep Inuganti",
-   "Mahdi Chamseddine",
-   "Marcel Rogge",
-   "Martin R. Oswald",
-   "Didier Stricker",
-   "Jason Rambach"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-24",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.32716v1",
-  "url": "https://arxiv.org/abs/2611.32716v1",
-  "abstract": "Open-vocabulary 3D segmentation methods rely on 2D foundation models applied to registered images captured alongside the 3D point clouds. However, such images may not be available in many cases, while direct 3D point cloud segmentation methods require semantic class supervision and are challenging to deploy in a zero-shot manner. To address these issues, we present SplatSeg3D, which segments a bare colored point cloud in an open-vocabulary manner without requiring the accompanying images, camera poses, class supervision, or instance mask proposals. To achieve this, we first surfelize the input point cloud and obtain oriented 2D Gaussians. We then render views of the scene by splatting, with a view selection strategy that maximizes scene coverage with as few views as possible. Next, we apply text-prompted segmentation on the rendered views, giving each 3D point a set of multi-view semantic cues, fused to produce a 3D segmentation of the scene. We evaluate SplatSeg3D on semantic segmentation and novel-class instance segmentation on 4 standard benchmarks: Scannet, Scannet++, Replica, and S3DIS. Our pipeline not only performs better or on-par with the state-of-the-art, but we also achieve these results efficiently across runtime and compute requirements. Code will be published.",
-  "citation_count": 0,
-  "concepts": [
+   "cs.LG",
    "cs.CV"
   ],
-  "arxiv_id": "2611.32716v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "三维与几何"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.32625v1",
-  "title": "On the Capabilities and Limitations of Zero-Shot Open-Vocabulary Cloud Segmentation",
-  "authors": [
-   "Jose Sosa",
-   "Thomas Gillet",
-   "Rim Sleimi",
-   "Albert Abello"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-24",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.32625v1",
-  "url": "https://arxiv.org/abs/2611.32625v1",
-  "abstract": "Recent advances in vision-language foundation models have enabled open-vocabulary semantic segmentation (OVSS) without task-specific training, offering new opportunities for Earth Observation (EO) applications. However, their capabilities for cloud detection remain insufficiently explored. In this work, we evaluate twelve OVSS approaches across six publicly available EO datasets in a zero-shot setting, i.e., without fine-tuning or adaptation to the target data. We investigate both binary cloud detection and multiclass segmentation, distinguishing between thick clouds, thin clouds, cloud shadows, and background. Our results show differences in performance across models and datasets, with SegEarth-OV3 achieving the highest binary cloud detection performance on four of the six datasets. While several approaches demonstrate promising performance in binary cloud detection, multiclass segmentation remains more challenging, particularly when distinguishing between fine-grained cloud categories. Furthermore, our controlled prompt sensitivity analysis reveals model-dependent responses to alternative textual descriptions, with appearance-oriented prompts benefiting certain approaches while degrading the performance of others. Overall, our findings demonstrate both the potential and current limitations of zero-shot OVSS for cloud detection, establishing a comparative benchmark for future research on generalisable cloud segmentation. Code will be available at: https://github.com/josesosajs/zero-shot-cloudovss.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.32625v1",
+  "arxiv_id": "2611.34581v1",
   "source": "arxiv",
   "topics": [
    "遥感",
    "计算机视觉",
-   "多模态"
+   "机器学习"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2611.32585v1",
-  "title": "Understanding the Importance of Massive Activations through Adversarial Robustness",
+  "id": "arxiv:2611.34430v1",
+  "title": "One Representation to Rule Them All -- Open-Vocabulary Change Detection from Text or Visual Examples",
   "authors": [
-   "Tigran Fahradyan",
-   "Riccardo Ali",
-   "Sergio Calvo-Ordoñez",
-   "José Miguel Hernández-Lobato",
-   "Pietro Liò",
-   "Álvaro Arroyo"
+   "Blaž Rolih",
+   "Matic Fučka",
+   "Filip Wolf",
+   "Luka Čehovin Zajc"
   ],
   "venue": "arXiv",
   "venue_short": "arXiv",
   "venue_type": "preprint",
   "year": 2026,
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.32585v1",
-  "url": "https://arxiv.org/abs/2611.32585v1",
-  "abstract": "A common occurrence in Large Language Models (LLMs) is the emergence of so-called massive activations. This phenomenon is well known in the literature and has been connected to attention sinks, representational compression, as well as signal propagation. However, the reasons and consequences for their appearance are not yet well understood. In this paper, we explain the role of massive activations in deep learning by showing that they are connected to the region migration phenomenon in delayed robustness. Under the spline theoretic interpretation of deep networks, we show that massive activations push the representations away from the nonlinearity boundaries of the network, decreasing the complexity of its input-output map around data points. Furthermore, we uncover for the first time that this phenomenon is not unique to transformers and actually appears in a number of common architectures performing simple supervised learning tasks. We validate this connection through extensive experiments on a diverse set of architectures including residual MLP, ResNet18, Vision Transformers and GPT and datasets including MNIST, CIFAR10, Imagenette and Shakespeare Text. We consistently observe that massive activations and region migration co-occur with adversarial robustness. Furthermore, we illustrate that this connection holds in the large-scale pretraining of LLMs by showing that the rise of massive activations in LLMs closely tracks the adversarial accuracy of the model under perturbations of the token embeddings.",
+  "pdf": "https://arxiv.org/pdf/2611.34430v1",
+  "url": "https://arxiv.org/abs/2611.34430v1",
+  "abstract": "Open-vocabulary change detection (OVCD) aims to localise user-specified changes without retraining for predefined categories. Existing approaches typically rely on textual descriptions and combine separate models for region proposal, semantic recognition, and temporal comparison. This limits how target concepts can be expressed and makes detection dependent on several intermediate predictions. We introduce OVTSID3, a training-free framework that unifies region grouping, concept identification, and temporal comparison in the representation space of DINOv3. OVTSID3 supports two complementary modes of concept specification: zero-shot textual queries or one-shot visual prompting through a masked reference pair. OVTSID3 outperforms all prior training-free OVCD methods on two building and two natural-disaster benchmarks, raising the average F1 by 8.9 points. OVTSID3 also supports semantic change detection and achieves state-of-the-art on SECOND. These results demonstrate the flexibility of a unified representation for text- or example-guided change detection without task-specific model training.",
   "citation_count": 0,
   "concepts": [
+   "cs.CV",
+   "cs.AI",
    "cs.LG"
   ],
-  "arxiv_id": "2611.32585v1",
+  "arxiv_id": "2611.34430v1",
   "source": "arxiv",
   "topics": [
-   "计算机视觉",
-   "机器学习",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.32532v1",
-  "title": "Rescuing Discarded Boundary Samples in Semi-Supervised Learning",
-  "authors": [
-   "Yuzhao Jiang",
-   "Meng Zhang",
-   "Jie Ma",
-   "Xiaohong Guan"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-24",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.32532v1",
-  "url": "https://arxiv.org/abs/2611.32532v1",
-  "abstract": "The field of semi-supervised learning (SSL) has seen substantial progress, driven by ongoing refinements within the pseudo-label SSL paradigm. The main difficulty lies in reducing the adverse impact of confirmation bias. The predominant approach is to apply a confidence threshold during training to discard low-confidence samples. Nevertheless, while this mitigates the bias, the discarded samples are mostly situated near class boundaries, and consequently, this strategy also loses valuable boundary information. To address this problem, we propose Boundary Refinement and Correction (BRC), an add-on for confidence-thresholded SSL that rescues useful discarded samples without changing how the base SSL method selects pseudo-labels. BRC keeps the original confidence-based selection rule and operates only on the rejected set. It first identifies discarded samples that may still be useful for training, then replaces their original pseudo-labels with corrected soft pseudo-labels and returns them to the unsupervised loss. Extensive experiments on CIFAR-100, STL-10, and TissueMNIST demonstrate the flexibility and broad applicability of BRC across diverse datasets and base SSL methods, reducing error rates by up to 4.97 percentage points. On boundary-near samples, BRC further improves Top-1 accuracy by 12.80 percentage points, directly supporting its ability to refine the model's decision boundary. An exploratory extension to semantic segmentation also yields consistent gains of 1.03-2.39 mIoU, indicating that BRC generalizes beyond image classification.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.32532v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
+   "遥感",
+   "计算机视觉"
   ],
   "is_own": false
  }
