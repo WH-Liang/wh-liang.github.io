@@ -1,274 +1,259 @@
 [
  {
-  "id": "arxiv:2611.34943v1",
-  "title": "Tracking Any Point with Agentic Visual Reasoning",
+  "id": "openalex:W7158633063",
+  "title": "Spectral-temporal patterns of vegetation communities: Identifying where and when biological information emerges in imaging spectroscopy data",
   "authors": [
-   "Xuweiyi Chen",
-   "Jin Yao",
-   "Linzhan Mou",
-   "Lei Gong",
-   "Di Liu",
-   "Cheng Zhang",
-   "Ziqiao Ma",
-   "Sihan Xu",
-   "Adam W. Harley",
-   "Shengyi Qian",
-   "Zezhou Cheng"
+   "Jaime Caballer Revenga",
+   "Ankit Kariryaa",
+   "Zhaoyue Wu",
+   "Ting Zheng",
+   "Kyle R. Kovach",
+   "Fabian Schneider"
   ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
   "year": 2026,
   "date": "2026-11-25",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.34943v1",
-  "url": "https://arxiv.org/abs/2611.34943v1",
-  "abstract": "A general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition. However, point correspondence is known to be challenging for VLMs since it goes beyond object-level recognition: it requires pixel-level localization of the same physical surface point across observations, even when appearance changes or the point disappears and later reappears. In this paper, we introduce AgenTAP, a VLM-based agent that directly predicts point coordinates and visibility and actively reasons over videos. Starting from its own estimate, the agent autonomously chooses what to inspect and uses the resulting evidence to verify point identity and refine its predictions. With GPT-6 Astra, it surpasses expert vision models in both point localization and visibility prediction, without correspondence-specific fine-tuning. We further use AgenTAP to re-identify physical points after disappearance and reconnect fragmented tracks, constructing EgoTAP-4D, a dataset of 3D point trajectories in long real-world egocentric videos. On sampled reappearing points, its predictions approach human agreement, and adding EgoTAP-4D to D4RT training improves average 3D tracking performance.",
+  "doi": "10.1016/j.rse.2026.115747",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115747",
+  "abstract": "Imaging spectroscopy provides detailed insights into terrestrial ecosystem physiology and biodiversity, and recent missions are expanding its operational scope. Key challenges remain, however, in interpreting the information contained in reflectance spectra and optimizing their use for vegetation monitoring. Here we ask ( Obj1 ) where along the spectrum and ( Obj2 ) when during the phenological cycle is vegetation class-discriminative spectral information most strongly expressed? We analyzed data from the NASA Surface Biology and Geology High-Frequency Time Series (SHIFT) campaign, covering eight vegetation communities across three plant functional types in a coastal Mediterranean ecosystem. To address both objectives, we combined three conceptually independent approaches that characterize spectral shape divergence, characteristic local structure, and class separability. By identifying spectral regions highlighted consistently across methods, we localized informative segments of the spectrum and tracked how their importance evolved through time. We further evaluated the operational implications of reduced temporal sampling through time-ablation experiments controlling for both the number of acquisition dates and revisit frequency. Results revealed community-specific regions of enhanced information content together with distinct periods of maximum discriminability. Mapping accuracy remained robust under reduced sampling, retaining 94.8% of optimal performance when revisit intervals increased from one to two weeks, and 91.3% for monthly cloud-free acquisitions. Vegetation discriminability was both spectrally localized and temporally dynamic, indicating that spectral and temporal dimensions are best considered jointly. These findings suggest that incorporating phenological and environmental gradients into sampling strategies may improve the scientific return of future environmental imaging spectroscopy missions.",
   "citation_count": 0,
   "concepts": [
-   "cs.CV"
+   "Vegetation (pathology)",
+   "Remote sensing",
+   "Hyperspectral imaging"
   ],
-  "arxiv_id": "2611.34943v1",
-  "source": "arxiv",
+  "source": "openalex",
   "topics": [
-   "计算机视觉",
-   "三维与几何",
-   "多模态"
+   "遥感"
   ],
   "is_own": false
  },
  {
-  "id": "arxiv:2611.34899v1",
-  "title": "Enhancing Maritime Domain Awareness using Latent Space Representations",
+  "id": "openalex:W7239797634",
+  "title": "Dual V-shaped characteristics to extract rice paddies in rice and wetland coexisting regions from SAR imagery",
   "authors": [
-   "Rikard Vinge",
-   "Miguel A. Belenguer-Plomer",
-   "Isabelle Wittmann",
-   "Octavian Dumitru",
-   "Michele Lazzarini",
-   "Sergio Albani",
-   "Conrad M Albrecht"
+   "Chen Cheng",
+   "Hong Chi"
   ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
+  "venue_type": "journal",
   "year": 2026,
   "date": "2026-11-25",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.34899v1",
-  "url": "https://arxiv.org/abs/2611.34899v1",
-  "abstract": "This work presents a novel application of Earth Observation (EO) embeddings for Maritime Domain Awareness (MDA) from the perspective of the geospatial foundation model TerraMind. By operating directly on compressed latent-space representations rather than on the original Sentinel-1 imagery, this approach directly addresses the data gravity bottleneck that increasingly constrains operational EO processing, in line with the objectives of the Embed2Scale project. In particular, linear and non-linear probing of compressed embeddings, latent space representations of synthetic aperture radar (SAR) imagery, is used to detect, localise, and characterise vessels from Sentinel-1 GRD images. Vessel detection achieves a ROC-AUC of 0.95, while vessel localisation has a median error of around 300 m for vessels longer than 100 m, and vessel AIS type-code classification achieves 62% accuracy for the majority classes. The latter, however, is highly correlated with vessel length. These results reveal both the potential and current limitations of Geospatial Foundation Models (GeoFMs) when applied to fine-grained MDA understanding in real-world scenarios. Additionally, a new maritime remote sensing dataset is released, pairing about 2,000 Sentinel-1 images with temporally aligned AIS signals from commercial vessels. Through manual inspection, each candidate sample was verified for bounding-box quality and for consistency between the AIS-reported vessel length and the observed vessel extent, cross-checking vessel identity and location against publicly available vessel records and, where available, photographs. The dataset was made ready for use with the NeuCo-Bench neural compression benchmark framework, publicly available on HuggingFace through https://huggingface.co/datasets/embed2scale/S1-single-ship-downstream .",
+  "doi": "10.1016/j.rse.2026.115800",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115800",
+  "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "cs.CV",
-   "cs.AI",
-   "cs.LG"
+   "Remote sensing",
+   "Environmental science",
+   "Paddy field"
   ],
-  "arxiv_id": "2611.34899v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.34863v1",
-  "title": "Focus Only on What's Important: Training-Free Focus Maps for Frozen Vision Transformers in Long-Video Object Segmentation",
-  "authors": [
-   "Harsha Karipineni",
-   "Rajesh Reddy Chintha"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-25",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.34863v1",
-  "url": "https://arxiv.org/abs/2611.34863v1",
-  "abstract": "Vision transformers are strong but costly image encoders for video object segmentation. Training-free token merging cuts compute uniformly across the frame, including on tracked objects. We give a frozen DINOv3 ViT inside a trained Cutie head a training-free focus map: full resolution where the segmenter expects its objects and coarser merging elsewhere. Protecting only the previous frame's mask works on short clips but fails on long videos, where fast motion pushes targets outside the margin and into background merging, locking in loss. Our policy instead takes the union of velocity-shifted and block-matched masks, runs a camera-compensated surprise check, delegates uncertain regions to the compared merger, and falls back to it when all objects are lost. On long videos (LVOS V2 valid, pre-specified protocol, three ViT-S seeds), it beats ALGM 0.98 by +2.76 J&F (95% object CI [+1.22,+4.44]; video-cluster [+0.99,+4.52]) at 16% fewer counted encoder FLOPs (0.385 vs. 0.459), sitting 1.0 J&F point below the dense-encoder baseline; at ViT-B the gain over ALGM 0.95 is +3.89 [+2.03,+5.87]. On DAVIS 2017 val it stays within -0.19 J&F of the dense encoder at ViT-S (-0.12 at ViT-B). Controls qualify the result: protecting only the previous mask under ALGM matches or exceeds accuracy at higher FLOPs (0.486), so expectation and surprise mainly reduce counted encoder compute. Practically, lower counted encoder compute did not reduce startup-inclusive mean Cutie step time on a 12-video LVOS sample (3%-8% lower in steady state; an equally engineered ALGM is faster at ViT-S and ViT-B). Section 5.2 separately examines a Cutie permanent-memory schedule and its latency and memory trade-offs. Code: https://github.com/boletoms/focused-cv",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.LG"
-  ],
-  "arxiv_id": "2611.34863v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.34828v1",
-  "title": "Beyond Feature Fusion: Sensor-Grounded Semantic-Spiking Learning for Robust Object Detection",
-  "authors": [
-   "Hanwen Liang",
-   "Wenxuan Liu",
-   "Wenxin Huang",
-   "Jingling Yuan",
-   "Zhaofei Yu",
-   "Xian Zhong",
-   "Tiejun Huang"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-25",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.34828v1",
-  "url": "https://arxiv.org/abs/2611.34828v1",
-  "abstract": "Underexposure weakens object details, and overexposure obscures boundaries. Spike cameras encode light into high-frequency binary streams. Long-window spike counts give stable appearance cues, while short observations reveal changes in firing rates from sparse measurements. We propose SPIRE, a sensor-grounded semantic-spiking framework for illumination-robust object detection from a single spike stream. SPIRE builds an appearance view from the full packet through detection-oriented illumination adaptation and constructs a sequence of cumulative views from progressively longer prefixes. Each prefix supplies a rate map, an edge map, and a rate difference that tracks changes as spikes accumulate. At selected scales, ANN features and spike-derived initialization jointly set the initial membrane potentials and firing thresholds, allowing semantic cues to shape the responses during temporal encoding. Local spike-count contrasts supervise both branches during training. The residual between measured and ANN-predicted contrasts combines with the spiking features to produce a bounded correction to the fused feature pyramid. On simulated VOC and COCO, SPIRE-D outperforms the strongest baseline by 4.00-5.50 AP50 points across the four under- and overexposure settings. On real PKU-Vidar-DVS recordings, it achieves 67.07 AP50 and 40.10 AP75. SPIRE-D also uses 50.4% fewer MACs than SPFD.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.34828v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.34795v1",
-  "title": "CIRKDV2: Cross-Image Relational Knowledge Distillation with Contextual Modeling for Efficient Semantic Segmentation",
-  "authors": [
-   "Chuanguang Yang",
-   "Yu Wang",
-   "Chengqing Yu",
-   "Xinqiang Yu",
-   "Weilun Feng",
-   "Yuqi Li",
-   "Zhulin An",
-   "Libo Huang",
-   "Boyu Diao",
-   "Fei Wang",
-   "Fuzhen Zhuang",
-   "Yongjun Xu",
-   "Yingli Tian",
-   "Tingwen Huang",
-   "Yongduan Song"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-25",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.34795v1",
-  "url": "https://arxiv.org/abs/2611.34795v1",
-  "abstract": "Existing Knowledge Distillation (KD) methods for semantic segmentation often guide the student to mimic the teacher's structured information generated from an individual image. However, they ignore the global semantic relations across various images that are valuable for KD. This paper proposes Cross-Image Relational KD V2 (CIRKDV2), which focuses on transferring structured pixel-to-pixel, pixel-to-region, and channel-to-channel relations modeled from global images in the dataset. A large teacher network often constructs a well-structured feature space in terms of global contextual dependencies. CIRKDV2 makes the student mimic the better structured semantic relations of the teacher, thus improving the feature representational capability. Beyond relational distillation, we further propose contextual feature distillation by using context aggregation to augment student pixel embeddings to match the semantic level with the teacher. This avoids the semantic gap problem between the teacher and student occurred in traditional feature distillation studies. Experimental results on Cityscapes, ADE20K, Pascal VOC, and COCO-Stuff-164K demonstrate that CIRKDV2 outperforms the state-of-the-art semantic segmentation distillation methods by large margins across various network architectures. Our code and pre-trained models are publicly available at https://github.com/winycg/CIRKD.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.34795v1",
-  "source": "arxiv",
-  "topics": [
-   "计算机视觉"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.34700v1",
-  "title": "Seeing the Right Context: Grounded On-Policy Distillation for Remote Sensing",
-  "authors": [
-   "Yichang Luo",
-   "Hourun Zhu",
-   "Shixiong Liu",
-   "Kan Wei",
-   "Shi Liang",
-   "Yidan Zhang",
-   "Lei Wang"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-25",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.34700v1",
-  "url": "https://arxiv.org/abs/2611.34700v1",
-  "abstract": "Remote sensing scene understanding requires multimodal large language models (MLLMs) to interpret queried targets in relation to nearby objects and surrounding structures, which serve as spatial references or define the scope of an answer. However, standard answers and bounding boxes often leave these contextual relationships implicit. Thus, we construct GeoContext-5K to make them explicit in 5,394 training pairs for visual question answering (VQA), with spatial cues, visual facts, and supporting regions. GeOPD uses these annotations for on-policy distillation, guiding a frozen teacher with region marks on the full image and a visual fact while preserving surrounding spatial references. It prioritizes teacher corrections that agree with the shift in the student's next token distribution when evidence is restored. A complementary objective weights the contrast between the student's scores on the two views by how much masking lowers the teacher's log probability for the same sampled token. Experiments on five remote sensing VQA benchmarks show that GeOPD outperforms the evaluated open-source MLLMs and matched post-training baselines, improving over the 4B and 9B base models by 5.81 and 2.97 percentage points on average. The dataset and code will be publicly released at https://github.com/YeeCharm/GeOPD.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.34700v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "多模态"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.34581v1",
-  "title": "ChemoMAE: Self-Supervised Spectral Representation Learning Reveals Chemical Heterogeneity in Historical Wood",
-  "authors": [
-   "Ryuji Yamaguchi",
-   "Miyuki Matsuo"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-25",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.34581v1",
-  "url": "https://arxiv.org/abs/2611.34581v1",
-  "abstract": "In historical timber buildings, multiple environmental factors act over centuries on wood whose chemical composition varies across anatomical regions, producing complex patterns of degradation. Understanding how timber members degrade is important for the effective conservation and restoration of historical buildings, yet the mechanisms underlying these patterns remain unclear. To investigate these mechanisms, we used self-supervised learning to establish a common basis for comparing specimens from timber members that differ in wood species and service history. We examined transverse sections of 49 wood specimens from several historical buildings in Japan using near-infrared hyperspectral imaging. ChemoMAE, a self-supervised Transformer, learns pixelwise spectral representations through masked denoising that exploits multicollinearity among spectral variables. Clustering these representations yields spatial maps without predefined chemical-state categories. Because anatomy and degradation can produce spatially continuous regions, we formulated Local Label Agreement (LLA) to quantify agreement among labels assigned to neighboring pixels. Using spectra alone, ChemoMAE yielded higher mean LLA than baseline methods on validation specimens. We then trained ChemoMAE anew and fitted cluster centers across all specimens. Spatial structures consistent with wood anatomy and the expected effects of surface exposure emerged in the resulting maps. By cross-referencing regional spectra and spatial distributions across specimens in light of wood anatomy, service histories, and prior studies, we proposed models of internal and surface degradation as mechanistic hypotheses. This exploratory AI for Science framework gives researchers a basis for linking latent patterns learned through self-supervision with domain knowledge when investigating how material states form.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.LG",
-   "cs.CV"
-  ],
-  "arxiv_id": "2611.34581v1",
-  "source": "arxiv",
-  "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "arxiv:2611.34430v1",
-  "title": "One Representation to Rule Them All -- Open-Vocabulary Change Detection from Text or Visual Examples",
-  "authors": [
-   "Blaž Rolih",
-   "Matic Fučka",
-   "Filip Wolf",
-   "Luka Čehovin Zajc"
-  ],
-  "venue": "arXiv",
-  "venue_short": "arXiv",
-  "venue_type": "preprint",
-  "year": 2026,
-  "date": "2026-11-25",
-  "doi": null,
-  "pdf": "https://arxiv.org/pdf/2611.34430v1",
-  "url": "https://arxiv.org/abs/2611.34430v1",
-  "abstract": "Open-vocabulary change detection (OVCD) aims to localise user-specified changes without retraining for predefined categories. Existing approaches typically rely on textual descriptions and combine separate models for region proposal, semantic recognition, and temporal comparison. This limits how target concepts can be expressed and makes detection dependent on several intermediate predictions. We introduce OVTSID3, a training-free framework that unifies region grouping, concept identification, and temporal comparison in the representation space of DINOv3. OVTSID3 supports two complementary modes of concept specification: zero-shot textual queries or one-shot visual prompting through a masked reference pair. OVTSID3 outperforms all prior training-free OVCD methods on two building and two natural-disaster benchmarks, raising the average F1 by 8.9 points. OVTSID3 also supports semantic change detection and achieves state-of-the-art on SECOND. These results demonstrate the flexibility of a unified representation for text- or example-guided change detection without task-specific model training.",
-  "citation_count": 0,
-  "concepts": [
-   "cs.CV",
-   "cs.AI",
-   "cs.LG"
-  ],
-  "arxiv_id": "2611.34430v1",
-  "source": "arxiv",
+  "source": "openalex",
   "topics": [
    "遥感",
    "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7165312333",
+  "title": "A multi-snapshot inversion technique for interferometric Earth observation in the L-band",
+  "authors": [
+   "Max Dunitz",
+   "Bernard Rougé",
+   "Éric Anterrieu",
+   "Nemesio Rodríguez-Fernández",
+   "Yann H. Kerr",
+   "Jean‐Michel Morel",
+   "Miguel Colom"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-25",
+  "doi": "10.1016/j.isprsjprs.2026.11.013",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.013",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Interferometry",
+   "Inversion (geology)",
+   "Pixel"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7239723729",
+  "title": "Mapping global 10 m annual land-cover dynamics from 2017 to 2024 using AlphaEarth foundation embeddings",
+  "authors": [
+   "Tingting Zhao",
+   "Liangyun Liu",
+   "Tingting Zhao"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-25",
+  "doi": "10.1016/j.isprsjprs.2026.11.030",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.030",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Foundation (evidence)",
+   "Dynamics (music)",
+   "Computer science"
+  ],
+  "source": "openalex",
+  "topics": [],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7239799597",
+  "title": "MSDiff: Time-adaptive diffusion framework with texture-semantic condition for multispectral image semantic segmentation",
+  "authors": [
+   "Gengque Fan",
+   "Han Xu",
+   "Chen Lu",
+   "Chengli Peng",
+   "Guangcan Liu"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-25",
+  "doi": "10.1016/j.isprsjprs.2026.11.015",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.015",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Computer science",
+   "Artificial intelligence",
+   "Segmentation"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7154735715",
+  "title": "Global 30 m forest canopy height mapping through harmonized GEDI and ICESat-2 LiDAR integration with multi-source images",
+  "authors": [
+   "Sheng Nie",
+   "Xiaoxiao Zhu",
+   "Cheng Wang",
+   "Xiaohuan Xi",
+   "Dong Li",
+   "Baokun Feng"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-25",
+  "doi": "10.1016/j.jag.2026.105693",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105693",
+  "abstract": "Accurate and spatially explicit forest canopy height (FCH) estimates are essential for biomass estimation, carbon accounting, and ecosystem assessment at global scales. Nevertheless, generating a coherent high-resolution global FCH product remains challenging due to cross-sensor inconsistencies among spaceborne LiDAR missions, pronounced ecological heterogeneity, and highly uneven sampling density. This study presents a global 30 m FCH map for 2020 derived from harmonized GEDI and ICESat-2 observations integrated with Sentinel-1 SAR, Sentinel-2 optical imagery, and ancillary environmental datasets. A regression-based cross-sensor calibration model was developed to align ICESat-2 canopy height metrics with the GEDI reference scale, producing a unified LiDAR training dataset and extending structurally consistent information into high-latitude regions beyond GEDI coverage. Cross-sensor harmonization enabled GEDI and ICESat-2 samples to be consistently pooled into an expanded training dataset, yielding better mapping performance than unharmonized pooling. To account for spatial heterogeneity and sampling imbalance, we implemented an adaptive quad-tree regionalization scheme driven by LiDAR sample density. This approach enhances model stability in data-rich regions while avoiding unnecessary subdivision in data-sparse areas. Regional FCH estimation was performed using a hybrid Random Forest-Ordinary Kriging (RFOK) framework that integrates nonlinear regression with spatially structured residual interpolation. Compared with regression-only models, RFOK increased R 2 from 0.65 to 0.72 and reduced RMSE by 11.39% under withheld 10% spaceborne LiDAR validation samples, with an additional 9.16% reduction in RMSE against independent airborne LiDAR data. Accuracy validation of the global FCH map using withheld spaceborne LiDAR samples and independent airborne LiDAR datasets demonstrates strong agreement, yielding R 2 = 0.72 (RMSE = 4.98 m; bias = 0.34 m) and R 2 = 0.70 (RMSE = 5.06 m; bias = −0.06 m), respectively. Within the evaluated validation framework, comparisons with the Potapov and Lang products indicate improved agreement with independent LiDAR reference data, including in high-latitude regions beyond GEDI coverage. The resulting 30 m global FCH map provides a spatially coherent and sensor-consistent representation of forest vertical structure, offering a robust data foundation for biomass estimation, carbon cycle assessment, and ecosystem monitoring.",
+  "citation_count": 0,
+  "concepts": [
+   "Lidar",
+   "Remote sensing",
+   "Sampling (signal processing)"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉",
+   "三维与几何"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7239728521",
+  "title": "Editorial: Introduction to the Special Section on Generative AI in 3-D Vision",
+  "authors": [
+   "Deqing Sun",
+   "Xiangyu Xu",
+   "Siyu Tang",
+   "Angela Dai",
+   "Jiajun Wu",
+   "Katerina Fragkiadaki",
+   "Andrea Tagliasacchi",
+   "Christian Theobalt",
+   "Ming–Hsuan Yang"
+  ],
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "venue_short": "TPAMI",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-25",
+  "doi": "10.1109/tpami.2026.3747266",
+  "pdf": null,
+  "url": "https://doi.org/10.1109/tpami.2026.3747266",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Special section",
+   "Computer science",
+   "Artificial intelligence"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉",
+   "机器学习"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W4417057049",
+  "title": "Any2Caption: Interpreting Any Condition to Dense Caption for Enhancing Controllable Video Generation",
+  "authors": [
+   "Shengqiong Wu",
+   "Weicai Ye",
+   "Jiahao Wang",
+   "Quande Liu",
+   "Xintao Wang",
+   "Shuicheng Yan",
+   "Hao Fei",
+   "Tat‐Seng Chua"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "venue_short": "IJCV",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-25",
+  "doi": "10.1007/s11263-026-03121-6",
+  "pdf": null,
+  "url": "https://doi.org/10.1007/s11263-026-03121-6",
+  "abstract": null,
+  "citation_count": 34,
+  "concepts": [
+   "Computer science",
+   "Controllability",
+   "Bottleneck"
+  ],
+  "source": "openalex",
+  "topics": [
+   "多模态"
   ],
   "is_own": false
  }
