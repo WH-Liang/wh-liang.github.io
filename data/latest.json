@@ -1,57 +1,29 @@
 [
  {
-  "id": "openalex:W7158633063",
-  "title": "Spectral-temporal patterns of vegetation communities: Identifying where and when biological information emerges in imaging spectroscopy data",
+  "id": "openalex:W7154583652",
+  "title": "Bayesian assessment of antarctic grounding line positions with sentinel-1 data and empirical priors",
   "authors": [
-   "Jaime Caballer Revenga",
-   "Ankit Kariryaa",
-   "Zhaoyue Wu",
-   "Ting Zheng",
-   "Kyle R. Kovach",
-   "Fabian Schneider"
+   "Michael Engel",
+   "Sindhu Ramanath Tarekere",
+   "Lukas Krieger",
+   "Jan Wuite",
+   "Dana Floricioiu",
+   "Marco Körner"
   ],
   "venue": "Remote Sensing of Environment",
   "venue_short": "RSE",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-25",
-  "doi": "10.1016/j.rse.2026.115747",
+  "date": "2026-11-26",
+  "doi": "10.1016/j.rse.2026.115768",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115747",
-  "abstract": "Imaging spectroscopy provides detailed insights into terrestrial ecosystem physiology and biodiversity, and recent missions are expanding its operational scope. Key challenges remain, however, in interpreting the information contained in reflectance spectra and optimizing their use for vegetation monitoring. Here we ask ( Obj1 ) where along the spectrum and ( Obj2 ) when during the phenological cycle is vegetation class-discriminative spectral information most strongly expressed? We analyzed data from the NASA Surface Biology and Geology High-Frequency Time Series (SHIFT) campaign, covering eight vegetation communities across three plant functional types in a coastal Mediterranean ecosystem. To address both objectives, we combined three conceptually independent approaches that characterize spectral shape divergence, characteristic local structure, and class separability. By identifying spectral regions highlighted consistently across methods, we localized informative segments of the spectrum and tracked how their importance evolved through time. We further evaluated the operational implications of reduced temporal sampling through time-ablation experiments controlling for both the number of acquisition dates and revisit frequency. Results revealed community-specific regions of enhanced information content together with distinct periods of maximum discriminability. Mapping accuracy remained robust under reduced sampling, retaining 94.8% of optimal performance when revisit intervals increased from one to two weeks, and 91.3% for monthly cloud-free acquisitions. Vegetation discriminability was both spectrally localized and temporally dynamic, indicating that spectral and temporal dimensions are best considered jointly. These findings suggest that incorporating phenological and environmental gradients into sampling strategies may improve the scientific return of future environmental imaging spectroscopy missions.",
-  "citation_count": 0,
+  "url": "https://doi.org/10.1016/j.rse.2026.115768",
+  "abstract": "Bayesian updating provides a powerful route for quantifying uncertainty in geophysical inverse problems, such as the delineation of Antarctic grounding lines (GLs), which demarcate grounded from floating ice. GLs are required to calculate ice mass loss and consequently sea-level rise. However, most existing remote sensing based GL datasets lack spatially resolved positional uncertainty estimates. Hence, we developed an application agnostic Bayesian framework on top of the cross entropy based importance sampling for Bayesian updating (CEBU) algorithm to infer GLs from Sentinel-1 SAR range offsets over the Larsen C Ice Shelf by inverting a simple 1D elastic beam model. We explicitly propagate observational uncertainties through the likelihood and extend CEBU to incorporate empirical ice thickness information as a non-parametric prior. To diagnose convergence and parameter prioritization, we introduce the Kolmogorov-Smirnov distance, tracking information flow and enabling identification of non-informative updates. We further developed a data extraction approach that produces spatially dense quasi-1D profiles from 2D range offsets. The resulting GL estimates include full posterior probability density functions which were filtered based on thresholds derived using CEBU metrics. Because range offsets are less affected by interferometric decorrelation, the GLs are spatially and temporally dense. The most probable GL positions have mean and median distances of 361 m and 287 m from the 2019 manually delineated Sentinel-1 DInSAR lines. Our data extraction method also yielded more physically plausible posteriors in shear margin regions than the established flowline-based paradigm. The expert knowledge of ice thicknesses was propagated to other weakly constrained model parameters. This framework enables future development, including model evidence-based comparison of physical formulations, data extraction methods, applications to other ice shelves with challenging tidal or decorrelation conditions, and integration with more comprehensive rheological models. Together, these results highlight the potential of our Bayesian updating framework for a wide variety of large scale geophysical inverse problems.",
+  "citation_count": 1,
   "concepts": [
-   "Vegetation (pathology)",
-   "Remote sensing",
-   "Hyperspectral imaging"
-  ],
-  "source": "openalex",
-  "topics": [
-   "遥感"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W7239797634",
-  "title": "Dual V-shaped characteristics to extract rice paddies in rice and wetland coexisting regions from SAR imagery",
-  "authors": [
-   "Chen Cheng",
-   "Hong Chi"
-  ],
-  "venue": "Remote Sensing of Environment",
-  "venue_short": "RSE",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-25",
-  "doi": "10.1016/j.rse.2026.115800",
-  "pdf": null,
-  "url": "https://doi.org/10.1016/j.rse.2026.115800",
-  "abstract": null,
-  "citation_count": 0,
-  "concepts": [
-   "Remote sensing",
-   "Environmental science",
-   "Paddy field"
+   "Bayesian probability",
+   "Geology",
+   "Range (aeronautics)"
   ],
   "source": "openalex",
   "topics": [
@@ -61,123 +33,190 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7165312333",
-  "title": "A multi-snapshot inversion technique for interferometric Earth observation in the L-band",
+  "id": "openalex:W7240038565",
+  "title": "From sensors to systems: Perspectives and opportunities for earth observation to enable scalable biodiversity monitoring",
   "authors": [
-   "Max Dunitz",
-   "Bernard Rougé",
-   "Éric Anterrieu",
-   "Nemesio Rodríguez-Fernández",
-   "Yann H. Kerr",
-   "Jean‐Michel Morel",
-   "Miguel Colom"
+   "Nicholas C. Coops",
+   "Ramon Melser",
+   "Evan Muise"
   ],
-  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "venue_short": "ISPRS JPRS",
+  "venue": "Remote Sensing of Environment",
+  "venue_short": "RSE",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-25",
-  "doi": "10.1016/j.isprsjprs.2026.11.013",
+  "date": "2026-11-26",
+  "doi": "10.1016/j.rse.2026.115799",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.013",
-  "abstract": null,
+  "url": "https://doi.org/10.1016/j.rse.2026.115799",
+  "abstract": "In response to accelerating global biodiversity loss, Biodiversity Observation Networks (BONs) are being developed to harmonize data collection and coordinate analyses across regional and national scales, linking observations to policy frameworks for conservation and mitigation. Field-based biodiversity assessments rely on high-quality, taxonomically rich observations that have shaped ecological understanding for over a century. However, these approaches are often fragmented, facing major limitations in spatial coverage, temporal frequency, and scalability. This is particularly common in remote northern regions and rapidly changing ecosystems, constraining the effectiveness of BONs. Earth Observation (EO) provides a critical complement by delivering consistent, spatially continuous, and temporally frequent ecosystem monitoring. Integrating EO with field-based observations enables extrapolation to the landscape and national scale, supporting Essential Biodiversity Variable (EBV) estimation and improving detection and attribution of biodiversity change. The future of biodiversity monitoring within BONs depends on coordinated integration of field and EO data through standardized, open, and scalable analytical frameworks. Achieving this vision requires continued collaboration between ecologists and remote sensing scientists, and progress in five key areas: (i) co-designed national sampling strategies linking field and EO observations, (ii) open-access modelling pipelines and data infrastructure, (iii) coordinated use of complementary multi-sensor EO systems, (iv) expanded computational capacity, and (v) strengthened governance, data standards, and long-term institutional commitment. Together, these advances will enable next-generation BONs capable of delivering timely, scalable, and policy-relevant insights into biodiversity change globally.",
   "citation_count": 0,
   "concepts": [
-   "Interferometry",
-   "Inversion (geology)",
-   "Pixel"
+   "Biodiversity",
+   "Remote sensing",
+   "Earth observation"
   ],
   "source": "openalex",
   "topics": [
-   "遥感"
+   "遥感",
+   "计算机视觉"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7239723729",
-  "title": "Mapping global 10 m annual land-cover dynamics from 2017 to 2024 using AlphaEarth foundation embeddings",
+  "id": "openalex:W7147674042",
+  "title": "The first assessment of PhiSat-2 imagery for monocular building height estimation",
   "authors": [
-   "Tingting Zhao",
-   "Liangyun Liu",
-   "Tingting Zhao"
+   "Yanjiao Song",
+   "Bowen Cai",
+   "Timo Balz",
+   "Zhenfeng Shao",
+   "Neema Simon Sumari",
+   "James Magidi",
+   "Walter Musakwa"
   ],
   "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
   "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-25",
-  "doi": "10.1016/j.isprsjprs.2026.11.030",
+  "date": "2026-11-26",
+  "doi": "10.1016/j.isprsjprs.2026.11.023",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.030",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.023",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Foundation (evidence)",
-   "Dynamics (music)",
-   "Computer science"
+   "Monocular",
+   "Computer science",
+   "Footprint"
+  ],
+  "source": "openalex",
+  "topics": [
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7240063662",
+  "title": "DSDF: A disentangled spatiotemporal data fusion model with Scale-Specific representation",
+  "authors": [
+   "Chen Xu",
+   "Xin Du",
+   "Hongdeng Jian",
+   "Xiangtao Fan"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "venue_short": "ISPRS JPRS",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-26",
+  "doi": "10.1016/j.isprsjprs.2026.11.027",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.027",
+  "abstract": null,
+  "citation_count": 0,
+  "concepts": [
+   "Representation (politics)",
+   "Computer science",
+   "Fusion"
   ],
   "source": "openalex",
   "topics": [],
   "is_own": false
  },
  {
-  "id": "openalex:W7239799597",
-  "title": "MSDiff: Time-adaptive diffusion framework with texture-semantic condition for multispectral image semantic segmentation",
+  "id": "openalex:W7240087445",
+  "title": "A physically-based evaluation method for fine-scale ECOSTRESS land surface temperature over 3D urban surfaces",
   "authors": [
-   "Gengque Fan",
-   "Han Xu",
-   "Chen Lu",
-   "Chengli Peng",
-   "Guangcan Liu"
+   "Aixia Yang",
+   "Zunjian Bian",
+   "Dacheng Wang",
+   "Tengyuan Fan",
+   "Jean‐Louis Roujean",
+   "Juan Cheng",
+   "Yongming Du",
+   "Hua Li",
+   "Qing Xiao"
   ],
   "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
   "venue_short": "ISPRS JPRS",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-25",
-  "doi": "10.1016/j.isprsjprs.2026.11.015",
+  "date": "2026-11-26",
+  "doi": "10.1016/j.isprsjprs.2026.11.020",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.015",
+  "url": "https://doi.org/10.1016/j.isprsjprs.2026.11.020",
   "abstract": null,
   "citation_count": 0,
   "concepts": [
-   "Computer science",
-   "Artificial intelligence",
-   "Segmentation"
+   "Environmental science",
+   "Mean squared error",
+   "Daytime"
   ],
   "source": "openalex",
   "topics": [
-   "遥感",
-   "计算机视觉",
-   "机器学习"
+   "三维与几何"
   ],
   "is_own": false
  },
  {
-  "id": "openalex:W7154735715",
-  "title": "Global 30 m forest canopy height mapping through harmonized GEDI and ICESat-2 LiDAR integration with multi-source images",
+  "id": "openalex:W7240060426",
+  "title": "Why sub-Saharan African cropland maps fail and pathways forward: A review of persistent mapping challenges",
   "authors": [
-   "Sheng Nie",
-   "Xiaoxiao Zhu",
-   "Cheng Wang",
-   "Xiaohuan Xi",
-   "Dong Li",
-   "Baokun Feng"
+   "Kelsee H. Bratley",
+   "Foster Mensah",
+   "Curtis E. Woodcock"
   ],
   "venue": "International Journal of Applied Earth Observation and Geoinformation",
   "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-25",
-  "doi": "10.1016/j.jag.2026.105693",
+  "date": "2026-11-26",
+  "doi": "10.1016/j.jag.2026.105671",
   "pdf": null,
-  "url": "https://doi.org/10.1016/j.jag.2026.105693",
-  "abstract": "Accurate and spatially explicit forest canopy height (FCH) estimates are essential for biomass estimation, carbon accounting, and ecosystem assessment at global scales. Nevertheless, generating a coherent high-resolution global FCH product remains challenging due to cross-sensor inconsistencies among spaceborne LiDAR missions, pronounced ecological heterogeneity, and highly uneven sampling density. This study presents a global 30 m FCH map for 2020 derived from harmonized GEDI and ICESat-2 observations integrated with Sentinel-1 SAR, Sentinel-2 optical imagery, and ancillary environmental datasets. A regression-based cross-sensor calibration model was developed to align ICESat-2 canopy height metrics with the GEDI reference scale, producing a unified LiDAR training dataset and extending structurally consistent information into high-latitude regions beyond GEDI coverage. Cross-sensor harmonization enabled GEDI and ICESat-2 samples to be consistently pooled into an expanded training dataset, yielding better mapping performance than unharmonized pooling. To account for spatial heterogeneity and sampling imbalance, we implemented an adaptive quad-tree regionalization scheme driven by LiDAR sample density. This approach enhances model stability in data-rich regions while avoiding unnecessary subdivision in data-sparse areas. Regional FCH estimation was performed using a hybrid Random Forest-Ordinary Kriging (RFOK) framework that integrates nonlinear regression with spatially structured residual interpolation. Compared with regression-only models, RFOK increased R 2 from 0.65 to 0.72 and reduced RMSE by 11.39% under withheld 10% spaceborne LiDAR validation samples, with an additional 9.16% reduction in RMSE against independent airborne LiDAR data. Accuracy validation of the global FCH map using withheld spaceborne LiDAR samples and independent airborne LiDAR datasets demonstrates strong agreement, yielding R 2 = 0.72 (RMSE = 4.98 m; bias = 0.34 m) and R 2 = 0.70 (RMSE = 5.06 m; bias = −0.06 m), respectively. Within the evaluated validation framework, comparisons with the Potapov and Lang products indicate improved agreement with independent LiDAR reference data, including in high-latitude regions beyond GEDI coverage. The resulting 30 m global FCH map provides a spatially coherent and sensor-consistent representation of forest vertical structure, offering a robust data foundation for biomass estimation, carbon cycle assessment, and ecosystem monitoring.",
+  "url": "https://doi.org/10.1016/j.jag.2026.105671",
+  "abstract": "Satellite-based cropland monitoring is critical for food security in sub-Saharan Africa, yet available cropland extent maps exhibit large disagreements. This review examines 30 cropland maps developed between 1992–2024 to identify why disagreements persist and whether reliable monitoring is achievable. Analysis reveals three interconnected constraints that limit mapping accuracy: (1) sparse pre-2013 satellite coverage and limited very-high-resolution imagery prevent both map creation and verification, rendering claims about earlier cropland extent or change unsupported, (2) structural characteristics of sub-Saharan African agriculture (smallholder fields, intercropping, tree integration) create spectral confusion that causes systematic misclassification of cropland as forest or natural vegetation, (3) cyclical practices (rotational agroforestry, shifting cultivation) are misclassified as permanent land-use change because cropland maps exclude perennial crops and do not capture multi-year rotation cycles. Together, these constraints prevent reliable classification of either cropland extent or agricultural change across sub-Saharan Africa. Solutions include improved definitional frameworks that distinguish land use from land cover and accommodate rotational patterns, technical approaches to address spectral confusion and cloud cover gaps, and community-driven validation providing regional expertise.",
   "citation_count": 0,
   "concepts": [
-   "Lidar",
+   "Geography",
+   "Confusion",
+   "Land cover"
+  ],
+  "source": "openalex",
+  "topics": [
+   "遥感",
+   "计算机视觉"
+  ],
+  "is_own": false
+ },
+ {
+  "id": "openalex:W7240060779",
+  "title": "Multi-source remote sensing-based damage assessment of Iranian nuclear facilities following military strikes",
+  "authors": [
+   "Chencheng Li",
+   "Zhiping Jiao",
+   "Xuguo Shi",
+   "Liming Jiang",
+   "Zhiwei Zhou",
+   "Bo Yang",
+   "Zhenyan Lai",
+   "Bin Yan",
+   "Zhangyi Feng",
+   "Heping Sun"
+  ],
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
+  "venue_type": "journal",
+  "year": 2026,
+  "date": "2026-11-26",
+  "doi": "10.1016/j.jag.2026.105686",
+  "pdf": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105686",
+  "abstract": "In June 2025, multiple rounds of military strikes caused varying degrees of infrastructure damage at the Fordow Fuel Enrichment Plant (FFEP), Natanz Enrichment Complex (NEC), and Isfahan Nuclear Technology Center (INTC), all located in complex mountainous terrain. Spaceborne synthetic aperture radar (SAR) enables rapid damage assessment in inaccessible areas through day-and-night, all-weather imaging and high sensitivity to surface changes. To address reduced coherence reliability and damage detectability caused by SAR geometric distortions in rugged terrain, we propose a range-index-based coherence change detection (R-CCD) method that improves the robustness of change detection in complex mountainous terrain and enables damage assessment of surface nuclear buildings. In parallel, pixel offset tracking measurements from ascending and descending Sentinel-1 SAR images and Sentinel-2 optical images were integrated to retrieve three-dimensional (3D) surface displacement fields over areas containing underground infrastructure. Underground infrastructure damage was further inferred by combining the retrieved 3D displacements with underground facility layouts, reported information on military operations, and high-resolution optical imagery. The results show that approximately 339 surface nuclear buildings were damaged, covering a total damaged area of 226,161 m 2 . Peak vertical displacements at FFEP and NEC reached 4.2 m and −1.5 m, respectively, and were associated with penetrating explosions above underground infrastructure, whereas the peak vertical displacement of −6.1 m at INTC was mainly attributed to tunnel entrance collapse. These findings demonstrate that multi-source remote sensing can provide objective and rapid infrastructure damage assessment following sudden events, offering information for post-event monitoring, regional security analysis, and decision support.",
+  "citation_count": 0,
+  "concepts": [
    "Remote sensing",
-   "Sampling (signal processing)"
+   "Synthetic aperture radar",
+   "Offset (computer science)"
   ],
   "source": "openalex",
   "topics": [
@@ -188,71 +227,35 @@
   "is_own": false
  },
  {
-  "id": "openalex:W7239728521",
-  "title": "Editorial: Introduction to the Special Section on Generative AI in 3-D Vision",
+  "id": "openalex:W7240070238",
+  "title": "AXIA: An Asymmetric X-modal Injection Architecture with parameter-efficient adapters for RGB-X remote sensing semantic segmentation",
   "authors": [
-   "Deqing Sun",
-   "Xiangyu Xu",
-   "Siyu Tang",
-   "Angela Dai",
-   "Jiajun Wu",
-   "Katerina Fragkiadaki",
-   "Andrea Tagliasacchi",
-   "Christian Theobalt",
-   "Ming–Hsuan Yang"
+   "Xiang Li",
+   "Jianfeng Li",
+   "Shuo Zhang",
+   "Siyu Cheng",
+   "C.P. Wang",
+   "Xinsheng Wang"
   ],
-  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-  "venue_short": "TPAMI",
+  "venue": "International Journal of Applied Earth Observation and Geoinformation",
+  "venue_short": "JAG",
   "venue_type": "journal",
   "year": 2026,
-  "date": "2026-11-25",
-  "doi": "10.1109/tpami.2026.3747266",
+  "date": "2026-11-26",
+  "doi": "10.1016/j.jag.2026.105681",
   "pdf": null,
-  "url": "https://doi.org/10.1109/tpami.2026.3747266",
-  "abstract": null,
+  "url": "https://doi.org/10.1016/j.jag.2026.105681",
+  "abstract": "RGB-X multimodal remote sensing segmentation improves scene parsing with auxiliary SAR, DSM, or thermal infrared data. Existing methods usually use symmetric dual backbones and stage-wise fusion, implicitly assuming comparable RGB/X information capacity and task adaptability. Based on observed role asymmetry, we propose AXIA, an Asymmetric X-modal Injection Architecture for RGB-X remote sensing segmentation. AXIA freezes a large RGB backbone to preserve transferable optical priors and injects complementary X cues through two lightweight block-level adapters: the Discrepancy-Guided Adapter (DGA), which uses cross-modal discrepancies, and the Shared-Subspace Adapter (SSA), which promotes shared-subspace alignment. AXIA further introduces a Scene-Aware Reorganization Decoder (SARD) for remote sensing and the proposed dual-modal encoder. Experiments on four RGB-X benchmarks covering RGB-SAR, RGB-DSM, and RGB-T show superior performance with limited parameter updates by leveraging frozen RGB representations while fusing X-modal cues. • AXIA uses modality role differences to build a unified RGB-X model. • DGA and SSA enable block-level X-modal injection and semantic alignment. • SARD reorganizes scene semantics for accurate multi-scale decoding.",
   "citation_count": 0,
   "concepts": [
-   "Special section",
+   "Adapter (computing)",
    "Computer science",
-   "Artificial intelligence"
+   "Segmentation"
   ],
   "source": "openalex",
   "topics": [
+   "遥感",
    "计算机视觉",
-   "机器学习"
-  ],
-  "is_own": false
- },
- {
-  "id": "openalex:W4417057049",
-  "title": "Any2Caption: Interpreting Any Condition to Dense Caption for Enhancing Controllable Video Generation",
-  "authors": [
-   "Shengqiong Wu",
-   "Weicai Ye",
-   "Jiahao Wang",
-   "Quande Liu",
-   "Xintao Wang",
-   "Shuicheng Yan",
-   "Hao Fei",
-   "Tat‐Seng Chua"
-  ],
-  "venue": "International Journal of Computer Vision",
-  "venue_short": "IJCV",
-  "venue_type": "journal",
-  "year": 2026,
-  "date": "2026-11-25",
-  "doi": "10.1007/s11263-026-03121-6",
-  "pdf": null,
-  "url": "https://doi.org/10.1007/s11263-026-03121-6",
-  "abstract": null,
-  "citation_count": 34,
-  "concepts": [
-   "Computer science",
-   "Controllability",
-   "Bottleneck"
-  ],
-  "source": "openalex",
-  "topics": [
    "多模态"
   ],
   "is_own": false
